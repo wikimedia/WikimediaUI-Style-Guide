@@ -1,0 +1,4 @@
+Principal Authors (major contributors, alphabetically)
+
+Volker E. <volker.e@wikimedia.org>
+Pau Giner <pginer@wikimedia.org>
