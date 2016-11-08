@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lte IE 8 ]><html lang="en" class="js-off lte-ie8"><![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="js-off ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="js-off">
+<!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/wmui-styleguide.min.css">
+	<title>WikimediaUI Styleguide</title>
+	<script>
+		document.documentElement.className = document.documentElement.className.replace(/\bjs-off\b/,'js-on'); // no BEM notation thx to IE
+	</script>
+	<!--[if lt IE 9]>
+	<script>window.html5={'shivCSS':false};</script>
+	<script src="js/vendor/ie/html5shiv-3.7.3.min.js"></script>
+	<script src="js/vendor/ie/respond-1.4.2.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<header id="header" class="header" role="banner">
+		<div class="box">
+			<a href="#content" class="is-aural is-focusable">Jump to content</a>
+			<a href="#nav" class="is-aural is-focusable">Jump to navigation</a>
+			<h1 class="site__title">Wikimedia User Interface Styleguide</h1>
+		</div>
+	</header>
+	<div class="content-box">
+		<nav id="nav" class="nav toc" role="nav">
+			<ol>
+				<li class="is-on"><a href="index.html">Introduction</a>
+					<ul class="toc__sub-sections">
+						<li><a href="#how-to-contribute">How to contribute</a></li>
+					</ul>
+				</li>
+				<li><a href="design-principles.html">Design principles</a>
+					<ul class="toc__sub-sections">
+						<li><a href="#this-is-for-everyone">This is for everyone</a></li>
+						<li><a href="#content-first">Content first</a></li>
+						<li><a href="#open-to-collaboration">Open to collaboration</a></li>
+						<li><a href="#trustworthy-yet-joyful">Trustworthy yet joyful</a></li>
+						<li><a href="#design-for-consistency">Design for consistecy</a></li>
+					</ul>
+				</li>
+				<li><a href="visual-style.html">Visual style</a>
+					<ul class="toc__sub-sections">
+						<li><a href="#core-visual-identity">Core visual identity</a></li>
+						<li><a href="#colors">Colors</a></li>
+						<li><a href="#typography">Typography</a></li>
+					</ul>
+				</li>
+			</ol>
+		</nav>
+		<main id="content" class="content" role="main">
+			<h1>Introduction</h1>
+			<p>Wikimedia is a global movement built by a diverse audience.</p>
+			<p>For a start, this guide provides a general design direction that can be useful for different kinds of interactive projects. Designers and developers will be provided with tools to solve general problems to let them focus on the specific needs of their projects.</p>
+			<p>This is an ongoing work, you can always check online <a href="https://wikimedia.github.io/WikimediaUI-Styleguide/">the latest released version of the guide</a>. You can help making it grow:</p>
+
+			<section id="how-to-contribute">
+				<h2>How to contribute</h2>
+				<p>You can participate in many ways. The documentation is available in a Git repository with the design assets needed for your project. You can get all of them, change anything and send the changes back.</p>
+
+				<h3>Getting the design repository</h3>
+				The <a href="https://wikimedia.github.io/WikimediaUI-Styleguide/">WikimediaUI Styleguide repository is available to download</a>. It contains the documentation, the main template and further design resources. Select the “clone or download” button to get the repository.
+
+				<h3>Committing changes</h3>
+				<p>If you have <a href="https://en.wikipedia.org/wiki/Git">Git</a> installed on your system, cloning is preferred since it allows you to contribute back. Technically changes can be submitted as usual in Git.</p>
+				<p>In order to publish the updated contents to be available live, go to the repo and launch the following command from a terminal: <code>git push -f origin master:gh-pages</code></p>
+			</section>
+		</main>
+	</div>
+	<footer id="footer" class="footer">
+		<div class="box">
+			License and legal notices
+		</div>
+	</footer>
+</body>
+</html>
