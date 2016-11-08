@@ -1,0 +1,162 @@
+@import 'vendor/wmui-base.css';
+@import 'partials/fonts.css';
+@import 'vendor/normalize.css';
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: var( --background-color-base );
+	color: var( --color-base );
+	margin: 0;
+	font-family: 'Lato', sans-serif; /* FIXME */
+	font-size: 1.6rem;
+	line-height: 1.6;
+}
+
+/* ::: Text Block-Level Elements ::: */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 0;
+	font-family: 'Charter', serif; /* FIXME */
+	font-weight: normal; /* FIXME */
+}
+
+p {
+	margin: 1.6rem 0 0;
+}
+	p:first-child,
+	h1 + p,
+	h2 + p,
+	h3 + p,
+	h4 + p,
+	h5 + p,
+	h6 + p,
+	p + p {
+		margin: 0.8rem 0 0;
+	}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+/* ::: Inline Elements ::: */
+a {
+	color: var( --color-primary );
+	text-decoration: none;
+}
+
+code {
+	background-color: var( --background-color-code );
+	display: inline-block;
+	padding: .2rem .4rem;
+}
+
+/* ::: General Classes ::: */
+/* ::: Text for Screen Readers only ::: */
+.is-aural {
+	display: block;
+	position: absolute;
+	clip: rect( 1px, 1px, 1px, 1px );
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	overflow: hidden;
+}
+	.is-aural.is-focusable:active,
+	.is-aural.is-focusable:focus {
+		position: static;
+		clip: auto;
+		width: auto;
+		height: auto;
+		margin: 0;
+		text-decoration: underline;
+		overflow: visible;
+	}
+
+
+/* ::: Structure ::: */
+.header {
+	background-color: #eaecf0;
+	min-height: 5.6rem;
+}
+	.site__title {
+		color: var( --color-base-emphasized );
+		margin-top: 0;
+		padding-left: 23.2rem;
+	}
+
+.content-box,
+.box {
+	max-width: 96rem;
+	margin: 0 auto;
+}
+
+.content {
+	float: left;
+	width: 72.8rem;
+}
+
+.toc {
+	float: left;
+	width: 23.2rem;
+	margin-top: 1.2rem;
+	padding: 0 3.2rem 0 0;
+}
+
+	.toc ol,
+	.toc ul {
+		padding: 0;
+	}
+
+	.toc li {
+		list-style: none none;
+	}
+	.toc .is-on,
+	.toc .is-on a:hover {
+	}
+	.toc .is-on > a {
+		background-color: var( --background-color-primary );
+		color: var( --color-primary );
+		border-left: 2px solid var( --color-primary );
+		border-radius: var( --border-radius-base );
+		pointer-events: none;
+		cursor: default;
+	}
+	.toc li:not( .is-on ) ul {
+		display: none;
+	}
+
+	.toc a {
+		display: block;
+		padding: .8rem 1.2rem;
+		font-size: 18px;
+		text-decoration: none;
+		transition: background-color var( --transition-medium );
+	}
+	.toc a:hover,
+	.toc a:focus {
+		background-color: var( --background-color-code );
+	}
+
+	.toc__sub-sections a {
+		padding-left: 2.4rem;
+	}
+
+.footer {
+	clear: both;
+	padding-top: 2.4rem;
+	padding-left: 23.2rem;
+}
