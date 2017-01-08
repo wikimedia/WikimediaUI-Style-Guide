@@ -59,7 +59,7 @@
 
 
 			<section id="core-visual-identity">
-				<h2>Core Visual Identy</h2>
+				<h2>Core Visual Identity</h2>
 				<p>Our core visual identity presents our main content on a single main page or layer.<br>We emphasise content by using only this single layer, which sits on top of a base gray surface that contains the chrome (structural elements of content which also host controls).</p>
 			</section>
 
@@ -68,24 +68,19 @@
 				<p>For <a href="https://phabricator.wikimedia.org/M82">the color palette</a> we chose colors that depict our character and also bring a hint of freshness to our products.</p>
 				<p>Making the content readable for everyone was our main goal for defining our palette. Accessibility considerations have been our top priority when choosing each color (<a href="https://www.w3.org/WAI/intro/wcag">WCAG</a> conformance level is indicated for each color based on their contrast against white and black).</p>
 
-				<h3> Base colors</h3>
+				<h3>Base colors</h3>
 				<p>Base colors define the surface where content lives and the main color for content. Different shades of paper and ink are useful to emphasise or de-emphasise different content areas.</p>
-
 				<p>Base colors go from pure white (Base100) to pure black (Base0). Intermediate shades of grey include a tint of blue for a better harmony with our accent color.</p>
-
-				<p>When applying text on a surface, you need to <a href="http://leaverou.github.io/contrast-ratio/">check the color contrast</a> between the text and the background. Base50...0 are safe text colors for a white surface. Base100...50 are safe text colors for a black surface.</p>
+				<p>When applying text on a surface, you need to <a href="http://leaverou.github.io/contrast-ratio/">check the color contrast</a> between the text and the background. Base50…0 are safe text colors for a white surface. Base100…50 are safe text colors for a black surface.</p>
 				<img src="img/colors-base.png" alt="Base colors">
 
-				<h3> Accent colors</h3>
+				<h3>Accent colors</h3>
 				<p>Accent colors are used to emphasise actions and highlight key information. Blue is a natural choice in our context, where it has been the default color used for links, conveying the idea of action.</p>
-
-				<p>Accent color is provided in three shades for situations you need a lighter (Accent90), regular (Accent50) or darker (Accent10) version.</p>
-
-				<p>Accent50 provides a blue which is suitable to be used for text and as a background. When used for text (as in links) it provides enough contrast with black text to notice the difference. When used as background, it provides enough contrast with white text to keep the text readable.</p>
-
+				<p>There are three shades provided for situations where you need a lighter (Accent90), regular (Accent50) or darker (Accent10) version.</p>
+				<p>Accent50 provides a blue which is suitable to be used for text and as background. When used for text (as in links) it provides enough contrast with black text to notice the difference. When used as background, it provides enough contrast with white text to keep the text readable.</p>
 				<img src="img/colors-accent.png" alt="Accent colors">
 
-				<h3> Suplementary colors</h3>
+				<h3>Supplementary colors</h3>
 				<p>Red, green, and yellow are supplementary colors. They can act as accent colors bringing the additional meaning that is commonly associated with them.</p>
 				<img src="img/colors-supplementary.png" alt="Supplementary colors">
 
@@ -107,7 +102,7 @@
 
 				<h3>Icon style</h3>
 
-				<img src="img/icons-sample.png" alt="Some icons">
+				<img src="img/icons-sample.png" alt="Sample of icons">
 
 				<p>Icons should be simple. They use monochromatic vector-based shapes with the following properties:</p>
 
@@ -115,23 +110,23 @@
 					<li><b>Filled areas.</b> Shapes are defined by filled areas as opposed to outlines.</li>
 					<li><b>Rounded corners.</b> Corners are slightly rounded to make shapes more friendly and welcoming, but not too much to look goofy.</li>
 					<li><b>Medium thick strokes.</b> Strokes should be visible at smaller sizes without effort.</li>
-					<li><b>Diagonal cross-out lines.</b> Icons with a crossout line will have it from the top-left to the bottom right (like “\”).</li>
+					<li><b>Diagonal cross-out lines.</b> Icons with a cross-out line will have it from the top-left to the bottom right (like “\”).</li>
 				</ul>
 
 				<h3>Using icons</h3>
 				<p>The <a href="https://doc.wikimedia.org/oojs-ui/master/demos/#icons-mediawiki-ltr">icon repository</a> provides a list of the currently available icons.</p>
 
-				<p>When using icons you need to consider the size of their target area. Even if icons are presented at a smaller size, you need to make sure that the associated active area is at least 48x48sp. Otherwise users may fail to hit the active area, not gettign the expected result.</p>
+				<p>When using icons you need to consider the size of their target area. Even if icons are presented at a smaller size, you need to make sure that the associated active area is at least 48x48sp. Otherwise users may fail to hit the active area, not getting the expected result.</p>
 
 				<h3>Creating icons</h3>
-				<p>Icons follow a template. The default canvas is 24x24px. In order to allow for optical adjustments, a different margin will be applied depending on theshape of the icon.</p>
+				<p>Icons follow a template. The default canvas is 24x24px. In order to allow for optical adjustments, a different margin will be applied depending on the shape of the icon.</p>
 
 				<figure>
 					<img src="img/icons-optical-adjustment.png" alt="Optical adjustment for icons">
 					<figcaption>Different shapes have a different perceived size. A 1px margin for square shapes is used so that other shapes such as circles can expand to reach a similar perceived size.</figcaption>
 				</figure>
 
-				<p>Icons are created using pure black (<a href="#colors">Base0</a>). Their color can be changed when the icon is used (preferrably done automatically by software).</p>
+				<p>Icons are created using black (<a href="#colors">Base0</a>). Their color can be changed when the icon is used (preferably done automatically by software).</p>
 				<p>The simple style and guidelines make it easy to reuse or adapt existign freely licensed icons that you can find on other repos such as <a href="https://material.io/icons/">material icons</a> or the <a href="https://thenounproject.com/">noun project</a>. You are welcome to use existing icons that align to the proposed style instead of reinventing the wheel icon.</p>
 
 			</section>
