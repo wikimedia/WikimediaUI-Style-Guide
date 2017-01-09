@@ -1,7 +1,7 @@
 {
-  "name": "wmui-styleguide",
+  "name": "wmui-style-guide",
   "version": "0.0.1",
-  "description": "Wikimedia User Interface Styleguide",
+  "description": "Wikimedia User Interface Style Guide",
   "keywords": [
     "ui"
   ],
