@@ -66,12 +66,14 @@
 				The <a href="https://github.com/wikimedia/WikimediaUI-Style-Guide/">WikimediaUI Style Guide repository is available to download</a>. It contains this documentation, templates and further design resources. Select the “clone or download” button to get the repository.
 
 				<h3>Committing changes</h3>
-				<p>If you have <a href="https://en.wikipedia.org/wiki/Git">Git</a> installed on your system, cloning is preferred way to get the contents since it allows you to contribute back. Technically changes can be submitted as usual in Git.</p>
+				<p>If you have <a href="https://en.wikipedia.org/wiki/Git">Git</a> installed on your system, <a href="https://help.github.com/articles/cloning-a-repository/">cloning</a> is preferred way to get the contents since it allows you to contribute back. Technically changes can be submitted as usual in Git.</p>
 				<p>In order to publish the updated contents to be available live, go to the repo and launch the following command from a terminal: <code>git push -f origin master:gh-pages</code></p>
 
 				<h3>Changes beyond content</h3>
-				<p>With the above instructions you can easily modify the content of the guidelines by addign new recommendations, making corrections or adding examples in the form of images or videos. Furthermore, you can also help improving how this documentation looks and works.</p>
-				<p>When modifying aspects such as the styling you need to rebuild the documentation files using <a href="http://gruntjs.com/">Grunt</a> (which requires <a href="https://docs.npmjs.com/getting-started/installing-node">Node.js and npm</a>). The first time you'll need to run <code>npm install</code> in a terminal from the guideline main folder in order to get all the needed dependencies. Every time you want to rebuild the documentation you just need to launch the <code>grunt</code> command in a terminal, also from the main folder.</p>
+				<p>With the above instructions you can easily modify the content of the guidelines by adding new recommendations, making corrections or adding examples in the form of images or videos. Furthermore, you can also help improving how this documentation looks and works.</p>
+				<p>When modifying aspects such as the CSS styling you'll need to rebuild the documentation files using <a href="http://gruntjs.com/">Grunt</a> (which requires <a href="https://docs.npmjs.com/getting-started/installing-node">Node.js and npm</a>). The first time you have to run <code>npm install</code> in a terminal from the guideline main folder in order to get all the needed dependencies. Every time you want to rebuild the CSS files for the documentation you just need to launch the <code>grunt</code> command in a terminal, also from the main folder.<br>
+				We're using <a href="http://stylelint.io/">stylelint</a> to ensure the CSS <a href="https://github.com/wikimedia/stylelint-config-wikimedia/">aligns with our</a> <a href="https://www.mediawiki.org/wiki/Manual:Coding_conventions/CSS">coding conventions</a>.</p>
+				<p>These are requirements to provide our contributors a reliable environment and our viewers a performant experience.</p>
 			</section>
 		</main>
 	</div>
