@@ -1,6 +1,7 @@
 {
 	"extends": "stylelint-config-wikimedia",
 	"rules": {
+		"indentation": null,
 		"max-empty-lines": null
 	}
 }
