@@ -23,7 +23,7 @@ module.exports = function ( grunt ) {
 			options: {
 				processors: [
 					require( 'postcss-import' )( {
-						from: "css/wmui-styleguide.dev.css"
+						from: "css/wmui-style-guide.dev.css"
 					} ),
 					// require( 'postcss-cssnext' )(),
 					require( 'postcss-custom-properties' ),
@@ -44,7 +44,7 @@ module.exports = function ( grunt ) {
 			},
 			dist: {
 				files: {
-					'css/wmui-styleguide.css': 'css/wmui-styleguide.dev.css'
+					'css/wmui-style-guide.css': 'css/wmui-style-guide.dev.css'
 				}
 			}
 		},
@@ -56,7 +56,7 @@ module.exports = function ( grunt ) {
 			},
 			target: {
 				files: {
-				  'css/wmui-styleguide.min.css': 'css/wmui-styleguide.css'
+				  'css/wmui-style-guide.min.css': 'css/wmui-style-guide.css'
 				}
 			}
 		},
