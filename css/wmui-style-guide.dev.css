@@ -34,14 +34,14 @@ h6 {
 p {
 	margin: 1.6rem 0 0;
 }
-	p:first-child,
 	h1 + p,
 	h2 + p,
 	h3 + p,
 	h4 + p,
 	h5 + p,
 	h6 + p,
-	p + p {
+	p + p,
+	p:first-child {
 		margin: 0.8rem 0 0;
 	}
 
@@ -59,7 +59,7 @@ a {
 code {
 	background-color: var( --background-color-code );
 	display: inline-block;
-	padding: .2rem .4rem;
+	padding: 0.2rem 0.4rem;
 }
 
 /* ::: General Classes ::: */
@@ -124,8 +124,20 @@ code {
 	.toc li {
 		list-style: none none;
 	}
-	.toc .is-on,
-	.toc .is-on a:hover {
+	.toc li:not( .is-on ) ul {
+		display: none;
+	}
+
+	.toc a {
+		display: block;
+		padding: 0.8rem 1.2rem;
+		font-size: 18px;
+		text-decoration: none;
+		transition: background-color var( --transition-medium );
+	}
+	.toc a:hover,
+	.toc a:focus {
+		background-color: var( --background-color-code );
 	}
 	.toc .is-on > a {
 		background-color: var( --background-color-primary );
@@ -135,23 +147,8 @@ code {
 		pointer-events: none;
 		cursor: default;
 	}
-	.toc li:not( .is-on ) ul {
-		display: none;
-	}
 
-	.toc a {
-		display: block;
-		padding: .8rem 1.2rem;
-		font-size: 18px;
-		text-decoration: none;
-		transition: background-color var( --transition-medium );
-	}
-	.toc a:hover,
-	.toc a:focus {
-		background-color: var( --background-color-code );
-	}
-
-	.toc__sub-sections a {
+	.toc__sub-sections a { /* stylelint-disable-line no-descending-specificity */
 		padding-left: 2.4rem;
 		font-size: 16px;
 	}

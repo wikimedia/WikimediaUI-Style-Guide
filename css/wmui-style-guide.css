@@ -812,14 +812,14 @@ p {
 	margin: 1.6rem 0 0;
 }
 
-p:first-child,
-	h1 + p,
+h1 + p,
 	h2 + p,
 	h3 + p,
 	h4 + p,
 	h5 + p,
 	h6 + p,
-	p + p {
+	p + p,
+	p:first-child {
 		margin: 0.8rem 0 0;
 	}
 
@@ -838,7 +838,7 @@ a {
 code {
 	background-color: #f8f9fa;
 	display: inline-block;
-	padding: .2rem .4rem;
+	padding: 0.2rem 0.4rem;
 }
 
 /* ::: General Classes ::: */
@@ -908,27 +908,13 @@ code {
 		list-style: none none;
 	}
 
-.toc .is-on,
-	.toc .is-on a:hover {
-	}
-
-.toc .is-on > a {
-		background-color: #eaf3ff;
-		color: #36c;
-		border-left: 2px solid #36c;
-		-moz-border-radius: 2px;
-		     border-radius: 2px;
-		pointer-events: none;
-		cursor: default;
-	}
-
 .toc li:not( .is-on ) ul {
 		display: none;
 	}
 
 .toc a {
 		display: block;
-		padding: .8rem 1.2rem;
+		padding: 0.8rem 1.2rem;
 		font-size: 18px;
 		text-decoration: none;
 		-webkit-transition: background-color 250ms;
@@ -941,7 +927,17 @@ code {
 		background-color: #f8f9fa;
 	}
 
-.toc__sub-sections a {
+.toc .is-on > a {
+		background-color: #eaf3ff;
+		color: #36c;
+		border-left: 2px solid #36c;
+		-moz-border-radius: 2px;
+		     border-radius: 2px;
+		pointer-events: none;
+		cursor: default;
+	}
+
+.toc__sub-sections a { /* stylelint-disable-line no-descending-specificity */
 		padding-left: 2.4rem;
 		font-size: 16px;
 	}
