@@ -944,6 +944,8 @@ code {
 
 .footer {
 	clear: both;
+	font-size: 1.2rem;
+	margin-bottom: 2.4rem;
 	padding-top: 2.4rem;
 	padding-left: 23.2rem;
 }
