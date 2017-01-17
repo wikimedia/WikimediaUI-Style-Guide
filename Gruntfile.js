@@ -73,5 +73,5 @@ module.exports = function ( grunt ) {
 	} );
 
 	grunt.registerTask( 'lint', [ 'stylelint' ] );
-	grunt.registerTask( 'default', 'lint', 'postcss', 'cssmin' );
+	grunt.registerTask( 'default', [ 'lint', 'postcss', 'cssmin' ] );
 };
