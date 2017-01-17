@@ -57,7 +57,6 @@
 			<h1>Visual Style</h1>
 			<p>Wikimedia projects are associated with learning, editorship, and books. They are neutral and transparent. They are about reading and writing. They remind you of ink and paper.</p>
 
-
 			<section id="core-visual-identity">
 				<h2>Core Visual Identity</h2>
 				<p>Our core visual identity presents our main content on a single main page or layer.<br>We emphasise content by using only this single layer, which sits on top of a base gray surface that contains the chrome (structural elements of content which also host controls).</p>
@@ -65,14 +64,117 @@
 
 			<section id="colors">
 				<h2>Colors</h2>
-				<p>For <a href="https://phabricator.wikimedia.org/M82">the color palette</a> we chose colors that depict our character and also bring a hint of freshness to our products.</p>
-				<p>Making the content readable for everyone was our main goal for defining our palette. Accessibility considerations have been our top priority when choosing each color (<a href="https://www.w3.org/WAI/intro/wcag">WCAG</a> conformance level is indicated for each color based on their contrast against white and black).</p>
+				<p>The <a href="https://phabricator.wikimedia.org/M82" target="_blank">color palette</a> represents our character and brings a hint of freshness to our products.</p>
+
+				<img src="img/Color-palette-2017-01-15.png" alt="color palette">
+
+				<p>Making the content readable for everyone was our main goal. Accessibility considerations have been our top priority. Each color in the palette indicates its <a href="https://www.w3.org/WAI/intro/wcag" target="_blank" title="Web Content Accessibility Guidelines 2.0">WCAG</a> conformance level (“AA” or “AAA”). It's based on colors' contrast against white or black.</p>
 
 				<h3>Base colors</h3>
-				<p>Base colors define the surface where content lives and the main color for content. Different shades of paper and ink are useful to emphasise or de-emphasise different content areas.</p>
+				<p>Base colors define the content surface and the main color for content. Different shades of paper and ink are useful to emphasise or de-emphasise different content areas.</p>
 				<p>Base colors go from pure white (Base100) to pure black (Base0). Intermediate shades of grey include a tint of blue for a better harmony with our accent color.</p>
-				<p>When applying text on a surface, you need to <a href="http://leaverou.github.io/contrast-ratio/">check the color contrast</a> between the text and the background. Base50…0 are safe text colors for a white surface. Base100…50 are safe text colors for a black surface.</p>
-				<img src="img/colors-base.png" alt="Base colors">
+				<p>When applying text on a surface, you need to <a href="http://webaim.org/resources/contrastchecker/" target="_blank">check the color contrast</a> between the text and the background: </p>
+				<ul>
+					<li>Base100…50 are safe text colors for a black surface.</li>
+					<li>Base50…0 are safe text colors for a white surface. </li>
+				</ul>
+				<div class="color-palette color-section">
+					<ol>
+						<li>
+							<strong class="color-name">Base100</strong>
+							<div class="color-swatch" style="background-color: #fff;">
+								<code class="color-code color-hex">#fff</code>
+								<code class="color-code color-rgb">RGB 255, 255, 255</code>
+								<code class="color-code color-hsb">HSB 0, 0%, 100%</code>
+								<span class="color-wcag-level">AAA</span>
+							</div>
+							<span class="color-desc">Base background<br>Highlight from grey</span>
+						</li>
+						<li>
+							<strong class="color-name">Base90</strong>
+							<div class="color-swatch" style="background-color: #f8f9fa;">
+								<code class="color-code color-hex">#f8f9fa</code>
+								<code class="color-code color-rgb">RGB 248, 249, 250</code>
+								<code class="color-code color-hsb">HSB 210, 1%, 98%</code>
+								<span class="color-wcag-level">AAA</span>
+							</div>
+							<span class="color-desc">Button/3D widget
+background</span>
+						</li>
+						<li>
+							<strong class="color-name">Base80</strong>
+							<div class="color-swatch" style="background-color: #eaecf0;">
+								<code class="color-code color-hex">#eaecf0</code>
+								<code class="color-code color-rgb">RGB 234, 236, 240</code>
+								<code class="color-code color-hsb">HSB 220, 3%, 94%</code>
+								<span class="color-wcag-level">AAA</span>
+							</div>
+							<span class="color-desc">Disabled text input
+background</span>
+						</li>
+						<li>
+							<strong class="color-name">Base70</strong>
+							<div class="color-swatch" style="background-color: #c8ccd1;">
+								<code class="color-code color-hex">#c8ccd1</code>
+								<code class="color-code color-rgb">RGB 200, 204, 209</code>
+								<code class="color-code color-hsb">HSB 213, 4%, 82%</code>
+								<span class="color-wcag-level">AAA</span>
+							</div>
+							<span class="color-desc">Disabled button/3D  widget background </span>
+						</li>
+						<li>
+							<strong class="color-name">Base50</strong>
+							<div class="color-swatch" style="background-color: #a2a9b1;">
+								<code class="color-code color-hex">#a2a9b1</code>
+								<code class="color-code color-rgb">RGB 162, 169, 177</code>
+								<code class="color-code color-hsb">HSB 212, 8%, 69%</code>
+								<span class="color-wcag-level">AAA</span>
+							</div>
+							<span class="color-desc">Highlighted border</span>
+						</li>
+						<li>
+							<strong class="color-name">Base30</strong>
+							<div class="color-swatch" style="background-color: #72777d;">
+								<code class="color-code color-hex">#72777d</code>
+								<code class="color-code color-rgb">RGB 114, 119, 125</code>
+								<code class="color-code color-hsb">HSB 210, 9%, 49%</code>
+								<span class="color-wcag-level">AA / <span class="color-dark">AA</span></span>
+							</div>
+							<span class="color-desc">Disabled elements text<br>Placeholder text<br>Active border</span>
+						</li>
+						<li>
+							<strong class="color-name">Base20</strong>
+							<div class="color-swatch color-dark" style="background-color: #54595d;">
+								<code class="color-code color-hex">#54595d</code>
+								<code class="color-code color-rgb">RGB 84, 89, 93</code>
+								<code class="color-code color-hsb">HSB 207, 10%, 36%</code>
+								<span class="color-wcag-level">AAA</span>
+							</div>
+							<span class="color-desc"></span>
+						</li>
+						<li>
+							<strong class="color-name">Base10</strong>
+							<div class="color-swatch color-dark" style="background-color: #222;">
+								<code class="color-code color-hex">#222</code>
+								<code class="color-code color-rgb">RGB 34, 34, 34</code>
+								<code class="color-code color-hsb">HSB 0, 0%, 13%</code>
+								<span class="color-wcag-level">AAA</span>
+							</div>
+							<span class="color-desc"></span>
+						</li>
+						<li>
+							<strong class="color-name">Base0</strong>
+							<div class="color-swatch color-dark" style="background-color: #000;">
+								<code class="color-code color-hex">#000</code>
+								<code class="color-code color-rgb">RGB 0, 0, 0</code>
+								<code class="color-code color-hsb">HSB 0, 0%, 0%</code>
+								<span class="color-wcag-level">AAA</span>
+							</div>
+							<span class="color-desc"></span>
+						</li>
+					</ol>
+				</div>
+				<!--<img src="img/colors-base.png" alt="Base colors">-->
 
 				<h3>Accent colors</h3>
 				<p>Accent colors are used to emphasise actions and highlight key information. Blue is a natural choice in our context, where it has been the default color used for links, conveying the idea of action.</p>
