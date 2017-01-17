@@ -1,0 +1,29 @@
+<nav id="nav" class="nav toc" role="nav">
+    <ol>
+        <li{{#eq htmlWebpackPlugin.options.pageName 'design-principles'}} class="is-on"{{/eq}}><a href="index.html">Design principles</a>
+            <ul class="toc__sub-sections">
+                <li><a href="#this-is-for-everyone">This is for everyone</a></li>
+                <li><a href="#content-first">Content first</a></li>
+                <li><a href="#open-to-collaboration">Open to collaboration</a></li>
+                <li><a href="#trustworthy-yet-joyful">Trustworthy yet joyful</a></li>
+                <li><a href="#design-for-consistency">Design for consistency</a></li>
+            </ul>
+        </li>
+        <li{{#eq htmlWebpackPlugin.options.pageName 'visual-style'}} class="is-on"{{/eq}}><a href="visual-style.html">Visual style</a>
+            <ul class="toc__sub-sections">
+                <li><a href="#principles">Principles</a></li>
+                <li><a href="#colors">Colors</a></li>
+                <li><a href="#typography">Typography</a></li>
+                <li><a href="#iconography">Iconography</a></li>
+                <li><a href="#imagery">Imagery</a></li>
+                <li><a href="#illustrations">Illustrations</a></li>
+            </ul>
+        </li>
+        <li{{#eq htmlWebpackPlugin.options.pageName 'components'}} class="is-on"{{/eq}}><a href="components.html">Components</a>
+        </li>
+        <li{{#eq htmlWebpackPlugin.options.pageName 'patterns'}} class="is-on"{{/eq}}><a href="patterns.html">Patterns</a>
+        </li>
+        <li{{#eq htmlWebpackPlugin.options.pageName 'resources'}} class="is-on"{{/eq}}><a href="resources.html">Resources</a>
+        </li>
+    </ol>
+</nav>

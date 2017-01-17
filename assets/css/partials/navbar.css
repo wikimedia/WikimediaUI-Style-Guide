@@ -1,0 +1,136 @@
+/** Navbar **/
+
+.header-navbar {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+.header-navbar label {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	cursor: pointer;
+}
+
+.header-navbar span {
+	position: relative;
+	width: 2em;
+	height: 2em;
+	transition: all 0.3s ease;
+}
+
+/** Fake hamburger icon **/
+.header-navbar span:before,
+.header-navbar span:after {
+	content: '';
+	position: absolute;
+	width: 2em;
+	height: 2px;
+	top: 8px;
+	left: 0;
+	background: var( --wmui-color-base20 );
+}
+
+.header-navbar span:after {
+	top: 20px;
+}
+
+/** List of items **/
+.header-navbar nav {
+	display: none;
+	margin-top: 60px;
+	background-color: var( --wmui-color-base90 );
+}
+
+.header-navbar ol,
+.header-navbar ul {
+	padding: 0;
+}
+.header-navbar li:not( .is-on ) ul {
+	display: none;
+}
+
+.header-navbar li {
+	padding: 0;
+	list-style: none none;
+}
+
+.header-navbar-boolean {
+	display: none;
+}
+
+.header-navbar nav a {
+	display: block;
+	transition: all 0.3s ease;
+	color: var( --wmui-color-base20 );
+	padding: 0.5em 1em;
+}
+
+.header-navbar nav a:hover {
+	color: var( --wmui-color-base10 );
+}
+
+.header-navbar nav li.is-on a {
+	color: var( --wmui-color-base10 );
+	font-weight: bold;
+}
+
+.header-navbar nav li:hover {
+	background-color: var( --wmui-color-base100 );
+}
+
+.hidden-desktop {
+	display: none;
+}
+
+/* Portrait tablet to landscape and desktop */
+@media ( min-width: 768px ) and ( max-width: 979px ) {
+	.box {
+		width: 49%;
+		margin-bottom: 5%;
+	}
+
+	ul li:nth-child(3) .box {
+		clear: both;
+	}
+
+	ul li:nth-child(2n) .box {
+		margin-right: 0;
+		clear: right;
+	}
+}
+
+/* Landscape phones and down */
+@media ( max-width: 767px ) {
+
+	.header-navbar nav {
+		display: block;
+		height: 0;
+		overflow: hidden;
+		transition: all 0.3s ease;
+	}
+
+	.header-navbar-boolean:checked + nav {
+		height: 12em;
+	}
+
+	.header-navbar nav > a {
+		padding: 0 1em;
+		display: block;
+		border-bottom: solid 1px rgba( 255, 255, 255, 0.1 );
+	}
+
+	.header-left,
+	.header-right {
+		width: 100%;
+		text-align: center;
+	}
+
+	.hidden-desktop {
+		display: block;
+	}
+}

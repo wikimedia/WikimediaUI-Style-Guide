@@ -1,0 +1,54 @@
+/** Table of contents (sidebar) **/
+.toc {
+	margin-top: 3rem;
+}
+
+.toc ol,
+.toc ul {
+	padding: 0;
+}
+
+.toc li {
+	list-style: none none;
+}
+.toc li:not( .is-on ) ul {
+	display: none;
+}
+
+.toc a {
+	display: block;
+	padding: 0.8rem 1.2rem;
+	font-size: 16px;
+	text-decoration: none;
+	transition: background-color var( --transition-medium );
+	color: var( --wmui-color-base10 );
+}
+.toc a:hover,
+.toc a:focus {
+	background-color: var( --background-color-code );
+}
+.toc .is-on > a {
+	background-color: var( --background-color-primary );
+	color: var( --color-primary );
+	border-radius: var( --border-radius-base );
+	pointer-events: none;
+	cursor: default;
+}
+.toc__sub-sections {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.toc__sub-sections li {
+	margin-left: 1em;
+}
+.toc__sub-sections a { /* stylelint-disable-line no-descending-specificity */
+	padding-left: 2.4rem;
+	font-size: 14px;
+	border-left: 1px solid var( --wmui-color-base80 );
+	color: var( --wmui-color-base20 );
+}
+
+.toc > ol > li,
+.toc > ul > li {
+	margin-bottom: 1em;
+}

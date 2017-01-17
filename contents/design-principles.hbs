@@ -1,0 +1,104 @@
+{{> partials/head}}
+{{> partials/header}}
+<div class="content-paper">
+    <div class="content-box container">
+
+        <div class="row">
+            <div class="col-xs-hidden col-sm-4 col-md-3">
+                {{> partials/nav}}
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9 col-md-offset-0">
+
+                <main id="content" class="content" role="main">
+                    <h1>Design principles</h1>
+                    <p>When making design decisions, you need to choose among possible solutions.
+                        Design principles help you to decide what to prioritize for.</p>
+
+                    <p>The identified design principles are captured below. Find more <a
+                            href="https://meta.wikimedia.org/wiki/Design"> details at Wikimedia
+                        Meta-Wiki, Design</a>.</p>
+
+                    <section id="this-is-for-everyone">
+                        <h2>This is for everyone</h2>
+                        <p>We aim to support a very diverse audience as a core part of our mission.
+                            It's a priority to help users overcome the different barriers between
+                            them and the knowledge our projects provide. These barriers include
+                            accessibility, language, device capabilities, network, and peoples’
+                            technical expertise — among others. When improving the experience for a
+                            given group of people, we need to make sure we are not increasing the
+                            barriers for others.</p>
+                        <figure><img src="../assets/img/designprinciples-everyone.png"/></figure>
+                    </section>
+
+                    <section id="content-first">
+                        <h2>Content first</h2>
+                        <p>People come to Wikimedia projects for their content, and our solutions
+                            should facilitate its creation, consumption, and sharing—without getting
+                            in the way. Our content (facts, images, quotes, etc.) is our most
+                            representative element, and needs to be emphasized in our solutions.</p>
+
+                        <figure><img src="../assets/img/designprinciples-contentfirst.png"/></figure>
+
+                    </section>
+
+                    <section id="open-to-collaboration">
+                        <h2>Open to collaboration</h2>
+                        <p>Our projects are collaborative. Discussion and sharing are key factors to
+                            consider. To support diversity and a global mission, our solutions need
+                            to provide room for extension and customization to particular needs and
+                            different perspectives.</p>
+                        <figure>
+                            <img src="../assets/img/designprinciples-groupphoto.jpg" alt="Wikimania 2016 atendees">
+                            <figcaption><a href="https://commons.wikimedia.org/wiki/File:Wikimania_2016_-_group_photo_03.jpg">Group photo</a> during Wikimania 2016 in Esinio Lario with volunteers attending from all around the world.</figcaption>
+                        </figure>
+                    </section>
+
+                    <section id="trustworthy-yet-joyful">
+                        <h2>Trustworthy yet joyful</h2>
+                        <p>Wikimedia projects provide reliable educational knowledge. At the same
+                            time, our projects are a source of entertainment and satisfy human
+                            curiosity. This requires us to find the right balance: we need to convey
+                            trust with our solutions but still remain entertaining and fresh.</p>
+                        <figure><img src="../assets/img/designprinciples-trust.png"/></figure>
+                    </section>
+
+                    <section id="design-for-consistency">
+                        <h2>Design for consistency</h2>
+                        <p>In order to facilitate understanding it is important to rely on familiar
+                            concepts. Keeping consistency within our designs, and maintaining common
+                            patterns helps people relate quickly and orientate easily.</p>
+                        <figure><img src="../assets/img/designprinciples-consistency.png"/></figure>
+                    </section>
+                </main>
+
+                    <!--<section id="colors">-->
+                    <!--<h2>Colors</h2>-->
+                    <!--<p>Wikipedia is an encyclopedia. It's a modern encyclopedia. We have a certain perception of visual identity when we talk about encyclopedias. an identity which reflects wisdom. at the same time, traditional encyclopedias have a dated look and feel. This is also the big difference between traditional knoweledge sharing and wikipedia. Wikipedia is always evolving and we need to incorporate that into how it looks.</p>-->
+                    <!--<p>Wikipedia is in an unique position of an old idea but fresh content. That is exactly what we want to convey with our visual style. <em>&lt;make it more about all projects, not just wikipedia&gt;</em>.</p>-->
+                    <!--<p>Paper was the largest medium for spreading knowledge. Today it is computers. We borrowed values that are tied with old print media. values like trustworthyness and <em>&lt;need word for seriousness or academic&gt;</em></p>-->
+                    <!--</section>-->
+
+                    <!--<section id="how-to-contribute">-->
+                    <!--<h2>How to contribute</h2>-->
+                    <!--<p>You can participate in many ways. The documentation is available in a Git repository with the design assets needed for your project. You can get all of them, change anything and send the changes back.</p>-->
+
+                    <!--<h3>Getting the design repository</h3>-->
+                    <!--The <a href="https://github.com/wikimedia/WikimediaUI-Style-Guide/">WikimediaUI Style Guide repository is available to download</a>. It contains this documentation, templates and further design resources. Select the “clone or download” button to get the repository.-->
+
+                    <!--<h3>Committing changes</h3>-->
+                    <!--<p>If you have <a href="https://en.wikipedia.org/wiki/Git">Git</a> installed on your system, <a href="https://help.github.com/articles/cloning-a-repository/">cloning</a> is preferred way to get the contents since it allows you to contribute back. Technically changes can be submitted as usual in Git.</p>-->
+                    <!--<p>In order to publish the updated contents to be available live, go to the repo and launch the following command from a terminal: <code>git push -f origin master:gh-pages</code></p>-->
+
+                    <!--<h3>Changes beyond content</h3>-->
+                    <!--<p>With the above instructions you can easily modify the content of the guidelines by adding new recommendations, making corrections or adding examples in the form of images or videos. Furthermore, you can also help improving how this documentation looks and works.</p>-->
+                    <!--<p>When modifying aspects such as the CSS styling you'll need to rebuild the documentation files using <a href="http://gruntjs.com/">Grunt</a> (which requires <a href="https://docs.npmjs.com/getting-started/installing-node">Node.js and npm</a>). The first time you have to run <code>npm install</code> in a terminal from the guideline main folder in order to get all the needed dependencies. Every time you want to rebuild the CSS files for the documentation you just need to launch the <code>grunt</code> command in a terminal, also from the main folder.<br>-->
+                    <!--We're using <a href="http://stylelint.io/">stylelint</a> to ensure the CSS <a href="https://github.com/wikimedia/stylelint-config-wikimedia/">aligns with our</a> <a href="https://www.mediawiki.org/wiki/Manual:Coding_conventions/CSS">coding conventions</a>.</p>-->
+                    <!--<p>These are requirements to provide our contributors a reliable environment and our viewers a performant experience.</p>-->
+                    <!--</section>-->
+                </main>
+
+            </div>
+        </div>
+    </div>
+{{> partials/footer}}
+{{> partials/foot}}
