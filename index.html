@@ -20,65 +20,133 @@
 </head>
 <body>
 	<header id="header" class="header" role="banner">
-		<div class="box">
-			<a href="#content" class="is-aural is-focusable">Jump to content</a>
-			<a href="#nav" class="is-aural is-focusable">Jump to navigation</a>
-			<h1 class="site__title">Wikimedia User Interface Style Guide</h1>
+		<div class="container">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-0">
+                    <a href="#content" class="is-aural is-focusable">Jump to content</a>
+                    <a href="#nav" class="is-aural is-focusable">Jump to navigation</a>
+                    <h1 class="site__title"><a href="./"><span class="wikimedia-logo"></span> Wikimedia style guide</a></h1>
+                </div>
+                <div class="col-xs-hidden col-sm-4 tright">
+                    <a href="./">Contribute on Github</a>
+                </div>
+            </div>
 		</div>
+
+        <div class="header-navbar" class="navbar-collapse">
+            <label for="open">
+                <span class="hidden-desktop"></span>
+            </label>
+            <input type="checkbox" name="" id="open">
+            <nav role="nav">
+                <ol>
+                    <li class="is-on"><a href="index.html">Design principles</a>
+                    </li>
+                    <li><a href="visual-style.html">Visual style</a>
+                    </li>
+                    <li><a href="visual-style.html">Components</a>
+                    </li>
+                    <li><a href="visual-style.html">Patterns</a>
+                    </li>
+                    <li><a href="visual-style.html">Resources</a>
+                    </li>
+                </ol>
+            </nav>
+        </div><!--/.nav-collapse -->
 	</header>
-	<div class="content-box">
-		<nav id="nav" class="nav toc" role="nav">
-			<ol>
-				<li class="is-on"><a href="index.html">Introduction</a>
-					<ul class="toc__sub-sections">
-						<li><a href="#how-to-contribute">How to contribute</a></li>
-					</ul>
-				</li>
-				<li><a href="design-principles.html">Design principles</a>
-					<ul class="toc__sub-sections">
-						<li><a href="#this-is-for-everyone">This is for everyone</a></li>
-						<li><a href="#content-first">Content first</a></li>
-						<li><a href="#open-to-collaboration">Open to collaboration</a></li>
-						<li><a href="#trustworthy-yet-joyful">Trustworthy yet joyful</a></li>
-						<li><a href="#design-for-consistency">Design for consistency</a></li>
-					</ul>
-				</li>
-				<li><a href="visual-style.html">Visual style</a>
-					<ul class="toc__sub-sections">
-						<li><a href="#core-visual-identity">Core visual identity</a></li>
-						<li><a href="#colors">Colors</a></li>
-						<li><a href="#typography">Typography</a></li>
-					</ul>
-				</li>
-			</ol>
-		</nav>
-		<main id="content" class="content" role="main">
-			<h1>Introduction</h1>
-			<p>Wikimedia is a global movement built by a diverse audience.</p>
-			<p>This guide provides a general design direction that can be useful for different kinds of interactive projects. Designers and developers will find design recommendations to solve general problems, so that they can focus on the specific needs of their projects.</p>
-			<p>This is an ongoing work, you can always check online <a href="https://wikimedia.github.io/WikimediaUI-Style-Guide/">the latest released version of the guide</a>. You can help making it grow.</p>
+    <div class="content-paper">
+        <div class="content-box container">
 
-			<section id="how-to-contribute">
-				<h2>How to contribute</h2>
-				<p>You can participate in many ways. The documentation is available in a Git repository with the design assets needed for your project. You can get all of them, change anything and send the changes back.</p>
+            <div class="row">
+                <div class="col-xs-hidden col-sm-4 col-md-3">
 
-				<h3>Getting the design repository</h3>
-				The <a href="https://github.com/wikimedia/WikimediaUI-Style-Guide/">WikimediaUI Style Guide repository is available to download</a>. It contains this documentation, templates and further design resources. Select the “clone or download” button to get the repository.
+                    <nav id="nav" class="nav toc" role="nav">
+                        <ol>
+                            <li><a href="design-principles.html">Design principles</a>
+                                <ul class="toc__sub-sections">
+                                    <li><a href="#this-is-for-everyone">This is for everyone</a></li>
+                                    <li><a href="#content-first">Content first</a></li>
+                                    <li><a href="#open-to-collaboration">Open to collaboration</a></li>
+                                    <li><a href="#trustworthy-yet-joyful">Trustworthy yet joyful</a></li>
+                                    <li><a href="#design-for-consistency">Design for consistency</a></li>
+                                </ul>
+                            </li>
+                            <li class="is-on"><a href="visual-style.html">Visual style</a>
+                                <ul class="toc__sub-sections">
+                                    <li><a href="#principles">Principles</a></li>
+                                    <li><a href="#colors">Colors</a></li>
+                                    <li><a href="#typography">Typography</a></li>
+                                    <li><a href="#iconography">Iconography</a></li>
+                                    <li><a href="#imagery">Imagery</a></li>
+                                    <li><a href="#illustrations">Illustrations</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="design-principles.html">Components</a>
+                            </li>
+                            <li><a href="design-principles.html">Patterns</a>
+                            </li>
+                            <li><a href="design-principles.html">Resources</a>
+                            </li>
+                        </ol>
+                    </nav>
 
-				<h3>Committing changes</h3>
-				<p>If you have <a href="https://en.wikipedia.org/wiki/Git">Git</a> installed on your system, <a href="https://help.github.com/articles/cloning-a-repository/">cloning</a> is preferred way to get the contents since it allows you to contribute back. Technically changes can be submitted as usual in Git.</p>
-				<p>In order to publish the updated contents to be available live, go to the repo and launch the following command from a terminal: <code>git push -f origin master:gh-pages</code></p>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-9 col-md-offset-0">
 
-				<h3>Changes beyond content</h3>
-				<p>With the above instructions you can easily modify the content of the guidelines by adding new recommendations, making corrections or adding examples in the form of images or videos. Furthermore, you can also help improving how this documentation looks and works.</p>
-				<p>When modifying aspects such as the CSS styling you'll need to rebuild the documentation files using <a href="http://gruntjs.com/">Grunt</a> (which requires <a href="https://docs.npmjs.com/getting-started/installing-node">Node.js and npm</a>). The first time you have to run <code>npm install</code> in a terminal from the guideline main folder in order to get all the needed dependencies. Every time you want to rebuild the CSS files for the documentation you just need to launch the <code>grunt</code> command in a terminal, also from the main folder.<br>
-				We're using <a href="http://stylelint.io/">stylelint</a> to ensure the CSS <a href="https://github.com/wikimedia/stylelint-config-wikimedia/">aligns with our</a> <a href="https://www.mediawiki.org/wiki/Manual:Coding_conventions/CSS">coding conventions</a>.</p>
-				<p>These are requirements to provide our contributors a reliable environment and our viewers a performant experience.</p>
-			</section>
-		</main>
-	</div>
-	<footer id="footer" class="footer box">
-		Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.
-	</footer>
+
+                    <main id="content" class="content" role="main">
+                        <h1>Visual style</h1>
+
+                        <section id="principles">
+                            <h2>Principles</h2>
+                            <p>Wikipedia is an encyclopedia. It's a modern encyclopedia. We have a certain perception of visual identity when we talk about encyclopedias. an identity which reflects wisdom. at the same time, traditional encyclopedias have a dated look and feel. This is also the big difference between traditional knoweledge sharing and wikipedia. Wikipedia is always evolving and we need to incorporate that into how it looks.</p>
+                            <p>Wikipedia is in an unique position of an old idea but fresh content. That is exactly what we want to convey with our visual style. <em>&lt;make it more about all projects, not just wikipedia&gt;</em>.</p>
+                            <p>Paper was the largest medium for spreading knowledge. Today it is computers. We borrowed values that are tied with old print media. values like trustworthyness and <em>&lt;need word for seriousness or academic&gt;</em></p>
+                            <div><img src="./img/visualstyle-principles-paperink.png" /></div>
+                            <p>We start with basic elements like paper and ink, then extend it further to match the needs of our visual character.</p>
+                            <div><img src="./img/visualstyle-principles-papershadow.png" /></div>
+                            <p>Paper casts subtle shadows onto a base surface. paper has slightly rounded corners due to it's organic nature.</p>
+                            <div><img src="./img/visualstyle-principles-contentchrome.png" /></div>
+                            <p>We follow our design principles of content first. content precedes chrome. content goes on paper, chrome stays on the base layer. <em>&lt;think of better wording&rt;</em> make it obvious what is chrome.</p>
+                            <div><img src="./img/visualstyle-principles-colortype.png" /></div>
+                            <p>Our color choices are inspired from black, white, and ink blue. Typography has roots in traditional typefaces.</p>
+                            <div><img src="./img/visualstyle-principles-styletile.png" /></div>
+                            <p>It is an uncommon mix of new and old media. Joyful yet trustworthy.<br>The topics in this section are execution of these ideas.</p>
+                        </section>
+
+                        <!--<section id="colors">-->
+                            <!--<h2>Colors</h2>-->
+                            <!--<p>Wikipedia is an encyclopedia. It's a modern encyclopedia. We have a certain perception of visual identity when we talk about encyclopedias. an identity which reflects wisdom. at the same time, traditional encyclopedias have a dated look and feel. This is also the big difference between traditional knoweledge sharing and wikipedia. Wikipedia is always evolving and we need to incorporate that into how it looks.</p>-->
+                            <!--<p>Wikipedia is in an unique position of an old idea but fresh content. That is exactly what we want to convey with our visual style. <em>&lt;make it more about all projects, not just wikipedia&gt;</em>.</p>-->
+                            <!--<p>Paper was the largest medium for spreading knowledge. Today it is computers. We borrowed values that are tied with old print media. values like trustworthyness and <em>&lt;need word for seriousness or academic&gt;</em></p>-->
+                        <!--</section>-->
+
+                        <!--<section id="how-to-contribute">-->
+                            <!--<h2>How to contribute</h2>-->
+                            <!--<p>You can participate in many ways. The documentation is available in a Git repository with the design assets needed for your project. You can get all of them, change anything and send the changes back.</p>-->
+
+                            <!--<h3>Getting the design repository</h3>-->
+                            <!--The <a href="https://github.com/wikimedia/WikimediaUI-Style-Guide/">WikimediaUI Style Guide repository is available to download</a>. It contains this documentation, templates and further design resources. Select the “clone or download” button to get the repository.-->
+
+                            <!--<h3>Committing changes</h3>-->
+                            <!--<p>If you have <a href="https://en.wikipedia.org/wiki/Git">Git</a> installed on your system, <a href="https://help.github.com/articles/cloning-a-repository/">cloning</a> is preferred way to get the contents since it allows you to contribute back. Technically changes can be submitted as usual in Git.</p>-->
+                            <!--<p>In order to publish the updated contents to be available live, go to the repo and launch the following command from a terminal: <code>git push -f origin master:gh-pages</code></p>-->
+
+                            <!--<h3>Changes beyond content</h3>-->
+                            <!--<p>With the above instructions you can easily modify the content of the guidelines by adding new recommendations, making corrections or adding examples in the form of images or videos. Furthermore, you can also help improving how this documentation looks and works.</p>-->
+                            <!--<p>When modifying aspects such as the CSS styling you'll need to rebuild the documentation files using <a href="http://gruntjs.com/">Grunt</a> (which requires <a href="https://docs.npmjs.com/getting-started/installing-node">Node.js and npm</a>). The first time you have to run <code>npm install</code> in a terminal from the guideline main folder in order to get all the needed dependencies. Every time you want to rebuild the CSS files for the documentation you just need to launch the <code>grunt</code> command in a terminal, also from the main folder.<br>-->
+                                <!--We're using <a href="http://stylelint.io/">stylelint</a> to ensure the CSS <a href="https://github.com/wikimedia/stylelint-config-wikimedia/">aligns with our</a> <a href="https://www.mediawiki.org/wiki/Manual:Coding_conventions/CSS">coding conventions</a>.</p>-->
+                            <!--<p>These are requirements to provide our contributors a reliable environment and our viewers a performant experience.</p>-->
+                        <!--</section>-->
+                    </main>
+
+                </div>
+            </div>
+
+        </div>
+        <footer id="footer" class="footer container">
+            Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.
+        </footer>
+    </div>
 </body>
 </html>

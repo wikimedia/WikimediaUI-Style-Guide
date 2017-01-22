@@ -1,0 +1,13 @@
+{
+	"extends": "wikimedia",
+	"env": {
+		"browser": true
+	},
+	"globals": {
+		"require": false,
+		"module": false
+	},
+	"rules": {
+		"dot-notation": 0
+	}
+}

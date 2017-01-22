@@ -10,21 +10,34 @@
     "type": "git",
     "url": "https://github.com/wikimedia/WikimediaUI-Style-Guide.git"
   },
+  "scripts": {
+    "lint:css": "node_modules/.bin/stylelint \"./assets/css/**/*.css\" --config .stylelintrc || true",
+    "lint:js": "node_modules/.bin/eslint ./*.js ./scripts/hbs-helpers/**/*.js --config .eslintrc.json || true",
+    "lint": "npm run lint:js && npm run lint:css"
+  },
   "private": true,
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.5.2",
-    "grunt": "1.0.1",
-    "grunt-contrib-cssmin": "^1.0.2",
-    "grunt-contrib-watch": "1.0.0",
-    "grunt-exec": "1.0.0",
-    "grunt-postcss": "^0.8.0",
-    "grunt-stylelint": "0.6.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.14.0",
+    "eslint-config-wikimedia": "^0.3.0",
+    "extract-text-webpack-plugin": "^2.0.0-beta.5",
+    "file-loader": "^0.9.0",
+    "handlebars-loader": "^1.4.0",
+    "html-webpack-plugin": "^2.26.0",
     "pixrem": "^3.0.2",
     "postcss": "^5.2.5",
     "postcss-cssnext": "^2.8.0",
     "postcss-custom-properties": "^5.0.1",
-    "postcss-import": "^8.1.3",
-    "stylelint-config-wikimedia": "0.3.0"
+    "postcss-import": "^9.1.0",
+    "postcss-loader": "^1.2.2",
+    "postcss-media-variables": "^2.0.0",
+    "style-loader": "^0.13.1",
+    "stylelint": "^7.0.2",
+    "stylelint-config-wikimedia": "0.3.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^1.16.2"
   }
 }

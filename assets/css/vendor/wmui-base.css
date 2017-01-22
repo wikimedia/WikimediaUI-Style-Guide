@@ -1,0 +1,144 @@
+/**
+ * WikimediaUI base v0.7.1
+ * Wikimedia Foundation user interface base variables
+ */
+/* stylelint-disable */
+:root {
+	/* Colors */
+	/* WikimediaUI (WMUI) color palette */
+	--wmui-color-base0:    #000;    /* = HSB 0°, 0%, 0% */
+	--wmui-color-base10:   #222;    /* = HSB 0°, 0%, 13% */
+	--wmui-color-base20:   #54595d; /* = HSB 207°, 10%, 36%; WCAG 2.0 level AAA 7.09:1 contrast ratio on `#fff` */
+	--wmui-color-base30:   #72777d; /* = HSB 210°, 9%, 49%; WCAG 2.0 level AA at 4.52:1 contrast ratio on `#fff` */
+	--wmui-color-base50:   #a2a9b1; /* = HSB 212°, 8%, 69% */
+	--wmui-color-base70:   #c8ccd1; /* = HSB 213°, 4%, 82% */
+	--wmui-color-base80:   #eaecf0; /* = HSB 220°, 3%, 94% */
+	--wmui-color-base90:   #f8f9fa; /* = HSB 210°, 1%, 98% */
+	--wmui-color-base100:  #fff;    /* = HSB 0°, 0%, 100% */
+
+	--wmui-color-accent30: #2a4b8d; /* = HSB 220°, 70%, 55% */
+	--wmui-color-accent50: #36c;    /* = HSB 220°, 75%, 80% */
+	--wmui-color-accent90: #eaf3ff; /* = HSB 214°, 8%, 100% */
+
+	--wmui-color-red30:    #b32424; /* = HSB 360°, 80%, 70% */
+	--wmui-color-red50:    #d33;    /* = HSB 360°, 77%, 87% */
+	--wmui-color-red90:    #fee7e6; /* = HSB 3°, 9%, 100% */
+
+	--wmui-color-yellow30: #ac6600; /* = HSB 36°, 100%, 67% */
+	--wmui-color-yellow50: #fc3;    /* = HSB 45°, 80%, 100% */
+	--wmui-color-yellow90: #fef6e7; /* = HSB 39°, 9%, 100% */
+
+	--wmui-color-green30:  #14866d; /* = HSB 167°, 85%, 53% */
+	--wmui-color-green50:  #00af89; /* = HSB 167°, 100%, 69% */
+	--wmui-color-green90:  #d5fdf4; /* = HSB 166°, 16%, 99% */
+
+	/* Background Colors */
+	--background-color-base:        var( --wmui-color-base100 );
+	--background-color-code:        var( --wmui-color-base90 );
+	/* 'Framed' UI elements (Framed Buttons, Dropdowns, ToggleSwitches...) */
+	--background-color-framed:      var( --wmui-color-base90 );
+	--background-color-framed--hover: var( --wmui-color-base100 );
+	--background-color-framed--active: var( --wmui-color-base70 );
+	/* RGBA Colors include hex fallback on `#fff` for IE 6/7/8 */
+	--background-color-highlight:   rgba( 255, 182, 13, 0.4 );
+	--background-color-highlight--fallback: #ffe29e;
+
+	/* Foreground Colors */
+	--color-base:                   var( --wmui-color-base10 );
+	--color-base--hover:            #444;
+	--color-base--active:           var( --wmui-color-base0 );
+	--color-base--inverted:         var( --wmui-color-base100 );
+	--color-base--emphasized:       var( --color-base--active );
+	--color-base--disabled:         var( --wmui-color-base30 );
+	--color-filled--disabled:       var( --color-base--inverted );
+	--color-placeholder:            var( --wmui-color-base30 );
+	/* Primary 'Progressive' Color, Background Color and states */
+	--background-color-primary:     var( --wmui-color-accent90 );
+	--background-color-primary--hover: rgba( 41, 98, 204, 0.1 );
+	--color-primary:                var( --wmui-color-accent50 );
+	--color-primary--hover:         #447ff5; /* = `filter: brightness( 109% )` */
+	--color-primary--active:        var( --wmui-color-accent30 );
+	--color-primary--focus:         var( --wmui-color-accent50 );
+	/* 'Destructive' Color, Background Color and states */
+	--background-color-destructive: var( --wmui-color-red90 );
+	--color-destructive:            var( --wmui-color-red50 );
+	--color-destructive--hover:     #ff4242; /* ~= `filter: brightness( 120% )` */
+	--color-destructive--active:    var( --wmui-color-red30 );
+	--color-destructive--focus:     var( --wmui-color-red50 );
+	/* Secondary Color and states (links only) */
+	--color-secondary:              var( --wmui-color-green50 );
+	--color-secondary--hover:       #1c6665;
+	--color-secondary--active:      var( --wmui-color-green30 );
+	--color-secondary--focus:       var( --wmui-color-green50 );
+
+
+	/* Opacity */
+	--opacity-base:                 1;
+	--opacity-base--disabled:       0.51; /* = `#7d7d7d` on `background-color: #fff`; HSB 0°, 0%, 49% */
+
+
+	/* Positioning */
+	/* Z-Index */
+	--z-index-base:                 0;
+
+
+	/* Box Model properties */
+	/* Max Widths */
+	--max-width-button:             28.75em; /* = `460px` at `16px` base, see T95367 */
+	--max-width-input-inline:       100%;
+
+	/* Border */
+	--border-base:                  var( --border-width-base ) solid var( --border-color-base );
+	--border-dialog:                var( --border-base );
+	--border-menu:                  var( --border-base );
+	/* Border Colors */
+	--border-color-base:            var( --wmui-color-base50 );
+	--border-color-base--hover:     var( --wmui-color-base50 );
+	--border-color-base--active:    var( --wmui-color-base30 );
+	--border-color-base--disabled:  var( --color-base--disabled );
+	--border-color-filled-disabled: var( --color-filled--disabled );
+	--border-color-primary--active: #859dcc;
+	--border-color-destructive--active: #b77c79;
+	--border-color-inset--focus:    var( --color-base--inverted );
+	--border-color-heading:         var( --wmui-color-base70 );
+	/* Border Widths */
+	--border-width-base:            1px;
+	/* Border Radius */
+	--border-radius-base:           2px;
+
+	/* Box Shadows */
+	--box-shadow-base--focus:       inset 0 0 0 1px var( --wmui-color-accent50 );
+	--box-shadow-inset--inverted:   inset 0 0 0 1px var( --color-base--inverted );
+	--box-shadow-filled--disabled:  inset 0 0 0 1px var( --color-filled--disabled );
+	--box-shadow-dialog:            0 0.15em 0 0 rgba( 0, 0, 0, 0.15 );
+	--box-shadow-menu:              var( --box-shadow-dialog );
+
+
+	/* Typography incl. print properties */
+	/* Font Families */
+	--font-family-base:             var( --font-family-sans );
+	--font-family-heading-main:     var( --font-family-serif );
+	--font-family-sans:             'Helvetica Neue', 'Helvetica', 'Nimbus Sans L', 'Arial', 'Liberation Sans', sans-serif;
+	--font-family-serif:            'Linux Libertine', 'Georgia', 'Times', serif;
+	/* Line Heights */
+	--line-height-base:             1.6;
+	--line-height-heading:          1.25;
+	--text-decoration-link--hover:  none;
+	/* Text Shadows */
+	--text-shadow-base:             0 1px 1px var( --color-base--inverted ); /* 'coined' effect */
+	--text-shadow-base--disabled:   var( --text-shadow-base );
+
+
+	/* Other Properties */
+	/* Cursors */
+	--cursor-base--disabled:        default;
+
+
+	/* Animation & Transition */
+	/* Transitions */
+	--transition-base:              var( --transition-duration-base );
+	--transition-medium:            var( --transition-duration-medium );
+	/* Transitions > Durations */
+	--transition-duration-base:     100ms;
+	--transition-duration-medium:   250ms;
+}

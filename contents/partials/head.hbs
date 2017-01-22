@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!--[if lte IE 8 ]><html lang="en" class="js-off lte-ie8"><![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="js-off ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="js-off">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>{{htmlWebpackPlugin.options.title}}</title>
+    <script>
+        document.documentElement.className = document.documentElement.className.replace(/\bjs-off\b/,'js-on'); // no BEM notation thx to IE
+    </script>
+    <!--[if lt IE 9]>
+    <script>window.html5={'shivCSS':false};</script>
+    <script src="js/vendor/ie/html5shiv-3.7.3.min.js"></script>
+    <script src="js/vendor/ie/respond-1.4.2.min.js"></script>
+    <![endif]-->
+</head>
+<body>

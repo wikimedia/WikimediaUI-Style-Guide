@@ -1,0 +1,35 @@
+<header id="header" class="header" role="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-0">
+                <a href="#content" class="is-aural is-focusable">Jump to content</a>
+                <a href="#nav" class="is-aural is-focusable">Jump to navigation</a>
+                <h1 class="site__title"><a href="./"><span class="wikimedia-logo"></span> Wikimedia style guide</a></h1>
+            </div>
+            <div class="col-xs-hidden col-sm-4 tright">
+                <a href="https://github.com/wikimedia/WikimediaUI-Style-Guide">Contribute on Github</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-navbar" class="navbar-collapse">
+        <label for="open">
+            <span class="hidden-desktop"></span>
+        </label>
+        <input type="checkbox" name="" class="header-navbar-boolean">
+        <nav role="nav">
+            <ol>
+                <li{{#eq htmlWebpackPlugin.options.pageName 'design-principles'}} class="is-on"{{/eq}}><a href="index.html">Design principles</a>
+                </li>
+                <li{{#eq htmlWebpackPlugin.options.pageName 'visual-style'}} class="is-on"{{/eq}}><a href="visual-style.html">Visual style</a>
+                </li>
+                <li{{#eq htmlWebpackPlugin.options.pageName 'components'}} class="is-on"{{/eq}}><a href="components.html">Components</a>
+                </li>
+                <li{{#eq htmlWebpackPlugin.options.pageName 'patterns'}} class="is-on"{{/eq}}><a href="patterns.html">Patterns</a>
+                </li>
+                <li{{#eq htmlWebpackPlugin.options.pageName 'resources'}} class="is-on"{{/eq}}><a href="resources.html">Resources</a>
+                </li>
+            </ol>
+        </nav>
+    </div><!--/.nav-collapse -->
+</header>
