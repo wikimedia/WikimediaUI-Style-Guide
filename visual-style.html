@@ -57,11 +57,6 @@
 			<h1>Visual Style</h1>
 			<p>Wikimedia projects are associated with learning, editorship, and books. They are neutral and transparent. They are about reading and writing. They remind you of ink and paper.</p>
 
-			<section id="core-visual-identity">
-				<h2>Core Visual Identity</h2>
-				<p>Our core visual identity presents our main content on a single main page or layer.<br>We emphasise content by using only this single layer, which sits on top of a base gray surface that contains the chrome (structural elements of content which also host controls).</p>
-			</section>
-
 			<section id="colors">
 				<h2>Colors</h2>
 				<p>The <a href="https://phabricator.wikimedia.org/M82" target="_blank">color palette</a> represents our character and brings a hint of freshness to our products.</p>
@@ -72,7 +67,7 @@
 
 				<h3>Base colors</h3>
 				<p>Base colors define the content surface and the main color for content. Different shades of paper and ink are useful to emphasise or de-emphasise different content areas.</p>
-				<p>Base colors go from pure white (Base100) to pure black (Base0). Intermediate shades of grey include a tint of blue for a better harmony with our accent color.</p>
+				<p>Base colors go from pure white (Base100) to true black (Base0). Intermediate shades of grey include a tint of blue for greater harmony with our accent color.</p>
 				<p>When applying text on a surface, you need to <a href="http://webaim.org/resources/contrastchecker/" target="_blank">check the color contrast</a> between the text and the background: </p>
 				<ul>
 					<li>Base100…50 are safe text colors for a black surface.</li>
@@ -88,7 +83,6 @@
 								<code class="color-code color-hsb">HSB 0, 0%, 100%</code>
 								<span class="color-wcag-level">AAA</span>
 							</div>
-							<span class="color-desc">Base background<br>Highlight from grey</span>
 						</li>
 						<li>
 							<strong class="color-name">Base90</strong>
@@ -98,7 +92,6 @@
 								<code class="color-code color-hsb">HSB 210, 1%, 98%</code>
 								<span class="color-wcag-level">AAA</span>
 							</div>
-							<span class="color-desc">Button/3D widget
 background</span>
 						</li>
 						<li>
@@ -109,7 +102,6 @@ background</span>
 								<code class="color-code color-hsb">HSB 220, 3%, 94%</code>
 								<span class="color-wcag-level">AAA</span>
 							</div>
-							<span class="color-desc">Disabled text input
 background</span>
 						</li>
 						<li>
@@ -120,7 +112,6 @@ background</span>
 								<code class="color-code color-hsb">HSB 213, 4%, 82%</code>
 								<span class="color-wcag-level">AAA</span>
 							</div>
-							<span class="color-desc">Disabled button/3D  widget background </span>
 						</li>
 						<li>
 							<strong class="color-name">Base50</strong>
@@ -130,7 +121,6 @@ background</span>
 								<code class="color-code color-hsb">HSB 212, 8%, 69%</code>
 								<span class="color-wcag-level">AAA</span>
 							</div>
-							<span class="color-desc">Highlighted border</span>
 						</li>
 						<li>
 							<strong class="color-name">Base30</strong>
@@ -140,7 +130,6 @@ background</span>
 								<code class="color-code color-hsb">HSB 210, 9%, 49%</code>
 								<span class="color-wcag-level">AA / <span class="color-dark">AA</span></span>
 							</div>
-							<span class="color-desc">Disabled elements text<br>Placeholder text<br>Active border</span>
 						</li>
 						<li>
 							<strong class="color-name">Base20</strong>
@@ -150,7 +139,6 @@ background</span>
 								<code class="color-code color-hsb">HSB 207, 10%, 36%</code>
 								<span class="color-wcag-level">AAA</span>
 							</div>
-							<span class="color-desc"></span>
 						</li>
 						<li>
 							<strong class="color-name">Base10</strong>
@@ -160,7 +148,6 @@ background</span>
 								<code class="color-code color-hsb">HSB 0, 0%, 13%</code>
 								<span class="color-wcag-level">AAA</span>
 							</div>
-							<span class="color-desc"></span>
 						</li>
 						<li>
 							<strong class="color-name">Base0</strong>
@@ -170,7 +157,6 @@ background</span>
 								<code class="color-code color-hsb">HSB 0, 0%, 0%</code>
 								<span class="color-wcag-level">AAA</span>
 							</div>
-							<span class="color-desc"></span>
 						</li>
 					</ol>
 				</div>
@@ -179,15 +165,16 @@ background</span>
 				<h3>Accent colors</h3>
 				<p>Accent colors are used to emphasise actions and highlight key information. Blue is a natural choice in our context, where it has been the default color used for links, conveying the idea of action.</p>
 				<p>There are three shades provided for situations where you need a lighter (Accent90), regular (Accent50) or darker (Accent10) version.</p>
-				<p>Accent50 provides a blue which is suitable to be used for text and as background. When used for text (as in links) it provides enough contrast with black text to notice the difference. When used as background, it provides enough contrast with white text to keep the text readable.</p>
+				<p>Accent50 provides a blue which is suitable to be used for text and as background. When used as link text  it provides sufficient contrast with black text to notice the difference. When used as background, it provides enough contrast with white text to keep the text readable.</p>
 				<img src="img/colors-accent.png" alt="Accent colors">
 
-				<h3>Supplementary colors</h3>
-				<p>Red, green, and yellow are supplementary colors. They can act as accent colors bringing the additional meaning that is commonly associated with them.</p>
-				<img src="img/colors-supplementary.png" alt="Supplementary colors">
+				<h3>Utility colors</h3>
+				<p>Red, green and yellow are Utility colors. They can act as accent colors bringing the additional meaning that is commonly associated with them.</p>
+				<p>INTENTIONS</p>
+				<img src="img/colors-Utility.png" alt="Utility colors">
 
 				<h3>Additional colors</h3>
-				<p>For some uses such as charts and data visualisation, a broader color palette may be needed. When extending the default palette with new colors, make sure to check their contrast with other colors according to their use, and how they are perceived for different color-blind conditions.</p>
+				<p>For some uses such as charts and data visualisation, a broader color palette may be needed. When extending the default palette with new colors, make sure to aim for level AA contrast with other colors according to their use, and how they are perceived for different color-blind conditions.</p>
 			</section>
 
 			<section id="typography">
