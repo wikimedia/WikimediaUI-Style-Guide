@@ -62,6 +62,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 code {
 	background-color: var( --background-color-code );
 	display: inline-block;
