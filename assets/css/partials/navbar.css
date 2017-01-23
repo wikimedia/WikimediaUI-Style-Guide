@@ -59,7 +59,7 @@
 	list-style: none none;
 }
 
-.header-navbar-boolean {
+#header-navbar-boolean {
 	display: none;
 }
 
@@ -114,7 +114,7 @@
 		transition: all 0.3s ease;
 	}
 
-	.header-navbar-boolean:checked + nav {
+	#header-navbar-boolean:checked + nav {
 		height: 12em;
 	}
 
