@@ -177,7 +177,7 @@ code {
 	list-style: none none;
 	display: inline-block;
 	width: 19.6rem;
-	margin-right: 1%;
+	margin-right: 1.6rem;
 	margin-bottom: 3.2rem;
 }
 
@@ -202,7 +202,7 @@ code {
 		padding: 0;
 		font-family: 'Lato', sans-serif;
 	}
-	.color-code:first-child{
+	.color-code:first-child {
 		margin-top: 4.8rem;
 	}
 
