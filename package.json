@@ -11,6 +11,8 @@
     "url": "https://github.com/wikimedia/WikimediaUI-Style-Guide.git"
   },
   "scripts": {
+    "build": "node_modules/.bin/webpack",
+    "dev": "node_modules/.bin/webpack-dev-server --open",
     "lint:css": "node_modules/.bin/stylelint \"./assets/css/**/*.css\" --config .stylelintrc || true",
     "lint:js": "node_modules/.bin/eslint ./*.js ./scripts/hbs-helpers/**/*.js --config .eslintrc.json || true",
     "lint": "npm run lint:js && npm run lint:css"
