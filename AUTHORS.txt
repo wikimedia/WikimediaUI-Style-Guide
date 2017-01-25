@@ -1,5 +1,6 @@
-Principal Authors (major contributors, alphabetically)
+Principal Authors (major contributors)
 
 Volker E. <volker.e@wikimedia.org>
 Pau Giner <pginer@wikimedia.org>
+Julien Girault <jgirault@wikimedia.org>
 Jan Drewniak <jdrewniak@wikimedia.org>
