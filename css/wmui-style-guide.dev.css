@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-	margin-bottom: 0;
+	margin: 3.2rem 0 0;
 	font-family: 'Charter', serif; /* FIXME */
 	font-weight: normal; /* FIXME */
 }
@@ -45,6 +45,10 @@ p {
 	p:first-child {
 		margin: 0.8rem 0 0;
 	}
+
+figure {
+	margin: 0.8rem 0 0;
+}
 
 img {
 	display: block;
@@ -290,7 +294,7 @@ code {
 }
 
 .toc a {
-	color: var( --wmui-color-base10 );
+	color: var( --color-base );
 	display: block;
 	padding: 0.8rem 1.2rem;
 	font-size: 1.6rem;
@@ -300,6 +304,7 @@ code {
 .toc a:hover,
 .toc a:focus {
 	background-color: var( --background-color-code );
+	color: var( --color-base--emphasized );
 }
 .toc .is-on > a {
 	background-color: var( --background-color-primary );
@@ -322,10 +327,7 @@ code {
 	border-left: 1px solid var( --wmui-color-base80 );
 	padding-left: 2.4rem;
 	font-size: 1.4rem;
-	transition: inherit;
-}
-.toc__sub-sections a:hover { /* stylelint-disable-line no-descending-specificity */
-	color: var( --color-primary );
+	transition: background-color var( --transition-medium ), color var( --transition-medium );
 }
 
 .toc > ol > li,
@@ -455,7 +457,7 @@ code {
 }
 
 
-@media ( max-width: 720px ) {
+@media ( max-width: 720px ) { /* FIXME */
 	.col-xs-hidden {
 		display: none;
 	}
@@ -463,5 +465,12 @@ code {
 	.site__title {
 		text-align: center;
 		font-weight: bold;
+	}
+}
+
+@media ( max-width: 576px ) {
+	figure {
+		margin-left: -1.6rem;
+		margin-right: -1.6rem;
 	}
 }
