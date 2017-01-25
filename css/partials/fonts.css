@@ -146,7 +146,6 @@
 	text-rendering: optimizeLegibility;
 }
 
-/*
 @font-face {
 	font-family: 'Lato';
 	src: url( '../fonts/Lato-Light.eot' );
@@ -171,6 +170,7 @@
 	text-rendering: optimizeLegibility;
 }
 
+/*
 @font-face {
 	font-family: 'Lato';
 	src: url( '../fonts/Lato-Medium.eot' );

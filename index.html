@@ -8,7 +8,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<link rel="stylesheet" href="css/wmui-style-guide.min.css">
-	<title>WikimediaUI Style Guide provided by Wikimedia Foundation design team</title>
+	<title>WikimediaUI Style Guide – provided by Wikimedia Foundation design team</title>
 	<script>
 		document.documentElement.className = document.documentElement.className.replace(/\bjs-off\b/,'js-on'); // no BEM notation thx to IE
 	</script>
@@ -20,65 +20,116 @@
 </head>
 <body>
 	<header id="header" class="header" role="banner">
-		<div class="box">
-			<a href="#content" class="is-aural is-focusable">Jump to content</a>
-			<a href="#nav" class="is-aural is-focusable">Jump to navigation</a>
-			<h1 class="site__title">Wikimedia User Interface Style Guide</h1>
+		<div class="container">
+			<div class="col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-0">
+				<a href="#content" class="is-aural is-focusable">Jump to content</a>
+				<a href="#nav" class="is-aural is-focusable">Jump to navigation</a>
+				<h1 class="site__title"><a href="./"><span class="site__logo"></span>Wikimedia Style Guide</a></h1>
+			</div>
+			<div class="col-xs-hidden col-sm-5">
+				<a href="https://github.com/wikimedia/WikimediaUI-Style-Guide" class="lnk--contribute">Contribute on Github</a>
+			</div>
+		</div>
+		<div class="header-navbar" class="navbar-collapse">
+			<label for="header-navbar-boolean">
+				<span class="hidden-desktop"></span>
+			</label>
+			<input type="checkbox" id="header-navbar-boolean" class="header-navbar-boolean">
+			<nav class="nav toc" role="nav">
+				<ol>
+					<li class="is-on"><a href="index.html">Introduction</a>
+						<ul class="toc__sub-sections">
+							<li><a href="#how-to-contribute">How to contribute</a></li>
+						</ul>
+					</li>
+					<li><a href="design-principles.html">Design principles</a>
+						<ul class="toc__sub-sections">
+							<li><a href="#this-is-for-everyone">This is for everyone</a></li>
+							<li><a href="#content-first">Content first</a></li>
+							<li><a href="#open-to-collaboration">Open to collaboration</a></li>
+							<li><a href="#trustworthy-yet-joyful">Trustworthy yet joyful</a></li>
+							<li><a href="#design-for-consistency">Design for consistency</a></li>
+						</ul>
+					</li>
+					<li><a href="visual-style.html">Visual style</a>
+						<ul class="toc__sub-sections">
+							<li><a href="#core-visual-identity">Core visual identity</a></li>
+							<li><a href="#colors">Colors</a></li>
+							<li><a href="#typography">Typography</a></li>
+						</ul>
+					</li>
+					<!-- <li><a href="components.html">Components</a></li>
+					<li><a href="patterns.html">Patterns</a></li>
+					<li><a href="resources.html">Resources</a></li> -->
+				</ol>
+			</nav>
 		</div>
 	</header>
-	<div class="content-box">
-		<nav id="nav" class="nav toc" role="nav">
-			<ol>
-				<li class="is-on"><a href="index.html">Introduction</a>
-					<ul class="toc__sub-sections">
-						<li><a href="#how-to-contribute">How to contribute</a></li>
-					</ul>
-				</li>
-				<li><a href="design-principles.html">Design principles</a>
-					<ul class="toc__sub-sections">
-						<li><a href="#this-is-for-everyone">This is for everyone</a></li>
-						<li><a href="#content-first">Content first</a></li>
-						<li><a href="#open-to-collaboration">Open to collaboration</a></li>
-						<li><a href="#trustworthy-yet-joyful">Trustworthy yet joyful</a></li>
-						<li><a href="#design-for-consistency">Design for consistency</a></li>
-					</ul>
-				</li>
-				<li><a href="visual-style.html">Visual style</a>
-					<ul class="toc__sub-sections">
-						<li><a href="#core-visual-identity">Core visual identity</a></li>
-						<li><a href="#colors">Colors</a></li>
-						<li><a href="#typography">Typography</a></li>
-					</ul>
-				</li>
-			</ol>
-		</nav>
-		<main id="content" class="content" role="main">
-			<h1>Introduction</h1>
-			<p>Wikimedia is a global movement built by a diverse audience.</p>
-			<p>This guide provides a general design direction that can be useful for different kinds of interactive projects. Designers and developers will find design recommendations to solve general problems, so that they can focus on the specific needs of their projects.</p>
-			<p>This is an ongoing work, you can always check online <a href="https://wikimedia.github.io/WikimediaUI-Style-Guide/">the latest released version of the guide</a>. You can help making it grow.</p>
+	<div class="page">
+		<div class="content-box container">
+			<div class="col-xs-hidden col-sm-4 col-md-3">
+				<nav id="nav" class="nav toc" role="nav">
+					<ol>
+						<li class="is-on"><a href="index.html">Introduction</a>
+							<ul class="toc__sub-sections">
+								<li><a href="#how-to-contribute">How to contribute</a></li>
+							</ul>
+						</li>
+						<li><a href="design-principles.html">Design principles</a>
+							<ul class="toc__sub-sections">
+								<li><a href="#this-is-for-everyone">This is for everyone</a></li>
+								<li><a href="#content-first">Content first</a></li>
+								<li><a href="#open-to-collaboration">Open to collaboration</a></li>
+								<li><a href="#trustworthy-yet-joyful">Trustworthy yet joyful</a></li>
+								<li><a href="#design-for-consistency">Design for consistency</a></li>
+							</ul>
+						</li>
+						<li><a href="visual-style.html">Visual style</a>
+							<ul class="toc__sub-sections">
+								<li><a href="#principles">Principles</a></li>
+								<li><a href="#colors">Colors</a></li>
+								<li><a href="#typography">Typography</a></li>
+								<li><a href="#iconography">Iconography</a></li>
+								<li><a href="#imagery">Imagery</a></li>
+								<li><a href="#illustrations">Illustrations</a></li>
+							</ul>
+						</li>
+						<!-- <li><a href="components.html">Components</a></li>
+						<li><a href="patterns.html">Patterns</a></li>
+						<li><a href="resources.html">Resources</a></li> -->
+					</ol>
+				</nav>
+			</div>
+			<div class="col-xs-12 col-sm-8 col-md-9 col-md-offset-0">
+				<main id="content" class="content" role="main">
+					<h1 class="title">Introduction</h1>
+					<p>Wikimedia is a global movement built by a diverse audience.</p>
+					<p>This guide provides a general design direction that can be useful for different kinds of interactive projects. Designers and developers will find design recommendations to solve general problems, so that they can focus on the specific needs of their projects.</p>
+					<p>This is an ongoing work, you can always check online <a href="https://wikimedia.github.io/WikimediaUI-Style-Guide/">the latest released version of the guide</a>. You can help making it grow.</p>
 
-			<section id="how-to-contribute">
-				<h2>How to contribute</h2>
-				<p>You can participate in many ways. The documentation is available in a Git repository with the design assets needed for your project. You can get all of them, change anything and send the changes back.</p>
+					<section id="how-to-contribute">
+						<h2>How to contribute</h2>
+						<p>You can participate in many ways. The documentation is available in a Git repository with the design assets needed for your project. You can get all of them, change anything and send the changes back.</p>
 
-				<h3>Getting the design repository</h3>
-				The <a href="https://github.com/wikimedia/WikimediaUI-Style-Guide/">WikimediaUI Style Guide repository is available to download</a>. It contains this documentation, templates and further design resources. Select the “clone or download” button to get the repository.
+						<h3>Getting the design repository</h3>
+						<p>The <a href="https://github.com/wikimedia/WikimediaUI-Style-Guide/">WikimediaUI Style Guide repository is available to download</a>. It contains this documentation, templates and further design resources. Select the “clone or download” button to get the repository.</p>
 
-				<h3>Committing changes</h3>
-				<p>If you have <a href="https://en.wikipedia.org/wiki/Git">Git</a> installed on your system, <a href="https://help.github.com/articles/cloning-a-repository/">cloning</a> is preferred way to get the contents since it allows you to contribute back. Technically changes can be submitted as usual in Git.</p>
-				<p>In order to publish the updated contents to be available live, go to the repo and launch the following command from a terminal: <code>git push -f origin master:gh-pages</code></p>
+						<h3>Committing changes</h3>
+						<p>If you have <a href="https://en.wikipedia.org/wiki/Git">Git</a> installed on your system, <a href="https://help.github.com/articles/cloning-a-repository/">cloning</a> is preferred way to get the contents since it allows you to contribute back. Technically changes can be submitted as usual in Git.</p>
+						<p>In order to publish the updated contents to be available live, go to the repo and launch the following command from a terminal: <code>git push -f origin master:gh-pages</code></p>
 
-				<h3>Changes beyond content</h3>
-				<p>With the above instructions you can easily modify the content of the guidelines by adding new recommendations, making corrections or adding examples in the form of images or videos. Furthermore, you can also help improving how this documentation looks and works.</p>
-				<p>When modifying aspects such as the CSS styling you'll need to rebuild the documentation files using <a href="http://gruntjs.com/">Grunt</a> (which requires <a href="https://docs.npmjs.com/getting-started/installing-node">Node.js and npm</a>). The first time you have to run <code>npm install</code> in a terminal from the guideline main folder in order to get all the needed dependencies. Every time you want to rebuild the CSS files for the documentation you just need to launch the <code>grunt</code> command in a terminal, also from the main folder.<br>
-				We're using <a href="http://stylelint.io/">stylelint</a> to ensure the CSS <a href="https://github.com/wikimedia/stylelint-config-wikimedia/">aligns with our</a> <a href="https://www.mediawiki.org/wiki/Manual:Coding_conventions/CSS">coding conventions</a>.</p>
-				<p>These are requirements to provide our contributors a reliable environment and our viewers a performant experience.</p>
-			</section>
-		</main>
+						<h3>Changes beyond content</h3>
+						<p>With the above instructions you can easily modify the content of the guidelines by adding new recommendations, making corrections or adding examples in the form of images or videos. Furthermore, you can also help improving how this documentation looks and works.</p>
+						<p>When modifying aspects such as the CSS styling you'll need to rebuild the documentation files using <a href="http://gruntjs.com/">Grunt</a> (which requires <a href="https://docs.npmjs.com/getting-started/installing-node">Node.js and npm</a>). The first time you have to run <code>npm install</code> in a terminal from the guideline main folder in order to get all the needed dependencies. Every time you want to rebuild the CSS files for the documentation you just need to launch the <code>grunt</code> command in a terminal, also from the main folder.<br>
+						We're using <a href="http://stylelint.io/">stylelint</a> to ensure the CSS <a href="https://github.com/wikimedia/stylelint-config-wikimedia/">aligns with our</a> <a href="https://www.mediawiki.org/wiki/Manual:Coding_conventions/CSS">coding conventions</a>.</p>
+						<p>These are requirements to provide our contributors a reliable environment and our viewers a performant experience.</p>
+					</section>
+				</main>
+			</div>
+		</div>
+		<footer id="footer" class="footer">
+			Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.
+		</footer>
 	</div>
-	<footer id="footer" class="footer box">
-		Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.
-	</footer>
 </body>
 </html>
