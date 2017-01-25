@@ -1613,6 +1613,10 @@ code {
 /* ::: Structure ::: */
 .header {
 	background-color: #eaecf0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 	min-height: 6.4rem;
 	line-height: 6.4rem;
 }
@@ -1733,6 +1737,9 @@ code {
 	}
 /* ... Content ... */
 .page {
+	background-color: #fff;
+	position: relative;
+	margin-top: 6.4rem;
 	padding-bottom: 3.2rem;
 	padding-top: 6.4rem;
 	-webkit-box-shadow: 0 1px 4px 0 rgba( 0, 0, 0, 0.25 );
@@ -1921,11 +1928,6 @@ code {
 	.header-right {
 		width: 100%;
 		text-align: center;
-	}
-
-	img {
-		margin-left: -1.6rem;
-		margin-right: -1.6rem;
 	}
 }
 @media ( max-width: 720px ) {
