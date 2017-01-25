@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--[if lte IE 8 ]><html lang="en" class="js-off lte-ie8"><![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="js-off ie9"><![endif]-->
+<!--[if IE 9 ]>	<html lang="en" class="js-off ie9"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html lang="en" class="js-off">
 <!--<![endif]-->
@@ -20,81 +20,132 @@
 </head>
 <body>
 	<header id="header" class="header" role="banner">
-		<div class="box">
-			<a href="#content" class="is-aural is-focusable">Jump to content</a>
-			<a href="#nav" class="is-aural is-focusable">Jump to navigation</a>
-			<h1 class="site__title">Wikimedia User Interface Style Guide</h1>
+		<div class="container">
+			<div class="col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-0">
+				<a href="#content" class="is-aural is-focusable">Jump to content</a>
+				<a href="#nav" class="is-aural is-focusable">Jump to navigation</a>
+				<h1 class="site__title"><a href="./"><span class="site__logo"></span>Wikimedia Style Guide</a></h1>
+			</div>
+			<div class="col-xs-hidden col-sm-5">
+				<a href="https://github.com/wikimedia/WikimediaUI-Style-Guide" class="lnk--contribute">Contribute on Github</a>
+			</div>
+		</div>
+		<div class="header-navbar" class="navbar-collapse">
+			<label for="header-navbar-boolean">
+				<span class="hidden-desktop"></span>
+			</label>
+			<input type="checkbox" id="header-navbar-boolean" class="header-navbar-boolean">
+			<nav class="nav toc" role="nav">
+				<ol>
+					<li><a href="index.html">Introduction</a>
+						<ul class="toc__sub-sections">
+							<li><a href="#how-to-contribute">How to contribute</a></li>
+						</ul>
+					</li>
+					<li class="is-on"><a href="design-principles.html">Design principles</a>
+						<ul class="toc__sub-sections">
+							<li><a href="#this-is-for-everyone">This is for everyone</a></li>
+							<li><a href="#content-first">Content first</a></li>
+							<li><a href="#open-to-collaboration">Open to collaboration</a></li>
+							<li><a href="#trustworthy-yet-joyful">Trustworthy yet joyful</a></li>
+							<li><a href="#design-for-consistency">Design for consistency</a></li>
+						</ul>
+					</li>
+					<li><a href="visual-style.html">Visual style</a>
+						<ul class="toc__sub-sections">
+							<li><a href="#core-visual-identity">Core visual identity</a></li>
+							<li><a href="#colors">Colors</a></li>
+							<li><a href="#typography">Typography</a></li>
+						</ul>
+					</li>
+					<!-- <li><a href="components.html">Components</a></li>
+					<li><a href="patterns.html">Patterns</a></li>
+					<li><a href="resources.html">Resources</a></li> -->
+				</ol>
+			</nav>
 		</div>
 	</header>
-	<div class="content-box">
-		<nav id="nav" class="nav toc" role="nav">
-			<ol>
-				<li><a href="index.html">Introduction</a>
-					<ul class="toc__sub-sections">
-						<li><a href="#how-to-contribute">How to contribute</a></li>
-					</ul>
-				</li>
-				<li class="is-on"><a href="design-principles.html">Design principles</a>
-					<ul class="toc__sub-sections">
-						<li><a href="#this-is-for-everyone">This is for everyone</a></li>
-						<li><a href="#content-first">Content first</a></li>
-						<li><a href="#open-to-collaboration">Open to collaboration</a></li>
-						<li><a href="#trustworthy-yet-joyful">Trustworthy yet joyful</a></li>
-						<li><a href="#design-for-consistency">Design for consistency</a></li>
-					</ul>
-				</li>
-				<li><a href="visual-style.html">Visual style</a>
-					<ul class="toc__sub-sections">
-						<li><a href="#core-visual-identity">Core visual identity</a></li>
-						<li><a href="#colors">Colors</a></li>
-						<li><a href="#typography">Typography</a></li>
-					</ul>
-				</li>
-			</ol>
-		</nav>
-		<main id="content" class="content" role="main">
-			<h1>Design principles</h1>
-		    <p>When making design decisions, you need to choose among possible solutions. Design principles help you to decide what to prioritize for.</p>
+	<div class="page">
+		<div class="content-box container">
+			<div class="col-xs-hidden col-sm-4 col-md-3">
+				<nav id="nav" class="nav toc" role="nav">
+					<ol>
+						<li class="is-on"><a href="index.html">Introduction</a>
+							<ul class="toc__sub-sections">
+								<li><a href="#how-to-contribute">How to contribute</a></li>
+							</ul>
+						</li>
+						<li><a href="design-principles.html">Design principles</a>
+							<ul class="toc__sub-sections">
+								<li><a href="#this-is-for-everyone">This is for everyone</a></li>
+								<li><a href="#content-first">Content first</a></li>
+								<li><a href="#open-to-collaboration">Open to collaboration</a></li>
+								<li><a href="#trustworthy-yet-joyful">Trustworthy yet joyful</a></li>
+								<li><a href="#design-for-consistency">Design for consistency</a></li>
+							</ul>
+						</li>
+						<li><a href="visual-style.html">Visual style</a>
+							<ul class="toc__sub-sections">
+								<li><a href="#principles">Principles</a></li>
+								<li><a href="#colors">Colors</a></li>
+								<li><a href="#typography">Typography</a></li>
+								<li><a href="#iconography">Iconography</a></li>
+								<li><a href="#imagery">Imagery</a></li>
+								<li><a href="#illustrations">Illustrations</a></li>
+							</ul>
+						</li>
+						<!-- <li><a href="components.html">Components</a></li>
+						<li><a href="patterns.html">Patterns</a></li>
+						<li><a href="resources.html">Resources</a></li> -->
+					</ol>
+				</nav>
+			</div>
+			<div class="col-xs-12 col-sm-8 col-md-9 col-md-offset-0">
+				<main id="content" class="content" role="main">
+					<h1>Design principles</h1>
+					<p>When making design decisions, you need to choose among possible solutions. Design principles help you to decide what to prioritize for.</p>
 
-				<p>The identified design principles are captured below. Find more <a href="https://meta.wikimedia.org/wiki/Design"> details at Wikimedia Meta-Wiki, Design</a>.</p>
+					<p>The identified design principles are captured below. Find more <a href="https://meta.wikimedia.org/wiki/Design"> details at Wikimedia Meta-Wiki, Design</a>.</p>
 
-		    <section id="this-is-for-everyone">
-		      <h2>This is for everyone</h2>
-		      <p>We aim to support a very diverse audience as a core part of our mission. It's a priority to help users overcome the different barriers between them and the knowledge our projects provide. These barriers include accessibility, language, device capabilities, network, and peoples’ technical expertise — among others. When improving the experience for a given group of people, we need to make sure we are not increasing the barriers for others.</p>
-					<figure>
-						<img src="img/Wikimania_2016_-_group_photo_03.jpg" alt="Wikimania 2016 atendees">
-					  <figcaption><a href="https://commons.wikimedia.org/wiki/File:Wikimania_2016_-_group_photo_03.jpg">Group photo</a> during Wikimania 2016 in Esinio Lario with volunteers attending from all around the world.</figcaption>
-					</figure>
-		    </section>
+					<section id="this-is-for-everyone">
+						<h2>This is for everyone</h2>
+						<p>We aim to support a very diverse audience as a core part of our mission. It's a priority to help users overcome the different barriers between them and the knowledge our projects provide. These barriers include accessibility, language, device capabilities, network, and peoples’ technical expertise — among others. When improving the experience for a given group of people, we need to make sure we are not increasing the barriers for others.</p>
+							<figure>
+								<img src="img/Wikimania_2016_-_group_photo_03.jpg" alt="Wikimania 2016 atendees">
+								<figcaption><a href="https://commons.wikimedia.org/wiki/File:Wikimania_2016_-_group_photo_03.jpg">Group photo</a> during Wikimania 2016 in Esino Lario with volunteers attending from all around the world.</figcaption>
+							</figure>
+					</section>
 
-		    <section id="content-first">
-		      <h2>Content first</h2>
-		      <p>People come to Wikimedia projects for their content, and our solutions should facilitate its creation, consumption, and sharing—without getting in the way. Our content (facts, images, quotes, etc.) is our most representative element, and needs to be emphasized in our solutions.</p>
-					<figure>
-						<img src="img/Wikipedia_15_T-shirts_Print_1.svg" alt="Wikipedia 15 T-shirt design">
-					  <figcaption>This <a href="https://commons.wikimedia.org/wiki/File:Wikipedia_15_T-shirts_Print_1.svg">design for a Wikipedia t-shirt</a> by Astro Design emphasises Wikipedia content to represent the project.</figcaption>
-					</figure>
+					<section id="content-first">
+						<h2>Content first</h2>
+						<p>People come to Wikimedia projects for their content, and our solutions should facilitate its creation, consumption, and sharing—without getting in the way. Our content (facts, images, quotes, etc.) is our most representative element, and needs to be emphasized in our solutions.</p>
+							<figure>
+								<img src="img/Wikipedia_15_T-shirts_Print_1.svg" alt="Wikipedia 15 T-shirt design">
+								<figcaption>This <a href="https://commons.wikimedia.org/wiki/File:Wikipedia_15_T-shirts_Print_1.svg">design for a Wikipedia t-shirt</a> by Astro Design emphasises Wikipedia content to represent the project.</figcaption>
+							</figure>
 
-		    </section>
+					</section>
 
-		    <section id="open-to-collaboration">
-		      <h2>Open to collaboration</h2>
-		      <p>Our projects are collaborative. Discussion and sharing are key factors to consider. To support diversity and a global mission, our solutions need to provide room for extension and customization to particular needs and different perspectives.</p>
-		    </section>
+					<section id="open-to-collaboration">
+						<h2>Open to collaboration</h2>
+						<p>Our projects are collaborative. Discussion and sharing are key factors to consider. To support diversity and a global mission, our solutions need to provide room for extension and customization to particular needs and different perspectives.</p>
+					</section>
 
-		    <section id="trustworthy-yet-joyful">
-		      <h2>Trustworthy yet joyful</h2>
-		      <p>Wikimedia projects provide reliable educational knowledge. At the same time, our projects are a source of entertainment and satisfy human curiosity. This requires us to find the right balance: we need to convey trust with our solutions but still remain entertaining and fresh.</p>
-		    </section>
+					<section id="trustworthy-yet-joyful">
+						<h2>Trustworthy yet joyful</h2>
+						<p>Wikimedia projects provide reliable educational knowledge. At the same time, our projects are a source of entertainment and satisfy human curiosity. This requires us to find the right balance: we need to convey trust with our solutions but still remain entertaining and fresh.</p>
+					</section>
 
-		    <section id="design-for-consistency">
-		      <h2>Design for consistency</h2>
-		      <p>In order to facilitate understanding it is important to rely on familiar concepts. Keeping consistency within our designs, and maintaining common patterns helps people relate quickly and orientate easily.</p>
-		    </section>
-		</main>
+					<section id="design-for-consistency">
+						<h2>Design for consistency</h2>
+						<p>In order to facilitate understanding it is important to rely on familiar concepts. Keeping consistency within our designs, and maintaining common patterns helps people relate quickly and orientate easily.</p>
+					</section>
+				</main>
+			</div>
+		</div>
+		<footer id="footer" class="footer">
+			Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.
+		</footer>
 	</div>
-	<footer id="footer" class="footer box">
-		Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.
-	</footer>
 </body>
 </html>

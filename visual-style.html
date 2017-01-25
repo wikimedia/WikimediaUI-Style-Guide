@@ -20,209 +20,258 @@
 </head>
 <body>
 	<header id="header" class="header" role="banner">
-		<div class="box">
-			<a href="#content" class="is-aural is-focusable">Jump to content</a>
-			<a href="#nav" class="is-aural is-focusable">Jump to navigation</a>
-			<h1 class="site__title">Wikimedia User Interface Style Guide</h1>
+		<div class="container">
+			<div class="col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-0">
+				<a href="#content" class="is-aural is-focusable">Jump to content</a>
+				<a href="#nav" class="is-aural is-focusable">Jump to navigation</a>
+				<h1 class="site__title"><a href="./"><span class="site__logo"></span>Wikimedia Style Guide</a></h1>
+			</div>
+			<div class="col-xs-hidden col-sm-5">
+				<a href="https://github.com/wikimedia/WikimediaUI-Style-Guide" class="lnk--contribute">Contribute on Github</a>
+			</div>
+		</div>
+		<div class="header-navbar" class="navbar-collapse">
+			<label for="header-navbar-boolean">
+				<span class="hidden-desktop"></span>
+			</label>
+			<input type="checkbox" id="header-navbar-boolean" class="header-navbar-boolean">
+			<nav class="nav toc" role="nav">
+				<ol>
+					<li><a href="index.html">Introduction</a>
+						<ul class="toc__sub-sections">
+							<li><a href="#how-to-contribute">How to contribute</a></li>
+						</ul>
+					</li>
+					<li><a href="design-principles.html">Design principles</a>
+						<ul class="toc__sub-sections">
+							<li><a href="#this-is-for-everyone">This is for everyone</a></li>
+							<li><a href="#content-first">Content first</a></li>
+							<li><a href="#open-to-collaboration">Open to collaboration</a></li>
+							<li><a href="#trustworthy-yet-joyful">Trustworthy yet joyful</a></li>
+							<li><a href="#design-for-consistency">Design for consistency</a></li>
+						</ul>
+					</li>
+					<li class="is-on"><a href="visual-style.html">Visual style</a>
+						<ul class="toc__sub-sections">
+							<li><a href="#core-visual-identity">Core visual identity</a></li>
+							<li><a href="#colors">Colors</a></li>
+							<li><a href="#typography">Typography</a></li>
+						</ul>
+					</li>
+					<!-- <li><a href="components.html">Components</a></li>
+					<li><a href="patterns.html">Patterns</a></li>
+					<li><a href="resources.html">Resources</a></li> -->
+				</ol>
+			</nav>
 		</div>
 	</header>
-	<div class="content-box">
-		<nav id="nav" class="nav toc" role="nav">
-			<ol>
-				<li><a href="index.html">Introduction</a>
-					<ul>
-						<li><a href="#how-to-contribute">How to contribute</a></li>
-					</ul>
-				</li>
-				<li><a href="design-principles.html">Design principles</a>
-					<ul class="toc__sub-sections">
-						<li><a href="#this-is-for-everyone">This is for everyone</a></li>
-						<li><a href="#content-first">Content first</a></li>
-						<li><a href="#open-to-collaboration">Open to collaboration</a></li>
-						<li><a href="#trustworthy-yet-joyful">Trustworthy yet joyful</a></li>
-						<li><a href="#design-for-consistency">Design for consistency</a></li>
-					</ul>
-				</li>
-				<li class="is-on"><a href="visual-style.html">Visual style</a>
-					<ul class="toc__sub-sections">
-						<li><a href="#core-visual-identity">Core visual identity</a></li>
-						<li><a href="#colors">Colors</a></li>
-						<li><a href="#typography">Typography</a></li>
-						<li><a href="#icons">Icons</a></li>
-					</ul>
-				</li>
-			</ol>
-		</nav>
-		<main id="content" class="content" role="main">
-			<h1>Visual Style</h1>
-			<p>Wikimedia projects are associated with learning, editorship, and books. They are neutral and transparent. They are about reading and writing. They remind you of ink and paper.</p>
-
-			<section id="colors">
-				<h2>Colors</h2>
-				<p>The <a href="https://phabricator.wikimedia.org/M82" target="_blank">color palette</a> represents our character and brings a hint of freshness to our products.</p>
-
-				<img src="img/Color-palette-2017-01-15.png" alt="color palette">
-
-				<p>Making the content readable for everyone was our main goal. Accessibility considerations have been our top priority. Each color in the palette indicates its <a href="https://www.w3.org/WAI/intro/wcag" target="_blank" title="Web Content Accessibility Guidelines 2.0">WCAG</a> conformance level (“AA” or “AAA”). It's based on colors' contrast against white or black.</p>
-
-				<h3>Base colors</h3>
-				<p>Base colors define the content surface and the main color for content. Different shades of paper and ink are useful to emphasise or de-emphasise different content areas.</p>
-				<p>Base colors go from pure white (Base100) to true black (Base0). Intermediate shades of grey include a tint of blue for greater harmony with our accent color.</p>
-				<p>When applying text on a surface, you need to <a href="http://webaim.org/resources/contrastchecker/" target="_blank">check the color contrast</a> between the text and the background: </p>
-				<ul>
-					<li>Base100…50 are safe text colors for a black surface.</li>
-					<li>Base50…0 are safe text colors for a white surface. </li>
-				</ul>
-				<div class="color-palette color-section">
+	<div class="page">
+		<div class="content-box container">
+			<div class="col-xs-hidden col-sm-4 col-md-3">
+				<nav id="nav" class="nav toc" role="nav">
 					<ol>
-						<li>
-							<strong class="color-name">Base100</strong>
-							<div class="color-swatch" style="background-color: #fff;">
-								<code class="color-code color-hex">#fff</code>
-								<code class="color-code color-rgb">RGB 255, 255, 255</code>
-								<code class="color-code color-hsb">HSB 0, 0%, 100%</code>
-								<span class="color-wcag-level">AAA</span>
-							</div>
+						<li><a href="index.html">Introduction</a>
+							<ul class="toc__sub-sections">
+								<li><a href="#how-to-contribute">How to contribute</a></li>
+							</ul>
 						</li>
-						<li>
-							<strong class="color-name">Base90</strong>
-							<div class="color-swatch" style="background-color: #f8f9fa;">
-								<code class="color-code color-hex">#f8f9fa</code>
-								<code class="color-code color-rgb">RGB 248, 249, 250</code>
-								<code class="color-code color-hsb">HSB 210, 1%, 98%</code>
-								<span class="color-wcag-level">AAA</span>
-							</div>
-background</span>
+						<li><a href="design-principles.html">Design principles</a>
+							<ul class="toc__sub-sections">
+								<li><a href="#this-is-for-everyone">This is for everyone</a></li>
+								<li><a href="#content-first">Content first</a></li>
+								<li><a href="#open-to-collaboration">Open to collaboration</a></li>
+								<li><a href="#trustworthy-yet-joyful">Trustworthy yet joyful</a></li>
+								<li><a href="#design-for-consistency">Design for consistency</a></li>
+							</ul>
 						</li>
-						<li>
-							<strong class="color-name">Base80</strong>
-							<div class="color-swatch" style="background-color: #eaecf0;">
-								<code class="color-code color-hex">#eaecf0</code>
-								<code class="color-code color-rgb">RGB 234, 236, 240</code>
-								<code class="color-code color-hsb">HSB 220, 3%, 94%</code>
-								<span class="color-wcag-level">AAA</span>
-							</div>
-background</span>
+						<li class="is-on"><a href="visual-style.html">Visual style</a>
+							<ul class="toc__sub-sections">
+								<li><a href="#principles">Principles</a></li>
+								<li><a href="#colors">Colors</a></li>
+								<li><a href="#typography">Typography</a></li>
+								<li><a href="#iconography">Iconography</a></li>
+								<li><a href="#imagery">Imagery</a></li>
+								<li><a href="#illustrations">Illustrations</a></li>
+							</ul>
 						</li>
-						<li>
-							<strong class="color-name">Base70</strong>
-							<div class="color-swatch" style="background-color: #c8ccd1;">
-								<code class="color-code color-hex">#c8ccd1</code>
-								<code class="color-code color-rgb">RGB 200, 204, 209</code>
-								<code class="color-code color-hsb">HSB 213, 4%, 82%</code>
-								<span class="color-wcag-level">AAA</span>
-							</div>
-						</li>
-						<li>
-							<strong class="color-name">Base50</strong>
-							<div class="color-swatch" style="background-color: #a2a9b1;">
-								<code class="color-code color-hex">#a2a9b1</code>
-								<code class="color-code color-rgb">RGB 162, 169, 177</code>
-								<code class="color-code color-hsb">HSB 212, 8%, 69%</code>
-								<span class="color-wcag-level">AAA</span>
-							</div>
-						</li>
-						<li>
-							<strong class="color-name">Base30</strong>
-							<div class="color-swatch" style="background-color: #72777d;">
-								<code class="color-code color-hex">#72777d</code>
-								<code class="color-code color-rgb">RGB 114, 119, 125</code>
-								<code class="color-code color-hsb">HSB 210, 9%, 49%</code>
-								<span class="color-wcag-level">AA / <span class="color-dark">AA</span></span>
-							</div>
-						</li>
-						<li>
-							<strong class="color-name">Base20</strong>
-							<div class="color-swatch color-dark" style="background-color: #54595d;">
-								<code class="color-code color-hex">#54595d</code>
-								<code class="color-code color-rgb">RGB 84, 89, 93</code>
-								<code class="color-code color-hsb">HSB 207, 10%, 36%</code>
-								<span class="color-wcag-level">AAA</span>
-							</div>
-						</li>
-						<li>
-							<strong class="color-name">Base10</strong>
-							<div class="color-swatch color-dark" style="background-color: #222;">
-								<code class="color-code color-hex">#222</code>
-								<code class="color-code color-rgb">RGB 34, 34, 34</code>
-								<code class="color-code color-hsb">HSB 0, 0%, 13%</code>
-								<span class="color-wcag-level">AAA</span>
-							</div>
-						</li>
-						<li>
-							<strong class="color-name">Base0</strong>
-							<div class="color-swatch color-dark" style="background-color: #000;">
-								<code class="color-code color-hex">#000</code>
-								<code class="color-code color-rgb">RGB 0, 0, 0</code>
-								<code class="color-code color-hsb">HSB 0, 0%, 0%</code>
-								<span class="color-wcag-level">AAA</span>
-							</div>
-						</li>
+						<!-- <li><a href="components.html">Components</a></li>
+						<li><a href="patterns.html">Patterns</a></li>
+						<li><a href="resources.html">Resources</a></li> -->
 					</ol>
-				</div>
-				<!--<img src="img/colors-base.png" alt="Base colors">-->
+				</nav>
+			</div>
+			<div class="col-xs-12 col-sm-8 col-md-9 col-md-offset-0">
+				<main id="content" class="content" role="main">
+					<h1 class="page__title">Visual Style</h1>
+					<p>Wikimedia projects are associated with learning, editorship, and books. They are neutral and transparent. They are about reading and writing. They remind you of ink and paper.</p>
 
-				<h3>Accent colors</h3>
-				<p>Accent colors are used to emphasise actions and highlight key information. Blue is a natural choice in our context, where it has been the default color used for links, conveying the idea of action.</p>
-				<p>There are three shades provided for situations where you need a lighter (Accent90), regular (Accent50) or darker (Accent10) version.</p>
-				<p>Accent50 provides a blue which is suitable to be used for text and as background. When used as link text  it provides sufficient contrast with black text to notice the difference. When used as background, it provides enough contrast with white text to keep the text readable.</p>
-				<img src="img/colors-accent.png" alt="Accent colors">
+					<section id="colors">
+						<h2>Colors</h2>
+						<p>The <a href="https://phabricator.wikimedia.org/M82" target="_blank">color palette</a> represents our character and brings a hint of freshness to our products.</p>
 
-				<h3>Utility colors</h3>
-				<p>Red, green and yellow are Utility colors. They can act as accent colors bringing the additional meaning that is commonly associated with them.</p>
-				<p>INTENTIONS</p>
-				<img src="img/colors-Utility.png" alt="Utility colors">
+						<img src="img/Color-palette-2017-01-15.png" alt="color palette">
 
-				<h3>Additional colors</h3>
-				<p>For some uses such as charts and data visualisation, a broader color palette may be needed. When extending the default palette with new colors, make sure to aim for level AA contrast with other colors according to their use, and how they are perceived for different color-blind conditions.</p>
-			</section>
+						<p>Making the content readable for everyone was our main goal. Accessibility considerations have been our top priority. Each color in the palette indicates its <a href="https://www.w3.org/WAI/intro/wcag" target="_blank" title="Web Content Accessibility Guidelines 2.0">WCAG</a> conformance level (“AA” or “AAA”). It's based on colors' contrast against white or black.</p>
 
-			<section id="typography">
-				<h2>Typography</h2>
+						<h3>Base colors</h3>
+						<p>Base colors define the content surface and the main color for content. Different shades of paper and ink are useful to emphasise or de-emphasise different content areas.</p>
+						<p>Base colors go from pure white (Base100) to true black (Base0). Intermediate shades of grey include a tint of blue for greater harmony with our accent color.</p>
+						<p>When applying text on a surface, you need to <a href="http://webaim.org/resources/contrastchecker/" target="_blank">check the color contrast</a> between the text and the background: </p>
+						<ul>
+							<li>Base100…50 are safe text colors for a black surface.</li>
+							<li>Base50…0 are safe text colors for a white surface. </li>
+						</ul>
+						<div class="color-palette color-section">
+							<ol>
+								<li>
+									<strong class="color-name">Base100</strong>
+									<div class="color-swatch" style="background-color: #fff;">
+										<code class="color-code color-hex">#fff</code>
+										<code class="color-code color-rgb">RGB 255, 255, 255</code>
+										<code class="color-code color-hsb">HSB 0, 0%, 100%</code>
+										<span class="color-wcag-level">AAA</span>
+									</div>
+								</li>
+								<li>
+									<strong class="color-name">Base90</strong>
+									<div class="color-swatch" style="background-color: #f8f9fa;">
+										<code class="color-code color-hex">#f8f9fa</code>
+										<code class="color-code color-rgb">RGB 248, 249, 250</code>
+										<code class="color-code color-hsb">HSB 210, 1%, 98%</code>
+										<span class="color-wcag-level">AAA</span>
+									</div>
+		background</span>
+								</li>
+								<li>
+									<strong class="color-name">Base80</strong>
+									<div class="color-swatch" style="background-color: #eaecf0;">
+										<code class="color-code color-hex">#eaecf0</code>
+										<code class="color-code color-rgb">RGB 234, 236, 240</code>
+										<code class="color-code color-hsb">HSB 220, 3%, 94%</code>
+										<span class="color-wcag-level">AAA</span>
+									</div>
+		background</span>
+								</li>
+								<li>
+									<strong class="color-name">Base70</strong>
+									<div class="color-swatch" style="background-color: #c8ccd1;">
+										<code class="color-code color-hex">#c8ccd1</code>
+										<code class="color-code color-rgb">RGB 200, 204, 209</code>
+										<code class="color-code color-hsb">HSB 213, 4%, 82%</code>
+										<span class="color-wcag-level">AAA</span>
+									</div>
+								</li>
+								<li>
+									<strong class="color-name">Base50</strong>
+									<div class="color-swatch" style="background-color: #a2a9b1;">
+										<code class="color-code color-hex">#a2a9b1</code>
+										<code class="color-code color-rgb">RGB 162, 169, 177</code>
+										<code class="color-code color-hsb">HSB 212, 8%, 69%</code>
+										<span class="color-wcag-level">AAA</span>
+									</div>
+								</li>
+								<li>
+									<strong class="color-name">Base30</strong>
+									<div class="color-swatch" style="background-color: #72777d;">
+										<code class="color-code color-hex">#72777d</code>
+										<code class="color-code color-rgb">RGB 114, 119, 125</code>
+										<code class="color-code color-hsb">HSB 210, 9%, 49%</code>
+										<span class="color-wcag-level">AA / <span class="color-dark">AA</span></span>
+									</div>
+								</li>
+								<li>
+									<strong class="color-name">Base20</strong>
+									<div class="color-swatch color-dark" style="background-color: #54595d;">
+										<code class="color-code color-hex">#54595d</code>
+										<code class="color-code color-rgb">RGB 84, 89, 93</code>
+										<code class="color-code color-hsb">HSB 207, 10%, 36%</code>
+										<span class="color-wcag-level">AAA</span>
+									</div>
+								</li>
+								<li>
+									<strong class="color-name">Base10</strong>
+									<div class="color-swatch color-dark" style="background-color: #222;">
+										<code class="color-code color-hex">#222</code>
+										<code class="color-code color-rgb">RGB 34, 34, 34</code>
+										<code class="color-code color-hsb">HSB 0, 0%, 13%</code>
+										<span class="color-wcag-level">AAA</span>
+									</div>
+								</li>
+								<li>
+									<strong class="color-name">Base0</strong>
+									<div class="color-swatch color-dark" style="background-color: #000;">
+										<code class="color-code color-hex">#000</code>
+										<code class="color-code color-rgb">RGB 0, 0, 0</code>
+										<code class="color-code color-hsb">HSB 0, 0%, 0%</code>
+										<span class="color-wcag-level">AAA</span>
+									</div>
+								</li>
+							</ol>
+						</div>
+						<!--<img src="img/colors-base.png" alt="Base colors">-->
 
-				<p>Because so much of Wikipedia and wiki projects rely on writing and reading, typography is a key component of Wikimedia design. You need to consider the typeface, size, style and spacing of your text to make it achieve a good <a href="https://en.wikipedia.org/wiki/Readability">readability</a>.</p>
+						<h3>Accent colors</h3>
+						<p>Accent colors are used to emphasise actions and highlight key information. Blue is a natural choice in our context, where it has been the default color used for links, conveying the idea of action.</p>
+						<p>There are three shades provided for situations where you need a lighter (Accent90), regular (Accent50) or darker (Accent10) version.</p>
+						<p>Accent50 provides a blue which is suitable to be used for text and as background. When used as link text  it provides sufficient contrast with black text to notice the difference. When used as background, it provides enough contrast with white text to keep the text readable.</p>
+						<img src="img/colors-accent.png" alt="Accent colors">
 
-				<p><em>This section is currently under development. See dev branch of this repo for up-to-date discussion results.</em></p>
-			</section>
+						<h3>Utility colors</h3>
+						<p>Red, green and yellow are Utility colors. They can act as accent colors bringing the additional meaning that is commonly associated with them.</p>
+						<p>INTENTIONS</p>
+						<img src="img/colors-Utility.png" alt="Utility colors">
 
-			<section id="icons">
-				<h2>Icons</h2>
-				Icons help convey a message visually.
+						<h3>Additional colors</h3>
+						<p>For some uses such as charts and data visualisation, a broader color palette may be needed. When extending the default palette with new colors, make sure to aim for level AA contrast with other colors according to their use, and how they are perceived for different color-blind conditions.</p>
+					</section>
 
-				<h3>Icon style</h3>
+					<section id="typography">
+						<h2>Typography</h2>
 
-				<img src="img/icons-sample.png" alt="Sample of icons">
+						<p>Because so much of Wikipedia and wiki projects rely on writing and reading, typography is a key component of Wikimedia design. You need to consider the typeface, size, style and spacing of your text to make it achieve a good <a href="https://en.wikipedia.org/wiki/Readability">readability</a>.</p>
 
-				<p>Icons should be simple. They use monochromatic vector-based shapes with the following properties:</p>
+						<p><em>This section is currently under development. See dev branch of this repo for up-to-date discussion results.</em></p>
+					</section>
 
-				<ul>
-					<li><b>Filled areas.</b> Shapes are defined by filled areas as opposed to outlines.</li>
-					<li><b>Rounded corners.</b> Corners are slightly rounded to make shapes more friendly and welcoming, but not too much to look goofy.</li>
-					<li><b>Medium thick strokes.</b> Strokes should be visible at smaller sizes without effort.</li>
-					<li><b>Diagonal cross-out lines.</b> Icons with a cross-out line will have it from the top-left to the bottom right (like “\”).</li>
-				</ul>
+					<section id="icons">
+						<h2>Icons</h2>
+						Icons help convey a message visually.
 
-				<h3>Using icons</h3>
-				<p>The <a href="https://doc.wikimedia.org/oojs-ui/master/demos/#icons-mediawiki-ltr">icon repository</a> provides a list of the currently available icons.</p>
+						<h3>Icon style</h3>
 
-				<p>When using icons you need to consider the size of their target area. Even if icons are presented at a smaller size, you need to make sure that the associated active area is at least 48x48sp. Otherwise users may fail to hit the active area, not getting the expected result.</p>
+						<img src="img/icons-sample.png" alt="Sample of icons">
 
-				<h3>Creating icons</h3>
-				<p>Icons follow a template. The default canvas is 24x24px. In order to allow for optical adjustments, a different margin will be applied depending on the shape of the icon.</p>
+						<p>Icons should be simple. They use monochromatic vector-based shapes with the following properties:</p>
 
-				<figure>
-					<img src="img/icons-optical-adjustment.png" alt="Optical adjustment for icons">
-					<figcaption>Different shapes have a different perceived size. A 1px margin for square shapes is used so that other shapes such as circles can expand to reach a similar perceived size.</figcaption>
-				</figure>
+						<ul>
+							<li><b>Filled areas.</b> Shapes are defined by filled areas as opposed to outlines.</li>
+							<li><b>Rounded corners.</b> Corners are slightly rounded to make shapes more friendly and welcoming, but not too much to look goofy.</li>
+							<li><b>Medium thick strokes.</b> Strokes should be visible at smaller sizes without effort.</li>
+							<li><b>Diagonal cross-out lines.</b> Icons with a cross-out line will have it from the top-left to the bottom right (like “\”).</li>
+						</ul>
 
-				<p>Icons are created using black (<a href="#colors">Base0</a>). Their color can be changed when the icon is used (preferably done automatically by software).</p>
-				<p>The simple style and guidelines make it easy to reuse or adapt existign freely licensed icons that you can find on other repos such as <a href="https://material.io/icons/">material icons</a> or the <a href="https://thenounproject.com/">noun project</a>. You are welcome to use existing icons that align to the proposed style instead of reinventing the wheel icon.</p>
+						<h3>Using icons</h3>
+						<p>The <a href="https://doc.wikimedia.org/oojs-ui/master/demos/#icons-mediawiki-ltr">icon repository</a> provides a list of the currently available icons.</p>
 
-			</section>
-		</main>
+						<p>When using icons you need to consider the size of their target area. Even if icons are presented at a smaller size, you need to make sure that the associated active area is at least 48x48sp. Otherwise users may fail to hit the active area, not getting the expected result.</p>
+
+						<h3>Creating icons</h3>
+						<p>Icons follow a template. The default canvas is 24x24px. In order to allow for optical adjustments, a different margin will be applied depending on the shape of the icon.</p>
+
+						<figure>
+							<img src="img/icons-optical-adjustment.png" alt="Optical adjustment for icons">
+							<figcaption>Different shapes have a different perceived size. A 1px margin for square shapes is used so that other shapes such as circles can expand to reach a similar perceived size.</figcaption>
+						</figure>
+
+						<p>Icons are created using black (<a href="#colors">Base0</a>). Their color can be changed when the icon is used (preferably done automatically by software).</p>
+						<p>The simple style and guidelines make it easy to reuse or adapt existign freely licensed icons that you can find on other repos such as <a href="https://material.io/icons/">material icons</a> or the <a href="https://thenounproject.com/">noun project</a>. You are welcome to use existing icons that align to the proposed style instead of reinventing the wheel icon.</p>
+					</section>
+				</main>
+			</div>
+		</div>
+		<footer id="footer" class="footer">
+			Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.
+		</footer>
 	</div>
-	<footer id="footer" class="footer box">
-		Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.
-	</footer>
 </body>
 </html>

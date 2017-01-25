@@ -1,5 +1,6 @@
 @import 'vendor/wmui-base.css';
 @import 'partials/fonts.css';
+@import 'partials/grid.css';
 @import 'vendor/normalize.css';
 
 * {
@@ -16,7 +17,7 @@ body {
 	margin: 0;
 	font-family: 'Lato', sans-serif; /* FIXME */
 	font-size: 1.6rem;
-	line-height: 1.6;
+	line-height: var( --line-height-base );
 }
 
 /* ::: Text Block-Level Elements ::: */
@@ -32,7 +33,7 @@ h6 {
 }
 
 p {
-	margin: 1.6rem 0 0;
+	margin: 3.2rem 0 0;
 }
 	h1 + p,
 	h2 + p,
@@ -56,11 +57,18 @@ a {
 	color: var( --color-primary );
 	text-decoration: none;
 }
+	a:hover {
+		text-decoration: underline;
+	}
+	a:active {
+		color: var( --color-primary--active );
+	}
 
 code {
 	background-color: var( --background-color-code );
 	display: inline-block;
 	padding: 0.2rem 0.4rem;
+	font-size: 1.4rem;
 }
 
 /* ::: General Classes ::: */
@@ -87,83 +95,243 @@ code {
 		overflow: visible;
 	}
 
+.clearfix:before,
+.clearfix:after,
+.content-box:before,
+.content-box:after {
+	content: ' ';
+	display: table;
+}
+
+.clearfix:after,
+.content-box:after {
+	clear: both;
+}
+
+.col-xs-hidden {
+	display: block;
+}
+
 
 /* ::: Structure ::: */
 .header {
-	background-color: #eaecf0;
-	min-height: 5.6rem;
+	background-color: var( --wmui-color-base80 );
+	min-height: 6.4rem;
+	line-height: 6.4rem;
 }
-	.site__title {
-		color: var( --color-base-emphasized );
-		margin-top: 0;
-		padding-left: 23.2rem;
+
+	.col-sm-5 {
+		text-align: right;
 	}
 
-.content-box,
-.box {
-	max-width: 96rem;
-	margin: 0 auto;
+	.site__title {
+		color: var( --wmui-color-base10 ); /* --color-base-emphasized */
+		margin-top: 0;
+		height: 6.4rem;
+		font-family: 'Lato', sans-serif; /* FIXME: var() */
+		font-size: 1.3rem;
+		font-weight: bold;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+		.site__title a {
+			color: inherit;
+			display: inline-block;
+			line-height: 60px;
+			height: 6.4rem;
+		}
+		.site__title a:hover {
+			color: var( --wmui-color-base10 );
+			text-decoration: none;
+			transition: color var( --transition-medium );
+		}
+
+		.site__logo {
+			background-image: url( '../img/Wikimedia-Foundation-logo.svg' ); /* stylelint-disable-line function-url-quotes */
+			background-size: 24px;
+			display: inline-block;
+			width: 24px;
+			height: 24px;
+			margin-bottom: 6px;
+			margin-right: 10px;
+			vertical-align: middle;
+		}
+
+	/* ... Navbar ... */
+	.header-navbar {
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 1000;
+	}
+
+	.header-navbar label {
+		position: absolute;
+		top: 1em;
+		left: 1em;
+		cursor: pointer;
+	}
+
+	.header-navbar span {
+		position: relative;
+		width: 2em;
+		height: 2em;
+		transition: var( --transition-medium );
+	}
+
+	/** Fake hamburger icon **/
+	.header-navbar span:before,
+	.header-navbar span:after {
+		content: '';
+		background: var( --wmui-color-base20 );
+		width: 2em;
+		height: 2px;
+		position: absolute;
+		top: 8px;
+		left: 0;
+	}
+
+	.header-navbar span:after {
+		top: 20px;
+	}
+
+	/** List of items **/
+	.header-navbar nav {
+		background-color: var( --wmui-color-base90 );
+		display: none;
+		margin-top: 6.4rem;
+	}
+
+	.header-navbar ol,
+	.header-navbar ul {
+		padding: 0;
+	}
+	.header-navbar li:not( .is-on ) ul,
+	.header-navbar-boolean,
+	.hidden-desktop {
+		display: none;
+	}
+
+	.header-navbar li {
+		padding: 0;
+		list-style: none none;
+	}
+
+	.header-navbar nav a {
+		color: var( --wmui-color-base20 );
+		display: block;
+		transition: var( --transition-medium );
+		padding: 0.5em 1em;
+	}
+
+	.header-navbar nav a:hover {
+		color: var( --wmui-color-base10 );
+	}
+
+	.header-navbar nav li.is-on a {
+		color: var( --wmui-color-base10 );
+		font-weight: bold;
+	}
+
+	.header-navbar nav li:hover {
+		background-color: var( --wmui-color-base100 );
+	}
+
+	.lnk--contribute {
+		font-size: 1.4rem;
+	}
+
+
+/* ... Content ... */
+.page {
+	padding-bottom: 3.2rem;
+	padding-top: 6.4rem;
+	box-shadow: 0 1px 4px 0 rgba( 0, 0, 0, 0.25 );
+}
+
+.content-box {
+	/* max-width: 96rem; FIXME: we're getting above 75 chars per line on widescreen*/
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .content {
 	float: left;
-	width: 72.8rem;
+	font-weight: 300; /* 'Lato-Light', sans-serif; FIXME */
 }
 
+/* ... Table of contents (sidebar) ... */
 .toc {
-	float: left;
-	width: 23.2rem;
-	margin-top: 1.2rem;
-	padding: 0 3.2rem 0 0;
+	margin-top: 0.8rem;
 }
 
-	.toc ol,
-	.toc ul {
-		padding: 0;
-	}
+.toc ol,
+.toc ul {
+	padding: 0;
+}
+.toc ol:first-child {
+	margin: 0;
+}
 
-	.toc li {
-		list-style: none none;
-	}
-	.toc li:not( .is-on ) ul {
-		display: none;
-	}
+.toc li {
+	list-style: none none;
+}
+.toc li:not( .is-on ) ul {
+	display: none;
+}
 
-	.toc a {
-		display: block;
-		padding: 0.8rem 1.2rem;
-		font-size: 18px;
-		text-decoration: none;
-		transition: background-color var( --transition-medium );
-	}
-	.toc a:hover,
-	.toc a:focus {
-		background-color: var( --background-color-code );
-	}
-	.toc .is-on > a {
-		background-color: var( --background-color-primary );
-		color: var( --color-primary );
-		border-left: 2px solid var( --color-primary );
-		border-radius: var( --border-radius-base );
-		pointer-events: none;
-		cursor: default;
-	}
+.toc a {
+	color: var( --wmui-color-base10 );
+	display: block;
+	padding: 0.8rem 1.2rem;
+	font-size: 1.6rem;
+	text-decoration: none;
+	transition: background-color var( --transition-medium ), color var( --transition-medium );
+}
+.toc a:hover,
+.toc a:focus {
+	background-color: var( --background-color-code );
+}
+.toc .is-on > a {
+	background-color: var( --background-color-primary );
+	color: var( --color-primary );
+	/* border-left: 2px solid var( --color-primary ); */
+	border-radius: var( --border-radius-base );
+	cursor: default;
+	pointer-events: none;
+}
 
-	.toc__sub-sections a { /* stylelint-disable-line no-descending-specificity */
-		padding-left: 2.4rem;
-		font-size: 16px;
-	}
+.toc__sub-sections {
+	margin-top: 1.2rem;
+	margin-bottom: 1em; /* FIXME: replace with rem and mt */
+}
+.toc__sub-sections li {
+	margin-left: 1em;
+}
+.toc__sub-sections a { /* stylelint-disable-line no-descending-specificity */
+	color: var( --wmui-color-base20 );
+	border-left: 1px solid var( --wmui-color-base80 );
+	padding-left: 2.4rem;
+	font-size: 1.4rem;
+	transition: inherit;
+}
+.toc__sub-sections a:hover { /* stylelint-disable-line no-descending-specificity */
+	color: var( --color-primary );
+}
 
-.footer {
-	clear: both;
-	font-size: 1.2rem;
-	margin-bottom: 2.4rem;
-	padding-top: 2.4rem;
-	padding-left: 23.2rem;
+.toc > ol > li,
+.toc > ul > li {
+	margin-bottom: 0.4rem;
 }
 
 
 /* ::: Content ::: */
+.page__title {
+	margin-top: 0;
+}
+
 /* ... Color ... */
 .color-palette {
 	margin-top: 2.4rem;
@@ -194,7 +362,7 @@ code {
 	font-size: 1.4rem;
 }
 	.color-dark {
-		color: #fff; /* FIXME: variable */
+		color: var( --color-base--inverted );
 	}
 	.color-code {
 		background-color: inherit;
@@ -208,17 +376,85 @@ code {
 
 	.color-wcag-level {
 		display: block;
-		display: block;
 		position: absolute;
 		bottom: 1.2rem;
 		left: 1.2rem;
 	}
 
 	.color-desc {
-		color: #54595d; /* FIXME */
+		color: var( --wmui-color-base20 ); /* FIXME */
 		float: left;
 		display: block;
 		margin-top: 0.8rem;
 		padding: 0 1.2rem;
 		font-size: 1.3rem;
 	}
+
+/* ::: Footer ::: */
+.footer {
+	clear: both;
+	color: var( --wmui-color-base20 );
+	font-size: 1.2rem;
+	padding-top: 3.6rem;
+	text-align: center;
+}
+
+
+/* ::: Media Queries ::: */
+/* Portrait tablet to landscape and desktop */
+@media ( min-width: 768px ) and ( max-width: 979px ) {
+	.box {
+		width: 49%;
+	}
+
+	ul li:nth-child( 3 ) .box {
+		clear: both;
+	}
+
+	ul li:nth-child( 2n ) .box {
+		clear: right;
+		margin-right: 0;
+	}
+}
+
+/* Landscape phones and down */
+@media ( max-width: 767px ) {
+	.hidden-desktop {
+		display: block;
+	}
+
+	.header-navbar nav {
+		display: block;
+		height: 0;
+		overflow: hidden;
+		transition: var( --transition-medium );
+	}
+
+	.header-navbar-boolean:checked + nav {
+		height: 12em;
+	}
+
+	.header-navbar nav > a {
+		display: block;
+		border-bottom: 1px solid rgba( 255, 255, 255, 0.1 );
+		padding: 0 1em;
+	}
+
+	.header-left,
+	.header-right {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
+@media ( max-width: 720px ) {
+	.col-xs-hidden {
+		display: none;
+	}
+
+	.site__title {
+		text-align: center;
+		font-weight: bold;
+	}
+}
