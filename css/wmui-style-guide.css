@@ -307,35 +307,35 @@
 
 	/** Max widths -- FIXME **/
 }
-/** Fixed container **/
-.container {
+/** Fixed box **/
+.content-box {
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: 1.6rem;
 	padding-right: 1.6rem;
 }
 @media ( min-width: 576px ) {
-	.container {
+	.content-box {
 		width: 540px;
 	}
 }
 @media ( min-width: 767px ) {
-	.container {
+	.content-box {
 		width: 720px;
 	}
 }
 @media ( min-width: 992px ) {
-	.container {
+	.content-box {
 		width: 960px;
 	}
 }
 @media ( min-width: 1200px ) {
-	.container {
+	.content-box {
 		width: 1140px;
 	}
 }
 /*
-.container--fluid {
+.content-box--fluid {
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: var( --grid-padding );
@@ -1751,8 +1751,8 @@ code {
 }
 .content-box {
 	/* max-width: 96rem; FIXME: we're getting above 75 chars per line on widescreen*/
-	margin-left: auto;
-	margin-right: auto;
+	/*margin-left: auto;
+	margin-right: auto;*/
 }
 .content {
 	float: left;
@@ -1878,11 +1878,32 @@ code {
 	}
 /* ::: Footer ::: */
 .footer {
-	clear: both;
+	background-color: #eaecf0;
 	color: #54595d;
+	clear: both;
+	padding: 2.4rem 0;
 	font-size: 1.2rem;
-	padding-top: 3.6rem;
-	text-align: center;
+	font-weight: 400;
+}
+.footer__list {
+	margin: 0;
+	padding: 0;
+}
+.footer__list li {
+	float: left;
+	padding-right: 1.6rem;
+}
+.footer__list li:first-child {
+	list-style: none none;
+}
+.footer__list a {
+	font-weight: bold;
+}
+.lnk--wikimedia-project {
+	color: #54595d;
+	display: inline-block;
+	padding: 0.4rem 0;
+	text-transform: uppercase;
 }
 /* ::: Media Queries ::: */
 /* Portrait tablet to landscape and desktop */
