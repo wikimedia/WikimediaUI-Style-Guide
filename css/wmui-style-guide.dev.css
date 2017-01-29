@@ -262,11 +262,11 @@ code {
 	box-shadow: 0 1px 4px 0 rgba( 0, 0, 0, 0.25 );
 }
 
+/*
 .content-box {
-	/* max-width: 96rem; FIXME: we're getting above 75 chars per line on widescreen*/
-	margin-left: auto;
-	margin-right: auto;
+	max-width: 96rem; FIXME: we're getting above 75 chars per line on widescreen
 }
+*/
 
 .content {
 	float: left;
@@ -401,13 +401,35 @@ code {
 
 /* ::: Footer ::: */
 .footer {
-	clear: both;
+	background-color: var( --wmui-color-base80 );
 	color: var( --wmui-color-base20 );
+	clear: both;
+	padding: 2.4rem 0;
 	font-size: 1.2rem;
-	padding-top: 3.6rem;
-	text-align: center;
+	font-weight: 400;
 }
 
+.footer__list {
+	margin: 0;
+	padding: 0;
+}
+.footer__list li {
+	float: left;
+	padding-right: 1.6rem;
+}
+.footer__list li:first-child {
+	list-style: none none;
+}
+.footer__list a {
+	font-weight: bold;
+}
+
+.lnk--wikimedia-project {
+	color: var( --wmui-color-base20 );
+	display: inline-block;
+	padding: 0.4rem 0;
+	text-transform: uppercase;
+}
 
 /* ::: Media Queries ::: */
 /* Portrait tablet to landscape and desktop */

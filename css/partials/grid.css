@@ -21,8 +21,8 @@
 	--grid-maxwidth-xl: 1140px;
 }
 
-/** Fixed container **/
-.container {
+/** Fixed box **/
+.content-box {
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: var( --grid-padding );
@@ -30,31 +30,31 @@
 }
 
 @media ( min-width: 576px ) {
-	.container {
+	.content-box {
 		width: 540px;
 	}
 }
 
 @media ( min-width: 767px ) {
-	.container {
+	.content-box {
 		width: 720px;
 	}
 }
 
 @media ( min-width: 992px ) {
-	.container {
+	.content-box {
 		width: 960px;
 	}
 }
 
 @media ( min-width: 1200px ) {
-	.container {
+	.content-box {
 		width: 1140px;
 	}
 }
 
 /*
-.container--fluid {
+.content-box--fluid {
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: var( --grid-padding );
