@@ -1749,11 +1749,11 @@ code {
 	   -moz-box-shadow: 0 1px 4px 0 rgba( 0, 0, 0, 0.25 );
 	        box-shadow: 0 1px 4px 0 rgba( 0, 0, 0, 0.25 );
 }
+/*
 .content-box {
-	/* max-width: 96rem; FIXME: we're getting above 75 chars per line on widescreen*/
-	/*margin-left: auto;
-	margin-right: auto;*/
+	max-width: 96rem; FIXME: we're getting above 75 chars per line on widescreen
 }
+*/
 .content {
 	float: left;
 	font-weight: 300; /* 'Lato-Light', sans-serif; FIXME */
@@ -1834,8 +1834,8 @@ code {
 .color-palette li {
 	list-style: none none;
 	display: inline-block;
-	width: 19.6rem;
-	margin-right: 1.6rem;
+	width: 16rem;
+	margin-right: 2.4rem;
 	margin-bottom: 3.2rem;
 }
 .color-name {
@@ -1844,7 +1844,7 @@ code {
 }
 .color-swatch {
 	position: relative;
-	height: 19.6rem;
+	height: 16rem;
 	-moz-border-radius: 2px;
 	     border-radius: 2px;
 	padding: 1.2rem;
@@ -1860,7 +1860,7 @@ code {
 		font-family: 'Lato', sans-serif;
 	}
 .color-code:first-child {
-		margin-top: 4.8rem;
+		margin-top: 2.4rem;
 	}
 .color-wcag-level {
 		display: block;
