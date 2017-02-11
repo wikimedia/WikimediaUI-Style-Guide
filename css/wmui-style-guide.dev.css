@@ -28,12 +28,35 @@ h4,
 h5,
 h6 {
 	margin: 3.2rem 0 0;
+	line-height: 1.25;
+	transition: font-size var( --transition-medium ), font-weight var( --transition-medium );
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+}
+
+h1 {
 	font-family: 'Charter', serif; /* FIXME */
-	font-weight: normal; /* FIXME */
+	font-size: 3.2rem;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 2.4rem;
+}
+
+h3 {
+	font-size: 2rem;
 }
 
 p {
 	margin: 3.2rem 0 0;
+	line-height: 1.5;
 }
 	h1 + p,
 	h2 + p,
@@ -138,7 +161,7 @@ code {
 		height: 6.4rem;
 		font-family: 'Lato', sans-serif; /* FIXME: var() */
 		font-size: 1.3rem;
-		font-weight: bold;
+		font-weight: 700;
 		letter-spacing: 1px;
 		text-transform: uppercase;
 	}
@@ -240,7 +263,7 @@ code {
 
 	.header-navbar nav li.is-on a {
 		color: var( --wmui-color-base10 );
-		font-weight: bold;
+		font-weight: 700;
 	}
 
 	.header-navbar nav li:hover {
@@ -270,7 +293,6 @@ code {
 
 .content {
 	float: left;
-	font-weight: 300; /* 'Lato-Light', sans-serif; FIXME */
 }
 
 /* ... Table of contents (sidebar) ... */
@@ -360,7 +382,7 @@ code {
 
 .color-name {
 	padding: 0 1.2rem;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .color-swatch {
@@ -415,17 +437,19 @@ code {
 }
 .footer__list li {
 	float: left;
-	padding-right: 1.6rem;
+	margin-left: 2.4rem;
+	padding: 0;
 }
 .footer__list li:first-child {
 	list-style: none none;
+	margin-left: 0;
 }
 .footer__list a {
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .lnk--wikimedia-project {
-	color: var( --wmui-color-base20 );
+	/* color: var( --wmui-color-base20 ); */
 	display: inline-block;
 	padding: 0.4rem 0;
 	text-transform: uppercase;
@@ -485,12 +509,25 @@ code {
 	}
 
 	.site__title {
+		font-weight: 700;
 		text-align: center;
-		font-weight: bold;
 	}
 }
 
 @media ( max-width: 576px ) {
+	h2 {
+		font-size: 2rem;
+	}
+
+	h3 {
+		font-size: 1.8rem;
+	}
+
+	.page__title {
+		font-size: 2.4rem;
+		font-weight: 700;
+	}
+
 	figure {
 		margin-left: -1.6rem;
 		margin-right: -1.6rem;
