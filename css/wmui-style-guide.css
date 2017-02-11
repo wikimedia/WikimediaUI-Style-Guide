@@ -1845,8 +1845,6 @@ code {
 	color: #000;
 	list-style: none none;
 	display: inline-block;
-	width: 20rem;
-	margin-right: 2.4rem;
 	margin-bottom: 3.2rem;
 	border: 1px solid #a2a9b1;
 	-moz-border-radius: 2px;
@@ -1986,24 +1984,29 @@ code {
 		margin-left: -1.6rem;
 		margin-right: -1.6rem;
 	}
-
+}
+@media ( min-width: 320px ) {
 	.color {
-		width: 20rem;
+		width: 100%;
 	}
 }
-@media ( min-width: 576px ) {
+@media ( min-width: 415px ) {
 	.color {
 		width: 18rem;
+		margin-right: 2.4rem;
 	}
 
 	.color:nth-child( 2n ) {
 		margin-right: 0;
 	}
-
 }
 @media ( min-width: 992px ) {
 	.color {
 		width: 20rem;
+		margin-right: 2.4rem;
+	}
+	.color:nth-child( 2n ) {
+		margin-right: 2.4rem;
 	}
 	.color:nth-child( 3n ) {
 		margin-right: 0;
