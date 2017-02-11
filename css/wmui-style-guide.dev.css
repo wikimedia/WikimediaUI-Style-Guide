@@ -12,7 +12,7 @@ html {
 }
 
 body {
-	background-color: var( --background-color-base );
+	background-color: var( --wmui-color-base80 ); /* FIXME: var; */
 	color: var( --color-base );
 	margin: 0;
 	font-family: 'Lato', sans-serif; /* FIXME */
@@ -142,7 +142,6 @@ code {
 
 /* ::: Structure ::: */
 .header {
-	background-color: var( --wmui-color-base80 );
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -423,7 +422,6 @@ code {
 
 /* ::: Footer ::: */
 .footer {
-	background-color: var( --wmui-color-base80 );
 	color: var( --wmui-color-base20 );
 	clear: both;
 	padding: 2.4rem 0;
