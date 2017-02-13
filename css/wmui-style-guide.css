@@ -1869,6 +1869,10 @@ code {
 		padding: 1.2rem;
 		font-size: 1.4rem;
 	}
+.color__assign {
+		list-style: none;
+		padding:0;
+	}
 .color__codes {
 		color: #222;
 		padding: 1.2rem;
