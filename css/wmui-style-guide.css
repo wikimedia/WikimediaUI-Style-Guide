@@ -1563,6 +1563,10 @@ h1 + p,
 	p:first-child {
 		margin: 0.8rem 0 0;
 	}
+ul {
+	margin: 0.8rem 0;
+	padding: 0 1.6rem;
+}
 figure {
 	margin: 0.8rem 0 0;
 }
