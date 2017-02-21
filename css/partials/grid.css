@@ -15,8 +15,8 @@
 	--grid-breakpoint-xl: 1200px;
 
 	/** Max widths -- FIXME **/
-	--grid-maxwidth-sm: 540px;
-	--grid-maxwidth-md: 720px;
+	--grid-maxwidth-sm: 540px; /* troublesome for readability */
+	--grid-maxwidth-md: 720px; /* troublesome for readability */
 	--grid-maxwidth-lg: 960px;
 	--grid-maxwidth-xl: 1140px;
 }
@@ -31,19 +31,23 @@
 
 @media ( min-width: 576px ) {
 	.content-box {
-		width: 540px;
+		padding-left: 3.2rem;
+		padding-right: 3.2rem;
 	}
 }
 
 @media ( min-width: 767px ) {
 	.content-box {
-		width: 720px;
+		max-width: 960px;
+		padding-left: var( --grid-padding );
+		padding-right: var( --grid-padding );
 	}
 }
 
 @media ( min-width: 992px ) {
 	.content-box {
 		width: 960px;
+		max-width: none;
 	}
 }
 
