@@ -19,12 +19,12 @@
     "grunt-contrib-watch": "1.0.0",
     "grunt-exec": "1.0.0",
     "grunt-postcss": "^0.8.0",
-    "grunt-stylelint": "0.6.0",
+    "grunt-stylelint": "0.7.0",
     "pixrem": "^3.0.2",
     "postcss": "^5.2.5",
     "postcss-cssnext": "^2.8.0",
     "postcss-custom-properties": "^5.0.1",
     "postcss-import": "^8.1.3",
-    "stylelint-config-wikimedia": "0.3.0"
+    "stylelint-config-wikimedia": "0.4.1"
   }
 }
