@@ -1053,7 +1053,7 @@ code {
 }
 /* ::: Media Queries ::: */
 /* ... Smartphone only ... */
-@media ( max-width: 768px ) {
+@media ( max-width: 767px ) {
 	.nav--main {
 		position: absolute;
 		top: -3.2rem;
