@@ -1,0 +1,14 @@
+# EditorConfig: http://editorconfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Matches multiple files with brace expansion notation
+# Tab indentation (no size specified)
+[*.{htm,html}]
+indent_style = tab
