@@ -21,56 +21,31 @@
 <body>
 	<header id="header" class="header" role="banner">
 		<div class="content-box">
-			<div class="col-xs-10 col-xs-offset-1 col-sm-7 col-sm-offset-0">
-				<a href="#content" class="is-aural is-focusable">Jump to content</a>
-				<a href="#nav" class="is-aural is-focusable">Jump to navigation</a>
-				<h1 class="site__title"><a href="./"><span class="site__logo"></span>Wikimedia Style Guide</a></h1>
-			</div>
-			<div class="col-xs-hidden col-sm-5">
-				<a href="https://github.com/wikimedia/WikimediaUI-Style-Guide" class="lnk--contribute">Contribute on Github</a>
-			</div>
-		</div>
-		<div class="header-navbar" class="navbar-collapse">
-			<label for="header-navbar-boolean">
-				<span class="hidden-desktop"></span>
+			<a href="#content" class="is-aural is-focusable">Jump to content</a>
+			<a href="#nav--main" class="is-aural is-focusable">Jump to navigation</a>
+			<h1 class="site__title"><a href="./"><span class="site__logo"></span>Wikimedia Style Guide</a></h1>
+			<label class="btn--nav-main" for="trigger--nav-main" aria-hidden="true" title="Show main menu">
+				<i></i> <span>Menu</span>
 			</label>
-			<input type="checkbox" id="header-navbar-boolean" class="header-navbar-boolean">
-			<nav class="nav toc" role="nav">
-				<ol>
-					<li><a href="index.html">Introduction</a></li>
-					<li class="is-on"><a href="design-principles.html">Design principles</a></li>
-					<li><a href="visual-style.html">Visual style</a>
-						<ul class="toc__sub-sections">
-							<li><a href="#core-visual-identity">Core visual identity</a></li>
-							<li><a href="#colors">Colors</a></li>
-							<li><a href="#typography">Typography</a></li>
-							<li><a href="#icons">Icons</a></li>
-							<li><a href="#imagery">Imagery</a></li>
-							<li><a href="#illustrations">Illustrations</a></li>
-						</ul>
-					</li>
-					<!-- <li><a href="components.html">Components</a></li>
-					<li><a href="patterns.html">Patterns</a></li>
-					<li><a href="resources.html">Resources</a></li> -->
-				</ol>
-			</nav>
+			<a href="https://github.com/wikimedia/WikimediaUI-Style-Guide" class="lnk--contribute" title="Fork and contribute on GitHub"><span>Contribute on </span>GitHub</a>
 		</div>
 	</header>
 	<div class="page">
 		<div class="content-box">
-			<div class="col-xs-hidden col-sm-4 col-md-3">
-				<nav id="nav" class="nav toc" role="nav">
+			<div class="col col--start">
+				<input type="checkbox" id="trigger--nav-main" class="trigger--nav-main">
+				<nav id="nav--main" class="nav nav--main" role="navigation">
 					<ol>
-						<li><a href="index.html">Introduction</a></li>
-						<li class="is-on"><a href="design-principles.html">Design principles</a></li>
-						<li><a href="visual-style.html">Visual style</a>
-							<ul class="toc__sub-sections">
-								<li><a href="#principles">Principles</a></li>
-								<li><a href="#colors">Colors</a></li>
-								<li><a href="#typography">Typography</a></li>
-								<li><a href="#icons">Icons</a></li>
-								<li><a href="#imagery">Imagery</a></li>
-								<li><a href="#illustrations">Illustrations</a></li>
+						<li class="nav__item"><a href="index.html">Introduction</a></li>
+						<li class="nav__item is-on"><a href="design-principles.html">Design principles</a></li>
+						<li class="nav__item"><a href="visual-style.html">Visual style</a>
+							<ul class="nav__sub-items">
+								<li class="nav__sub-item"><a href="#principles">Principles</a></li>
+								<li class="nav__sub-item"><a href="#colors">Colors</a></li>
+								<li class="nav__sub-item"><a href="#typography">Typography</a></li>
+								<li class="nav__sub-item"><a href="#icons">Icons</a></li>
+								<li class="nav__sub-item"><a href="#imagery">Imagery</a></li>
+								<li class="nav__sub-item"><a href="#illustrations">Illustrations</a></li>
 							</ul>
 						</li>
 						<!-- <li><a href="components.html">Components</a></li>
@@ -79,7 +54,7 @@
 					</ol>
 				</nav>
 			</div>
-			<div class="col-xs-12 col-sm-8 col-md-9 col-md-offset-0">
+			<div class="col col--end">
 				<main id="content" class="content" role="main">
 					<h1 class="page__title">Design principles</h1>
 					<p>When making design decisions, we need to choose among possible solutions. Design principles help to decide what to prioritize for.</p>
