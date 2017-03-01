@@ -365,6 +365,10 @@ code {
 		color: var( --color-base--inverted );
 	}
 
+	.color--dark .color__wcag-level span {
+		color: var( --color-base--emphasized );
+	}
+
 	.color__name {
 		font-weight: 700;
 	}
