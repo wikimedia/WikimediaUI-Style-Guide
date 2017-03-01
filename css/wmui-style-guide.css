@@ -996,6 +996,9 @@ code {
 	.color__wcag-level span {
 		color: #fff;
 	}
+.color--dark .color__wcag-level span {
+		color: #000;
+	}
 .color__name {
 		font-weight: 700;
 	}
