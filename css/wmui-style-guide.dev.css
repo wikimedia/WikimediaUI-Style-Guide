@@ -1,5 +1,6 @@
 @import 'vendor/wmui-base.css';
 @import 'partials/fonts.css';
+@import 'partials/fonts-loaded.css';
 @import 'vendor/normalize.css';
 
 * {
@@ -14,7 +15,7 @@ body {
 	background-color: var( --wmui-color-base80 ); /* FIXME: var; */
 	color: var( --color-base );
 	margin: 0;
-	font-family: 'Lato', sans-serif; /* FIXME: var; */
+	font-family: sans-serif; /* Fallback *//* FIXME: var; */
 	font-size: 1.6rem;
 	line-height: var( --line-height-base );
 }
@@ -40,7 +41,7 @@ h6 {
 }
 
 h1 {
-	font-family: 'Charter', serif; /* FIXME: var; */
+	font-family: serif; /* Fallback *//* FIXME: var; */
 	font-size: 3.2rem;
 	font-weight: 400;
 }
@@ -165,7 +166,7 @@ code {
 		color: var( --wmui-color-base10 ); /* --color-base-emphasized */
 		margin-top: 0;
 		height: 6.4rem;
-		font-family: 'Lato', sans-serif; /* FIXME: var() */
+		font-family: sans-serif; /* Fallback *//* FIXME: var; */
 		font-size: 1.3rem;
 		font-weight: 700;
 		letter-spacing: 1px;
@@ -396,7 +397,7 @@ code {
 		background-color: inherit;
 		display: block;
 		padding: 0;
-		font-family: 'Lato', sans-serif;
+		font-family: sans-serif; /* Fallback *//* FIXME: var; */
 	}
 
 /* ::: Footer ::: */
