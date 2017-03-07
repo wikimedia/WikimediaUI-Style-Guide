@@ -1032,19 +1032,52 @@ code {
 	font-size: 1.2rem;
 	font-weight: 400;
 }
+@media screen and (max-width:480px){ 
+.footer .content-box p{
+	text-align:center!important;
+	
+}
+.footer .footer__list {
+	text-align:center;
+	
+	list-style: none none;
+}
+
+}
+
+
 .footer__list {
 	margin: 0;
 	padding: 0;
 }
-.footer__list li {
+@media screen and (max-width:480px){
+	.footer__list li {
+	
+	margin-left: 2.4rem;
+	padding: 0;
+}
+}
+@media screen and (min-width:481px){
+	.footer__list li {
 	float: left;
 	margin-left: 2.4rem;
 	padding: 0;
 }
-.footer__list li:first-child {
+}
+
+@media screen and (max-width:480px){
+	.footer__list li:first-child {
+	list-style: none none;
+	
+}
+}
+@media screen and (min-width:481px){
+	.footer__list li:first-child {
 	list-style: none none;
 	margin-left: 0;
 }
+}
+
 .footer__list a {
 	font-weight: 700;
 }
