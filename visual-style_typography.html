@@ -43,9 +43,9 @@
 						<li class="nav__item"><a href="design-principles.html">Design principles</a></li>
 						<li class="nav__item is-on"><a href="visual-style.html">Visual style</a>
 							<ul class="nav__sub-items">
-								<li class="nav__sub-item is-on"><a href="visual-style.html">Principles</a></li>
+								<li class="nav__sub-item"><a href="visual-style.html">Principles</a></li>
 								<li class="nav__sub-item"><a href="visual-style_colors.html">Colors</a></li>
-								<li class="nav__sub-item"><a href="visual-style_typography.html">Typography</a></li>
+								<li class="nav__sub-item is-on"><a href="visual-style_typography.html">Typography</a></li>
 								<li class="nav__sub-item"><a href="visual-style_icons.html">Icons</a></li>
 								<li class="nav__sub-item"><a href="visual-style_imagery.html">Imagery</a></li>
 								<li class="nav__sub-item"><a href="visual-style_illustrations.html">Illustrations</a></li>
@@ -60,36 +60,34 @@
 			<div class="col col--end">
 				<main id="content" class="content" role="main">
 					<h1 class="page__title">Visual Style</h1>
-					<p>Wikimedia projects are associated with learning, editorship, and books. They are neutral and transparent. They are about reading and writing. <!-- They remind you of ink and paper. --></p>
 
-					<section id="principles">
-						<h2>Principles</h2>
-						<p>Wikipedia is our most prominent project. <br>It's an encyclopedia. It's a modern encyclopedia. We have a certain perception of visual identity when we talk about encyclopedias. An identity which reflects wisdom. At the same time, traditional encyclopedias have a dated look and feel. This is also the big difference between traditional knowledge sharing and Wikipedia.
-						Wikipedia is continuously evolving and we need to incorporate that into it's look and feel.</p>
-						<!-- <p>Wikipedia is in an unique position of an old idea but fresh content. That is exactly what we want to convey with our visual style.</p> -->
-						<p>Paper was the largest medium for spreading knowledge. Today it is computers. We borrowed values that are tied to printed media. Values like trustworthiness and academical objectivity.</em>
-						</p>
-						<figure>
-							<img src="img/visual-style/principles-paper-ink.png" alt="Paper and ink">
-						</figure>
-						<p>We start with basic elements like paper and ink, then extend it further to match the needs of our visual character.</p>
-						<figure>
-							<img src="img/visual-style/principles-paper-shadow.png" alt="Sheet of paper dropping shadow on the background">
-						</figure>
-						<p>Paper casts subtle shadows onto a base surface. paper has slightly
-						    rounded corners due to it's organic nature.</p>
-						<figure>
-							<img src="img/visual-style/principles-content-chrome.png" alt="Example screenshot of Wikipedia article about Dieter Rams">
-						</figure>
-						<p>We follow our design principles of content first. content precedes chrome. content goes on paper, chrome stays on the base layer. <em>&lt;think of better wording&gt;</em> make it obvious what is chrome.</p>
-						<figure>
-							<img src="img/visual-style/principles-color-type.png" alt="Color and font samples from our guideline">
-						</figure>
-						<p>Our color choices are inspired from black, white, and ink blue. Typography has roots in traditional typefaces.</p>
-						<figure>
-							<img src="img/visual-style/principles-style-tile.png" alt="Comparison of some of our guided attributes with “old medium” New York Times">
-						</figure>
-						<p>It is an uncommon mix of new and old media. Joyful yet trustworthy.<br>The topics in this section are execution of these ideas.</p>
+					<section id="typography">
+						<h2>Typography</h2>
+
+						<p>Because so much of Wikipedia and wiki projects rely on writing and reading, typography is a key component of Wikimedia design. You need to consider the typeface, size, style and spacing of your text to make it achieve a good <a href="https://en.wikipedia.org/wiki/Readability">readability</a>.</p>
+
+						<h3>Readable content</h3>
+						<p>We want content to be readable for everyone, in all conditions. Our typographic choices make our content accessible, presented in a neutral way and convey its reliability.</p>
+
+						<h3>Layout text</h3>
+						<p><strong>Color contrast.</strong> When using text, make sure that it provides enough contrast to be read comfortably. Check the contrast between the colors used for text and its background. Make sure to provide at least level AA contrast. The color palette provides the contrast levels for pure white and black surfaces, but you need to check the contrast on other combinations.</p>
+
+						<p><strong>Text spacing.</strong> How text is placed in space affects its readability. Follow these considerations for text paragraphs:</p>
+						<ul>
+							<li>Line length should be no longer than 75 characters.</li>
+							<li>Line height should be 1.6 times the size of the font used.</li>
+						</ul>
+
+						<p><strong>Making text fit.</strong> Content will be available in multiple languages, so text length will vary for a given piece of information across languages. Strategies to consider:</p>
+						<ul>
+							<li>Don’t crowd the UI. Be short and clear when naming interface actions.</li>
+							<li>Dynamic layout. Make containers expandable so that they can fit the content.</li>
+							<li>Dynamic text. Adjust the size depending on the content. Use a smaller font-size for long content.</li>
+							<li>Clipping. Clipping the text with ellipsis (…). Only if there is no risk of missing important information or the complete information is reachable through a clear alternative means.</li>
+						</ul>
+
+						<h3>Typefaces</h3>
+						<p><em>This section is currently under development. See dev branch of this repo for up-to-date discussion results.</em></p>
 					</section>
 				</main>
 			</div>

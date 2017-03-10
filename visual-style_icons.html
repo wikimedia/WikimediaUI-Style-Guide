@@ -43,10 +43,10 @@
 						<li class="nav__item"><a href="design-principles.html">Design principles</a></li>
 						<li class="nav__item is-on"><a href="visual-style.html">Visual style</a>
 							<ul class="nav__sub-items">
-								<li class="nav__sub-item is-on"><a href="visual-style.html">Principles</a></li>
+								<li class="nav__sub-item"><a href="visual-style.html">Principles</a></li>
 								<li class="nav__sub-item"><a href="visual-style_colors.html">Colors</a></li>
 								<li class="nav__sub-item"><a href="visual-style_typography.html">Typography</a></li>
-								<li class="nav__sub-item"><a href="visual-style_icons.html">Icons</a></li>
+								<li class="nav__sub-item is-on"><a href="visual-style_icons.html">Icons</a></li>
 								<li class="nav__sub-item"><a href="visual-style_imagery.html">Imagery</a></li>
 								<li class="nav__sub-item"><a href="visual-style_illustrations.html">Illustrations</a></li>
 							</ul>
@@ -60,36 +60,43 @@
 			<div class="col col--end">
 				<main id="content" class="content" role="main">
 					<h1 class="page__title">Visual Style</h1>
-					<p>Wikimedia projects are associated with learning, editorship, and books. They are neutral and transparent. They are about reading and writing. <!-- They remind you of ink and paper. --></p>
 
-					<section id="principles">
-						<h2>Principles</h2>
-						<p>Wikipedia is our most prominent project. <br>It's an encyclopedia. It's a modern encyclopedia. We have a certain perception of visual identity when we talk about encyclopedias. An identity which reflects wisdom. At the same time, traditional encyclopedias have a dated look and feel. This is also the big difference between traditional knowledge sharing and Wikipedia.
-						Wikipedia is continuously evolving and we need to incorporate that into it's look and feel.</p>
-						<!-- <p>Wikipedia is in an unique position of an old idea but fresh content. That is exactly what we want to convey with our visual style.</p> -->
-						<p>Paper was the largest medium for spreading knowledge. Today it is computers. We borrowed values that are tied to printed media. Values like trustworthiness and academical objectivity.</em>
-						</p>
+					<section id="icons">
+						<h2>Icons</h2>
+						Icons help convey a message visually.
+
+						<h3>Icon style</h3>
+
+						<img src="img/visual-style/icons-sample.png" alt="Sample of icons">
+
+						<p>Wikimedia icons should be simple and neutral.</p>
+
+
+						<h3>Visual style</h3>
+						 They use monochromatic vector-based shapes with the following properties:</p>
+
+						<ul>
+							<li><b>Filled areas.</b> Shapes are defined by filled areas as opposed to outlines.</li>
+							<li><b>Rounded corners.</b> Corners are slightly rounded to make shapes more friendly and welcoming, but not too much to look goofy.</li>
+							<li><b>Medium thick stroke.</b> Strokes should be visible at smaller sizes without effort.</li>
+							<li><b>Diagonal cross-out lines.</b> Icons with a cross-out line will have it from the top-left to the bottom right (like “\”) at a 45 degree angle.</li>
+						</ul>
+
+						<h3>Using icons</h3>
+						<p>The <a href="https://doc.wikimedia.org/oojs-ui/master/demos/#icons-mediawiki-ltr">icon repository</a> provides a list of the currently available icons.</p>
+
+						<p>When using icons you need to consider the size of their target area. Even if icons are presented at a smaller size, you need to make sure that the associated active area is at least 48x48sp. Otherwise users may fail to hit the active area, not getting the expected result.</p>
+
+						<h3>Creating icons</h3>
+						<p>Icons follow a template. The default canvas is 24x24px. In order to allow for optical adjustments, a different margin will be applied depending on the shape of the icon.</p>
+
 						<figure>
-							<img src="img/visual-style/principles-paper-ink.png" alt="Paper and ink">
+							<img src="img/visual-style/icons-optical-adjustment.png" alt="Optical adjustment for icons">
+							<figcaption>Different shapes have a different perceived size. A 1px margin for square shapes is used so that other shapes such as circles can expand to reach a similar perceived size.</figcaption>
 						</figure>
-						<p>We start with basic elements like paper and ink, then extend it further to match the needs of our visual character.</p>
-						<figure>
-							<img src="img/visual-style/principles-paper-shadow.png" alt="Sheet of paper dropping shadow on the background">
-						</figure>
-						<p>Paper casts subtle shadows onto a base surface. paper has slightly
-						    rounded corners due to it's organic nature.</p>
-						<figure>
-							<img src="img/visual-style/principles-content-chrome.png" alt="Example screenshot of Wikipedia article about Dieter Rams">
-						</figure>
-						<p>We follow our design principles of content first. content precedes chrome. content goes on paper, chrome stays on the base layer. <em>&lt;think of better wording&gt;</em> make it obvious what is chrome.</p>
-						<figure>
-							<img src="img/visual-style/principles-color-type.png" alt="Color and font samples from our guideline">
-						</figure>
-						<p>Our color choices are inspired from black, white, and ink blue. Typography has roots in traditional typefaces.</p>
-						<figure>
-							<img src="img/visual-style/principles-style-tile.png" alt="Comparison of some of our guided attributes with “old medium” New York Times">
-						</figure>
-						<p>It is an uncommon mix of new and old media. Joyful yet trustworthy.<br>The topics in this section are execution of these ideas.</p>
+
+						<p>Icons are created using black (<a href="#colors">Base0</a>). Their color can be changed when the icon is used (preferably done automatically by software).</p>
+						<p>The simple style and guidelines make it easy to reuse or adapt existing freely licensed icons that you can find on other repos such as <a href="https://material.io/icons/">material icons</a> or the <a href="https://thenounproject.com/">noun project</a>. You are welcome to use existing icons that align to the proposed style instead of reinventing the wheel icon.</p>
 					</section>
 				</main>
 			</div>
