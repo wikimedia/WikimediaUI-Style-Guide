@@ -43,12 +43,12 @@
 						<li class="nav__item"><a href="design-principles.html">Design principles</a></li>
 						<li class="nav__item is-on"><a href="visual-style.html">Visual style</a>
 							<ul class="nav__sub-items">
-								<li class="nav__sub-item is-on"><a href="visual-style.html">Principles</a></li>
+								<li class="nav__sub-item"><a href="visual-style.html">Principles</a></li>
 								<li class="nav__sub-item"><a href="visual-style_colors.html">Colors</a></li>
 								<li class="nav__sub-item"><a href="visual-style_typography.html">Typography</a></li>
 								<li class="nav__sub-item"><a href="visual-style_icons.html">Icons</a></li>
 								<li class="nav__sub-item"><a href="visual-style_imagery.html">Imagery</a></li>
-								<li class="nav__sub-item"><a href="visual-style_illustrations.html">Illustrations</a></li>
+								<li class="nav__sub-item is-on"><a href="visual-style_illustrations.html">Illustrations</a></li>
 							</ul>
 						</li>
 						<!-- <li><a href="components.html">Components</a></li>
@@ -60,36 +60,37 @@
 			<div class="col col--end">
 				<main id="content" class="content" role="main">
 					<h1 class="page__title">Visual Style</h1>
-					<p>Wikimedia projects are associated with learning, editorship, and books. They are neutral and transparent. They are about reading and writing. <!-- They remind you of ink and paper. --></p>
 
-					<section id="principles">
-						<h2>Principles</h2>
-						<p>Wikipedia is our most prominent project. <br>It's an encyclopedia. It's a modern encyclopedia. We have a certain perception of visual identity when we talk about encyclopedias. An identity which reflects wisdom. At the same time, traditional encyclopedias have a dated look and feel. This is also the big difference between traditional knowledge sharing and Wikipedia.
-						Wikipedia is continuously evolving and we need to incorporate that into it's look and feel.</p>
-						<!-- <p>Wikipedia is in an unique position of an old idea but fresh content. That is exactly what we want to convey with our visual style.</p> -->
-						<p>Paper was the largest medium for spreading knowledge. Today it is computers. We borrowed values that are tied to printed media. Values like trustworthiness and academical objectivity.</em>
-						</p>
-						<figure>
-							<img src="img/visual-style/principles-paper-ink.png" alt="Paper and ink">
-						</figure>
-						<p>We start with basic elements like paper and ink, then extend it further to match the needs of our visual character.</p>
-						<figure>
-							<img src="img/visual-style/principles-paper-shadow.png" alt="Sheet of paper dropping shadow on the background">
-						</figure>
-						<p>Paper casts subtle shadows onto a base surface. paper has slightly
-						    rounded corners due to it's organic nature.</p>
-						<figure>
-							<img src="img/visual-style/principles-content-chrome.png" alt="Example screenshot of Wikipedia article about Dieter Rams">
-						</figure>
-						<p>We follow our design principles of content first. content precedes chrome. content goes on paper, chrome stays on the base layer. <em>&lt;think of better wording&gt;</em> make it obvious what is chrome.</p>
-						<figure>
-							<img src="img/visual-style/principles-color-type.png" alt="Color and font samples from our guideline">
-						</figure>
-						<p>Our color choices are inspired from black, white, and ink blue. Typography has roots in traditional typefaces.</p>
-						<figure>
-							<img src="img/visual-style/principles-style-tile.png" alt="Comparison of some of our guided attributes with “old medium” New York Times">
-						</figure>
-						<p>It is an uncommon mix of new and old media. Joyful yet trustworthy.<br>The topics in this section are execution of these ideas.</p>
+					<section id="illustrations">
+						<h2>Illustrations</h2>
+
+						<h3>Illustration style</h3>
+						<img src="img/visual-style/illustrations-sample.png" alt="Sample of illustrations">
+						<p><strong>Colored backgrounds</strong><br>
+						Illustrations that appear on a colored background should not include an outline stroke. Elements inside of the illustration should also not contain an outline stroke. Any lines inside of the illustration should have a weight of 2px. The illustration can utilize any of the colors available in the style guide excluding Base0.</p>
+
+						<p><strong>White background</strong><br>
+						Illustrations that appear on a white background should include a 2px outline stroke in Base50. Elements inside of the illustration can contain an outline stroke, this stroke should also be a 2px stroke in Base50. The illustration can utilize any of the colors available in the style guide excluding Base0.</p>
+
+						<p><strong>Grey scale</strong><br>
+						Grey scale illustrations (for use in empty states) should include a 2px outline stroke in Base60. Elements inside of the illustration can contain an outline stroke, this stroke should also be a 2px stroke in Base60. The illustration should only include base colors excluding Base0.</p>
+
+						<h3>Using illustrations</h3>
+						<p>Illustrations should be used as a supporting element alongside text and should never appear alone. Illustrations should be relevant and context-aware of their surroundings, do not include illustrations simply for decoration. Empty states, onboarding, or modals containing messaging are the primary use cases for utilizing illustrations. Utilize the appropriate illustration style depending on the background that the illustration will be presented on.</p>
+						<p>Illustrations should never appear pixelated. Test the resolution of your illustration for the specific the ratios you will be using it in.</p>
+
+						<h3>Creating illustrations</h3>
+						<p>Illustrations should fit within a 200px by 200px square. Some illustrations may need to be taller than they are wide (and visa versa) but overall illustrations should look balanced within their 200px boundary.</p>
+						<p>Illustrations must adhere to the colors outlined in this style guide, however no illustrations should use Base0. Illustrations may include transparent elements or cut outs, however all non-transparent elements should be displayed at 100% opacity.</p>
+						<p>When designing a new illustration, focus on legibility. Illustrations consist of a single element or focused composition. Illustrations should be simple, clear, universal and memorable.</p>
+
+						<p>Illustrations should be simple. They use monochromatic vector-based shapes with the following properties:</p>
+
+						<ul>
+							<li>Filled areas. Shapes are defined by filled areas as opposed to outlines.</li>
+							<li>Rounded corners. Corners are slightly rounded (2px) to make shapes more friendly and welcoming, but not too much to look goofy.</li>
+							<li>2px outline stroke, except for illustrations that appear on colored backgrounds.</li>
+						</ul>
 					</section>
 				</main>
 			</div>
