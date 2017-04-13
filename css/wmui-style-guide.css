@@ -933,9 +933,17 @@ code {
 	border-left: 1px solid #eaecf0;
 	padding-left: 1.6rem;
 	font-size: 1.4rem;
+    -moz-border-radius: 0;
+         border-radius: 0;
 	-webkit-transition: background-color 250ms, color 250ms;
 	-moz-transition: background-color 250ms, color 250ms;
 	transition: background-color 250ms, color 250ms;
+}
+.nav--main .nav__sub-item.is-on a {
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    border-left-color: #000;
 }
 /* ::: Content ::: */
 .page__title {
