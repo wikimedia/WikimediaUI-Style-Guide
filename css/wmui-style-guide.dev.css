@@ -331,18 +331,18 @@ code {
 }
 .nav--main .nav__sub-items a { /* stylelint-disable-line no-descending-specificity */
 	color: var( --wmui-color-base20 );
-	border-left: 1px solid var( --wmui-color-base80 );
+	border-left: var( --border-width-base ) solid var( --wmui-color-base80 );
+    border-radius: 0 var( --border-radius-base ) var( --border-radius-base ) 0;
 	padding-left: 1.6rem;
 	font-size: 1.4rem;
-    border-radius: 0;
 	transition: background-color var( --transition-medium ), color var( --transition-medium );
 }
 
 .nav--main .nav__sub-item.is-on a {
-    background: #fff;
-    color: var( --wmui-color-base0 );
-    font-weight: bold;
-    border-left-color: var( --wmui-color-base0 );
+	background-color: var( --background-color-base );
+	color: var( --color-base--active );
+	border-left-color: var( --wmui-color-base0 );
+	font-weight: 700;
 }
 
 
