@@ -66,28 +66,82 @@
 
 						<p>Wikimedia projects rely on writing and reading, and typography is a key component of their design. You need to consider the typeface, size, style, and spacing of your text to achieve good <a href="https://en.wikipedia.org/wiki/Readability">readability</a>. Our typographic choices make our content accessible, present it in a neutral way and convey its reliability.</p>
 
-						<h3>Readable content</h3>
-						<p>We want content to be readable for everyone, in all conditions. Our typographic choices make our content accessible, presented in a neutral way and convey its reliability.</p>
+						<img src="img/visual-style/typography-specimen.png" alt="Lato and Charter typeface specimen">
 
-						<h3>Layout text</h3>
-						<p><strong>Color contrast.</strong> When using text, make sure that it provides enough contrast to be read comfortably. Check the contrast between the colors used for text and its background. Make sure to provide at least level AA contrast. The color palette provides the contrast levels for pure white and black surfaces, but you need to check the contrast on other combinations.</p>
+						<h3>Readability</h3>
+						<p>We want content to be readable for everyone, in all circumstances: being color-blind or the sun hitting your screen should not be a barrier to access our content.</p>
 
+						<img src="img/visual-style/typography-readability.png" alt="Content typeset following the guidelines.">
+
+						<h4>Grid</h4>
+						<p>Laying out text is key to better readability. Typographers and typesetters have been using grids to lay out text for centuries. Grids help scan your content in a better way. We lay our content on a horizontal and a vertical grid.</p>
+
+						<img src="img/visual-style/typography-grid.png" alt="Content aligning with a grid.">
+
+						<p>The whitespace between sections, complimentary block elements like images, and headings should be consistent and proportional to rest of the whitespace.</p>
+
+						<h4>Contrast</h4>
+						<p>When using text, make sure that it provides enough contrast to be read comfortably. Check the contrast between the colors used for text and its background. Make sure to provide at least level AA sufficient contrast (4.5:1). The <a href="visual-style_colors.html">color palette</a> provides the contrast levels for pure white and black surfaces, but you need to ensure the contrast on other combinations.</p>
+
+						<h4>Tracking and leading</h4>
 						<p><strong>Text spacing.</strong> How text is placed in space affects its readability. Follow these considerations for text paragraphs:</p>
 						<ul>
-							<li>Line length should be no longer than 75 characters.</li>
+							<li>Line length should be no longer than <a href="https://en.wikipedia.org/wiki/The_Elements_of_Typographic_Style">75 characters</a>.</li>
 							<li>Line height should be 1.6 times the size of the font used.</li>
 						</ul>
+						<h4>Dynamic text</h4>
+						<p>Content will be available in multiple languages, so text length will vary for a given piece of information across languages. Avoid designing interfaces that depend on certain expectation of text length.</p>
 
-						<p><strong>Making text fit.</strong> Content will be available in multiple languages, so text length will vary for a given piece of information across languages. Strategies to consider:</p>
+						<p>Here are few ways to tackle dynamic text:</p>
 						<ul>
-							<li>Don’t crowd the UI. Be short and clear when naming interface actions.</li>
-							<li>Dynamic layout. Make containers expandable so that they can fit the content.</li>
-							<li>Dynamic text. Adjust the size depending on the content. Use a smaller font-size for long content.</li>
-							<li>Clipping. Clipping the text with ellipsis (…). Only if there is no risk of missing important information or the complete information is reachable through a clear alternative means.</li>
+							<li><b>Don’t crowd the UI.</b> <a href="http://lawsofsimplicity.com/los/law-1-reduce.html">Keeping the UI simple</a> always helps. Consider reducing the number of elements to make sure the remaining ones have enough room. </li>
+							<li><b>Dynamic layout.</b> Make containers expandable so that they can fit the content.</li>
+							<li><b>Dynamic text.</b> Adjust the size depending on the content. Use a smaller font-size for long content.</li>
+							<li><b>Clipping.</b> Clipping the text with ellipsis. Only if there is no risk of missing important information or the complete information is reachable through a clear alternative means.</li>
 						</ul>
 
 						<h3>Typefaces</h3>
-						<p><em>This section is currently under development. See dev branch of this repo for up-to-date discussion results.</em></p>
+						<p>Charter and Lato are the recommended typefaces, when available.</p>
+						<ul>
+							<li>Charter is a serif typeface designed by Matthew Carter in 1987. Charter has a simplified and clean structure that works well even in low resolution displays.</li>
+							<li>Lato is a sans-serif typeface designed by Łukasz Dziedzic in 2010. Lato provides very good readability even at small sizes.</li>
+						</ul>
+						<p>These fonts are provided as a reference, but you may use similar criteria when those fonts are not available in your context.</p>
+						<h4>Font selection criteria</h4>
+						<p>Font selection depends on availability. Fonts are not always available for all scripts or all devices. The criteria for font selection has been the following:</p>
+						<ol>
+							<li><b>Readability.</b> Fonts with a bigger x-height and open shapes are preferred.</li>
+							<li><b>Neutral aspect.</b> The font should work with many different kinds of content without adding a particular voice to it.</li>
+							<li><b>Simple shapes.</b> Avoiding complex shapes helps text to work better on small sizes, low-resolution devices and reduces printing costs.</li>
+							<li><b>Open.</b> Open source fonts are preferred to align with the open knowledge they deliver.</li>
+						</ol>
+
+						<p>To extend the font family to new scripts or devices, the above criteria should be followed. Common cases in which you need to look for alternatives are:</p>
+
+						<p><b>Lack of a font delivery mechanism.</b> In cases where custom fonts cannot be delivered to the user (e.g., through web fonts technology), you need to define alternatives. Default fonts such as Lato and Charter can still be recommended as primary options for users that installed those fonts themselves. However, a wider set of fallback options from those available in the user device is needed. Possible fallback options:</p>
+						<ul>
+							<li>Georgia (present in many devices) can be a fallback for Charter.</li>
+							<li>Device default sans-serif font would be used in the absence of Lato.</li>
+						</ul>
+
+						<p>Language support. There is no font that supports all languages. Individual language communities can identify fonts that better support their languages taking into account the above criteria. Possible fallback options:</p>
+						<ul>
+							<li>Charis with a wider script support is a good alternative to Charter.</li>
+							<li>The Noto family provides a great coverage of languages, making it a good alternative to Lato.</li>
+						</ul>
+
+						<h3>Use of styles</h3>
+						<p>The recommended styles are intended to optimise readability with the density of Wikipedia’s encyclopedic content.</p>
+						<p>Using the body text size of 16 scale-independent pixels (sp) as a base, a typographic scale of 1.125 was used to derive a harmonious rhythm between font-sizes for various headings and body copy.</p>
+
+						<img src="img/visual-style/typography-scale.png" alt="Scale of sizes used for text.">
+
+						<p>The scale-independent pixels can result in a different number of actual pixels in the user screen due to screen density or user preferences. A 16sp text is rendered as 16px in a 1x device at standard zoom level, but it becomes 21px in a 2x device (or when zoomed 200% on a 1x device).</p>
+
+						<p>Common text styles are based on the defined scale in order to communicate clearly the content hierarchy. </p>
+
+						<img src="img/visual-style/typography-styles.png" alt="Text styles defined.">
+
 					</section>
 				</main>
 			</div>
