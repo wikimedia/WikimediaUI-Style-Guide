@@ -6,6 +6,7 @@ module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( 'grunt-contrib-cssmin' );
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 	grunt.loadNpmTasks( 'grunt-postcss' );
+	grunt.loadNpmTasks( 'grunt-sketch' );
 	grunt.loadNpmTasks( 'grunt-stylelint' );
 
 	grunt.initConfig( {
@@ -58,6 +59,53 @@ module.exports = function ( grunt ) {
 				files: {
 				  'css/wmui-style-guide.min.css': 'css/wmui-style-guide.css'
 				}
+			}
+		},
+
+		// Export resources from Sketch files
+		sketch_export: {
+			wikimediaui_components_png: {
+				options: {
+					type: 'slices',
+					items: [
+						'Primary Buttons',
+						'Quiet Buttons',
+						'Button Group',
+						'Radio Button'
+					],
+					groupContentsOnly: true,
+					scales: [
+						2.0
+					],
+					formats: [
+						'png'
+					],
+					saveForWeb: true
+				},
+				src: 'resources/WikimediaUI.sketch',
+				dest: 'img/assets'
+			},
+			wikimediaui_components_svg: {
+				options: {
+					type: 'slices',
+					items: [
+						'Primary Buttons',
+						'Quiet Buttons',
+						'Button Group',
+						'Radio Button'
+					],
+					groupContentsOnly: true,
+					compact: true,
+					scales: [
+						1.0
+					],
+					formats: [
+						'svg'
+					],
+					saveForWeb: true
+				},
+				src: 'resources/WikimediaUI.sketch',
+				dest: 'img/assets'
 			}
 		},
 

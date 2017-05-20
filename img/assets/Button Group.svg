@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="579px" height="478px" viewBox="0 0 579 478" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M271,1 L271,33 L533.008101,33 C534.108196,33 535,32.1107383 535,30.9982567 L535,3.00174332 C535,1.89621101 534.095828,1 533.008101,1 L271,1 Z" id="path-1"></path>
+        <path d="M195.993751,1 C194.892633,1 194,1.88926172 194,3.00174332 L194,30.9982567 C194,32.103789 194.893082,33 195.993751,33 L270,33 L270,1 L195.993751,1 Z" id="path-2"></path>
+        <rect id="path-3" x="194" y="57" width="341" height="32" rx="2"></rect>
+        <rect id="path-4" x="194" y="169" width="341" height="32" rx="2"></rect>
+        <rect id="path-5" x="194" y="281" width="341" height="32" rx="2"></rect>
+        <path d="M270.5,225 L270.5,258" id="path-6"></path>
+        <rect id="path-7" x="194" y="113" width="341" height="32" rx="2"></rect>
+        <rect id="path-8" x="361" y="113" width="79" height="32"></rect>
+        <rect id="path-9" x="361" y="169" width="79" height="32"></rect>
+        <rect id="path-10" x="361" y="281" width="79" height="32"></rect>
+        <rect id="path-11" x="194" y="225" width="341" height="32" rx="2"></rect>
+        <rect id="path-12" x="362" y="225" width="79" height="32"></rect>
+        <rect id="path-13" x="194" y="425" width="386" height="32" rx="2"></rect>
+        <rect id="path-14" x="386" y="425" width="90" height="32"></rect>
+        <path d="M17.5954523,12.3787874 C17.5954523,11.7256091 17.0590701,11.1960268 16.3978922,11.1960268 C15.7383142,11.1960268 15.203532,11.7232092 15.2015321,12.3747875 L15.2015321,11.548815 C15.2015321,10.6920436 14.483156,9.99766674 13.5963856,9.99766674 C12.7096151,9.99766674 12.0036387,10.6920436 12.0036387,11.548815 L12.0036387,10.350455 C12.0036387,9.49368354 11.2756629,8.79930669 10.3928923,8.79930669 C9.51012177,8.79930669 8.80654522,9.49408353 8.80654522,10.350455 L8.80654522,1.42515249 C8.80654522,0.637978734 8.1681665,-2.30926389e-14 7.39619224,-2.30926389e-14 C6.62461796,-2.30926389e-14 5.99863882,0.638378721 5.99863882,1.42515249 L5.99863882,16.4630512 L2.39595891,11.8040065 C2.04997044,11.2180261 1.26999644,11.0252325 0.653616989,11.3728209 C0.0372375346,11.7208093 -0.181955159,12.4779841 0.164033308,13.0639645 C0.164033308,13.0639645 2.9811394,17.4326189 4.13110107,19.1573614 C5.28106274,20.8821039 7.16859982,23.009633 7.16859982,24 L15.1579335,24 C15.1579335,22.3280557 17.6014521,19.7165428 17.6014521,17.2018266 L17.6014521,13.9627346 L17.5954523,12.3787874 Z" id="path-15"></path>
+        <filter x="-42.6%" y="-18.8%" width="185.2%" height="162.5%" filterUnits="objectBoundingBox" id="filter-16">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.582908741 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.179347826 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M17.5954523,12.3787874 C17.5954523,11.7256091 17.0590701,11.1960268 16.3978922,11.1960268 C15.7383142,11.1960268 15.203532,11.7232092 15.2015321,12.3747875 L15.2015321,11.548815 C15.2015321,10.6920436 14.483156,9.99766674 13.5963856,9.99766674 C12.7096151,9.99766674 12.0036387,10.6920436 12.0036387,11.548815 L12.0036387,10.350455 C12.0036387,9.49368354 11.2756629,8.79930669 10.3928923,8.79930669 C9.51012177,8.79930669 8.80654522,9.49408353 8.80654522,10.350455 L8.80654522,1.42515249 C8.80654522,0.637978734 8.1681665,-2.30926389e-14 7.39619224,-2.30926389e-14 C6.62461796,-2.30926389e-14 5.99863882,0.638378721 5.99863882,1.42515249 L5.99863882,16.4630512 L2.39595891,11.8040065 C2.04997044,11.2180261 1.26999644,11.0252325 0.653616989,11.3728209 C0.0372375346,11.7208093 -0.181955159,12.4779841 0.164033308,13.0639645 C0.164033308,13.0639645 2.9811394,17.4326189 4.13110107,19.1573614 C5.28106274,20.8821039 7.16859982,23.009633 7.16859982,24 L15.1579335,24 C15.1579335,22.3280557 17.6014521,19.7165428 17.6014521,17.2018266 L17.6014521,13.9627346 L17.5954523,12.3787874 Z" id="path-17"></path>
+        <filter x="-42.6%" y="-18.8%" width="185.2%" height="162.5%" filterUnits="objectBoundingBox" id="filter-18">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.582908741 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.179347826 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M17.5954523,12.3787874 C17.5954523,11.7256091 17.0590701,11.1960268 16.3978922,11.1960268 C15.7383142,11.1960268 15.203532,11.7232092 15.2015321,12.3747875 L15.2015321,11.548815 C15.2015321,10.6920436 14.483156,9.99766674 13.5963856,9.99766674 C12.7096151,9.99766674 12.0036387,10.6920436 12.0036387,11.548815 L12.0036387,10.350455 C12.0036387,9.49368354 11.2756629,8.79930669 10.3928923,8.79930669 C9.51012177,8.79930669 8.80654522,9.49408353 8.80654522,10.350455 L8.80654522,1.42515249 C8.80654522,0.637978734 8.1681665,-2.30926389e-14 7.39619224,-2.30926389e-14 C6.62461796,-2.30926389e-14 5.99863882,0.638378721 5.99863882,1.42515249 L5.99863882,16.4630512 L2.39595891,11.8040065 C2.04997044,11.2180261 1.26999644,11.0252325 0.653616989,11.3728209 C0.0372375346,11.7208093 -0.181955159,12.4779841 0.164033308,13.0639645 C0.164033308,13.0639645 2.9811394,17.4326189 4.13110107,19.1573614 C5.28106274,20.8821039 7.16859982,23.009633 7.16859982,24 L15.1579335,24 C15.1579335,22.3280557 17.6014521,19.7165428 17.6014521,17.2018266 L17.6014521,13.9627346 L17.5954523,12.3787874 Z" id="path-19"></path>
+        <filter x="-42.6%" y="-18.8%" width="185.2%" height="162.5%" filterUnits="objectBoundingBox" id="filter-20">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.582908741 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.179347826 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M6.13211402,11.2688979 L10.8422354,11.5297995 C11.562075,11.4497464 11.7406967,10.9613193 11.2389527,10.443935 L0.591868541,0.301190754 C0.0905803995,-0.216377736 0.0269163636,-0.0499300062 0.0256689588,0.670145757 L2.29782166e-06,14.9845005 C-0.00119676849,15.7053522 0.467038737,15.932432 1.04000173,15.490159 L3.78168123,12.217739 C3.87724299,12.1438668 3.98988305,12.0715788 4.10864258,12 L7.07900942,19.5168621 C7.24412875,19.9268592 7.74262137,20.1120195 8.19190947,19.929965 C8.64097423,19.7493265 8.87107252,19.2695313 8.70554568,18.8604942 L5.73444213,11.3418087 L6.13211402,11.2688979 Z" id="path-21"></path>
+        <filter x="-65.1%" y="-22.5%" width="230.2%" height="175.0%" filterUnits="objectBoundingBox" id="filter-22">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.582908741 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.179347826 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Artboard-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-M101" transform="translate(-3360.000000, -255.000000)">
+            <g id="BUTTON-GROUP" transform="translate(3358.000000, 143.000000)">
+                <g id="Button-Group-X" transform="translate(0.000000, 112.000000)">
+                    <g id="Mediawiki.Neutral.Normal-copy-9">
+                        <use fill="#C8CCD1" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <path stroke="#C8CCD1" stroke-width="1" d="M270.5,1 L270.5,33 L270.5,33.5 L271,33.5 L533.008101,33.5 C534.387016,33.5 535.5,32.3841979 535.5,30.9982567 L535.5,3.00174332 C535.5,1.62441567 534.376315,0.5 533.008101,0.5 L271,0.5 L270.5,0.5 L270.5,1 Z"></path>
+                    </g>
+                    <g id="Mediawiki.Neutral.Normal-copy-11">
+                        <use fill="#C8CCD1" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <path stroke="#C8CCD1" stroke-width="1" d="M195.993751,0.5 C194.613915,0.5 193.5,1.61569835 193.5,3.00174332 L193.5,30.9982567 C193.5,32.3793461 194.616353,33.5 195.993751,33.5 L270,33.5 L270.5,33.5 L270.5,33 L270.5,1 L270.5,0.5 L270,0.5 L195.993751,0.5 Z"></path>
+                    </g>
+                    <text id="All" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="221" y="23">All</tspan>
+                    </text>
+                    <text id="Pages-3" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="290" y="23">Pages</tspan>
+                    </text>
+                    <text id="Other-3" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="464" y="23">Other</tspan>
+                    </text>
+                    <g id="Mediawiki.Neutral.Normal-copy-12">
+                        <use fill="#F8F9FA" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#A2A9B1" stroke-width="1" x="193.5" y="56.5" width="342" height="33" rx="2"></rect>
+                    </g>
+                    <path d="M270.5,56.5 L270.5,89.5151482" id="Line" stroke="#A2A9B1" stroke-linecap="square"></path>
+                    <path d="M360.5,56.5 L360.5,89.5151482" id="Line-Copy" stroke="#A2A9B1" stroke-linecap="square"></path>
+                    <path d="M440.5,56.5 L440.5,88.5151482" id="Line-Copy-10" stroke="#767676" stroke-linecap="square"></path>
+                    <path d="M440.5,56.5 L440.5,88.5151482" id="Line-Copy-13" stroke="#A2A9B1" stroke-linecap="square"></path>
+                    <path d="M440.5,0.615384615 L440.5,33.6153846" id="Path-115" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M360.5,0.500000037 L360.5,33.5" id="Path-114" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <path d="M270.5,0.500000037 L270.5,33.5" id="Path-114" stroke="#FFFFFF" stroke-linecap="square"></path>
+                    <text id="Talk" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="383" y="23">Talk</tspan>
+                    </text>
+                    <text id="All" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="222.392" y="79">All</tspan>
+                    </text>
+                    <g id="Combined-Shape">
+                        <use fill="#F8F9FA" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <rect stroke="#A2A9B1" stroke-width="1" x="193.5" y="168.5" width="342" height="33" rx="2"></rect>
+                    </g>
+                    <g id="Combined-Shape-Copy">
+                        <use fill="#F8F9FA" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <rect stroke="#A2A9B1" stroke-width="1" x="193.5" y="280.5" width="342" height="33" rx="2"></rect>
+                    </g>
+                    <path d="M270,113 L270,145" id="Path-114-Copy" stroke="#CCCCCC" stroke-linecap="square"></path>
+                    <g id="Path-114-Copy">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        <path stroke="#72777D" stroke-width="1" d="M270,225 L270,258 L271,258 L271,225 L270,225 Z M271,225 L270,225 L270,258 L271,258 L271,225 Z"></path>
+                    </g>
+                    <text id="Pages-3-Copy" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="292.296" y="79">Pages</tspan>
+                    </text>
+                    <text id="Other-3-Copy" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="465.512" y="79">Other</tspan>
+                    </text>
+                    <text id="Talk-Copy" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="384.752" y="79">Talk</tspan>
+                    </text>
+                    <g id="Mediawiki.Neutral.Normal-copy-14">
+                        <use fill="#F8F9FA" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        <rect stroke="#A2A9B1" stroke-width="1" x="193.5" y="112.5" width="342" height="33" rx="2"></rect>
+                    </g>
+                    <text id="All-7" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="222.892" y="135">All</tspan>
+                    </text>
+                    <text id="Pages-7" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="292.296" y="135">Pages</tspan>
+                    </text>
+                    <text id="Other-7" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="465.512" y="135">Other</tspan>
+                    </text>
+                    <path d="M440.5,113.5 L440.5,145.515148" id="Line-Copy-14" stroke="#A2A9B1" stroke-linecap="square"></path>
+                    <path d="M360.5,113.5 L360.5,145.515148" id="Line-Copy-15" stroke="#A2A9B1" stroke-linecap="square"></path>
+                    <path d="M270.5,113.5 L270.5,145.515148" id="Line-Copy-16" stroke="#A2A9B1" stroke-linecap="square"></path>
+                    <path d="M270.5,168.5 L270.5,200.515148" id="Line-Copy-18" stroke="#A2A9B1" stroke-linecap="square"></path>
+                    <path d="M270.5,280.5 L270.5,312.5" id="Line-Copy-38" stroke="#A2A9B1" stroke-linecap="square"></path>
+                    <text id="All" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="222.392" y="191">All</tspan>
+                    </text>
+                    <text id="All-Copy" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="222.392" y="303">All</tspan>
+                    </text>
+                    <text id="Pages-8" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="292.296" y="191">Pages</tspan>
+                    </text>
+                    <text id="Pages-8-Copy" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="292.296" y="303">Pages</tspan>
+                    </text>
+                    <text id="Other-8" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="465.512" y="191">Other</tspan>
+                    </text>
+                    <text id="Other-8-Copy" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="465.512" y="303">Other</tspan>
+                    </text>
+                    <g id="Mediawiki.Progressive.Hover-7">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                        <rect stroke="#A2A9B1" stroke-width="1" x="360.5" y="112.5" width="80" height="33"></rect>
+                    </g>
+                    <g id="Mediawiki.Progressive.Hover-8">
+                        <use fill="#EAECF0" fill-rule="evenodd" xlink:href="#path-9"></use>
+                        <rect stroke="#72777D" stroke-width="1" x="360.5" y="168.5" width="80" height="33"></rect>
+                    </g>
+                    <g id="Mediawiki.Progressive.Hover-8-Copy">
+                        <use fill="#1F4999" fill-rule="evenodd" xlink:href="#path-10"></use>
+                        <rect stroke="#1F4999" stroke-width="1" x="360.5" y="280.5" width="80" height="33"></rect>
+                    </g>
+                    <text id="Talk" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="385.752" y="135">Talk</tspan>
+                    </text>
+                    <text id="Talk-6" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#000000">
+                        <tspan x="385.752" y="191">Talk</tspan>
+                    </text>
+                    <text id="Talk-6-Copy" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="384.864" y="303">Talk</tspan>
+                    </text>
+                    <g id="Mediawiki.Neutral.Normal-copy-16">
+                        <use fill="#F8F9FA" fill-rule="evenodd" xlink:href="#path-11"></use>
+                        <rect stroke="#347BFF" stroke-width="1" x="193.5" y="224.5" width="342" height="33" rx="2"></rect>
+                    </g>
+                    <g id="Mediawiki.Progressive.Hover-8" stroke="#3366CC">
+                        <rect x="361.5" y="224.5" width="80" height="33"></rect>
+                        <rect x="362.5" y="225.5" width="78" height="31"></rect>
+                    </g>
+                    <text id="All-9" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="222.392" y="247">All</tspan>
+                    </text>
+                    <path d="M270.5,224.5 L270.5,256.515148" id="Line-Copy-21" stroke="#A2A9B1" stroke-linecap="square"></path>
+                    <text id="Pages-9" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="292.296" y="247">Pages</tspan>
+                    </text>
+                    <text id="Other-9" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="465.512" y="247">Other</tspan>
+                    </text>
+                    <text id="Talk-7" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="385.752" y="247">Talk</tspan>
+                    </text>
+                    <g id="Mediawiki.Neutral.Normal-copy-16">
+                        <use fill="#F8F9FA" fill-rule="evenodd" xlink:href="#path-13"></use>
+                        <rect stroke="#A2A9B1" stroke-width="1" x="193.5" y="424.5" width="387" height="33" rx="2"></rect>
+                    </g>
+                    <g id="Mediawiki.Progressive.Hover-8">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-14"></use>
+                        <rect stroke="#A2A9B1" stroke-width="1" x="385.5" y="424.5" width="91" height="33"></rect>
+                    </g>
+                    <path d="M278.5,425 L278.5,457" id="Path-114-Copy-4" stroke="#A2A9B1" stroke-linecap="square"></path>
+                    <text id=":FOCUS" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="18.7999992" fill="#72777D">
+                        <tspan x="7" y="247">:FOCUS</tspan>
+                    </text>
+                    <text id="SELECTED" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="18.7999992" fill="#72777D">
+                        <tspan x="7" y="303">SELECTED</tspan>
+                    </text>
+                    <text id=":ACTIVE" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="18.7999992" fill="#72777D">
+                        <tspan x="8" y="191">:ACTIVE</tspan>
+                    </text>
+                    <text id=":HOVER" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="18.7999992" fill="#72777D">
+                        <tspan x="0" y="135">  :HOVER</tspan>
+                    </text>
+                    <text id="NORMAL" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="18.7999992" fill="#72777D">
+                        <tspan x="8" y="79"> NORMAL</tspan>
+                    </text>
+                    <text id="DISABLED" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="18.7999992" fill="#72777D">
+                        <tspan x="8" y="24"> DISABLED</tspan>
+                    </text>
+                    <g id="101-/-Headline--Sub" transform="translate(2.000000, 385.000000)">
+                        <text id="SUBHEADLINE" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" line-spacing="14" fill="#222222">
+                            <tspan x="0" y="13">ICON + TEXT</tspan>
+                        </text>
+                        <g id="101-/-Headline__line" transform="translate(0.000000, 22.000000)" stroke="#222222" stroke-width="1" stroke-linecap="square">
+                            <path d="M189.483696,1.5 L0.516304348,1.5" id="Line"></path>
+                        </g>
+                    </g>
+                    <g id="-101-/-1em-+-2*0,5em" transform="translate(182.000000, 17.000000) rotate(270.000000) translate(-182.000000, -17.000000) translate(166.000000, 15.000000)" stroke-linecap="square">
+                        <g id="101-/-1em" transform="translate(8.000000, 0.000000)" stroke="#D0011B">
+                            <path d="M0.5,0.5 L15.5,0.5" id="1em"></path>
+                            <path d="M0.5,1.5 L15.5,1.5" id="1em-copy"></path>
+                            <path d="M0.5,2.5 L15.5,2.5" id="1em-copy-2"></path>
+                            <path d="M0.5,3.5 L15.5,3.5" id="1em-copy-3"></path>
+                        </g>
+                        <g id="101-/-0.5em" stroke="#50E3C2">
+                            <path d="M0.5,1.5 L7.5,1.5" id="0.5em"></path>
+                            <path d="M0.5,0.5 L7.5,0.5" id="0.5em-copy"></path>
+                            <path d="M0.5,3.5 L7.5,3.5" id="0.5em-copy-2"></path>
+                            <path d="M0.5,2.5 L7.5,2.5" id="0.5em-copy-3"></path>
+                        </g>
+                        <g id="101-/-0.5em" transform="translate(24.000000, 0.000000)" stroke="#50E3C2">
+                            <path d="M0.5,1.5 L7.5,1.5" id="0.5em"></path>
+                            <path d="M0.5,0.5 L7.5,0.5" id="0.5em-copy"></path>
+                            <path d="M0.5,3.5 L7.5,3.5" id="0.5em-copy-2"></path>
+                            <path d="M0.5,2.5 L7.5,2.5" id="0.5em-copy-3"></path>
+                        </g>
+                    </g>
+                    <text id="All-4" fill="#222222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+                        <tspan x="238.392" y="448">All</tspan>
+                    </text>
+                    <circle id="Oval-18" fill="#222222" cx="220" cy="442" r="10"></circle>
+                    <path d="M230,442 L238,442" id="Line-183-Copy" stroke="#50E3C2" stroke-width="4"></path>
+                    <path d="M194,442 L210,442" id="Line-178-Copy-2" stroke="#D0011B" stroke-width="4"></path>
+                    <path d="M262,442 L278,442" id="Line-179-Copy-2" stroke="#D0011B" stroke-width="4"></path>
+                    <text id="Pages" fill="#222222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+                        <tspan x="322.296" y="448">Pages</tspan>
+                    </text>
+                    <circle id="Oval-18" fill="#222222" cx="305" cy="442" r="10"></circle>
+                    <path d="M315,442 L323,442" id="Line-183-Copy" stroke="#50E3C2" stroke-width="4"></path>
+                    <path d="M279,442 L295,442" id="Line-178-Copy-2" stroke="#D0011B" stroke-width="4"></path>
+                    <path d="M369,442 L385,442" id="Line-179-Copy-2" stroke="#D0011B" stroke-width="4"></path>
+                    <text id="All-4" fill="#222222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+                        <tspan x="429.752" y="448">Talk</tspan>
+                    </text>
+                    <circle id="Oval-18" fill="#222222" cx="412" cy="442" r="10"></circle>
+                    <path d="M422,442 L430,442" id="Line-183-Copy" stroke="#50E3C2" stroke-width="4"></path>
+                    <path d="M386,442 L402,442" id="Line-178-Copy-2" stroke="#D0011B" stroke-width="4"></path>
+                    <path d="M460,442 L476,442" id="Line-179-Copy-2" stroke="#D0011B" stroke-width="4"></path>
+                    <text id="All-4" fill="#222222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+                        <tspan x="520.512" y="448">Other</tspan>
+                    </text>
+                    <circle id="Oval-18" fill="#222222" cx="503" cy="442" r="10"></circle>
+                    <path d="M513,442 L521,442" id="Line-183-Copy" stroke="#50E3C2" stroke-width="4"></path>
+                    <path d="M477,442 L493,442" id="Line-178-Copy-2" stroke="#D0011B" stroke-width="4"></path>
+                    <path d="M564,442 L580,442" id="Line-179-Copy-2" stroke="#D0011B" stroke-width="4"></path>
+                    <g id="Cursor-/-Pointer" transform="translate(416.000000, 189.000000)">
+                        <g id="Cursor-Pointer">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-15"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-15"></use>
+                            <path stroke="#000000" stroke-width="1" d="M18.095452,12.3777591 C18.0948912,11.4475593 17.3335344,10.6960268 16.3978922,10.6960268 C16.10688,10.6960268 15.8327664,10.7687518 15.5931989,10.8969793 C15.3133259,10.0818718 14.5229268,9.49766674 13.5963856,9.49766674 C13.1672561,9.49766674 12.7687636,9.62309774 12.4371411,9.83891321 C12.2017759,8.95226109 11.3696842,8.29930669 10.3928923,8.29930669 C9.99458465,8.29930669 9.62275187,8.40813447 9.30654522,8.59739976 L9.30654522,1.42515249 C9.30654522,0.365060667 8.4475222,-0.5 7.39619224,-0.5 C6.34627404,-0.5 5.49863882,0.364390213 5.49863882,1.42515249 L5.49863882,14.9990679 L2.79149833,11.4981494 C2.33990048,10.7256484 1.25796465,10.4579954 0.408016869,10.9372976 C-0.448495824,11.4208575 -0.757186346,12.4871638 -0.266517693,13.3181807 C-0.221942375,13.3880215 -0.221942375,13.3880215 -0.0679723281,13.6265707 C0.137397398,13.944607 0.248691135,14.1168648 0.428630429,14.3951327 C0.942759518,15.1902097 1.45803808,15.9852984 1.94061413,16.727459 C1.95455156,16.7488931 1.95455156,16.7488931 1.96848974,16.7703263 C2.72477886,17.9332706 3.32594411,18.8510815 3.71509077,19.4347338 C3.97897576,19.8305154 4.25954481,20.2204113 4.73613542,20.8635322 C4.77572637,20.916944 4.77572637,20.916944 4.81529743,20.9702918 C6.19563371,22.8309976 6.66859982,23.5786103 6.66859982,24 L6.66859982,24.5 L7.16859982,24.5 L15.1579335,24.5 L15.6579335,24.5 L15.6579335,24 C15.6579335,23.4442918 15.8127426,23.093397 16.8234169,21.1474064 C17.5230199,19.8003644 17.8804952,18.9306924 18.0348962,17.9890448 C18.0788416,17.7210344 18.1014521,17.45899 18.1014521,17.2018266 L18.1014521,13.9627346 L18.095452,12.3777591 L18.095452,12.3777591 Z"></path>
+                        </g>
+                    </g>
+                    <g id="Cursor-/-Pointer" transform="translate(416.000000, 133.000000)">
+                        <g id="Cursor-Pointer">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-18)" xlink:href="#path-17"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-17"></use>
+                            <path stroke="#000000" stroke-width="1" d="M18.095452,12.3777591 C18.0948912,11.4475593 17.3335344,10.6960268 16.3978922,10.6960268 C16.10688,10.6960268 15.8327664,10.7687518 15.5931989,10.8969793 C15.3133259,10.0818718 14.5229268,9.49766674 13.5963856,9.49766674 C13.1672561,9.49766674 12.7687636,9.62309774 12.4371411,9.83891321 C12.2017759,8.95226109 11.3696842,8.29930669 10.3928923,8.29930669 C9.99458465,8.29930669 9.62275187,8.40813447 9.30654522,8.59739976 L9.30654522,1.42515249 C9.30654522,0.365060667 8.4475222,-0.5 7.39619224,-0.5 C6.34627404,-0.5 5.49863882,0.364390213 5.49863882,1.42515249 L5.49863882,14.9990679 L2.79149833,11.4981494 C2.33990048,10.7256484 1.25796465,10.4579954 0.408016869,10.9372976 C-0.448495824,11.4208575 -0.757186346,12.4871638 -0.266517693,13.3181807 C-0.221942375,13.3880215 -0.221942375,13.3880215 -0.0679723281,13.6265707 C0.137397398,13.944607 0.248691135,14.1168648 0.428630429,14.3951327 C0.942759518,15.1902097 1.45803808,15.9852984 1.94061413,16.727459 C1.95455156,16.7488931 1.95455156,16.7488931 1.96848974,16.7703263 C2.72477886,17.9332706 3.32594411,18.8510815 3.71509077,19.4347338 C3.97897576,19.8305154 4.25954481,20.2204113 4.73613542,20.8635322 C4.77572637,20.916944 4.77572637,20.916944 4.81529743,20.9702918 C6.19563371,22.8309976 6.66859982,23.5786103 6.66859982,24 L6.66859982,24.5 L7.16859982,24.5 L15.1579335,24.5 L15.6579335,24.5 L15.6579335,24 C15.6579335,23.4442918 15.8127426,23.093397 16.8234169,21.1474064 C17.5230199,19.8003644 17.8804952,18.9306924 18.0348962,17.9890448 C18.0788416,17.7210344 18.1014521,17.45899 18.1014521,17.2018266 L18.1014521,13.9627346 L18.095452,12.3777591 L18.095452,12.3777591 Z"></path>
+                        </g>
+                    </g>
+                    <g id="Cursor-/-Pointer" transform="translate(456.000000, 448.000000)">
+                        <g id="Cursor-Pointer">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-19"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-19"></use>
+                            <path stroke="#000000" stroke-width="1" d="M18.095452,12.3777591 C18.0948912,11.4475593 17.3335344,10.6960268 16.3978922,10.6960268 C16.10688,10.6960268 15.8327664,10.7687518 15.5931989,10.8969793 C15.3133259,10.0818718 14.5229268,9.49766674 13.5963856,9.49766674 C13.1672561,9.49766674 12.7687636,9.62309774 12.4371411,9.83891321 C12.2017759,8.95226109 11.3696842,8.29930669 10.3928923,8.29930669 C9.99458465,8.29930669 9.62275187,8.40813447 9.30654522,8.59739976 L9.30654522,1.42515249 C9.30654522,0.365060667 8.4475222,-0.5 7.39619224,-0.5 C6.34627404,-0.5 5.49863882,0.364390213 5.49863882,1.42515249 L5.49863882,14.9990679 L2.79149833,11.4981494 C2.33990048,10.7256484 1.25796465,10.4579954 0.408016869,10.9372976 C-0.448495824,11.4208575 -0.757186346,12.4871638 -0.266517693,13.3181807 C-0.221942375,13.3880215 -0.221942375,13.3880215 -0.0679723281,13.6265707 C0.137397398,13.944607 0.248691135,14.1168648 0.428630429,14.3951327 C0.942759518,15.1902097 1.45803808,15.9852984 1.94061413,16.727459 C1.95455156,16.7488931 1.95455156,16.7488931 1.96848974,16.7703263 C2.72477886,17.9332706 3.32594411,18.8510815 3.71509077,19.4347338 C3.97897576,19.8305154 4.25954481,20.2204113 4.73613542,20.8635322 C4.77572637,20.916944 4.77572637,20.916944 4.81529743,20.9702918 C6.19563371,22.8309976 6.66859982,23.5786103 6.66859982,24 L6.66859982,24.5 L7.16859982,24.5 L15.1579335,24.5 L15.6579335,24.5 L15.6579335,24 C15.6579335,23.4442918 15.8127426,23.093397 16.8234169,21.1474064 C17.5230199,19.8003644 17.8804952,18.9306924 18.0348962,17.9890448 C18.0788416,17.7210344 18.1014521,17.45899 18.1014521,17.2018266 L18.1014521,13.9627346 L18.095452,12.3777591 L18.095452,12.3777591 Z"></path>
+                        </g>
+                    </g>
+                    <g id="Cursor-/-!default" transform="translate(423.000000, 24.000000)">
+                        <g id="cursor">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-22)" xlink:href="#path-21"></use>
+                            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-21"></use>
+                            <path stroke="#FFFFFF" stroke-width="1" d="M6.44805157,11.7871647 L10.8145819,12.0290342 C12.0289467,11.9009082 12.390083,10.912736 11.5978897,10.0958485 L0.936743625,-0.0608329699 C0.490703685,-0.521940513 0.196479729,-0.698622715 -0.202577288,-0.35941243 C-0.447188468,-0.15148568 -0.473259969,0.051426302 -0.474330291,0.669279596 L-0.499996898,14.983604 C-0.501889691,16.1215055 0.444640548,16.5813536 1.34552169,15.8859589 L1.42326646,15.8112636 L3.90605662,12.8478493 L6.61399912,19.7006158 C6.8877013,20.3802565 7.68317947,20.6755944 8.37968284,20.3933668 C9.07500287,20.1136726 9.44237709,19.3483989 9.16903318,18.6729326 L6.44805157,11.7871647 Z"></path>
+                        </g>
+                    </g>
+                    <g id="State-labels" transform="translate(0.000000, 10.000000)"></g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
