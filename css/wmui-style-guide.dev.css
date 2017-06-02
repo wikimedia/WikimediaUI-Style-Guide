@@ -364,13 +364,14 @@ code {
 	color: var( --color-base--emphasized );
 	list-style: none none;
 	display: inline-block;
+	vertical-align: top;
 	margin-bottom: 3.2rem;
-	border: var( --border-base );
 	border-radius: var( --border-radius-base );
 }
 
 	.color--dark,
-	.color__wcag-level span {
+	.color__wcag-level span,
+	.color--dark .color-code {
 		color: var( --color-base--inverted );
 	}
 
@@ -379,14 +380,15 @@ code {
 	}
 
 	.color__name {
-		font-weight: 700;
+		font-weight: 200;
+		font-size: 3rem;
+		position: absolute;
+		bottom: 1.2rem;
+		left: 1.2rem;
 	}
 
 	.color__wcag-level {
 		display: block;
-		position: absolute;
-		bottom: 1.2rem;
-		left: 1.2rem;
 	}
 
 	.color__swatch {
@@ -398,7 +400,6 @@ code {
 
 	.color__codes {
 		color: var( --color-base );
-		padding: 1.2rem;
 	}
 
 	.color-code {
