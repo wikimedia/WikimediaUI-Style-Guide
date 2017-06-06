@@ -327,7 +327,8 @@
                                 </g>
                             </g>
                         </g>
-                        <text id="Option-title" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" line-spacing="20" fill="#222222">
+                        <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="32" y="0" width="170" height="61"></rect>
+                        <text id="Option-title-Copy-4" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" line-spacing="20" fill="#222222">
                             <tspan x="33" y="34">Option with a really long</tspan>
                             <tspan x="33" y="54.3919983">label today</tspan>
                         </text>

@@ -156,8 +156,10 @@
                                 <path stroke="#72777D" stroke-width="1" d="M12,28.5 C18.9035594,28.5 24.5,22.9035594 24.5,16 C24.5,9.09644063 18.9035594,3.5 12,3.5 C5.09644063,3.5 -0.5,9.09644063 -0.5,16 C-0.5,22.9035594 5.09644063,28.5 12,28.5 Z"></path>
                             </g>
                         </g>
-                        <text id="Option-with-a-really" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" line-spacing="20" fill="#222222">
-                            <tspan x="33" y="35">Option 2</tspan>
+                        <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="33" y="0" width="169" height="60"></rect>
+                        <text id="Option-title-Copy-4" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" line-spacing="20" fill="#222222">
+                            <tspan x="33" y="34">Option with a really long</tspan>
+                            <tspan x="33" y="54.3919983">label today</tspan>
                         </text>
                         <text id="Option-title" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#222222">
                             <tspan x="33" y="15">Option title</tspan>
@@ -333,9 +335,10 @@
                                 <path stroke="#72777D" stroke-width="1" d="M12,28.5 C18.9035594,28.5 24.5,22.9035594 24.5,16 C24.5,9.09644063 18.9035594,3.5 12,3.5 C5.09644063,3.5 -0.5,9.09644063 -0.5,16 C-0.5,22.9035594 5.09644063,28.5 12,28.5 Z"></path>
                             </g>
                         </g>
-                        <text id="Option-with-a-really" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" line-spacing="20" fill="#222222">
-                            <tspan x="33" y="35">Option with a really long</tspan>
-                            <tspan x="33" y="55">label today</tspan>
+                        <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="33" y="0" width="169" height="60"></rect>
+                        <text id="Option-title-Copy-4" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" line-spacing="20" fill="#222222">
+                            <tspan x="33" y="34">Option with a really long</tspan>
+                            <tspan x="33" y="54.3919983">label today</tspan>
                         </text>
                         <text id="Option-title" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#222222">
                             <tspan x="33" y="15">Option title</tspan>
