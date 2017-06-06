@@ -88,7 +88,7 @@ module.exports = function ( grunt ) {
 					saveForWeb: true
 				},
 				src: 'resources/WikimediaUI.sketch',
-				dest: 'img/assets'
+				dest: 'img/components'
 			},
 			wikimediaui_components_svg: {
 				options: {
@@ -115,7 +115,7 @@ module.exports = function ( grunt ) {
 					saveForWeb: true
 				},
 				src: 'resources/WikimediaUI.sketch',
-				dest: 'img/assets'
+				dest: 'img/components'
 			}
 		},
 
