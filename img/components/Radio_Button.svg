@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="631px" height="676px" viewBox="0 0 631 676" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="617px" height="683px" viewBox="0 0 617 683" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
         <path d="M12,28 C18.627417,28 24,22.627417 24,16 C24,9.372583 18.627417,4 12,4 C5.372583,4 0,9.372583 0,16 C0,22.627417 5.372583,28 12,28 Z" id="path-1"></path>
         <path d="M12,28 C18.627417,28 24,22.627417 24,16 C24,9.372583 18.627417,4 12,4 C5.372583,4 0,9.372583 0,16 C0,22.627417 5.372583,28 12,28 Z" id="path-2"></path>
@@ -119,9 +119,9 @@
         </filter>
     </defs>
     <g id="Artboard-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-M101" transform="translate(-5840.000000, -262.000000)">
+        <g id="Artboard-M101" transform="translate(-5841.000000, -255.000000)">
             <g id="RADIO-BUTTONS---DESKTOP" transform="translate(5840.000000, 143.000000)">
-                <g id="Group-3" transform="translate(0.000000, 80.000000)">
+                <g id="Radio-Button-X" transform="translate(0.000000, 80.000000)">
                     <g id="Radio-/-!default" transform="translate(192.000000, 419.000000)">
                         <text id="8:16:8:16-copy-22" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#222222">
                             <tspan x="33" y="22">Option 2</tspan>
@@ -156,8 +156,10 @@
                                 <path stroke="#72777D" stroke-width="1" d="M12,28.5 C18.9035594,28.5 24.5,22.9035594 24.5,16 C24.5,9.09644063 18.9035594,3.5 12,3.5 C5.09644063,3.5 -0.5,9.09644063 -0.5,16 C-0.5,22.9035594 5.09644063,28.5 12,28.5 Z"></path>
                             </g>
                         </g>
-                        <text id="Option-with-a-really" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" line-spacing="20" fill="#222222">
-                            <tspan x="33" y="35">Option 2</tspan>
+                        <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="33" y="0" width="169" height="60"></rect>
+                        <text id="Option-title-Copy-4" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" line-spacing="20" fill="#222222">
+                            <tspan x="33" y="34">Option with a really long</tspan>
+                            <tspan x="33" y="54.3919983">label today</tspan>
                         </text>
                         <text id="Option-title" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#222222">
                             <tspan x="33" y="15">Option title</tspan>
@@ -333,9 +335,10 @@
                                 <path stroke="#72777D" stroke-width="1" d="M12,28.5 C18.9035594,28.5 24.5,22.9035594 24.5,16 C24.5,9.09644063 18.9035594,3.5 12,3.5 C5.09644063,3.5 -0.5,9.09644063 -0.5,16 C-0.5,22.9035594 5.09644063,28.5 12,28.5 Z"></path>
                             </g>
                         </g>
-                        <text id="Option-with-a-really" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" line-spacing="20" fill="#222222">
-                            <tspan x="33" y="35">Option with a really long</tspan>
-                            <tspan x="33" y="55">label today</tspan>
+                        <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="33" y="0" width="169" height="60"></rect>
+                        <text id="Option-title-Copy-4" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" line-spacing="20" fill="#222222">
+                            <tspan x="33" y="34">Option with a really long</tspan>
+                            <tspan x="33" y="54.3919983">label today</tspan>
                         </text>
                         <text id="Option-title" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#222222">
                             <tspan x="33" y="15">Option title</tspan>

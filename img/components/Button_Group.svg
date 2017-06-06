@@ -231,24 +231,6 @@
                         <rect stroke="#A2A9B1" stroke-width="1" x="385.5" y="424.5" width="91" height="33"></rect>
                     </g>
                     <path d="M278.5,425 L278.5,457" id="Path-114-Copy-4" stroke="#A2A9B1" stroke-linecap="square"></path>
-                    <text id=":FOCUS" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="18.7999992" fill="#72777D">
-                        <tspan x="7" y="247">:FOCUS</tspan>
-                    </text>
-                    <text id="SELECTED" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="18.7999992" fill="#72777D">
-                        <tspan x="7" y="303">SELECTED</tspan>
-                    </text>
-                    <text id=":ACTIVE" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="18.7999992" fill="#72777D">
-                        <tspan x="8" y="191">:ACTIVE</tspan>
-                    </text>
-                    <text id=":HOVER" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="18.7999992" fill="#72777D">
-                        <tspan x="0" y="135">  :HOVER</tspan>
-                    </text>
-                    <text id="NORMAL" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="18.7999992" fill="#72777D">
-                        <tspan x="8" y="79"> NORMAL</tspan>
-                    </text>
-                    <text id="DISABLED" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="18.7999992" fill="#72777D">
-                        <tspan x="8" y="24"> DISABLED</tspan>
-                    </text>
                     <g id="101-/-Headline--Sub" transform="translate(2.000000, 385.000000)">
                         <text id="SUBHEADLINE" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" line-spacing="14" fill="#222222">
                             <tspan x="0" y="13">ICON + TEXT</tspan>
@@ -333,7 +315,26 @@
                             <path stroke="#FFFFFF" stroke-width="1" d="M6.44805157,11.7871647 L10.8145819,12.0290342 C12.0289467,11.9009082 12.390083,10.912736 11.5978897,10.0958485 L0.936743625,-0.0608329699 C0.490703685,-0.521940513 0.196479729,-0.698622715 -0.202577288,-0.35941243 C-0.447188468,-0.15148568 -0.473259969,0.051426302 -0.474330291,0.669279596 L-0.499996898,14.983604 C-0.501889691,16.1215055 0.444640548,16.5813536 1.34552169,15.8859589 L1.42326646,15.8112636 L3.90605662,12.8478493 L6.61399912,19.7006158 C6.8877013,20.3802565 7.68317947,20.6755944 8.37968284,20.3933668 C9.07500287,20.1136726 9.44237709,19.3483989 9.16903318,18.6729326 L6.44805157,11.7871647 Z"></path>
                         </g>
                     </g>
-                    <g id="State-labels" transform="translate(0.000000, 10.000000)"></g>
+                    <g id="State-labels" transform="translate(0.000000, 10.000000)" font-size="14" font-family="Lato-Regular, Lato" line-spacing="18.7999992" fill="#72777D" font-weight="normal">
+                        <text id=":FOCUS">
+                            <tspan x="0" y="237">:FOCUS</tspan>
+                        </text>
+                        <text id="SELECTED">
+                            <tspan x="0" y="293"> SELECTED</tspan>
+                        </text>
+                        <text id=":ACTIVE">
+                            <tspan x="0" y="181">:ACTIVE</tspan>
+                        </text>
+                        <text id=":HOVER">
+                            <tspan x="0" y="125">:HOVER</tspan>
+                        </text>
+                        <text id="NORMAL">
+                            <tspan x="0" y="69"> NORMAL</tspan>
+                        </text>
+                        <text id="DISABLED">
+                            <tspan x="0" y="14"> DISABLED</tspan>
+                        </text>
+                    </g>
                 </g>
             </g>
         </g>

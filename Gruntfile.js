@@ -68,10 +68,15 @@ module.exports = function ( grunt ) {
 				options: {
 					type: 'slices',
 					items: [
-						'Primary Buttons',
-						'Quiet Buttons',
-						'Button Group',
-						'Radio Button'
+						'Primary_Buttons',
+						'Quiet_Buttons',
+						'Button_Group',
+						'Link',
+						'Checkbox',
+						'Radio_Button',
+						'Toggle_Switch',
+						'Text_Input',
+						'Dropdown'
 					],
 					groupContentsOnly: true,
 					scales: [
@@ -83,16 +88,21 @@ module.exports = function ( grunt ) {
 					saveForWeb: true
 				},
 				src: 'resources/WikimediaUI.sketch',
-				dest: 'img/assets'
+				dest: 'img/components'
 			},
 			wikimediaui_components_svg: {
 				options: {
 					type: 'slices',
 					items: [
-						'Primary Buttons',
-						'Quiet Buttons',
-						'Button Group',
-						'Radio Button'
+						'Primary_Buttons',
+						'Quiet_Buttons',
+						'Button_Group',
+						'Link',
+						'Checkbox',
+						'Radio_Button',
+						'Toggle_Switch',
+						'Text_Input',
+						'Dropdown'
 					],
 					groupContentsOnly: true,
 					compact: true,
@@ -105,7 +115,7 @@ module.exports = function ( grunt ) {
 					saveForWeb: true
 				},
 				src: 'resources/WikimediaUI.sketch',
-				dest: 'img/assets'
+				dest: 'img/components'
 			}
 		},
 
