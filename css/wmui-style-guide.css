@@ -961,14 +961,13 @@ code {
 	color: #000;
 	list-style: none none;
 	display: inline-block;
-	vertical-align: top;
-	margin-bottom: 3.2rem;
 	-moz-border-radius: 2px;
 	     border-radius: 2px;
+	margin-bottom: 3.2rem;
+	vertical-align: top;
 }
 .color--dark,
-	.color__wcag-level span,
-	.color--dark .color-code {
+	.color__wcag-level span {
 		color: #fff;
 	}
 .color--dark .color__wcag-level span {
@@ -989,9 +988,6 @@ code {
 		height: 16rem;
 		padding: 1.2rem;
 		font-size: 1.4rem;
-	}
-.color__codes {
-		color: #222;
 	}
 .color-code {
 		background-color: inherit;

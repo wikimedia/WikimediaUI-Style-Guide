@@ -364,14 +364,13 @@ code {
 	color: var( --color-base--emphasized );
 	list-style: none none;
 	display: inline-block;
-	vertical-align: top;
-	margin-bottom: 3.2rem;
 	border-radius: var( --border-radius-base );
+	margin-bottom: 3.2rem;
+	vertical-align: top;
 }
 
 	.color--dark,
-	.color__wcag-level span,
-	.color--dark .color-code {
+	.color__wcag-level span {
 		color: var( --color-base--inverted );
 	}
 
@@ -396,10 +395,6 @@ code {
 		height: 16rem;
 		padding: 1.2rem;
 		font-size: 1.4rem;
-	}
-
-	.color__codes {
-		color: var( --color-base );
 	}
 
 	.color-code {
