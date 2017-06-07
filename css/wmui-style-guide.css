@@ -961,10 +961,10 @@ code {
 	color: #000;
 	list-style: none none;
 	display: inline-block;
-	margin-bottom: 3.2rem;
-	border: 1px solid #a2a9b1;
 	-moz-border-radius: 2px;
 	     border-radius: 2px;
+	margin-bottom: 3.2rem;
+	vertical-align: top;
 }
 .color--dark,
 	.color__wcag-level span {
@@ -974,23 +974,20 @@ code {
 		color: #000;
 	}
 .color__name {
-		font-weight: 700;
-	}
-.color__wcag-level {
-		display: block;
+		font-weight: 200;
+		font-size: 3rem;
 		position: absolute;
 		bottom: 1.2rem;
 		left: 1.2rem;
+	}
+.color__wcag-level {
+		display: block;
 	}
 .color__swatch {
 		position: relative;
 		height: 16rem;
 		padding: 1.2rem;
 		font-size: 1.4rem;
-	}
-.color__codes {
-		color: #222;
-		padding: 1.2rem;
 	}
 .color-code {
 		background-color: inherit;
