@@ -116,6 +116,26 @@ module.exports = function ( grunt ) {
 				},
 				src: 'resources/WikimediaUI.sketch',
 				dest: 'img/components'
+			},
+			wikimediaui_overview_svg: {
+				options: {
+					type: 'artboards',
+					items: [
+						'WikimediaUI Overview'
+					],
+					groupContentsOnly: true,
+					compact: true,
+					scales: [
+						1.0
+					],
+					formats: [
+						'png',
+						'svg'
+					],
+					saveForWeb: true
+				},
+				src: 'resources/WikimediaUI.sketch',
+				dest: 'resources'
 			}
 		},
 
