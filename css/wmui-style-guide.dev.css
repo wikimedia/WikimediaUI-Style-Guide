@@ -1,4 +1,4 @@
-@import 'vendor/wmui-base.css';
+@import 'vendor/wikimedia-ui-base.css';
 @import 'partials/fonts.css';
 @import 'partials/fonts-loaded.css';
 @import 'vendor/normalize.css';
@@ -15,7 +15,7 @@ body {
 	background-color: var( --wmui-color-base80 ); /* FIXME: var; */
 	color: var( --color-base );
 	margin: 0;
-	font-family: sans-serif; /* Fallback *//* FIXME: var; */
+	font-family: var( --font-family-sans--fallback ); /* Fallback */
 	font-size: 1.6rem;
 	line-height: var( --line-height-base );
 }
@@ -41,7 +41,7 @@ h6 {
 }
 
 h1 {
-	font-family: serif; /* Fallback *//* FIXME: var; */
+	font-family: var( --font-family-serif--fallback ); /* Fallback */
 	font-size: 3.2rem;
 	font-weight: 400;
 }
@@ -166,7 +166,7 @@ code {
 		color: var( --wmui-color-base10 ); /* --color-base-emphasized */
 		margin-top: 0;
 		height: 6.4rem;
-		font-family: sans-serif; /* Fallback *//* FIXME: var; */
+		font-family: var( --font-family-sans--fallback ); /* Fallback */
 		font-size: 1.3rem;
 		font-weight: 700;
 		letter-spacing: 1px;
@@ -292,9 +292,6 @@ code {
 	padding: 0;
 	list-style: none none;
 }
-.nav--main li:hover {
-	background-color: var( --wmui-color-base100 );
-}
 
 .nav--main > ol > li {
 	margin-bottom: 0.4rem;
@@ -348,7 +345,7 @@ code {
 
 /* ::: Content ::: */
 .page__parent-title {
-	color: var( --wmui-color-base30 );
+	color: var( --color-base--subtle );
 	margin-top: -2.8rem;
 
 }
@@ -415,12 +412,12 @@ code {
 		background-color: inherit;
 		display: block;
 		padding: 0;
-		font-family: sans-serif; /* Fallback *//* FIXME: var; */
+		font-family: var( --font-family-sans--fallback ); /* Fallback */
 	}
 
 /* ::: Footer ::: */
 .footer {
-	color: var( --wmui-color-base20 );
+	color: var( --color-base );
 	clear: both;
 	padding: 2.4rem 0;
 	font-size: 1.2rem;
@@ -445,7 +442,6 @@ code {
 }
 
 .lnk--wikimedia-project {
-	/* color: var( --wmui-color-base20 ); */
 	display: inline-block;
 	padding: 0.4rem 0;
 	text-transform: uppercase;
