@@ -1,8 +1,8 @@
 /**
- * WikimediaUI base v0.7.1
+ * WikimediaUI Base v0.9.2
  * Wikimedia Foundation user interface base variables
  */
-/* stylelint-disable */
+
 :root {
 	/* Colors */
 	/* WikimediaUI (WMUI) color palette */
@@ -39,7 +39,9 @@
 	--background-color-framed:      var( --wmui-color-base90 );
 	--background-color-framed--hover: var( --wmui-color-base100 );
 	--background-color-framed--active: var( --wmui-color-base70 );
-	/* RGBA Colors include hex fallback on `#fff` for IE 6/7/8 */
+	/* Tabs Navigation Background Color */
+	--background-color-tabs:       var( --wmui-color-base80 );
+	/* Highlight Colors, RGBA Colors include hex fallback on `#fff` for IE 6/7/8 */
 	--background-color-highlight:   rgba( 255, 182, 13, 0.4 );
 	--background-color-highlight--fallback: #ffe29e;
 
@@ -49,6 +51,7 @@
 	--color-base--active:           var( --wmui-color-base0 );
 	--color-base--inverted:         var( --wmui-color-base100 );
 	--color-base--emphasized:       var( --color-base--active );
+	--color-base--subtle:           var( --wmui-color-base30 );
 	--color-base--disabled:         var( --wmui-color-base30 );
 	--color-filled--disabled:       var( --color-base--inverted );
 	--color-placeholder:            var( --wmui-color-base30 );
@@ -58,23 +61,28 @@
 	--color-primary:                var( --wmui-color-accent50 );
 	--color-primary--hover:         #447ff5; /* = `filter: brightness( 109% )` */
 	--color-primary--active:        var( --wmui-color-accent30 );
-	--color-primary--focus:         var( --wmui-color-accent50 );
+	--color-primary--focus:         var( --color-primary );
 	/* 'Destructive' Color, Background Color and states */
 	--background-color-destructive: var( --wmui-color-red90 );
 	--color-destructive:            var( --wmui-color-red50 );
 	--color-destructive--hover:     #ff4242; /* ~= `filter: brightness( 120% )` */
 	--color-destructive--active:    var( --wmui-color-red30 );
-	--color-destructive--focus:     var( --wmui-color-red50 );
+	--color-destructive--focus:     var( --color-destructive );
 	/* Secondary Color and states (links only) */
 	--color-secondary:              var( --wmui-color-green50 );
 	--color-secondary--hover:       #1c6665;
 	--color-secondary--active:      var( --wmui-color-green30 );
-	--color-secondary--focus:       var( --wmui-color-green50 );
+	--color-secondary--focus:       var( --color-secondary );
+	/* Validation error feedback */
+	--color-erroneous:              var( --wmui-color-red50 );
 
 
 	/* Opacity */
 	--opacity-base:                 1;
 	--opacity-base--disabled:       0.51; /* = `#7d7d7d` on `background-color: #fff`; HSB 0°, 0%, 49% */
+	--opacity-icon-base:            0.87; /* = `#222` on `background-color: #fff` */
+	--opacity-icon-base--hover:     0.73; /* = `#454545` on `background-color: #fff`, closest to `#444` */
+	--opacity-icon-base--selected:  1;
 
 
 	/* Positioning */
@@ -108,9 +116,10 @@
 
 	/* Box Shadows */
 	--box-shadow-base--focus:       inset 0 0 0 1px var( --wmui-color-accent50 );
+	--box-shadow-primary-focus:     inset 0 0 0 1px var( --color-primary ), inset 0 0 0 2px var( --color-base--inverted );
 	--box-shadow-inset--inverted:   inset 0 0 0 1px var( --color-base--inverted );
 	--box-shadow-filled--disabled:  inset 0 0 0 1px var( --color-filled--disabled );
-	--box-shadow-dialog:            0 0.15em 0 0 rgba( 0, 0, 0, 0.15 );
+	--box-shadow-dialog:            0 2px 2px 0 rgba( 0, 0, 0, 0.25 );
 	--box-shadow-menu:              var( --box-shadow-dialog );
 
 
@@ -119,7 +128,9 @@
 	--font-family-base:             var( --font-family-sans );
 	--font-family-heading-main:     var( --font-family-serif );
 	--font-family-sans:             'Helvetica Neue', 'Helvetica', 'Nimbus Sans L', 'Arial', 'Liberation Sans', sans-serif;
+	--font-family-sans--fallback:   sans-serif;
 	--font-family-serif:            'Linux Libertine', 'Georgia', 'Times', serif;
+	--font-family-serif--fallback:  serif;
 	/* Line Heights */
 	--line-height-base:             1.6;
 	--line-height-heading:          1.25;
