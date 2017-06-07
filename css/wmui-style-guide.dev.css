@@ -347,8 +347,18 @@ code {
 
 
 /* ::: Content ::: */
+.page__parent-title {
+	color: var( --wmui-color-base30 );
+	margin-top: -2.8rem;
+
+}
+
 .page__title {
 	margin-top: -0.8rem;
+}
+
+.page__parent-title + .page__title {
+	margin-top: -0.4rem;
 }
 
 /* ... Color ... */
