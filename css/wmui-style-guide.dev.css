@@ -31,6 +31,7 @@ body {
 }
 
 /* ::: Text Block-Level Elements ::: */
+/* ... Headings ... */
 h1,
 h2,
 h3,
@@ -64,6 +65,13 @@ h3 {
 	font-size: 2rem;
 }
 
+/* ... Other Block-Level Elements ... */
+blockquote {
+	border-left: 3px solid var( --wmui-color-base70 ); /* FIXME: var */
+	margin: 0.8rem 0 0;
+	padding-left: 1.6rem;
+}
+
 p {
 	margin: 3.2rem 0 0;
 	line-height: 1.5;
@@ -75,6 +83,7 @@ p {
 	h5 + p,
 	h6 + p,
 	p + p,
+	blockquote + p,
 	p:first-child {
 		margin: 0.8rem 0 0;
 	}
@@ -105,6 +114,13 @@ a {
 	a:active {
 		color: var( --color-primary--active );
 	}
+
+cite {
+	display: block;
+}
+cite:before {
+	content: '– ';
+}
 
 code {
 	background-color: var( --background-color-code );
