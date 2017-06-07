@@ -59,45 +59,36 @@
 			</div>
 			<div class="col col--end">
 				<main id="content" class="content" role="main">
-					<h1 class="page__title">Visual Style</h1>
+					<div class="page__parent-title">Visual Style</div>
+					<h1 class="page__title">Icons</h1>
 
-					<section id="icons">
-						<h2>Icons</h2>
-						Icons help convey a message visually.
+					<p>Icons help convey a message visually.</p>
 
-						<h3>Icon style</h3>
+					<h3>Icon style</h3>
+					<img src="img/visual-style/icons-sample.png" alt="Sample of icons">
+					<p>Wikimedia icons should be simple and neutral.</p>
 
-						<img src="img/visual-style/icons-sample.png" alt="Sample of icons">
+					<h3>Visual style</h3>
+					 They use monochromatic vector-based shapes with the following properties:</p>
+					<ul>
+						<li><b>Filled areas.</b> Shapes are defined by filled areas as opposed to outlines.</li>
+						<li><b>Rounded corners.</b> Corners are slightly rounded to make shapes more friendly and welcoming, but not too much to look goofy.</li>
+						<li><b>Medium thick stroke.</b> Strokes should be visible at smaller sizes without effort.</li>
+						<li><b>Diagonal cross-out lines.</b> Icons with a cross-out line will have it from the top-left to the bottom right (like “\”) at a 45 degree angle.</li>
+					</ul>
 
-						<p>Wikimedia icons should be simple and neutral.</p>
+					<h3>Using icons</h3>
+					<p>The <a href="https://doc.wikimedia.org/oojs-ui/master/demos/#icons-mediawiki-ltr">icon repository</a> provides a list of the currently available icons.</p>
+					<p>When using icons you need to consider the size of their target area. Even if icons are presented at a smaller size, you need to make sure that the associated active area is at least 48x48sp. Otherwise users may fail to hit the active area, not getting the expected result.</p>
 
-
-						<h3>Visual style</h3>
-						 They use monochromatic vector-based shapes with the following properties:</p>
-
-						<ul>
-							<li><b>Filled areas.</b> Shapes are defined by filled areas as opposed to outlines.</li>
-							<li><b>Rounded corners.</b> Corners are slightly rounded to make shapes more friendly and welcoming, but not too much to look goofy.</li>
-							<li><b>Medium thick stroke.</b> Strokes should be visible at smaller sizes without effort.</li>
-							<li><b>Diagonal cross-out lines.</b> Icons with a cross-out line will have it from the top-left to the bottom right (like “\”) at a 45 degree angle.</li>
-						</ul>
-
-						<h3>Using icons</h3>
-						<p>The <a href="https://doc.wikimedia.org/oojs-ui/master/demos/#icons-mediawiki-ltr">icon repository</a> provides a list of the currently available icons.</p>
-
-						<p>When using icons you need to consider the size of their target area. Even if icons are presented at a smaller size, you need to make sure that the associated active area is at least 48x48sp. Otherwise users may fail to hit the active area, not getting the expected result.</p>
-
-						<h3>Creating icons</h3>
-						<p>Icons follow a template. The default canvas is 24x24px. In order to allow for optical adjustments, a different margin will be applied depending on the shape of the icon.</p>
-
-						<figure>
-							<img src="img/visual-style/icons-optical-adjustment.png" alt="Optical adjustment for icons">
-							<figcaption>Different shapes have a different perceived size. A 1px margin for square shapes is used so that other shapes such as circles can expand to reach a similar perceived size.</figcaption>
-						</figure>
-
-						<p>Icons are created using black (<a href="#colors">Base0</a>). Their color can be changed when the icon is used (preferably done automatically by software).</p>
-						<p>The simple style and guidelines make it easy to reuse or adapt existing freely licensed icons that you can find on other repos such as <a href="https://material.io/icons/">material icons</a> or the <a href="https://thenounproject.com/">noun project</a>. You are welcome to use existing icons that align to the proposed style instead of reinventing the wheel icon.</p>
-					</section>
+					<h3>Creating icons</h3>
+					<p>Icons follow a template. The default canvas is 24x24px. In order to allow for optical adjustments, a different margin will be applied depending on the shape of the icon.</p>
+					<figure>
+						<img src="img/visual-style/icons-optical-adjustment.png" alt="Optical adjustment for icons">
+						<figcaption>Different shapes have a different perceived size. A 1px margin for square shapes is used so that other shapes such as circles can expand to reach a similar perceived size.</figcaption>
+					</figure>
+					<p>Icons are created using black (<a href="#colors">Base0</a>). Their color can be changed when the icon is used (preferably done automatically by software).</p>
+					<p>The simple style and guidelines make it easy to reuse or adapt existing freely licensed icons that you can find on other repos such as <a href="https://material.io/icons/">material icons</a> or the <a href="https://thenounproject.com/">noun project</a>. You are welcome to use existing icons that align to the proposed style instead of reinventing the wheel icon.</p>
 				</main>
 			</div>
 		</div>
