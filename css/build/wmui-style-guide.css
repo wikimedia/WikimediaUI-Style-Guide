@@ -669,6 +669,7 @@ body {
 	line-height: 1.6;
 }
 /* ::: Text Block-Level Elements ::: */
+/* ... Headings ... */
 h1,
 h2,
 h3,
@@ -699,6 +700,12 @@ h2 {
 h3 {
 	font-size: 2rem;
 }
+/* ... Other Block-Level Elements ... */
+blockquote {
+	border-left: 3px solid #c8ccd1; /* FIXME: var */
+	margin: 0.8rem 0 0;
+	padding-left: 1.6rem;
+}
 p {
 	margin: 3.2rem 0 0;
 	line-height: 1.5;
@@ -710,6 +717,7 @@ h1 + p,
 	h5 + p,
 	h6 + p,
 	p + p,
+	blockquote + p,
 	p:first-child {
 		margin: 0.8rem 0 0;
 	}
@@ -736,6 +744,12 @@ a:hover {
 a:active {
 		color: #2a4b8d;
 	}
+cite {
+	display: block;
+}
+cite:before {
+	content: '– ';
+}
 code {
 	background-color: #f8f9fa;
 	display: inline-block;
