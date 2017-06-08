@@ -644,12 +644,14 @@ template {
 }
 */
 .fonts-loaded body,
+.fonts-loaded cite,
 .fonts-loaded .site__title,
 .fonts-loaded .color-code {
 	font-family: 'Lato', sans-serif;
 }
 /* ::: Text Block-Level Elements ::: */
-.fonts-loaded h1 {
+.fonts-loaded h1,
+.fonts-loaded blockquote {
 	font-family: 'Charter', serif;
 }
 * {
@@ -703,8 +705,12 @@ h3 {
 /* ... Other Block-Level Elements ... */
 blockquote {
 	border-left: 3px solid #c8ccd1; /* FIXME: var */
-	margin: 0.8rem 0 0;
+	margin: 1.6rem 0 0;
 	padding-left: 1.6rem;
+	font-family: serif; /* Fallback */
+	font-size: 2rem;
+	font-style: italic;
+	line-height: 1.5;
 }
 p {
 	margin: 3.2rem 0 0;
@@ -717,9 +723,11 @@ h1 + p,
 	h5 + p,
 	h6 + p,
 	p + p,
-	blockquote + p,
 	p:first-child {
 		margin: 0.8rem 0 0;
+	}
+blockquote + p {
+		margin-top: 1.6rem;
 	}
 ul {
 	margin: 0.8rem 0;
@@ -746,10 +754,14 @@ a:active {
 	}
 cite {
 	display: block;
+	margin-top: 0.8em;
+	font-family: var(--font-family-sans-serif--fallback); /* Fallback */
+	font-size: 1.4rem;
+	font-style: normal;
 }
 cite:before {
-	content: '– ';
-}
+		content: '— ';
+	}
 code {
 	background-color: #f8f9fa;
 	display: inline-block;
