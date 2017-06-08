@@ -1,10 +1,12 @@
 .fonts-loaded body,
+.fonts-loaded cite,
 .fonts-loaded .site__title,
 .fonts-loaded .color-code {
 	font-family: 'Lato', sans-serif;
 }
 
 /* ::: Text Block-Level Elements ::: */
-.fonts-loaded h1 {
+.fonts-loaded h1,
+.fonts-loaded blockquote {
 	font-family: 'Charter', serif;
 }
