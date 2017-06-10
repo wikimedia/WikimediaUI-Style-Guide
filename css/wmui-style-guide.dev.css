@@ -3,6 +3,11 @@
 @import 'partials/fonts-loaded.css';
 @import 'vendor/normalize.css';
 
+:root {
+	--font-weight-base: 400;
+	--font-weight-bold: 700;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -37,13 +42,13 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: 700;
+	font-weight: var( --font-weight-bold );
 }
 
 h1 {
 	font-family: var( --font-family-serif--fallback ); /* Fallback */
 	font-size: 3.2rem;
-	font-weight: 400;
+	font-weight: var( --font-weight-base );
 }
 
 h2 {
@@ -168,7 +173,7 @@ code {
 		height: 6.4rem;
 		font-family: var( --font-family-sans--fallback ); /* Fallback */
 		font-size: 1.3rem;
-		font-weight: 700;
+		font-weight: var( --font-weight-bold );
 		letter-spacing: 1px;
 		text-transform: uppercase;
 	}
@@ -315,6 +320,7 @@ code {
 	color: var( --color-primary );
 	/* border-left: 2px solid var( --color-primary ); */
 	border-radius: var( --border-radius-base );
+	font-weight: var( --font-weight-bold );
 	cursor: default;
 	pointer-events: none;
 }
@@ -339,7 +345,7 @@ code {
 	background-color: var( --background-color-base );
 	color: var( --color-base--active );
 	border-left-color: var( --wmui-color-base0 );
-	font-weight: 700;
+	font-weight: var( --font-weight-bold );
 }
 
 
@@ -386,7 +392,7 @@ code {
 	}
 
 	.color__name {
-		font-weight: 700;
+		font-weight: var( --font-weight-bold );
 	}
 
 	.color__wcag-level {
@@ -421,7 +427,7 @@ code {
 	clear: both;
 	padding: 2.4rem 0;
 	font-size: 1.2rem;
-	font-weight: 400;
+	font-weight: var( --font-weight-base );
 }
 
 .footer__list {
@@ -438,7 +444,7 @@ code {
 	margin-left: 0;
 }
 .footer__list a {
-	font-weight: 700;
+	font-weight: var( --font-weight-bold );
 }
 
 .lnk--wikimedia-project {
@@ -468,7 +474,7 @@ code {
 	.page__title {
 		margin-top: -0.4rem;
 		font-size: 2.4rem;
-		font-weight: 700;
+		font-weight: var( --font-weight-bold );
 	}
 }
 
