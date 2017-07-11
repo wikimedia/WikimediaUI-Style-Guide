@@ -453,6 +453,14 @@ code {
 	text-transform: uppercase;
 }
 
+
+/* ::: Page-specific Styles ::: */
+.page--visual-style-icons img { /* FIXME: generalize imagery styles */
+	background-color: var( --wmui-color-base80 ); /* FIXME: var; */
+	padding: 2.4rem;
+}
+
+
 /* ::: Media Queries ::: */
 /* ... Smartphone only ... */
 @media ( max-width: 767px ) {
