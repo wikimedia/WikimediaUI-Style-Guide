@@ -1232,6 +1232,13 @@ code {
 	text-transform: uppercase;
 }
 
+/* ::: Page-specific Styles ::: */
+
+.page--visual-style-icons img { /* FIXME: generalize imagery styles */
+	background-color: #eaecf0; /* FIXME: var; */
+	padding: 2.4rem;
+}
+
 /* ::: Media Queries ::: */
 
 /* ... Smartphone only ... */

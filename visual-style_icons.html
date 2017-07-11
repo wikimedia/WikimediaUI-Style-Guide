@@ -21,7 +21,7 @@
     <link rel="preload" href="fonts/Lato_regular.woff2" as="font" type="font/woff2" crossorigin>
     <script src="js/fonts-loader.js" async></script>
 </head>
-<body>
+<body class="page--visual-style-icons">
 	<header id="header" class="header" role="banner">
 		<div class="content-box">
 			<a href="#content" class="is-aural is-focusable">Jump to content</a>
@@ -63,7 +63,9 @@
 					<h1 class="page__title">Icons</h1>
 
 					<p>Icons help convey a message visually.</p>
-					<img src="img/visual-style/icons-sample.png" alt="Sample of WikimediaUI icons" style="background-color:#eaecf0; padding:2em; margin:1em 0;">
+					<figure>
+						<img src="img/visual-style/icons-sample.png" alt="Sample of WikimediaUI icons">
+					</figure>
 
 					<h3>Principles</h3>
 					<p>Wikimedia icons should be simple and neutral. <sup><a href="#References">[1]</a></sup></p>
@@ -85,11 +87,11 @@
 					</ul>
 
 					<h3>Guidelines for creating icons</h3>
-					<p>Icons follow a template. The default canvas is 20 x 20 dp. In order to allow for optical adjustments, a different margin is applied depending on the shape of the icon.</p>
 					<figure>
-						<img src="img/visual-style/icons-optical-adjustment.png" alt="Icon sizes at different shapes for optical adjustment" style="background-color:#eaecf0; padding:2em; margin:1em 0;">
-						<figcaption>Different shapes have a different perceived size. A 1px margin for square-shaped icon is used whilst a circle uses the full 20 x 20 dp canvas available to reach a similar perceived size.</figcaption>
+						<figcaption>Icons follow a template. The default canvas is 20 x 20 dp. In order to allow for optical adjustments, a different margin is applied depending on the shape of the icon.</figcaption>
+						<img src="img/visual-style/icons-optical-adjustment.png" alt="Icon sizes at different shapes for optical adjustment">
 					</figure>
+					<p>Different shapes have a different perceived size. A 1px margin for square-shaped icon is used whilst a circle uses the full 20 x 20 dp canvas available to reach a similar perceived size.</p>
 					<p><b>Black icons</b> <br>
 						Use black (<a href="#colors">Base0</a>) on a transparent background as the boldest representation of an icon. The color can be changed when the icon is used (preferably done automatically by software).</p>
 					<p><b>Filled areas with no stroke outlines</b> <br>
