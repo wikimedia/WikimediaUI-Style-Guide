@@ -8,6 +8,7 @@ module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( 'grunt-postcss' );
 	grunt.loadNpmTasks( 'grunt-sketch' );
 	grunt.loadNpmTasks( 'grunt-stylelint' );
+	grunt.loadNpmTasks( 'grunt-svgmin' );
 
 	grunt.initConfig( {
 		// Lint – Styles
@@ -227,6 +228,28 @@ module.exports = function ( grunt ) {
 			}
 		},
 
+		// Image Optimization
+		svgmin: {
+			options: {
+				plugins: [{
+					removeXMLProcInst: false
+				}, {
+					removeViewBox: false
+				}, {
+					cleanupNumericValues: false
+				}]
+			},
+			all: {
+				files: [{
+					expand: true,
+					cwd: 'img',
+					src: [ '**/*.svg' ],
+					dest: 'img/',
+					ext: '.svg'
+				}]
+			}
+		},
+
 		// Development
 		watch: {
 			files: [
@@ -235,9 +258,9 @@ module.exports = function ( grunt ) {
 			],
 			tasks: 'default'
 		}
-
 	} );
 
 	grunt.registerTask( 'lint', [ 'stylelint' ] );
+	grunt.registerTask( 'imagery', [ 'sketch_export', 'svgmin' ] );
 	grunt.registerTask( 'default', [ 'lint', 'postcss', 'cssmin' ] );
 };

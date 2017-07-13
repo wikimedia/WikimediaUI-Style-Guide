@@ -21,6 +21,7 @@
     "grunt-postcss": "^0.8.0",
     "grunt-sketch": "^1.0.2",
     "grunt-stylelint": "0.7.0",
+    "grunt-svgmin": "^4.0.0",
     "pixrem": "^3.0.2",
     "postcss": "^5.2.5",
     "postcss-cssnext": "^2.8.0",
