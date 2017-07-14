@@ -8,6 +8,7 @@ module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( 'grunt-postcss' );
 	grunt.loadNpmTasks( 'grunt-sketch' );
 	grunt.loadNpmTasks( 'grunt-stylelint' );
+	grunt.loadNpmTasks( 'grunt-svgmin' );
 
 	grunt.initConfig( {
 		// Lint – Styles
@@ -117,7 +118,7 @@ module.exports = function ( grunt ) {
 				src: 'resources/WikimediaUI.sketch',
 				dest: 'img/components'
 			},
-			wikimediaui_overview_svg: {
+			wikimediaui_overview: {
 				options: {
 					type: 'artboards',
 					items: [
@@ -136,6 +137,116 @@ module.exports = function ( grunt ) {
 				},
 				src: 'resources/WikimediaUI.sketch',
 				dest: 'resources'
+			},
+			wikimediaui_style_guide_imagery_design_principles_svg: {
+				options: {
+					type: 'artboards',
+					items: [
+						'content-first',
+						'trustworthy-yet-joyful'
+					],
+					groupContentsOnly: true,
+					compact: true,
+					scales: [
+						1.0
+					],
+					formats: [
+						'svg'
+					],
+					saveForWeb: true
+				},
+				src: 'resources/WikimediaUI-Style-Guide-Imagery.sketch',
+				dest: 'img/design-principles'
+			},
+			wikimediaui_style_guide_imagery_design_principles_png: {
+				options: {
+					type: 'artboards',
+					items: [
+						'content-first',
+						'trustworthy-yet-joyful'
+					],
+					groupContentsOnly: true,
+					compact: true,
+					scales: [
+						2.0
+					],
+					formats: [
+						'png'
+					],
+					saveForWeb: true
+				},
+				src: 'resources/WikimediaUI-Style-Guide-Imagery.sketch',
+				dest: 'img/design-principles'
+			},
+			wikimediaui_style_guide_imagery_visual_style_svg: {
+				options: {
+					type: 'artboards',
+					items: [
+						'principles-paper-ink',
+						'principles-paper-shadow',
+						'principles-content-chrome',
+						'principles-color-type',
+						'typography-specimen',
+						'typography-readability'
+					],
+					groupContentsOnly: true,
+					compact: true,
+					scales: [
+						1.0
+					],
+					formats: [
+						'svg'
+					],
+					saveForWeb: true
+				},
+				src: 'resources/WikimediaUI-Style-Guide-Imagery.sketch',
+				dest: 'img/visual-style'
+			},
+			wikimediaui_style_guide_imagery_visual_style_png: {
+				options: {
+					type: 'artboards',
+					items: [
+						'principles-paper-ink',
+						'principles-paper-shadow',
+						'principles-content-chrome',
+						'principles-color-type',
+						'typography-specimen',
+						'typography-readability'
+					],
+					groupContentsOnly: true,
+					compact: true,
+					scales: [
+						2.0
+					],
+					formats: [
+						'png'
+					],
+					saveForWeb: true
+				},
+				src: 'resources/WikimediaUI-Style-Guide-Imagery.sketch',
+				dest: 'img/visual-style'
+			}
+		},
+
+		// Image Optimization
+		svgmin: {
+			options: {
+				plugins: [{
+					removeXMLProcInst: false
+				}, {
+					removeViewBox: false
+				}, {
+					cleanupNumericValues: false
+				}]
+			},
+			all: {
+				files: [{
+					expand: true,
+					cwd: 'img',
+					src: [ '**/*.svg' ],
+					dest: 'img/',
+					ext: '.svg'
+				}]
 			}
 		},
 
@@ -147,9 +258,9 @@ module.exports = function ( grunt ) {
 			],
 			tasks: 'default'
 		}
-
 	} );
 
 	grunt.registerTask( 'lint', [ 'stylelint' ] );
+	grunt.registerTask( 'imagery', [ 'sketch_export', 'svgmin' ] );
 	grunt.registerTask( 'default', [ 'lint', 'postcss', 'cssmin' ] );
 };
