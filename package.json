@@ -1,14 +1,14 @@
 {
-  "name": "wmui-style-guide",
+  "name": "wikimedia-research-landing-page",
   "version": "0.1.0",
-  "description": "Wikimedia User Interface Style Guide",
+  "description": "Wikimedia Research Landing Page",
   "keywords": [
     "ui"
   ],
-  "homepage": "https://www.mediawiki.org/wiki/Design",
+  "homepage": "https://www.mediawiki.org/wiki/Wikimedia_Research",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wikimedia/WikimediaUI-Style-Guide.git"
+    "url": "https://github.com/wikimedia-research/landing-page.git"
   },
   "private": true,
   "license": "MIT",
