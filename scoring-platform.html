@@ -45,28 +45,34 @@
 								<li class="nav__sub-item"><a href="increasing-diversity.html">Increasing diversity</a></li>
 								<li class="nav__sub-item"><a href="knowledge-gaps.html">Knowledge gaps</a></li>
 								<li class="nav__sub-item"><a href="recommender-system-ux.html">Recommender system UX</a></li>
-								<li class="nav__sub-item"><a href="scoring-platform.html">Scoring platform</a></li>
+								<li class="nav__sub-item is-on"><a href="scoring-platform.html">Scoring platform</a></li>
 								<li class="nav__sub-item"><a href="wikicite.html">Structured citations</a></li>
 								<li class="nav__sub-item"><a href="structured-multimedia-data.html">Structured multimedia data</a></li>
 								<li class="nav__sub-item"><a href="why-we-read-wikipedia.html">Why we read Wikipedia</a></li>
 							</ul>
 						</li>
 						<li class="nav__item"><a href="news-outreach.html">News and outreach</a></li>
-						<li class="nav__item"><a href="resources.html">Resources</a></li>
+						<li class="nav__item is-on"><a href="resources.html">Resources</a></li>
 					</ol>
 				</nav>
 			</div>
 			<div class="col col--end">
 				<main id="content" class="content" role="main">
-					<h1 class="page__title">Research projects</h1>
-					<p>We here at Wikimedia Research are involved in all sorts of projects.</p>
+					<h1 class="page__title">ORES: Machine Learning as a Service for Free Knowledge</h1>
+					<p>We are investigating the design of automated quality control in Wikimedia projects. We explore ways to enhance the impact of machine classifiers while minimizing their detrimental effects.</p>
 
-					<section id="section-identifier">
-						<h2>About our projects</h2>
-						<p>About the projects we do</p>
+					<section id="project-overview">
+						<h2>Project overview</h2>
+						<p>As a sociotechnical system, Wikipedia reflects the complex interaction between humans and technology. As Wikipedia has grown over the years, the platform’s technological affordances have shaped social processes and vice versa. The development of technologies and the progress of social progress has been complicated and not uniformly positive.</p>
 
-						<h3>Project 1</h3>
-						<p>Another paragraph</p>
+<p>In response to exponential growth between 2004 and 2007, early Wikipedians had to scale their quality-control practices and build novel technologies to support them. A few independent developers identified the potential of machine classifiers to analyze every edit submitted to Wikipedia and predict whether edits were good or bad based on a set of criterion (e.g., Was the editor logged in? Did the edit include words on the “bad words list”? How many characters were changed in the edit?). Using these classifiers, a relatively small group of patrollers could manage the firehose of contributions that were suddenly coming to Wikipedia.</p>
+
+<p>While the tools that took advantage of these machine classifiers made the vandalism patrollers’ work much more efficient, the set of concerns that were addressed in its implementation did not include the need to support and socialize “good-faith” newcomers (i.e., individuals trying to make productive contributions). As a result, they often received the same negative reaction that was generally reserved for vandals, which led to a dramatic decline in Wikipedia contributors. After some deeper inquiries, a group of Wikimedia Foundation (WMF) researchers discovered this problematic pattern as the cause for declining newcomer retention and started publicizing the result.</p>
+
+<p>Years after this concerning result was published, much has changed. WMF has invested in several initiatives to improve the experience for good-faith newcomers in Wikipedia (e.g. The Teahouse, Visual Editor, etc.),  and some progress has happened. However, the very quality control tools that became central to the problem remain almost entirely unchanged. It turns out it is very difficult to build and maintain a high-performance machine classifier to detect bad edits, so there has been little innovation in the space of quality control technologies.</p>
+
+<p>The Scoring Platform project was started to address this problem with the underlying quality control machine classifier and explore ways to enhance the positive impact of technology on Wikipedia users while minimizing the detrimental effects.</p>
+
 					</section>
 				</main>
 			</div>
