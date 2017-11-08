@@ -739,6 +739,11 @@ template {
   display: none;
 }
 
+.page .nav--main .is-on > a {
+	cursor: pointer;
+	pointer-events: auto;
+}
+
 * {
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
