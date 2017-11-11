@@ -1,1 +1,86 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width="817px" height="424px" viewBox="0 0 817 424" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background:#eaecf0"><defs><rect id="a" width="262.403446" height="310" rx="2"/><filter x="-16.0%" y="-13.5%" width="132.0%" height="127.1%" filterUnits="objectBoundingBox" id="b"><feOffset in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="14" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" in="shadowBlurOuter1"/></filter><rect id="d" width="262.403446" height="310" rx="2"/><filter x="-16.0%" y="-13.5%" width="132.0%" height="127.1%" filterUnits="objectBoundingBox" id="e"><feOffset in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="14" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" in="shadowBlurOuter1"/></filter></defs><g fill="none" fill-rule="evenodd"><g transform="translate(111 57)"><mask id="c" fill="#fff"><use xlink:href="#a"/></mask><use fill="#000" filter="url(#b)" xlink:href="#a"/><use fill="#FFF" xlink:href="#a"/><path fill="#222" mask="url(#c)" d="M-3 254h269v85H-3z"/><text mask="url(#c)" font-family="Lato-Regular, Lato" font-size="50" letter-spacing="-0.00121493253" fill="#222"><tspan x="23" y="87">Lato</tspan></text><text mask="url(#c)" font-family="Lato-Regular, Lato" font-size="16" letter-spacing="0.600000024" fill="#222"><tspan x="23" y="153">abcdefghjklmnopqrstuvwxy</tspan> <tspan x="231.928001" y="153">z</tspan></text><text mask="url(#c)" font-family="Lato-Regular, Lato" font-size="18" letter-spacing="0.675000012" fill="#FFF"><tspan x="23" y="289">Imagine a world…</tspan></text><text mask="url(#c)" font-family="Lato-Regular, Lato" font-size="22" letter-spacing="0.824999988" fill="#222"><tspan x="23" y="132">1234567890</tspan></text><text mask="url(#c)" font-family=".SFNSDisplay-Regular, .SF NS Display" font-size="40" letter-spacing="1.5" fill="#222"><tspan x="23" y="217">Aa</tspan></text><text mask="url(#c)" font-family="Lato-Light, Lato" font-size="40" font-weight="300" letter-spacing="1.5" fill="#222"><tspan x="81" y="217">Aa</tspan></text><text mask="url(#c)" font-family=".SFNSDisplay-Regular, .SF NS Display" font-size="40" letter-spacing="1.5" fill="#222"><tspan x="134" y="217">Aa</tspan></text><text mask="url(#c)" font-family="Lato-Hairline, Lato" font-size="40" font-weight="200" letter-spacing="1.5" fill="#222"><tspan x="187" y="217">Aa</tspan></text><text opacity="0.5" mask="url(#c)" font-family="Lato-Regular, Lato" font-size="15" letter-spacing="-0.000364479783" fill="#222"><tspan x="23" y="34">Sans Serif</tspan></text></g><g transform="translate(444 57)"><mask id="f" fill="#fff"><use xlink:href="#d"/></mask><use fill="#000" filter="url(#e)" xlink:href="#d"/><use fill="#FFF" xlink:href="#d"/><path fill="#222" mask="url(#f)" d="M-3 254h269v85H-3z"/><text mask="url(#f)" font-family="Charter-Roman, Charter" font-size="50" letter-spacing="-0.00121493253" fill="#222"><tspan x="23" y="87">Charter</tspan></text><text mask="url(#f)" font-family="Charter-Roman, Charter" font-size="16" letter-spacing="0.600000024" fill="#222"><tspan x="23" y="153">abcdefghjklmnopqrstuvwxyz</tspan></text><text mask="url(#f)" font-family="Charter-Roman, Charter" font-size="18" letter-spacing="0.675000012" fill="#FFF"><tspan x="25" y="289">Imagine a world…</tspan></text><text mask="url(#f)" font-family="Charter-Roman, Charter" font-size="22" letter-spacing="0.824999988" fill="#222"><tspan x="23" y="132">1234567890</tspan></text><text mask="url(#f)" font-family="Charter-Black, Charter" font-size="40" font-weight="700" letter-spacing="1.5" fill="#222"><tspan x="23" y="217">Aa</tspan></text><text mask="url(#f)" font-family="Charter-Bold, Charter" font-size="40" font-weight="bold" letter-spacing="1.5" fill="#222"><tspan x="91" y="217">Aa</tspan></text><text mask="url(#f)" font-family="Charter-Roman, Charter" font-size="40" letter-spacing="1.5" fill="#222"><tspan x="154" y="217">Aa</tspan></text><text opacity="0.5" mask="url(#f)" font-family="Charter-Roman, Charter" font-size="15" letter-spacing="-0.000364479783" fill="#222"><tspan x="23" y="34">Serif</tspan></text></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="817" height="424" style="background:#eaecf0" viewBox="0 0 817 424">
+    <defs>
+        <rect id="a" width="262.403" height="310" rx="2"/>
+        <filter id="b" width="132%" height="127.1%" x="-16%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="14"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+        </filter>
+        <rect id="d" width="262.403" height="310" rx="2"/>
+        <filter id="e" width="132%" height="127.1%" x="-16%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="14"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(111 57)">
+            <mask id="c" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <use fill="#000" filter="url(#b)" xlink:href="#a"/>
+            <use fill="#FFF" xlink:href="#a"/>
+            <path fill="#222" d="M-3 254h269v85H-3z" mask="url(#c)"/>
+            <text fill="#222" font-family="Lato-Regular, Lato" font-size="50" letter-spacing="-.001" mask="url(#c)">
+                <tspan x="23" y="87">Lato</tspan>
+            </text>
+            <text fill="#222" font-family="Lato-Regular, Lato" font-size="16" letter-spacing=".6" mask="url(#c)">
+                <tspan x="23" y="153">abcdefghjklmnopqrstuvwxy</tspan> <tspan x="231.928" y="153">z</tspan>
+            </text>
+            <text fill="#FFF" font-family="Lato-Regular, Lato" font-size="18" letter-spacing=".675" mask="url(#c)">
+                <tspan x="23" y="289">Imagine a world…</tspan>
+            </text>
+            <text fill="#222" font-family="Lato-Regular, Lato" font-size="22" letter-spacing=".825" mask="url(#c)">
+                <tspan x="23" y="132">1234567890</tspan>
+            </text>
+            <text fill="#222" font-family=".SFNSDisplay-Regular, .SF NS Display" font-size="40" letter-spacing="1.5" mask="url(#c)">
+                <tspan x="23" y="217">Aa</tspan>
+            </text>
+            <text fill="#222" font-family="Lato-Light, Lato" font-size="40" font-weight="300" letter-spacing="1.5" mask="url(#c)">
+                <tspan x="81" y="217">Aa</tspan>
+            </text>
+            <text fill="#222" font-family=".SFNSDisplay-Regular, .SF NS Display" font-size="40" letter-spacing="1.5" mask="url(#c)">
+                <tspan x="134" y="217">Aa</tspan>
+            </text>
+            <text fill="#222" font-family="Lato-Hairline, Lato" font-size="40" font-weight="200" letter-spacing="1.5" mask="url(#c)">
+                <tspan x="187" y="217">Aa</tspan>
+            </text>
+            <text fill="#222" font-family="Lato-Regular, Lato" font-size="15" letter-spacing="0" mask="url(#c)" opacity=".5">
+                <tspan x="23" y="34">Sans Serif</tspan>
+            </text>
+        </g>
+        <g transform="translate(444 57)">
+            <mask id="f" fill="#fff">
+                <use xlink:href="#d"/>
+            </mask>
+            <use fill="#000" filter="url(#e)" xlink:href="#d"/>
+            <use fill="#FFF" xlink:href="#d"/>
+            <path fill="#222" d="M-3 254h269v85H-3z" mask="url(#f)"/>
+            <text fill="#222" font-family="Charter-Roman, Charter" font-size="50" letter-spacing="-.001" mask="url(#f)">
+                <tspan x="23" y="87">Charter</tspan>
+            </text>
+            <text fill="#222" font-family="Charter-Roman, Charter" font-size="16" letter-spacing=".6" mask="url(#f)">
+                <tspan x="23" y="153">abcdefghjklmnopqrstuvwxyz</tspan>
+            </text>
+            <text fill="#FFF" font-family="Charter-Roman, Charter" font-size="18" letter-spacing=".675" mask="url(#f)">
+                <tspan x="25" y="289">Imagine a world…</tspan>
+            </text>
+            <text fill="#222" font-family="Charter-Roman, Charter" font-size="22" letter-spacing=".825" mask="url(#f)">
+                <tspan x="23" y="132">1234567890</tspan>
+            </text>
+            <text fill="#222" font-family="Charter-Black, Charter" font-size="40" font-weight="700" letter-spacing="1.5" mask="url(#f)">
+                <tspan x="23" y="217">Aa</tspan>
+            </text>
+            <text fill="#222" font-family="Charter-Bold, Charter" font-size="40" font-weight="bold" letter-spacing="1.5" mask="url(#f)">
+                <tspan x="91" y="217">Aa</tspan>
+            </text>
+            <text fill="#222" font-family="Charter-Roman, Charter" font-size="40" letter-spacing="1.5" mask="url(#f)">
+                <tspan x="154" y="217">Aa</tspan>
+            </text>
+            <text fill="#222" font-family="Charter-Roman, Charter" font-size="15" letter-spacing="0" mask="url(#f)" opacity=".5">
+                <tspan x="23" y="34">Serif</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

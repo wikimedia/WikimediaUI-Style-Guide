@@ -231,19 +231,32 @@ module.exports = function ( grunt ) {
 		// Image Optimization
 		svgmin: {
 			options: {
+				js2svg: {
+					pretty: true
+				},
 				plugins: [{
-					removeXMLProcInst: false
+					cleanupIDs: false
+				}, {
+					removeDesc: false
+				}, {
+					removeRasterImages: true
+				}, {
+					removeTitle: false
 				}, {
 					removeViewBox: false
 				}, {
-					cleanupNumericValues: false
+					removeXMLProcInst: false
+				}, {
+					sortAttrs: true
 				}]
 			},
 			all: {
 				files: [{
 					expand: true,
 					cwd: 'img',
-					src: [ '**/*.svg' ],
+					src: [
+						'**/*.svg'
+					],
 					dest: 'img/',
 					ext: '.svg'
 				}]
