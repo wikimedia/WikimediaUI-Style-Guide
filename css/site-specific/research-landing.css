@@ -1,0 +1,4 @@
+.page .nav--main .is-on > a {
+	cursor: pointer;
+	pointer-events: auto;
+}

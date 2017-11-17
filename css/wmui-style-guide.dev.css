@@ -2,6 +2,7 @@
 @import 'partials/fonts.css';
 @import 'partials/fonts-loaded.css';
 @import 'vendor/normalize.css';
+@import 'site-specific/research-landing.css';
 
 :root {
 	--font-weight-base: 400;
