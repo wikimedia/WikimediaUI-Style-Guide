@@ -744,6 +744,76 @@ template {
 	pointer-events: auto;
 }
 
+/* ... Team List ... */
+
+.list--team {
+	margin: 2.4rem 0 0;
+	padding: 0;
+}
+
+.member {
+	color: #000;
+	list-style: none none;
+	display: inline-block;
+	margin-bottom: 3.2rem;
+	-moz-border-radius: 2px;
+	     border-radius: 2px;
+}
+
+.member__picture {
+		position: relative;
+		height: 16rem;
+		font-size: 1.4rem;
+	}
+
+.member__picture img {
+			margin: 0;
+			-moz-border-radius: 2px;
+			     border-radius: 2px;
+		}
+
+.member__desc--title {
+		color: #72777d;
+		display: block;
+		font-style: italic;
+	}
+
+/* ... Smartphone portrait ... */
+
+@media ( min-width: 240px ) {
+	.member {
+		width: 100%;
+	}
+}
+
+/* ... Smartphone+ portrait ... */
+
+@media ( min-width: 414px ) {
+	.member {
+		width: 18rem;
+		margin-right: 2.4rem;
+	}
+
+	.member:nth-child( 2n ) {
+		margin-right: 0;
+	}
+}
+
+/* ... Tablet+ / Netbook ... */
+
+@media ( min-width: 992px ) {
+	.member {
+		width: 20rem;
+		margin-right: 2.4rem;
+	}
+	.member:nth-child( 2n ) {
+		margin-right: 2.4rem;
+	}
+	.member:nth-child( 3n ) {
+		margin-right: 0;
+	}
+}
+
 * {
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
