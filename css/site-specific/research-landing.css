@@ -2,3 +2,138 @@
 	cursor: pointer;
 	pointer-events: auto;
 }
+
+/* ... Featured Projects ... */
+.features {
+	margin-top: 1.6em;
+	border-color: var( --border-color-heading );
+	border-style: solid;
+	border-width: var( --border-width-base ) 0;
+}
+
+	.features h2 {
+		color: var( --color-base--subtle );
+		margin-top: 1.6em;
+		font-size: 1.4rem;
+		font-weight: 400;
+	}
+
+.list--features {
+	margin: 2.4rem 0 0;
+	padding: 0;
+}
+
+.feature {
+	color: var( --color-base--emphasized );
+	list-style: none none;
+	display: inline-block;
+	margin-bottom: 4rem;
+	border-radius: var( --border-radius-base );
+}
+
+	.feature__card {
+		color: var( --color-base );
+		display: block;
+	}
+
+	.feature__card:hover {
+		text-decoration: none;
+	}
+
+	.feature__card--title {
+		margin-top: 0;
+		font-family: var( --font-family-serif--fallback ); /* Fallback */
+		font-size: 2.8rem;
+		font-weight: var( --font-weight-base );
+	}
+
+	.feature__card--desc {
+		color: var( --color-base );
+		display: block;
+		font-size: 1.4rem;
+		line-height: 1.4;
+	}
+
+	.feature__card--desc:after {
+		content: 'Read more';
+		color: var( --color-primary );
+		display: block;
+		margin-top: 1.2rem;
+	}
+
+	.feature__card:hover .feature__card--desc:after {
+		text-decoration: underline;
+	}
+
+
+/* ... Team List ... */
+.list--team {
+	margin: 2.4rem 0 0;
+	padding: 0;
+}
+
+.member {
+	color: var( --color-base--emphasized );
+	list-style: none none;
+	display: inline-block;
+	margin-bottom: 3.2rem;
+	border-radius: var( --border-radius-base );
+}
+
+	.member__picture {
+		position: relative;
+		height: 16rem;
+		font-size: 1.4rem;
+	}
+
+		.member__picture img {
+			margin: 0;
+			border-radius: var( --border-radius-base );
+		}
+
+	.member__desc--title {
+		color: var( --color-base--subtle );
+		display: block;
+		font-style: italic;
+	}
+
+
+/* ::: Media Queries ::: */
+/* ... Smartphone portrait ... */
+@media ( min-width: 240px ) {
+	.member,
+	.feature {
+		width: 100%;
+	}
+}
+
+/* ... Smartphone+ portrait ... */
+@media ( min-width: 414px ) {
+	.member,
+	.feature {
+		width: 18rem;
+		margin-right: 2.4rem;
+	}
+
+	.member:nth-child( 2n ),
+	.feature:nth-child( 2n ) {
+		margin-right: 0;
+	}
+}
+
+/* ... Tablet+ / Netbook ... */
+@media ( min-width: 992px ) {
+	.member,
+	.feature {
+		width: 20rem;
+		margin-right: 2.4rem;
+	}
+	.member:nth-child( 2n ),
+	.feature:nth-child( 2n ) {
+		margin-right: 2.4rem;
+	}
+	.member:nth-child( 3n ),
+	.feature:nth-child( 3n ) {
+		margin-right: 0;
+	}
+}

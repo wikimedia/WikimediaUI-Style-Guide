@@ -744,6 +744,148 @@ template {
 	pointer-events: auto;
 }
 
+/* ... Featured Projects ... */
+
+.features {
+	margin-top: 1.6em;
+	border-color: #c8ccd1;
+	border-style: solid;
+	border-width: 1px 0;
+}
+
+.features h2 {
+		color: #72777d;
+		margin-top: 1.6em;
+		font-size: 1.4rem;
+		font-weight: 400;
+	}
+
+.list--features {
+	margin: 2.4rem 0 0;
+	padding: 0;
+}
+
+.feature {
+	color: #000;
+	list-style: none none;
+	display: inline-block;
+	margin-bottom: 4rem;
+	-moz-border-radius: 2px;
+	     border-radius: 2px;
+}
+
+.feature__card {
+		color: #222;
+		display: block;
+	}
+
+.feature__card:hover {
+		text-decoration: none;
+	}
+
+.feature__card--title {
+		margin-top: 0;
+		font-family: serif; /* Fallback */
+		font-size: 2.8rem;
+		font-weight: 400;
+	}
+
+.feature__card--desc {
+		color: #222;
+		display: block;
+		font-size: 1.4rem;
+		line-height: 1.4;
+	}
+
+.feature__card--desc:after {
+		content: 'Read more';
+		color: #36c;
+		display: block;
+		margin-top: 1.2rem;
+	}
+
+.feature__card:hover .feature__card--desc:after {
+		text-decoration: underline;
+	}
+
+/* ... Team List ... */
+
+.list--team {
+	margin: 2.4rem 0 0;
+	padding: 0;
+}
+
+.member {
+	color: #000;
+	list-style: none none;
+	display: inline-block;
+	margin-bottom: 3.2rem;
+	-moz-border-radius: 2px;
+	     border-radius: 2px;
+}
+
+.member__picture {
+		position: relative;
+		height: 16rem;
+		font-size: 1.4rem;
+	}
+
+.member__picture img {
+			margin: 0;
+			-moz-border-radius: 2px;
+			     border-radius: 2px;
+		}
+
+.member__desc--title {
+		color: #72777d;
+		display: block;
+		font-style: italic;
+	}
+
+/* ::: Media Queries ::: */
+
+/* ... Smartphone portrait ... */
+
+@media ( min-width: 240px ) {
+	.member,
+	.feature {
+		width: 100%;
+	}
+}
+
+/* ... Smartphone+ portrait ... */
+
+@media ( min-width: 414px ) {
+	.member,
+	.feature {
+		width: 18rem;
+		margin-right: 2.4rem;
+	}
+
+	.member:nth-child( 2n ),
+	.feature:nth-child( 2n ) {
+		margin-right: 0;
+	}
+}
+
+/* ... Tablet+ / Netbook ... */
+
+@media ( min-width: 992px ) {
+	.member,
+	.feature {
+		width: 20rem;
+		margin-right: 2.4rem;
+	}
+	.member:nth-child( 2n ),
+	.feature:nth-child( 2n ) {
+		margin-right: 2.4rem;
+	}
+	.member:nth-child( 3n ),
+	.feature:nth-child( 3n ) {
+		margin-right: 0;
+	}
+}
+
 * {
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
