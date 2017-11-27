@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lte IE 8 ]><html lang="en" class="js-off lte-ie8"><![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="js-off ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="js-off">
+<!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/wmui-style-guide.min.css">
+	<title>Wikimedia Research Landing Page</title>
+	<script>
+		document.documentElement.className = document.documentElement.className.replace(/\bjs-off\b/,'js-on'); // no BEM notation thx to IE
+	</script>
+	<!--[if lt IE 9]>
+	<script>window.html5={'shivCSS':false};</script>
+	<script src="js/vendor/ie/html5shiv-3.7.3.min.js"></script>
+	<script src="js/vendor/ie/respond-1.4.2.min.js"></script>
+	<![endif]-->
+    <link rel="preload" href="fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Lato_regular.woff2" as="font" type="font/woff2" crossorigin>
+    <script src="js/fonts-loader.js" async></script>
+</head>
+<body class="page--home">
+	<header id="header" class="header" role="banner">
+		<div class="content-box">
+			<a href="#content" class="is-aural is-focusable">Jump to content</a>
+			<a href="#nav--main" class="is-aural is-focusable">Jump to navigation</a>
+			<h1 class="site__title"><a href="./"><span class="site__logo"></span>Wikimedia Research</a></h1>
+			<label class="btn--nav-main" for="trigger--nav-main" aria-hidden="true" title="Show main menu">
+				<i></i> <span>Menu</span>
+			</label>
+			<a href="https://twitter.com/WikiResearch" class="lnk--contribute" title="Follow Wikimedia Research on Twitter"><span>Follow </span>@WikiResearch</a>
+		</div>
+	</header>
+	<div class="page">
+		<div class="content-box">
+			<div class="col col--start">
+				<input type="checkbox" id="trigger--nav-main" class="trigger--nav-main">
+				<nav id="nav--main" class="nav nav--main" role="navigation">
+					<ol>
+						<li class="nav__item"><a href="index.html">About</a>
+							<ul class="nav__sub-items">
+								<li class="nav__sub-item"><a href="team.html">Research team</a></li>
+								<li class="nav__sub-item"><a href="collaborators.html">Collaborators</a></li>
+							</ul>
+						</li>
+						<li class="nav__item"><a href="projects.html">Projects</a></li>
+						<li class="nav__item"><a href="news-outreach.html">News and outreach</a></li>
+						<li class="nav__item"><a href="publications.html">Publications</a></li>
+					</ol>
+				</nav>
+			</div>
+			<div class="col col--end">
+				<main id="content" class="content" role="main">
+					<h1 class="page__title">Acknowledgments</h1>
+					<p>We would like to acknowledge the following people...</p>
+				</main>
+			</div>
+		</div>
+	</div>
+	<footer id="footer" class="footer">
+		<div class="content-box">
+			<ul class="footer__list">
+				<li><a href="https://github.com/wikimedia-research/landing-page">Contribute on GitHub</a></li>
+
+<!--
+				<li><a href="https://twitter.com/@WikiResearch" title="Follow Wikimedia Research on Twitter">Follow @WikiResearch</a></li>
+				<li><a href="https://lists.wikimedia.org/mailman/listinfo/wiki-research-l" title="Join Wikimedia Research mailing list">Join mailing list</a></li>
+-->
+			</ul>
+			<p>Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.</p>
+			<p><a href="https://wikimediafoundation.org/" class="lnk--wikimedia-project">A Wikimedia Foundation project</a></p>
+		</div>
+	</footer>
+</body>
+</html>
