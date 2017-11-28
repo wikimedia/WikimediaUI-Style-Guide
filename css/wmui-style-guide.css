@@ -842,6 +842,16 @@ template {
 		font-style: italic;
 	}
 
+/* ... Publications ... */
+
+.publications li {
+	margin-top: 1.2rem;
+}
+
+.publications li:first-child {
+		margin-top: 0;
+	}
+
 /* ::: Media Queries ::: */
 
 /* ... Smartphone portrait ... */
