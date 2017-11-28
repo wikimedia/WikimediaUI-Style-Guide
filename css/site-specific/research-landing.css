@@ -109,6 +109,11 @@
 /* ::: Media Queries ::: */
 /* ... Smartphone portrait ... */
 @media ( min-width: 240px ) {
+	.lnk--contribute {
+		opacity: 0;
+		transition: opacity var( --transition-medium );
+	}
+
 	.member,
 	.feature {
 		width: 100%;
@@ -126,6 +131,13 @@
 	.member:nth-child( 2n ),
 	.feature:nth-child( 2n ) {
 		margin-right: 0;
+	}
+}
+
+/* ... Smartphone- landscape ... */
+@media ( min-width: 595px ) {
+	.lnk--contribute {
+		opacity: 1;
 	}
 }
 

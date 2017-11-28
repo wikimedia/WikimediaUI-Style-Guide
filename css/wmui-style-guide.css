@@ -857,6 +857,13 @@ template {
 /* ... Smartphone portrait ... */
 
 @media ( min-width: 240px ) {
+	.lnk--contribute {
+		opacity: 0;
+		-webkit-transition: opacity 250ms;
+		-moz-transition: opacity 250ms;
+		transition: opacity 250ms;
+	}
+
 	.member,
 	.feature {
 		width: 100%;
@@ -875,6 +882,14 @@ template {
 	.member:nth-child( 2n ),
 	.feature:nth-child( 2n ) {
 		margin-right: 0;
+	}
+}
+
+/* ... Smartphone- landscape ... */
+
+@media ( min-width: 595px ) {
+	.lnk--contribute {
+		opacity: 1;
 	}
 }
 
