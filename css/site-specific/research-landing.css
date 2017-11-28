@@ -97,6 +97,11 @@
 		font-style: italic;
 	}
 
+/* ... Publications ... */
+
+ul.publications li {
+	margin: 0.8em;	
+}
 
 /* ::: Media Queries ::: */
 /* ... Smartphone portrait ... */
