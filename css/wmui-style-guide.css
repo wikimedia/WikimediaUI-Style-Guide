@@ -765,6 +765,12 @@ template {
 	padding: 0;
 }
 
+.list--features:after {
+		content:' ';
+		display: block;
+		clear: both;
+	}
+
 .feature {
 	color: #000;
 	list-style: none none;
@@ -814,6 +820,12 @@ template {
 	margin: 2.4rem 0 0;
 	padding: 0;
 }
+
+.list--team:after {
+		content:' ';
+		display: block;
+		clear: both;
+	}
 
 .member {
 	color: #000;
@@ -898,16 +910,25 @@ template {
 @media ( min-width: 992px ) {
 	.member,
 	.feature {
+		display: block;
+		float: left;
 		width: 20rem;
 		margin-right: 2.4rem;
 	}
+
 	.member:nth-child( 2n ),
 	.feature:nth-child( 2n ) {
 		margin-right: 2.4rem;
 	}
+
 	.member:nth-child( 3n ),
 	.feature:nth-child( 3n ) {
 		margin-right: 0;
+	}
+
+	.member:nth-child( 3n+1 ),
+	.feature:nth-child( 3n+1 ) {
+		clear: left;
 	}
 }
 
