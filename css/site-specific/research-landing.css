@@ -102,21 +102,24 @@
 	color: var( --color-base--emphasized );
 	list-style: none none;
 	display: inline-block;
+	max-width: 28.8rem;
 	margin-bottom: 3.2rem;
 	border-radius: var( --border-radius-base );
+	vertical-align: top;
 }
 
 	.member__picture {
 		position: relative;
-		height: 16rem;
+		padding-bottom: 0.8rem;
 		font-size: 1.4rem;
 	}
 
 		.member__picture a {
 			display: block;
-			max-height: 13.4rem;
 			border-radius: var( --border-radius-base );
 			overflow-y: hidden;
+			filter: grayscale( 1 );
+			transition: filter var( --transition-medium );
 		}
 
 		.member__picture img {
@@ -162,14 +165,20 @@
 @media ( min-width: 414px ) {
 	.member,
 	.feature {
-		width: 18rem;
+		width: auto;
 		margin-right: 2.4rem;
 	}
 
+	.feature {
+		width: 18rem;
+	}
+
+	/*
 	.member:nth-child( 2n ),
 	.feature:nth-child( 2n ) {
 		margin-right: 0;
 	}
+	*/
 }
 
 /* ... Smartphone- landscape ... */
@@ -177,6 +186,14 @@
 	.lnk--contribute {
 		opacity: 1;
 	}
+
+	.member {
+		max-width: 21.2rem; /* = 28.8 - 1/4 */
+	}
+
+		.member__picture a {
+			max-height: 14.2rem;
+		}
 
 	.feature__card--desc:after {
 		position: absolute;
@@ -187,6 +204,14 @@
 
 /* ... Tablet ... */
 @media ( min-width: 768px ) {
+	.member__picture a {
+		max-height: 13.4rem;
+	}
+
+	.member__picture a:hover {
+		filter: grayscale( 0 );
+	}
+
 	.feature__card--desc:after {
 		position: static;
 		bottom: auto;
