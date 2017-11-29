@@ -3,6 +3,18 @@
 	pointer-events: auto;
 }
 
+	h1 + p,
+	h2 + p,
+	h3 + p,
+	h4 + p,
+	h5 + p,
+	h6 + p,
+	p + p,
+	p:first-child {
+		margin-top: 1.2rem;
+	}
+
+
 /* ... Featured Projects ... */
 .features {
 	margin-top: 1.6em;
