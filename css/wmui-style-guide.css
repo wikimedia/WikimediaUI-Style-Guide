@@ -844,23 +844,31 @@ h1 + p,
 	color: #000;
 	list-style: none none;
 	display: inline-block;
+	max-width: 28.8rem;
 	margin-bottom: 3.2rem;
 	-moz-border-radius: 2px;
 	     border-radius: 2px;
+	vertical-align: top;
 }
 
 .member__picture {
 		position: relative;
-		height: 16rem;
+		padding-bottom: 0.8rem;
 		font-size: 1.4rem;
 	}
 
 .member__picture a {
 			display: block;
-			max-height: 13.4rem;
 			-moz-border-radius: 2px;
 			     border-radius: 2px;
 			overflow-y: hidden;
+			-webkit-filter: grayscale( 1 );
+			        filter: grayscale( 1 );
+			-webkit-transition: -webkit-filter 250ms;
+			transition: -webkit-filter 250ms;
+			-moz-transition: filter 250ms;
+			transition: filter 250ms;
+			transition: filter 250ms, -webkit-filter 250ms;
 		}
 
 .member__picture img {
@@ -913,14 +921,20 @@ h1 + p,
 @media ( min-width: 414px ) {
 	.member,
 	.feature {
-		width: 18rem;
+		width: auto;
 		margin-right: 2.4rem;
 	}
 
+	.feature {
+		width: 18rem;
+	}
+
+	/*
 	.member:nth-child( 2n ),
 	.feature:nth-child( 2n ) {
 		margin-right: 0;
 	}
+	*/
 }
 
 /* ... Smartphone- landscape ... */
@@ -929,6 +943,14 @@ h1 + p,
 	.lnk--contribute {
 		opacity: 1;
 	}
+
+	.member {
+		max-width: 21.2rem; /* = 28.8 - 1/4 */
+	}
+
+		.member__picture a {
+			max-height: 14.2rem;
+		}
 
 	.feature__card--desc:after {
 		position: absolute;
@@ -940,6 +962,15 @@ h1 + p,
 /* ... Tablet ... */
 
 @media ( min-width: 768px ) {
+	.member__picture a {
+		max-height: 13.4rem;
+	}
+
+	.member__picture a:hover {
+		-webkit-filter: grayscale( 0 );
+		        filter: grayscale( 0 );
+	}
+
 	.feature__card--desc:after {
 		position: static;
 		bottom: auto;
