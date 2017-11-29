@@ -855,17 +855,30 @@ h1 + p,
 		font-size: 1.4rem;
 	}
 
+.member__picture a {
+			display: block;
+			max-height: 13.4rem;
+			-moz-border-radius: 2px;
+			     border-radius: 2px;
+			overflow-y: hidden;
+		}
+
 .member__picture img {
+			display: block;
 			margin: 0;
 			-moz-border-radius: 2px;
 			     border-radius: 2px;
 		}
 
-.member__desc--title {
-		color: #72777d;
-		display: block;
-		font-style: italic;
+.member__desc {
+		font-size: 1.4rem;
 	}
+
+.member__desc--title {
+			color: #72777d;
+			display: block;
+			font-style: italic;
+		}
 
 /* ... Publications ... */
 
