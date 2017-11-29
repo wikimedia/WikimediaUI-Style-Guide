@@ -112,16 +112,28 @@
 		font-size: 1.4rem;
 	}
 
+		.member__picture a {
+			display: block;
+			max-height: 13.4rem;
+			border-radius: var( --border-radius-base );
+			overflow-y: hidden;
+		}
+
 		.member__picture img {
+			display: block;
 			margin: 0;
 			border-radius: var( --border-radius-base );
 		}
 
-	.member__desc--title {
-		color: var( --color-base--subtle );
-		display: block;
-		font-style: italic;
+	.member__desc {
+		font-size: 1.4rem;
 	}
+
+		.member__desc--title {
+			color: var( --color-base--subtle );
+			display: block;
+			font-style: italic;
+		}
 
 /* ... Publications ... */
 .publications li {
