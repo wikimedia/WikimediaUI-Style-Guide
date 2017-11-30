@@ -1,19 +1,26 @@
+/* ... Navigation ... */
 .page .nav--main .is-on > a {
 	cursor: pointer;
 	pointer-events: auto;
 }
 
-	h1 + p,
-	h2 + p,
-	h3 + p,
-	h4 + p,
-	h5 + p,
-	h6 + p,
-	p + p,
-	p:first-child {
-		margin-top: 1.2rem;
-	}
+/* ... General Page Layout ... */
+.page__tagline {
+	font-size: 2rem;
+	font-style: italic;
+	font-weight: 100;
+}
 
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p,
+p + p,
+p:first-child {
+	margin-top: 1.2rem;
+}
 
 /* ... Featured Projects ... */
 .features {
