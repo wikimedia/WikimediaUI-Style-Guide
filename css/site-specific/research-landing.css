@@ -55,6 +55,7 @@ p:first-child {
 	display: inline-block;
 	margin-bottom: 4rem;
 	border-radius: var( --border-radius-base );
+	vertical-align: top;
 }
 
 	.feature__card {
@@ -170,6 +171,7 @@ p:first-child {
 	display: inline-block;
 	margin-bottom: 4rem;
 	border-radius: var( --border-radius-base );
+	vertical-align: top;
 }
 
 	.resource__title {
@@ -179,6 +181,7 @@ p:first-child {
 
 	.resource__link {
 		display: block;
+		margin-bottom: 1.2rem;
 		font-size: 1.4rem;
 	}
 
