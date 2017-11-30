@@ -761,7 +761,7 @@ h1 + p,
 	margin-top: 1.6em;
 	border-color: #c8ccd1;
 	border-style: solid;
-	border-width: 1px 0;
+	border-width: 1px 0 0;
 }
 
 .features h2 {
@@ -894,7 +894,7 @@ h1 + p,
 	margin-top: 1.6em;
 	border-color: #c8ccd1;
 	border-style: solid;
-	border-width: 1px 0;
+	border-width: 1px 0 0;
 }
 
 /* ... Resources List ... */
