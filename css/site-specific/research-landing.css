@@ -4,6 +4,12 @@
 	pointer-events: auto;
 }
 
+/* Reset L1 nav item `font-weight` to `400` when on L2 sub-page */
+[class*='page-parent'] .nav--main > ol > .is-on > a {
+	font-weight: var( --font-weight-base );
+}
+
+
 /* ... General Page Layout ... */
 .page__tagline {
 	font-size: 2rem;
