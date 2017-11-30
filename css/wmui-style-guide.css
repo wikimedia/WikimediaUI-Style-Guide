@@ -800,6 +800,7 @@ p:first-child {
 	margin-bottom: 4rem;
 	-moz-border-radius: 2px;
 	     border-radius: 2px;
+	vertical-align: top;
 }
 
 .feature__card {
@@ -927,6 +928,7 @@ p:first-child {
 	margin-bottom: 4rem;
 	-moz-border-radius: 2px;
 	     border-radius: 2px;
+	vertical-align: top;
 }
 
 .resource__title {
@@ -936,6 +938,7 @@ p:first-child {
 
 .resource__link {
 		display: block;
+		margin-bottom: 1.2rem;
 		font-size: 1.4rem;
 	}
 
