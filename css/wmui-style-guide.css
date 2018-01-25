@@ -1365,10 +1365,6 @@ code {
 		margin-right: 2.4rem;
 	}
 
-	.color:nth-child( 2n ) {
-		margin-right: 0;
-	}
-
 	.lnk--contribute {
 		display: block;
 		position: absolute;
@@ -1460,9 +1456,6 @@ code {
 	}
 	.color:nth-child( 2n ) {
 		margin-right: 2.4rem;
-	}
-	.color:nth-child( 3n ) {
-		margin-right: 0;
 	}
 }
 
