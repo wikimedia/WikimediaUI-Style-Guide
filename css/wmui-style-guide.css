@@ -771,35 +771,40 @@ p:first-child {
 	margin-top: 1.2rem;
 }
 
-/* ... Featured Projects ... */
+/* ... Featured Projects / Updates ... */
 
-.features {
+.features,
+.updates {
 	margin-top: 1.6em;
 	border-color: #c8ccd1;
 	border-style: solid;
 	border-width: 1px 0 0;
 }
 
-.features h2 {
+.features h2,
+	.updates h2 {
 		color: #72777d;
 		margin-top: 1.6em;
 		font-size: 1.4rem;
 		font-weight: 400;
 	}
 
-.list--features {
+.list--features,
+.list--updates {
 	position: relative;
 	margin: 2.4rem 0 0;
 	padding: 0 0 0.8rem;
 }
 
-.list--features:after {
+.list--features:after,
+	.list--updates:after {
 		content:' ';
 		display: block;
 		clear: both;
 	}
 
-.feature {
+.feature,
+.update {
 	color: #000;
 	list-style: none none;
 	display: inline-block;
@@ -809,23 +814,27 @@ p:first-child {
 	vertical-align: top;
 }
 
-.feature__card {
+.feature__card,
+	.update__card {
 		color: #222;
 		display: block;
 	}
 
-.feature__card:hover {
+.feature__card:hover,
+	.update__card:hover {
 		text-decoration: none;
 	}
 
-.feature__card--title {
+.feature__card--title,
+	.update__card--title {
 		margin-top: 0;
 		font-family: serif; /* Fallback */
 		font-size: 2.4rem;
 		font-weight: 400;
 	}
 
-.feature__card--desc {
+.feature__card--desc,
+	.update__card--desc {
 		color: #222;
 		display: block;
 		margin-top: 0.8rem;
@@ -833,15 +842,23 @@ p:first-child {
 		line-height: 1.6;
 	}
 
-.feature__card--desc:after {
+.feature__card--desc:after,
+	.update__card--desc:after {
 		content: 'Read more';
 		color: #36c;
 		display: block;
 		margin-top: 1.2rem;
 	}
 
-.feature__card:hover .feature__card--desc:after {
+.feature__card:hover .feature__card--desc:after,
+	.update__card:hover .update__card--desc:after {
 		text-decoration: underline;
+	}
+
+.update__card--time {
+		color: #72777d;
+		display: inline-block;
+		margin-top: 0.8rem;
 	}
 
 /* ... Team List ... */
