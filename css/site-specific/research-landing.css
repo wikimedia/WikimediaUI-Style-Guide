@@ -137,6 +137,11 @@ p:first-child {
 		clear: both;
 	}
 
+	/* ... Collaborators ... */
+	.list--team + h2 {
+		margin-top: 0;
+	}
+
 .member {
 	color: var( --color-base--emphasized );
 	list-style: none none;

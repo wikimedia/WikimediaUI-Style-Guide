@@ -882,6 +882,12 @@ p:first-child {
 		clear: both;
 	}
 
+/* ... Collaborators ... */
+
+.list--team + h2 {
+		margin-top: 0;
+	}
+
 .member {
 	color: #000;
 	list-style: none none;
