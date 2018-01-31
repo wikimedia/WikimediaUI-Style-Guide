@@ -771,6 +771,14 @@ p:first-child {
 	margin-top: 1.2rem;
 }
 
+.image__desc {
+	color: #72777d;
+	display: block;
+	margin-top: 0.8rem;
+	font-size: 1.2rem;
+	font-style: italic;
+}
+
 /* ... Featured Projects / Updates ... */
 
 .features,
