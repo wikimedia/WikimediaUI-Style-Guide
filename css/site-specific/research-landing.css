@@ -11,6 +11,18 @@
 
 
 /* ... General Page Layout ... */
+.page__parent-title {
+	margin-top: -2.6rem !important;
+}
+
+.page__title {
+	margin-top: -0.6rem !important;
+}
+
+.page__parent-title + .page__title {
+	margin-top: -0.4rem !important;
+}
+
 .page__tagline {
 	font-size: 2rem;
 	font-style: italic;
