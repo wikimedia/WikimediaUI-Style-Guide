@@ -1,3 +1,4 @@
+/* ::: Wikimedia Research Landing Page :::: */
 /* ... Navigation ... */
 .page .nav--main .is-on > a {
 	cursor: pointer;
@@ -11,16 +12,16 @@
 
 
 /* ... General Page Layout ... */
-.page__parent-title {
-	margin-top: -2.6rem !important;
+.wrlp .page__parent-title {
+	margin-top: -2.6rem;
 }
 
-.page__title {
-	margin-top: -0.6rem !important;
+.wrlp .page__title {
+	margin-top: -0.6rem;
 }
 
-.page__parent-title + .page__title {
-	margin-top: -0.4rem !important;
+.wrlp .page__parent-title + .page__title {
+	margin-top: -0.4rem;
 }
 
 .page__tagline {
@@ -29,14 +30,8 @@
 	font-weight: 100;
 }
 
-h1 + p,
-h2 + p,
-h3 + p,
-h4 + p,
-h5 + p,
-h6 + p,
-p + p,
-p:first-child {
+.wrlp h1 + p,
+.page__tagline {
 	margin-top: 1.2rem;
 }
 
