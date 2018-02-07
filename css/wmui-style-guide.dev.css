@@ -434,18 +434,31 @@ code {
 	margin: 0;
 	padding: 0;
 }
-.footer__list li {
-	float: left;
-	margin-left: 2.4rem;
-	padding: 0;
-}
-.footer__list li:first-child {
-	list-style: none none;
-	margin-left: 0;
-}
-.footer__list a {
-	font-weight: var( --font-weight-bold );
-}
+
+	.footer__list:after {
+		content: ' ';
+		display: block;
+		clear: both;
+	}
+
+	.footer__list li {
+		float: left;
+		margin-left: 2.4rem;
+		padding: 0;
+	}
+
+	.footer__list li:first-child {
+		list-style: none none;
+		margin-left: 0;
+	}
+
+	.footer__list a {
+		font-weight: var( --font-weight-bold );
+	}
+
+	.footer__list + p {
+		margin-top: 1.2rem;
+	}
 
 .lnk--wikimedia-project {
 	display: inline-block;
