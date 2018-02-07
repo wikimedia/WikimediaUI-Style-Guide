@@ -1439,6 +1439,11 @@ code {
 		margin-left: 0;
 		margin-right: 0;
 	}
+
+	img {
+		-moz-border-radius: 2px;
+		     border-radius: 2px;
+	}
 }
 
 /* ... Tablet+ / Netbook ... */
