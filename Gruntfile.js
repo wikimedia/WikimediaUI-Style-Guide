@@ -46,7 +46,7 @@ module.exports = function ( grunt ) {
 			},
 			dist: {
 				files: {
-					'css/wmui-style-guide.css': 'css/wmui-style-guide.dev.css'
+					'css/build/wmui-style-guide.css': 'css/wmui-style-guide.dev.css'
 				}
 			}
 		},
@@ -58,7 +58,7 @@ module.exports = function ( grunt ) {
 			},
 			target: {
 				files: {
-				  'css/wmui-style-guide.min.css': 'css/wmui-style-guide.css'
+				  'css/build/wmui-style-guide.min.css': 'css/build/wmui-style-guide.css'
 				}
 			}
 		},
