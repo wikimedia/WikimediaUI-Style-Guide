@@ -1,7 +1,12 @@
-@import 'vendor/wikimedia-ui-base.css';
+/* ::: Vendor Imports ::: */
+/* loaded from node_modules folders by postCSS-import plugin.
+ * Specified in package.json file */
+@import 'wikimedia-ui-base/wikimedia-ui-base.css';
+@import 'normalize.css';
+
+/* ::: Local Imports ::: */
 @import 'partials/fonts.css';
 @import 'partials/fonts-loaded.css';
-@import 'vendor/normalize.css';
 
 :root {
 	--font-weight-base: 400;

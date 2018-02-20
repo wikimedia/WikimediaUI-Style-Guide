@@ -32,9 +32,12 @@
     "stylelint-config-wikimedia": "0.4.2"
   },
   "dependencies": {
-    "fontfaceobserver": "^2.0.9"
+    "fontfaceobserver": "^2.0.9",
+    "normalize.css": "^8.0.0",
+    "wikimedia-ui-base": "^0.10.0"
   },
   "scripts": {
-    "test": "grunt"
+    "dev": "grunt watch",
+    "build": "grunt"
   }
 }

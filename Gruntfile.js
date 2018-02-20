@@ -266,7 +266,8 @@ module.exports = function ( grunt ) {
 		// Development
 		watch: {
 			files: [
-				'**/*.css',
+				'css/**/*.css',
+				'!css/build/**/*.css',
 				'.{stylelintrc}'
 			],
 			tasks: 'default'
