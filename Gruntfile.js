@@ -3,7 +3,6 @@
  */
 
 module.exports = function ( grunt ) {
-	grunt.loadNpmTasks( 'grunt-contrib-cssmin' );
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 	grunt.loadNpmTasks( 'grunt-postcss' );
 	grunt.loadNpmTasks( 'grunt-sketch' );
@@ -23,6 +22,10 @@ module.exports = function ( grunt ) {
 		// Postprocessing Styles
 		postcss: {
 			options: {
+				map: {
+					inline: false, // save all sourcemaps as separate files...
+					annotation: 'css/build/' // ...to the specified directory
+				},
 				processors: [
 					require( 'postcss-import' )( {
 						from: "css/wmui-style-guide.dev.css"
@@ -41,24 +44,13 @@ module.exports = function ( grunt ) {
 							"Opera >= 12.5",
 							"Safari >= 5.1"
 						]
-					} )
+					} ),
+					require('cssnano')()
 				]
 			},
 			dist: {
 				files: {
-					'css/build/wmui-style-guide.css': 'css/wmui-style-guide.dev.css'
-				}
-			}
-		},
-
-		cssmin: {
-			options: {
-				shorthandCompacting: true,
-				roundingPrecision: -1
-			},
-			target: {
-				files: {
-				  'css/build/wmui-style-guide.min.css': 'css/build/wmui-style-guide.css'
+					'css/build/wmui-style-guide.min.css': 'css/wmui-style-guide.dev.css'
 				}
 			}
 		},
@@ -276,5 +268,5 @@ module.exports = function ( grunt ) {
 
 	grunt.registerTask( 'lint', [ 'stylelint' ] );
 	grunt.registerTask( 'imagery', [ 'sketch_export', 'svgmin' ] );
-	grunt.registerTask( 'default', [ 'lint', 'postcss', 'cssmin' ] );
+	grunt.registerTask( 'default', [ 'lint', 'postcss' ] );
 };

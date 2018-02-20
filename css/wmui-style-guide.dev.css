@@ -195,7 +195,7 @@ code {
 		}
 
 		.site__logo {
-			background-image: url( '../img/Wikimedia-Foundation-logo.svg' ); /* stylelint-disable-line function-url-quotes */
+			background-image: url( '../../img/Wikimedia-Foundation-logo.svg' ); /* stylelint-disable-line function-url-quotes */
 			background-size: 24px;
 			display: inline-block;
 			width: 24px;
