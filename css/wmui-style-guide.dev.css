@@ -1,6 +1,6 @@
 /* ::: Vendor Imports ::: */
-/* loaded from node_modules folders by postCSS-import plugin.
- * Specified in package.json file */
+/* load files from node_modules folders with postCSS-import plugin.
+ * Modules specified in package.json file */
 @import 'wikimedia-ui-base/wikimedia-ui-base.css';
 @import 'normalize.css';
 
