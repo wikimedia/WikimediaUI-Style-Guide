@@ -45,7 +45,7 @@ module.exports = function ( grunt ) {
 							"Safari >= 5.1"
 						]
 					} ),
-					require('cssnano')()
+					require( 'cssnano' )()
 				]
 			},
 			dist: {
