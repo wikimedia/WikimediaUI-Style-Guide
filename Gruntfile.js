@@ -9,6 +9,31 @@ module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( 'grunt-stylelint' );
 	grunt.loadNpmTasks( 'grunt-svgmin' );
 
+	// Postcss processors without minifier
+	var postcssProcessorsDev = [
+		require( 'postcss-import' )( {
+			from: "css/wmui-style-guide.dev.css"
+		} ),
+		// require( 'postcss-cssnext' )(),
+		require( 'postcss-custom-properties' ),
+		require( 'autoprefixer' )( {
+			browsers: [
+				"Android >= 2.3",
+				"Chrome >= 10",
+				"Edge >= 12",
+				"Firefox >= 3.6",
+				"IE >= 8",
+				"IE_mob 11",
+				"iOS >= 5.1",
+				"Opera >= 12.5",
+				"Safari >= 5.1"
+			]
+		} )
+	];
+
+	// Postcss processors with minifier
+	var postcssProcessorsMin = postcssProcessorsDev.concat( [ require( 'cssnano' )() ] ); 
+
 	grunt.initConfig( {
 		// Lint – Styles
 		stylelint: {
@@ -21,37 +46,25 @@ module.exports = function ( grunt ) {
 
 		// Postprocessing Styles
 		postcss: {
-			options: {
-				map: {
-					inline: false, // save all sourcemaps as separate files...
-					annotation: 'css/build/' // ...to the specified directory
+			// outputs unminified compiled CSS file into `build` dir
+			dev: {
+				options: {
+					processors: postcssProcessorsDev
 				},
-				processors: [
-					require( 'postcss-import' )( {
-						from: "css/wmui-style-guide.dev.css"
-					} ),
-					// require( 'postcss-cssnext' )(),
-					require( 'postcss-custom-properties' ),
-					require( 'autoprefixer' )( {
-						browsers: [
-							"Android >= 2.3",
-							"Chrome >= 10",
-							"Edge >= 12",
-							"Firefox >= 3.6",
-							"IE >= 8",
-							"IE_mob 11",
-							"iOS >= 5.1",
-							"Opera >= 12.5",
-							"Safari >= 5.1"
-						]
-					} ),
-					require( 'cssnano' )()
-				]
+				src: 'css/wmui-style-guide.dev.css', 
+				dest: 'css/build/wmui-style-guide.css'
 			},
-			dist: {
-				files: {
-					'css/build/wmui-style-guide.min.css': 'css/wmui-style-guide.dev.css'
-				}
+			// outputs minified compiled CSS file +  src maps into `build` dir
+			min: {
+				options: {
+					map: {
+						inline: false, // save all sourcemaps as separate files...
+						annotation: 'css/build/' // ...to the specified directory
+					},
+					processors: postcssProcessorsMin
+				},
+				src: 'css/wmui-style-guide.dev.css', 
+				dest: 'css/build/wmui-style-guide.min.css'
 			}
 		},
 
@@ -268,5 +281,5 @@ module.exports = function ( grunt ) {
 
 	grunt.registerTask( 'lint', [ 'stylelint' ] );
 	grunt.registerTask( 'imagery', [ 'sketch_export', 'svgmin' ] );
-	grunt.registerTask( 'default', [ 'lint', 'postcss' ] );
+	grunt.registerTask( 'default', [ 'lint', 'postcss:dev', 'postcss:min' ] );
 };
