@@ -1,7 +1,12 @@
-@import 'vendor/wikimedia-ui-base.css';
+/* ::: Vendor Imports ::: */
+/* load files from node_modules folders with postCSS-import plugin.
+ * Modules specified in package.json file */
+@import 'wikimedia-ui-base/wikimedia-ui-base.css';
+@import 'normalize.css';
+
+/* ::: Local Imports ::: */
 @import 'partials/fonts.css';
 @import 'partials/fonts-loaded.css';
-@import 'vendor/normalize.css';
 
 :root {
 	--font-weight-base: 400;
@@ -190,7 +195,7 @@ code {
 		}
 
 		.site__logo {
-			background-image: url( '../img/Wikimedia-Foundation-logo.svg' ); /* stylelint-disable-line function-url-quotes */
+			background-image: url( '../../img/Wikimedia-Foundation-logo.svg' ); /* stylelint-disable-line function-url-quotes */
 			background-size: 24px;
 			display: inline-block;
 			width: 24px;

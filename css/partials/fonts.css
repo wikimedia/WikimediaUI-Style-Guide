@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Charter';
-	src: url( '../fonts/Charter_regular.woff2' ) format( 'woff2' ),
-		 url( '../fonts/Charter_regular.woff' ) format( 'woff' );
+	src: url( '../../fonts/Charter_regular.woff2' ) format( 'woff2' ),
+		 url( '../../fonts/Charter_regular.woff' ) format( 'woff' );
 	font-style: normal;
 	font-weight: 400;
 	text-rendering: optimizeLegibility; /* Attention: Android Stock Browser <= 4.3 doesn't show web font with this setting, but it also doesn't support WOFF :) */
@@ -9,8 +9,8 @@
 
 @font-face {
 	font-family: 'Charter';
-	src: url( '../fonts/Charter_bold.woff2' ) format( 'woff2' ),
-		 url( '../fonts/Charter_bold.woff' ) format( 'woff' );
+	src: url( '../../fonts/Charter_bold.woff2' ) format( 'woff2' ),
+		 url( '../../fonts/Charter_bold.woff' ) format( 'woff' );
 	font-style: normal;
 	font-weight: 700;
 	text-rendering: optimizeLegibility;
@@ -57,8 +57,8 @@
 
 @font-face {
 	font-family: 'Lato';
-	src: url( '../fonts/Lato_bold.woff2' ) format( 'woff2' ),
-		 url( '../fonts/Lato_bold.woff' ) format( 'woff' );
+	src: url( '../../fonts/Lato_bold.woff2' ) format( 'woff2' ),
+		 url( '../../fonts/Lato_bold.woff' ) format( 'woff' );
 	font-style: normal;
 	font-weight: 700;
 	text-rendering: optimizeLegibility;
@@ -66,8 +66,8 @@
 
 @font-face {
 	font-family: 'Lato';
-	src: url( '../fonts/Lato_bold-italic.woff2' ) format( 'woff2' ),
-		 url( '../fonts/Lato_bold-italic.woff' ) format( 'woff' );
+	src: url( '../../fonts/Lato_bold-italic.woff2' ) format( 'woff2' ),
+		 url( '../../fonts/Lato_bold-italic.woff' ) format( 'woff' );
 	font-style: italic;
 	font-weight: 700;
 	text-rendering: optimizeLegibility;
@@ -113,8 +113,8 @@
 
 @font-face {
 	font-family: 'Lato';
-	src: url( '../fonts/Lato_italic.woff2' ) format( 'woff2' ),
-		 url( '../fonts/Lato_italic.woff' ) format( 'woff' );
+	src: url( '../../fonts/Lato_italic.woff2' ) format( 'woff2' ),
+		 url( '../../fonts/Lato_italic.woff' ) format( 'woff' );
 	font-style: italic;
 	font-weight: 400;
 	text-rendering: optimizeLegibility;
@@ -122,8 +122,8 @@
 
 @font-face {
 	font-family: 'Lato';
-	src: url( '../fonts/Lato_light.woff2' ) format( 'woff2' ),
-		 url( '../fonts/Lato_light.woff' ) format( 'woff' );
+	src: url( '../../fonts/Lato_light.woff2' ) format( 'woff2' ),
+		 url( '../../fonts/Lato_light.woff' ) format( 'woff' );
 	font-style: normal;
 	font-weight: 300;
 	text-rendering: optimizeLegibility;
@@ -131,8 +131,8 @@
 
 @font-face {
 	font-family: 'Lato';
-	src: url( '../fonts/Lato_light-italic.woff2' ) format( 'woff2' ),
-		 url( '../fonts/Lato_light-italic.woff' ) format( 'woff' );
+	src: url( '../../fonts/Lato_light-italic.woff2' ) format( 'woff2' ),
+		 url( '../../fonts/Lato_light-italic.woff' ) format( 'woff' );
 	font-style: italic;
 	font-weight: 300;
 	text-rendering: optimizeLegibility;
@@ -160,8 +160,8 @@
 
 @font-face {
 	font-family: 'Lato';
-	src: url( '../fonts/Lato_regular.woff2' ) format( 'woff2' ),
-		 url( '../fonts/Lato_regular.woff' ) format( 'woff' );
+	src: url( '../../fonts/Lato_regular.woff2' ) format( 'woff2' ),
+		 url( '../../fonts/Lato_regular.woff' ) format( 'woff' );
 	font-style: normal;
 	font-weight: 400;
 	text-rendering: optimizeLegibility;
