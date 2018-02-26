@@ -16,10 +16,15 @@ Setup your system. Change to the cloned folder and type:
 $ npm install
 ```
 
-Make your change. Make sure the tests pass and the CSS for production is built:
+Make your changes. To automatically watch for changes, run:
+```console
+$ npm run dev
+```
+
+Make sure the tests pass and the CSS for production is built:
 
 ```console
-$ grunt
+$ npm run build
 ```
 
 Please add specific topics into a single commit and also take into account the [Wikimedia commit message guidelines](https://www.mediawiki.org/wiki/Gerrit/Commit_message_guidelines).

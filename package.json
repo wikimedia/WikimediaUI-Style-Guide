@@ -14,8 +14,8 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^7.2.5",
+    "cssnano": "^4.0.0-rc.2",
     "grunt": "1.0.1",
-    "grunt-contrib-cssmin": "^2.2.1",
     "grunt-contrib-watch": "1.0.0",
     "grunt-exec": "3.0.0",
     "grunt-postcss": "^0.9.0",
@@ -32,9 +32,13 @@
     "stylelint-config-wikimedia": "0.4.2"
   },
   "dependencies": {
-    "fontfaceobserver": "^2.0.9"
+    "fontfaceobserver": "^2.0.9",
+    "normalize.css": "^7.0.0",
+    "wikimedia-ui-base": "^0.10.0"
   },
   "scripts": {
-    "test": "grunt"
+    "start": "grunt watch",
+    "build": "grunt", 
+    "test": "grunt lint"
   }
 }
