@@ -9,12 +9,11 @@ module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( 'grunt-stylelint' );
 	grunt.loadNpmTasks( 'grunt-svgmin' );
 
-	// Postcss processors without minifier
+	// PostCSS processors without minifier
 	var postcssProcessorsDev = [
 		require( 'postcss-import' )( {
 			from: "css/wmui-style-guide.dev.css"
 		} ),
-		// require( 'postcss-cssnext' )(),
 		require( 'postcss-custom-properties' ),
 		require( 'autoprefixer' )( {
 			browsers: [
@@ -31,7 +30,7 @@ module.exports = function ( grunt ) {
 		} )
 	];
 
-	// Postcss processors with minifier
+	// PostCSS processors with minifier
 	var postcssProcessorsMin = postcssProcessorsDev.concat( [ require( 'cssnano' )() ] ); 
 
 	grunt.initConfig( {
@@ -46,7 +45,7 @@ module.exports = function ( grunt ) {
 
 		// Postprocessing Styles
 		postcss: {
-			// outputs unminified compiled CSS file into `build` dir
+			// Output unminified compiled CSS file into `build` dir
 			dev: {
 				options: {
 					processors: postcssProcessorsDev
@@ -54,7 +53,7 @@ module.exports = function ( grunt ) {
 				src: 'css/wmui-style-guide.dev.css', 
 				dest: 'css/build/wmui-style-guide.css'
 			},
-			// outputs minified compiled CSS file +  src maps into `build` dir
+			// Output minified compiled CSS file +  src maps into `build` dir
 			min: {
 				options: {
 					map: {
