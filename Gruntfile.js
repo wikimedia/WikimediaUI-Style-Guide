@@ -14,7 +14,9 @@ module.exports = function ( grunt ) {
 		require( 'postcss-import' )( {
 			from: "css/wmui-style-guide.dev.css"
 		} ),
-		require( 'postcss-custom-properties' ),
+		require( 'postcss-custom-properties' )( {
+			preserve: false
+		} ),
 		require( 'autoprefixer' )( {
 			browsers: [
 				"Android >= 2.3",
@@ -50,7 +52,7 @@ module.exports = function ( grunt ) {
 				options: {
 					processors: postCssProcessorsDev
 				},
-				src: 'css/wmui-style-guide.dev.css', 
+				src: 'css/wmui-style-guide.dev.css',
 				dest: 'css/build/wmui-style-guide.css'
 			},
 			// Output minified compiled CSS file +  src maps into `build` dir
@@ -62,7 +64,7 @@ module.exports = function ( grunt ) {
 					},
 					processors: postCssProcessorsMin
 				},
-				src: 'css/wmui-style-guide.dev.css', 
+				src: 'css/wmui-style-guide.dev.css',
 				dest: 'css/build/wmui-style-guide.min.css'
 			}
 		},
