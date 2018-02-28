@@ -18,7 +18,7 @@ $ npm install
 
 Make your changes. To automatically watch for changes, run:
 ```console
-$ npm run dev
+$ npm run start
 ```
 
 Make sure the tests pass and the CSS for production is built:
