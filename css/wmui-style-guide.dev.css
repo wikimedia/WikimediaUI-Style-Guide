@@ -447,14 +447,13 @@ code {
 	}
 
 	.footer__list li {
-		float: left;
-		margin-left: 2.4rem;
-		padding: 0;
+		list-style: none none;
+		display: block;
+		padding: 0.8rem 0 0;
 	}
 
 	.footer__list li:first-child {
-		list-style: none none;
-		margin-left: 0;
+		padding-top: 0;
 	}
 
 	.footer__list a {
@@ -584,6 +583,22 @@ code {
 	figure {
 		margin-left: -3.2rem;
 		margin-right: -3.2rem;
+	}
+
+	.footer__list li {
+		display: list-item;
+		float: left;
+		padding: 0;
+	}
+
+	.footer__list li:before {
+		content: '\2022'; /* bullet dot: '•' */
+		padding: 0 0.8rem;
+	}
+
+	.footer__list li:first-child:before {
+		content: '';
+		padding: 0;
 	}
 }
 
