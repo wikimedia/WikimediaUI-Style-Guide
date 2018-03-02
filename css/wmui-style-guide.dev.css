@@ -1,5 +1,5 @@
 /* ::: Vendor Imports ::: */
-/* load files from node_modules folders with postCSS-import plugin.
+/* Load files from 'node_modules' folders with postCSS-import plugin.
  * Modules specified in package.json file */
 @import 'wikimedia-ui-base/wikimedia-ui-base.css';
 @import 'normalize.css';
@@ -369,6 +369,21 @@ code {
 	margin-top: -0.4rem;
 }
 
+.page__tagline {
+	margin-top: 1.2rem;
+	font-size: 2rem;
+	font-style: italic;
+	font-weight: 100;
+}
+
+.figure__caption {
+	color: var( --color-base--subtle );
+	display: block;
+	margin-top: 0.8rem;
+	font-size: 1.3rem;
+	font-style: italic;
+}
+
 /* ... Color ... */
 .color-palette {
 	margin-top: 2.4rem;
@@ -549,6 +564,11 @@ code {
 		margin-right: -1.6rem;
 	}
 
+	.figure__caption {
+		margin-left: 1.6rem;
+		margin-right: 1.6rem;
+	}
+
 	.color {
 		width: 100%;
 	}
@@ -583,6 +603,11 @@ code {
 	figure {
 		margin-left: -3.2rem;
 		margin-right: -3.2rem;
+	}
+
+	.figure__caption {
+		margin-left: 3.2rem;
+		margin-right: 3.2rem;
 	}
 
 	.footer__list li {
@@ -664,7 +689,8 @@ code {
 		padding-left: 1.6rem;
 	}
 
-	figure {
+	figure,
+	.figure__caption {
 		margin-left: 0;
 		margin-right: 0;
 	}
