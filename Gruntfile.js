@@ -259,11 +259,11 @@ module.exports = function ( grunt ) {
 			all: {
 				files: [{
 					expand: true,
-					cwd: 'img',
+					cwd: './',
 					src: [
 						'**/*.svg'
 					],
-					dest: 'img/',
+					dest: './',
 					ext: '.svg'
 				}]
 			}
