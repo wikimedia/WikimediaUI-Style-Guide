@@ -1,5 +1,5 @@
 /* ::: Vendor Imports ::: */
-/* load files from node_modules folders with postCSS-import plugin.
+/* Load files from 'node_modules' folders with postCSS-import plugin.
  * Modules specified in package.json file */
 /**
  * WikimediaUI Base v0.10.0
@@ -983,6 +983,19 @@ code {
 .page__parent-title + .page__title {
 	margin-top: -0.4rem;
 }
+.page__tagline {
+	margin-top: 1.2rem;
+	font-size: 2rem;
+	font-style: italic;
+	font-weight: 100;
+}
+.figure__caption {
+	color: #72777d;
+	display: block;
+	margin-top: 0.8rem;
+	font-size: 1.3rem;
+	font-style: italic;
+}
 /* ... Color ... */
 .color-palette {
 	margin-top: 2.4rem;
@@ -1159,6 +1172,11 @@ code {
 		margin-right: -1.6rem;
 	}
 
+	.figure__caption {
+		margin-left: 1.6rem;
+		margin-right: 1.6rem;
+	}
+
 	.color {
 		width: 100%;
 	}
@@ -1194,6 +1212,11 @@ code {
 		margin-right: -3.2rem;
 	}
 
+	.figure__caption {
+		margin-left: 3.2rem;
+		margin-right: 3.2rem;
+	}
+
 	.footer__list li {
 		display: list-item;
 		float: left;
@@ -1201,7 +1224,7 @@ code {
 	}
 
 	.footer__list li:before {
-		content: '\2022'; /* bullet dot: '' */
+		content: '\2022'; /* bullet dot: '•' */
 		padding: 0 0.8rem;
 	}
 
@@ -1273,7 +1296,8 @@ code {
 		padding-left: 1.6rem;
 	}
 
-	figure {
+	figure,
+	.figure__caption {
 		margin-left: 0;
 		margin-right: 0;
 	}
