@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <g fill="none" fill-rule="evenodd">
+        <g stroke-linecap="square" stroke-width=".1">
+            <path stroke="#000" stroke-opacity=".1" d="M0 0l20 20L0 0zM20 0L0 20 20 0z"/>
+            <circle cx="10" cy="10" r="10" stroke="#36C" stroke-opacity=".5"/>
+            <rect width="18" height="18" x="1" y="1" stroke="#00AF89" stroke-opacity=".5" rx="2"/>
+            <rect width="20" height="16" y="2" stroke="#D33" stroke-opacity=".5" rx="2"/>
+            <rect width="16" height="20" x="2" stroke="#FC3" stroke-opacity=".5" rx="2"/>
+        </g>
+        <path fill="#000" d="M16.311 14.898L5.103 3.689A7.943 7.943 0 0 1 10 2.001c4.41 0 8 3.589 8 8a7.95 7.95 0 0 1-1.689 4.897M2 10c0-1.845.634-3.541 1.688-4.897L14.897 16.31A7.95 7.95 0 0 1 10 18.002c-4.41 0-8-3.59-8-8m8-10C4.48 0 0 4.48 0 10c0 5.519 4.48 10 10 10s10-4.482 10-10c0-5.52-4.48-10-10-10"/>
+    </g>
+</svg>
