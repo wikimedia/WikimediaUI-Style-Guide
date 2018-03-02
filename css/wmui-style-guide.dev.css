@@ -31,6 +31,7 @@ body {
 }
 
 /* ::: Text Block-Level Elements ::: */
+/* ... Headings ... */
 h1,
 h2,
 h3,
@@ -64,6 +65,17 @@ h3 {
 	font-size: 2rem;
 }
 
+/* ... Other Block-Level Elements ... */
+blockquote {
+	border-left: 3px solid var( --wmui-color-base70 ); /* FIXME: var */
+	margin: 1.6rem 0 0;
+	padding: 0 1.6rem;
+	font-family: var( --font-family-serif--fallback ); /* Fallback */
+	font-size: 2rem;
+	font-style: italic;
+	line-height: 1.5;
+}
+
 p {
 	margin: 3.2rem 0 0;
 	line-height: 1.5;
@@ -77,6 +89,10 @@ p {
 	p + p,
 	p:first-child {
 		margin: 0.8rem 0 0;
+	}
+
+	blockquote + p {
+		margin-top: 1.6rem;
 	}
 
 ul {
@@ -102,8 +118,21 @@ a {
 	a:hover {
 		text-decoration: underline;
 	}
+
 	a:active {
 		color: var( --color-primary--active );
+	}
+
+cite {
+	display: block;
+	margin-top: 0.8em;
+	font-family: var( --font-family-sans-serif--fallback ); /* Fallback */
+	font-size: 1.4rem;
+	font-style: normal;
+}
+
+	cite:before {
+		content: '— ';
 	}
 
 code {
