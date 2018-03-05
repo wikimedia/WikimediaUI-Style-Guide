@@ -706,7 +706,7 @@ h3 {
 blockquote {
 	border-left: 3px solid #c8ccd1; /* FIXME: var */
 	margin: 1.6rem 0 0;
-	padding-left: 1.6rem;
+	padding: 0 1.6rem;
 	font-family: serif; /* Fallback */
 	font-size: 2rem;
 	font-style: italic;
@@ -817,9 +817,6 @@ code {
 	min-height: 6.4rem;
 	line-height: 6.4rem;
 }
-.col-sm-5 {
-		text-align: right;
-	}
 .site__title {
 		color: #222; /* --color-base-emphasized */
 		margin-top: 0;

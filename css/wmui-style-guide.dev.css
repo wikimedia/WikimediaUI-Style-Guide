@@ -197,10 +197,6 @@ code {
 	line-height: 6.4rem;
 }
 
-	.col-sm-5 {
-		text-align: right;
-	}
-
 	.site__title {
 		color: var( --wmui-color-base10 ); /* --color-base-emphasized */
 		margin-top: 0;
