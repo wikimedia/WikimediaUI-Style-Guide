@@ -1,4 +1,4 @@
-# WikimediaUI Style Guide
+# Wikimedia Design Style Guide (WikimediaUI)
 
 View the guide at https://wikimedia.github.io/WikimediaUI-Style-Guide/
 
@@ -15,4 +15,4 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Credits
 
-The WikimediaUI Style Guide is provided by [Wikimedia Foundation Design members](https://www.mediawiki.org/wiki/Design).
+The Wikimedia Design Style Guide is provided by [Wikimedia Foundation Design team](https://www.mediawiki.org/wiki/Design) and contributors.
