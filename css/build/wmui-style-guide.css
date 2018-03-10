@@ -733,6 +733,12 @@ ul {
 	margin: 0.8rem 0;
 	padding: 0 1.6rem;
 }
+.content li {
+	margin-top: 0.4rem;
+}
+.content li:first-child {
+		margin-top: 0;
+	}
 figure {
 	margin: 0.8rem 0 0;
 }
