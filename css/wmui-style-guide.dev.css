@@ -188,6 +188,7 @@ code {
 }
 
 .content-box {
+	position: relative;
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: 1.6rem; /* FIXME: var( --grid-padding ); */
@@ -210,16 +211,14 @@ code {
 		margin-top: 0;
 		height: 6.4rem;
 		font-family: var( --font-family-sans--fallback ); /* Fallback */
-		font-size: 1.3rem;
-		font-weight: var( --font-weight-bold );
-		letter-spacing: 1px;
-		text-transform: uppercase;
+		font-size: 1.6rem;
+		font-weight: var( --font-weight-base );
+		letter-spacing: 0.5px;
 	}
 		.site__title a {
 			color: inherit;
 			display: inline-block;
-			line-height: 64px;
-			height: 6.4rem;
+			padding-top: 1.2rem;
 		}
 		.site__title a:hover {
 			color: var( --wmui-color-base10 );
@@ -227,15 +226,12 @@ code {
 			transition: color var( --transition-medium );
 		}
 
-		.site__logo {
-			background-image: url( '../../img/Wikimedia-Foundation-logo.svg' ); /* stylelint-disable-line function-url-quotes */
-			background-size: 24px;
-			display: inline-block;
-			width: 24px;
-			height: 24px;
-			margin-bottom: 0.4rem;
-			margin-right: 0.8rem;
-			vertical-align: middle;
+		.site__org {
+			display: block;
+		}
+
+		.site__project {
+			font-weight: var( --font-weight-bold );
 		}
 
 	/* ... Navigation button ... */
@@ -283,6 +279,7 @@ code {
 	/* ... GitHub Contribute Link ... */
 	.lnk--contribute {
 		font-size: 1.4rem;
+		line-height: 1.4rem; /* Derive slightly from template for cross-browser compliance */
 	}
 
 
@@ -566,16 +563,11 @@ code {
 	}
 
 	.site__title {
-		text-align: center;
+		margin-left: 5.6rem;
 	}
 
 	.site__title a {
 		padding-right: 3.2rem;
-	}
-
-	.site__logo {
-		opacity: 0;
-		transition: opacity var( --transition-medium );
 	}
 
 	.lnk--contribute span {
@@ -662,9 +654,6 @@ code {
 
 /* ... Smartphone landscape ... */
 @media ( min-width: 568px ) {
-	.site__logo {
-		opacity: 1;
-	}
 
 	.site__title a {
 		padding-right: 0;
@@ -673,7 +662,7 @@ code {
 	.lnk--contribute {
 		display: block;
 		position: absolute;
-		top: 0;
+		bottom: 1.5rem; /* Not on 8px base due to `line-height` setting */
 		right: 3.2rem;
 		text-align: right;
 	}
@@ -697,15 +686,7 @@ code {
 
 	.site__title {
 		float: left;
-		text-align: left;
-	}
-
-	.lnk--contribute {
-		display: inline;
-		float: right;
-		position: static;
-		top: auto;
-		right: auto;
+		margin-left: 0;
 	}
 
 		.lnk--contribute span {
