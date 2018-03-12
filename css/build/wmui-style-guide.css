@@ -825,7 +825,7 @@ code {
 	line-height: 6.4rem;
 }
 .site__title {
-		color: #222; /* --color-base-emphasized */
+		color: #222;
 		margin-top: 0;
 		height: 6.4rem;
 		font-family: sans-serif; /* Fallback */
@@ -836,14 +836,14 @@ code {
 .site__title a {
 			color: inherit;
 			display: inline-block;
-			padding-top: 1.2rem;
-		}
-.site__title a:hover {
-			color: #222;
-			text-decoration: none;
+			padding: 1.2rem 3.2rem 0;
 			-webkit-transition: color 250ms;
 			-moz-transition: color 250ms;
 			transition: color 250ms;
+		}
+.site__title a:hover {
+			color: #000; /* --color-base-emphasized */
+			text-decoration: none;
 		}
 .site__org {
 			display: block;
@@ -854,7 +854,7 @@ code {
 /* ... Navigation button ... */
 .btn--nav-main {
 		position: absolute;
-		top: 1rem; /* FIXME: not `0.8rem` */
+		top: 1.2rem;
 		width: 4.2rem;
 		height: 4.2rem;
 		cursor: pointer;
@@ -863,25 +863,36 @@ code {
 .btn--nav-main i {
 		display: block;
 		height: 4.2rem;
-		-webkit-transition: 250ms;
-		-moz-transition: 250ms;
-		transition: 250ms;
+		-webkit-transition: color 250ms, -webkit-box-shadow 250ms;
+		transition: color 250ms, -webkit-box-shadow 250ms;
+		-moz-transition: color 250ms, box-shadow 250ms, -moz-box-shadow 250ms;
+		transition: color 250ms, box-shadow 250ms;
+		transition: color 250ms, box-shadow 250ms, -webkit-box-shadow 250ms, -moz-box-shadow 250ms;
 	}
 .btn--nav-main i:before,
 	.btn--nav-main i:after {
 		content: '';
 		background-color: #54595d;
-		width: 2.4rem;
+		width: 2rem;
 		height: 2px;
 		position: absolute;
-		top: 12px;
+		top: 0.4rem;
 		left: 0;
 	}
 .btn--nav-main i:after {
-		top: 20px;
-		-webkit-box-shadow: 0 8px 0 #54595d;
-		   -moz-box-shadow: 0 8px 0 #54595d;
-		        box-shadow: 0 8px 0 #54595d;
+		top: 1.1rem;
+		-webkit-box-shadow: 0 0.7rem 0 #54595d;
+		   -moz-box-shadow: 0 0.7rem 0 #54595d;
+		        box-shadow: 0 0.7rem 0 #54595d;
+	}
+.btn--nav-main i:hover:before,
+	.btn--nav-main i:hover:after {
+		background-color: #000; /* --color-base-emphasized */
+	}
+.btn--nav-main i:hover:after {
+		-webkit-box-shadow: 0 0.7rem 0 #000;
+		   -moz-box-shadow: 0 0.7rem 0 #000;
+		        box-shadow: 0 0.7rem 0 #000;
 	}
 .btn--nav-main span {
 		display: block;
@@ -1162,12 +1173,12 @@ code {
 	}
 
 	.site__title {
-		margin-left: 5.6rem;
+		margin-left: 4.2rem;
 	}
 
-	.site__title a {
-		padding-right: 3.2rem;
-	}
+		.site__title a {
+			padding-left: 0;
+		}
 
 	.lnk--contribute span {
 		display: none;
@@ -1251,11 +1262,6 @@ code {
 }
 /* ... Smartphone landscape ... */
 @media ( min-width: 568px ) {
-
-	.site__title a {
-		padding-right: 0;
-	}
-
 	.lnk--contribute {
 		display: block;
 		position: absolute;
@@ -1287,10 +1293,14 @@ code {
 		margin-left: 0;
 	}
 
-		.lnk--contribute span {
-			display: inline;
-			opacity: 1;
+		.site__title a {
+			padding-left: 3.2rem;
 		}
+
+	.lnk--contribute span {
+		display: inline;
+		opacity: 1;
+	}
 
 	.col--start {
 		width: 33.33333333%;
