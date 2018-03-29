@@ -17,9 +17,29 @@
 	<script src="js/vendor/ie/html5shiv-3.7.3.min.js"></script>
 	<script src="js/vendor/ie/respond-1.4.2.min.js"></script>
 	<![endif]-->
-    <link rel="preload" href="fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="fonts/Lato_regular.woff2" as="font" type="font/woff2" crossorigin>
-    <script src="js/fonts-loader.js" async></script>
+	<link rel="preload" href="fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/Lato_regular.woff2" as="font" type="font/woff2" crossorigin>
+	<script src="js/fonts-loader.js" async></script>
+	<script>
+		var _paq = _paq || [];
+		_paq.push(['setDomains', ['*.design.wikimedia.org.']]);
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		function embedTrackingCode() {
+			var u='https://piwik.wikimedia.org/';
+			_paq.push(['setTrackerUrl', u+'piwik.php']);
+			_paq.push(['setSiteId', '16']);
+			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+			g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		}
+		if (window.addEventListener) {
+		    window.addEventListener('load', embedTrackingCode, false);
+		} else if (window.attachEvent) {
+		    window.attachEvent('onload',embedTrackingCode);
+		} else {
+		    embedTrackingCode();
+		}
+	</script>
 </head>
 <body class="page--visual-style-typography">
 	<header id="header" class="header" role="banner">
@@ -147,6 +167,7 @@
 			</ul>
 			<p>Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.</p>
 			<p><a href="https://wikimediafoundation.org/" class="lnk--wikimedia-project">A Wikimedia Foundation project</a></p>
+			<noscript><p><img src="https://piwik.wikimedia.org/piwik.php?idsite=16&rec=1" alt=""></p></noscript>
 		</div>
 	</footer>
 </body>
