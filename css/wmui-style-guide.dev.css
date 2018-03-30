@@ -9,6 +9,8 @@
 @import 'partials/fonts-loaded.css';
 
 :root {
+	--width-site: 960px;
+	--width-site-desktop-wide: 1140px;
 	--font-weight-base: 400;
 	--font-weight-bold: 700;
 }
@@ -681,7 +683,7 @@ code {
 /* ... Tablet ... */
 @media ( min-width: 768px ) {
 	.content-box {
-		max-width: 960px;
+		max-width: var( --width-site );
 	}
 
 	.btn--nav-main {
@@ -725,7 +727,7 @@ code {
 /* ... Tablet+ / Netbook ... */
 @media ( min-width: 992px ) {
 	.content-box {
-		width: 960px;
+		width: var( --width-site );
 		max-width: none;
 	}
 
@@ -750,6 +752,6 @@ code {
 
 @media ( min-width: 1200px ) {
 	.content-box {
-		width: 1140px;
+		width: var( --width-site-desktop-wide );
 	}
 }
