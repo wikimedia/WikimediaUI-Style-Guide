@@ -6,13 +6,14 @@
 
 /* ::: Local Imports ::: */
 @import 'partials/fonts.css';
-@import 'partials/fonts-loaded.css';
 
 :root {
 	--width-site: 960px;
 	--width-site-desktop-wide: 1140px;
 	--font-weight-base: 400;
 	--font-weight-bold: 700;
+	/* HACK: Add system font stack var as long as WikimediaUI Base isn't updated */
+	--font-family-sans-serif: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Oxygen-Sans', Ubuntu, Cantarell, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif; /* stylelint-disable-line value-keyword-case */
 }
 
 * {
@@ -27,7 +28,7 @@ body {
 	background-color: var( --wmui-color-base80 ); /* FIXME: var; */
 	color: var( --color-base );
 	margin: 0;
-	font-family: var( --font-family-sans--fallback ); /* Fallback */
+	font-family: var( --font-family-sans-serif );
 	font-size: 1.6rem;
 	line-height: var( --line-height-base );
 }
@@ -136,7 +137,7 @@ a {
 cite {
 	display: block;
 	margin-top: 0.8em;
-	font-family: var( --font-family-sans-serif--fallback ); /* Fallback */
+	font-family: var( --font-family-sans-serif );
 	font-size: 1.4rem;
 	font-style: normal;
 }
@@ -212,7 +213,7 @@ code {
 		color: var( --wmui-color-base10 );
 		margin-top: 0;
 		height: 6.4rem;
-		font-family: var( --font-family-sans--fallback ); /* Fallback */
+		font-family: var( --font-family-sans-serif );
 		font-size: 1.6rem;
 		font-weight: var( --font-weight-base );
 		letter-spacing: 0.5px;
@@ -479,7 +480,7 @@ code {
 		background-color: inherit;
 		display: block;
 		padding: 0;
-		font-family: var( --font-family-sans--fallback ); /* Fallback */
+		font-family: var( --font-family-sans-serif );
 	}
 
 /* ::: Footer ::: */
@@ -531,6 +532,20 @@ code {
 .page--visual-style-icons img { /* FIXME: generalize imagery styles */
 	background-color: var( --wmui-color-base80 ); /* FIXME: var; */
 	padding: 2.4rem;
+}
+
+
+/* ::: Dynamic content ::: */
+.fonts-loaded cite,
+.fonts-loaded .site__title,
+.fonts-loaded .color-code {
+	font-family: var( --font-family-sans-serif );
+}
+
+/* ::: Text Block-Level Elements ::: */
+.fonts-loaded h1,
+.fonts-loaded blockquote {
+	font-family: 'Charter', serif;
 }
 
 
