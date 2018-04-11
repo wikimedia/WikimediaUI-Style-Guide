@@ -1,6 +1,6 @@
 # Wikimedia Design Style Guide (WikimediaUI)
 
-View the guide at https://wikimedia.github.io/WikimediaUI-Style-Guide/
+View the guide at https://design.wikimedia.org/style-guide/
 
 
 ## Download
