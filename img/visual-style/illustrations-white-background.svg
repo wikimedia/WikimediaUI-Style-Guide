@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" style="background:#fff" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Oxygen-Sans',Ubuntu,Cantarell,Lato,'Helvetica Neue',Helvetica,Arial,sans-serif" width="375" height="667" viewBox="0 0 375 667">
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(87 493)">
+            <rect width="202" height="54" fill="#36c" rx="2"/>
+            <text fill="#FFF" font-size="20">
+                <tspan x="34" y="34">Take our survey</tspan>
+            </text>
+        </g>
+        <text fill="#222" font-size="22" transform="translate(39 121)">
+            <tspan x="39.693" y="247">Please help us improve </tspan> <tspan x="6.627" y="281">Wikipedia by answering a few </tspan> <tspan x="35.623" y="315">questions in our survey.</tspan>
+        </text>
+        <g stroke="#72777D" stroke-width="2" transform="translate(119 121)">
+            <rect width="137.903" height="163.762" y="17.238" fill="#FFF" rx="2.5"/>
+            <path fill="#c8ccd1" d="M51.88 9.648C53.044 4.197 60.244 0 68.951 0c8.656 0 15.82 4.146 17.052 9.55l26.028-.075a8.61 8.61 0 0 1 8.635 8.61v6.634a2 2 0 0 1-2 2H19.238a2 2 0 0 1-2-2v-6.486a8.51 8.51 0 0 1 8.486-8.51l26.155-.075z"/>
+        </g>
+        <path stroke="#36c" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" d="M160.371 222.107l18.013 20.422 38.011-43.096"/>
+    </g>
+</svg>
