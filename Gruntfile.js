@@ -188,12 +188,13 @@ module.exports = function ( grunt ) {
 				options: {
 					type: 'artboards',
 					items: [
-						'principles-paper-ink',
-						'principles-paper-shadow',
-						'principles-content-chrome',
-						'principles-color-type',
-						'typography-specimen',
-						'typography-readability'
+						'icons-sample',
+						'icons-optical-adjustment',
+						'illustrations-header',
+						'illustrations-article',
+						'illustrations-colored-background',
+						'illustrations-white-background',
+						'illustrations-grey-background'
 					],
 					groupContentsOnly: true,
 					compact: true,
@@ -217,7 +218,15 @@ module.exports = function ( grunt ) {
 						'principles-content-chrome',
 						'principles-color-type',
 						'typography-specimen',
-						'typography-readability'
+						'typography-readability',
+						'icons-sample',
+						'icons-optical-adjustment',
+						'illustrations-header',
+						'illustrations-article',
+						'illustrations-colored-background',
+						'illustrations-white-background',
+						'illustrations-grey-background'
+
 					],
 					groupContentsOnly: true,
 					compact: true,
