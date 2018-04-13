@@ -534,6 +534,17 @@ code {
 	padding: 2.4rem;
 }
 
+.illustrations-case-study img {
+	display: block;
+	float: left;
+	width: 31.33%;
+	margin: 0 1%;
+}
+
+	.illustrations-case-study img:first-child {
+ 		margin-left: 0;
+	}
+
 
 /* ::: Dynamic content ::: */
 .fonts-loaded cite,
