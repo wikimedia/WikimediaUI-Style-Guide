@@ -92,20 +92,20 @@
 
 					<h3>Principles</h3>
 					<p>Wikimedia icons should be simple and neutral. <sup><a href="#References">[1]</a></sup></p>
-					<p><b>Reduce to the essential form.</b> Pare down details to convey the icon in as simple a shape as possible. The core idea of the design should be clearly conveyed, whilst remaining easily discernible even at smaller sizes. For example, a keyboard should <i>not</i> be represented by showing all 100+ keys that are in the real object, since this would make it unrecognizable. </p>
+					<p><b>Reduce to the essential form.</b> Use fewer details to convey the icon in as simple a shape as possible. The core idea of the design should be clearly conveyed and should remain ediscernible even at smaller sizes. For example, a keyboard should <i>not</i> be represented by showing all 100+ keys that are in the real object, since this would make it unrecognizable. </p>
 					<p><b>Universal rather than culturally-specific.</b> Symbols and ideas represented in iconography should be known to a global audience. For example, do not use a dollar sign “$” to represent money, or a four-leaf clover to represent luck.</p>
-					<p><b>Avoid textual content within the icon.</b> Besides loss of universal recognition when including a specific language element, it may add unnecessary complexity. However, there are exceptions for icons directly related to language/text (for example, the icon for language switching).</p>
-					<p><b>Abstract forms or concrete objects.</b> Take consideration when deciding to use abstract or concrete objects in designing an icon. In some cases, concrete objects are preferred, such as using a die to convey “random” or a bell to convey an alert. In other cases, abstract symbols may be preferable, such as using an question mark “?” for help rather than a life preserver, or an ellipsis “…” to indicate “more”.</p>
+					<p><b>Avoid textual content within the icon.</b> Besides loss of universal recognition when including a specific language element, it may add unnecessary complexity.  There are exceptions for icons related to language/text (for example, the icon for language switching).</p>
+					<p><b>Abstract forms or concrete objects.</b> Take consideration when deciding to use abstract or concrete objects when designing an icon. In some cases, concrete objects are preferred, such as using dice to convey “random” or a bell to convey an alert. In other cases, abstract symbols may be preferable, such as using an question mark “?” for help rather than a life preserver, or an ellipsis “…” to indicate “more”.</p>
 					<p><b>Neutral point of view.</b> Avoid concepts such as gestures, animals, religion, humor, ethnicity, and gender.</p>
 
 					<h3>Visual style</h3>
 					<p>Characteristics of a WikimediaUI icon:</p>
 					<ul>
 						<li><b>Monochromatic.</b> Solid color icons.</li>
-						<li><b>Geometric.</b> Comprised of simple and ideally symmetrical geometric shapes. Symmetrical icons tend to be more universally applicable (an open book rather than a closed book with binding on left or right side). </li>
+						<li><b>Geometric.</b> Comprised of simple and symmetrical geometric shapes. Symmetrical icons tend to be more universally applicable. For example, an open book would be prefered to a closed book with binding on left or right side). </li>
 						<li><b>Front-facing. </b>Icons are flat and front facing, not multi-dimensional.</li>
 						<li><b>20 x 20&#160;dp default canvas.</b> WikimediaUI icons are put on a 20 x 20 device-independent pixel (`dp`)<sup><a href="#References">[2]</a></sup> canvas per default.</li>
-						<li><b>Rounded corners.</b> Corners are rounded to make shapes more friendly and welcoming. For the default canvas use 2&#160;dp rounded corners. Note that rounded corners are applied only on the exterior of an icon shape, not interior corners.</li>
+						<li><b>Rounded corners.</b> Corners are rounded to make shapes friendly and welcoming. For the default canvas use 2&#160;dp rounded corners. Note that rounded corners are applied only on the exterior of an icon shape, not interior corners.</li>
 						<li><b>Medium thick stroke.</b> Lines and outline should be visible at smaller sizes without effort, for the default icon canvas use a 2&#160;dp thick stroke as standard. Endpoints of lines are square in keeping with simple geometric shapes.</li>
 						<li><b>Diagonal cross-out lines.</b> For icons that appear to be crossed-out, the cross-out line starts from the top-left of the icon and continues at a 45 degree angle to the bottom right (similar to a backslash “\”).</li>
 					</ul>
@@ -115,23 +115,23 @@
 						<figcaption>Icons follow a template. The default canvas is 20 x 20&#160;dp. In order to allow for optical adjustments, a different margin is applied depending on the shape of the icon.</figcaption>
 						<img src="img/visual-style/icons-optical-adjustment.png" alt="Icon sizes at different shapes for optical adjustment">
 					</figure>
-					<p>Different shapes have a different perceived size. A 1&#160;dp margin for square-shaped icon is used whilst a circle uses the full 20 x 20&#160;dp canvas available to reach a similar perceived size.</p>
+					<p>Different shapes have different perceived sizes. A 1&#160;dp margin for square-shaped icon is used. A circle uses the full 20 x 20&#160;dp canvas available to reach a similar perceived size.</p>
 					<p><b>Black icons</b> <br>
-						Use black (<a href="visual-style_colors.html">Base0</a>) on a transparent background as the boldest representation of an icon. The color can be changed when the icon is used (preferably done automatically by software).</p>
+						Use black (<a href="visual-style_colors.html">Base0</a>) on a transparent background, as the boldest representation of an icon. The color can be changed when the icon is used (preferably done automatically by software).</p>
 					<p><b>Filled areas with no stroke outlines</b> <br>
-						For example, a donut icon is a filled circle with a hole in the middle rather than an unfilled circle with a thick stroke outline.</p>
+						For example, a donut icon is a filled circle with a hole in the middle, as opposed to an unfilled circle with a thick stroke outline.</p>
 					<p><b>Pixel-fitting</b> <br>
-						Ensure icon shape edges are fit to pixels as closely as possible so that shapes are not distorted or fuzzy.</p>
+						Ensure icon shape edges are fit to pixels as closely as possible, so that shapes are not distorted or fuzzy.</p>
 					<p><b>Right-to-left (RTL) and left-to-right (LTR) considerations</b> <br>
 						In cases where the icon is non-symmetrical, consider whether RTL or LTR directionality changes the meaning conveyed before creating the alternate direction variation. For example, the play button is universally seen as a triangle with a straight left edge and does not require two variations, whilst a bullet list icon would show the “bullets” in the list on the right or left side depending on whether it is shown in RTL or LTR language context.</p>
 
 					<h3>Usage</h3>
 					<p><b>Clearance on touch devices</b> <br>
-						When using icons consider the size of their target area. Even if icons are presented at a smaller size, make sure that the associated active area is at least 44 x 44&#160;dp. Otherwise users may fail to hit the active area, not getting the expected result.</p>
+						When using icons consider the size of their target area. Even if icons are presented at a smaller size, make sure that the associated active area is at least 44 x 44&#160;dp. Otherwise users may fail to hit the active area and not encounter the expected result.</p>
 
 					<!-- FIXME: Use of labels -->
 					<p><b>Adapt and remix</b> <br>
-						Our icons are free licensed under CC BY 4.0. <br>
+						Our icons are freely licensed under CC BY 4.0. <br>
 						The simple style and guidelines make it easy to reuse or adapt existing freely licensed icons that you can find on other repos such as <a href="https://material.io/icons/" target="_blank" rel="noopener">Material icons</a> <sup><a href="#References">[3]</a></sup> or the <a href="https://thenounproject.com/" target="_blank" rel="noopener">Noun project</a> <sup><a href="#References">[4]</a></sup>. You are welcome to use existing icons that align to the proposed style instead of reinventing the wheel icon.</p>
 
 					<h3>Resources</h3>
