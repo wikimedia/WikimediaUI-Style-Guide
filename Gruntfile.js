@@ -290,6 +290,6 @@ module.exports = function ( grunt ) {
 	} );
 
 	grunt.registerTask( 'lint', [ 'stylelint' ] );
-	grunt.registerTask( 'imagery', [ 'sketch_export', 'svgmin' ] );
+	grunt.registerTask( 'images', [ 'sketch_export', 'svgmin' ] );
 	grunt.registerTask( 'default', [ 'lint', 'postcss:dev', 'postcss:min' ] );
 };
