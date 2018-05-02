@@ -529,7 +529,7 @@ code {
 
 
 /* ::: Page-specific Styles ::: */
-.page--visual-style-icons img { /* FIXME: generalize imagery styles */
+.page--visual-style-icons img { /* FIXME: generalize image styles */
 	background-color: var( --wmui-color-base80 ); /* FIXME: var; */
 	padding: 2.4rem;
 }
