@@ -8,8 +8,12 @@
 @import 'partials/fonts.css';
 
 :root {
+	--background-color-hr: var( --wmui-color-base80 );
 	--width-site: 960px;
 	--width-site-desktop-wide: 1140px;
+	--border-color-heading: var( --wmui-color-base80 );
+	--border-style-base: solid;
+	--border-width-heading: 3px;
 	--font-weight-base: 400;
 	--font-weight-bold: 700;
 	/* HACK: Add system font stack var as long as WikimediaUI Base isn't updated */
@@ -49,8 +53,7 @@ h6 {
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
 	font-weight: var( --font-weight-bold );
 }
 
@@ -61,11 +64,26 @@ h1 {
 }
 
 h2 {
-	font-size: 2.2rem;
+	border-bottom: var( --border-width-heading ) var( --border-style-base ) var( --border-color-heading );
+	padding-bottom: 2px;
+	font-size: 2.4rem;
 }
 
 h3 {
 	font-size: 2rem;
+}
+
+h4 {
+	font-size: 1.8rem;
+}
+
+h5 {
+	font-size: 1.6rem;
+}
+
+h6 {
+	font-size: 1.6rem;
+	font-weight: normal;
 }
 
 /* ... Other Block-Level Elements ... */
@@ -77,6 +95,13 @@ blockquote {
 	font-size: 2rem;
 	font-style: italic;
 	line-height: 1.5;
+}
+
+hr {
+	background: var( --background-color-hr );
+	display: block;
+	height: 0.8rem;
+	margin: 8rem 0;
 }
 
 p {
@@ -151,6 +176,15 @@ code {
 	display: inline-block;
 	padding: 0.2rem 0.4rem;
 	font-size: 1.4rem;
+}
+
+small {
+	font-size: 1.3rem;
+}
+
+sub,
+sup {
+	font-size: 1.1rem;
 }
 
 /* ::: General Classes ::: */

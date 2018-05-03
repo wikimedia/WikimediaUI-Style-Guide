@@ -519,8 +519,7 @@ h6 {
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
 	font-weight: 700;
 }
 h1 {
@@ -529,10 +528,22 @@ h1 {
 	font-weight: 400;
 }
 h2 {
-	font-size: 2.2rem;
+	border-bottom: 3px solid #eaecf0;
+	padding-bottom: 2px;
+	font-size: 2.4rem;
 }
 h3 {
 	font-size: 2rem;
+}
+h4 {
+	font-size: 1.8rem;
+}
+h5 {
+	font-size: 1.6rem;
+}
+h6 {
+	font-size: 1.6rem;
+	font-weight: normal;
 }
 /* ... Other Block-Level Elements ... */
 blockquote {
@@ -543,6 +554,12 @@ blockquote {
 	font-size: 2rem;
 	font-style: italic;
 	line-height: 1.5;
+}
+hr {
+	background: #eaecf0;
+	display: block;
+	height: 0.8rem;
+	margin: 8rem 0;
 }
 p {
 	margin: 3.2rem 0 0;
@@ -605,6 +622,13 @@ code {
 	display: inline-block;
 	padding: 0.2rem 0.4rem;
 	font-size: 1.4rem;
+}
+small {
+	font-size: 1.3rem;
+}
+sub,
+sup {
+	font-size: 1.1rem;
 }
 /* ::: General Classes ::: */
 /* ::: Text for Screen Readers only ::: */
@@ -948,7 +972,7 @@ code {
 	text-transform: uppercase;
 }
 /* ::: Page-specific Styles ::: */
-.page--visual-style-icons img { /* FIXME: generalize imagery styles */
+.page--visual-style-icons img { /* FIXME: generalize image styles */
 	background-color: #eaecf0; /* FIXME: var; */
 	padding: 2.4rem;
 }
