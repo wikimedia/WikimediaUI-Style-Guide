@@ -485,6 +485,7 @@ template {
 */
 :root {
 	/* HACK: Add system font stack var as long as WikimediaUI Base isn't updated */ /* stylelint-disable-line value-keyword-case */
+	/* HACK; Add Georgia to serif fallback as long as WikimediaUI Base isn't updated */ /* stylelint-disable-line value-keyword-case */
 }
 * {
 	-webkit-box-sizing: border-box;
@@ -524,7 +525,7 @@ h5 {
 }
 h1,
 .page__title {
-	font-family: serif; /* Fallback */
+	font-family: Georgia, serif; /* Fallback */
 	font-size: 3.2rem;
 	font-weight: 400;
 }
@@ -551,7 +552,7 @@ blockquote {
 	border-left: 3px solid #c8ccd1; /* FIXME: var */
 	margin: 1.6rem 0 0;
 	padding: 0 1.6rem;
-	font-family: serif; /* Fallback */
+	font-family: Georgia, serif; /* Fallback */
 	font-size: 2rem;
 	font-style: italic;
 	line-height: 1.5;
@@ -999,7 +1000,7 @@ sup {
 /* ::: Text Block-Level Elements ::: */
 .fonts-loaded .page__title,
 .fonts-loaded blockquote {
-	font-family: 'Charter', serif;
+	font-family: 'Charter', Georgia, serif; /* stylelint-disable-line font-family-name-quotes */
 }
 /* ::: Media Queries ::: */
 /* ... Smartphone only ... */
