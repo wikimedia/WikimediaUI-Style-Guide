@@ -18,6 +18,8 @@
 	--font-weight-bold: 700;
 	/* HACK: Add system font stack var as long as WikimediaUI Base isn't updated */
 	--font-family-sans-serif: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Oxygen-Sans', Ubuntu, Cantarell, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif; /* stylelint-disable-line value-keyword-case */
+	/* HACK; Add Georgia to serif fallback as long as WikimediaUI Base isn't updated */
+	--font-family-serif--fallback: Georgia, serif; /* stylelint-disable-line value-keyword-case */
 }
 
 * {
@@ -596,7 +598,7 @@ sup {
 /* ::: Text Block-Level Elements ::: */
 .fonts-loaded .page__title,
 .fonts-loaded blockquote {
-	font-family: 'Charter', serif;
+	font-family: 'Charter', Georgia, serif; /* stylelint-disable-line font-family-name-quotes */
 }
 
 

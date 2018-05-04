@@ -10,7 +10,7 @@
             letter-spacing: 1px;
         }
         .s {
-            font-family: 'Charter', serif;
+            font-family: 'Charter', Georgia, serif;
         }
       ]]>
     </style>
