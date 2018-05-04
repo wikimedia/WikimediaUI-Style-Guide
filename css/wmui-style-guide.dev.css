@@ -614,21 +614,12 @@ sup {
 
 	.page__title {
 		margin-top: -0.4rem;
-		font-size: 2.4rem;
-		font-weight: var( --font-weight-bold );
+		font-size: 2.8rem;
 	}
 }
 
 /* ... Smartphone portrait ... */
 @media ( min-width: 240px ) {
-	h2 {
-		font-size: 2rem;
-	}
-
-	h3 {
-		font-size: 1.8rem;
-	}
-
 	.content-box {
 		transition: padding var( --transition-medium );
 	}
