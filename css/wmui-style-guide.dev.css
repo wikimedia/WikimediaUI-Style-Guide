@@ -57,7 +57,8 @@ h5 {
 	font-weight: var( --font-weight-bold );
 }
 
-h1 {
+h1,
+.page__title {
 	font-family: var( --font-family-serif--fallback ); /* Fallback */
 	font-size: 3.2rem;
 	font-weight: var( --font-weight-base );
@@ -563,6 +564,11 @@ sup {
 
 
 /* ::: Page-specific Styles ::: */
+.page--home .page__title {
+	border: 0;
+	padding: 0;
+}
+
 .page--visual-style-icons img { /* FIXME: generalize image styles */
 	background-color: var( --wmui-color-base80 ); /* FIXME: var; */
 	padding: 2.4rem;
@@ -588,7 +594,7 @@ sup {
 }
 
 /* ::: Text Block-Level Elements ::: */
-.fonts-loaded h1,
+.fonts-loaded .page__title,
 .fonts-loaded blockquote {
 	font-family: 'Charter', serif;
 }

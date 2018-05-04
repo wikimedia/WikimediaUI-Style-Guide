@@ -522,7 +522,8 @@ h4,
 h5 {
 	font-weight: 700;
 }
-h1 {
+h1,
+.page__title {
 	font-family: serif; /* Fallback */
 	font-size: 3.2rem;
 	font-weight: 400;
@@ -972,6 +973,10 @@ sup {
 	text-transform: uppercase;
 }
 /* ::: Page-specific Styles ::: */
+.page--home .page__title {
+	border: 0;
+	padding: 0;
+}
 .page--visual-style-icons img { /* FIXME: generalize image styles */
 	background-color: #eaecf0; /* FIXME: var; */
 	padding: 2.4rem;
@@ -992,7 +997,7 @@ sup {
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Oxygen-Sans', Ubuntu, Cantarell, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 /* ::: Text Block-Level Elements ::: */
-.fonts-loaded h1,
+.fonts-loaded .page__title,
 .fonts-loaded blockquote {
 	font-family: 'Charter', serif;
 }
