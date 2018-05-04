@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="817" height="213" viewBox="0 0 817 213">
+	<title>
+		Optical adjustment of forms in icon design
+	</title>
+    <style type="text/css">
+      <![CDATA[
+        svg {
+            background: #eaecf0;
+        }
+        .ss {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Oxygen-Sans', Ubuntu, Cantarell, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+        .s {
+            font-family: 'Charter', serif;
+        }
+      ]]>
+    </style>
+	<defs>
+		<rect id="a" width="105.293556" height="105.293556" x="5.849642" y="5.849642" rx="11.699284"/>
+		<rect id="b" width="93.5942721" height="116.99284" x="11.699284" rx="11.699284"/>
+		<rect id="c" width="116.99284" height="93.5942721" y="11.699284" rx="11.699284"/>
+		<rect id="d" width="116.99284" height="116.99284" rx="58.49642"/>
+	</defs>
+	<g fill="none" fill-rule="evenodd">
+		<path stroke="#f0f" stroke-opacity=".5" stroke-width=".97494033" d="M115.042959 35.097852h5.849642v116.99284h-5.849642V35.097852zm-11.6992839 0h5.849642v116.99284h-5.849642V35.097852zm-11.699284 0h5.849642v116.99284h-5.849642V35.097852zm-11.699284 0h5.849642v116.99284h-5.849642V35.097852zm-11.6992841 0h5.8496421v116.99284H68.245823V35.097852zm-11.699284 0h5.849642v116.99284h-5.849642V35.097852zm-11.699284 0h5.849642v116.99284h-5.849642V35.097852zm-11.699284 0h5.849642v116.99284h-5.849642V35.097852zm-11.699284 0h5.849642v116.99284h-5.849642V35.097852zm-11.699284 0h5.849642v116.99284H9.749403V35.097852z"/>
+		<path stroke="#f0f" stroke-opacity=".5" stroke-width=".97494033" d="M126.742243 146.24105v5.849642H9.749403v-5.849642h116.99284zm0-11.6992839v5.8496419H9.749403v-5.8496419h116.99284zm0-11.699284v5.849642H9.749403v-5.849642h116.99284zm0-11.699284v5.849642H9.749403v-5.849642h116.99284zm0-11.699284v5.849642H9.749403v-5.849642h116.99284zm0-11.6992841v5.849642H9.749403V87.74463h116.99284zm0-11.699284v5.849642H9.749403v-5.849642h116.99284zm0-11.699284v5.849642H9.749403v-5.849642h116.99284zm0-11.699284v5.849642H9.749403v-5.849642h116.99284zm0-11.699284v5.84964201H9.749403V40.947494h116.99284z"/>
+		<path stroke="#f0f" stroke-linecap="square" stroke-opacity=".5" stroke-width=".97494033" d="M9.749403 35.097852h116.99284v116.99284H9.749403z"/>
+		<g transform="translate(9.749403 35.097852)">
+			<use fill="#14866D" fill-opacity=".5" xlink:href="#a"/>
+			<rect width="104.318616" height="104.318616" x="6.33711217" y="6.33711217" stroke="#14866D" stroke-width=".97494033" rx="11.699284"/>
+		</g>
+		<g transform="translate(9.749403 35.097852)">
+			<use fill="#fc3" fill-opacity=".5" xlink:href="#b"/>
+			<rect width="92.6193317" height="116.0179" x="12.1867542" y=".48747017" stroke="#fc3" stroke-width=".97494033" rx="11.699284"/>
+		</g>
+		<g transform="translate(9.749403 35.097852)">
+			<use fill="#d33" fill-opacity=".5" xlink:href="#c"/>
+			<rect width="116.0179" height="92.6193317" x=".48747017" y="12.1867542" stroke="#d33" stroke-width=".97494033" rx="11.699284"/>
+		</g>
+		<g transform="translate(9.749403 35.097852)">
+			<use fill="#36c" fill-opacity=".5" xlink:href="#d"/>
+			<rect width="116.18039" height="116.18039" x=".40622514" y=".40622514" stroke="#36c" stroke-opacity=".5" stroke-width=".81245028" rx="58.0901949"/>
+		</g>
+		<text fill="#f0f" class="ss" font-size="13">
+			<tspan x="9.74940334" y="182.639618">No margin for a circle</tspan> <tspan x="9.74940334" y="206.038186">1 dp margin for a square</tspan>
+		</text>
+		<text fill="#222" class="ss" font-size="16">
+			<tspan x="0" y="13">Template 20 x 20 dp</tspan>
+		</text>
+		<text fill="#222" class="ss" font-size="16">
+			<tspan x="244.710024" y="13">Resulting shapes</tspan>
+		</text>
+		<rect width="93.5942721" height="116.99284" x="723.405728" y="35.097852" fill="#fc3" rx="9.74940334"/>
+		<rect width="116.99284" height="93.5942721" x="555.71599" y="46.797136" fill="#d33" rx="9.74940334"/>
+		<rect width="116.99284" height="116.99284" x="399.725537" y="35.097852" fill="#36c" rx="58.49642"/>
+		<rect width="105.293556" height="105.293556" x="249.584726" y="40.947494" fill="#14866d" rx="9.57214146"/>
+	</g>
+</svg>
