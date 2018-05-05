@@ -126,9 +126,11 @@ p {
 		margin-top: 1.6rem;
 	}
 
+/* ... Lists ... */
+ol,
 ul {
 	margin: 0.8rem 0;
-	padding: 0 1.6rem;
+	padding: 0 0 0 1.8rem; /* Can't remain within our 8px based sizing due to browser defaults */
 }
 
 .content li {
@@ -139,6 +141,7 @@ ul {
 		margin-top: 0;
 	}
 
+/* ... Images & Figures ... */
 figure {
 	margin: 0.8rem 0 0;
 }
