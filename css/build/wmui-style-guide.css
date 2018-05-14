@@ -660,12 +660,15 @@ sup {
 	}
 .clearfix:before,
 .clearfix:after,
+.page:before,
+.page:after,
 .content-box:before,
 .content-box:after {
 	content: ' ';
 	display: table;
 }
 .clearfix:after,
+.page:after,
 .content-box:after {
 	clear: both;
 }
@@ -943,7 +946,6 @@ sup {
 /* ::: Footer ::: */
 .footer {
 	color: #222;
-	clear: both;
 	padding: 2.4rem 0;
 	font-size: 1.2rem;
 	font-weight: 400;
@@ -1042,7 +1044,9 @@ sup {
 }
 /* ... Smartphone portrait ... */
 @media ( min-width: 240px ) {
-	.content-box {
+	.content-box,
+	.site__title a,
+	.nav--main a {
 		-webkit-transition: padding 250ms;
 		-moz-transition: padding 250ms;
 		transition: padding 250ms;
@@ -1096,10 +1100,10 @@ sup {
 		right: -3.2rem;
 	}
 
-	.nav--main a {
-		padding-left: 3.2rem;
-		padding-right: 3.2rem;
-	}
+		.nav--main a {
+			padding-left: 3.2rem;
+			padding-right: 3.2rem;
+		}
 
 	.color {
 		width: 18rem;
@@ -1157,6 +1161,7 @@ sup {
 /* ... Tablet ... */
 @media ( min-width: 768px ) {
 	.content-box {
+		width: 100%;
 		max-width: 960px;
 	}
 
@@ -1169,8 +1174,10 @@ sup {
 		margin-left: 0;
 	}
 
-		.site__title a {
-			padding-left: 3.2rem;
+		.site__title a,
+		.nav--main a {
+			padding-left: 1.6rem;
+			padding-right: 1.6rem;
 		}
 
 	.lnk--contribute span {
@@ -1179,12 +1186,20 @@ sup {
 	}
 
 	.col--start {
-		width: 33.33333333%;
-		padding-right: 1.6rem;
+		width: 20.8rem;
+		z-index: 1;
+		-webkit-transition: width 250ms;
+		-moz-transition: width 250ms;
+		transition: width 250ms;
 	}
 	.col--end {
-		width: 66.66666667%;
-		padding-left: 1.6rem;
+		margin-left: -20.8rem;
+		padding-left: 24rem; /* = 22.4 + (2 * 1.6 padding) */
+	}
+
+	.nav--main {
+		left: auto;
+		right: auto;
 	}
 
 	figure,
@@ -1201,15 +1216,23 @@ sup {
 /* ... Tablet+ / Netbook ... */
 @media ( min-width: 992px ) {
 	.content-box {
-		width: 960px;
-		max-width: none;
+		width: 100%;
+		max-width: 1140px;
+	}
+
+	.site__title a,
+	.nav--main a {
+		padding-left: 3.2rem;
+		padding-right: 3.2rem;
 	}
 
 	.col--start {
-		width: 25%;
+		width: 24rem;
 	}
+
 	.col--end {
-		width: 75%;
+		margin-left: -24rem;
+		padding-left: 27.2rem; /* = 24 + (2 * 1.6 padding) */
 	}
 
 	.color {
@@ -1226,5 +1249,14 @@ sup {
 @media ( min-width: 1200px ) {
 	.content-box {
 		width: 1140px;
+	}
+
+	.col--start {
+		width: 25.6rem;
+	}
+
+	.col--end {
+		margin-left: -25.6rem;
+		padding-left: 28.8rem; /* = 25.6 + (2 * 1.6 padding) */
 	}
 }
