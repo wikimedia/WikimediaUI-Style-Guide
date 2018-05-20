@@ -783,9 +783,6 @@ sup {
 	        box-shadow: 0 1px 4px 0 rgba( 0, 0, 0, 0.25 );
 	overflow-y: hidden;
 }
-.content {
-	float: left;
-}
 .col {
 	float: left;
 	position: relative;
@@ -796,6 +793,22 @@ sup {
 	}
 .col--end {
 		padding: 0;
+	}
+.content {
+	float: left;
+}
+/* Limiting characters per line to improve readability */
+.content blockquote,
+	.content figcaption,
+	.content p,
+	.content h1,
+	/* .content h2, // Due to `bottom-border` we need different approach here with media query `padding` */
+	.content h3,
+	.content h4,
+	.content h5,
+	.content h6,
+	.content li {
+		max-width: 56rem;
 	}
 /* ... Main Navigation ... */
 .nav--main {
@@ -1157,6 +1170,10 @@ sup {
 		-moz-transition: opacity 250ms;
 		transition: opacity 250ms;
 	}
+
+	.content h2 {
+		padding-right: 20%;
+	}
 }
 /* ... Tablet ... */
 @media ( min-width: 768px ) {
@@ -1202,6 +1219,10 @@ sup {
 		right: auto;
 	}
 
+	.content h2 {
+		padding-right: 0;
+	}
+
 	figure,
 	.figure__caption {
 		margin-left: 0;
@@ -1233,6 +1254,10 @@ sup {
 	.col--end {
 		margin-left: -24rem;
 		padding-left: 27.2rem; /* = 24 + (2 * 1.6 padding) */
+	}
+
+	.content h2 {
+		padding-right: 20rem;
 	}
 
 	.color {
