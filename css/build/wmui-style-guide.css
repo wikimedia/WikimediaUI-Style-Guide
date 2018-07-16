@@ -889,8 +889,9 @@ sup {
 }
 .figure__caption {
 	color: #72777d;
+	clear: both;
 	display: block;
-	margin-top: 0.8rem;
+	padding-top: 0.8rem; /* `padding-top` due to usage with floated images in figure above */
 	font-size: 1.3rem;
 	font-style: italic;
 }
