@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--[if lte IE 8 ]><html lang="en" class="js-off lte-ie8"><![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="js-off ie9"><![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
-<html lang="en" class="js-off">
-<!--<![endif]-->
+<html lang="en" class="js--off">
 	<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -14,12 +10,11 @@
 	<link rel="stylesheet" href="css/build/wmui-style-guide.min.css">
 	<title>Visual Style: Icons – Wikimedia Design Style Guide</title>
 	<script>
-		document.documentElement.className = document.documentElement.className.replace(/\bjs-off\b/,'js-on'); // no BEM notation thx to IE
+		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
 	</script>
 	<!--[if lt IE 9]>
 	<script>window.html5={'shivCSS':false};</script>
 	<script src="js/vendor/ie/html5shiv-3.7.3.min.js"></script>
-	<script src="js/vendor/ie/respond-1.4.2.min.js"></script>
 	<![endif]-->
 	<link rel="preload" href="fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
 	<script src="js/fonts-loader.js" async></script>
