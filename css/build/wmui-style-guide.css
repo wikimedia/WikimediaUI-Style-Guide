@@ -663,13 +663,16 @@ sup {
 .page:before,
 .page:after,
 .content-box:before,
-.content-box:after {
+.content-box:after,
+.figures-do-dont:before,
+.figures-do-dont:after {
 	content: ' ';
 	display: table;
 }
 .clearfix:after,
 .page:after,
-.content-box:after {
+.content-box:after,
+.figures-do-dont:after {
 	clear: both;
 }
 .content-box {
@@ -895,6 +898,61 @@ sup {
 	font-size: 1.3rem;
 	font-style: italic;
 }
+/* ... “Do” & “Don't” figures ... */
+.figures-do-dont {
+	margin-top: 1.6rem;
+}
+.figures-do-dont .figure {
+	background-color: #eaecf0;
+	-moz-border-radius-topleft: 2px;
+	     border-top-left-radius: 2px;
+	-moz-border-radius-topright: 2px;
+	     border-top-right-radius: 2px;
+}
+.figures-do-dont .figure--dont {
+	border-left: 1px solid #fff;
+}
+.figures-do-dont .figure__caption {
+	background-color: #fff;
+	display: block;
+	border-top-width: 0.8rem;
+	border-top-style: solid;
+	padding-right: 1.6rem;
+}
+.figure--do .figure__caption,
+.do {
+	border-top-color: #00af89;
+}
+.figure--dont .figure__caption,
+.dont {
+	border-top-color: #d33;
+}
+.do,
+.dont {
+	font-style: normal;
+	font-weight: 700;
+}
+.do:before,
+	.dont:before {
+		display: inline-block;
+		margin-right: 0.4rem;
+		padding-top: 0.4rem;
+		font-size: 2.1rem;
+		line-height: 1rem;
+		vertical-align: top;
+	}
+.do {
+	color: #00af89;
+}
+.do:before {
+		content: '✓';
+	}
+.dont {
+	color: #d33;
+}
+.dont:before {
+		content: '×';
+	}
 /* ... Color ... */
 .color-palette {
 	margin-top: 2.4rem;
@@ -980,10 +1038,19 @@ sup {
 	text-transform: uppercase;
 }
 /* ::: Page-specific Styles ::: */
+/* ... Homepage ... */
 .page--home .page__title {
 	border: 0;
 	padding: 0;
 }
+/* ... “Typography” ... */
+.page--visual-style-typography .figures-do-dont .figure__contents {
+	padding: 4.2rem 3.6rem;
+}
+.figures-do-dont--contrast .figure--dont {
+	color: #a2a9b1;
+}
+/* ... “Icons” ... */
 .page--visual-style-icons img { /* FIXME: generalize image styles */
 	background-color: #eaecf0; /* FIXME: var; */
 	padding: 2.4rem;
@@ -1075,12 +1142,12 @@ sup {
 		width: 100%;
 	}
 
-	figure {
+	.figure--full {
 		margin-left: -1.6rem;
 		margin-right: -1.6rem;
 	}
 
-	.figure__caption {
+	.figure--full .figure__caption {
 		margin-left: 1.6rem;
 		margin-right: 1.6rem;
 	}
@@ -1115,12 +1182,12 @@ sup {
 		margin-right: 0;
 	}
 
-	figure {
+	.figure--full {
 		margin-left: -3.2rem;
 		margin-right: -3.2rem;
 	}
 
-	.figure__caption {
+	.figure--full .figure__caption {
 		margin-left: 3.2rem;
 		margin-right: 3.2rem;
 	}
@@ -1157,6 +1224,10 @@ sup {
 		-webkit-transition: opacity 250ms;
 		-moz-transition: opacity 250ms;
 		transition: opacity 250ms;
+	}
+
+	.figures-do-dont .figure {
+		max-width: 61.8%;
 	}
 }
 /* ... Tablet ... */
@@ -1203,10 +1274,15 @@ sup {
 		right: auto;
 	}
 
-	figure,
-	.figure__caption {
+	.figure--full,
+	.figure--full .figure__caption {
 		margin-left: 0;
 		margin-right: 0;
+	}
+
+	.figures-do-dont .figure {
+		float: left;
+		width: 50%;
 	}
 
 	img {
