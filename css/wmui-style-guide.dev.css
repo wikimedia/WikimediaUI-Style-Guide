@@ -14,12 +14,13 @@
 	--border-color-heading: var( --wmui-color-base80 );
 	--border-style-base: solid;
 	--border-width-heading: 3px;
-	--font-weight-base: 400;
-	--font-weight-bold: 700;
 	/* HACK: Add system font stack var as long as WikimediaUI Base isn't updated */
 	--font-family-sans-serif: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Oxygen-Sans', Ubuntu, Cantarell, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif; /* stylelint-disable-line value-keyword-case */
 	/* HACK; Add Georgia to serif fallback as long as WikimediaUI Base isn't updated */
 	--font-family-serif--fallback: Georgia, serif; /* stylelint-disable-line value-keyword-case */
+	--font-weight-base: 400;
+	--font-weight-bold: 700;
+	--font-weight-ultralight: 100;
 }
 
 * {
@@ -223,6 +224,8 @@ sup {
 .page:after,
 .content-box:before,
 .content-box:after,
+.color-palette:before,
+.color-palette:after,
 .figures-do-dont:before,
 .figures-do-dont:after {
 	content: ' ';
@@ -232,6 +235,7 @@ sup {
 .clearfix:after,
 .page:after,
 .content-box:after,
+.color-palette:after,
 .figures-do-dont:after {
 	clear: both;
 }
@@ -542,20 +546,27 @@ sup {
 
 /* ... Color ... */
 .color-palette {
-	margin-top: 2.4rem;
-}
-
-.color-palette ol {
-	margin: 0;
+	margin: 2.4rem 0 0;
 	padding: 0;
 }
+
+.color-palette + .color-palette {
+	margin-top: 0;
+}
+
 .color {
 	color: var( --color-base--emphasized );
 	list-style: none none;
-	display: inline-block;
+	display: block;
+	float: left;
+	position: relative;
+	width: 61.8%;
+	height: 16rem;
 	margin-bottom: 3.2rem;
-	border: var( --border-base );
+	padding: 1.2rem;
+	border: var( --border-width-base ) var( --border-style-base ) var( --border-color-inset--focus );
 	border-radius: var( --border-radius-base );
+	font-size: 1.4rem;
 }
 
 	.color--dark,
@@ -567,28 +578,68 @@ sup {
 		color: var( --color-base--emphasized );
 	}
 
-	.color__name {
-		font-weight: var( --font-weight-bold );
+	.color-palette .color:first-child {
+		margin-top: 0.4rem;
 	}
 
-	.color__wcag-level {
+	.color-palette--overview .color {
+		width: 6.4rem;
+		height: 6.2rem;
+		margin-top: 0.8rem;
+		margin-right: 1.2rem;
+		margin-bottom: 2.4rem;
+		border-radius: 3.2rem;
+		cursor: default;
+	}
+
+	.color-palette--overview .color:first-child {
+		margin-top: 0.8rem;
+	}
+
+	.color-palette--overview .color--emphasized {
+		width: 7.2rem;
+		height: 7rem;
+		margin-top: 0;
+		border-radius: 7.2rem;
+		padding-top: 2rem;
+	}
+
+	.color-palette--base .color {
+		margin-right: 1.35rem;
+	}
+
+	.color-section .color .color-code--hsb {
+		transition: opacity var( --transition-medium );
+	}
+
+		.color-section .color:hover .color-code--hsb {
+			opacity: 1;
+		}
+
+	.color__name {
 		display: block;
 		position: absolute;
 		bottom: 1.2rem;
 		left: 1.2rem;
+		font-size: 3.2rem;
+		font-weight: var( --font-weight-ultralight );
 	}
 
-	.color__swatch {
-		position: relative;
-		height: 16rem;
-		padding: 1.2rem;
-		font-size: 1.4rem;
-	}
+		.color-palette--overview .color__name {
+			position: relative;
+			bottom: auto;
+			left: auto;
+			padding-top: 1.2rem;
+			font-size: 2.4rem;
+			line-height: 1;
+		}
 
-	.color__codes {
-		color: var( --color-base );
-		padding: 1.2rem;
-	}
+		.color__type,
+		.color-code.color-code--rgb,
+		.color-palette--overview .color__name,
+		.color-palette--overview .color-code {
+			display: none;
+		}
 
 	.color-code {
 		background-color: inherit;
@@ -596,6 +647,10 @@ sup {
 		padding: 0;
 		font-family: var( --font-family-sans-serif );
 	}
+
+		.color-code--hsb {
+			opacity: 0;
+		}
 
 /* ::: Footer ::: */
 .footer {
@@ -754,7 +809,20 @@ sup {
 	}
 
 	.color {
-		width: 100%;
+		width: 61.8%;
+	}
+
+	.color-palette--base .color:nth-child( 3n+4 ) {
+		clear: both;
+	}
+
+	.color-palette--base .color {
+		margin-right: 1.6rem;
+	}
+
+	.color-palette--overview.color-palette--base .color--emphasized {
+		margin-right: 1.1rem;
+		margin-left: -0.2rem;
 	}
 }
 
@@ -774,15 +842,6 @@ sup {
 			padding-left: 3.2rem;
 			padding-right: 3.2rem;
 		}
-
-	.color {
-		width: 18rem;
-		margin-right: 2.4rem;
-	}
-
-	.color:nth-child( 2n ) {
-		margin-right: 0;
-	}
 
 	.figure--full {
 		margin-left: -3.2rem;
@@ -808,6 +867,11 @@ sup {
 	.footer__list li:first-child:before {
 		content: '';
 		padding: 0;
+	}
+
+	.color {
+		width: 16rem;
+		margin-right: 2.4rem;
 	}
 }
 
@@ -888,6 +952,10 @@ sup {
 	img {
 		border-radius: 2px;
 	}
+
+	.color-palette--base .color:nth-child( 3n+4 ) {
+		clear: unset;
+	}
 }
 
 /* ... Tablet+ / Netbook ... */
@@ -912,15 +980,35 @@ sup {
 		padding-left: 27.2rem; /* = 24 + (2 * 1.6 padding) */
 	}
 
+	.color-palette--overview:first-child {
+		margin-top: 2.4rem;
+	}
+
 	.color {
-		width: 20rem;
 		margin-right: 2.4rem;
 	}
-	.color:nth-child( 2n ) {
-		margin-right: 2.4rem;
+
+		.color-palette--base .color {
+			margin-right: 1.35rem;
+		}
+
+		.color-palette--overview.color-palette--base .color--emphasized {
+			margin-right: 1.35rem;
+			margin-left: 0;
+		}
+
+	.color-palette--overview.color-palette--red:before,
+	.color-palette--overview.color-palette--red:after,
+	.color-palette--overview.color-palette--green:before,
+	.color-palette--overview.color-palette--green:after {
+		content: '';
+		display: none;
 	}
-	.color:nth-child( 3n ) {
-		margin-right: 0;
+
+	.color-palette--overview.color-palette--red:after,
+	.color-palette--overview.color-palette--green:after,
+	.color-section .color:nth-child( 3n+4 ) {
+		clear: both;
 	}
 }
 
