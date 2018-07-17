@@ -222,14 +222,17 @@ sup {
 .page:before,
 .page:after,
 .content-box:before,
-.content-box:after {
+.content-box:after,
+.figures-do-dont:before,
+.figures-do-dont:after {
 	content: ' ';
 	display: table;
 }
 
 .clearfix:after,
 .page:after,
-.content-box:after {
+.content-box:after,
+.figures-do-dont:after {
 	clear: both;
 }
 
@@ -470,6 +473,73 @@ sup {
 	font-style: italic;
 }
 
+/* ... “Do” & “Don't” figures ... */
+.figures-do-dont {
+	margin-top: 1.6rem;
+}
+
+.figures-do-dont .figure {
+	background-color: var( --wmui-color-base80 );
+	border-top-left-radius: var( --border-radius-base );
+	border-top-right-radius: var( --border-radius-base );
+}
+
+.figures-do-dont .figure--dont {
+	border-left: var( --border-width-base ) solid var( --color-base--inverted );
+}
+
+.figures-do-dont .figure__caption {
+	background-color: var( --color-base--inverted );
+	display: block;
+	border-top-width: 0.8rem;
+	border-top-style: solid;
+	padding-right: 0.8em;
+}
+
+.figure--do .figure__caption,
+.do {
+	border-top-color: var( --color-secondary );
+}
+
+.figure--dont .figure__caption,
+.dont {
+	border-top-color: var( --color-destructive );
+}
+
+.do,
+.dont {
+	font-style: normal;
+	font-weight: var( --font-weight-bold );
+}
+
+	.do:before,
+	.dont:before {
+		display: inline-block;
+		margin-right: 0.4rem;
+		padding-top: 0.4rem;
+		font-size: 2.1rem;
+		line-height: 1rem;
+		vertical-align: top;
+	}
+
+.do {
+	color: var( --color-secondary );
+}
+
+	.do:before {
+		content: '✓';
+	}
+
+.dont {
+	color: var( --color-destructive );
+}
+
+	.dont:before {
+		content: '×';
+	}
+
+
+
 /* ... Color ... */
 .color-palette {
 	margin-top: 2.4rem;
@@ -572,11 +642,22 @@ sup {
 
 
 /* ::: Page-specific Styles ::: */
+/* ... Homepage ... */
 .page--home .page__title {
 	border: 0;
 	padding: 0;
 }
 
+/* ... “Typography” ... */
+.page--visual-style-typography .figures-do-dont .figure__contents {
+	padding: 4.2rem 3.6rem;
+}
+
+.figures-do-dont--contrast .figure--dont {
+	color: var( --wmui-color-base50 );
+}
+
+/* ... “Icons” ... */
 .page--visual-style-icons img { /* FIXME: generalize image styles */
 	background-color: var( --wmui-color-base80 ); /* FIXME: var; */
 	padding: 2.4rem;
@@ -662,12 +743,12 @@ sup {
 		width: 100%;
 	}
 
-	figure {
+	.figure--full {
 		margin-left: -1.6rem;
 		margin-right: -1.6rem;
 	}
 
-	.figure__caption {
+	.figure--full .figure__caption {
 		margin-left: 1.6rem;
 		margin-right: 1.6rem;
 	}
@@ -703,12 +784,12 @@ sup {
 		margin-right: 0;
 	}
 
-	figure {
+	.figure--full {
 		margin-left: -3.2rem;
 		margin-right: -3.2rem;
 	}
 
-	.figure__caption {
+	.figure--full .figure__caption {
 		margin-left: 3.2rem;
 		margin-right: 3.2rem;
 	}
@@ -744,6 +825,10 @@ sup {
 		display: inline;
 		opacity: 0;
 		transition: opacity var( --transition-medium );
+	}
+
+	.figures-do-dont .figure {
+		max-width: 61.8%;
 	}
 }
 
@@ -789,10 +874,15 @@ sup {
 		right: auto;
 	}
 
-	figure,
-	.figure__caption {
+	.figure--full,
+	.figure--full .figure__caption {
 		margin-left: 0;
 		margin-right: 0;
+	}
+
+	.figures-do-dont .figure {
+		float: left;
+		width: 50%;
 	}
 
 	img {

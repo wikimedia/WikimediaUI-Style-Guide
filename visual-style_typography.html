@@ -99,10 +99,16 @@
 
 					<h3>Contrast</h3>
 					<p>When using text, make sure that it provides enough contrast to be read comfortably. Check the contrast between the colors used for the text and its background. Provide at least level AA sufficient contrast (4.5:1). The <a href="visual-style_colors.html">color palette</a> provides the contrast levels for pure white and black surfaces, but you need to ensure the contrast on other combinations.</p>
-					<figure>
-						<img src="img/visual-style/typography-contrast-example.png" alt="Low contrast text example">
-						<figcaption class="figure__caption">Low contrast, especially at smaller sizes, makes text harder to read.</figcaption>
-					</figure>
+					<div class="figures-do-dont figures-do-dont--contrast">
+						<figure class="figure figure--do">
+							<div class="figure__contents">Bento (弁当 bentō) is a single-portion take-out or home-packed meal common in Japanese cuisine.</div>
+							<figcaption class="figure__caption"><span class="do">Do: </span>Contrast against the background</figcaption>
+						</figure>
+						<figure class="figure figure--dont" aria-disabled="true">
+							<div class="figure__contents">Bento (弁当 bentō) is a single-portion take-out or home-packed meal common in Japanese cuisine.</div>
+							<figcaption class="figure__caption"><span class="dont">Don't: </span>Low contrast below 4.5:1, especially at smaller sizes, makes text harder to read.</figcaption>
+						</figure>
+					</div>
 
 					<h3>Tracking and leading</h3>
 					<p><strong>Text spacing.</strong> How text is placed in space can affect its readability. Follow these considerations for text paragraphs:</p>
@@ -112,7 +118,7 @@
 					</ul>
 					<h3>Dynamic text</h3>
 					<p>Content will be available in multiple languages, and text length will vary for pieces of content across languages. Avoid designing interfaces that depend on certain expectations about text length.</p>
-					<figure>
+					<figure class="figure figure--full">
 						<img src="img/visual-style/typography-dynamic-text.png" alt="Text shown at different font sizes depending on their length">
 						<figcaption class="figure__caption">Text shown at different font sizes depending on their length.</figcaption>
 					</figure>
