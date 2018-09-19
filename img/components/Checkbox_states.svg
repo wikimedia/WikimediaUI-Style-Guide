@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="630px" height="319px" viewBox="0 0 630 319" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Checkbox_states</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="24" rx="2"></rect>
+        <rect id="path-2" x="0" y="4" width="24" height="24" rx="2"></rect>
+        <rect id="path-3" x="0" y="4" width="24" height="24" rx="2"></rect>
+        <path d="M17.5954523,12.3787874 C17.5954523,11.7256091 17.0590701,11.1960268 16.3978922,11.1960268 C15.7383142,11.1960268 15.203532,11.7232092 15.2015321,12.3747875 L15.2015321,11.548815 C15.2015321,10.6920436 14.483156,9.99766674 13.5963856,9.99766674 C12.7096151,9.99766674 12.0036387,10.6920436 12.0036387,11.548815 L12.0036387,10.350455 C12.0036387,9.49368354 11.2756629,8.79930669 10.3928923,8.79930669 C9.51012177,8.79930669 8.80654522,9.49408353 8.80654522,10.350455 L8.80654522,1.42515249 C8.80654522,0.637978734 8.1681665,-2.3109992e-14 7.39619224,-2.3109992e-14 C6.62461796,-2.3109992e-14 5.99863882,0.638378721 5.99863882,1.42515249 L5.99863882,16.4630512 L2.39595891,11.8040065 C2.04997044,11.2180261 1.26999644,11.0252325 0.653616989,11.3728209 C0.0372375346,11.7208093 -0.181955159,12.4779841 0.164033308,13.0639645 C0.164033308,13.0639645 2.9811394,17.4326189 4.13110107,19.1573614 C5.28106274,20.8821039 7.16859982,23.009633 7.16859982,24 L15.1579335,24 C15.1579335,22.3280557 17.6014521,19.7165428 17.6014521,17.2018266 L17.6014521,13.9627346 L17.5954523,12.3787874 Z" id="path-4"></path>
+        <filter x="-36.9%" y="-18.8%" width="173.9%" height="154.2%" filterUnits="objectBoundingBox" id="filter-5">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.582908741 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.179347826 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M17.5954523,12.3787874 C17.5954523,11.7256091 17.0590701,11.1960268 16.3978922,11.1960268 C15.7383142,11.1960268 15.203532,11.7232092 15.2015321,12.3747875 L15.2015321,11.548815 C15.2015321,10.6920436 14.483156,9.99766674 13.5963856,9.99766674 C12.7096151,9.99766674 12.0036387,10.6920436 12.0036387,11.548815 L12.0036387,10.350455 C12.0036387,9.49368354 11.2756629,8.79930669 10.3928923,8.79930669 C9.51012177,8.79930669 8.80654522,9.49408353 8.80654522,10.350455 L8.80654522,1.42515249 C8.80654522,0.637978734 8.1681665,-2.3109992e-14 7.39619224,-2.3109992e-14 C6.62461796,-2.3109992e-14 5.99863882,0.638378721 5.99863882,1.42515249 L5.99863882,16.4630512 L2.39595891,11.8040065 C2.04997044,11.2180261 1.26999644,11.0252325 0.653616989,11.3728209 C0.0372375346,11.7208093 -0.181955159,12.4779841 0.164033308,13.0639645 C0.164033308,13.0639645 2.9811394,17.4326189 4.13110107,19.1573614 C5.28106274,20.8821039 7.16859982,23.009633 7.16859982,24 L15.1579335,24 C15.1579335,22.3280557 17.6014521,19.7165428 17.6014521,17.2018266 L17.6014521,13.9627346 L17.5954523,12.3787874 Z" id="path-6"></path>
+        <filter x="-36.9%" y="-18.8%" width="173.9%" height="154.2%" filterUnits="objectBoundingBox" id="filter-7">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.582908741 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.179347826 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M6.13211402,11.2688979 L10.8422354,11.5297995 C11.562075,11.4497464 11.7406967,10.9613193 11.2389527,10.443935 L0.591868541,0.301190754 C0.0905803995,-0.216377736 0.0269163636,-0.0499300062 0.0256689588,0.670145757 L2.29782166e-06,14.9845005 C-0.00119676849,15.7053522 0.467038737,15.932432 1.04000173,15.490159 L3.78168123,12.217739 C3.87724299,12.1438668 3.98988305,12.0715788 4.10864258,12 L7.07900942,19.5168621 C7.24412875,19.9268592 7.74262137,20.1120195 8.19190947,19.929965 C8.64097423,19.7493265 8.87107252,19.2695313 8.70554568,18.8604942 L5.73444213,11.3418087 L6.13211402,11.2688979 Z" id="path-8"></path>
+        <filter x="-56.2%" y="-22.5%" width="220.2%" height="165.0%" filterUnits="objectBoundingBox" id="filter-9">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.582908741 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.179347826 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M17.5954523,12.3787874 C17.5954523,11.7256091 17.0590701,11.1960268 16.3978922,11.1960268 C15.7383142,11.1960268 15.203532,11.7232092 15.2015321,12.3747875 L15.2015321,11.548815 C15.2015321,10.6920436 14.483156,9.99766674 13.5963856,9.99766674 C12.7096151,9.99766674 12.0036387,10.6920436 12.0036387,11.548815 L12.0036387,10.350455 C12.0036387,9.49368354 11.2756629,8.79930669 10.3928923,8.79930669 C9.51012177,8.79930669 8.80654522,9.49408353 8.80654522,10.350455 L8.80654522,1.42515249 C8.80654522,0.637978734 8.1681665,-2.3109992e-14 7.39619224,-2.3109992e-14 C6.62461796,-2.3109992e-14 5.99863882,0.638378721 5.99863882,1.42515249 L5.99863882,16.4630512 L2.39595891,11.8040065 C2.04997044,11.2180261 1.26999644,11.0252325 0.653616989,11.3728209 C0.0372375346,11.7208093 -0.181955159,12.4779841 0.164033308,13.0639645 C0.164033308,13.0639645 2.9811394,17.4326189 4.13110107,19.1573614 C5.28106274,20.8821039 7.16859982,23.009633 7.16859982,24 L15.1579335,24 C15.1579335,22.3280557 17.6014521,19.7165428 17.6014521,17.2018266 L17.6014521,13.9627346 L17.5954523,12.3787874 Z" id="path-10"></path>
+        <filter x="-36.9%" y="-18.8%" width="173.9%" height="154.2%" filterUnits="objectBoundingBox" id="filter-11">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.582908741 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.179347826 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M17.5954523,12.3787874 C17.5954523,11.7256091 17.0590701,11.1960268 16.3978922,11.1960268 C15.7383142,11.1960268 15.203532,11.7232092 15.2015321,12.3747875 L15.2015321,11.548815 C15.2015321,10.6920436 14.483156,9.99766674 13.5963856,9.99766674 C12.7096151,9.99766674 12.0036387,10.6920436 12.0036387,11.548815 L12.0036387,10.350455 C12.0036387,9.49368354 11.2756629,8.79930669 10.3928923,8.79930669 C9.51012177,8.79930669 8.80654522,9.49408353 8.80654522,10.350455 L8.80654522,1.42515249 C8.80654522,0.637978734 8.1681665,-2.3109992e-14 7.39619224,-2.3109992e-14 C6.62461796,-2.3109992e-14 5.99863882,0.638378721 5.99863882,1.42515249 L5.99863882,16.4630512 L2.39595891,11.8040065 C2.04997044,11.2180261 1.26999644,11.0252325 0.653616989,11.3728209 C0.0372375346,11.7208093 -0.181955159,12.4779841 0.164033308,13.0639645 C0.164033308,13.0639645 2.9811394,17.4326189 4.13110107,19.1573614 C5.28106274,20.8821039 7.16859982,23.009633 7.16859982,24 L15.1579335,24 C15.1579335,22.3280557 17.6014521,19.7165428 17.6014521,17.2018266 L17.6014521,13.9627346 L17.5954523,12.3787874 Z" id="path-12"></path>
+        <filter x="-36.9%" y="-18.8%" width="173.9%" height="154.2%" filterUnits="objectBoundingBox" id="filter-13">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.582908741 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.179347826 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M6.13211402,11.2688979 L10.8422354,11.5297995 C11.562075,11.4497464 11.7406967,10.9613193 11.2389527,10.443935 L0.591868541,0.301190754 C0.0905803995,-0.216377736 0.0269163636,-0.0499300062 0.0256689588,0.670145757 L2.29782166e-06,14.9845005 C-0.00119676849,15.7053522 0.467038737,15.932432 1.04000173,15.490159 L3.78168123,12.217739 C3.87724299,12.1438668 3.98988305,12.0715788 4.10864258,12 L7.07900942,19.5168621 C7.24412875,19.9268592 7.74262137,20.1120195 8.19190947,19.929965 C8.64097423,19.7493265 8.87107252,19.2695313 8.70554568,18.8604942 L5.73444213,11.3418087 L6.13211402,11.2688979 Z" id="path-14"></path>
+        <filter x="-56.2%" y="-22.5%" width="220.2%" height="165.0%" filterUnits="objectBoundingBox" id="filter-15">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.582908741 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.179347826 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Artboard-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="WikimediaUI-components_overview" transform="translate(-5038.000000, -256.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="14720" height="3264"></rect>
+            <g id="CHECKBOX-DESKTOP" transform="translate(5038.000000, 186.000000)">
+                <g id="Checkbox-X" transform="translate(2.000000, 69.000000)">
+                    <text id="Normal-Hover-Active" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="18.7" fill="#72777D">
+                        <tspan x="0" y="22.0999992">Normal</tspan>
+                        <tspan x="0" y="40.7999992"></tspan>
+                        <tspan x="0" y="59.4999992"></tspan>
+                        <tspan x="0" y="78.1999992">Hover</tspan>
+                        <tspan x="0" y="96.8999992"></tspan>
+                        <tspan x="0" y="115.599999"></tspan>
+                        <tspan x="0" y="134.299999">Active</tspan>
+                        <tspan x="0" y="152.999999"></tspan>
+                        <tspan x="0" y="171.699999"></tspan>
+                        <tspan x="0" y="190.399999">Focus</tspan>
+                        <tspan x="0" y="209.099999"></tspan>
+                        <tspan x="0" y="227.799999"></tspan>
+                        <tspan x="0" y="246.499999">Disabled</tspan>
+                    </text>
+                    <text id="Switched-on" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" line-spacing="18.7" fill="#72777D">
+                        <tspan x="477" y="304">Switched on</tspan>
+                    </text>
+                    <g id="-101-/-16-sp-(1-em)-+-2-*-4-sp-(0.25-em)" transform="translate(180.000000, 17.000000) rotate(270.000000) translate(-180.000000, -17.000000) translate(168.000000, 15.000000)" stroke-width="4">
+                        <g id="101-/-16-sp-(1-em)" transform="translate(4.000000, 0.000000)" stroke="#D0021B">
+                            <path d="M0,2 L16,2" id="16-sp-(1-em)"></path>
+                        </g>
+                        <g id="101-/-4-sp-(0.25-em)" transform="translate(20.000000, 0.000000)" stroke="#F5A623">
+                            <path d="M0,2 L4,2" id="4-sp-(0.25-em)"></path>
+                        </g>
+                        <g id="101-/-4-sp-(0.25-em)" stroke="#F5A623">
+                            <path d="M0,2 L4,2" id="4-sp-(0.25-em)"></path>
+                        </g>
+                    </g>
+                    <g id="Checkbox-/-:checked-/-:disabled" transform="translate(480.000000, 226.000000)">
+                        <text id="8:16:8:16-copy-21" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#7D8389">
+                            <tspan x="33" y="22">Neutral point</tspan>
+                        </text>
+                        <g id="Mediawiki.Neutral.Hover-copy-10-+-Imported-Layers-Copy-2" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 4.000000)">
+                            <rect id="Mediawiki.Neutral.Hover-copy-10" stroke="#C8CCD1" fill="#C8CCD1" x="-0.5" y="-0.5" width="25" height="25" rx="2"></rect>
+                            <g id="Icon-/-Checkbox-checkmark" transform="translate(5.000000, 7.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                <polygon id="Shape" points="4.76109215 8.4334471 1.20307167 5.11262799 0 6.23549488 4.76109215 10.6871445 15 1.13083049 13.7969283 0"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Checkbox-/-:checked-/-:hover" transform="translate(480.000000, 57.000000)">
+                        <text id="8:16:8:16-copy-16" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#222222">
+                            <tspan x="32" y="22">Neutral point</tspan>
+                        </text>
+                        <g id="Mediawiki.Neutral.Hover-copy-12-+-Imported-Layers-Copy-3" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 4.000000)">
+                            <rect id="Mediawiki.Neutral.Hover-copy-12" stroke="#447FF5" fill="#447FF5" x="-0.5" y="-0.5" width="25" height="25" rx="2"></rect>
+                            <g id="Icon-/-Checkbox-checkmark" transform="translate(5.000000, 7.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                <polygon id="Shape" points="4.76109215 8.4334471 1.20307167 5.11262799 0 6.23549488 4.76109215 10.6871445 15 1.13083049 13.7969283 0"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Checkbox-/-:checked-/-:active" transform="translate(480.000000, 113.000000)">
+                        <text id="8:16:8:16-copy-16" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#222222">
+                            <tspan x="33" y="22">Neutral point</tspan>
+                        </text>
+                        <g id="Mediawiki.Neutral.Hover-copy-14-+-Imported-Layers-Copy-4" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 4.000000)">
+                            <rect id="Mediawiki.Neutral.Hover-copy-14" stroke="#1F4999" fill="#1F4999" x="-0.5" y="-0.5" width="25" height="25" rx="2"></rect>
+                            <g id="Icon-/-Checkbox-checkmark" transform="translate(5.000000, 7.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                <polygon id="Shape" points="4.76109215 8.4334471 1.20307167 5.11262799 0 6.23549488 4.76109215 10.6871445 15 1.13083049 13.7969283 0"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Checkbox-/-:checked-/-:focus" transform="translate(480.000000, 169.000000)">
+                        <text id="8:16:8:16-copy-20" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#222222">
+                            <tspan x="33" y="22">Neutral point</tspan>
+                        </text>
+                        <g id="Mediawiki.Neutral.Hover-copy-2-+-Imported-Layers-Copy-5" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 4.000000)">
+                            <g id="Mediawiki.Neutral.Hover-copy-2">
+                                <rect stroke="#FFFFFF" stroke-width="2" stroke-linejoin="square" fill="#3366CC" fill-rule="evenodd" x="1" y="1" width="22" height="22" rx="2"></rect>
+                                <rect stroke="#3366CC" stroke-width="1" x="-0.5" y="-0.5" width="25" height="25" rx="2"></rect>
+                                <rect stroke="#3366CC" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="23" height="23" rx="2"></rect>
+                            </g>
+                            <g id="Icon-/-Checkbox-checkmark" transform="translate(5.000000, 7.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                <polygon id="Shape" points="4.76109215 8.4334471 1.20307167 5.11262799 0 6.23549488 4.76109215 10.6871445 15 1.13083049 13.7969283 0"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Checkbox-/-:checked-/-!default" transform="translate(480.000000, 0.000000)">
+                        <text id="Neutral-point" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#222222">
+                            <tspan x="33" y="23">Neutral point</tspan>
+                        </text>
+                        <g id="Mediawiki.Neutral.Hover-copy-8-+-Imported-Layers-Copy" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 5.000000)">
+                            <rect id="Mediawiki.Neutral.Hover-copy-8" stroke="#3366CC" fill="#3366CC" x="-0.5" y="-0.5" width="25" height="25" rx="2"></rect>
+                            <g id="Icon-/-Checkbox-checkmark" transform="translate(5.000000, 7.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                <polygon id="Shape" points="4.44368601 8.4334471 1.12286689 5.11262799 0 6.23549488 4.44368601 10.6871445 14 1.13083049 12.8771331 0"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Checkbox-/-:disabled" transform="translate(192.000000, 1.000000)">
+                        <text id="8:16:8:16-copy-17" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#7D8389">
+                            <tspan x="33" y="22">Neutral point</tspan>
+                        </text>
+                        <path d="M2.00494659,3.5 L21.9950534,3.5 C23.3789263,3.5 24.5,4.62131285 24.5,6.00494659 L24.5,25.9950534 C24.5,27.3789263 23.3786872,28.5 21.9950534,28.5 L2.00494659,28.5 C0.621073742,28.5 -0.5,27.3786872 -0.5,25.9950534 L-0.5,6.00494659 C-0.5,4.62107374 0.621312847,3.5 2.00494659,3.5 Z" id="Mediawiki.Neutral.Hover-copy-11" stroke="#C8CCD1" stroke-width="1" fill="#C8CCD1" fill-rule="evenodd"></path>
+                    </g>
+                    <g id="Checkbox-/-:active" transform="translate(192.000000, 169.000000)">
+                        <text id="8:16:8:16-copy-16" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#222222">
+                            <tspan x="33" y="22">Neutral point</tspan>
+                        </text>
+                        <g id="Mediawiki.Neutral.Hover-copy-15">
+                            <use fill="#2A4B8D" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <rect stroke="#2A4B8D" stroke-width="1" x="-0.5" y="3.5" width="25" height="25" rx="2"></rect>
+                            <rect stroke="#2A4B8D" stroke-width="1" stroke-linejoin="square" x="0.5" y="4.5" width="23" height="23" rx="2"></rect>
+                        </g>
+                    </g>
+                    <g id="Checkbox-/-:hover" transform="translate(192.000000, 113.000000)">
+                        <text id="8:16:8:16-copy-16" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#222222">
+                            <tspan x="32" y="22">Neutral point</tspan>
+                        </text>
+                        <rect id="Mediawiki.Neutral.Hover-copy-13" stroke="#2962CC" stroke-width="1" x="-0.5" y="3.5" width="25" height="25" rx="2"></rect>
+                    </g>
+                    <g id="Checkbox-/-:focus" transform="translate(192.000000, 225.000000)">
+                        <text id="8:16:8:16-copy-18" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#222222">
+                            <tspan x="33" y="22">Neutral point</tspan>
+                        </text>
+                        <g id="Mediawiki.Neutral.Hover-copy-16" stroke="#3366CC" stroke-width="1">
+                            <rect stroke-linejoin="square" x="0.5" y="4.5" width="23" height="23" rx="2"></rect>
+                            <rect x="-0.5" y="3.5" width="25" height="25" rx="2"></rect>
+                        </g>
+                    </g>
+                    <g id="Checkbox-/-!default" transform="translate(192.000000, 57.000000)">
+                        <text id="8:16:8:16-copy-15" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#222222">
+                            <tspan x="33" y="22">Neutral point</tspan>
+                        </text>
+                        <g id="Checkbox-:normal" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 4.000000)" fill="#FFFFFF" stroke="#72777D">
+                            <rect id="Mediawiki.Neutral.Hover-copy-9" x="-0.5" y="-0.5" width="25" height="25" rx="2"></rect>
+                        </g>
+                    </g>
+                    <g id="Cursor-/-Pointer" transform="translate(497.000000, 133.000000)">
+                        <g id="Cursor-Pointer">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <path stroke="#000000" stroke-width="1" d="M5.49863882,14.9990679 L5.49863882,1.42515249 C5.49863882,0.364390213 6.34627404,-0.5 7.39619224,-0.5 C8.4475222,-0.5 9.30654522,0.365060667 9.30654522,1.42515249 L9.30654522,8.59739976 C9.62275187,8.40813447 9.99458465,8.29930669 10.3928923,8.29930669 C11.3696842,8.29930669 12.2017759,8.95226109 12.4371411,9.83891321 C12.7687636,9.62309774 13.1672561,9.49766674 13.5963856,9.49766674 C14.5229268,9.49766674 15.3133259,10.0818718 15.5931989,10.8969793 C15.8327664,10.7687518 16.10688,10.6960268 16.3978922,10.6960268 C17.3338791,10.6960268 18.0954523,11.4481132 18.0954523,12.3787874 L18.0954487,12.3768934 L18.1014521,13.9627346 L18.1014521,17.2018266 C18.1014521,17.45899 18.0788416,17.7210344 18.0348962,17.9890448 C17.8804952,18.9306924 17.5230199,19.8003644 16.8234169,21.1474064 C15.8127426,23.093397 15.6579335,23.4442918 15.6579335,24 L15.6579335,24.5 L6.66859982,24.5 L6.66859982,24 C6.66859982,23.5786103 6.19563371,22.8309976 4.81529743,20.9702918 C4.77572637,20.916944 4.77572637,20.916944 4.73613542,20.8635322 C4.25954481,20.2204113 3.97897576,19.8305154 3.71509077,19.4347338 C3.32594411,18.8510815 2.72477886,17.9332706 1.96848974,16.7703263 C1.95455156,16.7488931 1.95455156,16.7488931 1.94061413,16.727459 C1.45803808,15.9852984 0.942759518,15.1902097 0.428630429,14.3951327 C0.248691135,14.1168648 0.137397398,13.944607 -0.0679723281,13.6265707 C-0.221942375,13.3880215 -0.221942375,13.3880215 -0.266517693,13.3181807 C-0.757186346,12.4871638 -0.448495824,11.4208575 0.408016869,10.9372976 C1.25796465,10.4579954 2.33990048,10.7256484 2.79149833,11.4981494 L5.49863882,14.9990679 Z" fill="#FFFFFF" fill-rule="evenodd"></path>
+                        </g>
+                    </g>
+                    <g id="Cursor-/-Pointer" transform="translate(497.000000, 77.000000)">
+                        <g id="Cursor-Pointer">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                            <path stroke="#000000" stroke-width="1" d="M5.49863882,14.9990679 L5.49863882,1.42515249 C5.49863882,0.364390213 6.34627404,-0.5 7.39619224,-0.5 C8.4475222,-0.5 9.30654522,0.365060667 9.30654522,1.42515249 L9.30654522,8.59739976 C9.62275187,8.40813447 9.99458465,8.29930669 10.3928923,8.29930669 C11.3696842,8.29930669 12.2017759,8.95226109 12.4371411,9.83891321 C12.7687636,9.62309774 13.1672561,9.49766674 13.5963856,9.49766674 C14.5229268,9.49766674 15.3133259,10.0818718 15.5931989,10.8969793 C15.8327664,10.7687518 16.10688,10.6960268 16.3978922,10.6960268 C17.3338791,10.6960268 18.0954523,11.4481132 18.0954523,12.3787874 L18.0954487,12.3768934 L18.1014521,13.9627346 L18.1014521,17.2018266 C18.1014521,17.45899 18.0788416,17.7210344 18.0348962,17.9890448 C17.8804952,18.9306924 17.5230199,19.8003644 16.8234169,21.1474064 C15.8127426,23.093397 15.6579335,23.4442918 15.6579335,24 L15.6579335,24.5 L6.66859982,24.5 L6.66859982,24 C6.66859982,23.5786103 6.19563371,22.8309976 4.81529743,20.9702918 C4.77572637,20.916944 4.77572637,20.916944 4.73613542,20.8635322 C4.25954481,20.2204113 3.97897576,19.8305154 3.71509077,19.4347338 C3.32594411,18.8510815 2.72477886,17.9332706 1.96848974,16.7703263 C1.95455156,16.7488931 1.95455156,16.7488931 1.94061413,16.727459 C1.45803808,15.9852984 0.942759518,15.1902097 0.428630429,14.3951327 C0.248691135,14.1168648 0.137397398,13.944607 -0.0679723281,13.6265707 C-0.221942375,13.3880215 -0.221942375,13.3880215 -0.266517693,13.3181807 C-0.757186346,12.4871638 -0.448495824,11.4208575 0.408016869,10.9372976 C1.25796465,10.4579954 2.33990048,10.7256484 2.79149833,11.4981494 L5.49863882,14.9990679 Z" fill="#FFFFFF" fill-rule="evenodd"></path>
+                        </g>
+                    </g>
+                    <g id="Cursor-/-!default" transform="translate(504.000000, 245.000000)">
+                        <g id="cursor">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                            <path stroke="#FFFFFF" stroke-width="1" d="M6.44805157,11.7871647 L9.16903318,18.6729326 C9.44237709,19.3483989 9.07500287,20.1136726 8.37968284,20.3933668 C7.68317947,20.6755944 6.8877013,20.3802565 6.61399912,19.7006158 L3.90605662,12.8478493 L1.42326646,15.8112636 L1.34552169,15.8859589 C0.444640548,16.5813536 -0.501889691,16.1215055 -0.499996898,14.983604 L-0.474330291,0.669279596 C-0.473259969,0.051426302 -0.447188468,-0.15148568 -0.202577288,-0.35941243 C0.196479729,-0.698622715 0.490703685,-0.521940513 0.936743625,-0.0608329699 L11.5978897,10.0958485 C12.390083,10.912736 12.0289467,11.9009082 10.8145819,12.0290342 L6.44805157,11.7871647 Z" fill="#000000" fill-rule="evenodd"></path>
+                        </g>
+                    </g>
+                    <g id="Cursor-/-Pointer" transform="translate(209.000000, 133.000000)">
+                        <g id="Cursor-Pointer">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                            <path stroke="#000000" stroke-width="1" d="M5.49863882,14.9990679 L5.49863882,1.42515249 C5.49863882,0.364390213 6.34627404,-0.5 7.39619224,-0.5 C8.4475222,-0.5 9.30654522,0.365060667 9.30654522,1.42515249 L9.30654522,8.59739976 C9.62275187,8.40813447 9.99458465,8.29930669 10.3928923,8.29930669 C11.3696842,8.29930669 12.2017759,8.95226109 12.4371411,9.83891321 C12.7687636,9.62309774 13.1672561,9.49766674 13.5963856,9.49766674 C14.5229268,9.49766674 15.3133259,10.0818718 15.5931989,10.8969793 C15.8327664,10.7687518 16.10688,10.6960268 16.3978922,10.6960268 C17.3338791,10.6960268 18.0954523,11.4481132 18.0954523,12.3787874 L18.0954487,12.3768934 L18.1014521,13.9627346 L18.1014521,17.2018266 C18.1014521,17.45899 18.0788416,17.7210344 18.0348962,17.9890448 C17.8804952,18.9306924 17.5230199,19.8003644 16.8234169,21.1474064 C15.8127426,23.093397 15.6579335,23.4442918 15.6579335,24 L15.6579335,24.5 L6.66859982,24.5 L6.66859982,24 C6.66859982,23.5786103 6.19563371,22.8309976 4.81529743,20.9702918 C4.77572637,20.916944 4.77572637,20.916944 4.73613542,20.8635322 C4.25954481,20.2204113 3.97897576,19.8305154 3.71509077,19.4347338 C3.32594411,18.8510815 2.72477886,17.9332706 1.96848974,16.7703263 C1.95455156,16.7488931 1.95455156,16.7488931 1.94061413,16.727459 C1.45803808,15.9852984 0.942759518,15.1902097 0.428630429,14.3951327 C0.248691135,14.1168648 0.137397398,13.944607 -0.0679723281,13.6265707 C-0.221942375,13.3880215 -0.221942375,13.3880215 -0.266517693,13.3181807 C-0.757186346,12.4871638 -0.448495824,11.4208575 0.408016869,10.9372976 C1.25796465,10.4579954 2.33990048,10.7256484 2.79149833,11.4981494 L5.49863882,14.9990679 Z" fill="#FFFFFF" fill-rule="evenodd"></path>
+                        </g>
+                    </g>
+                    <g id="Cursor-/-Pointer" transform="translate(209.000000, 189.000000)">
+                        <g id="Cursor-Pointer">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-13)" xlink:href="#path-12"></use>
+                            <path stroke="#000000" stroke-width="1" d="M5.49863882,14.9990679 L5.49863882,1.42515249 C5.49863882,0.364390213 6.34627404,-0.5 7.39619224,-0.5 C8.4475222,-0.5 9.30654522,0.365060667 9.30654522,1.42515249 L9.30654522,8.59739976 C9.62275187,8.40813447 9.99458465,8.29930669 10.3928923,8.29930669 C11.3696842,8.29930669 12.2017759,8.95226109 12.4371411,9.83891321 C12.7687636,9.62309774 13.1672561,9.49766674 13.5963856,9.49766674 C14.5229268,9.49766674 15.3133259,10.0818718 15.5931989,10.8969793 C15.8327664,10.7687518 16.10688,10.6960268 16.3978922,10.6960268 C17.3338791,10.6960268 18.0954523,11.4481132 18.0954523,12.3787874 L18.0954487,12.3768934 L18.1014521,13.9627346 L18.1014521,17.2018266 C18.1014521,17.45899 18.0788416,17.7210344 18.0348962,17.9890448 C17.8804952,18.9306924 17.5230199,19.8003644 16.8234169,21.1474064 C15.8127426,23.093397 15.6579335,23.4442918 15.6579335,24 L15.6579335,24.5 L6.66859982,24.5 L6.66859982,24 C6.66859982,23.5786103 6.19563371,22.8309976 4.81529743,20.9702918 C4.77572637,20.916944 4.77572637,20.916944 4.73613542,20.8635322 C4.25954481,20.2204113 3.97897576,19.8305154 3.71509077,19.4347338 C3.32594411,18.8510815 2.72477886,17.9332706 1.96848974,16.7703263 C1.95455156,16.7488931 1.95455156,16.7488931 1.94061413,16.727459 C1.45803808,15.9852984 0.942759518,15.1902097 0.428630429,14.3951327 C0.248691135,14.1168648 0.137397398,13.944607 -0.0679723281,13.6265707 C-0.221942375,13.3880215 -0.221942375,13.3880215 -0.266517693,13.3181807 C-0.757186346,12.4871638 -0.448495824,11.4208575 0.408016869,10.9372976 C1.25796465,10.4579954 2.33990048,10.7256484 2.79149833,11.4981494 L5.49863882,14.9990679 Z" fill="#FFFFFF" fill-rule="evenodd"></path>
+                        </g>
+                    </g>
+                    <g id="Cursor-/-!default" transform="translate(211.000000, 20.000000)">
+                        <g id="cursor">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-15)" xlink:href="#path-14"></use>
+                            <path stroke="#FFFFFF" stroke-width="1" d="M6.44805157,11.7871647 L9.16903318,18.6729326 C9.44237709,19.3483989 9.07500287,20.1136726 8.37968284,20.3933668 C7.68317947,20.6755944 6.8877013,20.3802565 6.61399912,19.7006158 L3.90605662,12.8478493 L1.42326646,15.8112636 L1.34552169,15.8859589 C0.444640548,16.5813536 -0.501889691,16.1215055 -0.499996898,14.983604 L-0.474330291,0.669279596 C-0.473259969,0.051426302 -0.447188468,-0.15148568 -0.202577288,-0.35941243 C0.196479729,-0.698622715 0.490703685,-0.521940513 0.936743625,-0.0608329699 L11.5978897,10.0958485 C12.390083,10.912736 12.0289467,11.9009082 10.8145819,12.0290342 L6.44805157,11.7871647 Z" fill="#000000" fill-rule="evenodd"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

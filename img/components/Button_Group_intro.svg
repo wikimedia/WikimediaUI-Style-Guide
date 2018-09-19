@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="345px" height="36px" viewBox="0 0 345 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Button_Group_intro</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="WikimediaUI-components_overview" transform="translate(-3550.000000, -254.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="14720" height="3264"></rect>
+            <g id="BUTTON-GROUP" transform="translate(3360.000000, 143.000000)">
+                <g id="Button-Group-X" transform="translate(0.000000, 112.000000)">
+                    <rect id="Mediawiki.Neutral.Normal-copy-12" stroke="#A2A9B1" fill="#F8F9FA" x="191.5" y="0.5" width="342" height="33" rx="2"></rect>
+                    <path d="M268.5,0.5 L268.5,33.5151482" id="Line" stroke="#A2A9B1" stroke-linecap="square"></path>
+                    <path d="M358.5,0.5 L358.5,33.5151482" id="Line-Copy" stroke="#A2A9B1" stroke-linecap="square"></path>
+                    <path d="M438.5,0.5 L438.5,32.5151482" id="Line-Copy-10" stroke="#767676" stroke-linecap="square"></path>
+                    <path d="M438.5,0.5 L438.5,32.5151482" id="Line-Copy-13" stroke="#A2A9B1" stroke-linecap="square"></path>
+                    <text id="All" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="220.392" y="24">All</tspan>
+                    </text>
+                    <text id="Pages-3-Copy" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="290.296" y="24">Pages</tspan>
+                    </text>
+                    <text id="Other" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="463.512" y="24">Other</tspan>
+                    </text>
+                    <text id="Talk-Copy" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="382.752" y="24">Talk</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

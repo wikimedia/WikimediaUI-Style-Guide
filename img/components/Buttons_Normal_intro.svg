@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="34px" viewBox="0 0 90 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Buttons_Normal_intro</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="WikimediaUI-components_overview" transform="translate(-1951.000000, -255.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="14720" height="3264"></rect>
+            <g id="QUIET-BUTTONS" transform="translate(1948.000000, 143.000000)">
+                <g id="Quiet-Buttons-X" transform="translate(0.000000, 113.000000)"></g>
+            </g>
+            <g id="BUTTONS-NORMAL-&amp;-PRIMARY" transform="translate(1759.000000, 143.000000)">
+                <g id="Primary-Buttons-X" transform="translate(1.000000, 113.000000)">
+                    <rect id="BG" stroke="#A2A9B1" fill="#F8F9FA" x="191.5" y="-0.5" width="89" height="33" rx="2"></rect>
+                    <text id="8:16:8:16" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#222222">
+                        <tspan x="208" y="23">Neutral</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

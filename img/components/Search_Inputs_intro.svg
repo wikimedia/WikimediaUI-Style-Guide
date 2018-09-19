@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="281px" height="42px" viewBox="0 0 281 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Search_Inputs_intro</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="WikimediaUI-components_overview" transform="translate(-7549.000000, -585.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="14720" height="3264"></rect>
+            <g id="TEXT-INPUT-FIELDS" transform="translate(7359.000000, 142.000000)">
+                <g id="Text-Input-X" transform="translate(1.000000, 114.000000)">
+                    <g id="Search-Input-Field-+-Icon" transform="translate(0.000000, 295.000000)">
+                        <path d="M194.994774,38.5 L463.005226,38.5 C464.383839,38.5 465.5,39.6202824 465.5,41.0017433 L465.5,68.9982567 C465.5,70.384359 464.385571,71.5 463.005226,71.5 L194.994774,71.5 C193.616161,71.5 192.5,70.3797176 192.5,68.9982567 L192.5,41.0017433 C192.5,39.615641 193.614429,38.5 194.994774,38.5 Z" id="Mediawiki.Neutral.Hover-35-Copy-2" stroke="#9AA0A7" fill="#FFFFFF"></path>
+                        <text id="Re-enter-password-2-Copy" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#72777D">
+                            <tspan x="225" y="61">Re-enter password</tspan>
+                        </text>
+                        <g id="Icon-/-Search-/-:disabled" transform="translate(200.000000, 45.000000)" fill="#72777D" fill-rule="nonzero">
+                            <path d="M7.5,13 C10.54,13 13,10.54 13,7.5 C13,4.46 10.54,2 7.5,2 C4.46,2 2,4.46 2,7.5 C2,10.54 4.46,13 7.5,13 Z M12.05,13.46 C10.79,14.43 9.21,15 7.5,15 C3.36,15 0,11.64 0,7.5 C0,3.36 3.36,0 7.5,0 C11.64,0 15,3.36 15,7.5 C15,9.21 14.43,10.79 13.46,12.05 L19.95,18.54 L18.54,19.95 L12.05,13.46 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

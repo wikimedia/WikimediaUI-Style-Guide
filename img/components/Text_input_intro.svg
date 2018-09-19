@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="274" height="34" viewBox="0 0 274 34">
+	<g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+		<rect width="273" height="33" x="-.5" y="-.5" fill="#FFF" stroke="#9AA0A7" rx="2"/>
+		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16">
+			<tspan x="15" y="22">User input</tspan>
+		</text>
+	</g>
+</svg>

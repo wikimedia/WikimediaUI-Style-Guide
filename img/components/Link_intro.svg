@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98" height="39" viewBox="0 0 98 39">
+	<title>
+		Link_intro
+	</title>
+	<desc>
+		Created with Sketch.
+	</desc>
+	<defs>
+		<filter id="filter-2" width="173.9%" height="154.2%" x="-36.9%" y="-18.8%" filterUnits="objectBoundingBox">
+			<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+			<feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+			<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+			<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.582908741 0"/>
+			<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter2"/>
+			<feOffset dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
+			<feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1.5"/>
+			<feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"/>
+			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.179347826 0"/>
+			<feMerge>
+				<feMergeNode in="shadowMatrixOuter1"/>
+				<feMergeNode in="shadowMatrixOuter2"/>
+			</feMerge>
+		</filter>
+		<path id="path-1" d="M17.595 12.379a1.19 1.19 0 00-1.197-1.183 1.19 1.19 0 00-1.196 1.179v-.826c0-.857-.719-1.551-1.606-1.551-.886 0-1.592.694-1.592 1.55V10.35c0-.856-.728-1.55-1.611-1.55s-1.586.694-1.586 1.55V1.425C8.807.638 8.168 0 7.397 0c-.772 0-1.398.638-1.398 1.425v15.038l-3.603-4.659c-.346-.586-1.126-.779-1.742-.431-.617.348-.836 1.105-.49 1.691 0 0 2.817 4.369 3.967 6.093C5.281 20.882 7.17 23.01 7.17 24h7.989c0-1.672 2.443-4.283 2.443-6.798v-3.24l-.006-1.583z"/>
+	</defs>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-4273 -683)">
+			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
+			<g id="LINK" transform="translate(4078 186)">
+				<g id="Link-X" transform="translate(2 85)">
+					<g id="Link-:hover" transform="translate(192 408)">
+						<g id="Link">
+							<text id="8:16:8:16-copy-3" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+								<tspan x="0" y="16">Neutral point</tspan>
+							</text>
+							<path id="Line" stroke="#36C" stroke-linecap="square" d="M1.5 18.5h57.46"/>
+							<path id="Line-Copy-62" stroke="#36C" stroke-linecap="square" d="M65.5 18.5h33"/>
+						</g>
+					</g>
+					<g id="Cursor-/-Pointer" transform="translate(261 421)">
+						<g id="Cursor-Pointer">
+							<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
+							<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 01.805-.201 1.69 1.69 0 011.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 01-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 01-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
