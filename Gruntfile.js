@@ -3,44 +3,54 @@
  */
 
 module.exports = function ( grunt ) {
+	/*
+	 * PostCSS processors
+	 */
+	// Without minifier
+	var postCssProcessorsDev = [
+			require( 'postcss-import' )( {
+				from: 'css/wmui-style-guide.dev.css'
+			} ),
+			require( 'postcss-custom-properties' )( {
+				preserve: false
+			} ),
+			require( 'autoprefixer' )( {
+				browsers: [
+					'Android >= 2.3',
+					'Chrome >= 10',
+					'Edge >= 12',
+					'Firefox >= 3.6',
+					'IE >= 8',
+					'IE_mob 11',
+					'iOS >= 5.1',
+					'Opera >= 12.5',
+					'Safari >= 5.1'
+				]
+			} )
+		],
+		// With minifier
+		postCssProcessorsMin = postCssProcessorsDev.concat( [ require( 'cssnano' )() ] );
+
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
+	grunt.loadNpmTasks( 'grunt-eslint' );
 	grunt.loadNpmTasks( 'grunt-postcss' );
 	grunt.loadNpmTasks( 'grunt-sketch' );
 	grunt.loadNpmTasks( 'grunt-stylelint' );
 	grunt.loadNpmTasks( 'grunt-svgmin' );
 
-	// PostCSS processors without minifier
-	var postCssProcessorsDev = [
-		require( 'postcss-import' )( {
-			from: "css/wmui-style-guide.dev.css"
-		} ),
-		require( 'postcss-custom-properties' )( {
-			preserve: false
-		} ),
-		require( 'autoprefixer' )( {
-			browsers: [
-				"Android >= 2.3",
-				"Chrome >= 10",
-				"Edge >= 12",
-				"Firefox >= 3.6",
-				"IE >= 8",
-				"IE_mob 11",
-				"iOS >= 5.1",
-				"Opera >= 12.5",
-				"Safari >= 5.1"
-			]
-		} )
-	];
-
-	// PostCSS processors with minifier
-	var postCssProcessorsMin = postCssProcessorsDev.concat( [ require( 'cssnano' )() ] );
-
 	grunt.initConfig( {
+		// Lint – Code
+		eslint: {
+			dev: [
+				'*.js',
+				'!js/vendor/**/*.js'
+			]
+		},
+
 		// Lint – Styles
 		stylelint: {
 			src: [
 				'css/*.dev.css',
-				//'css/partials/**',
 				'!node_modules/**'
 			]
 		},
@@ -249,7 +259,7 @@ module.exports = function ( grunt ) {
 				js2svg: {
 					pretty: true
 				},
-				plugins: [{
+				plugins: [ {
 					cleanupIDs: false
 				}, {
 					removeDesc: false
@@ -263,10 +273,10 @@ module.exports = function ( grunt ) {
 					removeXMLProcInst: false
 				}, {
 					sortAttrs: true
-				}]
+				} ]
 			},
 			all: {
-				files: [{
+				files: [ {
 					expand: true,
 					cwd: './',
 					src: [
@@ -274,7 +284,7 @@ module.exports = function ( grunt ) {
 					],
 					dest: './',
 					ext: '.svg'
-				}]
+				} ]
 			}
 		},
 
