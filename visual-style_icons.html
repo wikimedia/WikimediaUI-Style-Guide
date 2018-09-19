@@ -85,64 +85,76 @@
 						<img src="img/visual-style/icons-sample.svg" onerror="this.src='img/visual-style/icons-sample.png'" alt="Sample of WikimediaUI icons" role="img">
 					</figure>
 
-					<h2>Principles</h2>
-					<p>Wikimedia icons should be simple and neutral. <sup><a href="#References">[1]</a></sup></p>
-					<p><strong>Reduce to the essential form</strong> <br>
-						Use fewer details to convey the icon in as simple a shape as possible. The core idea of the design should be clearly conveyed and should remain discernible even at smaller sizes. For example, a keyboard should <i>not</i> be represented by showing all 100+ keys that are in the real object, since this would make it unrecognizable. </p>
-					<p><strong>Universal rather than culturally-specific</strong> <br>
-						Symbols and ideas represented in iconography should be known to a global audience. For example, do not use a dollar sign “$” to represent money, or a four-leaf clover to represent luck.</p>
-					<p><strong>Avoid textual content within the icon</strong> <br>
-						Besides loss of universal recognition when including a specific language element, it may add unnecessary complexity. There are exceptions for icons related to language/text (for example, the icon for language switching).</p>
-					<p><strong>Abstract forms or concrete objects</strong> <br>
-						Take consideration when deciding to use abstract or concrete objects when designing an icon. In some cases, concrete objects are preferred, such as using dice to convey “random” or a bell to convey an alert. In other cases, abstract symbols may be preferable, such as using an question mark “?” for help rather than a life preserver, or an ellipsis “…” to indicate “more”.</p>
-					<p><strong>Neutral point of view</strong> <br>
-						Avoid concepts such as gestures, animals, religion, humor, ethnicity, and gender.</p>
+					<section id="principles">
+						<h2>Principles</h2>
+						<p>Wikimedia icons should be simple and neutral. <sup><a href="#References">[1]</a></sup></p>
+						<p><strong>Reduce to the essential form</strong> <br>
+							Use fewer details to convey the icon in as simple a shape as possible. The core idea of the design should be clearly conveyed and should remain discernible even at smaller sizes. For example, a keyboard should <i>not</i> be represented by showing all 100+ keys that are in the real object, since this would make it unrecognizable. </p>
+						<p><strong>Universal rather than culturally-specific</strong> <br>
+							Symbols and ideas represented in iconography should be known to a global audience. For example, do not use a dollar sign “$” to represent money, or a four-leaf clover to represent luck.</p>
+						<p><strong>Avoid textual content within the icon</strong> <br>
+							Besides loss of universal recognition when including a specific language element, it may add unnecessary complexity. There are exceptions for icons related to language/text (for example, the icon for language switching).</p>
+						<p><strong>Abstract forms or concrete objects</strong> <br>
+							Take consideration when deciding to use abstract or concrete objects when designing an icon. In some cases, concrete objects are preferred, such as using dice to convey “random” or a bell to convey an alert. In other cases, abstract symbols may be preferable, such as using an question mark “?” for help rather than a life preserver, or an ellipsis “…” to indicate “more”.</p>
+						<p><strong>Neutral point of view</strong> <br>
+							Avoid concepts such as gestures, animals, religion, humor, ethnicity, and gender.</p>
+					</section>
 
-					<h2>Visual style</h2>
-					<p>Characteristics of a WikimediaUI icon:</p>
-					<ul>
-						<li><strong>Monochromatic.</strong> Solid color icons.</li>
-						<li><strong>Geometric.</strong> Comprised of simple and symmetrical geometric shapes. Symmetrical icons tend to be more universally applicable. For example, an open book would be prefered to a closed book with binding on left or right side). </li>
-						<li><strong>Front-facing. </strong>Icons are flat and front facing, not multi-dimensional.</li>
-						<li><strong>20 x 20&#160;dp default canvas.</strong> WikimediaUI icons are put on a 20 x 20 device-independent pixel (`dp`)<sup><a href="#References">[2]</a></sup> canvas per default.</li>
-						<li><strong>Rounded corners.</strong> Corners are rounded to make shapes friendly and welcoming. For the default canvas use 2&#160;dp rounded corners. Note that rounded corners are applied only on the exterior of an icon shape, not interior corners.</li>
-						<li><strong>Medium thick stroke.</strong> Lines and outline should be visible at smaller sizes without effort, for the default icon canvas use a 2&#160;dp thick stroke as standard. Endpoints of lines are square in keeping with simple geometric shapes.</li>
-						<li><strong>Diagonal cross-out lines.</strong> For icons that appear to be crossed-out, the cross-out line starts from the top-left of the icon and continues at a 45 degree angle to the bottom right (similar to a backslash “\”).</li>
-					</ul>
+					<section id="visual-style">
+						<h2>Visual style</h2>
+						<p>Characteristics of a WikimediaUI icon:</p>
+						<ul>
+							<li><strong>Monochromatic.</strong> Solid color icons.</li>
+							<li><strong>Geometric.</strong> Comprised of simple and symmetrical geometric shapes. Symmetrical icons tend to be more universally applicable. For example, an open book would be prefered to a closed book with binding on left or right side). </li>
+							<li><strong>Front-facing. </strong>Icons are flat and front facing, not multi-dimensional.</li>
+							<li><strong>20 x 20&#160;dp default canvas.</strong> WikimediaUI icons are put on a 20 x 20 device-independent pixel (`dp`)<sup><a href="#References">[2]</a></sup> canvas per default.</li>
+							<li><strong>Rounded corners.</strong> Corners are rounded to make shapes friendly and welcoming. For the default canvas use 2&#160;dp rounded corners. Note that rounded corners are applied only on the exterior of an icon shape, not interior corners.</li>
+							<li><strong>Medium thick stroke.</strong> Lines and outline should be visible at smaller sizes without effort, for the default icon canvas use a 2&#160;dp thick stroke as standard. Endpoints of lines are square in keeping with simple geometric shapes.</li>
+							<li><strong>Diagonal cross-out lines.</strong> For icons that appear to be crossed-out, the cross-out line starts from the top-left of the icon and continues at a 45 degree angle to the bottom right (similar to a backslash “\”).</li>
+						</ul>
+					</section>
 
-					<h2>Guidelines for creating icons</h2>
-					<figure class="figure figure--full">
-						<figcaption>Icons follow a template. The default canvas is 20 x 20&#160;dp. In order to allow for optical adjustments, a different margin is applied depending on the shape of the icon.</figcaption>
-						<img src="img/visual-style/icons-optical-adjustment.svg" onerror="this.src='img/visual-style/icons-optical-adjustment.png'" alt="Icon sizes at different shapes for optical adjustment" role="img">
-					</figure>
-					<p>Different shapes have different perceived sizes. A 1&#160;dp margin for square-shaped icon is used. A circle uses the full 20 x 20&#160;dp canvas available to reach a similar perceived size.</p>
-					<p><strong>Black icons</strong> <br>
-						Use black (<a href="visual-style_colors.html">Base0</a>) on a transparent background, as the boldest representation of an icon. The color can be changed when the icon is used (preferably done automatically by software).</p>
-					<p><strong>Filled areas with no stroke outlines</strong> <br>
-						For example, a donut icon is a filled circle with a hole in the middle, as opposed to an unfilled circle with a thick stroke outline.</p>
-					<p><strong>Pixel-fitting</strong> <br>
-						Ensure icon shape edges are fit to pixels as closely as possible, so that shapes are not distorted or fuzzy.</p>
-					<p><strong>Right-to-left (RTL) and left-to-right (LTR) considerations</strong> <br>
-						In cases where the icon is non-symmetrical, consider whether RTL or LTR directionality changes the meaning conveyed before creating the alternate direction variation. For example, the play button is universally seen as a triangle with a straight left edge and does not require two variations, whilst a bullet list icon would show the “bullets” in the list on the right or left side depending on whether it is shown in RTL or LTR language context.</p>
+					<section id="creating-icons">
+						<h2>Creating icons</h2>
+						<figure class="figure figure--full">
+							<figcaption>Icons follow a template. The default canvas is 20 x 20&#160;dp. In order to allow for optical adjustments, a different margin is applied depending on the shape of the icon.</figcaption>
+							<img src="img/visual-style/icons-optical-adjustment.svg" onerror="this.src='img/visual-style/icons-optical-adjustment.png'" alt="Icon sizes at different shapes for optical adjustment" role="img">
+						</figure>
+						<p>Different shapes have different perceived sizes. A 1&#160;dp margin for square-shaped icon is used. A circle uses the full 20 x 20&#160;dp canvas available to reach a similar perceived size.</p>
+						<p><strong>Black icons</strong> <br>
+							Use black (<a href="visual-style_colors.html">Base0</a>) on a transparent background, as the boldest representation of an icon. The color can be changed when the icon is used (preferably done automatically by software).</p>
+						<p><strong>Filled areas with no stroke outlines</strong> <br>
+							For example, a donut icon is a filled circle with a hole in the middle, as opposed to an unfilled circle with a thick stroke outline.</p>
+						<p><strong>Pixel-fitting</strong> <br>
+							Ensure icon shape edges are fit to pixels as closely as possible, so that shapes are not distorted or fuzzy.</p>
+						<p><strong>Right-to-left (RTL) and left-to-right (LTR) considerations</strong> <br>
+							In cases where the icon is non-symmetrical, consider whether RTL or LTR directionality changes the meaning conveyed before creating the alternate direction variation. For example, the play button is universally seen as a triangle with a straight left edge and does not require two variations, whilst a bullet list icon would show the “bullets” in the list on the right or left side depending on whether it is shown in RTL or LTR language context.</p>
+					</section>
 
-					<h2>Usage</h2>
-					<p><strong>Clearance on touch devices</strong><br>
-						When using icons consider the size of their target area. Even if icons are presented at a smaller size, make sure that the associated active area is at least 44 x 44&#160;dp. Otherwise users may fail to hit the active area and not encounter the expected result.</p>
+					<section id="usage">
+						<h2>Usage</h2>
+						<p><strong>Clearance on touch devices</strong><br>
+							When using icons consider the size of their target area. Even if icons are presented at a smaller size, make sure that the associated active area is at least 44 x 44&#160;dp. Otherwise users may fail to hit the active area and not encounter the expected result.</p>
 
-					<p><strong>Adapt and remix</strong><br>
-						Our icons are freely licensed under CC BY 4.0. <br>
-						The simple style and guidelines make it easy to reuse or adapt existing freely licensed icons that you can find on other repos such as <a href="https://material.io/icons/" target="_blank" rel="noopener">Material icons</a> <sup><a href="#References">[3]</a></sup> or the <a href="https://thenounproject.com/" target="_blank" rel="noopener">Noun project</a> <sup><a href="#References">[4]</a></sup>. You are welcome to use existing icons that align to the proposed style instead of reinventing the wheel icon.</p>
+						<p><strong>Adapt and remix</strong><br>
+							Our icons are freely licensed under CC BY 4.0. <br>
+							The simple style and guidelines make it easy to reuse or adapt existing freely licensed icons that you can find on other repos such as <a href="https://material.io/icons/" target="_blank" rel="noopener">Material icons</a> <sup><a href="#References">[3]</a></sup> or the <a href="https://thenounproject.com/" target="_blank" rel="noopener">Noun project</a> <sup><a href="#References">[4]</a></sup>. You are welcome to use existing icons that align to the proposed style instead of reinventing the wheel icon.</p>
+					</section>
 
-					<h2>Resources</h2>
-					<p>The <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=icons&theme=wikimediaui&direction=ltr&platform=desktop#icons-mediawiki-ltr">OOUI icon repository</a> provides a list of the currently available icons.</p>
+					<section id="resources">
+						<h2>Resources</h2>
+						<p>The <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=icons&theme=wikimediaui&direction=ltr&platform=desktop#icons-mediawiki-ltr">OOUI icon repository</a> provides a list of the currently available icons.</p>
+					</section>
 
-					<h2 id="References">References</h2>
-					<ol>
-						<li>Thanks to volunteer contributor <a href="https://phabricator.wikimedia.org/p/SamanthaNguyen/" target="_blank" rel="noopener">@SamanthaNguyen</a> for many suggestions on the “Principles” section in icons on <a href="https://phabricator.wikimedia.org/T155684" target="_blank" rel="noopener">Phabricator task T155684</a>.</li>
-						<li>1&#160;dp equals 1&#160;px in CSS at 100% zoom level and 1x device. <a href="https://en.wikipedia.org/wiki/Device-independent_pixel" target="_blank" rel="noopener">Device-independent pixel on English Wikipedia</a>.</li>
-						<li>Google offers a <a href="https://material.io/guidelines/style/icons.html" target="_blank" rel="noopener">Material icons overview and guide to use</a>.</li>
-						<li>The Noun Project provides curated <a href="https://thenounproject.zendesk.com/hc/en-us/articles/200509798-What-licenses-do-you-use-" target="_blank" rel="noopener">icon sets that are either Creative Commons Attribution (CC BY) or Public Domain (PD)</a>.</li>
-					</ol>
+					<section id="references">
+						<h2>References</h2>
+						<ol>
+							<li>Thanks to volunteer contributor <a href="https://phabricator.wikimedia.org/p/SamanthaNguyen/" target="_blank" rel="noopener">@SamanthaNguyen</a> for many suggestions on the “Principles” section in icons on <a href="https://phabricator.wikimedia.org/T155684" target="_blank" rel="noopener">Phabricator task T155684</a>.</li>
+							<li>1&#160;dp equals 1&#160;px in CSS at 100% zoom level and 1x device. <a href="https://en.wikipedia.org/wiki/Device-independent_pixel" target="_blank" rel="noopener">Device-independent pixel on English Wikipedia</a>.</li>
+							<li>Google offers a <a href="https://material.io/guidelines/style/icons.html" target="_blank" rel="noopener">Material icons overview and guide to use</a>.</li>
+							<li>The Noun Project provides curated <a href="https://thenounproject.zendesk.com/hc/en-us/articles/200509798-What-licenses-do-you-use-" target="_blank" rel="noopener">icon sets that are either Creative Commons Attribution (CC BY) or Public Domain (PD)</a>.</li>
+						</ol>
+					</section>
 				</main>
 			</div>
 		</div>
