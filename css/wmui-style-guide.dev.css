@@ -180,6 +180,15 @@ img {
 	margin: 1.6rem 0 0;
 }
 
+.page--components figure {
+	margin-left: 6.4rem;
+	padding-top: 0.8rem;
+}
+
+.page--components figure img {
+	margin-top: 0.8rem;
+}
+
 /* ::: Inline Elements ::: */
 a {
 	color: var( --color-primary );
@@ -255,6 +264,11 @@ sup {
 .color-palette:after,
 .figures-do-dont:after {
 	clear: both;
+}
+
+/* ::: Text-formatting ::: */
+.is-subtle {
+	color: var( --color-base--subtle );
 }
 
 .content-box {
@@ -450,8 +464,12 @@ sup {
 	margin-bottom: 1em; /* FIXME: replace with rem and mt */
 }
 
-.nav__sub-items li {
+.nav__sub-items > .nav__sub-item {
 	margin-left: 3.6rem;
+}
+
+.nav--main .nav__sub-items ul {
+	margin: 0;
 }
 
 .nav--main .nav__sub-items a { /* stylelint-disable-line no-descending-specificity */
@@ -463,11 +481,15 @@ sup {
 	transition: background-color var( --transition-ease-medium ), color var( --transition-ease-medium );
 }
 
-.nav--main .nav__sub-item.is-on a {
+.nav--main .nav__sub-item.is-on > a {
 	background-color: var( --background-color-base );
 	color: var( --color-base--active );
 	border-left-color: var( --wmui-color-base0 );
 	font-weight: var( --font-weight-bold );
+}
+
+.nav--main .nav__sub-item .nav__sub-item a {
+	padding-left: 3.6rem;
 }
 
 
@@ -492,9 +514,11 @@ sup {
 	font-weight: 100;
 }
 
-.paragraph__lead {
+/* Remove, doesn't provide good styling
+.page__lead {
 	font-size: 1.8rem;
 }
+*/
 
 .figure__caption {
 	color: var( --color-base--subtle );
@@ -680,6 +704,13 @@ sup {
 			opacity: 0;
 		}
 
+
+/* ... Components ...
+.page--components h2 {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+*/
 
 /* ... Resources ... */
 .resources-table {

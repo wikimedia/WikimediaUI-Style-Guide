@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="281" height="42" viewBox="0 0 281 42">
+	<title>
+		Search_Inputs_intro
+	</title>
+	<desc>
+		Created with Sketch.
+	</desc>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-7549 -585)">
+			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
+			<g id="TEXT-INPUT-FIELDS" transform="translate(7359 142)">
+				<g id="Text-Input-X" transform="translate(1 114)">
+					<g id="Search-Input-Field-+-Icon" transform="translate(0 295)">
+						<path id="Mediawiki.Neutral.Hover-35-Copy-2" fill="#FFF" stroke="#9AA0A7" d="M194.995 38.5h268.01a2.498 2.498 0 012.495 2.502v27.996a2.494 2.494 0 01-2.495 2.502h-268.01a2.498 2.498 0 01-2.495-2.502V41.002a2.494 2.494 0 012.495-2.502z"/>
+						<text id="Re-enter-password-2-Copy" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+							<tspan x="225" y="61">Re-enter password</tspan>
+						</text>
+						<g id="Icon-/-Search-/-:disabled" fill="#72777D" fill-rule="nonzero" transform="translate(200 45)">
+							<path id="Shape" d="M7.5 13c3.04 0 5.5-2.46 5.5-5.5S10.54 2 7.5 2 2 4.46 2 7.5 4.46 13 7.5 13zm4.55.46A7.432 7.432 0 017.5 15C3.36 15 0 11.64 0 7.5 0 3.36 3.36 0 7.5 0 11.64 0 15 3.36 15 7.5c0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

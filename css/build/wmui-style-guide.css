@@ -630,6 +630,13 @@ img {
 	max-width: 100%;
 	margin: 1.6rem 0 0;
 }
+.page--components figure {
+	margin-left: 6.4rem;
+	padding-top: 0.8rem;
+}
+.page--components figure img {
+	margin-top: 0.8rem;
+}
 /* ::: Inline Elements ::: */
 a {
 	color: #36c;
@@ -696,6 +703,10 @@ sup {
 .color-palette:after,
 .figures-do-dont:after {
 	clear: both;
+}
+/* ::: Text-formatting ::: */
+.is-subtle {
+	color: #72777d;
 }
 .content-box {
 	position: relative;
@@ -873,8 +884,11 @@ sup {
 	margin-top: 1.2rem;
 	margin-bottom: 1em; /* FIXME: replace with rem and mt */
 }
-.nav__sub-items li {
+.nav__sub-items > .nav__sub-item {
 	margin-left: 3.6rem;
+}
+.nav--main .nav__sub-items ul {
+	margin: 0;
 }
 .nav--main .nav__sub-items a { /* stylelint-disable-line no-descending-specificity */
 	color: #54595d;
@@ -887,11 +901,14 @@ sup {
 	-moz-transition: background-color 250ms, color 250ms;
 	transition: background-color 250ms, color 250ms;
 }
-.nav--main .nav__sub-item.is-on a {
+.nav--main .nav__sub-item.is-on > a {
 	background-color: #fff;
 	color: #000;
 	border-left-color: #000;
 	font-weight: 700;
+}
+.nav--main .nav__sub-item .nav__sub-item a {
+	padding-left: 3.6rem;
 }
 /* ::: Content ::: */
 .page__parent-title {
@@ -910,9 +927,11 @@ sup {
 	font-style: italic;
 	font-weight: 100;
 }
-.paragraph__lead {
+/* Remove, doesn't provide good styling
+.page__lead {
 	font-size: 1.8rem;
 }
+*/
 .figure__caption {
 	color: #72777d;
 	clear: both;
@@ -1072,6 +1091,12 @@ sup {
 .color-code--hsb {
 			opacity: 0;
 		}
+/* ... Components ...
+.page--components h2 {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+*/
 /* ... Resources ... */
 .resources-table {
 	display: table;
