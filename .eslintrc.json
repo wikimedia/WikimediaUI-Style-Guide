@@ -1,0 +1,13 @@
+{
+    "extends": "wikimedia",
+    "parserOptions": {
+        "ecmaVersion": 5
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "rules": {
+        "camelcase": [ 2, { "properties": "never" } ]
+    }
+}
