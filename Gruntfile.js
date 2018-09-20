@@ -51,7 +51,8 @@ module.exports = function ( grunt ) {
 			},
 			files: {
 				src: [
-					'js/src/fonts-loader.js'
+					'js/src/fonts-loader.js',
+					'js/src/embed-tracking-code.js'
 				],
 				dest: 'js/wikimedia-design-style-guide.concat.js'
 			}
@@ -335,7 +336,7 @@ module.exports = function ( grunt ) {
 		}
 	} );
 
-	grunt.registerTask( 'lint', [ 'stylelint' ] );
+	grunt.registerTask( 'lint', [ 'eslint', 'stylelint' ] );
 	grunt.registerTask( 'images', [ 'sketch_export', 'svgmin' ] );
-	grunt.registerTask( 'default', [ 'lint', 'postcss:dev', 'postcss:min' ] );
+	grunt.registerTask( 'default', [ 'lint', 'concat', 'uglify', 'postcss:dev', 'postcss:min' ] );
 };
