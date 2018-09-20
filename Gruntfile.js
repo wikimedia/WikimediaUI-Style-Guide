@@ -31,7 +31,9 @@ module.exports = function ( grunt ) {
 		// With minifier
 		postCssProcessorsMin = postCssProcessorsDev.concat( [ require( 'cssnano' )() ] );
 
+	grunt.loadNpmTasks( 'grunt-contrib-concat' );
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
+	grunt.loadNpmTasks( 'grunt-contrib-uglify' );
 	grunt.loadNpmTasks( 'grunt-eslint' );
 	grunt.loadNpmTasks( 'grunt-postcss' );
 	grunt.loadNpmTasks( 'grunt-sketch' );
@@ -39,15 +41,49 @@ module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( 'grunt-svgmin' );
 
 	grunt.initConfig( {
-		// Lint – Code
+		// Build – JavaScript
+		concat: {
+			options: {
+				sourceMap: true,
+				sourceMapName: function ( concatFileName ) {
+					return concatFileName + '.map.json';
+				}
+			},
+			files: {
+				src: [
+					'js/src/fonts-loader.js'
+				],
+				dest: 'js/wikimedia-design-style-guide.concat.js'
+			}
+		},
+
+		uglify: {
+			options: {
+				sourceMap: true,
+				sourceMapIncludeSources: true,
+				sourceMapName: function ( uglifyFileName ) {
+					return uglifyFileName + '.map.json';
+				},
+				report: 'gzip'
+			},
+			js: {
+				expand: true,
+				src: 'js/*.concat.js',
+				ext: '.min.js',
+				extDot: 'first'
+			}
+		},
+
+		// Lint – JavaScript
 		eslint: {
 			dev: [
-				'*.js',
+				'Gruntfile.js',
+				'js/src/**/*.js',
 				'!js/vendor/**/*.js'
 			]
 		},
 
-		// Lint – Styles
+		// Lint – Stylesheets
 		stylelint: {
 			src: [
 				'css/*.dev.css',
@@ -55,7 +91,7 @@ module.exports = function ( grunt ) {
 			]
 		},
 
-		// Postprocessing Styles
+		// Postprocessing Stylesheets
 		postcss: {
 			// Output unminified compiled CSS file into `build` dir
 			dev: {
@@ -65,12 +101,12 @@ module.exports = function ( grunt ) {
 				src: 'css/wmui-style-guide.dev.css',
 				dest: 'css/build/wmui-style-guide.css'
 			},
-			// Output minified compiled CSS file +  src maps into `build` dir
+			// Output minified compiled CSS file + source maps into `build` dir
 			min: {
 				options: {
 					map: {
-						inline: false, // save all sourcemaps as separate files...
-						annotation: 'css/build/' // ...to the specified directory
+						inline: false, // Save all source maps as separate files…
+						annotation: 'css/build/' // …to the specified directory
 					},
 					processors: postCssProcessorsMin
 				},
