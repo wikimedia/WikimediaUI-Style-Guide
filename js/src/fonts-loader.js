@@ -1,5 +1,5 @@
+/* eslint-disable vars-on-top, one-var */
 if ( document.head && 'Promise' in window ) {
-
 	var html = document.documentElement;
 
 	if ( sessionStorage.getItem( 'fontsLoaded' ) ) {
@@ -9,13 +9,13 @@ if ( document.head && 'Promise' in window ) {
 		script.src = './js/vendor/fontfaceobserver/fontfaceobserver.standalone.js';
 
 		script.onload = function () {
-			var serif = new FontFaceObserver( 'Charter' );
+			var serif = new FontFaceObserver( 'Charter' ); /* eslint-disable-line no-undef */
 
-			Promise.all( [
+			Promise.all( [ /* eslint-disable-line no-undef */
 				serif.load()
 			] ).then( function () {
 				html.classList.add( 'fonts-loaded' );
-				sessionStorage.setItem( 'fontsLoaded' , 1);
+				sessionStorage.setItem( 'fontsLoaded', 1 );
 			} );
 		};
 		document.head.appendChild( script );
