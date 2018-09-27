@@ -112,13 +112,13 @@
 						<h2>Typefaces</h2>
 						<p>Charter (supported by the Charis SIL font implementation) and Lato are the recommended typefaces, when available.</p>
 						<ul>
-							<li>Charter is a serif typeface designed by Matthew Carter in 1987. Charter has a simplified and clean structure that works well, even on low resolution displays. Although <a href="https://en.wikipedia.org/wiki/Bitstream_Charter">Bitstream Charter</a> is the original implementation for Charter, we recommend using <a href="https://en.wikipedia.org/wiki/Charis_SIL">Charis SIL</a> since it provides a wider Unicode support.</li>
-							<li><a href="http://www.latofonts.com/lato-free-fonts/">Lato</a> is a sans-serif typeface designed by Łukasz Dziedzic in 2010. Lato provides good readability even at small sizes.</li>
+							<li><b>Charter</b> is a serif typeface designed by Matthew Carter in 1987. Charter has a simplified and clean structure that works well, even on low resolution displays. Although <a href="https://en.wikipedia.org/wiki/Bitstream_Charter">Bitstream Charter</a> is the original implementation for Charter, we recommend using <a href="https://en.wikipedia.org/wiki/Charis_SIL">Charis SIL</a> since it provides a wider Unicode support.</li>
+							<li><b><a href="http://www.latofonts.com/lato-free-fonts/">Lato</a></b> is a sans-serif typeface designed by Łukasz Dziedzic in 2010. Lato provides good readability even at small sizes.</li>
 						</ul>
 						<p>These fonts are provided as a reference, but you may use similar criteria when those fonts are not available in your context.</p>
 
 						<h3>Font selection criteria</h3>
-						<p>Font selection depends on availability. Fonts are not always available for all scripts or all devices. The criteria for font selection is the following:</p>
+						<p>Font selection depends on availability. Fonts are not always available for all scripts or all operating systems. The criteria for font selection is the following:</p>
 						<ol>
 							<li><b>Readability.</b> Fonts with a bigger x-height and open shapes are preferred.</li>
 							<li><b>Neutral aspect.</b> The font should work with many different kinds of content without adding a particular voice to it.</li>
@@ -126,14 +126,14 @@
 							<li><b>Open.</b> Open source fonts are preferred to align with the open knowledge they deliver.</li>
 						</ol>
 						<p>To extend the font family to new scripts or devices, the above criteria should be followed. Common cases in which you need to look for alternatives are:</p>
-						<p><b>Lack of a font delivery mechanism.</b> In cases where custom fonts cannot be delivered to the user (e.g., through web fonts technology), you need to define alternatives. Default fonts such as Lato and Charter/Charis can still be recommended as primary options for users that installed those fonts themselves. A wider set of fallback options from those available in the user device may be needed. Possible fallback options:</p>
+						<p><b>Lack of a font delivery mechanism.</b> In cases where custom fonts cannot be delivered to the user (e.g., through web fonts technology), you need to define alternatives. Default fonts such as Lato and Charter/Charis can still be recommended as primary options for users that installed those fonts themselves. A wider set of fallback options from those available in the user device/operating system may be needed. Possible fallback options:</p>
 						<ul>
-							<li><a href="https://en.wikipedia.org/wiki/Georgia_(typeface)">Georgia</a> (present in many devices) can be a fallback for Charter.</li>
-							<li>Device default sans-serif font would be used in the absence of Lato.</li>
+							<li><b><a href="https://en.wikipedia.org/wiki/Georgia_(typeface)">Georgia</a></b> (present in many operating systems) can be a fallback for Charter.</li>
+							<li><b>Operating system default sans-serif font</b> would be used in the absence of Lato. <br>The CSS equivalent code is <code>font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Oxygen-Sans', Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;</code></li>
 						</ul>
 						<p><b>Language support.</b> There is no font that supports all languages. Individual language communities can identify fonts that better support their languages, taking into account the above criteria. Possible fallback option incude:</p>
 						<ul>
-							<li>The <a href="https://en.wikipedia.org/wiki/Noto_fonts">Noto family</a> provides a great coverage of languages, providing good alternatives for both serif and sans-serif typefaces.</li>
+							<li>The <b><a href="https://en.wikipedia.org/wiki/Noto_fonts">Noto family</a></b> provides a great coverage of languages, providing good alternatives for both serif and sans-serif typefaces.</li>
 						</ul>
 					</section>
 
@@ -144,7 +144,55 @@
 						<img src="img/visual-style/typography-scale.png" alt="Scale of sizes used for text">
 						<p>The scale-independent pixels can result in a different number of actual pixels in the user screen due to screen density or user preferences. A 16&#160;sp text is rendered as 16&#160;px in a 1x device at standard zoom level, but it becomes 21&#160;px in a 2x device (or when zoomed 200% on a 1x device).</p>
 						<p>Common text styles are based on the defined scale to clearly communicate the content hierarchy. </p>
-						<img src="img/visual-style/typography-styles.png" alt="Text styles visually listed">
+						<dl class="typography-styles">
+							<dt>Heading 1</dt>
+							<dd>
+								<h1>Charter Regular 32&#160;sp</h1>
+							</dd>
+							<dt>Heading 2</dt>
+							<dd>
+								<h2>Lato Bold / system sans-serif, bold 24&#160;sp</h2>
+							</dd>
+							<dt>Heading 3</dt>
+							<dd>
+								<h3>Lato Bold / system sans-serif, bold 20&#160;sp</h3>
+							</dd>
+							<dt>Heading 4</dt>
+							<dd>
+								<h4>Lato Bold / system sans-serif, bold 18&#160;sp</h4>
+							</dd>
+							<dt>Heading 5</dt>
+							<dd>
+								<h5>Lato Bold / system sans-serif, bold 16&#160;sp</h5>
+							</dd>
+							<dt>Heading 6</dt>
+							<dd>
+								<h6>Lato Regular / system sans-serif 16&#160;sp</h6>
+							</dd>
+						</dl>
+						<hr>
+						<dl class="typography-styles">
+							<dt>Body</dt>
+							<dd>
+								<p>Lato Regular / system sans-serif 16&#160;sp</p>
+							</dd>
+							<dt>Lead paragraph</dt>
+							<dd>
+								<p>Lato Regular / system sans-serif 18&#160;sp</p>
+							</dd>
+							<dt>Block quotation</dt>
+							<dd>
+								<blockquote>Charter Italic 20&#160;sp</blockquote>
+							</dd>
+							<dt>Figure caption</dt>
+							<dd>
+								<figcaption class="figure__caption">Lato Italic / system sans-serif, italic 13&#160;sp</figcaption>
+							</dd>
+							<dt>Code</dt>
+							<dd>
+								<pre><span style="color:#72777d;">&lt;!-- monospace 14px --&gt;</span><br>&lt;a href="https://www.wikipedia.org/"&gt;A link to Wikipedia!&lt;/a&gt;</pre>
+							</dd>
+						</dl>
 					</section>
 				</main>
 			</div>

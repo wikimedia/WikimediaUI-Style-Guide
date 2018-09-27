@@ -15,7 +15,7 @@
 	--border-style-base: solid;
 	--border-width-heading: 3px;
 	/* HACK: Add system font stack var as long as WikimediaUI Base isn't updated */
-	--font-family-sans-serif: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Oxygen-Sans', Ubuntu, Cantarell, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif; /* stylelint-disable-line value-keyword-case */
+	--font-family-sans-serif: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Oxygen-Sans', Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif; /* stylelint-disable-line value-keyword-case */
 	/* HACK; Add Georgia to serif fallback as long as WikimediaUI Base isn't updated */
 	--font-family-serif--fallback: Georgia, serif; /* stylelint-disable-line value-keyword-case */
 	--font-weight-base: 400;
@@ -94,7 +94,7 @@ h6 {
 blockquote {
 	border-left: 3px solid var( --wmui-color-base70 ); /* FIXME: var */
 	margin: 1.6rem 0 0;
-	padding: 0 1.6rem;
+	padding: 0 3.2rem;
 	font-family: var( --font-family-serif--fallback ); /* Fallback */
 	font-size: 2rem;
 	font-style: italic;
@@ -105,6 +105,7 @@ hr {
 	background: var( --background-color-hr );
 	display: block;
 	height: 0.8rem;
+	border: 0;
 	margin: 8rem 0;
 }
 
@@ -183,6 +184,17 @@ code {
 	display: inline-block;
 	padding: 0.2rem 0.4rem;
 	font-size: 1.4rem;
+}
+
+pre,
+.mw-code {
+	background-color: var( --background-color-code );
+	color: var( --color-base--emphasized );
+	border: var( --border-base );
+	border-color: var( --color-base--subtle );
+	padding: 1.2rem;
+	font-size: 1.4rem;
+	white-space: pre-wrap;
 }
 
 small {
@@ -652,6 +664,7 @@ sup {
 			opacity: 0;
 		}
 
+
 /* ::: Footer ::: */
 .footer {
 	color: var( --color-base );
@@ -712,6 +725,39 @@ sup {
 	color: var( --wmui-color-base50 );
 }
 
+/* ... Typography Styles ... */
+
+.typography-styles dt {
+	display: inline-block;
+	color: var( --color-base--subtle );
+	min-width: 10rem;
+	margin: 3.2rem 0 0 1.6rem;
+	font-size: 1.3rem;
+	font-weight: var( --font-weight-bold );
+}
+
+.typography-styles dt:first-child {
+	margin-top: 0;
+}
+
+.typography-styles dd {
+	display: inline;
+}
+
+.typography-styles dd * {
+	display: inline-block;
+}
+
+.typography-styles dd:after {
+     content: '\A';
+     white-space: pre;
+}
+
+.typography-styles + hr {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
 /* ... “Icons” ... */
 .page--visual-style-icons img { /* FIXME: generalize image styles */
 	background-color: var( --wmui-color-base80 ); /* FIXME: var; */
@@ -765,6 +811,11 @@ sup {
 	.page__title {
 		margin-top: -0.4rem;
 		font-size: 2.8rem;
+	}
+
+	.typography-styles dt {
+		display: block;
+		margin-left: 0;
 	}
 }
 

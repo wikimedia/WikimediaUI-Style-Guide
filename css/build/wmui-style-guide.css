@@ -498,7 +498,7 @@ body {
 	background-color: #eaecf0; /* FIXME: var; */
 	color: #222;
 	margin: 0;
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Oxygen-Sans', Ubuntu, Cantarell, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Oxygen-Sans', Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1.6rem;
 	line-height: 1.6;
 }
@@ -550,7 +550,7 @@ h6 {
 blockquote {
 	border-left: 3px solid #c8ccd1; /* FIXME: var */
 	margin: 1.6rem 0 0;
-	padding: 0 1.6rem;
+	padding: 0 3.2rem;
 	font-family: Georgia, serif; /* Fallback */
 	font-size: 2rem;
 	font-style: italic;
@@ -560,6 +560,7 @@ hr {
 	background: #eaecf0;
 	display: block;
 	height: 0.8rem;
+	border: 0;
 	margin: 8rem 0;
 }
 p {
@@ -614,7 +615,7 @@ a:active {
 cite {
 	display: block;
 	margin-top: 0.8em;
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Oxygen-Sans', Ubuntu, Cantarell, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Oxygen-Sans', Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1.4rem;
 	font-style: normal;
 }
@@ -626,6 +627,16 @@ code {
 	display: inline-block;
 	padding: 0.2rem 0.4rem;
 	font-size: 1.4rem;
+}
+pre,
+.mw-code {
+	background-color: #f8f9fa;
+	color: #000;
+	border: 1px solid #a2a9b1;
+	border-color: #72777d;
+	padding: 1.2rem;
+	font-size: 1.4rem;
+	white-space: pre-wrap;
 }
 small {
 	font-size: 1.3rem;
@@ -697,7 +708,7 @@ sup {
 		color: #222;
 		margin-top: 0;
 		height: 6.4rem;
-		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Oxygen-Sans', Ubuntu, Cantarell, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Oxygen-Sans', Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 		font-size: 1.6rem;
 		font-weight: 400;
 		letter-spacing: 0.5px;
@@ -1046,7 +1057,7 @@ sup {
 		background-color: inherit;
 		display: block;
 		padding: 0;
-		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Oxygen-Sans', Ubuntu, Cantarell, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Oxygen-Sans', Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	}
 .color-code--hsb {
 			opacity: 0;
@@ -1099,6 +1110,32 @@ sup {
 .figures-do-dont--contrast .figure--dont {
 	color: #a2a9b1;
 }
+/* ... Typography Styles ... */
+.typography-styles dt {
+	display: inline-block;
+	color: #72777d;
+	min-width: 10rem;
+	margin: 3.2rem 0 0 1.6rem;
+	font-size: 1.3rem;
+	font-weight: 700;
+}
+.typography-styles dt:first-child {
+	margin-top: 0;
+}
+.typography-styles dd {
+	display: inline;
+}
+.typography-styles dd * {
+	display: inline-block;
+}
+.typography-styles dd:after {
+     content: '\A';
+     white-space: pre;
+}
+.typography-styles + hr {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
 /* ... “Icons” ... */
 .page--visual-style-icons img { /* FIXME: generalize image styles */
 	background-color: #eaecf0; /* FIXME: var; */
@@ -1117,7 +1154,7 @@ sup {
 .fonts-loaded cite,
 .fonts-loaded .site__title,
 .fonts-loaded .color-code {
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Oxygen-Sans', Ubuntu, Cantarell, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Oxygen-Sans', Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 /* ::: Text Block-Level Elements ::: */
 .fonts-loaded .page__title,
@@ -1157,6 +1194,11 @@ sup {
 	.page__title {
 		margin-top: -0.4rem;
 		font-size: 2.8rem;
+	}
+
+	.typography-styles dt {
+		display: block;
+		margin-left: 0;
 	}
 }
 /* ... Smartphone portrait ... */
