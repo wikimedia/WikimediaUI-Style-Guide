@@ -224,7 +224,7 @@
             <use fill="#FFF" xlink:href="#k"/>
             <rect width="25" height="25" x="-.5" y="-.5" stroke="#72777D" rx="2"/>
         </g>
-        <path fill="#FFB60D" fill-opacity=".4" d="M193 651h32v32h-32z" style="mix-blend-mode:multiply"/>
+        <path style="mix-blend-mode:multiply" fill="#FFB60D" fill-opacity=".4" d="M193 651h32v32h-32z"/>
         <text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(195 481)">
             <tspan x="33" y="22">Neutral point</tspan>
         </text>
