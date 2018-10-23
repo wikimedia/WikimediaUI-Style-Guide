@@ -1,6 +1,11 @@
 Principal Authors (major contributors)
 
 Volker E. <volker.e@wikimedia.org>
+Rita Ho <rho@wikimedia.org>
+Prateek Saxena <psaxena@wikimedia.org>
 Pau Giner <pginer@wikimedia.org>
+Nirzar Pangarkar <npangakar@wikimedia.org>
 Julien Girault <jgirault@wikimedia.org>
 Jan Drewniak <jdrewniak@wikimedia.org>
+Carolyn Li-Madeo <cmadeo@wikimedia.org>
+Amir Sarabadani <ladsgroup@gmail.com>
