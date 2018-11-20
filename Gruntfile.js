@@ -175,7 +175,7 @@ module.exports = function ( grunt ) {
 				options: {
 					type: 'artboards',
 					items: [
-						'WikimediaUI Overview'
+						'WikimediaUI_components-overview'
 					],
 					groupContentsOnly: true,
 					compact: true,
@@ -188,7 +188,7 @@ module.exports = function ( grunt ) {
 					],
 					saveForWeb: true
 				},
-				src: 'resources/WikimediaUI.sketch',
+				src: 'resources/WikimediaUI_components-overview.sketch',
 				dest: 'resources'
 			},
 			wikimediaui_style_guide_imagery_design_principles_svg: {
@@ -208,7 +208,7 @@ module.exports = function ( grunt ) {
 					],
 					saveForWeb: true
 				},
-				src: 'resources/WikimediaUI-Style-Guide-Imagery.sketch',
+				src: 'resources/Wikimedia_Design_Style_Guide-imagery.sketch',
 				dest: 'img/design-principles'
 			},
 			wikimediaui_style_guide_imagery_design_principles_png: {
@@ -228,7 +228,7 @@ module.exports = function ( grunt ) {
 					],
 					saveForWeb: true
 				},
-				src: 'resources/WikimediaUI-Style-Guide-Imagery.sketch',
+				src: 'resources/Wikimedia_Design_Style_Guide-imagery.sketch',
 				dest: 'img/design-principles'
 			},
 			wikimediaui_style_guide_imagery_visual_style_svg: {
@@ -253,7 +253,7 @@ module.exports = function ( grunt ) {
 					],
 					saveForWeb: true
 				},
-				src: 'resources/WikimediaUI-Style-Guide-Imagery.sketch',
+				src: 'resources/Wikimedia_Design_Style_Guide-imagery.sketch',
 				dest: 'img/visual-style'
 			},
 			wikimediaui_style_guide_imagery_visual_style_png: {
@@ -285,7 +285,7 @@ module.exports = function ( grunt ) {
 					],
 					saveForWeb: true
 				},
-				src: 'resources/WikimediaUI-Style-Guide-Imagery.sketch',
+				src: 'resources/Wikimedia_Design_Style_Guide-imagery.sketch',
 				dest: 'img/visual-style'
 			}
 		},
