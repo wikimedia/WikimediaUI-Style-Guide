@@ -141,7 +141,7 @@ module.exports = function ( grunt ) {
 					],
 					saveForWeb: true
 				},
-				src: 'resources/WikimediaUI.sketch',
+				src: 'resources/WikimediaUI-components_overview.sketch',
 				dest: 'img/components'
 			},
 			wikimediaui_components_svg: {
@@ -168,7 +168,7 @@ module.exports = function ( grunt ) {
 					],
 					saveForWeb: true
 				},
-				src: 'resources/WikimediaUI.sketch',
+				src: 'resources/WikimediaUI-components_overview.sketch',
 				dest: 'img/components'
 			},
 			wikimediaui_overview: {
@@ -188,7 +188,7 @@ module.exports = function ( grunt ) {
 					],
 					saveForWeb: true
 				},
-				src: 'resources/WikimediaUI_components-overview.sketch',
+				src: 'resources/WikimediaUI-components_overview.sketch',
 				dest: 'resources'
 			},
 			wikimediaui_style_guide_imagery_design_principles_svg: {
