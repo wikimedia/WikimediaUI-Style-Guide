@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" class="js--off">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta property="og:title" content="Resources - Wikimedia Design Style Guide (WikimediaUI)">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://design.wikimedia.org/style-guide/resources.html">
+	<meta property="og:image" content="https://design.wikimedia.org/style-guide/img/design-principles/content-first.png">
+	<link rel="stylesheet" href="css/build/wmui-style-guide.min.css">
+	<title>Resources – Wikimedia Design Style Guide</title>
+	<script>
+		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
+	</script>
+	<!--[if lt IE 9]>
+	<script>window.html5={'shivCSS':false};</script>
+	<script src="js/vendor/ie/html5shiv-3.7.3.min.js"></script>
+	<![endif]-->
+	<link rel="dns-prefetch" href="https://piwik.wikimedia.org/">
+	<link rel="preload" href="fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
+	<script src="js/wikimedia-design-style-guide.min.js" async></script>
+</head>
+<body class="page--home" vocab="http://schema.org/" typeof="WebPage">
+	<header id="header" class="header" role="banner">
+		<div class="content-box">
+			<a href="#content" class="is-aural is-focusable">Jump to content</a>
+			<a href="#nav--main" class="is-aural is-focusable">Jump to navigation</a>
+			<h1 class="site__title"><a href="./"><span class="site__org">Wikimedia </span><span class="site__project">Design Style Guide</span></a></h1>
+			<label class="btn--nav-main" for="trigger--nav-main" aria-hidden="true" title="Show main menu">
+				<i></i> <span>Menu</span>
+			</label>
+			<a href="https://github.com/wikimedia/WikimediaUI-Style-Guide" class="lnk--contribute" title="Fork and contribute on GitHub"><span>Contribute on </span>GitHub</a>
+		</div>
+	</header>
+	<div class="page">
+		<div class="content-box">
+			<div class="col col--start">
+				<input type="checkbox" id="trigger--nav-main" class="trigger--nav-main">
+				<nav id="nav--main" class="nav nav--main" role="navigation">
+					<ol>
+						<li class="nav__item"><a href="index.html">Introduction</a></li>
+						<li class="nav__item"><a href="design-principles.html">Design principles</a></li>
+						<li class="nav__item"><a href="visual-style.html">Visual style</a>
+						</li>
+						<!-- <li class="nav__item"><a href="components.html">Components</a></li>
+						<li class="nav__item"><a href="patterns.html">Patterns</a></li> -->
+						<li class="nav__item is-on"><a href="resources.html">Resources</a></li>
+					</ol>
+				</nav>
+			</div>
+			<div class="col col--end">
+				<main id="content" class="content" role="main">
+					<h2 class="page__title">Resources</h2>
+					<p>The Wikimedia Design Style Guide does provide principles and guidelines to help answer interaction design questions. </p>
+					<p>Its resources enable designers and developers from our communities build on top, saving valueable time. The files are provided in format of original software (here Sketch and Adobe Illustrator), and also as copy in an open format for use in license-free software.</p>
+					<p>Several listed resources are also hot linked from the related sections, all binary files are part of the GitHub repo in main 'resources' folder. </p>
+					<p>Elements on this page, which are aligning to the principles laid out across the Design Style Guide are labelled “WikimediaUI”.</p>
+					<section id="components">
+						<h2>Components – WikimediaUI theme</h2>
+						<p>Components are meant as building blocks for interfaces of higher complexity. </p>
+						<ul>
+							<li><a href="resources/WikimediaUI-components_overview.sketch" target="_blank" rel="noopener">WikimediaUI components overview, Sketch file</a> (<a href="resources/WikimediaUI-components_overview.svg" target="_blank" rel="noopener">SVG</a> alternative)</li>
+							<li><a href="https://doc.wikimedia.org/oojs-ui/master/demos/#widgets-mediawiki-vector-ltr" target="_blank" rel="noopener">OOUI demo with WikimediaUI theme applied.</a> OOUI is the main user-interface library of Wikimedia Foundation. See its <a href="https://www.mediawiki.org/wiki/OOUI" target="_blank" rel="noopener">documentation for more information</a>.</li>
+						</ul>
+					</section>
+					<section id="icons">
+						<h2>Icons</h2>
+						<ul>
+							<li><a href="resources/WikimediaUI_icons.ai" target="_blank" rel="noopener">Collection of all “WikimediaUI” icons, Adobe Illustrator file</a></li>
+							<li>Template for <a href="visual-style_icons.html#creating-icons">creating new conforming icons</a>, <a href="resources/WikimediaUI-icon_template.ai" target="_blank" rel="noopener">Adobe Illustrator</a>, <a href="resources/WikimediaUI-icon_template.sketch" target="_blank" rel="noopener">Sketch</a>, <a href="resources/WikimediaUI-icon_template.svg" target="_blank" rel="noopener">SVG</a> <br>In 'resources/WikimediaUI-icon_template_SVG_shapes' folder you find specific template forms – circular, diagonal, long, square and tall</li>
+						</ul>
+					</section>
+					<section id="base-style-variables">
+						<h2>Base style variables</h2>
+						<p>For products that are technically bound to other UI libraries or frameworks, we also provide base style variables to implement a “WikimediaUI” look and feel. It provides among other things accessible color palette or best-practice interaction values for animations and transitions and is used for OOUI's main theme.</p>
+						<ul>
+							<li><a href="https://phabricator.wikimedia.org/source/wikimedia-ui-base/" target="_blank" rel="noopener">WikimediaUI Base stylesheet variables</a></li>
+						</ul>
+					</section>
+					<section id="design-style-guide-imagery">
+						<h2>Design Style Guide imagery</h2>
+						<p>Following the “open to collaboration” principle, we also <a href="resources/Wikimedia_Design_Style_Guide-imagery.sketch" target="_blank" rel="noopener">provide the Wikimedia Design Style Guide imagery Sketch file</a> itself, with all creations by <a href="https://www.mediawiki.org/wiki/Design">Design team</a> for guide's sections.</p>
+					</section>
+				</main>
+			</div>
+		</div>
+	</div>
+	<footer id="footer" class="footer">
+		<div class="content-box">
+			<ul class="footer__list">
+				<li><a href="https://github.com/wikimedia/WikimediaUI-Style-Guide">Contribute on GitHub</a></li>
+				<li><a href="https://twitter.com/@WikimediaUX" title="Follow Wikimedia User Experience team account on Twitter">Follow @WikimediaUX</a></li>
+				<li><a href="https://lists.wikimedia.org/mailman/listinfo/design" title="Join Wikimedia Design mailing list">Join mailing list</a></li>
+			</ul>
+			<p>Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener" property="license">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.</p>
+			<p><a href="https://foundation.wikimedia.org/wiki/Non-wiki_privacy_policy">Privacy policy</a></p>
+			<p><a href="https://foundation.wikimedia.org/" class="lnk--wikimedia-project" property="author" typeof="Organization">A Wikimedia Foundation project</a></p>
+			<noscript><p><img src="https://piwik.wikimedia.org/piwik.php?idsite=16&rec=1" alt=""></p></noscript>
+		</div>
+	</footer>
+</body>
+</html>
