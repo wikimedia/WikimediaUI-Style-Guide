@@ -101,6 +101,18 @@ blockquote {
 	line-height: 1.5;
 }
 
+blockquote cite {
+	display: block;
+	margin-top: 0.8rem;
+	font-family: var( --font-family-sans-serif );
+	font-size: 1.4rem;
+	font-style: normal;
+}
+
+	blockquote cite:before {
+		content: '— ';
+	}
+
 hr {
 	background: var( --background-color-hr );
 	display: block;
@@ -165,18 +177,6 @@ a {
 
 	a:active {
 		color: var( --color-primary--active );
-	}
-
-cite {
-	display: block;
-	margin-top: 0.8em;
-	font-family: var( --font-family-sans-serif );
-	font-size: 1.4rem;
-	font-style: normal;
-}
-
-	cite:before {
-		content: '— ';
 	}
 
 code {
