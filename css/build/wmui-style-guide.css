@@ -816,7 +816,7 @@ sup {
 /* ... Main Navigation ... */
 .nav--main {
 	background-color: #fff; /* needed for menu appearance on mobile below */
-	/*margin-top: 6.4rem;*/
+	/* margin-top: 6.4rem; */
 }
 .nav--main li:not( .is-on ) ul,
 .trigger--nav-main {
@@ -889,7 +889,6 @@ sup {
 .page__parent-title {
 	color: #72777d;
 	margin-top: -2.8rem;
-
 }
 .page__title {
 	margin-top: -0.8rem;
@@ -1184,6 +1183,7 @@ sup {
 		transition: left 250ms, right 250ms, transform 250ms;
 		transition: left 250ms, right 250ms, transform 250ms, -webkit-transform 250ms, -moz-transform 250ms;
 	}
+
 	.trigger--nav-main:checked + .nav--main {
 		-webkit-transform: translateY( 0 );
 		   -moz-transform: translateY( 0 );
@@ -1364,6 +1364,7 @@ sup {
 		-moz-transition: width 250ms;
 		transition: width 250ms;
 	}
+
 	.col--end {
 		margin-left: -20.8rem;
 		padding-left: 24rem; /* = 22.4 + (2 * 1.6 padding) */
