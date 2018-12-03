@@ -338,5 +338,5 @@ module.exports = function ( grunt ) {
 
 	grunt.registerTask( 'lint', [ 'eslint', 'stylelint' ] );
 	grunt.registerTask( 'images', [ 'sketch_export', 'svgmin' ] );
-	grunt.registerTask( 'default', [ 'lint', 'concat', 'uglify', 'postcss:dev', 'postcss:min' ] );
+	grunt.registerTask( 'default', [ 'concat', 'uglify', 'postcss:dev', 'postcss:min' ] );
 };
