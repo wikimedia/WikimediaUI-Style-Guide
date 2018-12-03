@@ -125,6 +125,7 @@ p {
 	margin: 3.2rem 0 0;
 	line-height: 1.5;
 }
+
 	h1 + p,
 	h2 + p,
 	h3 + p,
@@ -171,6 +172,7 @@ a {
 	color: var( --color-primary );
 	text-decoration: none;
 }
+
 	a:hover {
 		text-decoration: underline;
 	}
@@ -219,6 +221,7 @@ sup {
 	padding: 0;
 	overflow: hidden;
 }
+
 	.is-aural.is-focusable:active,
 	.is-aural.is-focusable:focus {
 		position: static;
@@ -280,12 +283,14 @@ sup {
 		font-weight: var( --font-weight-base );
 		letter-spacing: 0.5px;
 	}
+
 		.site__title a {
 			color: inherit;
 			display: inline-block;
 			padding: 1.2rem 3.2rem 0;
 			transition: color var( --transition-ease-medium );
 		}
+
 		.site__title a:hover {
 			color: var( --wmui-color-base0 ); /* --color-base-emphasized */
 			text-decoration: none;
@@ -376,9 +381,11 @@ sup {
 	position: relative;
 	min-height: 1px;
 }
+
 	.col--start {
 		padding: 0;
 	}
+
 	.col--end {
 		padding: 0;
 	}
@@ -386,7 +393,7 @@ sup {
 /* ... Main Navigation ... */
 .nav--main {
 	background-color: var( --background-color-base ); /* needed for menu appearance on mobile below */
-	/*margin-top: 6.4rem;*/
+	/* margin-top: 6.4rem; */
 }
 
 .nav--main li:not( .is-on ) ul,
@@ -398,6 +405,7 @@ sup {
 .nav--main ul {
 	padding: 0;
 }
+
 .nav--main ol:first-child {
 	margin: 0;
 }
@@ -419,11 +427,13 @@ sup {
 	text-decoration: none;
 	transition: background-color var( --transition-ease-medium ), color var( --transition-ease-medium ), padding var( --transition-ease-medium );
 }
+
 .nav--main a:hover,
 .nav--main a:focus {
 	background-color: var( --background-color-code );
 	color: var( --color-base--emphasized );
 }
+
 .nav--main .is-on > a {
 	background-color: var( --background-color-primary );
 	color: var( --color-primary );
@@ -438,9 +448,11 @@ sup {
 	margin-top: 1.2rem;
 	margin-bottom: 1em; /* FIXME: replace with rem and mt */
 }
+
 .nav__sub-items li {
 	margin-left: 3.6rem;
 }
+
 .nav--main .nav__sub-items a { /* stylelint-disable-line no-descending-specificity */
 	color: var( --wmui-color-base20 );
 	border-left: var( --border-width-base ) solid var( --wmui-color-base80 );
@@ -462,7 +474,6 @@ sup {
 .page__parent-title {
 	color: var( --color-base--subtle );
 	margin-top: -2.8rem;
-
 }
 
 .page__title {
@@ -804,6 +815,7 @@ sup {
 		transform: translateY( -200% );
 		transition: left var( --transition-ease-medium ), right var( --transition-ease-medium ), transform var( --transition-ease-medium );
 	}
+
 	.trigger--nav-main:checked + .nav--main {
 		transform: translateY( 0 );
 	}
@@ -979,6 +991,7 @@ sup {
 		z-index: 1;
 		transition: width var( --transition-ease-medium );
 	}
+
 	.col--end {
 		margin-left: -20.8rem;
 		padding-left: 24rem; /* = 22.4 + (2 * 1.6 padding) */
