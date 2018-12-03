@@ -1,12 +1,6 @@
 {
-    "extends": "wikimedia",
-    "parserOptions": {
-        "ecmaVersion": 5
-    },
-    "env": {
-        "browser": true,
-        "node": true
-    },
+    "root": true,
+    "extends": "wikimedia/client",
     "rules": {
         "camelcase": [ 2, { "properties": "never" } ]
     }

@@ -1,23 +1,26 @@
 /* eslint-disable vars-on-top, one-var */
-if ( document.head && 'Promise' in window ) {
-	var html = document.documentElement;
+( function () {
 
-	if ( sessionStorage.getItem( 'fontsLoaded' ) ) {
-		html.classList.add( 'fonts-loaded' );
-	} else {
-		var script = document.createElement( 'script' );
-		script.src = './js/vendor/fontfaceobserver/fontfaceobserver.standalone.js';
+	if ( document.head && 'Promise' in window ) {
+		var html = document.documentElement;
 
-		script.onload = function () {
-			var serif = new FontFaceObserver( 'Charter' ); /* eslint-disable-line no-undef */
+		if ( sessionStorage.getItem( 'fontsLoaded' ) ) {
+			html.classList.add( 'fonts-loaded' );
+		} else {
+			var script = document.createElement( 'script' );
+			script.src = './js/vendor/fontfaceobserver/fontfaceobserver.standalone.js';
 
-			Promise.all( [ /* eslint-disable-line no-undef */
-				serif.load()
-			] ).then( function () {
-				html.classList.add( 'fonts-loaded' );
-				sessionStorage.setItem( 'fontsLoaded', 1 );
-			} );
-		};
-		document.head.appendChild( script );
+			script.onload = function () {
+				var serif = new FontFaceObserver( 'Charter' ); /* eslint-disable-line no-undef */
+
+				Promise.all( [ /* eslint-disable-line no-undef */
+					serif.load()
+				] ).then( function () {
+					html.classList.add( 'fonts-loaded' );
+					sessionStorage.setItem( 'fontsLoaded', 1 );
+				} );
+			};
+			document.head.appendChild( script );
+		}
 	}
-}
+}() );
