@@ -1,3 +1,5 @@
+/* eslint-env node */
+
 /*!
  * Grunt file
  */
