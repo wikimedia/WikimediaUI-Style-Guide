@@ -14,8 +14,6 @@
 	--border-color-heading: var( --wmui-color-base80 );
 	--border-style-base: solid;
 	--border-width-heading: 3px;
-	/* HACK: Add system font stack var as long as WikimediaUI Base isn't updated */
-	--font-family-sans-serif: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Oxygen-Sans', Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif; /* stylelint-disable-line value-keyword-case */
 	/* HACK; Add Georgia to serif fallback as long as WikimediaUI Base isn't updated */
 	--font-family-serif--fallback: Georgia, serif; /* stylelint-disable-line value-keyword-case */
 	--font-weight-base: 400;
@@ -35,7 +33,7 @@ body {
 	background-color: var( --wmui-color-base80 ); /* FIXME: var; */
 	color: var( --color-base );
 	margin: 0;
-	font-family: var( --font-family-sans-serif );
+	font-family: var( --font-family-system-sans );
 	font-size: 1.6rem;
 	line-height: var( --line-height-base );
 }
@@ -104,7 +102,7 @@ blockquote {
 blockquote cite {
 	display: block;
 	margin-top: 0.8rem;
-	font-family: var( --font-family-sans-serif );
+	font-family: var( --font-family-system-sans );
 	font-size: 1.4rem;
 	font-style: normal;
 }
@@ -112,6 +110,12 @@ blockquote cite {
 	blockquote cite:before {
 		content: '— ';
 	}
+
+code,
+pre,
+.mw-code {
+	font-family: var( --font-family-monospace );
+}
 
 hr {
 	background: var( --background-color-hr );
@@ -140,6 +144,16 @@ p {
 	blockquote + p {
 		margin-top: 1.6rem;
 	}
+
+pre,
+.mw-code {
+	background-color: var( --background-color-code );
+	color: var( --color-base--emphasized );
+	border: var( --border-base );
+	padding: 1.2rem;
+	font-size: 1.4rem;
+	white-space: pre-wrap;
+}
 
 /* ... Lists ... */
 ol,
@@ -186,17 +200,6 @@ code {
 	display: inline-block;
 	padding: 0.2rem 0.4rem;
 	font-size: 1.4rem;
-}
-
-pre,
-.mw-code {
-	background-color: var( --background-color-code );
-	color: var( --color-base--emphasized );
-	border: var( --border-base );
-	border-color: var( --color-base--subtle );
-	padding: 1.2rem;
-	font-size: 1.4rem;
-	white-space: pre-wrap;
 }
 
 small {
@@ -278,7 +281,7 @@ sup {
 		color: var( --wmui-color-base10 );
 		margin-top: 0;
 		height: 6.4rem;
-		font-family: var( --font-family-sans-serif );
+		font-family: var( --font-family-system-sans );
 		font-size: 1.6rem;
 		font-weight: var( --font-weight-base );
 		letter-spacing: 0.5px;
@@ -668,7 +671,7 @@ sup {
 		background-color: inherit;
 		display: block;
 		padding: 0;
-		font-family: var( --font-family-sans-serif );
+		font-family: var( --font-family-system-sans );
 	}
 
 		.color-code--hsb {
@@ -791,7 +794,7 @@ sup {
 .fonts-loaded cite,
 .fonts-loaded .site__title,
 .fonts-loaded .color-code {
-	font-family: var( --font-family-sans-serif );
+	font-family: var( --font-family-system-sans );
 }
 
 /* ::: Text Block-Level Elements ::: */
