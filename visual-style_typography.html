@@ -129,7 +129,7 @@
 						<p><b>Lack of a font delivery mechanism.</b> In cases where custom fonts cannot be delivered to the user (e.g., through web fonts technology), you need to define alternatives. Default fonts such as Lato and Charter/Charis can still be recommended as primary options for users that installed those fonts themselves. A wider set of fallback options from those available in the user device/operating system may be needed. Possible fallback options:</p>
 						<ul>
 							<li><b><a href="https://en.wikipedia.org/wiki/Georgia_(typeface)">Georgia</a></b> (present in many operating systems) can be a fallback for Charter.</li>
-							<li><b>Operating system default sans-serif font</b> would be used in the absence of Lato. <br>The CSS equivalent code is <code>font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Oxygen-Sans', Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;</code></li>
+							<li><b>Operating system default sans-serif font</b> would be used in the absence of Lato. <br>The CSS equivalent code is <pre>font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Oxygen-Sans', Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;</pre></li>
 						</ul>
 						<p><b>Language support.</b> There is no font that supports all languages. Individual language communities can identify fonts that better support their languages, taking into account the above criteria. Possible fallback option incude:</p>
 						<ul>
@@ -190,7 +190,7 @@
 							</dd>
 							<dt>Code</dt>
 							<dd>
-								<pre><span style="color:#72777d;">&lt;!-- monospace 14px --&gt;</span><br>&lt;a href="https://www.wikipedia.org/"&gt;A link to Wikipedia!&lt;/a&gt;</pre>
+								<pre><span style="color:#72777d;">'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier New', monospace 14px</span><br>&lt;a href="https://www.wikipedia.org/"&gt;A link to Wikipedia!&lt;/a&gt;</pre>
 							</dd>
 						</dl>
 					</section>
