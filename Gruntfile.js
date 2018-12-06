@@ -31,9 +31,11 @@ module.exports = function ( grunt ) {
 			} )
 		],
 		// With minifier
-		postCssProcessorsMin = postCssProcessorsDev.concat( [ require( 'cssnano' )() ] );
+		postCssProcessorsMin = postCssProcessorsDev.concat( [ require( 'cssnano' )() ] ),
+		zopfli = require( 'imagemin-zopfli' );
 
 	grunt.loadNpmTasks( 'grunt-contrib-concat' );
+	grunt.loadNpmTasks( 'grunt-contrib-imagemin' );
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 	grunt.loadNpmTasks( 'grunt-contrib-uglify' );
 	grunt.loadNpmTasks( 'grunt-eslint' );
@@ -293,6 +295,16 @@ module.exports = function ( grunt ) {
 		},
 
 		// Image Optimization
+		imagemin: {
+			distPngs: {
+				options: {
+					use: [ zopfli() ]
+				},
+				expand: true,
+				src: 'img/**/*.png'
+			}
+		},
+
 		svgmin: {
 			options: {
 				js2svg: {
