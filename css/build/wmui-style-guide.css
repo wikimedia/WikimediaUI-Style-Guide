@@ -1089,19 +1089,11 @@ sup {
 		font-size: 2.1rem;
 		font-weight: 400;
 	}
-.resources-table__body .resources-table__cell {
-	-webkit-transition: background-color 250ms;
-	-moz-transition: background-color 250ms;
-	transition: background-color 250ms;
-}
-.resources-table__body:hover .resources-table__cell {
-		background-color: #f8f9fa;
-	}
 .resources-table__cell {
 	display: table-cell;
 	padding: 1.6rem 1.6rem 1.6rem 0;
 }
-.resources-table__cell:first-child {
+.resources-table__head .resources-table__cell:first-child {
 		padding-left: 1.6rem;
 	}
 .lnk-resource {
@@ -1246,6 +1238,32 @@ sup {
 		display: block;
 		margin-left: 0;
 	}
+
+	/* ... Resources ... */
+	.resources-table,
+	.resources-table__head,
+	.resources-table__body,
+	.resources-table__cell {
+		display: block;
+	}
+
+	.resources-table__head {
+		margin-left: -1.6rem;
+		margin-right: -1.6rem;
+	}
+
+	.resources-table__head .resources-table__cell:empty {
+		display: none;
+	}
+
+	.resources-table__body {
+		padding-left: 0;
+	}
+
+	.resources-table__cell {
+		padding-top: 0.8rem;
+		padding-bottom: 0.8rem;
+	}
 }
 /* ... Smartphone portrait ... */
 @media ( min-width: 240px ) {
@@ -1279,7 +1297,8 @@ sup {
 		width: 100%;
 	}
 
-	.figure--full {
+	.figure--full,
+	.resources-table__head {
 		margin-left: -1.6rem;
 		margin-right: -1.6rem;
 	}
@@ -1323,7 +1342,8 @@ sup {
 			padding-right: 3.2rem;
 		}
 
-	.figure--full {
+	.figure--full,
+	.resources-table__head {
 		margin-left: -3.2rem;
 		margin-right: -3.2rem;
 	}
@@ -1331,6 +1351,11 @@ sup {
 	.figure--full .figure__caption {
 		margin-left: 3.2rem;
 		margin-right: 3.2rem;
+	}
+
+	.resources-table__head .resources-table__cell:first-child {
+		padding-left: 3.2rem;
+		padding-right: 3.2rem;
 	}
 
 	.footer__list li {
@@ -1493,6 +1518,22 @@ sup {
 	.color-section .color:nth-child( 3n+4 ) {
 		clear: both;
 	}
+
+	/* ... Resources ... */
+	.resources-table__body .resources-table__cell {
+		-webkit-transition: background-color 250ms;
+		-moz-transition: background-color 250ms;
+		transition: background-color 250ms;
+	}
+
+		.resources-table__body:hover .resources-table__cell {
+			background-color: #f8f9fa;
+		}
+
+		.resources-table__head .resources-table__cell:first-child,
+		.resources-table__body .resources-table__cell:first-child {
+			padding-left: 1.6rem;
+		}
 }
 @media ( min-width: 1200px ) {
 	.content-box {
