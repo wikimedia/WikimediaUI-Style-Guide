@@ -12,7 +12,6 @@
 	--width-site: 960px;
 	--width-site-desktop-wide: 1140px;
 	--border-color-heading: var( --wmui-color-base80 );
-	--border-style-base: solid;
 	--border-width-heading: 3px;
 	/* HACK; Add Georgia to serif fallback as long as WikimediaUI Base isn't updated */
 	--font-family-serif--fallback: Georgia, serif; /* stylelint-disable-line value-keyword-case */
