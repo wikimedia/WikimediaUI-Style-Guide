@@ -129,7 +129,18 @@
 						<p><b>Lack of a font delivery mechanism.</b> In cases where custom fonts cannot be delivered to the user (e.g., through web fonts technology), you need to define alternatives. Default fonts such as Lato and Charter/Charis can still be recommended as primary options for users that installed those fonts themselves. A wider set of fallback options from those available in the user device/operating system may be needed. Possible fallback options:</p>
 						<ul>
 							<li><b><a href="https://en.wikipedia.org/wiki/Georgia_(typeface)">Georgia</a></b> (present in many operating systems) can be a fallback for Charter.</li>
-							<li><b>Operating system default sans-serif font</b> would be used in the absence of Lato. <br>The CSS equivalent code is <pre>font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Oxygen-Sans', Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;</pre></li>
+							<li><b>Operating system default sans-serif typefaces aka system fonts</b> would be used when performance of web font loading, cross-language issues come into play or in the absence of Lato. <br>Equivalent CSS code is <pre><span style="color:#72777d;">/**
+ * System font stack
+ *
+ * `-apple-system` – Support: Safari for OS X and iOS ('San Francisco')
+ * `BlinkMacSystemFont` – Chrome < 56 for OS X ('San Francisco')
+ * `Segoe UI` – Windows Vista & newer
+ * `Roboto` – Android
+ * `Lato` – Wikimedia Design choice
+ * `Helvetica Neue, Helvetica, Arial, sans-serif` – (Generic) Web fallback
+ * Note that standard `system-ui` value has resulted in unresolved side-effects in certain OS/language combinations as of now and is therefore not included.
+ */</span>
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;</pre></li>
 						</ul>
 						<p><b>Language support.</b> There is no font that supports all languages. Individual language communities can identify fonts that better support their languages, taking into account the above criteria. Possible fallback option incude:</p>
 						<ul>
