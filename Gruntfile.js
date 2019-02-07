@@ -308,6 +308,7 @@ module.exports = function ( grunt ) {
 		svgmin: {
 			options: {
 				js2svg: {
+					indent: '\t',
 					pretty: true
 				},
 				plugins: [ {
