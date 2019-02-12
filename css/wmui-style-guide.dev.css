@@ -903,7 +903,8 @@ sup {
 	.content-box,
 	.site__title a,
 	.nav--main a {
-		transition: padding var( --transition-ease-medium );
+		transition-property: background-color, padding;
+		transition-duration: var( --transition-ease-medium );
 	}
 
 	.site__title {
