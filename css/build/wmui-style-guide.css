@@ -1270,9 +1270,12 @@ sup {
 	.content-box,
 	.site__title a,
 	.nav--main a {
-		-webkit-transition: padding 250ms;
-		-moz-transition: padding 250ms;
-		transition: padding 250ms;
+		-webkit-transition-property: background-color, padding;
+		-moz-transition-property: background-color, padding;
+		transition-property: background-color, padding;
+		-webkit-transition-duration: 250ms;
+		   -moz-transition-duration: 250ms;
+		        transition-duration: 250ms;
 	}
 
 	.site__title {
