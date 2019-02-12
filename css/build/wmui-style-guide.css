@@ -865,7 +865,6 @@ sup {
 	     border-radius: 2px;
 	font-weight: 700;
 	cursor: default;
-	pointer-events: none;
 }
 .nav__sub-items {
 	margin-top: 1.2rem;
