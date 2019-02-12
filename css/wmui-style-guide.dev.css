@@ -443,7 +443,6 @@ sup {
 	border-radius: var( --border-radius-base );
 	font-weight: var( --font-weight-bold );
 	cursor: default;
-	pointer-events: none;
 }
 
 .nav__sub-items {
