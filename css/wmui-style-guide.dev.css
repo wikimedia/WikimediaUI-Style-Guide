@@ -492,6 +492,10 @@ sup {
 	font-weight: 100;
 }
 
+.paragraph__lead {
+	font-size: 1.8rem;
+}
+
 .figure__caption {
 	color: var( --color-base--subtle );
 	clear: both;
