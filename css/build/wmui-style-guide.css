@@ -907,6 +907,9 @@ sup {
 	font-style: italic;
 	font-weight: 100;
 }
+.paragraph__lead {
+	font-size: 1.8rem;
+}
 .figure__caption {
 	color: #72777d;
 	clear: both;
