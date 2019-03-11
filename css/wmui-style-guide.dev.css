@@ -786,21 +786,27 @@ sup {
 	display: inline-block;
 	color: var( --color-base--subtle );
 	min-width: 10rem;
-	margin: 3.2rem 0 0 1.6rem;
+	margin: 0 0 3.2rem 1.6rem; /* Need to rely on `margin-bottom` here for vertical alignment */
 	font-size: 1.3rem;
 	font-weight: var( --font-weight-bold );
+	vertical-align: top;
 }
 
-.typography-styles dt:first-child {
-	margin-top: 0;
+.typography-styles .typography-styles__code {
+	margin-bottom: 0;
 }
 
 .typography-styles dd {
 	display: inline;
 }
 
-.typography-styles dd * {
+.typography-styles dd > * {
 	display: inline-block;
+	margin-top: 0; /* Remove `margin` from elements like paragraphs and list elements */
+}
+
+.typography-styles .figure__caption {
+	padding-top: 0; /* Remove `padding` from elements like figure caption */
 }
 
 .typography-styles dd:after {
