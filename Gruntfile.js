@@ -179,7 +179,7 @@ module.exports = function ( grunt ) {
 				options: {
 					type: 'artboards',
 					items: [
-						'WikimediaUI_components-overview'
+						'WikimediaUI-components_overview'
 					],
 					groupContentsOnly: true,
 					compact: true,
