@@ -1,252 +1,252 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1828" height="1464" viewBox="0 0 1828 1464">
-    <g fill="none" fill-rule="evenodd">
-        <path fill="#FFF" d="M-1757-1431h14720v3264H-1757z"/>
-        <g transform="translate(241 766.4)">
-            <rect width="176" height="128" x="1037" y="58" fill="#AC6600" rx="2"/>
-            <text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="1055" y="92">#ac6600</tspan> <tspan x="1055" y="111">RGB 172, 102, 0</tspan> <tspan x="1055" y="130">HSB 36, 100%, 67%</tspan> <tspan x="1055" y="168">AA</tspan>
-            </text>
-            <rect width="160" height="160" x="878" y="25" fill="#FC3" rx="2"/>
-            <text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="894" y="92">#fc3</tspan> <tspan x="894" y="111">RGB 255, 204, 51</tspan> <tspan x="894" y="130">HSB 45, 80%, 100%</tspan> <tspan x="894" y="168">AAA</tspan>
-            </text>
-            <path fill="#FEF6E7" d="M702 68.008c0-1.11.905-2.008 2.007-2.008h171.986c1.108 0 2.007.897 2.007 2.008v115.984a2.011 2.011 0 0 1-2.007 2.008H704.007a2.006 2.006 0 0 1-2.007-2.008V68.008z"/>
-            <text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="718" y="92">#fef6e7</tspan> <tspan x="718" y="111">RGB 254, 246, 231</tspan> <tspan x="718" y="130">HSB 39, 9%, 100%</tspan> <tspan x="718" y="168">AAA</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="894" y="14">Yellow50</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="1054" y="14">Yellow30</tspan>
-            </text>
-            <rect width="160" height="160" x="176" y="25" fill="#00AF89" rx="2"/>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="191" y="14">Green50</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="351" y="14">Green30</tspan>
-            </text>
-            <text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="191" y="92">#00af89</tspan> <tspan x="191" y="111">RGB 0, 175, 137</tspan> <tspan x="191" y="130">HSB 167,100%,69%</tspan> <tspan x="191" y="168">AA</tspan>
-            </text>
-            <rect width="176" height="120" x="336" y="65" fill="#14866D" rx="2"/>
-            <rect width="176" height="128" y="57" fill="#D5FDF4" rx="2"/>
-            <text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="15" y="92">#d5fdf4</tspan> <tspan x="15" y="111">RGB 213, 253, 244</tspan> <tspan x="15" y="130">HSB 167, 16%, 99%</tspan> <tspan x="15" y="168">AAA</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="718" y="14">Yellow90</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="15" y="14">Green90</tspan>
-            </text>
-            <text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="351" y="92">#14866d</tspan> <tspan x="351" y="111">RGB 20, 134, 109</tspan> <tspan x="351" y="130">HSB 167, 85%, 53%</tspan> <tspan x="351" y="168">AA</tspan>
-            </text>
-            <text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
-                <tspan x="189" y="223">Secondary link highlight</tspan> <tspan x="189" y="241.8">Positive messages</tspan>
-            </text>
-            <text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
-                <tspan x="889" y="223">Warning messages</tspan>
-            </text>
-        </g>
-        <g transform="translate(0 -9.6)">
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="36" font-weight="bold">
-                <tspan x="2" y="36">COLOR</tspan> <tspan x="2" y="80">PALETTE</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" transform="translate(4 134)">
-                <tspan x="0" y="13">BASE COLORS</tspan>
-            </text>
-            <path stroke="#222" stroke-linecap="square" d="M193.484 157.5H4.516M183.5 96.5H.5"/>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" transform="translate(2 458)">
-                <tspan x="0" y="13">ACCENT COLORS</tspan>
-            </text>
-            <path stroke="#222" stroke-linecap="square" d="M191.484 481.5H2.516"/>
-            <rect width="160" height="160" x="416" y="482" fill="#36C" rx="2"/>
-            <text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
-                <tspan x="432" y="670">Primary buttons</tspan> <tspan x="432" y="688.8">Links </tspan> <tspan x="432" y="707.6">Page accents</tspan> <tspan x="432" y="726.4">Focus outlines</tspan>
-            </text>
-            <text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
-                <tspan x="591" y="670">Active buttons</tspan> <tspan x="591" y="688.8">Active links </tspan>
-            </text>
-            <rect width="176" height="120" x="240" y="522" fill="#EAF3FF" rx="2"/>
-            <rect width="160" height="160" x="1119" y="482" fill="#D33" rx="2"/>
-            <rect width="176" height="128" x="943" y="514" fill="#FEE7E6" rx="2"/>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="591" y="471">Accent30</tspan>
-            </text>
-            <text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="432" y="510">Progressive</tspan> <tspan x="432" y="548">#36c</tspan> <tspan x="432" y="567">RGB 51, 102, 204</tspan> <tspan x="432" y="586">HSB 220, 75%, 80%</tspan> <tspan x="432" y="624">AA</tspan>
-            </text>
-            <text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="256" y="548">#eaf3ff</tspan> <tspan x="256" y="567">RGB 234, 243, 255</tspan> <tspan x="256" y="586">HSB 214, 8%, 100%</tspan> <tspan x="256" y="624">AAA</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="256" y="147">Base100</tspan>
-            </text>
-            <text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="959" y="548">#fee7e6</tspan> <tspan x="959" y="567">RGB 255, 231, 230</tspan> <tspan x="959" y="586">HSB 2, 10%, 100%</tspan> <tspan x="959" y="624">AAA</tspan>
-            </text>
-            <text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="1130" y="510">Destructive</tspan> <tspan x="1130" y="548">#d33</tspan> <tspan x="1130" y="567">RGB 221, 51, 51</tspan> <tspan x="1130" y="586">HSB 360, 77%, 87%</tspan> <tspan x="1130" y="624">AA</tspan>
-            </text>
-            <text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="1157" y="624">AA</tspan>
-            </text>
-            <rect width="176" height="128" x="1279" y="514" fill="#B32424" rx="2"/>
-            <text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="1295" y="548">#b32424</tspan> <tspan x="1295" y="567">RGB 135, 54, 54</tspan> <tspan x="1295" y="586">HSB 360, 60%, 53%</tspan> <tspan x="1295" y="624">AAA</tspan>
-            </text>
-            <rect width="176" height="120" x="576" y="522" fill="#2A4B8D" rx="2"/>
-            <text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="592" y="548">#2a4b8d</tspan> <tspan x="592" y="567">RGB 42, 75, 141</tspan> <tspan x="592" y="586">HSB 220, 70%, 55%</tspan> <tspan x="592" y="624">AAA</tspan>
-            </text>
-            <text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
-                <tspan x="1129" y="671">Destructive actions –</tspan> <tspan x="1129" y="689.8">Buttons and Links</tspan> <tspan x="1129" y="708.6">Alerts</tspan>
-            </text>
-            <text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
-                <tspan x="1295" y="668">Destructive active </tspan> <tspan x="1295" y="686.8">buttons and links</tspan>
-            </text>
-            <text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
-                <tspan x="256" y="670">Hovered buttons</tspan> <tspan x="256" y="688.8">Active menu </tspan> <tspan x="256" y="707.6">items backgrounds</tspan>
-            </text>
-        </g>
-        <g transform="translate(5 123.4)">
-            <rect width="160.001" height="160" x="235" y="25" fill="#FFF" rx="2"/>
-            <text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
-                <tspan x="251" y="214">Base background</tspan> <tspan x="251" y="232.8">Highlight from grey</tspan>
-            </text>
-            <text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
-                <tspan x="603" y="214">Disabled text input </tspan> <tspan x="603" y="232.8">background</tspan>
-            </text>
-            <text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="251" y="92">#fff</tspan> <tspan x="251" y="111">RGB 255, 255, 255</tspan> <tspan x="251" y="130">HSB 0, 0%, 100%</tspan> <tspan x="251" y="168">AAA</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="251" y="338">Accent90</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="426" y="338">Accent50 </tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="954" y="338">Red90</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="1130" y="338">Red50</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="1290" y="338">Red30</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="427" y="14">Base90</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="603" y="14">Base80</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="779" y="14">Base70</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="955" y="14">Base50</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="1131" y="14">Base30</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="1307" y="14">Base20</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="1483" y="14">Base10</tspan>
-            </text>
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="1659" y="14">Base0</tspan>
-            </text>
-            <rect width="160" height="160" x="411" y="25" fill="#F8F9FA" rx="2"/>
-            <text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
-                <tspan x="427" y="214">Button/3D widget </tspan> <tspan x="427" y="232.8">background</tspan>
-            </text>
-            <text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="427" y="92">#f8f9fa</tspan> <tspan x="427" y="111">RGB 248, 249, 250</tspan> <tspan x="427" y="130">HSB 210, 1%, 98%</tspan> <tspan x="427" y="168">AAA</tspan>
-            </text>
-            <rect width="160" height="160" x="587" y="25" fill="#EAECF0" rx="2"/>
-            <text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="603" y="92">#eaecf0</tspan> <tspan x="603" y="111">RGB 234, 236, 240</tspan> <tspan x="603" y="130">HSB 220, 3%, 94%</tspan> <tspan x="603" y="168">AAA</tspan>
-            </text>
-            <rect width="160" height="160" x="763" y="25" fill="#C8CCD1" rx="2"/>
-            <text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="779" y="92">#c8ccd1</tspan> <tspan x="779" y="111">RGB 200, 204, 209</tspan> <tspan x="779" y="130">HSB 213, 4%, 82%</tspan> <tspan x="779" y="168">AAA</tspan>
-            </text>
-            <rect width="160" height="160" x="939" y="25" fill="#A2A9B1" rx="2"/>
-            <text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="955" y="92">#a2a9b1</tspan> <tspan x="955" y="111">RGB 162, 169, 177</tspan> <tspan x="955" y="130">HSB 212, 8%, 69%</tspan> <tspan x="955" y="168">AAA</tspan>
-            </text>
-            <rect width="160" height="160" x="1115" y="25" fill="#72777D" rx="2"/>
-            <text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="1131" y="92">#72777d</tspan> <tspan x="1131" y="111">RGB 114, 119, 125</tspan> <tspan x="1131" y="130">HSB 210, 9%, 49%</tspan> <tspan x="1131" y="168">AA </tspan>
-            </text>
-            <text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="1153" y="168">AA</tspan>
-            </text>
-            <rect width="160" height="160" x="1291" y="25" fill="#54595D" rx="2"/>
-            <text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="1307" y="92">#54595d</tspan> <tspan x="1307" y="111">RGB 84, 89, 93</tspan> <tspan x="1307" y="130">HSB 207, 10%, 36%</tspan> <tspan x="1307" y="168">AAA</tspan>
-            </text>
-            <rect width="160" height="160" x="1467" y="25" fill="#222" rx="2"/>
-            <text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="1483" y="92">#222</tspan> <tspan x="1483" y="111">RGB 34, 34, 34</tspan> <tspan x="1483" y="130">HSB 0, 0%, 13%</tspan> <tspan x="1483" y="168">AAA</tspan>
-            </text>
-            <rect width="160" height="160" x="1643" y="25" fill="#000" rx="2"/>
-            <text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="1659" y="92">#000</tspan> <tspan x="1659" y="111">RGB 0, 0, 0</tspan> <tspan x="1659" y="130">HSB 0, 0%, 0%</tspan> <tspan x="1659" y="168">AAA</tspan>
-            </text>
-            <text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
-                <tspan x="779" y="214">Disabled button/3D </tspan> <tspan x="779" y="232.8">widget background </tspan>
-            </text>
-            <text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
-                <tspan x="955" y="214">Highlighted border</tspan>
-            </text>
-            <text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
-                <tspan x="1131" y="213">Disabled elements text</tspan> <tspan x="1131" y="231.8">Placeholder text</tspan> <tspan x="1131" y="250.6">Active border</tspan>
-            </text>
-            <text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
-                <tspan x="1483" y="213">Copy color</tspan> <tspan x="1483" y="231.8">Buttons/widgets text</tspan>
-            </text>
-            <text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
-                <tspan x="1659" y="213">Emphasized copy color</tspan> <tspan x="1659" y="231.8">Active button/widgets text</tspan>
-            </text>
-            <text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
-                <tspan x="1307" y="213">Emphasized secondary </tspan> <tspan x="1307" y="231.8">text at level AAA need</tspan>
-            </text>
-            <text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
-                <tspan x="0" y="168">WCAG 2.0 conformance level:</tspan> <tspan x="0" y="186.8">(with white/black)</tspan>
-            </text>
-        </g>
-        <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" transform="translate(2 768.4)">
-            <tspan x="0" y="13">SUPPLEMENTARY COLORS</tspan>
-        </text>
-        <path stroke="#222" stroke-linecap="square" d="M191.484 791.9H2.516"/>
-        <g transform="translate(5 1088.4)">
-            <text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
-                <tspan x="0" y="13">BACKGROUND COLORS</tspan>
-            </text>
-            <path stroke="#222" stroke-linecap="square" d="M189.484 23.5H.516"/>
-            <rect width="511" height="351" x="235.5" y="23.5" fill="#F8F9FA" stroke="#C8CCD1" rx="2"/>
-            <rect width="416" height="256" x="283" y="71" fill="#FFF" rx="2"/>
-            <rect width="320" height="160" x="331" y="119" fill="#EAECF0" rx="2"/>
-            <path fill="#C8CCD1" d="M379 169.003c0-1.106.903-2.003 2.005-2.003h219.99a2.01 2.01 0 0 1 2.005 2.003v59.994a2.007 2.007 0 0 1-2.005 2.003h-219.99a2.01 2.01 0 0 1-2.005-2.003v-59.994z"/>
-            <text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="435" y="359">Layer 1: #f8f9fa</tspan>
-            </text>
-            <text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="435" y="312">Layer 2: #fff</tspan>
-            </text>
-            <text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="435" y="264">Layer 3: #eaecf0</tspan>
-            </text>
-            <text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
-                <tspan x="435" y="214">Layer 4: #c8ccd1</tspan>
-            </text>
-        </g>
-    </g>
+	<g fill="none" fill-rule="evenodd">
+		<path fill="#FFF" d="M-1757-1431h14720v3264H-1757z"/>
+		<g transform="translate(241 766.4)">
+			<rect width="176" height="128" x="1037" y="58" fill="#AC6600" rx="2"/>
+			<text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="1055" y="92">#ac6600</tspan> <tspan x="1055" y="111">RGB 172, 102, 0</tspan> <tspan x="1055" y="130">HSB 36, 100%, 67%</tspan> <tspan x="1055" y="168">AA</tspan>
+			</text>
+			<rect width="160" height="160" x="878" y="25" fill="#FC3" rx="2"/>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="894" y="92">#fc3</tspan> <tspan x="894" y="111">RGB 255, 204, 51</tspan> <tspan x="894" y="130">HSB 45, 80%, 100%</tspan> <tspan x="894" y="168">AAA</tspan>
+			</text>
+			<path fill="#FEF6E7" d="M702 68.008c0-1.11.905-2.008 2.007-2.008h171.986c1.108 0 2.007.897 2.007 2.008v115.984a2.011 2.011 0 0 1-2.007 2.008H704.007a2.006 2.006 0 0 1-2.007-2.008V68.008z"/>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="718" y="92">#fef6e7</tspan> <tspan x="718" y="111">RGB 254, 246, 231</tspan> <tspan x="718" y="130">HSB 39, 9%, 100%</tspan> <tspan x="718" y="168">AAA</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="894" y="14">Yellow50</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="1054" y="14">Yellow30</tspan>
+			</text>
+			<rect width="160" height="160" x="176" y="25" fill="#00AF89" rx="2"/>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="191" y="14">Green50</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="351" y="14">Green30</tspan>
+			</text>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="191" y="92">#00af89</tspan> <tspan x="191" y="111">RGB 0, 175, 137</tspan> <tspan x="191" y="130">HSB 167,100%,69%</tspan> <tspan x="191" y="168">AA</tspan>
+			</text>
+			<rect width="176" height="120" x="336" y="65" fill="#14866D" rx="2"/>
+			<rect width="176" height="128" y="57" fill="#D5FDF4" rx="2"/>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="15" y="92">#d5fdf4</tspan> <tspan x="15" y="111">RGB 213, 253, 244</tspan> <tspan x="15" y="130">HSB 167, 16%, 99%</tspan> <tspan x="15" y="168">AAA</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="718" y="14">Yellow90</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="15" y="14">Green90</tspan>
+			</text>
+			<text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="351" y="92">#14866d</tspan> <tspan x="351" y="111">RGB 20, 134, 109</tspan> <tspan x="351" y="130">HSB 167, 85%, 53%</tspan> <tspan x="351" y="168">AA</tspan>
+			</text>
+			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+				<tspan x="189" y="223">Secondary link highlight</tspan> <tspan x="189" y="241.8">Positive messages</tspan>
+			</text>
+			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+				<tspan x="889" y="223">Warning messages</tspan>
+			</text>
+		</g>
+		<g transform="translate(0 -9.6)">
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="36" font-weight="bold">
+				<tspan x="2" y="36">COLOR</tspan> <tspan x="2" y="80">PALETTE</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" transform="translate(4 134)">
+				<tspan x="0" y="13">BASE COLORS</tspan>
+			</text>
+			<path stroke="#222" stroke-linecap="square" d="M193.484 157.5H4.516m178.984-61H.5"/>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" transform="translate(2 458)">
+				<tspan x="0" y="13">ACCENT COLORS</tspan>
+			</text>
+			<path stroke="#222" stroke-linecap="square" d="M191.484 481.5H2.516"/>
+			<rect width="160" height="160" x="416" y="482" fill="#36C" rx="2"/>
+			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+				<tspan x="432" y="670">Primary buttons</tspan> <tspan x="432" y="688.8">Links </tspan> <tspan x="432" y="707.6">Page accents</tspan> <tspan x="432" y="726.4">Focus outlines</tspan>
+			</text>
+			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+				<tspan x="591" y="670">Active buttons</tspan> <tspan x="591" y="688.8">Active links </tspan>
+			</text>
+			<rect width="176" height="120" x="240" y="522" fill="#EAF3FF" rx="2"/>
+			<rect width="160" height="160" x="1119" y="482" fill="#D33" rx="2"/>
+			<rect width="176" height="128" x="943" y="514" fill="#FEE7E6" rx="2"/>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="591" y="471">Accent30</tspan>
+			</text>
+			<text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="432" y="510">Progressive</tspan> <tspan x="432" y="548">#36c</tspan> <tspan x="432" y="567">RGB 51, 102, 204</tspan> <tspan x="432" y="586">HSB 220, 75%, 80%</tspan> <tspan x="432" y="624">AA</tspan>
+			</text>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="256" y="548">#eaf3ff</tspan> <tspan x="256" y="567">RGB 234, 243, 255</tspan> <tspan x="256" y="586">HSB 214, 8%, 100%</tspan> <tspan x="256" y="624">AAA</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="256" y="147">Base100</tspan>
+			</text>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="959" y="548">#fee7e6</tspan> <tspan x="959" y="567">RGB 255, 231, 230</tspan> <tspan x="959" y="586">HSB 2, 10%, 100%</tspan> <tspan x="959" y="624">AAA</tspan>
+			</text>
+			<text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="1130" y="510">Destructive</tspan> <tspan x="1130" y="548">#d33</tspan> <tspan x="1130" y="567">RGB 221, 51, 51</tspan> <tspan x="1130" y="586">HSB 360, 77%, 87%</tspan> <tspan x="1130" y="624">AA</tspan>
+			</text>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="1157" y="624">AA</tspan>
+			</text>
+			<rect width="176" height="128" x="1279" y="514" fill="#B32424" rx="2"/>
+			<text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="1295" y="548">#b32424</tspan> <tspan x="1295" y="567">RGB 135, 54, 54</tspan> <tspan x="1295" y="586">HSB 360, 60%, 53%</tspan> <tspan x="1295" y="624">AAA</tspan>
+			</text>
+			<rect width="176" height="120" x="576" y="522" fill="#2A4B8D" rx="2"/>
+			<text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="592" y="548">#2a4b8d</tspan> <tspan x="592" y="567">RGB 42, 75, 141</tspan> <tspan x="592" y="586">HSB 220, 70%, 55%</tspan> <tspan x="592" y="624">AAA</tspan>
+			</text>
+			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+				<tspan x="1129" y="671">Destructive actions –</tspan> <tspan x="1129" y="689.8">Buttons and Links</tspan> <tspan x="1129" y="708.6">Alerts</tspan>
+			</text>
+			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+				<tspan x="1295" y="668">Destructive active </tspan> <tspan x="1295" y="686.8">buttons and links</tspan>
+			</text>
+			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+				<tspan x="256" y="670">Hovered buttons</tspan> <tspan x="256" y="688.8">Active menu </tspan> <tspan x="256" y="707.6">items backgrounds</tspan>
+			</text>
+		</g>
+		<g transform="translate(5 123.4)">
+			<rect width="160.001" height="160" x="235" y="25" fill="#FFF" rx="2"/>
+			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+				<tspan x="251" y="214">Base background</tspan> <tspan x="251" y="232.8">Highlight from grey</tspan>
+			</text>
+			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+				<tspan x="603" y="214">Disabled text input </tspan> <tspan x="603" y="232.8">background</tspan>
+			</text>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="251" y="92">#fff</tspan> <tspan x="251" y="111">RGB 255, 255, 255</tspan> <tspan x="251" y="130">HSB 0, 0%, 100%</tspan> <tspan x="251" y="168">AAA</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="251" y="338">Accent90</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="426" y="338">Accent50 </tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="954" y="338">Red90</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="1130" y="338">Red50</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="1290" y="338">Red30</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="427" y="14">Base90</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="603" y="14">Base80</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="779" y="14">Base70</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="955" y="14">Base50</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="1131" y="14">Base30</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="1307" y="14">Base20</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="1483" y="14">Base10</tspan>
+			</text>
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="1659" y="14">Base0</tspan>
+			</text>
+			<rect width="160" height="160" x="411" y="25" fill="#F8F9FA" rx="2"/>
+			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+				<tspan x="427" y="214">Button/3D widget </tspan> <tspan x="427" y="232.8">background</tspan>
+			</text>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="427" y="92">#f8f9fa</tspan> <tspan x="427" y="111">RGB 248, 249, 250</tspan> <tspan x="427" y="130">HSB 210, 1%, 98%</tspan> <tspan x="427" y="168">AAA</tspan>
+			</text>
+			<rect width="160" height="160" x="587" y="25" fill="#EAECF0" rx="2"/>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="603" y="92">#eaecf0</tspan> <tspan x="603" y="111">RGB 234, 236, 240</tspan> <tspan x="603" y="130">HSB 220, 3%, 94%</tspan> <tspan x="603" y="168">AAA</tspan>
+			</text>
+			<rect width="160" height="160" x="763" y="25" fill="#C8CCD1" rx="2"/>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="779" y="92">#c8ccd1</tspan> <tspan x="779" y="111">RGB 200, 204, 209</tspan> <tspan x="779" y="130">HSB 213, 4%, 82%</tspan> <tspan x="779" y="168">AAA</tspan>
+			</text>
+			<rect width="160" height="160" x="939" y="25" fill="#A2A9B1" rx="2"/>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="955" y="92">#a2a9b1</tspan> <tspan x="955" y="111">RGB 162, 169, 177</tspan> <tspan x="955" y="130">HSB 212, 8%, 69%</tspan> <tspan x="955" y="168">AAA</tspan>
+			</text>
+			<rect width="160" height="160" x="1115" y="25" fill="#72777D" rx="2"/>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="1131" y="92">#72777d</tspan> <tspan x="1131" y="111">RGB 114, 119, 125</tspan> <tspan x="1131" y="130">HSB 210, 9%, 49%</tspan> <tspan x="1131" y="168">AA </tspan>
+			</text>
+			<text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="1153" y="168">AA</tspan>
+			</text>
+			<rect width="160" height="160" x="1291" y="25" fill="#54595D" rx="2"/>
+			<text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="1307" y="92">#54595d</tspan> <tspan x="1307" y="111">RGB 84, 89, 93</tspan> <tspan x="1307" y="130">HSB 207, 10%, 36%</tspan> <tspan x="1307" y="168">AAA</tspan>
+			</text>
+			<rect width="160" height="160" x="1467" y="25" fill="#222" rx="2"/>
+			<text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="1483" y="92">#222</tspan> <tspan x="1483" y="111">RGB 34, 34, 34</tspan> <tspan x="1483" y="130">HSB 0, 0%, 13%</tspan> <tspan x="1483" y="168">AAA</tspan>
+			</text>
+			<rect width="160" height="160" x="1643" y="25" fill="#000" rx="2"/>
+			<text fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="1659" y="92">#000</tspan> <tspan x="1659" y="111">RGB 0, 0, 0</tspan> <tspan x="1659" y="130">HSB 0, 0%, 0%</tspan> <tspan x="1659" y="168">AAA</tspan>
+			</text>
+			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+				<tspan x="779" y="214">Disabled button/3D </tspan> <tspan x="779" y="232.8">widget background </tspan>
+			</text>
+			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+				<tspan x="955" y="214">Highlighted border</tspan>
+			</text>
+			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+				<tspan x="1131" y="213">Disabled elements text</tspan> <tspan x="1131" y="231.8">Placeholder text</tspan> <tspan x="1131" y="250.6">Active border</tspan>
+			</text>
+			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+				<tspan x="1483" y="213">Copy color</tspan> <tspan x="1483" y="231.8">Buttons/widgets text</tspan>
+			</text>
+			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+				<tspan x="1659" y="213">Emphasized copy color</tspan> <tspan x="1659" y="231.8">Active button/widgets text</tspan>
+			</text>
+			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+				<tspan x="1307" y="213">Emphasized secondary </tspan> <tspan x="1307" y="231.8">text at level AAA need</tspan>
+			</text>
+			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+				<tspan x="0" y="168">WCAG 2.0 conformance level:</tspan> <tspan x="0" y="186.8">(with white/black)</tspan>
+			</text>
+		</g>
+		<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" transform="translate(2 768.4)">
+			<tspan x="0" y="13">SUPPLEMENTARY COLORS</tspan>
+		</text>
+		<path stroke="#222" stroke-linecap="square" d="M191.484 791.9H2.516"/>
+		<g transform="translate(5 1088.4)">
+			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+				<tspan x="0" y="13">BACKGROUND COLORS</tspan>
+			</text>
+			<path stroke="#222" stroke-linecap="square" d="M189.484 23.5H.516"/>
+			<rect width="511" height="351" x="235.5" y="23.5" fill="#F8F9FA" stroke="#C8CCD1" rx="2"/>
+			<rect width="416" height="256" x="283" y="71" fill="#FFF" rx="2"/>
+			<rect width="320" height="160" x="331" y="119" fill="#EAECF0" rx="2"/>
+			<path fill="#C8CCD1" d="M379 169.003c0-1.106.903-2.003 2.005-2.003h219.99a2.01 2.01 0 0 1 2.005 2.003v59.994a2.007 2.007 0 0 1-2.005 2.003h-219.99a2.01 2.01 0 0 1-2.005-2.003v-59.994z"/>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="435" y="359">Layer 1: #f8f9fa</tspan>
+			</text>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="435" y="312">Layer 2: #fff</tspan>
+			</text>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="435" y="264">Layer 3: #eaecf0</tspan>
+			</text>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+				<tspan x="435" y="214">Layer 4: #c8ccd1</tspan>
+			</text>
+		</g>
+	</g>
 </svg>
