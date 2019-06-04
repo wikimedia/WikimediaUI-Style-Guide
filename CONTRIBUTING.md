@@ -30,14 +30,14 @@ $ npm run build
 ```
 
 ## Get the design repository
-The [WikimediaUI Style Guide repository is available to download](https://github.com/wikimedia/WikimediaUI-Style-Guide/). It contains this documentation, Sketch and SVG templates and resources. Select the “clone or download” button to get the repository.
+The [Wikimedia Design Style Guide repository is available to download](https://github.com/wikimedia/WikimediaUI-Style-Guide/). It contains this documentation, Sketch and SVG templates and other resources. Select the “clone or download” button to get the repository.
 
 ### Commit changes
 Easily contribute to the content of the style guide by adding new recommendations, making corrections or adding examples in the form of images or videos:
 
 If you have [Git](https://en.wikipedia.org/wiki/Git) installed on your system, [cloning](https://help.github.com/articles/cloning-a-repository/) is preferred way to get the contents since it allows you to contribute back.
 
-In order to publish the updated contents to be available live, go to the repo and launch the following command from a terminal: `git push -f origin master:gh-pages`
+In order to publish the updated contents to be available live, go to the repo and launch the following command from a terminal: `git push -f origin your-branch`. It will be reviewed in a timely manner and merged accordingly.
 
 Please add specific topics into a single commit and also take into account the [Wikimedia commit message guidelines](https://www.mediawiki.org/wiki/Gerrit/Commit_message_guidelines).
 
