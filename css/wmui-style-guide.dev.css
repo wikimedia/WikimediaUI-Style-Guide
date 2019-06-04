@@ -846,7 +846,8 @@ sup {
 
 /* ::: Text Block-Level Elements ::: */
 .fonts-loaded .page__title,
-.fonts-loaded blockquote {
+.fonts-loaded blockquote,
+.fonts-loaded .typography-styles h1 {
 	font-family: 'Charter', Georgia, serif; /* stylelint-disable-line font-family-name-quotes */
 }
 
