@@ -1168,7 +1168,6 @@ sup {
 .typography-styles dd > * {
 	display: inline-block;
 	margin-top: 0; /* Remove `margin` from elements like paragraphs and list elements */
-
 }
 .typography-styles .figure__caption {
 	padding-top: 0; /* Remove `padding` from elements like figure caption */
@@ -1203,7 +1202,8 @@ sup {
 }
 /* ::: Text Block-Level Elements ::: */
 .fonts-loaded .page__title,
-.fonts-loaded blockquote {
+.fonts-loaded blockquote,
+.fonts-loaded .typography-styles h1 {
 	font-family: 'Charter', Georgia, serif; /* stylelint-disable-line font-family-name-quotes */
 }
 /* ::: Media Queries ::: */
