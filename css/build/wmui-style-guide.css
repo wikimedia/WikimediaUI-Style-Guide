@@ -2,7 +2,7 @@
 /* Load files from 'node_modules' folders with postCSS-import plugin.
  * Modules specified in package.json file */
 /**
- * WikimediaUI Base v0.13.0
+ * WikimediaUI Base v0.14.0
  * Wikimedia Foundation user interface base variables
  */
 :root {
@@ -39,13 +39,14 @@
 	/* 'Filled' UI elements (Checkboxes, Radios, ProgressBars…) */
 	/* Toolbar and Tools */
 	/* Tabs Navigation Background Color */
+	/* User system messages (errors, warnings, successes, notices) */
 	/* Highlight Colors, RGBA Colors include hex fallback on `#fff` for IE 6/7/8 */
 
 	/* Foreground Colors */
 	/* Primary 'Progressive' Color, Background Color and states */ /* = `filter: brightness( 109% )` */
 	/* 'Destructive' Color, Background Color and states */ /* ~= `filter: brightness( 120% )` */
 	/* Secondary Color and states (links only) */
-	/* Validation error feedback */
+	/* User system messages (errors, warnings, successes, notices) */
 	/* Toolbar and Tools */ /* Used here in combination with `:hover` background-color turning light grey */
 
 
@@ -62,6 +63,7 @@
 	/* Max Widths */ /* = `460px` at `16px` base, see T95367 */
 
 	/* Border */
+	/* User system messages (errors, warnings, successes, notices) */
 	/* Border Colors */ /* See T168029 */
 	/* Border Styles */
 	/* Border Widths */
@@ -73,8 +75,9 @@
 	/* == Typography incl. print properties == */
 	/* Font Families */
 	/* To be deprecated */
-	/* Provide better system-specific readability */
-	/* `system-ui` is currently not an option due to OS/language combination issues, see T175877#4776576 */ /* stylelint-disable-line value-keyword-case */ /* See T209915 */ /* See T176636 */
+	/* Provide better operating system-specific readability, see T175877 */
+	/* `system-ui` is currently not an option due to OS/language combination issues, see T175877#4776576 */
+	/* Provide better operating system-specific monospace stack, see T209915. */ /* See T176636 */
 	/* Line Heights */
 	/* Text Shadows */ /* 'coined' effect */
 
@@ -500,7 +503,7 @@ body {
 	background-color: #eaecf0; /* FIXME: var; */
 	color: #222;
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
 	font-size: 1.6rem;
 	line-height: 1.6;
 }
@@ -561,7 +564,7 @@ blockquote {
 blockquote cite {
 	display: block;
 	margin-top: 0.8rem;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
 	font-size: 1.4rem;
 	font-style: normal;
 }
@@ -571,7 +574,7 @@ blockquote cite:before {
 code,
 pre,
 .mw-code {
-	font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', 'Courier New', monospace;
+	font-family: 'Menlo', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
 }
 hr {
 	background: #eaecf0;
@@ -714,7 +717,7 @@ sup {
 		color: #222;
 		margin-top: 0;
 		height: 6.4rem;
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
 		font-size: 1.6rem;
 		font-weight: 400;
 		letter-spacing: 0.5px;
@@ -1064,7 +1067,7 @@ sup {
 		background-color: inherit;
 		display: block;
 		padding: 0;
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
 	}
 .color-code--hsb {
 			opacity: 0;
@@ -1198,7 +1201,7 @@ sup {
 .fonts-loaded cite,
 .fonts-loaded .site__title,
 .fonts-loaded .color-code {
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
 }
 /* ::: Text Block-Level Elements ::: */
 .fonts-loaded .page__title,
