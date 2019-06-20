@@ -76,7 +76,7 @@
 			</text>
 			<path stroke="#50E3C2" stroke-width="4" d="M241-25h8"/>
 			<path stroke="#D0021B" stroke-width="4" d="M205-25h16m78 0h16"/>
-			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" transform="translate(0 -80)">
+			<text fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold" transform="translate(0 -80)">
 				<tspan x="0" y="13">ICON + TEXT</tspan>
 			</text>
 			<path stroke="#222" stroke-linecap="square" d="M189.484-56.5H.516"/>
@@ -161,7 +161,7 @@
 			<path stroke="#D0021B" stroke-linecap="square" d="M14.5 15.5h15m-15 1h15m-15 1h15m-15 1h15"/>
 		</g>
 		<g transform="translate(0 413)">
-			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+			<text fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14">
 				<tspan x="7" y="58.2"> DISABLED</tspan> <tspan x="7" y="114.6"> NORMAL</tspan> <tspan x="7" y="171">:HOVER</tspan> <tspan x="7" y="227.4">:ACTIVE</tspan> <tspan x="7" y="283.8">:FOCUS</tspan>
 			</text>
 			<rect width="36" height="32" x="261" y="145" fill="#EEE" rx="2" transform="matrix(1 0 0 -1 0 322)"/>
@@ -184,7 +184,7 @@
 				<rect width="35" height="31" x="215.5" y="245.5" stroke-linejoin="square" rx="2"/>
 			</g>
 			<path fill="#222" d="M235.462 261.222c0 .666-.227 1.11-.68 1.555a2.258 2.258 0 0 1-1.586.667c-.68 0-1.133-.222-1.586-.667-.453-.444-.68-1-.68-1.555 0-.556.227-1.111.68-1.556a2.258 2.258 0 0 1 1.586-.666c.567 0 1.133.222 1.586.666.453.445.68 1 .68 1.556zm-7.538 0c0 .666-.227 1.11-.68 1.555a2.258 2.258 0 0 1-1.586.667c-.68 0-1.133-.222-1.586-.667-.453-.444-.68-1-.68-1.555 0-.556.227-1.111.68-1.556a2.258 2.258 0 0 1 1.586-.666 2.26 2.26 0 0 1 1.586.666c.453.445.68 1 .68 1.556zm14.335 0c0 .666-.226 1.11-.68 1.555a2.258 2.258 0 0 1-1.586.667c-.68 0-1.132-.222-1.586-.667-.453-.444-.68-1-.68-1.555 0-.556.227-1.111.68-1.556a2.258 2.258 0 0 1 1.586-.666c.567 0 1.133.222 1.587.666.453.445.68 1 .68 1.556z"/>
-			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+			<text fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
 				<tspan x="0" y="13">ICON</tspan>
 			</text>
 			<path stroke="#222" stroke-linecap="square" d="M189.484 23.5H.516"/>
@@ -201,7 +201,7 @@
 			<use filter="url(#quiet_buttons-i)" xlink:href="#quiet_buttons-j"/>
 			<path stroke="#FFF" d="M6.448 11.787l2.721 6.886c.273.675-.094 1.44-.79 1.72-.696.283-1.491-.013-1.765-.692l-2.708-6.853-2.483 2.963-.077.075c-.901.695-1.848.236-1.846-.902L-.474.669c0-.618.027-.82.271-1.028.4-.34.694-.163 1.14.298l10.66 10.157c.793.817.432 1.805-.782 1.933l-4.367-.242z"/>
 		</g>
-		<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" transform="translate(-2 1)">
+		<text fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" transform="translate(-2 1)">
 			<tspan x="0" y="21"> DISABLED</tspan> <tspan x="0" y="77.4"> NORMAL</tspan> <tspan x="0" y="133.8">:HOVER</tspan> <tspan x="0" y="190.2">:ACTIVE</tspan> <tspan x="0" y="246.6">:FOCUS</tspan>
 		</text>
 	</g>

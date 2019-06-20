@@ -153,7 +153,7 @@
 		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(330 477)">
 			<tspan x="0" y="91">Option 2</tspan>
 		</text>
-		<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" transform="translate(0 -11)">
+		<text fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" transform="translate(0 -11)">
 			<tspan x="0" y="41"> DISABLED</tspan> <tspan x="0" y="97.4"> NORMAL</tspan> <tspan x="0" y="153.8">:HOVER</tspan> <tspan x="0" y="210.2">:ACTIVE</tspan> <tspan x="0" y="266.6">:FOCUS</tspan>
 		</text>
 		<path stroke="#D0021B" stroke-width="4" d="M497 494h-16m-89 44v16m136-170v16"/>
@@ -162,7 +162,7 @@
 			<path stroke="#50E3C2" d="M176.5 40.5v-7m-1 7v-7m3 7v-7m-1 7v-7m-1-17v-7m-1 7v-7m3 7v-7m-1 7v-7"/>
 		</g>
 		<path stroke="#50E3C2" stroke-linecap="square" d="M189.5 7.5h7m-7-1h7m-7 3h7m-7-1h7"/>
-		<text fill="#D0021B" font-family="Lato-Regular, Lato" font-size="12" transform="translate(0 -11)">
+		<text fill="#D0021B" font-family="Lato-Regular, Lato, sans-serif" font-size="12" transform="translate(0 -11)">
 			<tspan x="503" y="481.381">Minimum 1em margin</tspan>
 		</text>
 		<g transform="translate(397 233)">
@@ -224,10 +224,10 @@
 			<tspan x="330" y="433">Option 2</tspan>
 		</text>
 		<path fill="#979797" fill-rule="nonzero" d="M328.5 349H320v1h9v-1h-.5zm-8 36.014h8.5v-1h-9v1h.5zM324 349.5v35.514h1V349h-1v.5z"/>
-		<text fill="#D0021B" font-family="Lato-Regular, Lato" font-size="12" transform="translate(0 -11)">
+		<text fill="#D0021B" font-family="Lato-Regular, Lato, sans-serif" font-size="12" transform="translate(0 -11)">
 			<tspan x="121" y="383">`vertical-align: middle` one-liner text</tspan>
 		</text>
-		<text fill="#D0021B" font-family="Lato-Regular, Lato" font-size="12" transform="translate(0 -11)">
+		<text fill="#D0021B" font-family="Lato-Regular, Lato, sans-serif" font-size="12" transform="translate(0 -11)">
 			<tspan x="160" y="503">top align 2 lines or more text </tspan>
 		</text>
 		<g transform="translate(403 195)">

@@ -30,31 +30,31 @@
 			</mask>
 			<use fill="#F2F2F2" xlink:href="#c"/>
 			<path fill="#222" d="M-3 254h269v85H-3z" mask="url(#d)"/>
-			<text fill="#222" font-family="Lato-Regular, Lato" font-size="50" letter-spacing="-.001" mask="url(#d)">
+			<text fill="#222" font-family="Lato-Regular, Lato, sans-serif" font-size="50" letter-spacing="-.001" mask="url(#d)">
 				<tspan x="23" y="87">Lato</tspan>
 			</text>
-			<text fill="#222" font-family="Lato-Regular, Lato" font-size="16" letter-spacing=".6" mask="url(#d)">
+			<text fill="#222" font-family="Lato-Regular, Lato, sans-serif" font-size="16" letter-spacing=".6" mask="url(#d)">
 				<tspan x="23" y="153">abcdefghjklmnopqrstuvwxy</tspan> <tspan x="231.928" y="153">z</tspan>
 			</text>
-			<text fill="#FFF" font-family="Lato-Regular, Lato" font-size="18" letter-spacing=".675" mask="url(#d)">
+			<text fill="#FFF" font-family="Lato-Regular, Lato, sans-serif" font-size="18" letter-spacing=".675" mask="url(#d)">
 				<tspan x="23" y="289">Imagine a world…</tspan>
 			</text>
-			<text fill="#222" font-family="Lato-Regular, Lato" font-size="22" letter-spacing=".825" mask="url(#d)">
+			<text fill="#222" font-family="Lato-Regular, Lato, sans-serif" font-size="22" letter-spacing=".825" mask="url(#d)">
 				<tspan x="23" y="132">1234567890</tspan>
 			</text>
 			<text fill="#222" font-family=".SFNSDisplay-Regular, .SF NS Display" font-size="40" letter-spacing="1.5" mask="url(#d)">
 				<tspan x="23" y="217">Aa</tspan>
 			</text>
-			<text fill="#222" font-family="Lato-Light, Lato" font-size="40" font-weight="300" letter-spacing="1.5" mask="url(#d)">
+			<text fill="#222" font-family="Lato-Light, Lato, sans-serif" font-size="40" font-weight="300" letter-spacing="1.5" mask="url(#d)">
 				<tspan x="81" y="217">Aa</tspan>
 			</text>
 			<text fill="#222" font-family=".SFNSDisplay-Regular, .SF NS Display" font-size="40" letter-spacing="1.5" mask="url(#d)">
 				<tspan x="134" y="217">Aa</tspan>
 			</text>
-			<text fill="#222" font-family="Lato-Hairline, Lato" font-size="40" font-weight="200" letter-spacing="1.5" mask="url(#d)">
+			<text fill="#222" font-family="Lato-Hairline, Lato, sans-serif" font-size="40" font-weight="200" letter-spacing="1.5" mask="url(#d)">
 				<tspan x="187" y="217">Aa</tspan>
 			</text>
-			<text fill="#222" font-family="Lato-Regular, Lato" font-size="15" letter-spacing="0" mask="url(#d)" opacity=".5">
+			<text fill="#222" font-family="Lato-Regular, Lato, sans-serif" font-size="15" letter-spacing="0" mask="url(#d)" opacity=".5">
 				<tspan x="23" y="34">Sans Serif</tspan>
 			</text>
 		</g>

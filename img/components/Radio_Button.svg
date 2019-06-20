@@ -176,7 +176,7 @@
 			<circle cx="12" cy="12" r="12.5" stroke="#447FF5"/>
 		</g>
 		<path fill="#FFF" d="M491 143a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/>
-		<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" transform="translate(-1 -32)">
+		<text fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" transform="translate(-1 -32)">
 			<tspan x="0" y="62">DISABLED</tspan> <tspan x="0" y="118.4"> NORMAL</tspan> <tspan x="0" y="174.8">:HOVER</tspan> <tspan x="0" y="231.2">:ACTIVE</tspan> <tspan x="0" y="287.6">:FOCUS</tspan>
 		</text>
 		<text fill="#7D8389" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(479 9)">
@@ -201,7 +201,7 @@
 			<use fill="#FFF" xlink:href="#i"/>
 			<path stroke="#72777D" d="M12 28.5c6.904 0 12.5-5.596 12.5-12.5S18.904 3.5 12 3.5-.5 9.096-.5 16 5.096 28.5 12 28.5z"/>
 		</g>
-		<text fill="#D0011B" font-family="Lato-Regular, Lato" font-size="12" transform="translate(-1 -32)">
+		<text fill="#D0011B" font-family="Lato-Regular, Lato, sans-serif" font-size="12" transform="translate(-1 -32)">
 			<tspan x="384" y="706">touch area features `width: 2em;` `height: 2em;`</tspan>
 		</text>
 		<path fill="#FFB60D" fill-opacity=".4" d="M190 651h32v32h-32z" style="mix-blend-mode:multiply"/>
@@ -259,10 +259,10 @@
 			<tspan x="33" y="15">Option title</tspan>
 		</text>
 		<path stroke="#979797" stroke-linecap="square" d="M376.5 343.5v35.014m3-35.014h-6m6 35.014h-6"/>
-		<text fill="#D0011B" font-family="Lato-Regular, Lato" font-size="12" transform="translate(-1 -32)">
+		<text fill="#D0011B" font-family="Lato-Regular, Lato, sans-serif" font-size="12" transform="translate(-1 -32)">
 			<tspan x="383" y="399">`vertical-align: middle` one-liner text</tspan>
 		</text>
-		<text fill="#D0011B" font-family="Lato-Regular, Lato" font-size="12" transform="translate(-1 -32)">
+		<text fill="#D0011B" font-family="Lato-Regular, Lato, sans-serif" font-size="12" transform="translate(-1 -32)">
 			<tspan x="383" y="519">`vertical-align: top` 2 lines or more text</tspan>
 		</text>
 		<path stroke="#D0011B" stroke-linecap="square" d="M285.5 550.5v-15m1 15v-15m1 15v-15m1 15v-15"/>
