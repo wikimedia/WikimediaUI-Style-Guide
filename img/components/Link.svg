@@ -89,13 +89,13 @@
 	</defs>
 	<g fill="none" fill-rule="evenodd">
 		<path fill="#FFF" d="M-4078-255h14720v3264H-4078z"/>
-		<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" transform="translate(-3 16)">
+		<text fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" transform="translate(-3 16)">
 			<tspan x="0" y="16"> DISABLED</tspan> <tspan x="0" y="72.4"> NORMAL</tspan> <tspan x="0" y="128.8"> :HOVER</tspan> <tspan x="0" y="147.6"> </tspan> <tspan x="0" y="185.2"> :ACTIVE</tspan> <tspan x="0" y="241.6"> :FOCUS</tspan>
 		</text>
-		<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" transform="translate(-3 16)">
+		<text fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" transform="translate(-3 16)">
 			<tspan x="0" y="368"> NORMAL</tspan> <tspan x="0" y="424.4"> :HOVER</tspan> <tspan x="0" y="443.2"> </tspan> <tspan x="0" y="480.8"> :ACTIVE</tspan> <tspan x="0" y="537.2"> :FOCUS</tspan>
 		</text>
-		<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" transform="translate(2 313)">
+		<text fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold" transform="translate(2 313)">
 			<tspan x="0" y="13">UNDERLINED LINK</tspan>
 		</text>
 		<path stroke="#222" stroke-linecap="square" d="M191.484 336.5H2.516"/>

@@ -79,10 +79,10 @@
 		<text fill="#222" font-family="Charter-Bold, Charter" font-size="26" font-weight="bold" letter-spacing="-.001">
 			<tspan x="242" y="202">Dieter Rams</tspan>
 		</text>
-		<text fill="#222" font-family="Lato-Regular, Lato" font-size="13" letter-spacing="0">
+		<text fill="#222" font-family="Lato-Regular, Lato, sans-serif" font-size="13" letter-spacing="0">
 			<tspan x="241" y="226">German professor emeritus and industrial designer</tspan>
 		</text>
-		<text font-family="Lato-Regular, Lato" font-size="13" letter-spacing="0">
+		<text font-family="Lato-Regular, Lato, sans-serif" font-size="13" letter-spacing="0">
 			<tspan x="242" y="284" fill="#222">H.C. Dieter Rams (born 20 May 1932 in Wiesbaden, </tspan> <tspan x="242" y="305" fill="#222">Hessen) is a </tspan> <tspan x="310.948" y="305" fill="#36C">German</tspan> <tspan x="357.031" y="305" fill="#222"> professor emeritus </tspan> <tspan x="469.722" y="305" fill="#36C">[1]</tspan> <tspan x="485.061" y="305" fill="#222"> and industrial </tspan> <tspan x="242" y="326" fill="#222">designer closely associated with the consumer products </tspan> <tspan x="242" y="347" fill="#222">company </tspan> <tspan x="295.921" y="347" fill="#36C">Braun</tspan> <tspan x="330.37" y="347" fill="#222"> and the Functionalist school of </tspan> <tspan x="507.588" y="347" fill="#37393D">industrial </tspan> <tspan x="242" y="368" fill="#37393D">design.</tspan> <tspan x="281.674" y="368" fill="#222"> His unobtrusive approach and belief in “less but </tspan> <tspan x="242" y="389" fill="#222">better” design generated a timeless quality in his products </tspan> <tspan x="242" y="410" fill="#222">and have influenced the design of many products, which </tspan> <tspan x="242" y="431" fill="#222">also secured Rams worldwide recognition and appreciation.</tspan>
 		</text>
 		<path stroke="#000" stroke-linecap="square" stroke-width="2" d="M245.5 250h18.11"/>

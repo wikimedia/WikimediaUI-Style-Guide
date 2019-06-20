@@ -118,7 +118,7 @@
 	</defs>
 	<g fill="none" fill-rule="evenodd">
 		<path stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M175 343.5h202m-202 209h202m-202-73h202M175 378h202"/>
-		<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" transform="translate(0 -32)">
+		<text fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" transform="translate(0 -32)">
 			<tspan x="0" y="62">DISABLED</tspan> <tspan x="0" y="118.4"> NORMAL</tspan> <tspan x="0" y="174.8">:HOVER</tspan> <tspan x="0" y="231.2">:ACTIVE</tspan> <tspan x="0" y="287.6">:FOCUS</tspan>
 		</text>
 		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(194 387)">
@@ -241,13 +241,13 @@
 		</text>
 		<path stroke="#D0011B" stroke-width="4" d="M206 374v16m90 146v16"/>
 		<path stroke="#979797" stroke-linecap="square" d="M377.5 343.5v35.014m3-35.014h-6m6 35.014h-6"/>
-		<text fill="#D0011B" font-family="Lato-Regular, Lato" font-size="12" transform="translate(0 -32)">
+		<text fill="#D0011B" font-family="Lato-Regular, Lato, sans-serif" font-size="12" transform="translate(0 -32)">
 			<tspan x="383" y="398">`vertical-align: middle` one-liner text</tspan>
 		</text>
-		<text fill="#D0011B" font-family="Lato-Regular, Lato" font-size="12" transform="translate(0 -32)">
+		<text fill="#D0011B" font-family="Lato-Regular, Lato, sans-serif" font-size="12" transform="translate(0 -32)">
 			<tspan x="383" y="521">`vertical-align: top` 2 lines or more text</tspan>
 		</text>
-		<text fill="#D0011B" font-family="Lato-Regular, Lato" font-size="12" transform="translate(0 -32)">
+		<text fill="#D0011B" font-family="Lato-Regular, Lato, sans-serif" font-size="12" transform="translate(0 -32)">
 			<tspan x="383" y="706">touch area features `width: 2em;` `height: 2em;`</tspan>
 		</text>
 		<g transform="translate(499 197)">

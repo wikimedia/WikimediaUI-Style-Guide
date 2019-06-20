@@ -14,13 +14,13 @@
       <path fill="#D33" fill-opacity=".5" stroke="#D33" stroke-width=".97494033" d="M11.699284 12.1867542c-6.19211379 0-11.21181383 5.0197-11.21181383 11.2118138v70.1957041c0 6.1921138 5.01970004 11.2118139 11.21181383 11.2118139h93.594272c6.192114 0 11.211814-5.0197001 11.211814-11.2118139V23.398568c0-6.1921138-5.0197-11.2118138-11.211814-11.2118138H11.699284z"/>
       <path fill="#36C" fill-opacity=".5" stroke="#36C" stroke-opacity=".5" stroke-width=".81245028" d="M58.49642.40622514C26.4140913.40622514.40622514 26.4140913.40622514 58.49642c0 32.0823288 26.00786616 58.090195 58.09019486 58.090195 32.0823288 0 58.090195-26.0078662 58.090195-58.090195 0-32.0823287-26.0078662-58.09019486-58.090195-58.09019486z"/>
     </g>
-    <text fill="#C70070" font-family="Lato-Regular, Lato" font-size="13.6491647">
+    <text fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="13.6491647">
       <tspan x="9.74940334" y="182.639618">No margin for a circle</tspan> <tspan x="9.74940334" y="206.038186">1 dp margin for a square</tspan>
     </text>
-    <text fill="#54595D" font-family="Lato-Regular, Lato" font-size="16">
+    <text fill="#54595D" font-family="Lato-Regular, Lato, sans-serif" font-size="16">
       <tspan x="0" y="15">Template 20 x 20 dp</tspan>
     </text>
-    <text fill="#54595D" font-family="Lato-Regular, Lato" font-size="16">
+    <text fill="#54595D" font-family="Lato-Regular, Lato, sans-serif" font-size="16">
       <tspan x="244.710024" y="15">Resulting shapes</tspan>
     </text>
     <path fill="#FC3" d="M733.155131 35.097852h74.095466c5.384446 0 9.749403 4.3649566 9.749403 9.7494034v97.4940336c0 5.384447-4.364957 9.749403-9.749403 9.749403h-74.095466c-5.384447 0-9.749403-4.364956-9.749403-9.749403V44.8472554c0-5.3844468 4.364956-9.7494034 9.749403-9.7494034z"/>
