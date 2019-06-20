@@ -21,7 +21,7 @@
 	</defs>
 	<g fill="none" fill-rule="evenodd">
 		<path fill="#FFF" d="M-7359-255H7361v3264H-7359z"/>
-		<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" transform="translate(-1 305)">
+		<text fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" transform="translate(-1 305)">
 			<tspan x="0" y="60"> DISABLED</tspan> <tspan x="0" y="116.4"> NORMAL</tspan> <tspan x="0" y="172.8">:HOVER</tspan> <tspan x="0" y="229.2">:FOCUS &amp;</tspan> <tspan x="0" y="248">:ACTIVE</tspan>
 		</text>
 		<g transform="translate(194 457)">
@@ -56,7 +56,7 @@
 			<path fill="#949494" d="M26.998 22.998l-5.15-5.15a7 7 0 1 0-2 2l5.15 5.15 2-2zm-15.5-9a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0z"/>
 		</g>
 		<path stroke="#50E3C2" stroke-linecap="square" d="M433.5 528.5h7m-7-1h7m-7 3h7m-7-1h7m-247-169h7m-7-1h7m-7 3h7m-7-1h7m17-1h7m-7-1h7m-7 3h7m-7-1h7"/>
-		<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" transform="translate(1 305)">
+		<text fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold" transform="translate(1 305)">
 			<tspan x="0" y="13">SEARCH INPUT FIELD + ICON</tspan>
 		</text>
 		<path stroke="#222" stroke-linecap="square" d="M190.484 328.5H1.516"/>
@@ -98,7 +98,7 @@
 			<use filter="url(#text_input-a)" xlink:href="#text_input-b"/>
 			<path stroke="#FFF" d="M6.448 11.787l2.721 6.886c.273.675-.094 1.44-.79 1.72-.696.283-1.491-.013-1.765-.692l-2.708-6.853-2.483 2.963-.077.075c-.901.695-1.848.236-1.846-.902L-.474.669c0-.618.027-.82.271-1.028.4-.34.694-.163 1.14.298l10.66 10.157c.793.817.432 1.805-.782 1.933l-4.367-.242z"/>
 		</g>
-		<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" transform="translate(-1 9)">
+		<text fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" transform="translate(-1 9)">
 			<tspan x="0" y="23"> DISABLED</tspan> <tspan x="0" y="79.4"> NORMAL</tspan> <tspan x="0" y="135.8">:HOVER</tspan> <tspan x="0" y="192.2">:FOCUS &amp;</tspan> <tspan x="0" y="211">:ACTIVE</tspan>
 		</text>
 	</g>

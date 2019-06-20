@@ -112,12 +112,12 @@
 	<g fill="none" fill-rule="evenodd">
 		<path fill="#FFF" d="M-1759-255h14720v3264H-1759z"/>
 		<g transform="translate(0 1)">
-			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" transform="translate(1 304)">
+			<text fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold" transform="translate(1 304)">
 				<tspan x="0" y="13">ICON + TEXT</tspan>
 			</text>
 			<path stroke="#222" stroke-linecap="square" d="M190.484 327.5H1.516"/>
 			<rect width="114" height="33" x="192.5" y="343.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
-			<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+			<text fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14">
 				<tspan x="0" y="21"> DISABLED</tspan> <tspan x="0" y="77.4"> NORMAL</tspan> <tspan x="0" y="133.8">:HOVER</tspan> <tspan x="0" y="190.2">:ACTIVE</tspan> <tspan x="0" y="246.6">:FOCUS</tspan>
 			</text>
 			<path fill="#222" d="M219 370c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10z"/>

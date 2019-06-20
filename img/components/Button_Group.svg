@@ -169,7 +169,7 @@
 			<rect width="387" height="33" x="193.5" y="424.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
 			<path fill="#FFF" stroke="#A2A9B1" d="M385.5 424.5h91v33h-91v-33z"/>
 			<path stroke="#A2A9B1" stroke-linecap="square" d="M278.5 425v32"/>
-			<text fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" transform="translate(2 385)">
+			<text fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold" transform="translate(2 385)">
 				<tspan x="0" y="13">ICON + TEXT</tspan>
 			</text>
 			<path stroke="#222" stroke-linecap="square" d="M191.484 408.5H2.516"/>
@@ -217,7 +217,7 @@
 				<use filter="url(#button_group-g)" xlink:href="#button_group-h"/>
 				<path stroke="#FFF" d="M6.448 11.787l2.721 6.886c.273.675-.094 1.44-.79 1.72-.696.283-1.491-.013-1.765-.692l-2.708-6.853-2.483 2.963-.077.075c-.901.695-1.848.236-1.846-.902L-.474.669c0-.618.027-.82.271-1.028.4-.34.694-.163 1.14.298l10.66 10.157c.793.817.432 1.805-.782 1.933l-4.367-.242z"/>
 			</g>
-			<g fill="#72777D" font-family="Lato-Regular, Lato" font-size="14">
+			<g fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14">
 				<text transform="translate(0 10)">
 					<tspan x="0" y="237">:FOCUS</tspan>
 				</text>
