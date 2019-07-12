@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="375" height="667" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Oxygen-Sans',Ubuntu,Cantarell,Lato,'Helvetica Neue',Helvetica,Arial,sans-serif" viewBox="0 0 375 667" style="background:#fff">
+<svg xmlns="http://www.w3.org/2000/svg" style="background:#fff" width="375" height="667" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Oxygen-Sans',Ubuntu,Cantarell,Lato,'Helvetica Neue',Helvetica,Arial,sans-serif" viewBox="0 0 375 667">
 	<g fill="none" fill-rule="evenodd">
 		<g transform="translate(87 493)">
 			<rect width="202" height="54" fill="#36c" rx="2"/>

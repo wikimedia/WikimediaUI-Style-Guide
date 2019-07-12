@@ -204,7 +204,7 @@
 		<text fill="#D0011B" font-family="Lato-Regular, Lato, sans-serif" font-size="12" transform="translate(-1 -32)">
 			<tspan x="384" y="706">touch area features `width: 2em;` `height: 2em;`</tspan>
 		</text>
-		<path fill="#FFB60D" fill-opacity=".4" d="M190 651h32v32h-32z" style="mix-blend-mode:multiply"/>
+		<path style="mix-blend-mode:multiply" fill="#FFB60D" fill-opacity=".4" d="M190 651h32v32h-32z"/>
 		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(479 65)">
 			<tspan x="33" y="22">Neutral point</tspan>
 		</text>
