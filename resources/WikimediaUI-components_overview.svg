@@ -1112,7 +1112,7 @@
 				</g>
 				<path id=".5em" stroke="#02D0BF" stroke-linecap="square" stroke-width="4" d="M3.25 402.25h7.5"/>
 				<path id="0.5em-copy" stroke="#02D0BF" stroke-linecap="square" stroke-width="4" d="M34.25 140.25h7.5"/>
-				<path id=".75em" stroke="#0082FF" stroke-linecap="square" stroke-width="4" d="M3.25 368.25h10M1.25 140.25h9"/>
+				<path id=".75em" stroke="#0082FF" stroke-linecap="square" stroke-width="4" d="M3.25 368.25h10m-12-228h9"/>
 				<g id="1.25em" fill="#BD7D00" transform="translate(680 140)">
 					<path id="Rectangle" d="M0 0h20v4H0z"/>
 				</g>
@@ -1191,7 +1191,7 @@
 				</text>
 				<g id="Stop-icon" transform="translate(.05)">
 					<path id="Polygon" fill="#D33" d="M14 3.05l7.071 2.928L24 13.05l-2.929 7.07L14 23.05l-7.071-2.93L4 13.05l2.929-7.072z" transform="rotate(22.33 14 13.05)"/>
-					<path id="Path" fill="#FEE7E6" d="M14.95 18h-2v-2h2zM14.95 14h-2V8h2z"/>
+					<path id="Path" fill="#FEE7E6" d="M14.95 18h-2v-2h2zm0-4h-2V8h2z"/>
 				</g>
 			</g>
 			<g id="Error_top_ALT" transform="translate(184 87)">
@@ -1201,7 +1201,7 @@
 				</text>
 				<g id="Stop-icon" transform="translate(25 14)">
 					<path id="Polygon" fill="#D33" d="M14 3.05l7.071 2.928L24 13.05l-2.929 7.07L14 23.05l-7.071-2.93L4 13.05l2.929-7.072z" transform="rotate(22.33 14 13.05)"/>
-					<path id="Path" fill="#FEE7E6" d="M14.95 18h-2v-2h2zM14.95 14h-2V8h2z"/>
+					<path id="Path" fill="#FEE7E6" d="M14.95 18h-2v-2h2zm0-4h-2V8h2z"/>
 				</g>
 			</g>
 			<g id="Errored-input" transform="translate(185 190)">
@@ -1268,7 +1268,7 @@
 				<path id="0.25em-copy-3" d="M.5 3.5h3"/>
 			</g>
 			<g id="Mediawiki.Neutral.Hover-35-Copy" stroke="#36C">
-				<path fill="#FFF" stroke-linejoin="square" d="M4 297.5c-.83 0-1.5.668-1.5 1.502v27.996c0 .831.67 1.502 1.5 1.502h456c.83 0 1.5-.668 1.5-1.502v-27.996c0-.831-.67-1.502-1.5-1.502H4z"/>
+				<path fill="#FFF" stroke-linejoin="square" d="M4 297.5c-.83 0-1.5.668-1.5 1.502v27.996A1.5 1.5 0 0 0 4 328.5h456c.83 0 1.5-.668 1.5-1.502v-27.996a1.5 1.5 0 0 0-1.5-1.502H4z"/>
 				<path d="M4 296.5h456c1.384 0 2.5 1.119 2.5 2.502v27.996a2.497 2.497 0 0 1-2.5 2.502H4a2.498 2.498 0 0 1-2.5-2.502v-27.996A2.497 2.497 0 0 1 4 296.5z"/>
 			</g>
 			<text id="Volker" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
@@ -1426,16 +1426,16 @@
 			<rect id="Rectangle-605-Copy-8" width="49" height="37" x="854.096" y="951.44" fill="#36C" stroke="#36C" rx="2"/>
 			<rect id="Rectangle-608-Copy-2" width="47" height="35" x="952.096" y="988.44" stroke="#165C91" rx="2"/>
 			<text id="S" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-				<tspan x="824.404" y="902.94" fill="#000">S</tspan> <tspan x="820.7" y="939.404" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">28</tspan>  <tspan x="825.148" y="975.852" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">4</tspan> <tspan x="820.7" y="1012.3" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">11</tspan> <tspan x="820.7" y="1048.748" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">18</tspan> <tspan x="820.7" y="1085.196" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">25</tspan>
+				<tspan x="824.404" y="902.94" fill="#000">S</tspan> <tspan x="820.7" y="939.404" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">28</tspan> <tspan x="825.148" y="975.852" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">4</tspan> <tspan x="820.7" y="1012.3" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">11</tspan> <tspan x="820.7" y="1048.748" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">18</tspan> <tspan x="820.7" y="1085.196" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">25</tspan>
 			</text>
 			<text id="M" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-				<tspan x="871.34" y="902.94" fill="#000">M</tspan> <tspan x="869.7" y="939.404" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">29</tspan>  <tspan x="874.148" y="975.852" fill="#FFF" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">5</tspan>  <tspan x="869.7" y="1012.3" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">12</tspan> <tspan x="869.7" y="1048.748" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">19</tspan> <tspan x="869.7" y="1085.196" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">26</tspan>
+				<tspan x="871.34" y="902.94" fill="#000">M</tspan> <tspan x="869.7" y="939.404" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">29</tspan> <tspan x="874.148" y="975.852" fill="#FFF" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">5</tspan> <tspan x="869.7" y="1012.3" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">12</tspan> <tspan x="869.7" y="1048.748" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">19</tspan> <tspan x="869.7" y="1085.196" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">26</tspan>
 			</text>
 			<text id="T" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-				<tspan x="922.708" y="902.94" fill="#000">T</tspan> <tspan x="918.7" y="939.404" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">30</tspan>  <tspan x="923.148" y="975.852" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">6</tspan> <tspan x="918.7" y="1012.3" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">13</tspan> <tspan x="918.7" y="1048.748" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">20</tspan> <tspan x="918.7" y="1085.196" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">27</tspan>
+				<tspan x="922.708" y="902.94" fill="#000">T</tspan> <tspan x="918.7" y="939.404" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">30</tspan> <tspan x="923.148" y="975.852" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">6</tspan> <tspan x="918.7" y="1012.3" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">13</tspan> <tspan x="918.7" y="1048.748" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">20</tspan> <tspan x="918.7" y="1085.196" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">27</tspan>
 			</text>
 			<text id="W" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-				<tspan x="968.044" y="902.94" fill="#000">W</tspan> <tspan x="966.7" y="939.404" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">31</tspan>  <tspan x="971.148" y="975.852" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">7</tspan> <tspan x="966.7" y="1012.3" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">14</tspan> <tspan x="966.7" y="1048.748" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">21</tspan> <tspan x="966.7" y="1085.196" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">28</tspan>
+				<tspan x="968.044" y="902.94" fill="#000">W</tspan> <tspan x="966.7" y="939.404" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">31</tspan> <tspan x="971.148" y="975.852" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">7</tspan> <tspan x="966.7" y="1012.3" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">14</tspan> <tspan x="966.7" y="1048.748" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">21</tspan> <tspan x="966.7" y="1085.196" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">28</tspan>
 			</text>
 			<text id="T-Copy-4" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 				<tspan x="1018.708" y="902.94">T</tspan> <tspan x="1019.148" y="939.404" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">1</tspan> <tspan x="1019.148" y="975.852" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">8</tspan> <tspan x="1014.7" y="1012.3" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">15</tspan> <tspan x="1014.7" y="1048.748" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">22</tspan> <tspan x="1014.7" y="1085.196" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">29</tspan>
@@ -1511,13 +1511,13 @@
 				<rect id="Rectangle-605-Copy-3" width="49" height="37" x="53.096" y="165.74" fill="#36C" stroke="#36C" rx="2"/>
 				<rect id="Rectangle-608-Copy" width="47" height="35" x="151.096" y="202.74" stroke="#165C91" rx="2"/>
 				<text id="S" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-					<tspan x="23.404" y="117.24" fill="#000">S</tspan> <tspan x="19.7" y="153.704" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">28</tspan>  <tspan x="24.148" y="190.152" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">4</tspan> <tspan x="19.7" y="226.6" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">11</tspan> <tspan x="19.7" y="263.048" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">18</tspan> <tspan x="19.7" y="299.496" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">25</tspan>
+					<tspan x="23.404" y="117.24" fill="#000">S</tspan> <tspan x="19.7" y="153.704" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">28</tspan> <tspan x="24.148" y="190.152" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">4</tspan> <tspan x="19.7" y="226.6" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">11</tspan> <tspan x="19.7" y="263.048" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">18</tspan> <tspan x="19.7" y="299.496" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">25</tspan>
 				</text>
 				<text id="M" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-					<tspan x="70.34" y="117.24" fill="#000">M</tspan> <tspan x="68.7" y="153.704" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">29</tspan>  <tspan x="73.148" y="190.152" fill="#FFF" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">5</tspan>  <tspan x="68.7" y="226.6" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">12</tspan> <tspan x="68.7" y="263.048" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">19</tspan> <tspan x="68.7" y="299.496" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">26</tspan>
+					<tspan x="70.34" y="117.24" fill="#000">M</tspan> <tspan x="68.7" y="153.704" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">29</tspan> <tspan x="73.148" y="190.152" fill="#FFF" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">5</tspan> <tspan x="68.7" y="226.6" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">12</tspan> <tspan x="68.7" y="263.048" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">19</tspan> <tspan x="68.7" y="299.496" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">26</tspan>
 				</text>
 				<text id="T" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-					<tspan x="121.708" y="117.24" fill="#000">T</tspan> <tspan x="117.7" y="153.704" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">30</tspan>  <tspan x="122.148" y="190.152" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">6</tspan> <tspan x="117.7" y="226.6" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">13</tspan> <tspan x="117.7" y="263.048" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">20</tspan> <tspan x="117.7" y="299.496" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">27</tspan>
+					<tspan x="121.708" y="117.24" fill="#000">T</tspan> <tspan x="117.7" y="153.704" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">30</tspan> <tspan x="122.148" y="190.152" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">6</tspan> <tspan x="117.7" y="226.6" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">13</tspan> <tspan x="117.7" y="263.048" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">20</tspan> <tspan x="117.7" y="299.496" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">27</tspan>
 				</text>
 				<text id="W" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 					<tspan x="167.044" y="117.24" fill="#000">W</tspan> <tspan x="165.7" y="153.704" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">31</tspan> <tspan x="170.148" y="190.152" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">7</tspan> <tspan x="165.7" y="226.6" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">14</tspan> <tspan x="165.7" y="263.048" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">21</tspan> <tspan x="165.7" y="299.496" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">28</tspan>
@@ -1592,10 +1592,10 @@
 				<tspan x="251.596" y="900.64">2004</tspan> <tspan x="251.596" y="937.088">2005</tspan> <tspan x="251.596" y="973.536">2006</tspan> <tspan x="251.596" y="1009.984">2007</tspan> <tspan x="251.596" y="1046.432">2008</tspan> <tspan x="251.596" y="1082.88">2009</tspan>
 			</text>
 			<text id="2010" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
-				<tspan x="319.596" y="321.94" fill="#000">2010</tspan> <tspan x="319.596" y="358.388" fill="#000">2011</tspan> <tspan x="319.596" y="394.836" fill="#000">2012</tspan> <tspan x="319.596" y="431.284" fill="#FFF">2013</tspan>  <tspan x="319.596" y="467.732" fill="#000">2014</tspan> <tspan x="319.596" y="504.18" fill="#000">2015</tspan>
+				<tspan x="319.596" y="321.94" fill="#000">2010</tspan> <tspan x="319.596" y="358.388" fill="#000">2011</tspan> <tspan x="319.596" y="394.836" fill="#000">2012</tspan> <tspan x="319.596" y="431.284" fill="#FFF">2013</tspan> <tspan x="319.596" y="467.732" fill="#000">2014</tspan> <tspan x="319.596" y="504.18" fill="#000">2015</tspan>
 			</text>
 			<text id="2010" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
-				<tspan x="319.596" y="900.64" fill="#000">2010</tspan> <tspan x="319.596" y="937.088" fill="#000">2011</tspan> <tspan x="319.596" y="973.536" fill="#000">2012</tspan> <tspan x="319.596" y="1009.984" fill="#FFF">2013</tspan>  <tspan x="319.596" y="1046.432" fill="#000">2014</tspan> <tspan x="319.596" y="1082.88" fill="#000">2015</tspan>
+				<tspan x="319.596" y="900.64" fill="#000">2010</tspan> <tspan x="319.596" y="937.088" fill="#000">2011</tspan> <tspan x="319.596" y="973.536" fill="#000">2012</tspan> <tspan x="319.596" y="1009.984" fill="#FFF">2013</tspan> <tspan x="319.596" y="1046.432" fill="#000">2014</tspan> <tspan x="319.596" y="1082.88" fill="#000">2015</tspan>
 			</text>
 			<path id="Line-Copy-45" stroke="#72777D" d="M27.596 244.94h346.03"/>
 			<path id="Line-Copy-47" stroke="#72777D" d="M27 819.5h347"/>
@@ -1626,7 +1626,7 @@
 				<tspan x="0" y="36">DATE </tspan> <tspan x="0" y="80">PICKER</tspan>
 			</text>
 			<text id="Disabled-Normal-Text" fill="#949494" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-				 <tspan x="1.251" y="145.24"> Disabled </tspan>   <tspan x="1.251" y="197.24"> Normal </tspan>               <tspan x="1.251" y="449.24">Text field </tspan> <tspan x="1.251" y="467.24">Interaction</tspan>                        <tspan x="1.251" y="899.24">Calendar </tspan> <tspan x="1.251" y="917.24">Expanded</tspan>                      <tspan x="1.251" y="1295.24"> </tspan>           <tspan x="1.251" y="1493.24">Calendar</tspan> <tspan x="1.251" y="1511.24">interaction</tspan>
+				<tspan x="1.251" y="145.24"> Disabled </tspan> <tspan x="1.251" y="197.24"> Normal </tspan> <tspan x="1.251" y="449.24">Text field </tspan> <tspan x="1.251" y="467.24">Interaction</tspan> <tspan x="1.251" y="899.24">Calendar </tspan> <tspan x="1.251" y="917.24">Expanded</tspan> <tspan x="1.251" y="1295.24"> </tspan> <tspan x="1.251" y="1493.24">Calendar</tspan> <tspan x="1.251" y="1511.24">interaction</tspan>
 			</text>
 			<path id="Line-171" stroke="#222" stroke-linecap="square" d="M186.75 97.74H2.654"/>
 			<rect id="Mediawiki.Neutral.Hover-37" width="203" height="33" x="201.751" y="175.74" fill="#FFF" stroke="#9AA0A7" rx="2"/>
@@ -1722,7 +1722,7 @@
 				<tspan x="1187" y="177.552">Placeholder icon for navigate to today’s day</tspan>
 			</text>
 			<text id="When-menu-is-expande" fill="#54595D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-				<tspan x="194.596" y="1353.24">When menu is expanded, clicking on the month / day / </tspan> <tspan x="194.596" y="1371.24">year, takes user to the month / day / year selection view. </tspan>  <tspan x="194.596" y="1407.24">The month / day / year will be highlighted. User will be </tspan> <tspan x="194.596" y="1425.24">able to type an input like a text field or choose from the </tspan> <tspan x="194.596" y="1443.24">selection below.</tspan>
+				<tspan x="194.596" y="1353.24">When menu is expanded, clicking on the month / day / </tspan> <tspan x="194.596" y="1371.24">year, takes user to the month / day / year selection view. </tspan> <tspan x="194.596" y="1407.24">The month / day / year will be highlighted. User will be </tspan> <tspan x="194.596" y="1425.24">able to type an input like a text field or choose from the </tspan> <tspan x="194.596" y="1443.24">selection below.</tspan>
 			</text>
 			<text id="CHANGING-“MONTH”" fill="#333" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="21" font-weight="bold">
 				<tspan x="194.596" y="1309.24">CHANGING “MONTH”</tspan>
@@ -1833,10 +1833,10 @@
 				<tspan x="648.251" y="859.101">Calendar Expanded</tspan>
 			</text>
 			<text id="User-will-be-able-to" fill="#54595D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-				<tspan x="423.251" y="278.24">User will be able to press </tspan> <tspan x="423.251" y="296.24" font-family="LucidaGrande, Lucida Grande">↑</tspan> <tspan x="432.281" y="296.24"> to enter previous year,</tspan> <tspan x="423.251" y="314.24" font-family="LucidaGrande, Lucida Grande">↓</tspan> <tspan x="432.281" y="314.24"> to enter year after</tspan>  <tspan x="423.251" y="350.24">User will also be able to type</tspan> <tspan x="423.251" y="368.24">the year manually.</tspan>
+				<tspan x="423.251" y="278.24">User will be able to press </tspan> <tspan x="423.251" y="296.24" font-family="LucidaGrande, Lucida Grande">↑</tspan> <tspan x="432.281" y="296.24"> to enter previous year,</tspan> <tspan x="423.251" y="314.24" font-family="LucidaGrande, Lucida Grande">↓</tspan> <tspan x="432.281" y="314.24"> to enter year after</tspan> <tspan x="423.251" y="350.24">User will also be able to type</tspan> <tspan x="423.251" y="368.24">the year manually.</tspan>
 			</text>
 			<text id="↑-to-enter-previous-" fill="#54595D" font-family="LucidaGrande, Lucida Grande" font-size="14" font-weight="normal">
-				<tspan x="647.251" y="261.24">↑</tspan> <tspan x="656.281" y="261.24" font-family="Lato-Regular, Lato, sans-serif"> to enter previous month if </tspan> <tspan x="647.251" y="279.24" font-family="Lato-Regular, Lato, sans-serif">cursor is over “Nov”,</tspan> <tspan x="647.251" y="297.24">↓</tspan> <tspan x="656.281" y="297.24" font-family="Lato-Regular, Lato, sans-serif"> to enter day after if cursor</tspan> <tspan x="647.251" y="315.24" font-family="Lato-Regular, Lato, sans-serif">is over “5”</tspan>  <tspan x="647.251" y="351.24" font-family="Lato-Regular, Lato, sans-serif">User will also be able to type</tspan> <tspan x="647.251" y="369.24" font-family="Lato-Regular, Lato, sans-serif">the month and day manually.</tspan>
+				<tspan x="647.251" y="261.24">↑</tspan> <tspan x="656.281" y="261.24" font-family="Lato-Regular, Lato, sans-serif"> to enter previous month if </tspan> <tspan x="647.251" y="279.24" font-family="Lato-Regular, Lato, sans-serif">cursor is over “Nov”,</tspan> <tspan x="647.251" y="297.24">↓</tspan> <tspan x="656.281" y="297.24" font-family="Lato-Regular, Lato, sans-serif"> to enter day after if cursor</tspan> <tspan x="647.251" y="315.24" font-family="Lato-Regular, Lato, sans-serif">is over “5”</tspan> <tspan x="647.251" y="351.24" font-family="Lato-Regular, Lato, sans-serif">User will also be able to type</tspan> <tspan x="647.251" y="369.24" font-family="Lato-Regular, Lato, sans-serif">the month and day manually.</tspan>
 			</text>
 			<text id="Placeholder-icon-for" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
 				<tspan x="1187" y="135.552">Placeholder icon for calendar</tspan>
@@ -1881,13 +1881,13 @@
 			<path id="Line-214-Copy-2" stroke="#D0021B" stroke-width="4" d="M608.25 903.24h16"/>
 			<rect id="Mediawiki.Neutral.Acive-copy-33" width="20" height="20" x="589.251" y="892.24" fill="#222" rx="2"/>
 			<text id="S" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-				<tspan x="695.808" y="1586" fill="#000">S</tspan> <tspan x="692.104" y="1622.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">28</tspan>  <tspan x="696.552" y="1658.912" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">4</tspan> <tspan x="692.104" y="1695.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">11</tspan> <tspan x="692.104" y="1731.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">18</tspan> <tspan x="692.104" y="1768.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">25</tspan>
+				<tspan x="695.808" y="1586" fill="#000">S</tspan> <tspan x="692.104" y="1622.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">28</tspan> <tspan x="696.552" y="1658.912" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">4</tspan> <tspan x="692.104" y="1695.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">11</tspan> <tspan x="692.104" y="1731.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">18</tspan> <tspan x="692.104" y="1768.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">25</tspan>
 			</text>
 			<text id="M" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-				<tspan x="742.744" y="1586" fill="#000">M</tspan> <tspan x="741.104" y="1622.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">29</tspan>  <tspan x="745.552" y="1658.912" fill="#FFF" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">5</tspan>  <tspan x="741.104" y="1695.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">12</tspan> <tspan x="741.104" y="1731.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">19</tspan> <tspan x="741.104" y="1768.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">26</tspan>
+				<tspan x="742.744" y="1586" fill="#000">M</tspan> <tspan x="741.104" y="1622.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">29</tspan> <tspan x="745.552" y="1658.912" fill="#FFF" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">5</tspan> <tspan x="741.104" y="1695.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">12</tspan> <tspan x="741.104" y="1731.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">19</tspan> <tspan x="741.104" y="1768.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">26</tspan>
 			</text>
 			<text id="T" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-				<tspan x="794.112" y="1586" fill="#000">T</tspan> <tspan x="790.104" y="1622.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">30</tspan>  <tspan x="794.552" y="1658.912" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">6</tspan> <tspan x="790.104" y="1695.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">13</tspan> <tspan x="790.104" y="1731.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">20</tspan> <tspan x="790.104" y="1768.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">27</tspan>
+				<tspan x="794.112" y="1586" fill="#000">T</tspan> <tspan x="790.104" y="1622.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">30</tspan> <tspan x="794.552" y="1658.912" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">6</tspan> <tspan x="790.104" y="1695.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">13</tspan> <tspan x="790.104" y="1731.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">20</tspan> <tspan x="790.104" y="1768.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">27</tspan>
 			</text>
 			<path id="Rectangle-607-Copy-9" fill="#EAF3FF" d="M691 1470h26v32h-26z"/>
 			<text id="W" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
@@ -1922,13 +1922,13 @@
 			<rect id="Mediawiki.Neutral.Acive-copy-26" width="10" height="10" x="913.138" y="948" fill="#000" rx="2"/>
 			<rect id="Rectangle-605-Copy-3" width="49" height="37" x="700.638" y="1051.5" fill="#36C" stroke="#36C" rx="2"/>
 			<text id="S" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-				<tspan x="670.946" y="1003" fill="#000">S</tspan> <tspan x="667.242" y="1039.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">28</tspan>  <tspan x="671.69" y="1075.912" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">4</tspan> <tspan x="667.242" y="1112.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">11</tspan> <tspan x="667.242" y="1148.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">18</tspan> <tspan x="667.242" y="1185.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">25</tspan>
+				<tspan x="670.946" y="1003" fill="#000">S</tspan> <tspan x="667.242" y="1039.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">28</tspan> <tspan x="671.69" y="1075.912" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">4</tspan> <tspan x="667.242" y="1112.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">11</tspan> <tspan x="667.242" y="1148.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">18</tspan> <tspan x="667.242" y="1185.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">25</tspan>
 			</text>
 			<text id="M" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-				<tspan x="717.882" y="1003" fill="#000">M</tspan> <tspan x="716.242" y="1039.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">29</tspan>  <tspan x="720.69" y="1075.912" fill="#FFF" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">5</tspan>  <tspan x="716.242" y="1112.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">12</tspan> <tspan x="716.242" y="1148.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">19</tspan> <tspan x="716.242" y="1185.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">26</tspan>
+				<tspan x="717.882" y="1003" fill="#000">M</tspan> <tspan x="716.242" y="1039.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">29</tspan> <tspan x="720.69" y="1075.912" fill="#FFF" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">5</tspan> <tspan x="716.242" y="1112.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">12</tspan> <tspan x="716.242" y="1148.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">19</tspan> <tspan x="716.242" y="1185.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">26</tspan>
 			</text>
 			<text id="T" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-				<tspan x="769.25" y="1003" fill="#000">T</tspan> <tspan x="765.242" y="1039.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">30</tspan>  <tspan x="769.69" y="1075.912" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">6</tspan> <tspan x="765.242" y="1112.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">13</tspan> <tspan x="765.242" y="1148.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">20</tspan> <tspan x="765.242" y="1185.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">27</tspan>
+				<tspan x="769.25" y="1003" fill="#000">T</tspan> <tspan x="765.242" y="1039.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">30</tspan> <tspan x="769.69" y="1075.912" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">6</tspan> <tspan x="765.242" y="1112.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">13</tspan> <tspan x="765.242" y="1148.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">20</tspan> <tspan x="765.242" y="1185.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">27</tspan>
 			</text>
 			<text id="W" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 				<tspan x="814.586" y="1003" fill="#000">W</tspan> <tspan x="813.242" y="1039.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">31</tspan> <tspan x="817.69" y="1075.912" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">7</tspan> <tspan x="813.242" y="1112.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">14</tspan> <tspan x="813.242" y="1148.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">21</tspan> <tspan x="813.242" y="1185.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">28</tspan>
@@ -1962,13 +1962,13 @@
 			<rect id="Mediawiki.Neutral.Acive-copy-26" width="10" height="10" x="467" y="2131" fill="#000" rx="2"/>
 			<rect id="Rectangle-605-Copy-3" width="49" height="37" x="254.5" y="2234.5" fill="#36C" stroke="#36C" rx="2"/>
 			<text id="S" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-				<tspan x="224.808" y="2186" fill="#000">S</tspan> <tspan x="221.104" y="2222.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">28</tspan>  <tspan x="225.552" y="2258.912" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">4</tspan> <tspan x="221.104" y="2295.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">11</tspan> <tspan x="221.104" y="2331.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">18</tspan> <tspan x="221.104" y="2368.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">25</tspan>
+				<tspan x="224.808" y="2186" fill="#000">S</tspan> <tspan x="221.104" y="2222.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">28</tspan> <tspan x="225.552" y="2258.912" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">4</tspan> <tspan x="221.104" y="2295.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">11</tspan> <tspan x="221.104" y="2331.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">18</tspan> <tspan x="221.104" y="2368.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">25</tspan>
 			</text>
 			<text id="M" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-				<tspan x="271.744" y="2186" fill="#000">M</tspan> <tspan x="270.104" y="2222.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">29</tspan>  <tspan x="274.552" y="2258.912" fill="#FFF" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">5</tspan>  <tspan x="270.104" y="2295.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">12</tspan> <tspan x="270.104" y="2331.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">19</tspan> <tspan x="270.104" y="2368.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">26</tspan>
+				<tspan x="271.744" y="2186" fill="#000">M</tspan> <tspan x="270.104" y="2222.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">29</tspan> <tspan x="274.552" y="2258.912" fill="#FFF" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">5</tspan> <tspan x="270.104" y="2295.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">12</tspan> <tspan x="270.104" y="2331.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">19</tspan> <tspan x="270.104" y="2368.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">26</tspan>
 			</text>
 			<text id="T" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-				<tspan x="323.112" y="2186" fill="#000">T</tspan> <tspan x="319.104" y="2222.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">30</tspan>  <tspan x="323.552" y="2258.912" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">6</tspan> <tspan x="319.104" y="2295.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">13</tspan> <tspan x="319.104" y="2331.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">20</tspan> <tspan x="319.104" y="2368.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">27</tspan>
+				<tspan x="323.112" y="2186" fill="#000">T</tspan> <tspan x="319.104" y="2222.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">30</tspan> <tspan x="323.552" y="2258.912" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">6</tspan> <tspan x="319.104" y="2295.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">13</tspan> <tspan x="319.104" y="2331.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">20</tspan> <tspan x="319.104" y="2368.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">27</tspan>
 			</text>
 			<text id="W" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 				<tspan x="368.448" y="2186" fill="#000">W</tspan> <tspan x="367.104" y="2222.464" fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">31</tspan> <tspan x="371.552" y="2258.912" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">7</tspan> <tspan x="367.104" y="2295.36" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">14</tspan> <tspan x="367.104" y="2331.808" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">21</tspan> <tspan x="367.104" y="2368.256" fill="#000" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">28</tspan>
@@ -2015,7 +2015,7 @@
 				<tspan x="1342.596" y="1584.94">2004</tspan> <tspan x="1342.596" y="1621.388">2005</tspan> <tspan x="1342.596" y="1657.836">2006</tspan> <tspan x="1342.596" y="1694.284">2007</tspan> <tspan x="1342.596" y="1730.732">2008</tspan> <tspan x="1342.596" y="1767.18">2009</tspan>
 			</text>
 			<text id="2010" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
-				<tspan x="1410.596" y="1584.94" fill="#000">2010</tspan> <tspan x="1410.596" y="1621.388" fill="#000">2011</tspan> <tspan x="1410.596" y="1657.836" fill="#000">2012</tspan> <tspan x="1410.596" y="1694.284" fill="#FFF">2013</tspan>  <tspan x="1410.596" y="1730.732" fill="#000">2014</tspan> <tspan x="1410.596" y="1767.18" fill="#000">2015</tspan>
+				<tspan x="1410.596" y="1584.94" fill="#000">2010</tspan> <tspan x="1410.596" y="1621.388" fill="#000">2011</tspan> <tspan x="1410.596" y="1657.836" fill="#000">2012</tspan> <tspan x="1410.596" y="1694.284" fill="#FFF">2013</tspan> <tspan x="1410.596" y="1730.732" fill="#000">2014</tspan> <tspan x="1410.596" y="1767.18" fill="#000">2015</tspan>
 			</text>
 			<path id="Line-Copy-45" stroke="#A2A9B1" stroke-linecap="square" d="M1118 1503.5h346"/>
 			<path id="Rectangle-607-Copy-10" fill="#EAF3FF" d="M1223 1471h41v32h-41z"/>
@@ -2043,7 +2043,7 @@
 				<tspan x="869.596" y="544.94">2004</tspan> <tspan x="869.596" y="581.388">2005</tspan> <tspan x="869.596" y="617.836">2006</tspan> <tspan x="869.596" y="654.284">2007</tspan> <tspan x="869.596" y="690.732">2008</tspan> <tspan x="869.596" y="727.18">2009</tspan>
 			</text>
 			<text id="2010" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
-				<tspan x="937.596" y="544.94" fill="#000">2010</tspan> <tspan x="937.596" y="581.388" fill="#000">2011</tspan> <tspan x="937.596" y="617.836" fill="#000">2012</tspan> <tspan x="937.596" y="654.284" fill="#FFF">2013</tspan>  <tspan x="937.596" y="690.732" fill="#000">2014</tspan> <tspan x="937.596" y="727.18" fill="#000">2015</tspan>
+				<tspan x="937.596" y="544.94" fill="#000">2010</tspan> <tspan x="937.596" y="581.388" fill="#000">2011</tspan> <tspan x="937.596" y="617.836" fill="#000">2012</tspan> <tspan x="937.596" y="654.284" fill="#FFF">2013</tspan> <tspan x="937.596" y="690.732" fill="#000">2014</tspan> <tspan x="937.596" y="727.18" fill="#000">2015</tspan>
 			</text>
 			<path id="Imported-Layers-61-Copy-12" fill="#000" d="M963.018 494.33a1.531 1.531 0 0 0-2.042 0l-4.88 4.495-4.89-4.504c-.564-.52-1.47-.502-2.032.019l-.578.534 7.5 6.956 7.5-6.956-.578-.544z" transform="matrix(1 0 0 -1 0 995.88)"/>
 			<path id="Imported-Layers-61-Copy-13" fill="#000" d="M865.018 494.33a1.531 1.531 0 0 0-2.042 0l-4.88 4.495-4.89-4.504c-.564-.52-1.47-.502-2.032.019l-.578.534 7.5 6.956 7.5-6.956-.578-.544z" transform="matrix(-1 0 0 1 1716.192 0)"/>
@@ -2067,8 +2067,8 @@
 			<g id="Text-input-/-!default" transform="translate(44 123)">
 				<rect id="Mediawiki.Neutral.Hover-35" width="60" height="33" x="-.5" y="-.5" fill="#FFF" fill-rule="evenodd" stroke="#9AA0A7" stroke-width="1" rx="2"/>
 			</g>
-			<path id="Line" stroke="#9AA0A7" stroke-linecap="square" d="M43.5 122.5v33M103.5 122.5v33"/>
-			<path id="Rectangle" fill="#FFF" d="M44 123h4v4h-4zM44 151h4v4h-4zM99 151h4v4h-4zM99 123h4v4h-4z"/>
+			<path id="Line" stroke="#9AA0A7" stroke-linecap="square" d="M43.5 122.5v33m60-33v33"/>
+			<path id="Rectangle" fill="#FFF" d="M44 123h4v4h-4zm0 28h4v4h-4zm55 0h4v4h-4zm0-28h4v4h-4z"/>
 			<text id="100" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 				<tspan x="60" y="145">100</tspan>
 			</text>
@@ -2212,13 +2212,13 @@
 			<g id="Cursor-/-Pointer" transform="translate(281 328)">
 				<g id="Cursor-Pointer">
 					<use fill="#000" filter="url(#filter-41)" xlink:href="#path-40"/>
-					<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+					<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 				</g>
 			</g>
 			<g id="Cursor-/-Pointer" transform="translate(473 328)">
 				<g id="Cursor-Pointer">
 					<use fill="#000" filter="url(#filter-43)" xlink:href="#path-42"/>
-					<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+					<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 				</g>
 			</g>
 			<g id="Toolbar-elements:active" transform="translate(229 358)">
@@ -2319,7 +2319,7 @@
 					<tspan x="218.5" y="62.5">Option 1</tspan>
 				</text>
 				<text id="Option-2+3-Copy" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="218.5" y="93.5">Option 2</tspan>  <tspan x="218.5" y="123.892">Option 3</tspan>
+					<tspan x="218.5" y="93.5">Option 2</tspan> <tspan x="218.5" y="123.892">Option 3</tspan>
 				</text>
 				<g id="Icon-/-placeholder-(notBright/circle)-/-!default" fill="#222" transform="translate(156 11)">
 					<path id="Shape" d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0z"/>
@@ -2363,7 +2363,7 @@
 			<path id="Path-115" stroke="#CCC" stroke-dasharray="1" d="M614.5 204v295"/>
 			<circle id="Oval-229" cx="531.5" cy="133.5" r="2.5" fill="#36C"/>
 			<text fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
-				 <tspan x="0" y="80">TOOLBAR</tspan>
+				<tspan x="0" y="80">TOOLBAR</tspan>
 			</text>
 			<path id="Line-166" stroke="#222" stroke-linecap="square" d="M186.5 98.5H2.402"/>
 			<text id="Normal" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
@@ -2391,9 +2391,9 @@
 		</g>
 		<g id="INPUT-FIELD-+-DROPDOWN" transform="translate(9610 759)">
 			<text id="Disabled-Normal-Hove" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-				<tspan x="0" y="141">Disabled</tspan>   <tspan x="0" y="197.4">Normal</tspan>   <tspan x="0" y="253.8">Hover</tspan>   <tspan x="0" y="310.2">Active</tspan>   <tspan x="0" y="366.6">Focus</tspan>   <tspan x="0" y="423">Expanded Menu</tspan>
+				<tspan x="0" y="141">Disabled</tspan> <tspan x="0" y="197.4">Normal</tspan> <tspan x="0" y="253.8">Hover</tspan> <tspan x="0" y="310.2">Active</tspan> <tspan x="0" y="366.6">Focus</tspan> <tspan x="0" y="423">Expanded Menu</tspan>
 			</text>
-			<path id="Mediawiki.Neutral.Normal-copy-29" fill="#F8F9FA" stroke="#A2A9B1" d="M316.5 232.5h30.498a2.497 2.497 0 0 1 2.502 2.502v27.996a2.497 2.497 0 0 1-2.502 2.502H316.5v-33zM316.5 344.5h30.498a2.497 2.497 0 0 1 2.502 2.502v27.996a2.497 2.497 0 0 1-2.502 2.502H316.5v-33zM316.5 288.5h30.498a2.497 2.497 0 0 1 2.502 2.502v27.996a2.497 2.497 0 0 1-2.502 2.502H316.5v-33z"/>
+			<path id="Mediawiki.Neutral.Normal-copy-29" fill="#F8F9FA" stroke="#A2A9B1" d="M316.5 232.5h30.498a2.497 2.497 0 0 1 2.502 2.502v27.996a2.497 2.497 0 0 1-2.502 2.502H316.5v-33zm0 112h30.498a2.497 2.497 0 0 1 2.502 2.502v27.996a2.497 2.497 0 0 1-2.502 2.502H316.5v-33zm0-56h30.498a2.497 2.497 0 0 1 2.502 2.502v27.996a2.497 2.497 0 0 1-2.502 2.502H316.5v-33z"/>
 			<g id="Text-input-/-:disabled" transform="translate(200 121)">
 				<rect id="Mediawiki.Neutral.Hover-33" width="117" height="33" x="-.5" y="-.5" fill="#EAECF0" fill-rule="evenodd" stroke="#C8CCD1" stroke-width="1" rx="2"/>
 			</g>
@@ -2504,7 +2504,7 @@
 				<tspan x="0" y="36">BUTTON +</tspan> <tspan x="0" y="80">DROPDOWN</tspan>
 			</text>
 			<text id="Disabled-Normal-Hove" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-				<tspan x="0" y="148">Disabled</tspan>    <tspan x="0" y="223.2">Normal</tspan>    <tspan x="0" y="298.4">Hover</tspan>    <tspan x="0" y="373.6">Active</tspan>    <tspan x="0" y="448.8">Expanded Menu</tspan>
+				<tspan x="0" y="148">Disabled</tspan> <tspan x="0" y="223.2">Normal</tspan> <tspan x="0" y="298.4">Hover</tspan> <tspan x="0" y="373.6">Active</tspan> <tspan x="0" y="448.8">Expanded Menu</tspan>
 			</text>
 			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 96)">
 				<path id="Line" d="M183.5 1.5H.5"/>
@@ -2606,7 +2606,7 @@
 			<g id="Cursor-/-Pointer" transform="translate(902 525)">
 				<g id="Cursor-Pointer">
 					<use fill="#000" filter="url(#filter-63)" xlink:href="#path-62"/>
-					<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+					<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 				</g>
 			</g>
 			<path id="Mediawiki.Neutral.Normal-copy-87" fill="#2A4B8D" stroke="#2A4B8D" d="M1157.5 407.5h32.5c1.383 0 2.5 1.119 2.5 2.501V456.5h-35v-49z"/>
@@ -2633,7 +2633,7 @@
 		</g>
 		<g id="ICON-DROPDOWN" transform="translate(9600 142)">
 			<text id="Disabled-Normal-Hove" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-				<tspan x="0" y="144">Disabled</tspan>   <tspan x="0" y="201">Normal</tspan>   <tspan x="0" y="258">Hover</tspan>   <tspan x="0" y="315">Active</tspan>    <tspan x="0" y="391">Expanded Menu</tspan>
+				<tspan x="0" y="144">Disabled</tspan> <tspan x="0" y="201">Normal</tspan> <tspan x="0" y="258">Hover</tspan> <tspan x="0" y="315">Active</tspan> <tspan x="0" y="391">Expanded Menu</tspan>
 			</text>
 			<path id="Rectangle-640-Copy-10" fill="#CCC" stroke="#CCC" d="M191.5 345.5h37v30.498a2.497 2.497 0 0 1-2.5 2.502h-32a2.496 2.496 0 0 1-2.5-2.502V345.5z" transform="matrix(1 0 0 -1 0 724)"/>
 			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 96)">
@@ -2644,7 +2644,7 @@
 				<path fill="#FFF" stroke="#A2A9B1" d="M191.5 378.5h89v92.493a2.506 2.506 0 0 1-2.503 2.507h-83.994a2.507 2.507 0 0 1-2.503-2.507V378.5z"/>
 			</g>
 			<text id="Option-1-Copy-2" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="14" font-weight="normal">
-				<tspan x="208" y="398">Option 1</tspan>  <tspan x="208" y="430">Option 2</tspan>  <tspan x="208" y="462">Option 3</tspan>
+				<tspan x="208" y="398">Option 1</tspan> <tspan x="208" y="430">Option 2</tspan> <tspan x="208" y="462">Option 3</tspan>
 			</text>
 			<g id="101-/-0.5em" stroke="#50E3C2" stroke-linecap="square" transform="rotate(90 -93 308)">
 				<path id=".5em" d="M.5 1.5h7"/>
@@ -2705,8 +2705,8 @@
 				<path id="Shape-Copy-2" d="M5 2.5c0 .625-.25 1.25-.75 1.75S3.125 5 2.5 5 1.25 4.75.75 4.25 0 3.125 0 2.5.25 1.25.75.75 1.75 0 2.5 0c.625 0 1.25.25 1.75.75S5 1.75 5 2.5zm7.5 0c0 .625-.25 1.25-.75 1.75S10.625 5 10 5s-1.25-.25-1.75-.75S7.5 3.125 7.5 2.5s.25-1.25.75-1.75S9.25 0 10 0c.625 0 1.25.25 1.75.75s.75 1 .75 1.75zm7.5 0c0 .625-.25 1.25-.75 1.75S18.125 5 17.5 5s-1.25-.25-1.75-.75S15 3.125 15 2.5s.25-1.25.75-1.75 1-.75 1.75-.75c.625 0 1.25.25 1.75.75s.75 1 .75 1.75z" transform="matrix(1 0 0 -1 0 5)"/>
 			</g>
 			<g id="Icon-/-!default" fill="#222" transform="translate(200 192)">
-				<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
-				<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.566 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+				<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666c.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+				<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666 2.26 2.26 0 0 0 1.586-.666c.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 				<path id="Shape-Copy-7" d="M19.26 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 16.993 0c-.68 0-1.132.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.454.444 1.02.666 1.586.666.567 0 1.133-.222 1.587-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 			</g>
 			<rect id="Rectangle-640-Copy-6" width="36" height="32" x="255" y="234" fill="#EAECF0" rx="2" transform="matrix(1 0 0 -1 0 500)"/>
@@ -2716,14 +2716,14 @@
 			<path id="Line-Copy-31" stroke="#50E3C2" stroke-linecap="square" d="M193 250h7"/>
 			<path id="Line-Copy-32" stroke="#50E3C2" stroke-linecap="square" d="M220 250h7"/>
 			<g id="Shape-Copy-5-+-Shape-Copy-6-+-Shape-Copy-7-Copy-Copy-Copy-Copy-Copy-Copy" fill="#222" transform="translate(200 248)">
-				<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
-				<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.566 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+				<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666c.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+				<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666 2.26 2.26 0 0 0 1.586-.666c.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 				<path id="Shape-Copy-7" d="M19.26 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 16.993 0c-.68 0-1.132.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.454.444 1.02.666 1.586.666.567 0 1.133-.222 1.587-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 			</g>
 			<rect id="Rectangle-640-Copy-8" width="37" height="33" x="191.5" y="289.5" fill="#CCC" stroke="#CCC" rx="2" transform="matrix(1 0 0 -1 0 612)"/>
 			<g id="Shape-Copy-5-+-Shape-Copy-6-+-Shape-Copy-7-Copy-Copy-Copy-Copy-Copy-Copy-Copy" fill="#222" transform="translate(200 304)">
-				<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
-				<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.566 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+				<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666c.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+				<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666 2.26 2.26 0 0 0 1.586-.666c.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 				<path id="Shape-Copy-7" d="M19.26 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 16.993 0c-.68 0-1.132.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.454.444 1.02.666 1.586.666.567 0 1.133-.222 1.587-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 			</g>
 			<g id="Rectangle-640-Copy-9" stroke="#36C" transform="matrix(1 0 0 -1 0 1028)">
@@ -2731,13 +2731,13 @@
 				<rect width="35" height="31" x="192.5" y="498.5" stroke-linejoin="square" rx="2"/>
 			</g>
 			<g id="Shape-Copy-5-+-Shape-Copy-6-+-Shape-Copy-7-Copy-Copy-Copy-Copy-Copy-Copy-Copy-Copy" fill="#222" transform="translate(200 512)">
-				<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
-				<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.566 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+				<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666c.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+				<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666 2.26 2.26 0 0 0 1.586-.666c.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 				<path id="Shape-Copy-7" d="M19.26 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 16.993 0c-.68 0-1.132.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.454.444 1.02.666 1.586.666.567 0 1.133-.222 1.587-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 			</g>
 			<g id="Shape-Copy-5-+-Shape-Copy-6-+-Shape-Copy-7-Copy-Copy-Copy-Copy-Copy-Copy-Copy-Copy-Copy" fill="#222" transform="translate(200 360)">
-				<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
-				<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.566 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+				<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666c.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+				<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666 2.26 2.26 0 0 0 1.586-.666c.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 				<path id="Shape-Copy-7" d="M19.26 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 16.993 0c-.68 0-1.132.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.454.444 1.02.666 1.586.666.567 0 1.133-.222 1.587-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 			</g>
 			<path id="Line-Copy-33" fill="#4A90E2" fill-rule="nonzero" d="M295.334 240.493l.332 18.997 4-.07.017 1-9 .157-.017-1 4-.07-.332-18.997-4 .07-.017-1 9-.157.017 1-4 .07z"/>
@@ -2754,7 +2754,7 @@
 		</g>
 		<g id="LINK-DROPDOWN" transform="translate(8880 142)">
 			<text id="Disabled-Normal-Hove" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-				<tspan x="0" y="142">Disabled</tspan>   <tspan x="0" y="198.4">Normal</tspan>   <tspan x="0" y="254.8">Hover</tspan>   <tspan x="0" y="311.2">Active</tspan>   <tspan x="0" y="367.6">Expanded Menu</tspan>      <tspan x="0" y="480.4">Focus</tspan>
+				<tspan x="0" y="142">Disabled</tspan> <tspan x="0" y="198.4">Normal</tspan> <tspan x="0" y="254.8">Hover</tspan> <tspan x="0" y="311.2">Active</tspan> <tspan x="0" y="367.6">Expanded Menu</tspan> <tspan x="0" y="480.4">Focus</tspan>
 			</text>
 			<rect id="Mediawiki.Neutral.Acive-15-Copy-8" width="112" height="32" x="194" y="234" fill="#EAECF0" rx="2"/>
 			<rect id="Mediawiki.Neutral.Acive-15-Copy-9" width="113" height="33" x="193.5" y="289.5" fill="#CCC" stroke="#CCC" rx="2"/>
@@ -2955,13 +2955,13 @@
 				<g id="Cursor-/-Pointer" transform="translate(281 190)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-80)" xlink:href="#path-79"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(281 134)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-82)" xlink:href="#path-81"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Mediawiki.Neutral.Acive-15-Copy-2" stroke="#36C">
@@ -3153,12 +3153,12 @@
 				<g id="Cursor-/-Pointer" transform="translate(404 303)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-94)" xlink:href="#path-93"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<circle id="Oval-243-Copy-2" cx="460.5" cy="271.5" r="2.5" fill="#36C"/>
 				<text id="Disabled-Normal-Hove" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="0" y="23">Disabled</tspan>   <tspan x="0" y="79.4">Normal</tspan>   <tspan x="0" y="135.8">Hover</tspan>   <tspan x="0" y="192.2">Active</tspan>   <tspan x="0" y="248.6">Expanded Menu</tspan> <tspan x="0" y="267.4">Focus</tspan>
+					<tspan x="0" y="23">Disabled</tspan> <tspan x="0" y="79.4">Normal</tspan> <tspan x="0" y="135.8">Hover</tspan> <tspan x="0" y="192.2">Active</tspan> <tspan x="0" y="248.6">Expanded Menu</tspan> <tspan x="0" y="267.4">Focus</tspan>
 				</text>
 			</g>
 			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(2 52)">
@@ -3172,14 +3172,14 @@
 			<g id="Text-Input-X" transform="translate(0 122)">
 				<g id="Search-Input-Field-+-Icon" transform="translate(0 296)">
 					<text id="Disabled-Normal-Hove" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-						<tspan x="2" y="60">Disabled</tspan>   <tspan x="2" y="116.4">Normal</tspan>   <tspan x="2" y="172.8">Hover</tspan>   <tspan x="2" y="229.2">Focus &amp;</tspan> <tspan x="2" y="248">Active</tspan>
+						<tspan x="2" y="60">Disabled</tspan> <tspan x="2" y="116.4">Normal</tspan> <tspan x="2" y="172.8">Hover</tspan> <tspan x="2" y="229.2">Focus &amp;</tspan> <tspan x="2" y="248">Active</tspan>
 					</text>
 					<g id="Text-field-w/-icon---hover-/-active" transform="translate(195 152)">
 						<rect id="Mediawiki.Neutral.Hover-14-Copy" width="273" height="33" x="-.5" y="-.5" fill="#FFF" stroke="#72777D" rx="2"/>
 						<text id="Re-enter-password-3-Copy" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Re-enter password</tspan>
 						</text>
-						<path id="Imported-Layers-50-Copy" fill="#000" d="M158.584 17.052v7.911c-.009.632-.455 1.335-1.203 2.047a9.12 9.12 0 0 1-1.222.975l-.026.017a.284.284 0 0 0-.086.396.295.295 0 0 0 .403.085 9.725 9.725 0 0 0 .42-.294 9.78 9.78 0 0 0 .917-.767c.479-.456.853-.915 1.09-1.373.238.461.61.919 1.088 1.373a9.776 9.776 0 0 0 1.337 1.061.295.295 0 0 0 .403-.085.284.284 0 0 0-.086-.396l-.026-.017a8.2 8.2 0 0 1-.361-.254 9.168 9.168 0 0 1-.861-.72c-.748-.713-1.194-1.416-1.203-2.03v-7.93h1.343a.29.29 0 0 0 .291-.286.29.29 0 0 0-.291-.287h-1.343V8.567c0-.627.447-1.338 1.203-2.055a9.048 9.048 0 0 1 1.22-.967l.026-.016a.284.284 0 0 0 .089-.397.294.294 0 0 0-.403-.087 9.3 9.3 0 0 0-.421.292c-.312.229-.624.485-.917.762-.478.454-.852.912-1.09 1.37-.236-.458-.61-.916-1.089-1.37a9.52 9.52 0 0 0-1.337-1.054.295.295 0 0 0-.403.087.284.284 0 0 0 .089.397l.025.016c.023.014.049.032.078.052a9.048 9.048 0 0 1 1.144.916c.755.716 1.202 1.427 1.202 2.054v7.91h-1.5a.29.29 0 0 0-.292.288c0 .158.13.287.292.287h1.5"/>
+						<path id="Imported-Layers-50-Copy" fill="#000" d="M158.584 17.052v7.911c-.009.632-.455 1.335-1.203 2.047a9.12 9.12 0 0 1-1.222.975l-.026.017a.284.284 0 0 0-.086.396.295.295 0 0 0 .403.085 9.725 9.725 0 0 0 .42-.294 9.78 9.78 0 0 0 .917-.767c.479-.456.853-.915 1.09-1.373.238.461.61.919 1.088 1.373a9.776 9.776 0 0 0 1.337 1.061.295.295 0 0 0 .403-.085.284.284 0 0 0-.086-.396l-.026-.017a8.2 8.2 0 0 1-.361-.254 9.168 9.168 0 0 1-.861-.72c-.748-.713-1.194-1.416-1.203-2.03v-7.93h1.343a.29.29 0 0 0 .291-.286.29.29 0 0 0-.291-.287h-1.343V8.567c0-.627.447-1.338 1.203-2.055a9.048 9.048 0 0 1 1.22-.967l.026-.016a.284.284 0 0 0 .089-.397.294.294 0 0 0-.403-.087 9.3 9.3 0 0 0-.421.292 9.667 9.667 0 0 0-.917.762c-.478.454-.852.912-1.09 1.37-.236-.458-.61-.916-1.089-1.37a9.52 9.52 0 0 0-1.337-1.054.295.295 0 0 0-.403.087.284.284 0 0 0 .089.397l.025.016c.023.014.049.032.078.052a9.048 9.048 0 0 1 1.144.916c.755.716 1.202 1.427 1.202 2.054v7.91h-1.5a.29.29 0 0 0-.292.288c0 .158.13.287.292.287h1.5"/>
 						<g id="Icon-/-Search-/-!default" fill="#222" transform="translate(7 6)">
 							<path id="Shape" d="M18.998 16.998l-5.15-5.15a7 7 0 1 0-2 2l5.15 5.15 2-2zm-15.5-9a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0z"/>
 						</g>
@@ -3256,7 +3256,7 @@
 					<text id="Re-enter-password-3" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="15" y="22">Re-enter password</tspan>
 					</text>
-					<path id="Imported-Layers-50" fill="#000" d="M216.584 28.052v7.911c-.009.632-.455 1.335-1.203 2.047a9.12 9.12 0 0 1-1.222.975l-.026.017a.284.284 0 0 0-.086.396.295.295 0 0 0 .403.085 9.725 9.725 0 0 0 .42-.294 9.78 9.78 0 0 0 .917-.767c.479-.456.853-.915 1.09-1.373.238.461.61.919 1.088 1.373a9.776 9.776 0 0 0 1.337 1.061.295.295 0 0 0 .403-.085.284.284 0 0 0-.086-.396l-.026-.017a8.2 8.2 0 0 1-.361-.254 9.168 9.168 0 0 1-.861-.72c-.748-.713-1.194-1.416-1.203-2.03v-7.93h1.343a.29.29 0 0 0 .291-.286.29.29 0 0 0-.291-.287h-1.343v-7.911c0-.627.447-1.338 1.203-2.055a9.048 9.048 0 0 1 1.22-.967l.026-.016a.284.284 0 0 0 .089-.397.294.294 0 0 0-.403-.087 9.3 9.3 0 0 0-.421.292c-.312.229-.624.485-.917.762-.478.454-.852.912-1.09 1.37-.236-.458-.61-.916-1.089-1.37a9.52 9.52 0 0 0-1.337-1.054.295.295 0 0 0-.403.087.284.284 0 0 0 .089.397l.025.016c.023.014.049.032.078.052a9.048 9.048 0 0 1 1.144.916c.755.716 1.202 1.427 1.202 2.054v7.91h-1.5a.29.29 0 0 0-.292.288c0 .158.13.287.292.287h1.5"/>
+					<path id="Imported-Layers-50" fill="#000" d="M216.584 28.052v7.911c-.009.632-.455 1.335-1.203 2.047a9.12 9.12 0 0 1-1.222.975l-.026.017a.284.284 0 0 0-.086.396.295.295 0 0 0 .403.085 9.725 9.725 0 0 0 .42-.294 9.78 9.78 0 0 0 .917-.767c.479-.456.853-.915 1.09-1.373.238.461.61.919 1.088 1.373a9.776 9.776 0 0 0 1.337 1.061.295.295 0 0 0 .403-.085.284.284 0 0 0-.086-.396l-.026-.017a8.2 8.2 0 0 1-.361-.254 9.168 9.168 0 0 1-.861-.72c-.748-.713-1.194-1.416-1.203-2.03v-7.93h1.343a.29.29 0 0 0 .291-.286.29.29 0 0 0-.291-.287h-1.343v-7.911c0-.627.447-1.338 1.203-2.055a9.048 9.048 0 0 1 1.22-.967l.026-.016a.284.284 0 0 0 .089-.397.294.294 0 0 0-.403-.087 9.3 9.3 0 0 0-.421.292 9.667 9.667 0 0 0-.917.762c-.478.454-.852.912-1.09 1.37-.236-.458-.61-.916-1.089-1.37a9.52 9.52 0 0 0-1.337-1.054.295.295 0 0 0-.403.087.284.284 0 0 0 .089.397l.025.016c.023.014.049.032.078.052a9.048 9.048 0 0 1 1.144.916c.755.716 1.202 1.427 1.202 2.054v7.91h-1.5a.29.29 0 0 0-.292.288c0 .158.13.287.292.287h1.5"/>
 				</g>
 				<g id="Text-input-/-:focus" transform="translate(194 168)">
 					<g id="Mediawiki.Neutral.Hover-32" stroke="#36C" stroke-width="1">
@@ -3268,7 +3268,7 @@
 					</text>
 					<path id="Line-172" stroke="#000" stroke-linecap="square" stroke-width="1" d="M49.5 6.5v17.938"/>
 					<path id="Shape-Copy-4" fill="#222" fill-rule="evenodd" d="M254 8c-4.4 0-8 3.6-8 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm4 11l-1 1-3-3-3 3-1-1 3-3-3-3 1-1 3 3 3-3 1 1-3 3 3 3z"/>
-					<path id="Imported-Layers-50" fill="#000" fill-rule="evenodd" d="M216.584 28.052v7.911c-.009.632-.455 1.335-1.203 2.047a9.12 9.12 0 0 1-1.222.975l-.026.017a.284.284 0 0 0-.086.396.295.295 0 0 0 .403.085 9.725 9.725 0 0 0 .42-.294 9.78 9.78 0 0 0 .917-.767c.479-.456.853-.915 1.09-1.373.238.461.61.919 1.088 1.373a9.776 9.776 0 0 0 1.337 1.061.295.295 0 0 0 .403-.085.284.284 0 0 0-.086-.396l-.026-.017a8.2 8.2 0 0 1-.361-.254 9.168 9.168 0 0 1-.861-.72c-.748-.713-1.194-1.416-1.203-2.03v-7.93h1.343a.29.29 0 0 0 .291-.286.29.29 0 0 0-.291-.287h-1.343v-7.911c0-.627.447-1.338 1.203-2.055a9.048 9.048 0 0 1 1.22-.967l.026-.016a.284.284 0 0 0 .089-.397.294.294 0 0 0-.403-.087 9.3 9.3 0 0 0-.421.292c-.312.229-.624.485-.917.762-.478.454-.852.912-1.09 1.37-.236-.458-.61-.916-1.089-1.37a9.52 9.52 0 0 0-1.337-1.054.295.295 0 0 0-.403.087.284.284 0 0 0 .089.397l.025.016c.023.014.049.032.078.052a9.048 9.048 0 0 1 1.144.916c.755.716 1.202 1.427 1.202 2.054v7.91h-1.5a.29.29 0 0 0-.292.288c0 .158.13.287.292.287h1.5"/>
+					<path id="Imported-Layers-50" fill="#000" fill-rule="evenodd" d="M216.584 28.052v7.911c-.009.632-.455 1.335-1.203 2.047a9.12 9.12 0 0 1-1.222.975l-.026.017a.284.284 0 0 0-.086.396.295.295 0 0 0 .403.085 9.725 9.725 0 0 0 .42-.294 9.78 9.78 0 0 0 .917-.767c.479-.456.853-.915 1.09-1.373.238.461.61.919 1.088 1.373a9.776 9.776 0 0 0 1.337 1.061.295.295 0 0 0 .403-.085.284.284 0 0 0-.086-.396l-.026-.017a8.2 8.2 0 0 1-.361-.254 9.168 9.168 0 0 1-.861-.72c-.748-.713-1.194-1.416-1.203-2.03v-7.93h1.343a.29.29 0 0 0 .291-.286.29.29 0 0 0-.291-.287h-1.343v-7.911c0-.627.447-1.338 1.203-2.055a9.048 9.048 0 0 1 1.22-.967l.026-.016a.284.284 0 0 0 .089-.397.294.294 0 0 0-.403-.087 9.3 9.3 0 0 0-.421.292 9.667 9.667 0 0 0-.917.762c-.478.454-.852.912-1.09 1.37-.236-.458-.61-.916-1.089-1.37a9.52 9.52 0 0 0-1.337-1.054.295.295 0 0 0-.403.087.284.284 0 0 0 .089.397l.025.016c.023.014.049.032.078.052a9.048 9.048 0 0 1 1.144.916c.755.716 1.202 1.427 1.202 2.054v7.91h-1.5a.29.29 0 0 0-.292.288c0 .158.13.287.292.287h1.5"/>
 				</g>
 				<g id="Text-input-/-!default" transform="translate(194 56)">
 					<rect id="Mediawiki.Neutral.Hover-35" width="273" height="33" x="-.5" y="-.5" fill="#FFF" fill-rule="evenodd" stroke="#9AA0A7" stroke-width="1" rx="2"/>
@@ -3309,7 +3309,7 @@
 					</g>
 				</g>
 				<text id="Disabled-Normal-Hove" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="2" y="23">Disabled</tspan>   <tspan x="2" y="79.4">Normal</tspan>   <tspan x="2" y="135.8">Hover</tspan>   <tspan x="2" y="192.2">Focus &amp;</tspan> <tspan x="2" y="211">Active</tspan>
+					<tspan x="2" y="23">Disabled</tspan> <tspan x="2" y="79.4">Normal</tspan> <tspan x="2" y="135.8">Hover</tspan> <tspan x="2" y="192.2">Focus &amp;</tspan> <tspan x="2" y="211">Active</tspan>
 				</text>
 			</g>
 			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(2 96)">
@@ -3340,10 +3340,10 @@
 					</text>
 				</g>
 				<text id="Disabled-Normal-Hove" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="0" y="41"> Disabled</tspan>   <tspan x="0" y="97.4"> Normal</tspan>   <tspan x="0" y="153.8"> Hover</tspan>   <tspan x="0" y="210.2"> Active</tspan>   <tspan x="0" y="266.6"> Focus</tspan>
+					<tspan x="0" y="41"> Disabled</tspan> <tspan x="0" y="97.4"> Normal</tspan> <tspan x="0" y="153.8"> Hover</tspan> <tspan x="0" y="210.2"> Active</tspan> <tspan x="0" y="266.6"> Focus</tspan>
 				</text>
 				<path id="Line-236-Copy" stroke="#D0021B" stroke-width="4" d="M500 505h-16"/>
-				<path id="1em" stroke="#D0021B" stroke-width="4" d="M395 549v16M531 395v16"/>
+				<path id="1em" stroke="#D0021B" stroke-width="4" d="M395 549v16m136-170v16"/>
 				<g id="-101-/-1em-+-2*0,5em" stroke-linecap="square" transform="rotate(-90 115 -63)">
 					<g id="101-/-1em" stroke="#D0021B" transform="translate(8)">
 						<path id="1em" d="M.5.5h15"/>
@@ -3461,13 +3461,13 @@
 				<g id="Cursor-/-Pointer" transform="translate(406 206)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-111)" xlink:href="#path-110"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(406 148)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-113)" xlink:href="#path-112"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-!default" transform="translate(446 49)">
@@ -3479,13 +3479,13 @@
 				<g id="Cursor-/-Pointer" transform="translate(238 205)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-117)" xlink:href="#path-116"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(238 148)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-119)" xlink:href="#path-118"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-!default" transform="translate(244 46)">
@@ -3580,7 +3580,7 @@
 					</g>
 				</g>
 				<text id="Disabled-Normal-Hove" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="0" y="62"> Disabled</tspan>   <tspan x="0" y="118.4"> Normal</tspan>   <tspan x="0" y="174.8"> Hover</tspan>   <tspan x="0" y="231.2"> Active</tspan>   <tspan x="0" y="287.6"> Focus</tspan>
+					<tspan x="0" y="62"> Disabled</tspan> <tspan x="0" y="118.4"> Normal</tspan> <tspan x="0" y="174.8"> Hover</tspan> <tspan x="0" y="231.2"> Active</tspan> <tspan x="0" y="287.6"> Focus</tspan>
 				</text>
 				<text id="Switched-on" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 					<tspan x="477" y="14.2">Switched on</tspan>
@@ -3609,7 +3609,7 @@
 				<text id="touch-area-features" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
 					<tspan x="384" y="706">touch area features `width: 2em;` `height: 2em;`</tspan>
 				</text>
-				<path style="mix-blend-mode:multiply" id="Rectangle-2" fill="#FFB60D" fill-opacity=".4" d="M191 683h32v32h-32z"/>
+				<path id="Rectangle-2" fill="#FFB60D" fill-opacity=".4" d="M191 683h32v32h-32z" style="mix-blend-mode:multiply"/>
 				<g id="Radio-/-:checked-/-!default" transform="translate(480 97)">
 					<text id="8:16:8:16-copy-25" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="33" y="22">Neutral point</tspan>
@@ -3703,13 +3703,13 @@
 				<g id="Cursor-/-Pointer" transform="translate(497 173)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-128)" xlink:href="#path-127"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(497 228)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-130)" xlink:href="#path-129"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-!default" transform="translate(504 60)">
@@ -3721,13 +3721,13 @@
 				<g id="Cursor-/-Pointer" transform="translate(209 228)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-134)" xlink:href="#path-133"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(209 173)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-136)" xlink:href="#path-135"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-!default" transform="translate(216 60)">
@@ -3751,7 +3751,7 @@
 				<path id="Line-Copy-88" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M173 511.5h202"/>
 				<path id="Line-Copy-85" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M173 410h202"/>
 				<text id="Disabled-Normal-Hove" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="0" y="62">Disabled</tspan>   <tspan x="0" y="118.4">Normal</tspan>   <tspan x="0" y="174.8">Hover</tspan>   <tspan x="0" y="231.2">Active</tspan>   <tspan x="0" y="287.6">Focus</tspan>
+					<tspan x="0" y="62">Disabled</tspan> <tspan x="0" y="118.4">Normal</tspan> <tspan x="0" y="174.8">Hover</tspan> <tspan x="0" y="231.2">Active</tspan> <tspan x="0" y="287.6">Focus</tspan>
 				</text>
 				<text id="Switched-on" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 					<tspan x="477" y="14.2">Switched on</tspan>
@@ -3910,7 +3910,7 @@
 						<rect id="Mediawiki.Neutral.Hover-copy-9" width="25" height="25" x="-.5" y="-.5" rx="2"/>
 					</g>
 				</g>
-				<path style="mix-blend-mode:multiply" id="Rectangle-2" fill="#FFB60D" fill-opacity=".4" d="M191 683h32v32h-32z"/>
+				<path id="Rectangle-2" fill="#FFB60D" fill-opacity=".4" d="M191 683h32v32h-32z" style="mix-blend-mode:multiply"/>
 				<g id="Checkbox-/--multiliner" transform="translate(192 508)">
 					<g id="Checkbox-/-!default" transform="translate(1 5)">
 						<g id="Checkbox-:normal" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" transform="translate(0 4)">
@@ -3925,7 +3925,7 @@
 						<tspan x="33" y="15">Option title</tspan>
 					</text>
 				</g>
-				<path id="1em" stroke="#D0021B" stroke-width="4" d="M204 406v16M294 568v16"/>
+				<path id="1em" stroke="#D0021B" stroke-width="4" d="M204 406v16m90 146v16"/>
 				<path id="Line" fill="#979797" fill-rule="nonzero" d="M376 376v34.014h4v1h-9v-1h4V376h-4v-1h9v1h-4z"/>
 				<text id="`vertical-align:-mid" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
 					<tspan x="381" y="398">`vertical-align: middle` one-liner text</tspan>
@@ -3939,13 +3939,13 @@
 				<g id="Cursor-/-Pointer" transform="translate(497 229)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-143)" xlink:href="#path-142"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(497 173)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-145)" xlink:href="#path-144"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-!default" transform="translate(504 60)">
@@ -3957,13 +3957,13 @@
 				<g id="Cursor-/-Pointer" transform="translate(209 173)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-149)" xlink:href="#path-148"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(209 229)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-151)" xlink:href="#path-150"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-!default" transform="translate(211 60)">
@@ -3982,7 +3982,7 @@
 		</g>
 		<g id="TEXT-HIGHLIGHT" transform="translate(4560 143)">
 			<text id="Normal-Highlighted-H" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-				<tspan x="0" y="142">Normal</tspan>   <tspan x="0" y="198.4">Highlighted</tspan>   <tspan x="0" y="254.8">Highlighted positive</tspan>
+				<tspan x="0" y="142">Normal</tspan> <tspan x="0" y="198.4">Highlighted</tspan> <tspan x="0" y="254.8">Highlighted positive</tspan>
 			</text>
 			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 96)">
 				<path id="Line" d="M183.5 1.5H.5"/>
@@ -4009,10 +4009,10 @@
 		<g id="LINK" transform="translate(4075 186)">
 			<g id="Link-X" transform="translate(0 85)">
 				<text id="Disabled-Normal-Hove" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="5" y="16">Disabled</tspan>   <tspan x="5" y="72.4">Normal</tspan>   <tspan x="5" y="128.8">Hover</tspan> <tspan x="5" y="147.6"> </tspan>  <tspan x="5" y="185.2">Active</tspan>   <tspan x="5" y="241.6">Focus</tspan>
+					<tspan x="5" y="16">Disabled</tspan> <tspan x="5" y="72.4">Normal</tspan> <tspan x="5" y="128.8">Hover</tspan> <tspan x="5" y="147.6"> </tspan> <tspan x="5" y="185.2">Active</tspan> <tspan x="5" y="241.6">Focus</tspan>
 				</text>
 				<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="5" y="368">Normal</tspan>   <tspan x="5" y="424.4">Hover</tspan> <tspan x="5" y="443.2"> </tspan>  <tspan x="5" y="480.8">Active</tspan>   <tspan x="5" y="537.2">Focus</tspan>
+					<tspan x="5" y="368">Normal</tspan> <tspan x="5" y="424.4">Hover</tspan> <tspan x="5" y="443.2"> </tspan> <tspan x="5" y="480.8">Active</tspan> <tspan x="5" y="537.2">Focus</tspan>
 				</text>
 				<g id="101-/-Headline--Sub" transform="translate(5 297)">
 					<text id="SUBHEADLINE" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
@@ -4090,25 +4090,25 @@
 				<g id="Cursor-/-Pointer" transform="translate(266 477)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-155)" xlink:href="#path-154"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(266 421)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-157)" xlink:href="#path-156"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(266 180)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-159)" xlink:href="#path-158"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(266 124)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-161)" xlink:href="#path-160"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-!default" transform="translate(273 12)">
@@ -4144,7 +4144,7 @@
 				<path id="Line-Copy-10" stroke="#767676" stroke-linecap="square" d="M440.5 56.5v32.015"/>
 				<path id="Line-Copy-13" stroke="#A2A9B1" stroke-linecap="square" d="M440.5 56.5v32.015"/>
 				<path id="Path-115" stroke="#FFF" stroke-linecap="square" d="M440.5.615v33"/>
-				<path id="Path-114" stroke="#FFF" stroke-linecap="square" d="M360.5.5v33M270.5.5v33"/>
+				<path id="Path-114" stroke="#FFF" stroke-linecap="square" d="M360.5.5v33m-90-33v33"/>
 				<text id="Talk" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 					<tspan x="383" y="24">Talk</tspan>
 				</text>
@@ -4289,19 +4289,19 @@
 				<g id="Cursor-/-Pointer" transform="translate(416 189)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-166)" xlink:href="#path-165"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(416 133)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-168)" xlink:href="#path-167"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(456 448)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-170)" xlink:href="#path-169"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-!default" transform="translate(423 24)">
@@ -4500,7 +4500,7 @@
 				</g>
 				<g id="Icon" transform="translate(0 412)">
 					<text id="Disabled-Normal-Hove" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-						<tspan x="0" y="58.2">Disabled</tspan>   <tspan x="0" y="114.6">Normal</tspan>   <tspan x="0" y="171">Hover</tspan>   <tspan x="0" y="227.4">Active</tspan>   <tspan x="0" y="283.8">Focus</tspan>
+						<tspan x="0" y="58.2">Disabled</tspan> <tspan x="0" y="114.6">Normal</tspan> <tspan x="0" y="171">Hover</tspan> <tspan x="0" y="227.4">Active</tspan> <tspan x="0" y="283.8">Focus</tspan>
 					</text>
 					<rect id="Rectangle-640-Copy-14" width="36" height="32" x="261" y="145" fill="#EAECF0" rx="2" transform="matrix(1 0 0 -1 0 322)"/>
 					<path id="Line-Copy-56" stroke="#50E3C2" stroke-linecap="square" stroke-width="2" d="M262 161h7"/>
@@ -4513,22 +4513,22 @@
 					</text>
 					<path id="Shape-Copy-3" fill="#7D8389" d="M228 55.5c0 .625-.25 1.25-.75 1.75s-1.125.75-1.75.75-1.25-.25-1.75-.75-.75-1.125-.75-1.75.25-1.25.75-1.75 1-.75 1.75-.75c.625 0 1.25.25 1.75.75s.75 1 .75 1.75zm7.5 0c0 .625-.25 1.25-.75 1.75s-1.125.75-1.75.75-1.25-.25-1.75-.75-.75-1.125-.75-1.75.25-1.25.75-1.75 1-.75 1.75-.75c.625 0 1.25.25 1.75.75s.75 1 .75 1.75zm7.5 0c0 .625-.25 1.25-.75 1.75s-1.125.75-1.75.75-1.25-.25-1.75-.75-.75-1.125-.75-1.75.25-1.25.75-1.75 1-.75 1.75-.75c.625 0 1.25.25 1.75.75s.75 1 .75 1.75z" transform="matrix(1 0 0 -1 0 111)"/>
 					<g id="Icon-/-!default" fill="#222" transform="translate(223 101)">
-						<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
-						<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.566 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+						<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666c.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+						<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666 2.26 2.26 0 0 0 1.586-.666c.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 						<path id="Shape-Copy-7" d="M19.26 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 16.993 0c-.68 0-1.132.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.454.444 1.02.666 1.586.666.567 0 1.133-.222 1.587-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 					</g>
 					<rect id="Rectangle-640-Copy-11" width="36" height="32" x="215" y="145" fill="#EAECF0" rx="2" transform="matrix(1 0 0 -1 0 322)"/>
 					<path id="Line-Copy-57" stroke="#50E3C2" stroke-linecap="square" stroke-width="2" d="M243 161h7"/>
 					<path id="Line-Copy-58" stroke="#50E3C2" stroke-linecap="square" stroke-width="2" d="M216 161h7"/>
 					<g id="Icon-/-!default" fill="#222" transform="translate(223 159)">
-						<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
-						<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.566 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+						<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666c.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+						<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666 2.26 2.26 0 0 0 1.586-.666c.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 						<path id="Shape-Copy-7" d="M19.26 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 16.993 0c-.68 0-1.132.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.454.444 1.02.666 1.586.666.567 0 1.133-.222 1.587-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 					</g>
 					<rect id="Rectangle-640-Copy-12" width="37" height="33" x="214.5" y="193.5" fill="#D9D9D9" stroke="#D9D9D9" rx="2" transform="matrix(1 0 0 -1 0 420)"/>
 					<g id="Icon-/-!default" fill="#222" transform="translate(223 208)">
-						<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
-						<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.566 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+						<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666c.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+						<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666 2.26 2.26 0 0 0 1.586-.666c.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 						<path id="Shape-Copy-7" d="M19.26 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 16.993 0c-.68 0-1.132.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.454.444 1.02.666 1.586.666.567 0 1.133-.222 1.587-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 					</g>
 					<g id="Rectangle-640-Copy-13" stroke="#36C">
@@ -4536,8 +4536,8 @@
 						<rect width="35" height="31" x="215.5" y="245.5" stroke-linejoin="square" rx="2"/>
 					</g>
 					<g id="Icon-/-!default" fill="#222" transform="translate(223 259)">
-						<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
-						<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.453.444 1.02.666 1.586.666.566 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+						<path id="Shape-Copy-5" d="M12.462 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 10.196 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666c.567 0 1.133-.222 1.586-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
+						<path id="Shape-Copy-6" d="M4.924 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 2.658 0c-.68 0-1.133.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556a2.26 2.26 0 0 0 1.586.666 2.26 2.26 0 0 0 1.586-.666c.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 						<path id="Shape-Copy-7" d="M19.26 2.222c0-.666-.227-1.11-.68-1.555A2.258 2.258 0 0 0 16.993 0c-.68 0-1.132.222-1.586.667-.453.444-.68 1-.68 1.555 0 .556.227 1.111.68 1.556.454.444 1.02.666 1.586.666.567 0 1.133-.222 1.587-.666.453-.445.68-1 .68-1.556z" transform="matrix(1 0 0 -1 0 4.444)"/>
 					</g>
 					<g id="101-/-Headline--Sub">
@@ -4552,13 +4552,13 @@
 				<g id="Cursor-/-Pointer" transform="translate(257 130)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-182)" xlink:href="#path-181"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(256 186)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-184)" xlink:href="#path-183"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-!default" transform="translate(263 23)">
@@ -4568,7 +4568,7 @@
 					</g>
 				</g>
 				<text id="State-Description" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="0" y="21">Disabled</tspan>   <tspan x="0" y="77.4">Normal</tspan>   <tspan x="0" y="133.8">Hover</tspan>   <tspan x="0" y="190.2">Active</tspan>   <tspan x="0" y="246.6">Focus</tspan>
+					<tspan x="0" y="21">Disabled</tspan> <tspan x="0" y="77.4">Normal</tspan> <tspan x="0" y="133.8">Hover</tspan> <tspan x="0" y="190.2">Active</tspan> <tspan x="0" y="246.6">Focus</tspan>
 				</text>
 			</g>
 			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 95)">
@@ -4590,7 +4590,7 @@
 				</g>
 				<rect id="Mediawiki.Neutral.Normal-copy-2" width="114" height="33" x="192.5" y="343.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
 				<text id="-DISABLED" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="0" y="21"> DISABLED</tspan>   <tspan x="0" y="77.4"> NORMAL</tspan>   <tspan x="0" y="133.8">:HOVER</tspan>   <tspan x="0" y="190.2">:ACTIVE</tspan>   <tspan x="0" y="246.6">:FOCUS</tspan>
+					<tspan x="0" y="21"> DISABLED</tspan> <tspan x="0" y="77.4"> NORMAL</tspan> <tspan x="0" y="133.8">:HOVER</tspan> <tspan x="0" y="190.2">:ACTIVE</tspan> <tspan x="0" y="246.6">:FOCUS</tspan>
 				</text>
 				<path id="Oval-59" fill="#222" d="M219 370c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10z"/>
 				<text id="Button" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
@@ -4722,13 +4722,13 @@
 				<g id="Cursor-/-Pointer" transform="translate(260 186)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-207)" xlink:href="#path-206"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(261 130)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-209)" xlink:href="#path-208"/>
-						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 0 1 1.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-!default" transform="translate(267 23)">
@@ -4750,9 +4750,9 @@
 				<tspan x="469" y="36">SPECIFICATIONS</tspan>
 			</text>
 			<text fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-				<tspan x="471" y="90">SPECIFICATIONS</tspan>   <tspan x="472.206" y="128.199" font-size="12">LEGEND</tspan>                     <tspan x="472.206" y="380.199" font-size="12">MAIN TOOLBAR</tspan> <tspan x="472.206" y="392.199" font-size="12">48PX HEIGHT</tspan>                         <tspan x="472.206" y="692.199" font-size="12">SECONDARY TOOLBAR</tspan> <tspan x="472.206" y="704.199" font-size="12">30PX HEIGHT</tspan>
+				<tspan x="471" y="90">SPECIFICATIONS</tspan> <tspan x="472.206" y="128.199" font-size="12">LEGEND</tspan> <tspan x="472.206" y="380.199" font-size="12">MAIN TOOLBAR</tspan> <tspan x="472.206" y="392.199" font-size="12">48PX HEIGHT</tspan> <tspan x="472.206" y="692.199" font-size="12">SECONDARY TOOLBAR</tspan> <tspan x="472.206" y="704.199" font-size="12">30PX HEIGHT</tspan>
 			</text>
-			<path id="Line-48" stroke="#222" stroke-linecap="square" d="M653.5 54.5H469.402M658.5 338.5H474.402"/>
+			<path id="Line-48" stroke="#222" stroke-linecap="square" d="M653.5 54.5H469.402m189.098 284H474.402"/>
 			<path id="Rectangle-339" fill="#FCFAFA" d="M734 423h355v48H734z"/>
 			<circle id="Oval-88" cx="1055.5" cy="446.5" r="12.5" fill="#D0021B"/>
 			<path id="Line-30" stroke="#D0021B" stroke-linecap="square" d="M936.5 448.5h20"/>
@@ -4783,13 +4783,13 @@
 			<path id="Line-98" stroke="#D0021B" stroke-linecap="square" d="M860.5 574.5h15.238"/>
 			<circle id="Oval-94" cx="889.5" cy="572.5" r="12.5" fill="#D0021B"/>
 			<path id="Line-99" stroke="#D0021B" stroke-linecap="square" d="M902.5 574.5h15.238"/>
-			<path id="Line" stroke="#CCC" stroke-dasharray="1,3" stroke-linecap="round" stroke-linejoin="round" d="M749.5 318.846v439.669M743.592 82.536H696"/>
+			<path id="Line" stroke="#CCC" stroke-dasharray="1,3" stroke-linecap="round" stroke-linejoin="round" d="M749.5 318.846v439.669m-5.908-675.979H696"/>
 			<path id="Rectangle-339" fill="#FCFAFA" d="M734 365h355v48H734z"/>
-			<path id="Line-30" stroke="#D0021B" stroke-linecap="square" d="M960.5 390.5h20M874.5 390.5h20"/>
+			<path id="Line-30" stroke="#D0021B" stroke-linecap="square" d="M960.5 390.5h20m-106 0h20"/>
 			<path id="Rectangle-369" fill="#347BFF" d="M981 365h108v48H981z"/>
-			<path id="Rectangle-301" fill="#D0021B" d="M1002 377h65v25h-65zM895 377h65v25h-65z"/>
+			<path id="Rectangle-301" fill="#D0021B" d="M1002 377h65v25h-65zm-107 0h65v25h-65z"/>
 			<path id="Line-30" stroke="#D0021B" stroke-linecap="square" d="M981.5 390.5h20"/>
-			<path id="Line-87" stroke="#50E3C2" stroke-linecap="square" d="M1034.5 366.5v9.965M927.5 366.5v9.965"/>
+			<path id="Line-87" stroke="#50E3C2" stroke-linecap="square" d="M1034.5 366.5v9.965m-107-9.965v9.965"/>
 			<path id="Line-29" stroke="#D0021B" stroke-linecap="square" d="M1067.5 390.5h20"/>
 			<path id="Rectangle-342" fill="#F9F9F9" d="M733 675h355v30H733z"/>
 			<path id="Line-123" stroke="#50E3C2" stroke-linecap="square" d="M750.5 690.462h-8"/>
@@ -4803,9 +4803,9 @@
 			<path id="Line-94" stroke="#50E3C2" stroke-linecap="square" d="M777.5 690.462h-8"/>
 			<g id="Specifications-(right-col)" transform="translate(1283 54)">
 				<text id="SPECIFICATIONS" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="0" y="38">SPECIFICATIONS</tspan>   <tspan x="1.206" y="76.199" font-size="12">LEGEND</tspan>                     <tspan x="1.206" y="328.199" font-size="12">TEXT</tspan>     <tspan x="1.206" y="388.199" font-size="12">ICON</tspan>     <tspan x="1.206" y="448.199" font-size="12">ICON-TEXT</tspan>        <tspan x="1.206" y="544.199" font-size="12">INLINE ICON</tspan>     <tspan x="1.206" y="604.199" font-size="12">INLINE ICON + </tspan> <tspan x="8.442" y="620.393" font-size="12">ICON-TEXT</tspan>    <tspan x="1.206" y="667.199" font-size="12">INLINE TEXT</tspan>
+					<tspan x="0" y="38">SPECIFICATIONS</tspan> <tspan x="1.206" y="76.199" font-size="12">LEGEND</tspan> <tspan x="1.206" y="328.199" font-size="12">TEXT</tspan> <tspan x="1.206" y="388.199" font-size="12">ICON</tspan> <tspan x="1.206" y="448.199" font-size="12">ICON-TEXT</tspan> <tspan x="1.206" y="544.199" font-size="12">INLINE ICON</tspan> <tspan x="1.206" y="604.199" font-size="12">INLINE ICON + </tspan> <tspan x="8.442" y="620.393" font-size="12">ICON-TEXT</tspan> <tspan x="1.206" y="667.199" font-size="12">INLINE TEXT</tspan>
 				</text>
-				<path id="Line-48" stroke="#222" stroke-linecap="square" d="M184.5 1.5H.402M184.5 293.5H.402M184.5 507.5H.402"/>
+				<path id="Line-48" stroke="#222" stroke-linecap="square" d="M184.5 1.5H.402m184.098 292H.402m184.098 214H.402"/>
 				<rect id="Mediawiki.Neutral.Normal-copy-53" width="65" height="29" x="280.5" y="305.5" fill="#FFF" stroke="#CDCDCD" opacity=".225" rx="2"/>
 				<rect id="Mediawiki.Neutral.Normal-copy-57" width="89" height="29" x="220.5" y="420.5" fill="#FFF" stroke="#CDCDCD" opacity=".225" rx="2"/>
 				<rect id="Mediawiki.Neutral.Normal-copy-57" width="89" height="29" x="301.5" y="585.5" fill="#FFF" stroke="#CDCDCD" opacity=".225" rx="2"/>
@@ -4814,15 +4814,15 @@
 				<rect id="Mediawiki.Neutral.Normal-copy-56" width="30" height="19" x="472.5" y="194.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
 				<circle id="Oval-80" cx="241" cy="435" r="9" fill="#D0021B"/>
 				<circle id="Oval-80" cx="322" cy="600" r="9" fill="#D0021B"/>
-				<path id="Oval-86" fill="#D0021B" d="M229 609a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM229 545a9 9 0 1 0 0-18 9 9 0 0 0 0 18z"/>
+				<path id="Oval-86" fill="#D0021B" d="M229 609a9 9 0 1 0 0-18 9 9 0 0 0 0 18zm0-64a9 9 0 1 0 0-18 9 9 0 0 0 0 18z"/>
 				<circle id="Oval-87" cx="270" cy="600" r="9" fill="#D0021B"/>
 				<circle id="Oval-87" cx="272" cy="536" r="9" fill="#D0021B"/>
 				<circle id="Oval-87" cx="317" cy="536" r="9" fill="#D0021B"/>
-				<path id="Rectangle-300" fill="#D0021B" d="M292 311h42v18h-42zM230 646h42v18h-42zM281 196h42v18h-42z"/>
+				<path id="Rectangle-300" fill="#D0021B" d="M292 311h42v18h-42zm-62 335h42v18h-42zm51-450h42v18h-42z"/>
 				<circle id="Oval-85" cx="244" cy="376" r="9" fill="#D0021B"/>
 				<circle id="Oval-85" cx="385" cy="204" r="9" fill="#D0021B"/>
-				<path id="Rectangle-302" fill="#D0021B" d="M237 311h14v18h-14zM254 196h14v18h-14z"/>
-				<path id="Rectangle-303" fill="#D0021B" d="M256 426h42v18h-42zM337 591h42v18h-42z"/>
+				<path id="Rectangle-302" fill="#D0021B" d="M237 311h14v18h-14zm17-115h14v18h-14z"/>
+				<path id="Rectangle-303" fill="#D0021B" d="M256 426h42v18h-42zm81 165h42v18h-42z"/>
 				<path id="Line-52" stroke="#4A90E2" stroke-linecap="square" d="M220.5 334.5h47.14"/>
 				<text id="Text" fill="#222" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
 					<tspan x="271" y="233">Text</tspan>
@@ -4833,12 +4833,12 @@
 				<text id="Button-frame" fill="#222" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
 					<tspan x="451" y="233">Button frame</tspan>
 				</text>
-				<path id="Line-51" stroke="#D0021B" stroke-linecap="square" d="M234.5 376.462h-12M236.5 320.462h-12"/>
+				<path id="Line-51" stroke="#D0021B" stroke-linecap="square" d="M234.5 376.462h-12m14-56h-12"/>
 				<text id="16-sp-/-1-em" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
 					<tspan x="551" y="77">16 sp / 1 em</tspan>
 				</text>
-				<path id="Line-53" stroke="#D0021B" stroke-linecap="square" d="M265.5 376.462h-12M263.5 320.462h-12"/>
-				<path id="Line-49" stroke="#50E3C2" stroke-linecap="square" d="M243.5 362.5v3.986M244.5 306.5v3.986"/>
+				<path id="Line-53" stroke="#D0021B" stroke-linecap="square" d="M265.5 376.462h-12m10-56h-12"/>
+				<path id="Line-49" stroke="#50E3C2" stroke-linecap="square" d="M243.5 362.5v3.986m1-59.986v3.986"/>
 				<text id="8-sp-/-0.5-em" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
 					<tspan x="551" y="101">8 sp / 0.5 em</tspan>
 				</text>
@@ -4852,9 +4852,9 @@
 					<tspan x="551" y="31">32 scale-independent pixels / 2 em</tspan>
 				</text>
 				<text id="All-single-buttons," fill="#54595D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="227" y="33">All single buttons, icons, text </tspan> <tspan x="227" y="51">field have a min. of 40 scale-</tspan> <tspan x="227" y="69">independent pixels (sp) width.</tspan>  <tspan x="227" y="105">All single buttons have a max. of </tspan> <tspan x="227" y="123">280 sp width. If &gt;280 sp content </tspan> <tspan x="227" y="141">wraps to the next line.</tspan>
+					<tspan x="227" y="33">All single buttons, icons, text </tspan> <tspan x="227" y="51">field have a min. of 40 scale-</tspan> <tspan x="227" y="69">independent pixels (sp) width.</tspan> <tspan x="227" y="105">All single buttons have a max. of </tspan> <tspan x="227" y="123">280 sp width. If &gt;280 sp content </tspan> <tspan x="227" y="141">wraps to the next line.</tspan>
 				</text>
-				<path id="Line-50" stroke="#50E3C2" stroke-linecap="square" d="M243.5 385.5v3.986M244.5 329.5v3.986"/>
+				<path id="Line-50" stroke="#50E3C2" stroke-linecap="square" d="M243.5 385.5v3.986m1-59.986v3.986"/>
 				<g id="101-/-0.25em" stroke="#F5A623" stroke-linecap="square" transform="translate(512 120)">
 					<path id=".25em" d="M.5.5h3"/>
 					<path id="0.25em-copy" d="M.5 1.5h3"/>
@@ -4881,11 +4881,11 @@
 				</g>
 				<path id="Line-60" stroke="#347BFF" stroke-linecap="square" stroke-width="4" d="M196.5 29h14.685"/>
 				<path id="Line-83" stroke="#8B572A" stroke-linecap="square" stroke-width="4" d="M195.5 101h14.685"/>
-				<path id="Line-57" stroke="#D0021B" stroke-linecap="square" d="M291.5 320.462h-10M229.5 655.462h-10"/>
-				<path id="Line-58" stroke="#D0021B" stroke-linecap="square" d="M344.5 320.462h-10M282.5 655.462h-10M231.5 435.462h-10M312.5 600.462h-10M288.5 600.462h-10M293.5 536.462h-12M338.5 536.462h-12M300.5 600.462h-10M260.5 600.462h-10M262.5 536.462h-12M307.5 536.462h-12M248.5 600.462h-10M248.5 536.462h-12M308.5 435.462h-10M389.5 600.462h-10"/>
+				<path id="Line-57" stroke="#D0021B" stroke-linecap="square" d="M291.5 320.462h-10m-52 335h-10"/>
+				<path id="Line-58" stroke="#D0021B" stroke-linecap="square" d="M344.5 320.462h-10m-52 335h-10m-41-220h-10m91 165h-10m-14 0h-10m15-64h-12m57 0h-12m-26 64h-10m-30 0h-10m12-64h-12m57 0h-12m-47 64h-10m10-64h-12m72-101h-10m91 165h-10"/>
 				<path id="Line-59" stroke="#50E3C2" stroke-linecap="square" d="M336.5 600.462h-5"/>
-				<path id="Line-55" stroke="#50E3C2" stroke-linecap="square" d="M312.5 306.5v3.986M250.5 641.5v3.986M240.5 421.5v3.986M321.5 586.5v3.986"/>
-				<path id="Line-54" stroke="#50E3C2" stroke-linecap="square" d="M312.5 329.5v3.986M250.5 664.5v3.986M240.5 444.5v3.986M321.5 609.5v3.986"/>
+				<path id="Line-55" stroke="#50E3C2" stroke-linecap="square" d="M312.5 306.5v3.986m-62 331.014v3.986m-10-223.986v3.986m81 161.014v3.986"/>
+				<path id="Line-54" stroke="#50E3C2" stroke-linecap="square" d="M312.5 329.5v3.986m-62 331.014v3.986m-10-223.986v3.986m81 161.014v3.986"/>
 			</g>
 		</g>
 		<g id="Checkbox-/--multiliner" transform="translate(5232 804)">
@@ -4912,15 +4912,15 @@
 			<g id="Supplementary" fill-rule="evenodd" stroke-width="1" transform="translate(241 775)">
 				<rect id="Rectangle-Copy-15" width="176" height="128" x="1037" y="58" fill="#AC6600" rx="2"/>
 				<text id="#ac6600-RGB-172,-102" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1055" y="92">#ac6600</tspan> <tspan x="1055" y="111">RGB 172, 102, 0</tspan> <tspan x="1055" y="130">HSB 36, 100%, 67%</tspan>  <tspan x="1055" y="168">AA</tspan>
+					<tspan x="1055" y="92">#ac6600</tspan> <tspan x="1055" y="111">RGB 172, 102, 0</tspan> <tspan x="1055" y="130">HSB 36, 100%, 67%</tspan> <tspan x="1055" y="168">AA</tspan>
 				</text>
 				<rect id="Rectangle" width="160" height="160" x="878" y="25" fill="#FC3" rx="2"/>
 				<text id="#fc3-RGB-255,-204,-5" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					 <tspan x="894" y="92">#fc3</tspan> <tspan x="894" y="111">RGB 255, 204, 51</tspan> <tspan x="894" y="130">HSB 45, 80%, 100%</tspan>  <tspan x="894" y="168">AAA</tspan>
+					<tspan x="894" y="92">#fc3</tspan> <tspan x="894" y="111">RGB 255, 204, 51</tspan> <tspan x="894" y="130">HSB 45, 80%, 100%</tspan> <tspan x="894" y="168">AAA</tspan>
 				</text>
 				<path id="Rectangle-Copy-8" fill="#FEF6E7" d="M702 68.008c0-1.11.905-2.008 2.007-2.008h171.986c1.108 0 2.007.897 2.007 2.008v115.984a2.011 2.011 0 0 1-2.007 2.008H704.007a2.006 2.006 0 0 1-2.007-2.008V68.008z"/>
 				<text id="#fef6e7-RGB-254,-246" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="718" y="92">#fef6e7</tspan> <tspan x="718" y="111">RGB 254, 246, 231</tspan> <tspan x="718" y="130">HSB 39, 9%, 100%</tspan>  <tspan x="718" y="168">AAA</tspan>
+					<tspan x="718" y="92">#fef6e7</tspan> <tspan x="718" y="111">RGB 254, 246, 231</tspan> <tspan x="718" y="130">HSB 39, 9%, 100%</tspan> <tspan x="718" y="168">AAA</tspan>
 				</text>
 				<text id="Yellow50" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
 					<tspan x="894" y="14">Yellow50</tspan>
@@ -4936,12 +4936,12 @@
 					<tspan x="351" y="14">Green30</tspan>
 				</text>
 				<text id="#00af89-RGB-0,-175," fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					 <tspan x="191" y="92">#00af89</tspan> <tspan x="191" y="111">RGB 0, 175, 137</tspan> <tspan x="191" y="130">HSB 167,100%,69%</tspan>  <tspan x="191" y="168">AA</tspan>
+					<tspan x="191" y="92">#00af89</tspan> <tspan x="191" y="111">RGB 0, 175, 137</tspan> <tspan x="191" y="130">HSB 167,100%,69%</tspan> <tspan x="191" y="168">AA</tspan>
 				</text>
 				<rect id="Rectangle-Copy-12" width="176" height="120" x="336" y="65" fill="#14866D" rx="2"/>
 				<rect id="Rectangle-Copy-8" width="176" height="128" x="0" y="57" fill="#D5FDF4" rx="2"/>
 				<text id="#d5fdf4-RGB-213,-253" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					 <tspan x="15" y="92">#d5fdf4</tspan> <tspan x="15" y="111">RGB 213, 253, 244</tspan> <tspan x="15" y="130">HSB 167, 16%, 99%</tspan>  <tspan x="15" y="168">AAA</tspan>
+					<tspan x="15" y="92">#d5fdf4</tspan> <tspan x="15" y="111">RGB 213, 253, 244</tspan> <tspan x="15" y="130">HSB 167, 16%, 99%</tspan> <tspan x="15" y="168">AAA</tspan>
 				</text>
 				<text id="Yellow90" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
 					<tspan x="718" y="14">Yellow90</tspan>
@@ -4950,7 +4950,7 @@
 					<tspan x="15" y="14">Green90</tspan>
 				</text>
 				<text id="#14866d-RGB-20,-134," fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="351" y="92">#14866d</tspan> <tspan x="351" y="111">RGB 20, 134, 109</tspan> <tspan x="351" y="130">HSB 167, 85%, 53%</tspan>  <tspan x="351" y="168">AA</tspan>
+					<tspan x="351" y="92">#14866d</tspan> <tspan x="351" y="111">RGB 20, 134, 109</tspan> <tspan x="351" y="130">HSB 167, 85%, 53%</tspan> <tspan x="351" y="168">AA</tspan>
 				</text>
 				<text id="Secondary-link-highl" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 					<tspan x="189" y="223">Secondary link highlight</tspan> <tspan x="189" y="241.8">Positive messages</tspan>
@@ -4996,30 +4996,30 @@
 					<tspan x="591" y="471">Accent30</tspan>
 				</text>
 				<text id="Progressive-#36c-RGB" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="432" y="510">Progressive</tspan>  <tspan x="432" y="548">#36c</tspan> <tspan x="432" y="567">RGB 51, 102, 204</tspan> <tspan x="432" y="586">HSB 220, 75%, 80%</tspan>  <tspan x="432" y="624">AA</tspan>
+					<tspan x="432" y="510">Progressive</tspan> <tspan x="432" y="548">#36c</tspan> <tspan x="432" y="567">RGB 51, 102, 204</tspan> <tspan x="432" y="586">HSB 220, 75%, 80%</tspan> <tspan x="432" y="624">AA</tspan>
 				</text>
 				<text id="#eaf3ff-RGB-234,-243" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="256" y="548">#eaf3ff</tspan> <tspan x="256" y="567">RGB 234, 243, 255</tspan> <tspan x="256" y="586">HSB 214, 8%, 100%</tspan>  <tspan x="256" y="624">AAA</tspan>
+					<tspan x="256" y="548">#eaf3ff</tspan> <tspan x="256" y="567">RGB 234, 243, 255</tspan> <tspan x="256" y="586">HSB 214, 8%, 100%</tspan> <tspan x="256" y="624">AAA</tspan>
 				</text>
 				<text id="Base100" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
 					<tspan x="256" y="147">Base100</tspan>
 				</text>
 				<text id="#fee7e6-RGB-255,-231" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="959" y="548">#fee7e6</tspan> <tspan x="959" y="567">RGB 255, 231, 230</tspan> <tspan x="959" y="586">HSB 2, 10%, 100%</tspan>  <tspan x="959" y="624">AAA</tspan>
+					<tspan x="959" y="548">#fee7e6</tspan> <tspan x="959" y="567">RGB 255, 231, 230</tspan> <tspan x="959" y="586">HSB 2, 10%, 100%</tspan> <tspan x="959" y="624">AAA</tspan>
 				</text>
 				<text id="Destructive-#d33-RGB" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1130" y="510">Destructive</tspan>  <tspan x="1130" y="548">#d33</tspan> <tspan x="1130" y="567">RGB 221, 51, 51</tspan> <tspan x="1130" y="586">HSB 360, 77%, 87%</tspan>  <tspan x="1130" y="624">AA</tspan>
+					<tspan x="1130" y="510">Destructive</tspan> <tspan x="1130" y="548">#d33</tspan> <tspan x="1130" y="567">RGB 221, 51, 51</tspan> <tspan x="1130" y="586">HSB 360, 77%, 87%</tspan> <tspan x="1130" y="624">AA</tspan>
 				</text>
 				<text id="AA" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
 					<tspan x="1157" y="624">AA</tspan>
 				</text>
 				<rect id="Rectangle-Copy" width="176" height="128" x="1279" y="514" fill="#B32424" rx="2"/>
 				<text id="#b32424-RGB-135,-54," fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1295" y="548">#b32424</tspan> <tspan x="1295" y="567">RGB 135, 54, 54</tspan> <tspan x="1295" y="586">HSB 360, 60%, 53%</tspan>  <tspan x="1295" y="624">AAA</tspan>
+					<tspan x="1295" y="548">#b32424</tspan> <tspan x="1295" y="567">RGB 135, 54, 54</tspan> <tspan x="1295" y="586">HSB 360, 60%, 53%</tspan> <tspan x="1295" y="624">AAA</tspan>
 				</text>
 				<rect id="Rectangle-Copy" width="176" height="120" x="576" y="522" fill="#2A4B8D" rx="2"/>
 				<text id="#2a4b8d-RGB-42,-75," fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="592" y="548">#2a4b8d</tspan> <tspan x="592" y="567">RGB 42, 75, 141</tspan> <tspan x="592" y="586">HSB 220, 70%, 55%</tspan>  <tspan x="592" y="624">AAA</tspan>
+					<tspan x="592" y="548">#2a4b8d</tspan> <tspan x="592" y="567">RGB 42, 75, 141</tspan> <tspan x="592" y="586">HSB 220, 70%, 55%</tspan> <tspan x="592" y="624">AAA</tspan>
 				</text>
 				<text id="Destructive-actions" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 					<tspan x="1129" y="671">Destructive actions –</tspan> <tspan x="1129" y="689.8">Buttons and Links</tspan> <tspan x="1129" y="708.6">Alerts</tspan>
@@ -5040,7 +5040,7 @@
 					<tspan x="603" y="214">Disabled text input </tspan> <tspan x="603" y="232.8">background</tspan>
 				</text>
 				<text id="#fff-RGB-255,-255,-2" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="251" y="92">#fff</tspan> <tspan x="251" y="111">RGB 255, 255, 255</tspan> <tspan x="251" y="130">HSB 0, 0%, 100%</tspan>  <tspan x="251" y="168">AAA</tspan>
+					<tspan x="251" y="92">#fff</tspan> <tspan x="251" y="111">RGB 255, 255, 255</tspan> <tspan x="251" y="130">HSB 0, 0%, 100%</tspan> <tspan x="251" y="168">AAA</tspan>
 				</text>
 				<text id="Accent90" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
 					<tspan x="251" y="338">Accent90</tspan>
@@ -5086,38 +5086,38 @@
 					<tspan x="427" y="214">Button/3D widget </tspan> <tspan x="427" y="232.8">background</tspan>
 				</text>
 				<text id="#f8f9fa-RGB-248,-249" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="427" y="92">#f8f9fa</tspan> <tspan x="427" y="111">RGB 248, 249, 250</tspan> <tspan x="427" y="130">HSB 210, 1%, 98%</tspan>  <tspan x="427" y="168">AAA</tspan>
+					<tspan x="427" y="92">#f8f9fa</tspan> <tspan x="427" y="111">RGB 248, 249, 250</tspan> <tspan x="427" y="130">HSB 210, 1%, 98%</tspan> <tspan x="427" y="168">AAA</tspan>
 				</text>
 				<rect id="Rectangle-Copy" width="160" height="160" x="587" y="25" fill="#EAECF0" rx="2"/>
 				<text id="#eaecf0-RGB-234,-236" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="603" y="92">#eaecf0</tspan> <tspan x="603" y="111">RGB 234, 236, 240</tspan> <tspan x="603" y="130">HSB 220, 3%, 94%</tspan>  <tspan x="603" y="168">AAA</tspan>
+					<tspan x="603" y="92">#eaecf0</tspan> <tspan x="603" y="111">RGB 234, 236, 240</tspan> <tspan x="603" y="130">HSB 220, 3%, 94%</tspan> <tspan x="603" y="168">AAA</tspan>
 				</text>
 				<rect id="Rectangle-Copy-2" width="160" height="160" x="763" y="25" fill="#C8CCD1" rx="2"/>
 				<text id="#c8ccd1-RGB-200,-204" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="779" y="92">#c8ccd1</tspan> <tspan x="779" y="111">RGB 200, 204, 209</tspan> <tspan x="779" y="130">HSB 213, 4%, 82%</tspan>  <tspan x="779" y="168">AAA</tspan>
+					<tspan x="779" y="92">#c8ccd1</tspan> <tspan x="779" y="111">RGB 200, 204, 209</tspan> <tspan x="779" y="130">HSB 213, 4%, 82%</tspan> <tspan x="779" y="168">AAA</tspan>
 				</text>
 				<rect id="Rectangle-Copy-3" width="160" height="160" x="939" y="25" fill="#A2A9B1" rx="2"/>
 				<text id="#a2a9b1-RGB-162,-169" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="955" y="92">#a2a9b1</tspan> <tspan x="955" y="111">RGB 162, 169, 177</tspan> <tspan x="955" y="130">HSB 212, 8%, 69%</tspan>  <tspan x="955" y="168">AAA</tspan>
+					<tspan x="955" y="92">#a2a9b1</tspan> <tspan x="955" y="111">RGB 162, 169, 177</tspan> <tspan x="955" y="130">HSB 212, 8%, 69%</tspan> <tspan x="955" y="168">AAA</tspan>
 				</text>
 				<rect id="Rectangle-Copy-9" width="160" height="160" x="1115" y="25" fill="#72777D" rx="2"/>
 				<text id="#72777d-RGB-114,-119" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1131" y="92">#72777d</tspan> <tspan x="1131" y="111">RGB 114, 119, 125</tspan> <tspan x="1131" y="130">HSB 210, 9%, 49%</tspan>  <tspan x="1131" y="168">AA </tspan>
+					<tspan x="1131" y="92">#72777d</tspan> <tspan x="1131" y="111">RGB 114, 119, 125</tspan> <tspan x="1131" y="130">HSB 210, 9%, 49%</tspan> <tspan x="1131" y="168">AA </tspan>
 				</text>
 				<text id="AA" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
 					<tspan x="1153" y="168">AA</tspan>
 				</text>
 				<rect id="Rectangle-Copy-6" width="160" height="160" x="1291" y="25" fill="#54595D" rx="2"/>
 				<text id="#54595d-RGB-84,-89," fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1307" y="92">#54595d</tspan> <tspan x="1307" y="111">RGB 84, 89, 93</tspan> <tspan x="1307" y="130">HSB 207, 10%, 36%</tspan>  <tspan x="1307" y="168">AAA</tspan>
+					<tspan x="1307" y="92">#54595d</tspan> <tspan x="1307" y="111">RGB 84, 89, 93</tspan> <tspan x="1307" y="130">HSB 207, 10%, 36%</tspan> <tspan x="1307" y="168">AAA</tspan>
 				</text>
 				<rect id="Rectangle-Copy-5" width="160" height="160" x="1467" y="25" fill="#222" rx="2"/>
 				<text id="#222-RGB-34,-34,-34" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1483" y="92">#222</tspan> <tspan x="1483" y="111">RGB 34, 34, 34</tspan> <tspan x="1483" y="130">HSB 0, 0%, 13%</tspan>  <tspan x="1483" y="168">AAA</tspan>
+					<tspan x="1483" y="92">#222</tspan> <tspan x="1483" y="111">RGB 34, 34, 34</tspan> <tspan x="1483" y="130">HSB 0, 0%, 13%</tspan> <tspan x="1483" y="168">AAA</tspan>
 				</text>
 				<rect id="Rectangle-Copy-7" width="160" height="160" x="1643" y="25" fill="#000" rx="2"/>
 				<text id="#000-RGB-0,-0,-0-HSB" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1659" y="92">#000</tspan> <tspan x="1659" y="111">RGB 0, 0, 0</tspan> <tspan x="1659" y="130">HSB 0, 0%, 0%</tspan>  <tspan x="1659" y="168">AAA</tspan>
+					<tspan x="1659" y="92">#000</tspan> <tspan x="1659" y="111">RGB 0, 0, 0</tspan> <tspan x="1659" y="130">HSB 0, 0%, 0%</tspan> <tspan x="1659" y="168">AAA</tspan>
 				</text>
 				<text id="Disabled-button/3D-w" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 					<tspan x="779" y="214">Disabled button/3D </tspan> <tspan x="779" y="232.8">widget background </tspan>
