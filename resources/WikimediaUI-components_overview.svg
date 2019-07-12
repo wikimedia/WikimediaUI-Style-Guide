@@ -3,6 +3,9 @@
 	<title>
 		WikimediaUI-components_overview
 	</title>
+	<desc>
+		Created with Sketch.
+	</desc>
 	<defs>
 		<pattern id="pattern-1" width="48" height="48" x="-48" y="-48" patternUnits="userSpaceOnUse">
 			<use xlink:href="#image-2"/>
@@ -1059,14 +1062,26 @@
 	</defs>
 	<g id="WikimediaUI-components_overview" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<path fill="#FFF" d="M0 0h14720v3264H0z"/>
-		<g id="MESSAGES" transform="translate(6147 1470)">
-			<g id="Msg-block-sizing" transform="translate(185 1210)">
+		<g id="MESSAGES" transform="translate(6147 1464)">
+			<g id="Input-for-inlined-sizes" transform="translate(185 190)">
+				<g id="Text-input-/-!default">
+					<rect id="Mediawiki.Neutral.Hover-35" width="701" height="33" x="-.5" y="-.5" fill="#FFF" fill-rule="evenodd" stroke="#D33" stroke-width="1" rx="2"/>
+				</g>
+				<text id="Re-enter-password" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+					<tspan x="14" y="22">Re-enter password</tspan>
+				</text>
+			</g>
+			<g id="Msg-block-sizing" transform="translate(185 1192)">
 				<path id="Rectangle_fill6" fill="url(#pattern-1)" fill-opacity=".05" stroke="#C8CCD1" d="M0 0h700.001v112H0z"/>
-				<text id="Multiline-message-wi" fill="#000" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="16" font-weight="400">
-					<tspan x="60" y="32">Multiline message with rich text like </tspan> <tspan x="327.36" y="32" text-decoration="underline">links to Nas</tspan> <tspan x="413.616" y="32">, who will rule the World and </tspan> <tspan x="60" y="56"> • free all his sons</tspan> <tspan x="60" y="80"> • `font-size: 1em`</tspan>
+				<text id="Multiline-inline-mes" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+					<tspan x="43" y="142">Multiline inline message without rich text. Only sentences, which bring clarity on </tspan> <tspan x="43" y="166">what&apos;s happening to the user. </tspan>
+				</text>
+				<path id="Icon-template" fill="#000" fill-rule="nonzero" d="M22 130c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10a10 10 0 0 0-10-10z"/>
+				<text id="Multiline-block-mess" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+					<tspan x="60" y="32">Multiline block message</tspan> <tspan x="244.768" y="32" font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400"> with rich text like </tspan> <tspan x="378.736" y="32" font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400" text-decoration="underline">links to Nas</tspan> <tspan x="464.992" y="32" font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400">, who </tspan> <tspan x="60" y="56" font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400"> • will rule the World and </tspan> <tspan x="60" y="80" font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400"> • free all his sons</tspan>
 				</text>
 				<g id="helpOutlined-ltr" fill="#000" fill-rule="nonzero" transform="translate(28 20)">
-					<path id="Shape" d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10A10 10 0 0 0 10 0z"/>
+					<path id="Path" d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10A10 10 0 0 0 10 0z"/>
 				</g>
 				<g id="101-/-1.5em" stroke="#A65DE7" stroke-linecap="square" stroke-width="4" transform="translate(2 29)">
 					<path id="1.5em" d="M0 1h24" transform="matrix(1 0 0 -1 0 2)"/>
@@ -1074,7 +1089,7 @@
 				<g id=".5em" stroke="#02D0BF" stroke-linecap="square" stroke-width="4" transform="translate(50 29)">
 					<path id="1em" d="M.25 1.25h7.5"/>
 				</g>
-				<g id="1.25em" fill="#BD7D00" transform="translate(0 215)">
+				<g id="1.25em" fill="#BD7D00" transform="translate(0 295)">
 					<path id="Rectangle" d="M0 0h20v4H0z"/>
 				</g>
 				<g id="1.25em" fill="#BD7D00" transform="rotate(-90 28 -8)">
@@ -1086,81 +1101,110 @@
 				<g id="1.25em" fill="#BD7D00" transform="translate(680 28)">
 					<path id="Rectangle" d="M0 0h20v4H0z"/>
 				</g>
-				<g id="101-/-1.5em" stroke="#A65DE7" stroke-linecap="square" stroke-width="4" transform="translate(2 181)">
+				<g id="101-/-1.5em" stroke="#A65DE7" stroke-linecap="square" stroke-width="4" transform="translate(2 261)">
 					<path id="1.5em" d="M0 1h24" transform="matrix(1 0 0 -1 0 2)"/>
 				</g>
-				<text id="1.5-em-(24-sp)" fill="#B800BD" font-family="Lato-Regular, Lato, sans-serif" font-size="16" font-weight="normal">
-					<tspan x="46" y="188">1.5 em (24 sp)</tspan>
+				<g id="101-/-1em" stroke="#D0021B" stroke-linecap="square" transform="translate(1 331)">
+					<path id="1em" d="M.5.5h15"/>
+					<path id="1em-copy" d="M.5 1.5h15"/>
+					<path id="1em-copy-2" d="M.5 2.5h15"/>
+					<path id="1em-copy-3" d="M.5 3.5h15"/>
+				</g>
+				<path id=".5em" stroke="#02D0BF" stroke-linecap="square" stroke-width="4" d="M3.25 402.25h7.5"/>
+				<path id="0.5em-copy" stroke="#02D0BF" stroke-linecap="square" stroke-width="4" d="M34.25 140.25h7.5"/>
+				<path id=".75em" stroke="#0082FF" stroke-linecap="square" stroke-width="4" d="M3.25 368.25h10M1.25 140.25h9"/>
+				<g id="1.25em" fill="#BD7D00" transform="translate(680 140)">
+					<path id="Rectangle" d="M0 0h20v4H0z"/>
+				</g>
+				<text id="24-scale-independent" fill="#B800BD" font-family="Lato-Regular, Lato, sans-serif" font-size="16" font-weight="normal">
+					<tspan x="46" y="268">24 scale-independent pixels (1.5 em)</tspan>
 				</text>
-				<text id="1.25-em-(20-sp)" fill="#B800BD" font-family="Lato-Regular, Lato, sans-serif" font-size="16" font-weight="normal">
-					<tspan x="46" y="223">1.25 em (20 sp)</tspan>
+				<text id="20-sp-(1.25-em)" fill="#B800BD" font-family="Lato-Regular, Lato, sans-serif" font-size="16" font-weight="normal">
+					<tspan x="46" y="303">20 sp (1.25 em)</tspan>
 				</text>
-				<text id="1-em-(16-sp)" fill="#B800BD" font-family="Lato-Regular, Lato, sans-serif" font-size="16" font-weight="normal">
-					<tspan x="46" y="257">1 em (16 sp)</tspan>
+				<text id="16-sp-(1-em)" fill="#B800BD" font-family="Lato-Regular, Lato, sans-serif" font-size="16" font-weight="normal">
+					<tspan x="46" y="337">16 sp (1 em)</tspan>
 				</text>
-				<text id="0.5-em-(8-sp)" fill="#B800BD" font-family="Lato-Regular, Lato, sans-serif" font-size="16" font-weight="normal">
-					<tspan x="46" y="292">0.5 em (8 sp)</tspan>
+				<text id="12-sp-(0.75-em)" fill="#B800BD" font-family="Lato-Regular, Lato, sans-serif" font-size="16" font-weight="normal">
+					<tspan x="46" y="372">12 sp (0.75 em)</tspan>
+				</text>
+				<text id="8-sp-(0.5-em)" fill="#B800BD" font-family="Lato-Regular, Lato, sans-serif" font-size="16" font-weight="normal">
+					<tspan x="46" y="407">8 sp (0.5 em)</tspan>
+				</text>
+				<text id="`font-size:-1em`" fill="#B800BD" font-family="Lato-Regular, Lato, sans-serif" font-size="16" font-weight="normal">
+					<tspan x="732" y="32">`font-size: 1em`</tspan>
+				</text>
+				<text id="`font-size:-1em`-`fo" fill="#B800BD" font-family="Lato-Regular, Lato, sans-serif" font-size="16" font-weight="normal">
+					<tspan x="732" y="145">`font-size: 1em`</tspan> <tspan x="732" y="164">`font-weight: bold`</tspan>
 				</text>
 			</g>
-			<g id="Notice_block" transform="translate(185 937)">
+			<g id="Notice_inline" fill="#000" transform="translate(197 982)">
+				<text id="A-neutral-message-wh" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+					<tspan x="34" y="16">A neutral message which informs about general higher priority notices to the user. </tspan> <tspan x="34" y="40">Stay neutral!</tspan>
+				</text>
+				<g id="infoFilled" fill-rule="nonzero" transform="translate(0 4)">
+					<path id="Shape" d="M10.5 20C4.7 20 0 15.523 0 10S4.7 0 10.5 0 21 4.477 21 10s-4.7 10-10.5 10zM9.45 9v6h2.1V9h-2.1zm1.05-2c.58 0 1.05-.448 1.05-1s-.47-1-1.05-1c-.58 0-1.05.448-1.05 1s.47 1 1.05 1z"/>
+				</g>
+			</g>
+			<g id="Notice_block" transform="translate(185 879)">
 				<path id="Rectangle_fill6" fill="#EAECF0" fill-rule="nonzero" stroke="#C8CCD1" d="M0 0h700.001v79H0z"/>
-				<text id="A-neutral-message-wh" fill="#000" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="16" font-weight="400">
-					<tspan x="60" y="30">A neutral message which informs about general higher priority notices to the user. </tspan> <tspan x="60" y="54">Stay neutral!</tspan>
+				<text id="A-neutral-message-wh" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+					<tspan x="60" y="30">A neutral message</tspan> <tspan x="202.192" y="30" font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400"> which informs about general higher priority notices to the user. </tspan> <tspan x="60" y="54" font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400">Stay neutral!</tspan>
 				</text>
 				<g id="infoFilled" fill="#000" fill-rule="nonzero" transform="translate(28 18)">
 					<path id="Shape" d="M10 20C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10zM9 9v6h2V9H9zm1-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
 				</g>
 			</g>
-			<g id="Success_inline_ALT" fill="#14866D" transform="translate(199 774)">
-				<text id="A-success-message-wh" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="16" font-weight="400">
+			<g id="Success_inline_ALT" fill="#14866D" transform="translate(199 719)">
+				<text id="A-success-message-wh" font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-size="16" font-weight="400">
 					<tspan x="28" y="16">A success message which means the user did everything right and should know about </tspan> <tspan x="28" y="36">it. Yay!</tspan>
 				</text>
 				<g id="check" fill-rule="nonzero" transform="translate(0 4)">
 					<path id="Path" d="M5.667 11.17L1.728 7 .397 8.41 5.667 14 17 2 15.668.58z"/>
 				</g>
 			</g>
-			<g id="Success_block" transform="translate(185 670)">
+			<g id="Success_block" transform="translate(185 615)">
 				<path id="Rectangle_fill6" fill="#D5FDF4" fill-rule="nonzero" stroke="#00AF89" d="M0 0h700.001v79H0z"/>
-				<text id="A-success-message-wh" fill="#000" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="16" font-weight="400">
-					<tspan x="60" y="30">A success message which means the user did everything right and should know </tspan> <tspan x="60" y="54">about it. Yay!</tspan>
+				<text id="A-success-message-wh" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+					<tspan x="60" y="30">A success message</tspan> <tspan x="211.68" y="30" font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400"> which means </tspan> <tspan x="317.792" y="30">the user did everything right </tspan> <tspan x="536.48" y="30" font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400">and should know </tspan> <tspan x="60" y="54" font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400">about it. Yay!</tspan>
 				</text>
 				<path id="Path" fill="#14866D" fill-rule="nonzero" d="M34 33.17L29.83 29l-1.41 1.41L34 36l12-12-1.41-1.42z"/>
 			</g>
-			<g id="Warning_inline" transform="translate(198 503)">
-				<text id="A-warning-which-is-n" fill="#000" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="16" font-weight="400">
-					<tspan x="29" y="16">A warning which is not stopping whatever the user just did, but needs to clear up why </tspan> <tspan x="29" y="36">things might not work as expected. </tspan>
+			<g id="Warning_inline" transform="translate(198 455)">
+				<text id="A-warning-which-is-n" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+					<tspan x="29" y="16">A warning which is not stopping whatever the user just did, but needs to clear up </tspan> <tspan x="29" y="36">why things might not work as expected. </tspan>
 				</text>
 				<g id="alert-warning" fill="#FC3" fill-rule="nonzero" transform="translate(0 1)">
 					<path id="Shape" d="M18.658 15.36L10.953 1.3A1.765 1.765 0 0 0 9.5.21 1.766 1.766 0 0 0 8.056 1.3L.342 15.36C-.456 16.81.199 18 1.786 18h15.428c1.587 0 2.242-1.19 1.444-2.64zM10.45 15h-1.9v-2h1.9v2zm0-4h-1.9V5h1.9v6z"/>
 				</g>
 			</g>
-			<g id="Warning_block" transform="translate(185 399)">
+			<g id="Warning_block" transform="translate(185 351)">
 				<path id="Rectangle_fill6" fill="#FEF6E7" fill-rule="nonzero" stroke="#FC3" d="M0 0h700.001v79H0z"/>
 				<path id="Shape" fill="#FC3" fill-rule="nonzero" d="M47.638 33.15l-8.11-14.06a1.85 1.85 0 0 0-1.53-1.09 1.85 1.85 0 0 0-1.52 1.09l-8.12 14.06c-.84 1.45-.15 2.64 1.52 2.64h16.24c1.67 0 2.36-1.19 1.52-2.64zm-8.64-.36h-2v-2h2v2zm0-4h-2v-6h2v6z"/>
-				<text id="A-warning-which-is-n" fill="#000" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="16" font-weight="400">
-					<tspan x="60" y="30">A warning which is not stopping whatever the user just did, but needs to clear up </tspan> <tspan x="60" y="54">why things might not work as expected. </tspan>
+				<text id="A-warning-which-is-n" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+					<tspan x="60" y="30">A warning</tspan> <tspan x="137.008" y="30" font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400"> which is not stopping whatever the user just did, but needs to clear up </tspan> <tspan x="60" y="54" font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400">why things might not work as expected. </tspan>
 				</text>
 			</g>
-			<g id="Error_inline" transform="translate(192 276)">
-				<text id="An-error-which-means" fill="#D33" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="16" font-weight="400">
-					<tspan x="34" y="18">An error which means it&apos;s potentially stopping whatever you just did and will give you a </tspan> <tspan x="34" y="38">hint what is wrong. </tspan>
+			<g id="Error_inline" transform="translate(192 235)">
+				<text id="An-error-which-means" fill="#D33" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+					<tspan x="34" y="18">An error which means it&apos;s potentially stopping whatever the user just did and will give </tspan> <tspan x="34" y="38">them a clear message what is wrong. </tspan>
 				</text>
 				<g id="Stop-icon" transform="translate(.05)">
 					<path id="Polygon" fill="#D33" d="M14 3.05l7.071 2.928L24 13.05l-2.929 7.07L14 23.05l-7.071-2.93L4 13.05l2.929-7.072z" transform="rotate(22.33 14 13.05)"/>
 					<path id="Path" fill="#FEE7E6" d="M14.95 18h-2v-2h2zM14.95 14h-2V8h2z"/>
 				</g>
 			</g>
-			<g id="Error_top_ALT" transform="translate(184 128)">
+			<g id="Error_top_ALT" transform="translate(184 87)">
 				<path id="Rectangle_fill6" fill="#FEE7E6" fill-rule="nonzero" stroke="#D33" d="M1 0h700.001v79H1z"/>
-				<text id="This-is-an-error-whi" fill="#D33" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-					<tspan x="61" y="30">This is an error which means it&apos;s potentially stopping whatever you just did and </tspan> <tspan x="61" y="54">will give you a hint what is wrong. </tspan> <tspan x="321.384" y="54" text-decoration="underline">There&apos;s an explanatory link</tspan> <tspan x="526.408" y="54"> as well.</tspan>
+				<text id="An-error-which-means" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+					<tspan x="61" y="30">An error </tspan> <tspan x="127.688" y="30" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">which means</tspan> <tspan x="221.928" y="30"> it&apos;s potentially stopping whatever the user just did </tspan> <tspan x="610.936" y="30" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">and </tspan> <tspan x="61" y="54" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">providing them a </tspan> <tspan x="185.496" y="54">clear message on what&apos;s wrong. </tspan> <tspan x="436.728" y="54" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-weight="normal">There&apos;s also an </tspan> <tspan x="549.64" y="54" text-decoration="underline">explanatory link</tspan> <tspan x="670.488" y="54">.</tspan>
 				</text>
 				<g id="Stop-icon" transform="translate(25 14)">
 					<path id="Polygon" fill="#D33" d="M14 3.05l7.071 2.928L24 13.05l-2.929 7.07L14 23.05l-7.071-2.93L4 13.05l2.929-7.072z" transform="rotate(22.33 14 13.05)"/>
 					<path id="Path" fill="#FEE7E6" d="M14.95 18h-2v-2h2zM14.95 14h-2V8h2z"/>
 				</g>
 			</g>
-			<g id="Errored-input" transform="translate(184 231)">
+			<g id="Errored-input" transform="translate(185 190)">
 				<g id="Text-input-/-!default">
 					<rect id="Mediawiki.Neutral.Hover-35" width="701" height="33" x="-.5" y="-.5" fill="#FFF" fill-rule="evenodd" stroke="#D33" stroke-width="1" rx="2"/>
 				</g>
@@ -1172,16 +1216,16 @@
 				<tspan x="0" y="1222"> Sizes</tspan>
 			</text>
 			<text id="Notice" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-				<tspan x="0" y="972"> Notice</tspan>
+				<tspan x="0" y="914"> Notice</tspan>
 			</text>
 			<text id="Success" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-				<tspan x="0" y="701"> Success</tspan>
+				<tspan x="0" y="646"> Success</tspan>
 			</text>
 			<text id="Warning" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-				<tspan x="0" y="430"> Warning</tspan>
+				<tspan x="0" y="382"> Warning</tspan>
 			</text>
 			<text id="Error" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-				<tspan x="0" y="159">Error</tspan>
+				<tspan x="0" y="118">Error</tspan>
 			</text>
 			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 52)">
 				<path id="Line" d="M183.5 1.5H.5"/>
@@ -1190,7 +1234,7 @@
 				<tspan x="0" y="36">MESSAGES</tspan>
 			</text>
 		</g>
-		<g id="EXAMPLE-FORM" transform="translate(5040 1431)">
+		<g id="EXAMPLE-FORM" transform="translate(5040 1423)">
 			<g id="File-input" transform="translate(2 436)">
 				<rect id="Mediawiki.Neutral.Hover-32-Copy-2" width="461" height="33" x="-.5" y="-.5" fill="#FFF" fill-rule="evenodd" stroke="#9AA0A7" stroke-width="1" rx="2"/>
 				<path id="Rectangle-640-Copy-20" fill="#F8F9FA" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" d="M460.5 2.002A2.498 2.498 0 0 0 458.004-.5H344.5v33h113.504a2.494 2.494 0 0 0 2.496-2.502V2.002z"/>
@@ -1227,8 +1271,8 @@
 				<path fill="#FFF" stroke-linejoin="square" d="M4 297.5c-.83 0-1.5.668-1.5 1.502v27.996c0 .831.67 1.502 1.5 1.502h456c.83 0 1.5-.668 1.5-1.502v-27.996c0-.831-.67-1.502-1.5-1.502H4z"/>
 				<path d="M4 296.5h456c1.384 0 2.5 1.119 2.5 2.502v27.996a2.497 2.497 0 0 1-2.5 2.502H4a2.498 2.498 0 0 1-2.5-2.502v-27.996A2.497 2.497 0 0 1 4 296.5z"/>
 			</g>
-			<text id="Violett" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
-				<tspan x="16" y="319">Violett</tspan>
+			<text id="Volker" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+				<tspan x="16" y="319">Volker</tspan>
 			</text>
 			<text id="Username" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 				<tspan x="1" y="288">Username</tspan>
@@ -1655,8 +1699,8 @@
 			<text id="When-we-decide-to-ha" fill="#54595D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 				<tspan x="651.596" y="2553.749">When we decide to have users start from scratch</tspan> <tspan x="651.596" y="2571.749">in selecting a day in a year, start from the “Year”</tspan> <tspan x="651.596" y="2589.749">selection view, followed by “Month” and then “Day.”</tspan>
 			</text>
-			<text id="48px-/-3em" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
-				<tspan x="1186" y="221.552">48px / 3em</tspan>
+			<text id="48-sp-(3-em)-height" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
+				<tspan x="1186" y="221.552">48 sp (3 em) height</tspan>
 			</text>
 			<text id="“Currently-selected”" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
 				<tspan x="1186" y="323.552">“Currently selected” style</tspan>
@@ -2337,11 +2381,11 @@
 			<text id="Focus" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 				<tspan x="2" y="450">Focus</tspan>
 			</text>
-			<text id=".5em" fill="#333" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal" letter-spacing="1.2">
-				<tspan x="250" y="143">0.5em</tspan>
+			<text id="8-sp-(0.5-em)" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
+				<tspan x="250" y="143">8 sp (0.5 em)</tspan>
 			</text>
-			<text id="42px-height" fill="#333" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal" letter-spacing=".8">
-				<tspan x="250" y="172">42px height</tspan>
+			<text id="42-sp-height" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
+				<tspan x="250" y="172">42 sp height</tspan>
 			</text>
 			<path id="Line-164" stroke="#50E3C2" stroke-linecap="square" stroke-width="4" d="M208.5 138h14.685"/>
 		</g>
@@ -2701,8 +2745,8 @@
 			<g id="Icon-/-placeholder-(notBright/circle)-/-:hover" fill="#444" transform="translate(263 240)">
 				<path id="Shape" d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0z"/>
 			</g>
-			<text id="20px-x-20px-icon" fill="#444" font-family="Helvetica, sans-serif" font-size="12" font-weight="normal">
-				<tspan x="308" y="249">20px x 20px icon</tspan> <tspan x="308" y="260">vertical-align: middle</tspan>
+			<text id="20-sp-x-20-sp-icon-v" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
+				<tspan x="308" y="249">20 sp x 20 sp icon</tspan> <tspan x="308" y="264">vertical-align: middle</tspan>
 			</text>
 			<text fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
 				<tspan x="0" y="36">ICON </tspan> <tspan x="0" y="80">DROPDOWN</tspan>
@@ -3276,8 +3320,8 @@
 			</text>
 		</g>
 		<g id="TOGGLE-SWITCH" transform="translate(6640 143)">
-			<g id="Toggle-Switch-X" transform="translate(3 101)">
-				<g id="Toggle-switch-/-multiliner" transform="translate(330 488)">
+			<g id="Toggle-Switch-X" transform="translate(0 101)">
+				<g id="Toggle-switch-/-multiliner" transform="translate(333 488)">
 					<g id="Toggle-switch-/-!default" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" transform="translate(168 1)">
 						<path id="Mediawiki.Neutral.Hover-copy-28" d="M16-.5h28c9.113 0 16.5 7.387 16.5 16.5 0 9.114-7.387 16.5-16.5 16.5H16C6.887 32.5-.5 25.113-.5 16-.5 6.886 6.887-.5 16-.5z"/>
 						<circle id="Oval-45-Copy-13" cx="17" cy="16" r="10.5"/>
@@ -3296,11 +3340,11 @@
 					</text>
 				</g>
 				<text id="Disabled-Normal-Hove" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="-3" y="41"> Disabled</tspan>   <tspan x="-3" y="97.4"> Normal</tspan>   <tspan x="-3" y="153.8"> Hover</tspan>   <tspan x="-3" y="210.2"> Active</tspan>   <tspan x="-3" y="266.6"> Focus</tspan>
+					<tspan x="0" y="41"> Disabled</tspan>   <tspan x="0" y="97.4"> Normal</tspan>   <tspan x="0" y="153.8"> Hover</tspan>   <tspan x="0" y="210.2"> Active</tspan>   <tspan x="0" y="266.6"> Focus</tspan>
 				</text>
-				<path id="Line-236-Copy" stroke="#D0021B" stroke-width="4" d="M497 505h-16"/>
-				<path id="1em" stroke="#D0021B" stroke-width="4" d="M392 549v16M528 395v16"/>
-				<g id="-101-/-1em-+-2*0,5em" stroke-linecap="square" transform="rotate(-90 113.5 -61.5)">
+				<path id="Line-236-Copy" stroke="#D0021B" stroke-width="4" d="M500 505h-16"/>
+				<path id="1em" stroke="#D0021B" stroke-width="4" d="M395 549v16M531 395v16"/>
+				<g id="-101-/-1em-+-2*0,5em" stroke-linecap="square" transform="rotate(-90 115 -63)">
 					<g id="101-/-1em" stroke="#D0021B" transform="translate(8)">
 						<path id="1em" d="M.5.5h15"/>
 						<path id="1em-copy" d="M.5 1.5h15"/>
@@ -3320,16 +3364,16 @@
 						<path id="0.5em-copy-3" d="M.5 2.5h7"/>
 					</g>
 				</g>
-				<g id="101-/-0.5em" stroke="#50E3C2" stroke-linecap="square" transform="translate(189 17)">
+				<g id="101-/-0.5em" stroke="#50E3C2" stroke-linecap="square" transform="translate(192 17)">
 					<path id=".5em" d="M.5 1.5h7"/>
 					<path id="0.5em-copy" d="M.5.5h7"/>
 					<path id="0.5em-copy-2" d="M.5 3.5h7"/>
 					<path id="0.5em-copy-3" d="M.5 2.5h7"/>
 				</g>
-				<text id="Minimum-1em-margin" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
-					<tspan x="503" y="481.381">Minimum 1em margin</tspan>
+				<text id="Minimum-16-sp-(1-em)" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
+					<tspan x="506" y="481.381">Minimum 16 sp (1 em) margin</tspan>
 				</text>
-				<g id="Toggle-switch-/-:on-/-:focus" transform="translate(397 244)">
+				<g id="Toggle-switch-/-:on-/-:focus" transform="translate(400 244)">
 					<g id="Mediawiki.Neutral.Hover-copy-20">
 						<rect width="59" height="34" x="1.5" y="1" fill="#36C" stroke="#FFF" stroke-linejoin="square" stroke-width="2" rx="17"/>
 						<rect width="62" height="37" y="-.5" stroke="#36C" rx="18.5"/>
@@ -3340,44 +3384,44 @@
 						<circle cx="43.5" cy="18" r="9.5" fill="#FFF" stroke="#FFF" stroke-linejoin="square"/>
 					</g>
 				</g>
-				<g id="Toggle-switch-/-:on-/-!default" transform="translate(397 76)">
+				<g id="Toggle-switch-/-:on-/-!default" transform="translate(400 76)">
 					<rect id="Mediawiki.Neutral.Hover-copy-33" width="61" height="33" x="-.5" y="-.5" fill="#36C" fill-rule="evenodd" stroke="#36C" stroke-width="1" rx="16.5"/>
 					<g id="Oval-45-Copy-17">
 						<use fill="#000" filter="url(#filter-103)" xlink:href="#path-102"/>
 						<circle cx="43" cy="16" r="9.5" fill="#FFF" stroke="#FFF" stroke-linejoin="square"/>
 					</g>
 				</g>
-				<g id="Toggle-switch-/-:on-/-:hover" transform="translate(397 132)">
+				<g id="Toggle-switch-/-:on-/-:hover" transform="translate(400 132)">
 					<rect id="Mediawiki.Neutral.Hover-copy-21" width="61" height="33" x="-.5" y="-.5" fill="#447FF5" fill-rule="evenodd" stroke="#447FF5" stroke-width="1" rx="16.5"/>
 					<g id="Oval-45-Copy-5">
 						<use fill="#000" filter="url(#filter-105)" xlink:href="#path-104"/>
 						<path fill="#FFF" stroke="#FFF" stroke-linejoin="square" d="M43 25.5a9.5 9.5 0 1 0 0-19 9.5 9.5 0 0 0 0 19z"/>
 					</g>
 				</g>
-				<g id="Toggle-switch-/-:on-/-:active" transform="translate(397 188)">
+				<g id="Toggle-switch-/-:on-/-:active" transform="translate(400 188)">
 					<rect id="Mediawiki.Neutral.Hover-copy-23" width="61" height="33" x="-.5" y="-.5" fill="#2A4B8D" fill-rule="evenodd" stroke="#2A4B8D" stroke-width="1" rx="16.5"/>
 					<g id="Oval-45-Copy-7">
 						<use fill="#000" filter="url(#filter-107)" xlink:href="#path-106"/>
 						<circle cx="44" cy="16" r="9.5" fill="#FFF" stroke="#FFF" stroke-linejoin="square"/>
 					</g>
 				</g>
-				<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(497 412)">
+				<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(500 412)">
 					<path id="Mediawiki.Neutral.Hover-copy-28" d="M16-.5h28c9.113 0 16.5 7.387 16.5 16.5 0 9.114-7.387 16.5-16.5 16.5H16C6.887 32.5-.5 25.113-.5 16-.5 6.886 6.887-.5 16-.5z"/>
 					<circle id="Oval-45-Copy-13" cx="17" cy="16" r="10.5"/>
 				</g>
-				<g id="Toggle-switch-/-:hover" stroke="#36C" transform="translate(189 132)">
+				<g id="Toggle-switch-/-:hover" stroke="#36C" transform="translate(192 132)">
 					<path id="Mediawiki.Neutral.Hover-copy-29" d="M16-.5h28c9.113 0 16.5 7.387 16.5 16.5 0 9.114-7.387 16.5-16.5 16.5H16C6.887 32.5-.5 25.113-.5 16-.5 6.886 6.887-.5 16-.5z"/>
 					<path id="Oval-45-Copy-14" d="M17 25.5a9.5 9.5 0 1 0 0-19 9.5 9.5 0 0 0 0 19z"/>
 				</g>
-				<g id="Toggle-switch-/-:disabled" transform="translate(189 20)">
+				<g id="Toggle-switch-/-:disabled" transform="translate(192 20)">
 					<path id="Mediawiki.Neutral.Hover-copy-30" fill="#C8CCD1" fill-rule="evenodd" stroke="#C8CCD1" d="M16-.5h28c9.113 0 16.5 7.387 16.5 16.5 0 9.114-7.387 16.5-16.5 16.5H16C6.887 32.5-.5 25.113-.5 16-.5 6.886 6.887-.5 16-.5z"/>
 					<circle id="Oval-45-Copy-15" cx="17" cy="16" r="9.5" stroke="#FFF"/>
 				</g>
-				<g id="Toggle-switch-/-:on-/-:disabled" transform="translate(397 20)">
+				<g id="Toggle-switch-/-:on-/-:disabled" transform="translate(400 20)">
 					<rect id="Mediawiki.Neutral.Hover-copy-34" width="61" height="33" x="-.5" y="-.5" fill="#C8CCD1" stroke="#C8CCD1" stroke-width="1" rx="16.5"/>
 					<path id="Oval-45-Copy-18" fill="#FFF" d="M43 26c5.523 0 10-4.477 10-10S48.523 6 43 6s-10 4.477-10 10 4.477 10 10 10z"/>
 				</g>
-				<g id="Toggle-switch-/-:active" transform="translate(190 189)">
+				<g id="Toggle-switch-/-:active" transform="translate(193 189)">
 					<g id="Mediawiki.Neutral.Hover-copy-31">
 						<use fill="#2A4B8D" xlink:href="#path-108"/>
 						<rect width="61" height="33" x="-.5" y="-.5" stroke="#2A4B8D" rx="16.5"/>
@@ -3385,79 +3429,79 @@
 					</g>
 					<path id="Oval-45-Copy-16" fill="#FFF" fill-rule="evenodd" stroke="#36C" stroke-width="1" d="M17 25.5a9.5 9.5 0 1 0 0-19 9.5 9.5 0 0 0 0 19z"/>
 				</g>
-				<path id="Line" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M189.5 45.5V.489"/>
-				<path id="Line-Copy-5" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M196.5 45.5V.489"/>
-				<path id="Line-Copy-17" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M480.726 326.462V628.5"/>
-				<path id="Line-Copy-99" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M497.726 467.5v78.386"/>
-				<g id="Toggle-switch-/-:focus" stroke="#36C" transform="translate(189 244)">
+				<path id="Line" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M192.5 45.5V.489"/>
+				<path id="Line-Copy-5" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M199.5 45.5V.489"/>
+				<path id="Line-Copy-17" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M483.726 326.462V628.5"/>
+				<path id="Line-Copy-99" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M500.726 467.5v78.386"/>
+				<g id="Toggle-switch-/-:focus" stroke="#36C" transform="translate(192 244)">
 					<g id="Mediawiki.Neutral.Hover-copy-35">
 						<rect width="59" height="31" x=".5" y=".5" stroke-linejoin="square" rx="15.5"/>
 						<rect width="61" height="33" x="-.5" y="-.5" rx="16"/>
 					</g>
 					<circle id="Oval-45-Copy-19" cx="17" cy="16" r="9.5"/>
 				</g>
-				<path id="Line-Copy-94" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M332 360.5h202"/>
-				<path id="Line-Copy-95" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M332 566.5h202"/>
-				<path id="Line-Copy-96" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M332 487.5h202"/>
-				<path id="Line-Copy-97" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M332 395.5h202"/>
-				<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(497 362)">
+				<path id="Line-Copy-94" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M335 360.5h202"/>
+				<path id="Line-Copy-95" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M335 566.5h202"/>
+				<path id="Line-Copy-96" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M335 487.5h202"/>
+				<path id="Line-Copy-97" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M335 395.5h202"/>
+				<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(500 362)">
 					<path id="Mediawiki.Neutral.Hover-copy-28" d="M16-.5h28c9.113 0 16.5 7.387 16.5 16.5 0 9.114-7.387 16.5-16.5 16.5H16C6.887 32.5-.5 25.113-.5 16-.5 6.886 6.887-.5 16-.5z"/>
 					<circle id="Oval-45-Copy-13" cx="17" cy="16" r="10.5"/>
 				</g>
 				<text id="Option-5-Copy-2" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
-					<tspan x="330" y="433">Option 2</tspan>
+					<tspan x="333" y="433">Option 2</tspan>
 				</text>
-				<path id="Line-Copy-98" fill="#979797" fill-rule="nonzero" d="M325 361v34.014h4v1h-9v-1h4V361h-4v-1h9v1h-4z"/>
+				<path id="Line-Copy-98" fill="#979797" fill-rule="nonzero" d="M328 361v34.014h4v1h-9v-1h4V361h-4v-1h9v1h-4z"/>
 				<text id="`vertical-align:-mid" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
-					<tspan x="121" y="383">`vertical-align: middle` one-liner text</tspan>
+					<tspan x="124" y="383">`vertical-align: middle` one-liner text</tspan>
 				</text>
 				<text id="top-align-2-lines-or-copy-2" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
-					<tspan x="160" y="503">top align 2 lines or more text </tspan>
+					<tspan x="163" y="503">top align 2 lines or more text </tspan>
 				</text>
-				<g id="Cursor-/-Pointer" transform="translate(403 206)">
+				<g id="Cursor-/-Pointer" transform="translate(406 206)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-111)" xlink:href="#path-110"/>
 						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
-				<g id="Cursor-/-Pointer" transform="translate(403 148)">
+				<g id="Cursor-/-Pointer" transform="translate(406 148)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-113)" xlink:href="#path-112"/>
 						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
-				<g id="Cursor-/-!default" transform="translate(443 49)">
+				<g id="Cursor-/-!default" transform="translate(446 49)">
 					<g id="cursor" fill="#000">
 						<use filter="url(#filter-115)" xlink:href="#path-114"/>
 						<path stroke="#FFF" d="M6.448 11.787l2.721 6.886c.273.675-.094 1.44-.79 1.72-.696.283-1.491-.013-1.765-.692l-2.708-6.853-2.483 2.963-.077.075c-.901.695-1.848.236-1.846-.902L-.474.669c0-.618.027-.82.271-1.028.4-.34.694-.163 1.14.298l10.66 10.157c.793.817.432 1.805-.782 1.933l-4.367-.242z"/>
 					</g>
 				</g>
-				<g id="Cursor-/-Pointer" transform="translate(235 205)">
+				<g id="Cursor-/-Pointer" transform="translate(238 205)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-117)" xlink:href="#path-116"/>
 						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
-				<g id="Cursor-/-Pointer" transform="translate(235 148)">
+				<g id="Cursor-/-Pointer" transform="translate(238 148)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-119)" xlink:href="#path-118"/>
 						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 0 1 .805-.201 1.69 1.69 0 0 1 1.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 0 1-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 0 1-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
-				<g id="Cursor-/-!default" transform="translate(241 46)">
+				<g id="Cursor-/-!default" transform="translate(244 46)">
 					<g id="cursor" fill="#000">
 						<use filter="url(#filter-121)" xlink:href="#path-120"/>
 						<path stroke="#FFF" d="M6.448 11.787l2.721 6.886c.273.675-.094 1.44-.79 1.72-.696.283-1.491-.013-1.765-.692l-2.708-6.853-2.483 2.963-.077.075c-.901.695-1.848.236-1.846-.902L-.474.669c0-.618.027-.82.271-1.028.4-.34.694-.163 1.14.298l10.66 10.157c.793.817.432 1.805-.782 1.933l-4.367-.242z"/>
 					</g>
 				</g>
-				<g id="Toggle-switch-/-:on-/-!default" transform="translate(499 568)">
+				<g id="Toggle-switch-/-:on-/-!default" transform="translate(502 568)">
 					<rect id="Mediawiki.Neutral.Hover-copy-33" width="61" height="33" x="-.5" y="-.5" fill="#36C" fill-rule="evenodd" stroke="#36C" stroke-width="1" rx="16.5"/>
 					<g id="Oval-45-Copy-17">
 						<use fill="#000" filter="url(#filter-123)" xlink:href="#path-122"/>
 						<circle cx="43" cy="16" r="9.5" fill="#FFF" stroke="#FFF" stroke-linejoin="square"/>
 					</g>
 				</g>
-				<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(189 76)">
+				<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(192 76)">
 					<path id="Mediawiki.Neutral.Hover-copy-28" d="M16-.5h28c9.113 0 16.5 7.387 16.5 16.5 0 9.114-7.387 16.5-16.5 16.5H16C6.887 32.5-.5 25.113-.5 16-.5 6.886 6.887-.5 16-.5z"/>
 					<circle id="Oval-45-Copy-13" cx="17" cy="16" r="10.5"/>
 				</g>
@@ -4464,8 +4508,8 @@
 					<path id="Line-Copy-60" fill="#4A90E2" fill-rule="nonzero" d="M301.509 151.491l.331 18.997 4-.07.017 1-8.999.157-.017-1 4-.07-.332-18.996-4 .07-.017-1 8.999-.157.017 1-4 .07z"/>
 					<path id="Line-Copy-61" fill="#4A90E2" fill-rule="nonzero" d="M303.509 145.491l.54 30.995 4-.07.018 1-9 .158-.017-1 4-.07-.541-30.995-4 .07-.017-1 8.999-.157.017 1-4 .07z"/>
 					<rect id="Rectangle-639-Copy-2" width="20" height="20" x="269" y="151" fill="#222" rx="10"/>
-					<text id="20px-x-20px-icon" fill="#222" font-family="Helvetica, sans-serif" font-size="12" font-weight="normal">
-						<tspan x="314" y="160">20px x 20px icon</tspan> <tspan x="314" y="171">vertical align: middle</tspan>
+					<text id="20-sp-x-20-sp-icon-`" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
+						<tspan x="314" y="160">20 sp x 20 sp icon</tspan> <tspan x="314" y="175">`vertical align: middle`</tspan>
 					</text>
 					<path id="Shape-Copy-3" fill="#7D8389" d="M228 55.5c0 .625-.25 1.25-.75 1.75s-1.125.75-1.75.75-1.25-.25-1.75-.75-.75-1.125-.75-1.75.25-1.25.75-1.75 1-.75 1.75-.75c.625 0 1.25.25 1.75.75s.75 1 .75 1.75zm7.5 0c0 .625-.25 1.25-.75 1.75s-1.125.75-1.75.75-1.25-.25-1.75-.75-.75-1.125-.75-1.75.25-1.25.75-1.75 1-.75 1.75-.75c.625 0 1.25.25 1.75.75s.75 1 .75 1.75zm7.5 0c0 .625-.25 1.25-.75 1.75s-1.125.75-1.75.75-1.25-.25-1.75-.75-.75-1.125-.75-1.75.25-1.25.75-1.75 1-.75 1.75-.75c.625 0 1.25.25 1.75.75s.75 1 .75 1.75z" transform="matrix(1 0 0 -1 0 111)"/>
 					<g id="Icon-/-!default" fill="#222" transform="translate(223 101)">
@@ -4790,25 +4834,25 @@
 					<tspan x="451" y="233">Button frame</tspan>
 				</text>
 				<path id="Line-51" stroke="#D0021B" stroke-linecap="square" d="M234.5 376.462h-12M236.5 320.462h-12"/>
-				<text id="1em" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
-					<tspan x="551" y="77">1em</tspan>
+				<text id="16-sp-/-1-em" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
+					<tspan x="551" y="77">16 sp / 1 em</tspan>
 				</text>
 				<path id="Line-53" stroke="#D0021B" stroke-linecap="square" d="M265.5 376.462h-12M263.5 320.462h-12"/>
 				<path id="Line-49" stroke="#50E3C2" stroke-linecap="square" d="M243.5 362.5v3.986M244.5 306.5v3.986"/>
-				<text id=".5em" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
-					<tspan x="551" y="101">0.5em</tspan>
+				<text id="8-sp-/-0.5-em" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
+					<tspan x="551" y="101">8 sp / 0.5 em</tspan>
 				</text>
-				<text id=".25em" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
-					<tspan x="551" y="125">0.25em</tspan>
+				<text id="4-sp-/-0.25-em" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
+					<tspan x="551" y="125">4 sp / 0.25 em</tspan>
 				</text>
-				<text id="1.5em" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
-					<tspan x="551" y="53">1.5em</tspan>
+				<text id="24-sp-/-1.5-em" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
+					<tspan x="551" y="53">24 sp / 1.5 em</tspan>
 				</text>
-				<text id="2em" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
-					<tspan x="551" y="31">2em</tspan>
+				<text id="32-scale-independent" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
+					<tspan x="551" y="31">32 scale-independent pixels / 2 em</tspan>
 				</text>
-				<text id="All-single-buttons,-" fill="#54595D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="227" y="33">All single buttons, icons, text </tspan> <tspan x="227" y="51">field have a min. of 48px width.</tspan>  <tspan x="227" y="87">All single buttons have a max. of </tspan> <tspan x="227" y="105">200px width. If &gt;200px content </tspan> <tspan x="227" y="123">wraps to the next line.</tspan>
+				<text id="All-single-buttons," fill="#54595D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="227" y="33">All single buttons, icons, text </tspan> <tspan x="227" y="51">field have a min. of 40 scale-</tspan> <tspan x="227" y="69">independent pixels (sp) width.</tspan>  <tspan x="227" y="105">All single buttons have a max. of </tspan> <tspan x="227" y="123">280 sp width. If &gt;280 sp content </tspan> <tspan x="227" y="141">wraps to the next line.</tspan>
 				</text>
 				<path id="Line-50" stroke="#50E3C2" stroke-linecap="square" d="M243.5 385.5v3.986M244.5 329.5v3.986"/>
 				<g id="101-/-0.25em" stroke="#F5A623" stroke-linecap="square" transform="translate(512 120)">
@@ -4836,7 +4880,7 @@
 					<path id="2em" d="M0 1h32" transform="matrix(1 0 0 -1 0 2)"/>
 				</g>
 				<path id="Line-60" stroke="#347BFF" stroke-linecap="square" stroke-width="4" d="M196.5 29h14.685"/>
-				<path id="Line-83" stroke="#8B572A" stroke-linecap="square" stroke-width="4" d="M195.5 85h14.685"/>
+				<path id="Line-83" stroke="#8B572A" stroke-linecap="square" stroke-width="4" d="M195.5 101h14.685"/>
 				<path id="Line-57" stroke="#D0021B" stroke-linecap="square" d="M291.5 320.462h-10M229.5 655.462h-10"/>
 				<path id="Line-58" stroke="#D0021B" stroke-linecap="square" d="M344.5 320.462h-10M282.5 655.462h-10M231.5 435.462h-10M312.5 600.462h-10M288.5 600.462h-10M293.5 536.462h-12M338.5 536.462h-12M300.5 600.462h-10M260.5 600.462h-10M262.5 536.462h-12M307.5 536.462h-12M248.5 600.462h-10M248.5 536.462h-12M308.5 435.462h-10M389.5 600.462h-10"/>
 				<path id="Line-59" stroke="#50E3C2" stroke-linecap="square" d="M336.5 600.462h-5"/>
@@ -4864,7 +4908,7 @@
 			<path id="1em-copy-2" d="M.5 2.5h15"/>
 			<path id="1em-copy-3" d="M.5 3.5h15"/>
 		</g>
-		<g id="Color-palette" transform="translate(1757 1422.4)">
+		<g id="Color-palette" transform="translate(1757 1422)">
 			<g id="Supplementary" fill-rule="evenodd" stroke-width="1" transform="translate(241 775)">
 				<rect id="Rectangle-Copy-15" width="176" height="128" x="1037" y="58" fill="#AC6600" rx="2"/>
 				<text id="#ac6600-RGB-172,-102" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
@@ -5132,31 +5176,31 @@
 				</text>
 			</g>
 		</g>
-		<g id="101-/-1.5em" stroke="#A65DE7" stroke-linecap="square" stroke-width="4" transform="rotate(90 1840.5 3680.5)">
+		<g id="101-/-1.5em" stroke="#A65DE7" stroke-linecap="square" stroke-width="4" transform="rotate(90 1844.5 3676.5)">
 			<path id="1.5em" d="M0 1h24" transform="matrix(1 0 0 -1 0 2)"/>
 		</g>
-		<g id="101-/-1.5em" stroke="#A65DE7" stroke-linecap="square" stroke-width="4" transform="rotate(90 1920 3600)">
+		<g id="101-/-1.5em" stroke="#A65DE7" stroke-linecap="square" stroke-width="4" transform="rotate(90 1924 3596)">
 			<path id="1.5em" d="M0 1h24" transform="matrix(1 0 0 -1 0 2)"/>
 		</g>
-		<g id="101-/-1.5em" stroke="#A65DE7" stroke-linecap="square" stroke-width="4" transform="rotate(90 1809.5 3711.5)">
+		<g id="101-/-1.5em" stroke="#A65DE7" stroke-linecap="square" stroke-width="4" transform="rotate(90 1813.5 3707.5)">
 			<path id="1.5em" d="M0 1h24" transform="matrix(1 0 0 -1 0 2)"/>
 		</g>
-		<g id="101-/-1.5em" stroke="#A65DE7" stroke-linecap="square" stroke-width="4" transform="rotate(90 1761.5 3759.5)">
+		<g id="101-/-1.5em" stroke="#A65DE7" stroke-linecap="square" stroke-width="4" transform="rotate(90 1765.5 3755.5)">
 			<path id="1.5em" d="M0 1h24" transform="matrix(1 0 0 -1 0 2)"/>
 		</g>
-		<g id="101-/-1.5em" stroke="#A65DE7" stroke-linecap="square" stroke-width="4" transform="rotate(90 1714 3807)">
+		<g id="101-/-1.5em" stroke="#A65DE7" stroke-linecap="square" stroke-width="4" transform="rotate(90 1718 3803)">
 			<path id="1.5em" d="M0 1h24" transform="matrix(1 0 0 -1 0 2)"/>
 		</g>
-		<g id="101-/-1.5em" stroke="#A65DE7" stroke-linecap="square" stroke-width="4" transform="rotate(90 1658.5 3862.5)">
+		<g id="101-/-1.5em" stroke="#A65DE7" stroke-linecap="square" stroke-width="4" transform="rotate(90 1662.5 3858.5)">
 			<path id="1.5em" d="M0 1h24" transform="matrix(1 0 0 -1 0 2)"/>
 		</g>
-		<g id="101-/-1em" stroke="#D0021B" stroke-linecap="square" transform="rotate(90 1736.5 3785.5)">
+		<g id="101-/-1em" stroke="#D0021B" stroke-linecap="square" transform="rotate(90 1740.5 3781.5)">
 			<path id="1em" d="M.5.5h15"/>
 			<path id="1em-copy" d="M.5 1.5h15"/>
 			<path id="1em-copy-2" d="M.5 2.5h15"/>
 			<path id="1em-copy-3" d="M.5 3.5h15"/>
 		</g>
-		<g id="101-/-1em" stroke="#D0021B" stroke-linecap="square" transform="rotate(90 1685 3837)">
+		<g id="101-/-1em" stroke="#D0021B" stroke-linecap="square" transform="rotate(90 1689 3833)">
 			<path id="1em" d="M.5.5h15"/>
 			<path id="1em-copy" d="M.5 1.5h15"/>
 			<path id="1em-copy-2" d="M.5 2.5h15"/>
@@ -5165,13 +5209,6 @@
 		<text id="Option-2" fill="#111" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 			<tspan x="9826" y="1270">Option 2</tspan>
 		</text>
-		<g id="101-/-1em" stroke="#D0021B" stroke-linecap="square" transform="translate(6333 2932)">
-			<path id="1em" d="M.5.5h15"/>
-			<path id="1em-copy" d="M.5 1.5h15"/>
-			<path id="1em-copy-2" d="M.5 2.5h15"/>
-			<path id="1em-copy-3" d="M.5 3.5h15"/>
-		</g>
-		<path id=".5em" stroke="#02D0BF" stroke-linecap="square" stroke-width="4" d="M6335.25 2968.25h7.5"/>
-		<path id="Line-2" stroke="#C8CCD1" stroke-linecap="square" stroke-width="3" d="M6147 2557.5h1179.93"/>
+		<path id="Line-2" stroke="#C8CCD1" stroke-linecap="square" stroke-width="3" d="M6147 2578.5h1179.93"/>
 	</g>
 </svg>
