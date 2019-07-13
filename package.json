@@ -12,14 +12,24 @@
   },
   "private": true,
   "license": "MIT",
+  "browserslist": [
+    "Android >= 2.3",
+    "Chrome >= 12",
+    "Edge >= 12",
+    "Firefox >= 3.6",
+    "IE >= 8",
+    "iOS >= 7.1",
+    "Opera >= 12.10",
+    "Safari >= 5.1"
+  ],
   "dependencies": {
+    "autoprefixer": "9.6.0",
     "fontfaceobserver": "2.1.0",
     "normalize.css": "7.0.0",
     "npm-check-updates": "^3.1.10",
     "wikimedia-ui-base": "0.14.0"
   },
   "devDependencies": {
-    "autoprefixer": "9.6.0",
     "cssnano": "4.1.10",
     "eslint-config-wikimedia": "0.12.0",
     "grunt": "1.0.4",
