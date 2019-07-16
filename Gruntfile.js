@@ -297,6 +297,7 @@ module.exports = function ( grunt ) {
 			options: {
 				js2svg: {
 					indent: '\t',
+					multipass: true,
 					pretty: true
 				},
 				plugins: [ {

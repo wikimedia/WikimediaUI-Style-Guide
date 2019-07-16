@@ -10,7 +10,7 @@
 			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
 				<tspan x="894" y="92">#fc3</tspan> <tspan x="894" y="111">RGB 255, 204, 51</tspan> <tspan x="894" y="130">HSB 45, 80%, 100%</tspan> <tspan x="894" y="168">AAA</tspan>
 			</text>
-			<path fill="#FEF6E7" d="M702 68.008c0-1.11.905-2.008 2.007-2.008h171.986c1.108 0 2.007.897 2.007 2.008v115.984a2.011 2.011 0 0 1-2.007 2.008H704.007a2.006 2.006 0 0 1-2.007-2.008V68.008z"/>
+			<path fill="#FEF6E7" d="M702 68.008c0-1.11.905-2.008 2.007-2.008h171.986c1.108 0 2.007.897 2.007 2.008v115.984a2.011 2.011 0 01-2.007 2.008H704.007a2.006 2.006 0 01-2.007-2.008V68.008z"/>
 			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
 				<tspan x="718" y="92">#fef6e7</tspan> <tspan x="718" y="111">RGB 254, 246, 231</tspan> <tspan x="718" y="130">HSB 39, 9%, 100%</tspan> <tspan x="718" y="168">AAA</tspan>
 			</text>
@@ -234,7 +234,7 @@
 			<rect width="511" height="351" x="235.5" y="23.5" fill="#F8F9FA" stroke="#C8CCD1" rx="2"/>
 			<rect width="416" height="256" x="283" y="71" fill="#FFF" rx="2"/>
 			<rect width="320" height="160" x="331" y="119" fill="#EAECF0" rx="2"/>
-			<path fill="#C8CCD1" d="M379 169.003c0-1.106.903-2.003 2.005-2.003h219.99a2.01 2.01 0 0 1 2.005 2.003v59.994a2.007 2.007 0 0 1-2.005 2.003h-219.99a2.01 2.01 0 0 1-2.005-2.003v-59.994z"/>
+			<path fill="#C8CCD1" d="M379 169.003c0-1.106.903-2.003 2.005-2.003h219.99a2.01 2.01 0 012.005 2.003v59.994a2.007 2.007 0 01-2.005 2.003h-219.99a2.01 2.01 0 01-2.005-2.003v-59.994z"/>
 			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
 				<tspan x="435" y="359">Layer 1: #f8f9fa</tspan>
 			</text>
