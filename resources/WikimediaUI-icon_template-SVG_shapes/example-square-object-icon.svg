@@ -8,6 +8,6 @@
 			<rect width="20" height="16" y="2" stroke="#D33" stroke-opacity=".5" rx="2"/>
 			<rect width="16" height="20" x="2" stroke="#FC3" stroke-opacity=".5" rx="2"/>
 		</g>
-		<path fill="#000" d="M5 5V1h10.001v4H5zm12 1a2 2 0 0 1 2 2v7h-4v4H5v-4H1V8a2 2 0 0 1 2-2h14zm-1 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM6 18h8v-6H6v6z"/>
+		<path fill="#000" d="M5 5V1h10.001v4H5zm12 1a2 2 0 012 2v7h-4v4H5v-4H1V8a2 2 0 012-2h14zm-1 4a1 1 0 100-2 1 1 0 000 2zM6 18h8v-6H6v6z"/>
 	</g>
 </svg>
