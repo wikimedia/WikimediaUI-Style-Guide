@@ -2,13 +2,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background:#eaecf0" width="817" height="571" viewBox="0 0 817 571">
 	<defs>
 		<path id="b" d="M27 49h763v652H27z"/>
+		<path id="d" d="M0 0h230v230H0z"/>
 		<filter id="a" width="101.6%" height="101.8%" x="-.8%" y="-.9%" filterUnits="objectBoundingBox">
 			<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
 			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
 			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
 		</filter>
 		<rect id="c" width="231" height="50" x="518" y="378" rx="2"/>
-		<path id="d" d="M0 0h230v230H0z"/>
 	</defs>
 	<g fill="none" fill-rule="evenodd">
 		<use fill="#000" filter="url(#a)" xlink:href="#b"/>

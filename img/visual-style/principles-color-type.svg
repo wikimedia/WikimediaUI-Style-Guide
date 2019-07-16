@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="817" height="424" viewBox="0 0 817 424">
 	<defs>
+		<rect id="c" width="262.403" height="310" rx="2"/>
+		<rect id="e" width="262.403" height="310" rx="2"/>
 		<ellipse id="b" cx="117.545" cy="286.557" rx="17.545" ry="17.557"/>
 		<filter id="a" width="142.7%" height="142.7%" x="-21.4%" y="-21.4%" filterUnits="objectBoundingBox">
 			<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
 			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2.5"/>
 			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.784313725 0 0 0 0 0.8 0 0 0 0 0.819607843 0 0 0 0.57495471 0"/>
 		</filter>
-		<rect id="c" width="262.403" height="310" rx="2"/>
-		<rect id="e" width="262.403" height="310" rx="2"/>
 	</defs>
 	<g fill="none" fill-rule="evenodd">
 		<g transform="translate(47 56)">
