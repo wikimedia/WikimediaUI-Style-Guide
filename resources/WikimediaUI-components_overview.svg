@@ -1003,6 +1003,274 @@
 	</defs>
 	<g id="WikimediaUI-components_overview" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<path fill="#FFF" d="M0 0h14720v3264H0z"/>
+		<g id="WikimediaUI-Color-palette" transform="translate(1757 1421)">
+			<g id="Supplementary" transform="translate(241 776)">
+				<rect id="Rectangle-Copy-15" width="176" height="128" x="1037" y="58" fill="#AC6600" rx="2"/>
+				<text id="#ac6600-RGB-172,-102" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="1055" y="92">#ac6600</tspan> <tspan x="1055" y="111">RGB 172, 102, 0</tspan> <tspan x="1055" y="130">HSB 36, 100%, 67%</tspan>  <tspan x="1055" y="168">AA</tspan>
+				</text>
+				<rect id="Rectangle" width="160" height="160" x="878" y="25" fill="#FC3" rx="2"/>
+				<text id="#fc3-RGB-255,-204,-5" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					 <tspan x="894" y="92">#fc3</tspan> <tspan x="894" y="111">RGB 255, 204, 51</tspan> <tspan x="894" y="130">HSB 45, 80%, 100%</tspan>  <tspan x="894" y="168">AAA</tspan>
+				</text>
+				<path id="Rectangle-Copy-8" fill="#FEF6E7" d="M702 68.008c0-1.11.905-2.008 2.007-2.008h171.986c1.108 0 2.007.897 2.007 2.008v115.984a2.011 2.011 0 01-2.007 2.008H704.007a2.006 2.006 0 01-2.007-2.008V68.008z"/>
+				<text id="#fef6e7-RGB-254,-246" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="718" y="92">#fef6e7</tspan> <tspan x="718" y="111">RGB 254, 246, 231</tspan> <tspan x="718" y="130">HSB 39, 9%, 100%</tspan>  <tspan x="718" y="168">AAA</tspan>
+				</text>
+				<text id="Yellow50" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="894" y="14">Yellow50</tspan>
+				</text>
+				<text id="Yellow30" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="1054" y="14">Yellow30</tspan>
+				</text>
+				<rect id="Rectangle-543-Copy" width="160" height="160" x="176" y="25" fill="#00AF89" rx="2"/>
+				<text id="Green50" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="191" y="14">Green50</tspan>
+				</text>
+				<text id="Green30" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="351" y="14">Green30</tspan>
+				</text>
+				<text id="#00af89-RGB-0,-175," fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					 <tspan x="191" y="92">#00af89</tspan> <tspan x="191" y="111">RGB 0, 175, 137</tspan> <tspan x="191" y="130">HSB 167,100%,69%</tspan>  <tspan x="191" y="168">AA</tspan>
+				</text>
+				<rect id="Rectangle-Copy-12" width="176" height="120" x="336" y="65" fill="#14866D" rx="2"/>
+				<rect id="Rectangle-Copy-8" width="176" height="128" x="0" y="57" fill="#D5FDF4" rx="2"/>
+				<text id="#d5fdf4-RGB-213,-253" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					 <tspan x="15" y="92">#d5fdf4</tspan> <tspan x="15" y="111">RGB 213, 253, 244</tspan> <tspan x="15" y="130">HSB 167, 16%, 99%</tspan>  <tspan x="15" y="168">AAA</tspan>
+				</text>
+				<text id="Yellow90" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="718" y="14">Yellow90</tspan>
+				</text>
+				<text id="Green90" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="15" y="14">Green90</tspan>
+				</text>
+				<text id="#14866d-RGB-20,-134," fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="351" y="92">#14866d</tspan> <tspan x="351" y="111">RGB 20, 134, 109</tspan> <tspan x="351" y="130">HSB 167, 85%, 53%</tspan>  <tspan x="351" y="168">AA</tspan>
+				</text>
+				<text id="Secondary-link-highl" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="189" y="223.1">Secondary link highlight</tspan> <tspan x="189" y="241.8">Positive messages</tspan>
+				</text>
+				<text id="Warning-messages" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="889" y="223.1">Warning messages</tspan>
+				</text>
+			</g>
+			<g id="Accent">
+				<text id="COLOR" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
+					<tspan x="2" y="36">COLOR</tspan> <tspan x="2" y="80">PALETTE</tspan>
+				</text>
+				<g id="_Spec-101-/-Headline--Sub" transform="translate(4 134)">
+					<text id="SUBHEADLINE" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+						<tspan x="0" y="13">BASE COLORS</tspan>
+					</text>
+					<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
+						<path id="Line" d="M189.484 1.5H.516"/>
+					</g>
+				</g>
+				<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 95)">
+					<path id="Line" d="M183.5 1.5H.5"/>
+				</g>
+				<g id="_Spec-101-/-Headline--Sub" transform="translate(2 458)">
+					<text id="SUBHEADLINE" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+						<tspan x="0" y="13">ACCENT COLORS</tspan>
+					</text>
+					<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
+						<path id="Line" d="M189.484 1.5H.516"/>
+					</g>
+				</g>
+				<rect id="Progressive" width="160" height="160" x="416" y="482" fill="#36C" rx="2"/>
+				<text id="Primary-buttons-Link" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="432" y="670.1">Primary buttons</tspan> <tspan x="432" y="688.8">Links </tspan> <tspan x="432" y="707.5">Page accents</tspan> <tspan x="432" y="726.2">Focus outlines</tspan>
+				</text>
+				<text id="Active-buttons-Activ" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="591" y="670.1">Active buttons</tspan> <tspan x="591" y="688.8">Active links </tspan>
+				</text>
+				<rect id="Progressive" width="176" height="120" x="240" y="522" fill="#EAF3FF" rx="2"/>
+				<rect id="Destructive" width="160" height="160" x="1119" y="482" fill="#D33" rx="2"/>
+				<rect id="Destructive" width="176" height="128" x="943" y="514" fill="#FEE7E6" rx="2"/>
+				<text id="Accent30" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="591" y="471">Accent30</tspan>
+				</text>
+				<text id="Progressive-#36c-RGB" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="432" y="510">Progressive</tspan>  <tspan x="432" y="548">#36c</tspan> <tspan x="432" y="567">RGB 51, 102, 204</tspan> <tspan x="432" y="586">HSB 220, 75%, 80%</tspan>  <tspan x="432" y="624">AA</tspan>
+				</text>
+				<text id="#eaf3ff-RGB-234,-243" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="256" y="548">#eaf3ff</tspan> <tspan x="256" y="567">RGB 234, 243, 255</tspan> <tspan x="256" y="586">HSB 214, 8%, 100%</tspan>  <tspan x="256" y="624">AAA</tspan>
+				</text>
+				<text id="Base100" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="256" y="147">Base100</tspan>
+				</text>
+				<text id="#fee7e6-RGB-255,-231" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="959" y="548">#fee7e6</tspan> <tspan x="959" y="567">RGB 255, 231, 230</tspan> <tspan x="959" y="586">HSB 2, 10%, 100%</tspan>  <tspan x="959" y="624">AAA</tspan>
+				</text>
+				<text id="Destructive-#d33-RGB" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="1130" y="510">Destructive</tspan>  <tspan x="1130" y="548">#d33</tspan> <tspan x="1130" y="567">RGB 221, 51, 51</tspan> <tspan x="1130" y="586">HSB 360, 77%, 87%</tspan>  <tspan x="1130" y="624">AA</tspan>
+				</text>
+				<text id="AA" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="1157" y="624">AA</tspan>
+				</text>
+				<rect id="Rectangle-Copy" width="176" height="128" x="1279" y="514" fill="#B32424" rx="2"/>
+				<text id="#b32424-RGB-135,-54," fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="1295" y="548">#b32424</tspan> <tspan x="1295" y="567">RGB 135, 54, 54</tspan> <tspan x="1295" y="586">HSB 360, 60%, 53%</tspan>  <tspan x="1295" y="624">AAA</tspan>
+				</text>
+				<rect id="Rectangle-Copy" width="176" height="120" x="576" y="522" fill="#2A4B8D" rx="2"/>
+				<text id="#2a4b8d-RGB-42,-75," fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="592" y="548">#2a4b8d</tspan> <tspan x="592" y="567">RGB 42, 75, 141</tspan> <tspan x="592" y="586">HSB 220, 70%, 55%</tspan>  <tspan x="592" y="624">AAA</tspan>
+				</text>
+				<text id="Destructive-actions" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="1129" y="671.1">Destructive actions –</tspan> <tspan x="1129" y="689.8">Buttons and Links</tspan> <tspan x="1129" y="708.5">Alerts</tspan>
+				</text>
+				<text id="Destructive-active-b" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="1295" y="668.1">Destructive active </tspan> <tspan x="1295" y="686.8">buttons and links</tspan>
+				</text>
+				<text id="Hovered-buttons-Acti" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="256" y="670.1">Hovered buttons</tspan> <tspan x="256" y="688.8">Active menu </tspan> <tspan x="256" y="707.5">items backgrounds</tspan>
+				</text>
+			</g>
+			<g id="Base" transform="translate(5 133)">
+				<rect id="Rectangle-Copy-8" width="160.001" height="160" x="235" y="25" fill="#FFF" rx="2"/>
+				<text id="Base-background-High" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="251" y="214.1">Base background</tspan> <tspan x="251" y="232.8">Highlight from grey</tspan>
+				</text>
+				<text id="Disabled-text-input" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="603" y="214.1">Disabled text input </tspan> <tspan x="603" y="232.8">background</tspan>
+				</text>
+				<text id="#fff-RGB-255,-255,-2" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="251" y="92">#fff</tspan> <tspan x="251" y="111">RGB 255, 255, 255</tspan> <tspan x="251" y="130">HSB 0, 0%, 100%</tspan>  <tspan x="251" y="168">AAA</tspan>
+				</text>
+				<text id="Accent90" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="251" y="338">Accent90</tspan>
+				</text>
+				<text id="Accent50" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="426" y="338">Accent50 </tspan>
+				</text>
+				<text id="Red90" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="954" y="338">Red90</tspan>
+				</text>
+				<text id="Red50" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="1130" y="338">Red50</tspan>
+				</text>
+				<text id="Red30" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="1290" y="338">Red30</tspan>
+				</text>
+				<text id="Base90" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="427" y="14">Base90</tspan>
+				</text>
+				<text id="Base80" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="603" y="14">Base80</tspan>
+				</text>
+				<text id="Base70" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="779" y="14">Base70</tspan>
+				</text>
+				<text id="Base50" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="955" y="14">Base50</tspan>
+				</text>
+				<text id="Base30" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="1131" y="14">Base30</tspan>
+				</text>
+				<text id="Base20" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="1307" y="14">Base20</tspan>
+				</text>
+				<text id="Base10" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="1483" y="14">Base10</tspan>
+				</text>
+				<text id="Base0" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="1659" y="14">Base0</tspan>
+				</text>
+				<rect id="Rectangle" width="160" height="160" x="411" y="25" fill="#F8F9FA" rx="2"/>
+				<text id="Button/3D-widget-bac" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="427" y="214.1">Button/3D widget </tspan> <tspan x="427" y="232.8">background</tspan>
+				</text>
+				<text id="#f8f9fa-RGB-248,-249" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="427" y="92">#f8f9fa</tspan> <tspan x="427" y="111">RGB 248, 249, 250</tspan> <tspan x="427" y="130">HSB 210, 1%, 98%</tspan>  <tspan x="427" y="168">AAA</tspan>
+				</text>
+				<rect id="Rectangle-Copy" width="160" height="160" x="587" y="25" fill="#EAECF0" rx="2"/>
+				<text id="#eaecf0-RGB-234,-236" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="603" y="92">#eaecf0</tspan> <tspan x="603" y="111">RGB 234, 236, 240</tspan> <tspan x="603" y="130">HSB 220, 3%, 94%</tspan>  <tspan x="603" y="168">AAA</tspan>
+				</text>
+				<rect id="Rectangle-Copy-2" width="160" height="160" x="763" y="25" fill="#C8CCD1" rx="2"/>
+				<text id="#c8ccd1-RGB-200,-204" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="779" y="92">#c8ccd1</tspan> <tspan x="779" y="111">RGB 200, 204, 209</tspan> <tspan x="779" y="130">HSB 213, 4%, 82%</tspan>  <tspan x="779" y="168">AAA</tspan>
+				</text>
+				<rect id="Rectangle-Copy-3" width="160" height="160" x="939" y="25" fill="#A2A9B1" rx="2"/>
+				<text id="#a2a9b1-RGB-162,-169" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="955" y="92">#a2a9b1</tspan> <tspan x="955" y="111">RGB 162, 169, 177</tspan> <tspan x="955" y="130">HSB 212, 8%, 69%</tspan>  <tspan x="955" y="168">AAA</tspan>
+				</text>
+				<rect id="Rectangle-Copy-9" width="160" height="160" x="1115" y="25" fill="#72777D" rx="2"/>
+				<text id="#72777d-RGB-114,-119" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="1131" y="92">#72777d</tspan> <tspan x="1131" y="111">RGB 114, 119, 125</tspan> <tspan x="1131" y="130">HSB 210, 9%, 49%</tspan>  <tspan x="1131" y="168">AA </tspan>
+				</text>
+				<text id="AA" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="1153" y="168">AA</tspan>
+				</text>
+				<rect id="Rectangle-Copy-6" width="160" height="160" x="1291" y="25" fill="#54595D" rx="2"/>
+				<text id="#54595d-RGB-84,-89," fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="1307" y="92">#54595d</tspan> <tspan x="1307" y="111">RGB 84, 89, 93</tspan> <tspan x="1307" y="130">HSB 207, 10%, 36%</tspan>  <tspan x="1307" y="168">AAA</tspan>
+				</text>
+				<rect id="Rectangle-Copy-5" width="160" height="160" x="1467" y="25" fill="#222" rx="2"/>
+				<text id="#222-RGB-34,-34,-34" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="1483" y="92">#222</tspan> <tspan x="1483" y="111">RGB 34, 34, 34</tspan> <tspan x="1483" y="130">HSB 0, 0%, 13%</tspan>  <tspan x="1483" y="168">AAA</tspan>
+				</text>
+				<rect id="Rectangle-Copy-7" width="160" height="160" x="1643" y="25" fill="#000" rx="2"/>
+				<text id="#000-RGB-0,-0,-0-HSB" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="1659" y="92">#000</tspan> <tspan x="1659" y="111">RGB 0, 0, 0</tspan> <tspan x="1659" y="130">HSB 0, 0%, 0%</tspan>  <tspan x="1659" y="168">AAA</tspan>
+				</text>
+				<text id="Disabled-button/3D-w" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="779" y="214.1">Disabled button/3D </tspan> <tspan x="779" y="232.8">widget background </tspan>
+				</text>
+				<text id="Highlighted-border" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="955" y="214.1">Highlighted border</tspan>
+				</text>
+				<text id="Disabled-elements-te" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="1131" y="213.1">Disabled elements text</tspan> <tspan x="1131" y="231.8">Placeholder text</tspan> <tspan x="1131" y="250.5">Active border</tspan>
+				</text>
+				<text id="Copy-color-Buttons/w" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="1483" y="213.1">Copy color</tspan> <tspan x="1483" y="231.8">Buttons/widgets text</tspan>
+				</text>
+				<text id="Emphasized-copy-colo" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="1659" y="213.1">Emphasized copy color</tspan> <tspan x="1659" y="231.8">Active button/widgets text</tspan>
+				</text>
+				<text id="Emphasized-secondary" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="1307" y="213.1">Emphasized secondary </tspan> <tspan x="1307" y="231.8">text at level AAA need</tspan>
+				</text>
+				<text id="WCAG-2.0-conformance" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+					<tspan x="0" y="168.1">WCAG 2.0 conformance level:</tspan> <tspan x="0" y="186.8">(with white/black)</tspan>
+				</text>
+			</g>
+			<g id="_Spec-101-/-Headline--Sub" transform="translate(2 778)">
+				<text id="SUBHEADLINE" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="0" y="13">SUPPLEMENTARY COLORS</tspan>
+				</text>
+				<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
+					<path id="Line" d="M189.484 1.5H.516"/>
+				</g>
+			</g>
+			<g id="Background-colors-applied" transform="translate(5 1098)">
+				<g id="_Spec-101-/-Headline--Sub">
+					<text id="SUBHEADLINE" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
+						<tspan x="0" y="13">BACKGROUND COLORS</tspan>
+					</text>
+					<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
+						<path id="Line" d="M189.484 1.5H.516"/>
+					</g>
+				</g>
+				<rect id="Rectangle-543-Copy-3" width="511" height="351" x="235.5" y="23.5" fill="#F8F9FA" stroke="#C8CCD1" rx="2"/>
+				<rect id="Rectangle-543-Copy-3" width="416" height="256" x="283" y="71" fill="#FFF" rx="2"/>
+				<rect id="Rectangle-543-Copy-4" width="320" height="160" x="331" y="119" fill="#EAECF0" rx="2"/>
+				<path id="Rectangle-543-Copy-5" fill="#C8CCD1" d="M379 169.003c0-1.106.903-2.003 2.005-2.003h219.99a2.01 2.01 0 012.005 2.003v59.994a2.007 2.007 0 01-2.005 2.003h-219.99a2.01 2.01 0 01-2.005-2.003v-59.994z"/>
+				<text id="Layer-1:-#f8f9fa" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="435" y="359">Layer 1: #f8f9fa</tspan>
+				</text>
+				<text id="Layer-2:-#fff" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="435" y="312">Layer 2: #fff</tspan>
+				</text>
+				<text id="Layer-3:-#eaecf0" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="435" y="264">Layer 3: #eaecf0</tspan>
+				</text>
+				<text id="Layer-4:-#c8ccd1" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
+					<tspan x="435" y="214">Layer 4: #c8ccd1</tspan>
+				</text>
+			</g>
+		</g>
 		<g id="MESSAGES" transform="translate(6147 1464)">
 			<g id="Input-for-inlined-sizes" transform="translate(185 190)">
 				<g id="Text-input-/-!default">
@@ -1024,41 +1292,41 @@
 				<g id="Icon-/-placeholder-(notBright/circle)-/-:active" fill="#000" transform="translate(25 13)">
 					<path id="Shape" d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0z"/>
 				</g>
-				<g id="101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="translate(1 22)">
+				<g id="_Spec-101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="translate(1 22)">
 					<path id="24-sp-(1.5-em)" d="M0 1h24" transform="matrix(1 0 0 -1 0 2)"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(45 22)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(45 22)">
 					<path id="8-sp-(0.5-em)" d="M0 1h8"/>
 				</g>
-				<g id="101-/-20-sp-(1.25-em)" stroke="#BD7D00" stroke-width="4" transform="translate(0 295)">
+				<g id="_Spec-101-/-20-sp-(1.25-em)" stroke="#BD7D00" stroke-width="4" transform="translate(0 295)">
 					<path id="Line" d="M0 2h20"/>
 				</g>
-				<g id="101-/-12-sp-(0.75-em)" stroke="#0082FF" stroke-width="4" transform="rotate(-90 23 -10)">
+				<g id="_Spec-101-/-12-sp-(0.75-em)" stroke="#0082FF" stroke-width="4" transform="rotate(-90 23 -10)">
 					<path id=".75em" d="M0 2h12"/>
 				</g>
-				<g id="101-/-12-sp-(0.75-em)" stroke="#0082FF" stroke-width="4" transform="rotate(90 132.5 218)">
+				<g id="_Spec-101-/-12-sp-(0.75-em)" stroke="#0082FF" stroke-width="4" transform="rotate(90 132.5 218)">
 					<path id=".75em" d="M0 .5h12"/>
 				</g>
-				<g id="101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="translate(675 48)">
+				<g id="_Spec-101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="translate(675 48)">
 					<path id="24-sp-(1.5-em)" d="M0 2h24" transform="matrix(1 0 0 -1 0 4)"/>
 				</g>
-				<g id="101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="translate(0 261)">
+				<g id="_Spec-101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="translate(0 261)">
 					<path id="24-sp-(1.5-em)" d="M0 2h24" transform="matrix(1 0 0 -1 0 4)"/>
 				</g>
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(0 332)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(0 332)">
 					<path id="16-sp-(1-em)" d="M0 1h16"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(0 402)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(0 402)">
 					<path id="8-sp-(0.5-em)" d="M0 .5h8"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(32.25 139.75)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(32.25 139.75)">
 					<path id="8-sp-(0.5-em)" d="M0 .5h8"/>
 				</g>
-				<g id="101-/-12-sp-(0.75-em)" stroke="#0082FF" stroke-width="4" transform="translate(0 367.75)">
+				<g id="_Spec-101-/-12-sp-(0.75-em)" stroke="#0082FF" stroke-width="4" transform="translate(0 367.75)">
 					<path id=".75em" d="M0 .5h12"/>
 				</g>
 				<path id=".75em" stroke="#0082FF" stroke-linecap="square" stroke-width="4" d="M1.25 140.25h9"/>
-				<g id="101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="translate(675 140)">
+				<g id="_Spec-101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="translate(675 140)">
 					<path id="24-sp-(1.5-em)" d="M0 2h24" transform="matrix(1 0 0 -1 0 4)"/>
 				</g>
 				<text id="24-scale-independent" fill="#B800BD" font-family="Lato-Regular, Lato, sans-serif" font-size="16" font-weight="normal">
@@ -1096,7 +1364,7 @@
 				<text id="A-neutral-message-wh" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 					<tspan x="53" y="28.943">A neutral message</tspan> <tspan x="195.192" y="28.943" font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400"> which informs about general higher priority notices to the user. </tspan> <tspan x="53" y="52.943" font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400">Stay neutral!</tspan>
 				</text>
-				<g id="101-/-12-sp-(0.75-em)" stroke="#0082FF" stroke-width="4" transform="rotate(90 16.1 75.414)">
+				<g id="_Spec-101-/-12-sp-(0.75-em)" stroke="#0082FF" stroke-width="4" transform="rotate(90 16.1 75.414)">
 					<path id=".75em" d="M0 .5h12"/>
 				</g>
 				<g id="infoFilled" fill="#000" fill-rule="nonzero" transform="translate(25 15.343)">
@@ -1175,7 +1443,7 @@
 			<text id="Error" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 				<tspan x="0" y="118">Error</tspan>
 			</text>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 52)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 52)">
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
 			<path id="Line-2" stroke="#C8CCD1" stroke-linecap="square" stroke-width="3" d="M0 1114.5h1179.93"/>
@@ -1191,7 +1459,7 @@
 					<tspan x="358.568" y="23">Select a file</tspan>
 				</text>
 			</g>
-			<g id="101-/-32-sp-(2-em)" stroke="#13B9FE" stroke-width="4" transform="rotate(90 27 457)">
+			<g id="_Spec-101-/-32-sp-(2-em)" stroke="#13B9FE" stroke-width="4" transform="rotate(90 27 457)">
 				<path id="32-sp-(2-em)" d="M0 4h32" transform="matrix(1 0 0 -1 0 8)"/>
 			</g>
 			<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(345 675)">
@@ -1210,7 +1478,7 @@
 			<text id="Password-on-general" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 				<tspan x="1" y="365">Password on general purpose</tspan>
 			</text>
-			<g id="101-/-4-sp-(0.25-em)" stroke="#F5A623" stroke-width="4" transform="translate(478 370)">
+			<g id="_Spec-101-/-4-sp-(0.25-em)" stroke="#F5A623" stroke-width="4" transform="translate(478 370)">
 				<path id="4-sp-(0.25-em)" d="M0 2h4"/>
 			</g>
 			<g id="Mediawiki.Neutral.Hover-35-Copy" stroke="#36C">
@@ -1277,10 +1545,10 @@
 			<text id="The-document-contain" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 				<tspan x="1" y="128" fill="#222">The document containing a hyperlink is known as its </tspan> <tspan x="379.768" y="128" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-weight="bold">source</tspan> <tspan x="431.928" y="128" fill="#222"> </tspan> <tspan x="1" y="150.4" fill="#222">document. For example, in an online reference work such as </tspan> <tspan x="1" y="172.8" fill="#222">Wikipedia, many words and terms in the text are hyperlinked to </tspan> <tspan x="1" y="195.2" fill="#222">definitions of those terms. </tspan> <tspan x="190.968" y="195.2" fill="#36C">Hyperlinks</tspan> <tspan x="266.232" y="195.2" fill="#222"> are often used to </tspan> <tspan x="1" y="217.6" fill="#222">implement reference mechanisms, such as tables of contents, </tspan> <tspan x="1" y="240" fill="#222">footnotes, bibliographies, indexes, letters, and glossaries.</tspan>
 			</text>
-			<g id="101-/-32-sp-(2-em)" stroke="#13B9FE" stroke-width="4" transform="rotate(90 55 429)">
+			<g id="_Spec-101-/-32-sp-(2-em)" stroke="#13B9FE" stroke-width="4" transform="rotate(90 55 429)">
 				<path id="32-sp-(2-em)" d="M0 4h32" transform="matrix(1 0 0 -1 0 8)"/>
 			</g>
-			<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="rotate(90 74.5 407.5)">
+			<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="rotate(90 74.5 407.5)">
 				<path id="16-sp-(1-em)" d="M0 2h16"/>
 			</g>
 			<text id="`margin-bottom:-1.25" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
@@ -1289,35 +1557,56 @@
 			<text id="`margin-bottom:-1.5e" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
 				<tspan x="500" y="420">`margin-bottom: 1.5em` between widgets without labels </tspan>
 			</text>
-			<g id="101-/-4-sp-(0.25-em)" stroke="#F5A623" stroke-width="4" transform="translate(478 329)">
+			<g id="_Spec-101-/-4-sp-(0.25-em)" stroke="#F5A623" stroke-width="4" transform="translate(478 329)">
 				<path id="4-sp-(0.25-em)" d="M0 2h4"/>
 			</g>
-			<g id="101-/-32-sp-(2-em)" stroke="#13B9FE" stroke-width="4" transform="rotate(90 93.5 390.5)">
+			<g id="_Spec-101-/-32-sp-(2-em)" stroke="#13B9FE" stroke-width="4" transform="rotate(90 93.5 390.5)">
 				<path id="32-sp-(2-em)" d="M0 4h32" transform="matrix(1 0 0 -1 0 8)"/>
 			</g>
-			<g id="101-/-4-sp-(0.25-em)" stroke="#F5A623" stroke-width="4" transform="translate(478 293)">
+			<g id="_Spec-101-/-4-sp-(0.25-em)" stroke="#F5A623" stroke-width="4" transform="translate(478 293)">
 				<path id="4-sp-(0.25-em)" d="M0 2h4"/>
 			</g>
-			<g id="101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="rotate(90 117 365)">
+			<g id="_Spec-101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="rotate(90 117 365)">
 				<path id="24-sp-(1.5-em)" d="M0 2h24" transform="matrix(1 0 0 -1 0 4)"/>
 			</g>
-			<g id="-101-/-16-sp-(1-em)-+-2-*-4-sp-(0.25-em)" stroke-width="4" transform="rotate(90 -2 484)">
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(4)">
+			<g id="_Spec-101-/-16-sp-(1-em)-+-2-*-4-sp-(0.25-em)" stroke-width="4" transform="rotate(90 -2 484)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(4)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
-				<g id="101-/-4-sp-(0.25-em)" stroke="#F5A623" transform="translate(20)">
+				<g id="_Spec-101-/-4-sp-(0.25-em)" stroke="#F5A623" transform="translate(20)">
 					<path id="4-sp-(0.25-em)" d="M0 2h4"/>
 				</g>
-				<g id="101-/-4-sp-(0.25-em)" stroke="#F5A623">
+				<g id="_Spec-101-/-4-sp-(0.25-em)" stroke="#F5A623">
 					<path id="4-sp-(0.25-em)" d="M0 2h4"/>
 				</g>
 			</g>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 93)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 93)">
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
 			<text fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
 				<tspan x="0" y="36">EXAMPLE </tspan> <tspan x="0" y="80">FORM</tspan>
 			</text>
+			<g id="_Spec-101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="rotate(90 38 444)">
+				<path id="24-sp-(1.5-em)" d="M0 2h24" transform="matrix(1 0 0 -1 0 4)"/>
+			</g>
+			<g id="_Spec-101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="rotate(90 10 472)">
+				<path id="24-sp-(1.5-em)" d="M0 2h24" transform="matrix(1 0 0 -1 0 4)"/>
+			</g>
+			<g id="_Spec-101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="rotate(90 -36 518)">
+				<path id="24-sp-(1.5-em)" d="M0 2h24" transform="matrix(1 0 0 -1 0 4)"/>
+			</g>
+			<g id="_Spec-101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="rotate(90 -85 567)">
+				<path id="24-sp-(1.5-em)" d="M0 2h24" transform="matrix(1 0 0 -1 0 4)"/>
+			</g>
+			<g id="_Spec-101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="rotate(90 -137.5 619.5)">
+				<path id="24-sp-(1.5-em)" d="M0 2h24" transform="matrix(1 0 0 -1 0 4)"/>
+			</g>
+			<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="rotate(90 -60.5 542.5)">
+				<path id="16-sp-(1-em)" d="M0 2h16"/>
+			</g>
+			<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="rotate(90 -113 596)">
+				<path id="16-sp-(1-em)" d="M0 2h16"/>
+			</g>
 		</g>
 		<g id="DATE-PICKER-2ND-WAY" transform="translate(13351 1415)">
 			<text id="2-WAYS-OF-CHOOSING-D" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
@@ -1588,7 +1877,7 @@
 			<text id="Tue-Nov-5,-2024-Copy" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 				<tspan x="441" y="908">Tue Nov 5, 2013</tspan>
 			</text>
-			<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(389 186)">
+			<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(389 186)">
 				<path id="16-sp-(1-em)" d="M0 2h16"/>
 			</g>
 			<rect id="Rectangle-612" width="48" height="36" x="1122" y="199.552" fill="#F8F9FA" rx="2"/>
@@ -2002,24 +2291,24 @@
 			</text>
 			<path id="Subtract" fill="#000" fill-rule="nonzero" d="M34 140H22v-2h12"/>
 			<path id="plus" fill="#000" fill-rule="nonzero" d="M120 133h-2v5h-5v2h5v5h2v-5h5v-2h-5z"/>
-			<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(44 137)">
+			<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(44 137)">
 				<path id="16-sp-(1-em)" d="M0 2h16"/>
 			</g>
-			<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(87 137)">
+			<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(87 137)">
 				<path id="16-sp-(1-em)" d="M0 2h16"/>
 			</g>
-			<g id="-101-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(90 -58.5 64.5)">
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
+			<g id="_Spec-101-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(90 -58.5 64.5)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
 					<path id="8-sp-(0.5-em)" d="M0 1h8"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
 			</g>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(2 97)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(2 97)">
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
 			<text id="NUMBER-INPUT-FIELD" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
@@ -2300,7 +2589,7 @@
 			<text id="42-sp-height" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
 				<tspan x="230" y="172">42 sp height</tspan>
 			</text>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(204.5 130)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(204.5 130)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
 		</g>
@@ -2372,27 +2661,27 @@
 			<text id="Option-2" fill="#111" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 				<tspan x="216" y="456">Option 2</tspan>
 			</text>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -146.25 367.25)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -146.25 367.25)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -158.25 379.25)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -158.25 379.25)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
-			<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(300 528.5)">
+			<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(300 528.5)">
 				<path id="16-sp-(1-em)" d="M0 2h16"/>
 			</g>
-			<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(200 528.5)">
+			<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(200 528.5)">
 				<path id="16-sp-(1-em)" d="M0 2h16"/>
 			</g>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(316 528.5)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(316 528.5)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(340 528.5)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(340 528.5)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
 			<path id="Line-Copy-12" stroke="#000" stroke-linecap="square" d="M290.5 298.5v16"/>
 			<path id="Line" stroke="#C8CCD1" stroke-linecap="square" d="M315.5 513v32"/>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(3 96)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(3 96)">
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
 			<text id="TEXT-INPUT-FIELD-+-D" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
@@ -2406,7 +2695,7 @@
 			<text id="Disabled-Normal-Hove" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 				<tspan x="0" y="148">Disabled</tspan>    <tspan x="0" y="222.8">Normal</tspan>    <tspan x="0" y="297.6">Hover</tspan>    <tspan x="0" y="372.4">Active</tspan>    <tspan x="0" y="447.2">Expanded Menu</tspan>
 			</text>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 96)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 96)">
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
 			<path id="Mediawiki.Neutral.Normal-copy-71" fill="#447FF5" stroke="#447FF5" d="M194.003 263.5h189.834v49H194.003a2.502 2.502 0 01-2.503-2.501V266a2.502 2.502 0 012.503-2.501z"/>
@@ -2536,7 +2825,7 @@
 				<tspan x="0" y="135">Normal</tspan>   <tspan x="0" y="191.1">Hover</tspan>   <tspan x="0" y="247.2">Active</tspan>    <tspan x="0" y="322">Expanded Menu</tspan>       <tspan x="0" y="452.9">Focus</tspan>   <tspan x="0" y="509">Disabled</tspan>
 			</text>
 			<path id="Rectangle-640-Copy-10" fill="#EAECF0" d="M192 337h36v29.998c0 1.106-.89 2.002-2 2.002h-32c-1.105 0-2-.89-2-2.002V337z" transform="matrix(1 0 0 -1 0 706)"/>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 96)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 96)">
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
 			<g id="Mediawiki.Neutral.Acive-26-Copy">
@@ -2546,32 +2835,32 @@
 			<text id="Option-1-Copy-2" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="14" font-weight="normal">
 				<tspan x="208" y="334">Option 1</tspan>  <tspan x="208" y="366">Option 2</tspan>  <tspan x="208" y="398">Option 3</tspan>
 			</text>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -61 276)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -61 276)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -50 265)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -50 265)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
-			<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(192 328)">
+			<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(192 328)">
 				<path id="16-sp-(1-em)" d="M0 2h16"/>
 			</g>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -77 292)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -77 292)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -66 281)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -66 281)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
-			<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(192 359)">
+			<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(192 359)">
 				<path id="16-sp-(1-em)" d="M0 2h16"/>
 			</g>
 			<path id="Rectangle-568" d="M191 283.002c0-1.106.902-2.002 2.003-2.002h33.994c1.106 0 2.003.887 2.003 2.006V313h-38v-29.998z"/>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -93 308)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -93 308)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -82 297)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -82 297)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
-			<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(192 389)">
+			<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(192 389)">
 				<path id="16-sp-(1-em)" d="M0 2h16"/>
 			</g>
 			<g id="Icon-/-:disabled" fill="#949494" transform="translate(200 502)">
@@ -2697,43 +2986,43 @@
 				<use fill="#000" filter="url(#filter-77)" xlink:href="#path-76"/>
 				<path fill="#FFF" stroke="#A2A9B1" d="M449.5 313.443h110v60.508a2.506 2.506 0 01-2.509 2.492H452.01a2.497 2.497 0 01-2.509-2.492v-60.508z"/>
 			</g>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -118 334)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -118 334)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -33 249)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -33 249)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -129 345)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -129 345)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -44 260)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -44 260)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -64.5 280.5)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -64.5 280.5)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -76 292)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -76 292)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -60 276)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -60 276)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -49 265)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -49 265)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
-			<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(194 465)">
+			<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(194 465)">
 				<path id="16-sp-(1-em)" d="M0 2h16"/>
 			</g>
-			<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(287 465)">
+			<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(287 465)">
 				<path id="16-sp-(1-em)" d="M0 2h16"/>
 			</g>
-			<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(194 295)">
+			<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(194 295)">
 				<path id="16-sp-(1-em)" d="M0 2h16"/>
 			</g>
-			<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(287 295)">
+			<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(287 295)">
 				<path id="16-sp-(1-em)" d="M0 2h16"/>
 			</g>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(266 295)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(266 295)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
 			<path id="Rectangle-631-Copy" fill="#EAECF0" d="M322 346h109v28.008c0 1.1-.893 1.992-2.009 1.992H324.01a2.004 2.004 0 01-2.009-1.992V346z"/>
@@ -2766,21 +3055,21 @@
 			<text id="Neutral-2" fill="#36C" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="14" font-weight="normal">
 				<tspan x="466" y="365">Neutral 2</tspan>
 			</text>
-			<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(266 465)">
+			<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(266 465)">
 				<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 			</g>
 			<circle id="Oval-243-Copy-3" cx="202.5" cy="330.5" r="2.5" fill="#36C"/>
 			<circle id="Oval-243-Copy-4" cx="330.5" cy="330.5" r="2.5" fill="#36C"/>
 			<circle id="Oval-243-Copy-5" cx="458.5" cy="330.5" r="2.5" fill="#36C"/>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 96)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 96)">
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
 			<text fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
 				<tspan x="0" y="36">LINK </tspan> <tspan x="0" y="80">DROPDOWN</tspan>
 			</text>
 		</g>
-		<g id="DROPDOWN" transform="translate(7998 186)">
-			<g id="Dropdown-X" transform="translate(2 70)">
+		<g id="DROPDOWN" transform="translate(8000 186)">
+			<g id="Dropdown-X" transform="translate(0 70)">
 				<rect id="Mediawiki.Neutral.Acive-15" width="110" height="33" x="191.5" y="55.5" fill="#FFF" stroke="#A2A9B1" rx="2"/>
 				<rect id="Mediawiki.Neutral.Acive-15" width="110" height="33" x="191.5" y="111.5" fill="#EAECF0" stroke="#72777D" rx="2"/>
 				<g id="Cursor-/-Pointer" transform="translate(281 134)">
@@ -2845,31 +3134,31 @@
 				<g id="Icon-/-Dropdown-indicator-/-:active" fill="#000" transform="translate(273 181)">
 					<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
 				</g>
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(285 182)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(285 182)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(-90 287.5 75.5)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(-90 287.5 75.5)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 24 192)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 24 192)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(-90 299 87)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(-90 299 87)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(192 368)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(192 368)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(285 368)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(285 368)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(264 368)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(264 368)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(192 183)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(192 183)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(264 182)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(264 182)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
 				<text id="Neutral" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="14" font-weight="normal">
@@ -2899,19 +3188,19 @@
 				<text id="Neutral-2" fill="#36C" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="14" font-weight="normal">
 					<tspan x="468" y="251">Neutral 2</tspan>
 				</text>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 12 204)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 12 204)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -3.5 219.5)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -3.5 219.5)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 7.5 208.5)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 7.5 208.5)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -8 224)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -8 224)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -19.5 235.5)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 -19.5 235.5)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
 				<circle id="Oval-243" cx="199.5" cy="214.5" r="2.5" fill="#36C"/>
@@ -2950,11 +3239,11 @@
 					<tspan x="0" y="20">Normal</tspan>   <tspan x="0" y="76.1">Hover</tspan>   <tspan x="0" y="132.2">Active</tspan>   <tspan x="0" y="188.3">Expanded Menu</tspan> <tspan x="0" y="207">Focus</tspan>      <tspan x="0" y="319.2">Focus</tspan>   <tspan x="0" y="375.3">Disabled</tspan>
 				</text>
 			</g>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(2 52)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 52)">
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
 			<text fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
-				<tspan x="2" y="36">DROPDOWN</tspan>
+				<tspan x="0" y="36">DROPDOWN</tspan>
 			</text>
 		</g>
 		<g id="TEXT-INPUT-FIELDS" transform="translate(7359 142)">
@@ -2985,7 +3274,7 @@
 					<g id="Icon-/-Search-/-:active" fill="#000" fill-rule="nonzero" transform="translate(200 157)">
 						<path id="Shape" d="M7.5 13c3.04 0 5.5-2.46 5.5-5.5S10.54 2 7.5 2 2 4.46 2 7.5 4.46 13 7.5 13zm4.55.46A7.432 7.432 0 017.5 15C3.36 15 0 11.64 0 7.5 0 3.36 3.36 0 7.5 0 11.64 0 15 3.36 15 7.5c0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>
 					</g>
-					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(456 165)">
+					<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(456 165)">
 						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 					</g>
 					<path id="Mediawiki.Neutral.Hover-35-Copy-2" fill="#FFF" stroke="#9AA0A7" d="M194.995 38.5h268.01a2.498 2.498 0 012.495 2.502v27.996a2.494 2.494 0 01-2.495 2.502h-268.01a2.498 2.498 0 01-2.495-2.502V41.002a2.494 2.494 0 012.495-2.502z"/>
@@ -3004,20 +3293,20 @@
 							<path id="Shape" d="M7.5 13c3.04 0 5.5-2.46 5.5-5.5S10.54 2 7.5 2 2 4.46 2 7.5 4.46 13 7.5 13zm4.55.46A7.432 7.432 0 017.5 15C3.36 15 0 11.64 0 7.5 0 3.36 3.36 0 7.5 0 11.64 0 15 3.36 15 7.5c0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>
 						</g>
 					</g>
-					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(432 165)">
+					<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(432 165)">
 						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 					</g>
-					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(192 222)">
+					<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(192 222)">
 						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 					</g>
-					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(216 222)">
+					<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(216 222)">
 						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 					</g>
-					<g id="101-/-Headline--Sub">
+					<g id="_Spec-101-/-Headline--Sub">
 						<text id="SUBHEADLINE" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
 							<tspan x="0" y="13">SEARCH INPUT FIELD + ICON</tspan>
 						</text>
-						<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
+						<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
 							<path id="Line" d="M189.484 1.5H.516"/>
 						</g>
 					</g>
@@ -3053,18 +3342,18 @@
 						<tspan x="15" y="22">Re-enter password</tspan>
 					</text>
 				</g>
-				<g id="-101-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(-90 189 11)">
-					<g id="101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
+				<g id="_Spec-101-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(-90 189 11)">
+					<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
 						<path id="16-sp-(1-em)" d="M0 2h16"/>
 					</g>
-					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
+					<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
 						<path id="8-sp-(0.5-em)" d="M0 1h8"/>
 					</g>
-					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
+					<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
 						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 					</g>
 				</g>
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(192 183)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(192 183)">
 					<path id="16-sp-(1-em)" d="M0 1h16"/>
 				</g>
 				<g id="Cursor-/-!default" transform="translate(402 191)">
@@ -3077,7 +3366,7 @@
 					<tspan x="0" y="22">Normal</tspan>   <tspan x="0" y="78.1">Hover</tspan>   <tspan x="0" y="134.2">Focus &amp;</tspan> <tspan x="0" y="152.9">Active</tspan>  <tspan x="0" y="190.3">Disabled</tspan>
 				</text>
 			</g>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(1 96)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(1 96)">
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
 			<text fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
@@ -3105,7 +3394,7 @@
 					</text>
 				</g>
 				<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="0" y="21">Normal</tspan>   <tspan x="0" y="77.1">Hover</tspan>   <tspan x="0" y="133.2"> Active</tspan>   <tspan x="0" y="189.3"> Focus</tspan>   <tspan x="0" y="245.4">Disabled</tspan>
+					<tspan x="0" y="21">Normal</tspan>   <tspan x="0" y="77.1">Hover</tspan>   <tspan x="0" y="133.2">Active</tspan>   <tspan x="0" y="189.3">Focus</tspan>   <tspan x="0" y="245.4">Disabled</tspan>
 				</text>
 				<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(500 392)">
 					<path id="Mediawiki.Neutral.Hover-copy-28" d="M16-.5h28c9.113 0 16.5 7.387 16.5 16.5 0 9.114-7.387 16.5-16.5 16.5H16C6.887 32.5-.5 25.113-.5 16-.5 6.886 6.887-.5 16-.5z"/>
@@ -3113,18 +3402,18 @@
 				</g>
 				<path id="Line-236-Copy" stroke="#D0021B" stroke-width="4" d="M500 485h-16"/>
 				<path id="1em" stroke="#D0021B" stroke-width="4" d="M395 529v16M531 375v16"/>
-				<g id="-101-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(-90 218.5 40.5)">
-					<g id="101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
+				<g id="_Spec-101-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(-90 218.5 40.5)">
+					<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
 						<path id="16-sp-(1-em)" d="M0 2h16"/>
 					</g>
-					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
+					<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
 						<path id="8-sp-(0.5-em)" d="M0 1h8"/>
 					</g>
-					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
+					<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
 						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 					</g>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(192 224)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(192 224)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
 				<text id="Minimum-16-sp-(1-em)" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
@@ -3260,9 +3549,9 @@
 				</g>
 			</g>
 			<text id="Switched-on" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-				<tspan x="393" y="94.2">Switched on</tspan>
+				<tspan x="393" y="417">Switched on</tspan>
 			</text>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 96)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 96)">
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
 			<text id="TOGGLE" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
@@ -3270,23 +3559,23 @@
 			</text>
 		</g>
 		<g id="RADIO-BUTTONS---DESKTOP" transform="translate(5840 143)">
-			<g id="Radio-Button-X" transform="translate(0 72)">
-				<g id="Radio-/-!default" transform="translate(192 419)">
+			<g id="Radio-Button-X" transform="translate(0 113)">
+				<g id="Radio-/-!default" transform="translate(192 378)">
 					<text id="8:16:8:16-copy-22" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="33" y="22">Option 2</tspan>
 					</text>
 					<path id="Oval-112-Copy-2" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" d="M12 28.5C5.096 28.5-.5 22.904-.5 16S5.096 3.5 12 3.5 24.5 9.096 24.5 16 18.904 28.5 12 28.5z"/>
 				</g>
-				<g id="Radio-/-!default" transform="translate(192 377)">
+				<g id="Radio-/-!default" transform="translate(192 336)">
 					<text id="8:16:8:16-copy-22" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="33" y="22">Option 1</tspan>
 					</text>
 					<path id="Oval-112-Copy-2" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" d="M12 28.5C5.096 28.5-.5 22.904-.5 16S5.096 3.5 12 3.5 24.5 9.096 24.5 16 18.904 28.5 12 28.5z"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(217 391)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(217 350)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
-				<g id="Radio-/---multiliner" transform="translate(192 580)">
+				<g id="Radio-/---multiliner" transform="translate(192 539)">
 					<g id="Radio-/-!default" transform="translate(1 5)">
 						<path id="Oval-112-Copy-2" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" d="M12 28.5C5.096 28.5-.5 22.904-.5 16S5.096 3.5 12 3.5 24.5 9.096 24.5 16 18.904 28.5 12 28.5z"/>
 					</g>
@@ -3298,19 +3587,19 @@
 						<tspan x="33" y="15">Option title</tspan>
 					</text>
 				</g>
-				<g id="Radio-/-:disabled" transform="translate(192 265)">
+				<g id="Radio-/-:disabled" transform="translate(192 224)">
 					<circle id="Oval-112" cx="12" cy="16" r="12.5" fill="#C8CCD1" fill-rule="evenodd" stroke="#C8CCD1" stroke-width="1"/>
 					<text id="8:16:8:16-copy-27" fill="#7D8389" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="33" y="22">Neutral point</tspan>
 					</text>
 				</g>
-				<g id="Radio-/-:hover" transform="translate(192 97)">
+				<g id="Radio-/-:hover" transform="translate(192 56)">
 					<circle id="Oval-112" cx="12" cy="16" r="12.5" stroke="#2962CC" stroke-width="1"/>
 					<text id="8:16:8:16-copy-16" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="33" y="22">Neutral point</tspan>
 					</text>
 				</g>
-				<g id="Radio-/-:active" transform="translate(192 153)">
+				<g id="Radio-/-:active" transform="translate(192 112)">
 					<g id="Oval-112">
 						<use fill="#2A4B8D" xlink:href="#path-124"/>
 						<circle cx="12" cy="16" r="12.5" stroke="#2A4B8D"/>
@@ -3321,12 +3610,12 @@
 					</text>
 				</g>
 				<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="0" y="62"> Normal</tspan>   <tspan x="0" y="118.1"> Hover</tspan>   <tspan x="0" y="174.2"> Active</tspan>   <tspan x="0" y="230.3"> Focus</tspan>   <tspan x="0" y="286.4">Disabled</tspan>
+					<tspan x="0" y="21"> Normal</tspan>   <tspan x="0" y="77.1"> Hover</tspan>   <tspan x="0" y="133.2"> Active</tspan>   <tspan x="0" y="189.3"> Focus</tspan>   <tspan x="0" y="245.4">Disabled</tspan>
 				</text>
 				<text id="Switched-on" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="477" y="14.2">Switched on</tspan>
+					<tspan x="477" y="307">Switched on</tspan>
 				</text>
-				<g id="Radio-/-:checked-/-:disabled" transform="translate(480 265)">
+				<g id="Radio-/-:checked-/-:disabled" transform="translate(480 224)">
 					<text id="8:16:8:16-copy-24" fill="#7D8389" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="33" y="22">Neutral point</tspan>
 					</text>
@@ -3335,34 +3624,34 @@
 						<path id="Oval-59-Copy" fill="#FFF" d="M12 18a6 6 0 100-12 6 6 0 000 12z"/>
 					</g>
 				</g>
-				<g id="Radio-/-!default" transform="translate(192 41)">
+				<g id="Radio-/-!default" transform="translate(192)">
 					<text id="8:16:8:16-copy-22" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="33" y="22">Neutral point</tspan>
 					</text>
 					<path id="Oval-112-Copy-2" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" d="M12 28.5C5.096 28.5-.5 22.904-.5 16S5.096 3.5 12 3.5 24.5 9.096 24.5 16 18.904 28.5 12 28.5z"/>
 				</g>
-				<g id="Radio-/-!default" transform="translate(192 683)">
+				<g id="Radio-/-!default" transform="translate(192 642)">
 					<text id="8:16:8:16-copy-22" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="33" y="22">Radio label</tspan>
 					</text>
 					<path id="Oval-112-Copy-2" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" d="M12 28.5C5.096 28.5-.5 22.904-.5 16S5.096 3.5 12 3.5 24.5 9.096 24.5 16 18.904 28.5 12 28.5z"/>
 				</g>
 				<text id="touch-area-features" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
-					<tspan x="384" y="706">touch area features `width: 2em;` `height: 2em;`</tspan>
+					<tspan x="384" y="665">touch area features `width: 2em;` `height: 2em;`</tspan>
 				</text>
-				<rect style="mix-blend-mode:multiply" id="Rectangle-2" width="32" height="32" x="191" y="683" fill="#C70070" fill-opacity=".4" rx="1"/>
-				<g id="-101-/-16-sp-(1-em)-+-2-*-4-sp-(0.25-em)" stroke-width="4" transform="rotate(-90 236 56.5)">
-					<g id="101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(4)">
+				<rect style="mix-blend-mode:multiply" id="Rectangle-2" width="32" height="32" x="191" y="642" fill="#C70070" fill-opacity=".4" rx="1"/>
+				<g id="_Spec-101-/-16-sp-(1-em)-+-2-*-4-sp-(0.25-em)" stroke-width="4" transform="rotate(-90 215.5 36)">
+					<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(4)">
 						<path id="16-sp-(1-em)" d="M0 1.5h16"/>
 					</g>
-					<g id="101-/-4-sp-(0.25-em)" stroke="#F5A623" transform="translate(20)">
+					<g id="_Spec-101-/-4-sp-(0.25-em)" stroke="#F5A623" transform="translate(20)">
 						<path id="4-sp-(0.25-em)" d="M0 1.5h4"/>
 					</g>
-					<g id="101-/-4-sp-(0.25-em)" stroke="#F5A623">
+					<g id="_Spec-101-/-4-sp-(0.25-em)" stroke="#F5A623">
 						<path id="4-sp-(0.25-em)" d="M0 1.5h4"/>
 					</g>
 				</g>
-				<g id="Radio-/-:focus" transform="translate(192 209)">
+				<g id="Radio-/-:focus" transform="translate(192 168)">
 					<text id="8:16:8:16-copy-23" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="33" y="22">Neutral point</tspan>
 					</text>
@@ -3371,7 +3660,7 @@
 						<circle cx="12" cy="16" r="12.5"/>
 					</g>
 				</g>
-				<g id="Radio-/-:checked-/-:focus" transform="translate(480 209)">
+				<g id="Radio-/-:checked-/-:focus" transform="translate(480 168)">
 					<text id="8:16:8:16-copy-26" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="33" y="22">Neutral point</tspan>
 					</text>
@@ -3384,7 +3673,7 @@
 						<path id="Oval-78" fill="#FFF" d="M12 18a6 6 0 100-12 6 6 0 000 12z"/>
 					</g>
 				</g>
-				<g id="Radio-/-:checked-/-:active" transform="translate(480 153)">
+				<g id="Radio-/-:checked-/-:active" transform="translate(480 112)">
 					<text id="8:16:8:16-copy-16" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="33" y="22">Neutral point</tspan>
 					</text>
@@ -3393,7 +3682,7 @@
 						<circle id="Oval-59-Copy-3" cx="12" cy="12" r="6" fill="#FFF"/>
 					</g>
 				</g>
-				<g id="Radio-/-:checked-/-:hover" transform="translate(480 97)">
+				<g id="Radio-/-:checked-/-:hover" transform="translate(480 56)">
 					<text id="8:16:8:16-copy-16" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="33" y="22">Neutral point</tspan>
 					</text>
@@ -3402,7 +3691,7 @@
 						<path id="Oval-59" fill="#FFF" d="M12 18a6 6 0 100-12 6 6 0 000 12z"/>
 					</g>
 				</g>
-				<g id="Radio-/-:checked-/-!default" transform="translate(480 41)">
+				<g id="Radio-/-:checked-/-!default" transform="translate(480)">
 					<text id="8:16:8:16-copy-25" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="33" y="22">Neutral point</tspan>
 					</text>
@@ -3411,12 +3700,12 @@
 						<path id="Oval-59-Copy-2" fill="#FFF" d="M12 18a6 6 0 100-12 6 6 0 000 12z"/>
 					</g>
 				</g>
-				<path id="Line-Copy-93" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M175 375.5h202"/>
-				<path id="Line-Copy-89" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M175 583.5h202"/>
-				<path id="Line-Copy-90" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M175 509.5h202"/>
-				<path id="Line-Copy-91" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M175 410.5h202"/>
-				<path id="1em" stroke="#D0021B" stroke-width="4" d="M204 406v16"/>
-				<g id="Radio-/---multiliner" transform="translate(192 506)">
+				<path id="Line-Copy-93" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M175 334.5h202"/>
+				<path id="Line-Copy-89" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M175 542.5h202"/>
+				<path id="Line-Copy-90" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M175 468.5h202"/>
+				<path id="Line-Copy-91" stroke="#50E3C2" stroke-dasharray="1,3" stroke-linecap="square" d="M175 369.5h202"/>
+				<path id="1em" stroke="#D0021B" stroke-width="4" d="M204 365v16"/>
+				<g id="Radio-/---multiliner" transform="translate(192 465)">
 					<g id="Radio-/-!default" transform="translate(1 5)">
 						<path id="Oval-112-Copy-2" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" d="M12 28.5C5.096 28.5-.5 22.904-.5 16S5.096 3.5 12 3.5 24.5 9.096 24.5 16 18.904 28.5 12 28.5z"/>
 					</g>
@@ -3428,54 +3717,54 @@
 						<tspan x="33" y="15">Option title</tspan>
 					</text>
 				</g>
-				<path id="Line-Copy-92" fill="#979797" fill-rule="nonzero" d="M378 376v34.014h4v1h-9v-1h4V376h-4v-1h9v1h-4z"/>
+				<path id="Line-Copy-92" fill="#979797" fill-rule="nonzero" d="M378 335v34.014h4v1h-9v-1h4V335h-4v-1h9v1h-4z"/>
 				<text id="`vertical-align:-mid" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
-					<tspan x="383" y="399">`vertical-align: middle` one-liner text</tspan>
+					<tspan x="383" y="358">`vertical-align: middle` one-liner text</tspan>
 				</text>
 				<text id="`vertical-align:-top" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
-					<tspan x="383" y="519">`vertical-align: top` 2 lines or more text </tspan>
+					<tspan x="383" y="478">`vertical-align: top` 2 lines or more text </tspan>
 				</text>
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="rotate(-90 434.5 148.5)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="rotate(-90 414 128)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
-				<g id="Cursor-/-Pointer" transform="translate(497 117)">
+				<g id="Cursor-/-Pointer" transform="translate(497 76)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-128)" xlink:href="#path-127"/>
 						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 01.805-.201 1.69 1.69 0 011.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 01-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 01-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
-				<g id="Cursor-/-Pointer" transform="translate(497 172)">
+				<g id="Cursor-/-Pointer" transform="translate(497 131)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-130)" xlink:href="#path-129"/>
 						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 01.805-.201 1.69 1.69 0 011.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 01-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 01-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
-				<g id="Cursor-/-!default" transform="translate(504 284)">
+				<g id="Cursor-/-!default" transform="translate(504 243)">
 					<g id="cursor" fill="#000">
 						<use filter="url(#filter-132)" xlink:href="#path-131"/>
 						<path stroke="#FFF" d="M6.448 11.787l2.721 6.886c.273.675-.094 1.44-.79 1.72-.696.283-1.491-.013-1.765-.692l-2.708-6.853-2.483 2.963-.077.075c-.901.695-1.848.236-1.846-.902L-.474.669c0-.618.027-.82.271-1.028.4-.34.694-.163 1.14.298l10.66 10.157c.793.817.432 1.805-.782 1.933l-4.367-.242z"/>
 					</g>
 				</g>
-				<g id="Cursor-/-Pointer" transform="translate(209 172)">
+				<g id="Cursor-/-Pointer" transform="translate(209 131)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-134)" xlink:href="#path-133"/>
 						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 01.805-.201 1.69 1.69 0 011.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 01-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 01-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
-				<g id="Cursor-/-Pointer" transform="translate(209 117)">
+				<g id="Cursor-/-Pointer" transform="translate(209 76)">
 					<g id="Cursor-Pointer">
 						<use fill="#000" filter="url(#filter-136)" xlink:href="#path-135"/>
 						<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172c.317-.189.689-.298 1.087-.298.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 01.805-.201 1.69 1.69 0 011.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 01-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 01-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
 					</g>
 				</g>
-				<g id="Cursor-/-!default" transform="translate(216 284)">
+				<g id="Cursor-/-!default" transform="translate(216 243)">
 					<g id="cursor" fill="#000">
 						<use filter="url(#filter-138)" xlink:href="#path-137"/>
 						<path stroke="#FFF" d="M6.448 11.787l2.721 6.886c.273.675-.094 1.44-.79 1.72-.696.283-1.491-.013-1.765-.692l-2.708-6.853-2.483 2.963-.077.075c-.901.695-1.848.236-1.846-.902L-.474.669c0-.618.027-.82.271-1.028.4-.34.694-.163 1.14.298l10.66 10.157c.793.817.432 1.805-.782 1.933l-4.367-.242z"/>
 					</g>
 				</g>
 			</g>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 95)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 95)">
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
 			<text id="RADIO-BUTTON" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
@@ -3502,14 +3791,14 @@
 						<rect id="Mediawiki.Neutral.Hover-copy-9" width="25" height="25" x="-.5" y="-.5" rx="2"/>
 					</g>
 				</g>
-				<g id="-101-/-16-sp-(1-em)-+-2-*-4-sp-(0.25-em)" stroke-width="4" transform="rotate(-90 216 38)">
-					<g id="101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(4)">
+				<g id="_Spec-101-/-16-sp-(1-em)-+-2-*-4-sp-(0.25-em)" stroke-width="4" transform="rotate(-90 216 38)">
+					<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(4)">
 						<path id="16-sp-(1-em)" d="M0 2h16"/>
 					</g>
-					<g id="101-/-4-sp-(0.25-em)" stroke="#F5A623" transform="translate(20)">
+					<g id="_Spec-101-/-4-sp-(0.25-em)" stroke="#F5A623" transform="translate(20)">
 						<path id="4-sp-(0.25-em)" d="M0 2h4"/>
 					</g>
-					<g id="101-/-4-sp-(0.25-em)" stroke="#F5A623">
+					<g id="_Spec-101-/-4-sp-(0.25-em)" stroke="#F5A623">
 						<path id="4-sp-(0.25-em)" d="M0 2h4"/>
 					</g>
 				</g>
@@ -3521,10 +3810,10 @@
 						<rect id="Mediawiki.Neutral.Hover-copy-9" width="25" height="25" x="-.5" y="-.5" rx="2"/>
 					</g>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(217 351)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(217 351)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(217 393)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(217 393)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
 				<g id="Checkbox-/-:checked-/-:disabled" transform="translate(480 226)">
@@ -3648,7 +3937,7 @@
 						<tspan x="33" y="15">Option title</tspan>
 					</text>
 				</g>
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="rotate(90 -80 286)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="rotate(90 -80 286)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
 				<path id="Line" fill="#979797" fill-rule="nonzero" d="M376 336v34.014h4v1h-9v-1h4V336h-4v-1h9v1h-4z"/>
@@ -3711,11 +4000,11 @@
 						<tspan x="33" y="15">Option 2</tspan>
 					</text>
 				</g>
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="rotate(90 -119.5 410.5)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="rotate(90 -119.5 410.5)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
 			</g>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(2 52)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(2 52)">
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
 			<text id="CHECKBOX-–-DESKTOP" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
@@ -3726,7 +4015,7 @@
 			<text id="Normal-Highlighted-H" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 				<tspan x="0" y="134">Normal</tspan>   <tspan x="0" y="190.1">Highlighted</tspan>   <tspan x="0" y="246.2">Highlighted positive</tspan>
 			</text>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 96)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 96)">
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
 			<text id="8:16:8:16-copy-13" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
@@ -3756,11 +4045,11 @@
 				<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 					<tspan x="0" y="367.3">Normal</tspan>   <tspan x="0" y="423.4">Hover</tspan> <tspan x="0" y="442.1"> </tspan>  <tspan x="0" y="479.5">Active</tspan>   <tspan x="0" y="535.6">Focus</tspan>
 				</text>
-				<g id="101-/-Headline--Sub" transform="translate(0 297)">
+				<g id="_Spec-101-/-Headline--Sub" transform="translate(0 297)">
 					<text id="SUBHEADLINE" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
 						<tspan x="0" y="13">UNDERLINED LINK</tspan>
 					</text>
-					<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
+					<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
 						<path id="Line" d="M189.484 1.5H.516"/>
 					</g>
 				</g>
@@ -3860,7 +4149,7 @@
 					</g>
 				</g>
 			</g>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(2 52)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(2 52)">
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
 			<text fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
@@ -3974,11 +4263,11 @@
 				<rect id="Mediawiki.Neutral.Normal-copy-16" width="387" height="33" x="191.5" y="424.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
 				<path id="Mediawiki.Progressive.Hover-8" fill="#FFF" stroke="#A2A9B1" d="M383.5 424.5h91v33h-91v-33z"/>
 				<path id="Path-114-Copy-4" stroke="#A2A9B1" stroke-linecap="square" d="M276.5 425v32"/>
-				<g id="101-/-Headline--Sub" transform="translate(0 385)">
+				<g id="_Spec-101-/-Headline--Sub" transform="translate(0 385)">
 					<text id="SUBHEADLINE" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
 						<tspan x="0" y="13">ICON + TEXT</tspan>
 					</text>
-					<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
+					<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
 						<path id="Line" d="M189.484 1.5H.516"/>
 					</g>
 				</g>
@@ -3988,13 +4277,13 @@
 				<g id="Icon-/-placeholder-(notBright/circle)-/-!default" fill="#222" transform="translate(208 432)">
 					<path id="Shape" d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0z"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(228 442)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(228 442)">
 					<path id="8-sp-(0.5-em)" d="M0 .5h8"/>
 				</g>
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(192 440)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(192 440)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(260 440)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(260 440)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
 				<text id="Pages" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
@@ -4003,13 +4292,13 @@
 				<g id="Icon-/-placeholder-(notBright/circle)-/-!default" fill="#222" transform="translate(293 432)">
 					<path id="Shape" d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0z"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(313 442)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(313 442)">
 					<path id="8-sp-(0.5-em)" d="M0 .5h8"/>
 				</g>
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(277 440)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(277 440)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(367 440)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(367 440)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
 				<text id="Talk" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
@@ -4018,13 +4307,13 @@
 				<g id="Icon-/-placeholder-(notBright/circle)-/-!default" fill="#222" transform="translate(400 432)">
 					<path id="Shape" d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0z"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(420 442)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(420 442)">
 					<path id="8-sp-(0.5-em)" d="M0 .5h8"/>
 				</g>
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(458 440)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(458 440)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(384 440)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(384 440)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
 				<text id="Other" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
@@ -4035,17 +4324,17 @@
 				</g>
 				<path id="Line-178-Copy-2" stroke="#D0021B" stroke-width="4" d="M475 442h16"/>
 				<path id="Line-179-Copy-2" stroke="#D0021B" stroke-width="4" d="M562 442h16"/>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(511 442)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(511 442)">
 					<path id="8-sp-(0.5-em)" d="M0 .5h8"/>
 				</g>
-				<g id="-101-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(-90 246 68)">
-					<g id="101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
+				<g id="_Spec-101-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(-90 246 68)">
+					<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
 						<path id="16-sp-(1-em)" d="M0 2h16"/>
 					</g>
-					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
+					<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
 						<path id="8-sp-(0.5-em)" d="M0 1h8"/>
 					</g>
-					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
+					<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
 						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 					</g>
 				</g>
@@ -4094,7 +4383,7 @@
 					</text>
 				</g>
 			</g>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 95)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 95)">
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
 			<text fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
@@ -4111,11 +4400,11 @@
 					<path id="Line-183" stroke="#50E3C2" stroke-width="4" d="M228 55h8"/>
 					<path id="Line-178-Copy" stroke="#D0021B" stroke-width="4" d="M192 55h16"/>
 					<path id="Line-179-Copy" stroke="#D0021B" stroke-width="4" d="M286 55h16"/>
-					<g id="101-/-Headline--Sub">
+					<g id="_Spec-101-/-Headline--Sub">
 						<text id="SUBHEADLINE" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
 							<tspan x="0" y="13">ICON + TEXT</tspan>
 						</text>
-						<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
+						<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
 							<path id="Line" d="M189.484 1.5H.516"/>
 						</g>
 					</g>
@@ -4170,7 +4459,7 @@
 					<text id="8:16:8:16" fill="#72777D" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="30" y="247">Neutral</tspan>
 					</text>
-					<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(86 239)">
+					<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(86 239)">
 						<path id="16-sp-(1-em)" d="M0 2h16"/>
 					</g>
 					<text id="8:16:8:16" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
@@ -4191,40 +4480,40 @@
 					<text id="8:16:8:16" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="30.152" y="191">Neutral</tspan>
 					</text>
-					<g id="-101-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(-90 16 16)">
-						<g id="101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
+					<g id="_Spec-101-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(-90 16 16)">
+						<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
 							<path id="16-sp-(1-em)" d="M0 2h16"/>
 						</g>
-						<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
+						<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
 							<path id="8-sp-(0.5-em)" d="M0 1h8"/>
 						</g>
-						<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
+						<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
 							<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 						</g>
 					</g>
-					<g id="-101-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(-90 44 44)">
-						<g id="101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
+					<g id="_Spec-101-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(-90 44 44)">
+						<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
 							<path id="16-sp-(1-em)" d="M0 2h16"/>
 						</g>
-						<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
+						<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
 							<path id="8-sp-(0.5-em)" d="M0 1h8"/>
 						</g>
-						<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
+						<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
 							<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 						</g>
 					</g>
-					<g id="-101-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(-90 128 128)">
-						<g id="101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
+					<g id="_Spec-101-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(-90 128 128)">
+						<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
 							<path id="16-sp-(1-em)" d="M0 2h16"/>
 						</g>
-						<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
+						<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
 							<path id="8-sp-(0.5-em)" d="M0 1h8"/>
 						</g>
-						<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
+						<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
 							<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 						</g>
 					</g>
-					<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(14 239)">
+					<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(14 239)">
 						<path id="16-sp-(1-em)" d="M0 2h16"/>
 					</g>
 				</g>
@@ -4233,10 +4522,10 @@
 						<tspan x="612" y="129.2">Normal</tspan>   <tspan x="612" y="185.3">Hover</tspan>   <tspan x="612" y="241.4">Active</tspan>   <tspan x="612" y="297.5">Focus</tspan>   <tspan x="612" y="353.6">Disabled</tspan>
 					</text>
 					<rect id="Rectangle-640-Copy-14" width="36" height="32" x="873" y="167" fill="#F8F9FA" rx="2" transform="matrix(1 0 0 -1 0 366)"/>
-					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(859 181)">
+					<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(859 181)">
 						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 					</g>
-					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(887 181.4)">
+					<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(887 181.4)">
 						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 					</g>
 					<path id="Line-Copy-60" fill="#C70070" fill-rule="nonzero" d="M899.509 173.491l.331 18.997 4-.07.017 1-8.999.157-.017-1 4-.07-.332-18.996-4 .07-.017-1 8.999-.157.017 1-4 .07z"/>
@@ -4256,10 +4545,10 @@
 					</g>
 					<rect id="Rectangle-640-Copy-11" width="36" height="32" x="813" y="167" fill="#F8F9FA" rx="2" transform="matrix(1 0 0 -1 0 366)"/>
 					<rect id="Rectangle-640-Copy-12" width="36" height="32" x="813" y="222" fill="#EAECF0" rx="2" transform="matrix(1 0 0 -1 0 476)"/>
-					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(841 181)">
+					<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(841 181)">
 						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 					</g>
-					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(813 181)">
+					<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(813 181)">
 						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 					</g>
 					<g id="Icon-/-!default" fill="#222" transform="translate(821 180.5)">
@@ -4282,11 +4571,11 @@
 						<path id="Shape-Copy-5" d="M11.75.75C11.25.25 10.625 0 10 0c-.75 0-1.25.25-1.75.75S7.5 1.875 7.5 2.5s.25 1.25.75 1.75S9.375 5 10 5s1.25-.25 1.75-.75.75-1.125.75-1.75c0-.75-.25-1.25-.75-1.75z" transform="matrix(1 0 0 -1 0 5)"/>
 						<path id="Shape-Copy-6" d="M4.25.75C3.75.25 3.125 0 2.5 0 1.75 0 1.25.25.75.75S0 1.875 0 2.5s.25 1.25.75 1.75S1.875 5 2.5 5s1.25-.25 1.75-.75S5 3.125 5 2.5c0-.75-.25-1.25-.75-1.75z" transform="matrix(1 0 0 -1 0 5)"/>
 					</g>
-					<g id="101-/-Headline--Sub" transform="translate(612 71)">
+					<g id="_Spec-101-/-Headline--Sub" transform="translate(612 71)">
 						<text id="SUBHEADLINE" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
 							<tspan x="0" y="13">ICON</tspan>
 						</text>
-						<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
+						<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
 							<path id="Line" d="M189.484 1.5H.516"/>
 						</g>
 					</g>
@@ -4313,7 +4602,7 @@
 					<tspan x="612" y="21.1">Normal</tspan>   <tspan x="612" y="77.2">Hover</tspan>   <tspan x="612" y="133.3">Active</tspan>   <tspan x="612" y="189.4">Focus</tspan>   <tspan x="612" y="245.5">Disabled</tspan>
 				</text>
 			</g>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(612 95)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(612 95)">
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
 			<text id="BUTTONS-QUIET" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
@@ -4322,11 +4611,11 @@
 		</g>
 		<g id="BUTTONS-NORMAL-&amp;-PRIMARY" transform="translate(1759 143)">
 			<g id="Primary-Buttons-X" transform="translate(1 113)">
-				<g id="101-/-Headline--Sub" transform="translate(0 304)">
+				<g id="_Spec-101-/-Headline--Sub" transform="translate(0 304)">
 					<text id="SUBHEADLINE" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
 						<tspan x="0" y="13">ICON + TEXT</tspan>
 					</text>
-					<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
+					<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
 						<path id="Line" d="M189.484 1.5H.516"/>
 					</g>
 				</g>
@@ -4338,18 +4627,18 @@
 				<text id="Button" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 					<tspan x="237" y="367">Button</tspan>
 				</text>
-				<g id="-101-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(90 -21 203)">
-					<g id="101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
+				<g id="_Spec-101-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(90 -21 203)">
+					<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
 						<path id="16-sp-(1-em)" d="M0 2h16"/>
 					</g>
-					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
+					<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
 						<path id="8-sp-(0.5-em)" d="M0 1h8"/>
 					</g>
-					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
+					<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
 						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 					</g>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(228 359)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(228 359)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
 				<g id="BG">
@@ -4401,7 +4690,7 @@
 					<tspan x="559" y="247">Destructive</tspan>
 				</text>
 				<rect id="BG" width="89" height="33" x="191.5" y="223.5" fill="#C8CCD1" stroke="#C8CCD1" rx="2"/>
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(192 238)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(192 238)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
 				<path id="Line-235" stroke="#D0021B" stroke-width="4" d="M192 360h16"/>
@@ -4456,12 +4745,15 @@
 						<path stroke="#FFF" d="M6.448 11.787l2.721 6.886c.273.675-.094 1.44-.79 1.72-.696.283-1.491-.013-1.765-.692l-2.708-6.853-2.483 2.963-.077.075c-.901.695-1.848.236-1.846-.902L-.474.669c0-.618.027-.82.271-1.028.4-.34.694-.163 1.14.298l10.66 10.157c.793.817.432 1.805-.782 1.933l-4.367-.242z"/>
 					</g>
 				</g>
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(264 238)">
+					<path id="16-sp-(1-em)" d="M0 2h16"/>
+				</g>
 			</g>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(1 95)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(1 95)">
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
-			<text id="BUTTONS-NORMAL-&amp;-PRI" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
-				<tspan x="1" y="36">BUTTONS </tspan> <tspan x="1" y="80">NORMAL &amp; PRIMARY </tspan>
+			<text id="BUTTONS-NORMAL-+-PRI" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
+				<tspan x="1" y="36">BUTTONS </tspan> <tspan x="1" y="80">NORMAL + PRIMARY </tspan>
 			</text>
 		</g>
 		<g id="SPECIFICATIONS" transform="translate(-309 185)">
@@ -4471,10 +4763,10 @@
 			<text id="SPECIFICATIONS-LEGEN" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
 				<tspan x="471" y="90">SPECIFICATIONS</tspan>   <tspan x="472.206" y="128.199" font-size="12">LEGEND</tspan>                     <tspan x="479.442" y="382.393" font-size="12">MAIN TOOLBAR</tspan> <tspan x="479.442" y="398.393" font-size="12">48PX HEIGHT</tspan>                        <tspan x="479.442" y="695.393" font-size="12">SECONDARY TOOLBAR</tspan> <tspan x="479.442" y="712.393" font-size="12">30PX HEIGHT</tspan>
 			</text>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(469 53)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(469 53)">
 				<path id="Line" d="M184.497 1.5H.503"/>
 			</g>
-			<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(474 337)">
+			<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(474 337)">
 				<path id="Line" d="M184.497 1.5H.503"/>
 			</g>
 			<path id="Rectangle-339" fill="#FCFAFA" d="M734 423h355v48H734z"/>
@@ -4549,13 +4841,13 @@
 				<text id="SPECIFICATIONS" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
 					<tspan x="0" y="38">SPECIFICATIONS</tspan>   <tspan x="1.206" y="76.199" font-size="12">LEGEND</tspan>                     <tspan x="1.206" y="328.199" font-size="12">TEXT</tspan>     <tspan x="1.206" y="388.199" font-size="12">ICON</tspan>     <tspan x="1.206" y="448.199" font-size="12">ICON-TEXT</tspan>        <tspan x="1.206" y="544.199" font-size="12">INLINE ICON</tspan>     <tspan x="1.206" y="604.199" font-size="12">INLINE ICON + </tspan> <tspan x="8.442" y="620.393" font-size="12">ICON-TEXT</tspan>    <tspan x="1.206" y="667.199" font-size="12">INLINE TEXT</tspan>
 				</text>
-				<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3">
+				<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3">
 					<path id="Line" d="M184.497 1.5H.503"/>
 				</g>
-				<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 292)">
+				<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 292)">
 					<path id="Line" d="M184.497 1.5H.503"/>
 				</g>
-				<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 506)">
+				<g id="_Spec-101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 506)">
 					<path id="Line" d="M184.497 1.5H.503"/>
 				</g>
 				<rect id="Mediawiki.Neutral.Normal-copy-53" width="67" height="33" x="279.5" y="304.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
@@ -4563,7 +4855,7 @@
 				<rect id="Mediawiki.Neutral.Normal-copy-57" width="91" height="31" x="300.5" y="584.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
 				<rect id="Mediawiki.Neutral.Normal-copy-59" width="49" height="31" x="219.5" y="360.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
 				<rect id="Mediawiki.Neutral.Normal-copy-56" width="49" height="33" x="219.5" y="304.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
-				<rect id="Mediawiki.Neutral.Normal-copy-56" width="41" height="25" x="466.5" y="191.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
+				<rect id="Mediawiki.Neutral.Normal-copy-56" width="43" height="31" x="465.5" y="184.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
 				<g id="Icon-/-placeholder-(notBright/circle)-/-!default" fill="#C70070" transform="translate(231 425)">
 					<path id="Shape" d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0z"/>
 				</g>
@@ -4629,19 +4921,19 @@
 					<tspan x="227" y="33">All single buttons, icons, text </tspan> <tspan x="227" y="51">field have a min. of 40 scale-</tspan> <tspan x="227" y="69">independent pixels (sp) width.</tspan>  <tspan x="227" y="105">All single buttons have a max. of </tspan> <tspan x="227" y="123">280 sp width. If &gt;280 sp text </tspan> <tspan x="227" y="141">wraps to the next line.</tspan>
 				</text>
 				<path id="Line-50" stroke="#50E3C2" stroke-linecap="square" d="M244.5 386.5v3.986M244.5 329.5v3.986"/>
-				<g id="101-/-4-sp-(0.25-em)" stroke="#F5A623" stroke-width="4" transform="translate(511 120)">
+				<g id="_Spec-101-/-4-sp-(0.25-em)" stroke="#F5A623" stroke-width="4" transform="translate(511 120)">
 					<path id="4-sp-(0.25-em)" d="M0 2h4"/>
 				</g>
-				<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(510 95)">
+				<g id="_Spec-101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(510 95)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
-				<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(510 71)">
+				<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(510 71)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
-				<g id="101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="translate(510 48)">
+				<g id="_Spec-101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="translate(510 48)">
 					<path id="24-sp-(1.5-em)" d="M0 2h24" transform="matrix(1 0 0 -1 0 4)"/>
 				</g>
-				<g id="101-/-32-sp-(2-em)" stroke="#13B9FE" stroke-width="4" transform="translate(510 26)">
+				<g id="_Spec-101-/-32-sp-(2-em)" stroke="#13B9FE" stroke-width="4" transform="translate(510 26)">
 					<path id="32-sp-(2-em)" d="M0 2h32" transform="matrix(1 0 0 -1 0 4)"/>
 				</g>
 				<path id="Line-60" stroke="#347BFF" stroke-linecap="square" stroke-width="4" d="M196.5 29h14.685"/>
@@ -4660,298 +4952,6 @@
 				<path id="Line-54" stroke="#50E3C2" d="M240.5 445.5v3.986"/>
 				<path id="Line-54" stroke="#50E3C2" stroke-linecap="square" d="M322.5 610.5v3.986"/>
 			</g>
-		</g>
-		<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(2024 494)">
-			<path id="16-sp-(1-em)" d="M0 2h16"/>
-		</g>
-		<g id="Color-palette" transform="translate(1757 1422)">
-			<g id="Supplementary" fill-rule="evenodd" stroke-width="1" transform="translate(241 775)">
-				<rect id="Rectangle-Copy-15" width="176" height="128" x="1037" y="58" fill="#AC6600" rx="2"/>
-				<text id="#ac6600-RGB-172,-102" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1055" y="92">#ac6600</tspan> <tspan x="1055" y="111">RGB 172, 102, 0</tspan> <tspan x="1055" y="130">HSB 36, 100%, 67%</tspan>  <tspan x="1055" y="168">AA</tspan>
-				</text>
-				<rect id="Rectangle" width="160" height="160" x="878" y="25" fill="#FC3" rx="2"/>
-				<text id="#fc3-RGB-255,-204,-5" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					 <tspan x="894" y="92">#fc3</tspan> <tspan x="894" y="111">RGB 255, 204, 51</tspan> <tspan x="894" y="130">HSB 45, 80%, 100%</tspan>  <tspan x="894" y="168">AAA</tspan>
-				</text>
-				<path id="Rectangle-Copy-8" fill="#FEF6E7" d="M702 68.008c0-1.11.905-2.008 2.007-2.008h171.986c1.108 0 2.007.897 2.007 2.008v115.984a2.011 2.011 0 01-2.007 2.008H704.007a2.006 2.006 0 01-2.007-2.008V68.008z"/>
-				<text id="#fef6e7-RGB-254,-246" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="718" y="92">#fef6e7</tspan> <tspan x="718" y="111">RGB 254, 246, 231</tspan> <tspan x="718" y="130">HSB 39, 9%, 100%</tspan>  <tspan x="718" y="168">AAA</tspan>
-				</text>
-				<text id="Yellow50" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="894" y="14">Yellow50</tspan>
-				</text>
-				<text id="Yellow30" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1054" y="14">Yellow30</tspan>
-				</text>
-				<rect id="Rectangle-543-Copy" width="160" height="160" x="176" y="25" fill="#00AF89" rx="2"/>
-				<text id="Green50" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="191" y="14">Green50</tspan>
-				</text>
-				<text id="Green30" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="351" y="14">Green30</tspan>
-				</text>
-				<text id="#00af89-RGB-0,-175," fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					 <tspan x="191" y="92">#00af89</tspan> <tspan x="191" y="111">RGB 0, 175, 137</tspan> <tspan x="191" y="130">HSB 167,100%,69%</tspan>  <tspan x="191" y="168">AA</tspan>
-				</text>
-				<rect id="Rectangle-Copy-12" width="176" height="120" x="336" y="65" fill="#14866D" rx="2"/>
-				<rect id="Rectangle-Copy-8" width="176" height="128" x="0" y="57" fill="#D5FDF4" rx="2"/>
-				<text id="#d5fdf4-RGB-213,-253" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					 <tspan x="15" y="92">#d5fdf4</tspan> <tspan x="15" y="111">RGB 213, 253, 244</tspan> <tspan x="15" y="130">HSB 167, 16%, 99%</tspan>  <tspan x="15" y="168">AAA</tspan>
-				</text>
-				<text id="Yellow90" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="718" y="14">Yellow90</tspan>
-				</text>
-				<text id="Green90" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="15" y="14">Green90</tspan>
-				</text>
-				<text id="#14866d-RGB-20,-134," fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="351" y="92">#14866d</tspan> <tspan x="351" y="111">RGB 20, 134, 109</tspan> <tspan x="351" y="130">HSB 167, 85%, 53%</tspan>  <tspan x="351" y="168">AA</tspan>
-				</text>
-				<text id="Secondary-link-highl" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="189" y="223.1">Secondary link highlight</tspan> <tspan x="189" y="241.8">Positive messages</tspan>
-				</text>
-				<text id="Warning-messages" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="889" y="223.1">Warning messages</tspan>
-				</text>
-			</g>
-			<g id="Accent" fill-rule="evenodd" stroke-width="1" transform="translate(0 -1)">
-				<text id="COLOR" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
-					<tspan x="2" y="36">COLOR</tspan> <tspan x="2" y="80">PALETTE</tspan>
-				</text>
-				<g id="101-/-Headline--Sub" transform="translate(4 134)">
-					<text id="SUBHEADLINE" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-						<tspan x="0" y="13">BASE COLORS</tspan>
-					</text>
-					<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
-						<path id="Line" d="M189.484 1.5H.516"/>
-					</g>
-				</g>
-				<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 95)">
-					<path id="Line" d="M183.5 1.5H.5"/>
-				</g>
-				<g id="101-/-Headline--Sub" transform="translate(2 458)">
-					<text id="SUBHEADLINE" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-						<tspan x="0" y="13">ACCENT COLORS</tspan>
-					</text>
-					<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
-						<path id="Line" d="M189.484 1.5H.516"/>
-					</g>
-				</g>
-				<rect id="Progressive" width="160" height="160" x="416" y="482" fill="#36C" rx="2"/>
-				<text id="Primary-buttons-Link" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="432" y="670.1">Primary buttons</tspan> <tspan x="432" y="688.8">Links </tspan> <tspan x="432" y="707.5">Page accents</tspan> <tspan x="432" y="726.2">Focus outlines</tspan>
-				</text>
-				<text id="Active-buttons-Activ" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="591" y="670.1">Active buttons</tspan> <tspan x="591" y="688.8">Active links </tspan>
-				</text>
-				<rect id="Progressive" width="176" height="120" x="240" y="522" fill="#EAF3FF" rx="2"/>
-				<rect id="Destructive" width="160" height="160" x="1119" y="482" fill="#D33" rx="2"/>
-				<rect id="Destructive" width="176" height="128" x="943" y="514" fill="#FEE7E6" rx="2"/>
-				<text id="Accent30" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="591" y="471">Accent30</tspan>
-				</text>
-				<text id="Progressive-#36c-RGB" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="432" y="510">Progressive</tspan>  <tspan x="432" y="548">#36c</tspan> <tspan x="432" y="567">RGB 51, 102, 204</tspan> <tspan x="432" y="586">HSB 220, 75%, 80%</tspan>  <tspan x="432" y="624">AA</tspan>
-				</text>
-				<text id="#eaf3ff-RGB-234,-243" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="256" y="548">#eaf3ff</tspan> <tspan x="256" y="567">RGB 234, 243, 255</tspan> <tspan x="256" y="586">HSB 214, 8%, 100%</tspan>  <tspan x="256" y="624">AAA</tspan>
-				</text>
-				<text id="Base100" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="256" y="147">Base100</tspan>
-				</text>
-				<text id="#fee7e6-RGB-255,-231" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="959" y="548">#fee7e6</tspan> <tspan x="959" y="567">RGB 255, 231, 230</tspan> <tspan x="959" y="586">HSB 2, 10%, 100%</tspan>  <tspan x="959" y="624">AAA</tspan>
-				</text>
-				<text id="Destructive-#d33-RGB" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1130" y="510">Destructive</tspan>  <tspan x="1130" y="548">#d33</tspan> <tspan x="1130" y="567">RGB 221, 51, 51</tspan> <tspan x="1130" y="586">HSB 360, 77%, 87%</tspan>  <tspan x="1130" y="624">AA</tspan>
-				</text>
-				<text id="AA" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1157" y="624">AA</tspan>
-				</text>
-				<rect id="Rectangle-Copy" width="176" height="128" x="1279" y="514" fill="#B32424" rx="2"/>
-				<text id="#b32424-RGB-135,-54," fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1295" y="548">#b32424</tspan> <tspan x="1295" y="567">RGB 135, 54, 54</tspan> <tspan x="1295" y="586">HSB 360, 60%, 53%</tspan>  <tspan x="1295" y="624">AAA</tspan>
-				</text>
-				<rect id="Rectangle-Copy" width="176" height="120" x="576" y="522" fill="#2A4B8D" rx="2"/>
-				<text id="#2a4b8d-RGB-42,-75," fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="592" y="548">#2a4b8d</tspan> <tspan x="592" y="567">RGB 42, 75, 141</tspan> <tspan x="592" y="586">HSB 220, 70%, 55%</tspan>  <tspan x="592" y="624">AAA</tspan>
-				</text>
-				<text id="Destructive-actions" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="1129" y="671.1">Destructive actions –</tspan> <tspan x="1129" y="689.8">Buttons and Links</tspan> <tspan x="1129" y="708.5">Alerts</tspan>
-				</text>
-				<text id="Destructive-active-b" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="1295" y="668.1">Destructive active </tspan> <tspan x="1295" y="686.8">buttons and links</tspan>
-				</text>
-				<text id="Hovered-buttons-Acti" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="256" y="670.1">Hovered buttons</tspan> <tspan x="256" y="688.8">Active menu </tspan> <tspan x="256" y="707.5">items backgrounds</tspan>
-				</text>
-			</g>
-			<g id="Base" fill-rule="evenodd" stroke-width="1" transform="translate(5 132)">
-				<rect id="Rectangle-Copy-8" width="160.001" height="160" x="235" y="25" fill="#FFF" rx="2"/>
-				<text id="Base-background-High" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="251" y="214.1">Base background</tspan> <tspan x="251" y="232.8">Highlight from grey</tspan>
-				</text>
-				<text id="Disabled-text-input" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="603" y="214.1">Disabled text input </tspan> <tspan x="603" y="232.8">background</tspan>
-				</text>
-				<text id="#fff-RGB-255,-255,-2" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="251" y="92">#fff</tspan> <tspan x="251" y="111">RGB 255, 255, 255</tspan> <tspan x="251" y="130">HSB 0, 0%, 100%</tspan>  <tspan x="251" y="168">AAA</tspan>
-				</text>
-				<text id="Accent90" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="251" y="338">Accent90</tspan>
-				</text>
-				<text id="Accent50" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="426" y="338">Accent50 </tspan>
-				</text>
-				<text id="Red90" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="954" y="338">Red90</tspan>
-				</text>
-				<text id="Red50" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1130" y="338">Red50</tspan>
-				</text>
-				<text id="Red30" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1290" y="338">Red30</tspan>
-				</text>
-				<text id="Base90" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="427" y="14">Base90</tspan>
-				</text>
-				<text id="Base80" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="603" y="14">Base80</tspan>
-				</text>
-				<text id="Base70" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="779" y="14">Base70</tspan>
-				</text>
-				<text id="Base50" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="955" y="14">Base50</tspan>
-				</text>
-				<text id="Base30" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1131" y="14">Base30</tspan>
-				</text>
-				<text id="Base20" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1307" y="14">Base20</tspan>
-				</text>
-				<text id="Base10" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1483" y="14">Base10</tspan>
-				</text>
-				<text id="Base0" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1659" y="14">Base0</tspan>
-				</text>
-				<rect id="Rectangle" width="160" height="160" x="411" y="25" fill="#F8F9FA" rx="2"/>
-				<text id="Button/3D-widget-bac" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="427" y="214.1">Button/3D widget </tspan> <tspan x="427" y="232.8">background</tspan>
-				</text>
-				<text id="#f8f9fa-RGB-248,-249" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="427" y="92">#f8f9fa</tspan> <tspan x="427" y="111">RGB 248, 249, 250</tspan> <tspan x="427" y="130">HSB 210, 1%, 98%</tspan>  <tspan x="427" y="168">AAA</tspan>
-				</text>
-				<rect id="Rectangle-Copy" width="160" height="160" x="587" y="25" fill="#EAECF0" rx="2"/>
-				<text id="#eaecf0-RGB-234,-236" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="603" y="92">#eaecf0</tspan> <tspan x="603" y="111">RGB 234, 236, 240</tspan> <tspan x="603" y="130">HSB 220, 3%, 94%</tspan>  <tspan x="603" y="168">AAA</tspan>
-				</text>
-				<rect id="Rectangle-Copy-2" width="160" height="160" x="763" y="25" fill="#C8CCD1" rx="2"/>
-				<text id="#c8ccd1-RGB-200,-204" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="779" y="92">#c8ccd1</tspan> <tspan x="779" y="111">RGB 200, 204, 209</tspan> <tspan x="779" y="130">HSB 213, 4%, 82%</tspan>  <tspan x="779" y="168">AAA</tspan>
-				</text>
-				<rect id="Rectangle-Copy-3" width="160" height="160" x="939" y="25" fill="#A2A9B1" rx="2"/>
-				<text id="#a2a9b1-RGB-162,-169" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="955" y="92">#a2a9b1</tspan> <tspan x="955" y="111">RGB 162, 169, 177</tspan> <tspan x="955" y="130">HSB 212, 8%, 69%</tspan>  <tspan x="955" y="168">AAA</tspan>
-				</text>
-				<rect id="Rectangle-Copy-9" width="160" height="160" x="1115" y="25" fill="#72777D" rx="2"/>
-				<text id="#72777d-RGB-114,-119" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1131" y="92">#72777d</tspan> <tspan x="1131" y="111">RGB 114, 119, 125</tspan> <tspan x="1131" y="130">HSB 210, 9%, 49%</tspan>  <tspan x="1131" y="168">AA </tspan>
-				</text>
-				<text id="AA" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1153" y="168">AA</tspan>
-				</text>
-				<rect id="Rectangle-Copy-6" width="160" height="160" x="1291" y="25" fill="#54595D" rx="2"/>
-				<text id="#54595d-RGB-84,-89," fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1307" y="92">#54595d</tspan> <tspan x="1307" y="111">RGB 84, 89, 93</tspan> <tspan x="1307" y="130">HSB 207, 10%, 36%</tspan>  <tspan x="1307" y="168">AAA</tspan>
-				</text>
-				<rect id="Rectangle-Copy-5" width="160" height="160" x="1467" y="25" fill="#222" rx="2"/>
-				<text id="#222-RGB-34,-34,-34" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1483" y="92">#222</tspan> <tspan x="1483" y="111">RGB 34, 34, 34</tspan> <tspan x="1483" y="130">HSB 0, 0%, 13%</tspan>  <tspan x="1483" y="168">AAA</tspan>
-				</text>
-				<rect id="Rectangle-Copy-7" width="160" height="160" x="1643" y="25" fill="#000" rx="2"/>
-				<text id="#000-RGB-0,-0,-0-HSB" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="1659" y="92">#000</tspan> <tspan x="1659" y="111">RGB 0, 0, 0</tspan> <tspan x="1659" y="130">HSB 0, 0%, 0%</tspan>  <tspan x="1659" y="168">AAA</tspan>
-				</text>
-				<text id="Disabled-button/3D-w" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="779" y="214.1">Disabled button/3D </tspan> <tspan x="779" y="232.8">widget background </tspan>
-				</text>
-				<text id="Highlighted-border" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="955" y="214.1">Highlighted border</tspan>
-				</text>
-				<text id="Disabled-elements-te" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="1131" y="213.1">Disabled elements text</tspan> <tspan x="1131" y="231.8">Placeholder text</tspan> <tspan x="1131" y="250.5">Active border</tspan>
-				</text>
-				<text id="Copy-color-Buttons/w" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="1483" y="213.1">Copy color</tspan> <tspan x="1483" y="231.8">Buttons/widgets text</tspan>
-				</text>
-				<text id="Emphasized-copy-colo" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="1659" y="213.1">Emphasized copy color</tspan> <tspan x="1659" y="231.8">Active button/widgets text</tspan>
-				</text>
-				<text id="Emphasized-secondary" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="1307" y="213.1">Emphasized secondary </tspan> <tspan x="1307" y="231.8">text at level AAA need</tspan>
-				</text>
-				<text id="WCAG-2.0-conformance" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-					<tspan x="0" y="168.1">WCAG 2.0 conformance level:</tspan> <tspan x="0" y="186.8">(with white/black)</tspan>
-				</text>
-			</g>
-			<g id="101-/-Headline--Sub" transform="translate(2 777)">
-				<text id="SUBHEADLINE" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="0" y="13">SUPPLEMENTARY COLORS</tspan>
-				</text>
-				<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
-					<path id="Line" d="M189.484 1.5H.516"/>
-				</g>
-			</g>
-			<g id="Background-colors-applied" fill-rule="evenodd" stroke-width="1" transform="translate(5 1097)">
-				<g id="101-/-Headline--Sub">
-					<text id="SUBHEADLINE" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
-						<tspan x="0" y="13">BACKGROUND COLORS</tspan>
-					</text>
-					<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
-						<path id="Line" d="M189.484 1.5H.516"/>
-					</g>
-				</g>
-				<rect id="Rectangle-543-Copy-3" width="511" height="351" x="235.5" y="23.5" fill="#F8F9FA" stroke="#C8CCD1" rx="2"/>
-				<rect id="Rectangle-543-Copy-3" width="416" height="256" x="283" y="71" fill="#FFF" rx="2"/>
-				<rect id="Rectangle-543-Copy-4" width="320" height="160" x="331" y="119" fill="#EAECF0" rx="2"/>
-				<path id="Rectangle-543-Copy-5" fill="#C8CCD1" d="M379 169.003c0-1.106.903-2.003 2.005-2.003h219.99a2.01 2.01 0 012.005 2.003v59.994a2.007 2.007 0 01-2.005 2.003h-219.99a2.01 2.01 0 01-2.005-2.003v-59.994z"/>
-				<text id="Layer-1:-#f8f9fa" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="435" y="359">Layer 1: #f8f9fa</tspan>
-				</text>
-				<text id="Layer-2:-#fff" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="435" y="312">Layer 2: #fff</tspan>
-				</text>
-				<text id="Layer-3:-#eaecf0" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="435" y="264">Layer 3: #eaecf0</tspan>
-				</text>
-				<text id="Layer-4:-#c8ccd1" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
-					<tspan x="435" y="214">Layer 4: #c8ccd1</tspan>
-				</text>
-			</g>
-		</g>
-		<g id="101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="rotate(90 1846.5 3675.5)">
-			<path id="24-sp-(1.5-em)" d="M0 2h24" transform="matrix(1 0 0 -1 0 4)"/>
-		</g>
-		<g id="101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="rotate(90 1818.5 3703.5)">
-			<path id="24-sp-(1.5-em)" d="M0 2h24" transform="matrix(1 0 0 -1 0 4)"/>
-		</g>
-		<g id="101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="rotate(90 1772.5 3749.5)">
-			<path id="24-sp-(1.5-em)" d="M0 2h24" transform="matrix(1 0 0 -1 0 4)"/>
-		</g>
-		<g id="101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="rotate(90 1723.5 3798.5)">
-			<path id="24-sp-(1.5-em)" d="M0 2h24" transform="matrix(1 0 0 -1 0 4)"/>
-		</g>
-		<g id="101-/-24-sp-(1.5-em)" stroke="#A65DE7" stroke-width="4" transform="rotate(90 1671 3851)">
-			<path id="24-sp-(1.5-em)" d="M0 2h24" transform="matrix(1 0 0 -1 0 4)"/>
-		</g>
-		<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="rotate(90 1748 3774)">
-			<path id="16-sp-(1-em)" d="M0 2h16"/>
-		</g>
-		<g id="101-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="rotate(90 1695.5 3827.5)">
-			<path id="16-sp-(1-em)" d="M0 2h16"/>
 		</g>
 	</g>
 </svg>
