@@ -11,7 +11,11 @@
     <item>
       <title><![CDATA[WikimediaUI Components, Icons and Colors Library]]></title>
       <pubDate>Fri, 09 Aug 2019 15:59:00 +0000</pubDate>
-      <enclosure url="https://design.wikimedia.org/style-guide/resources/WikimediaUI-components_overview.sketch?token=PaN3f9rqOvb8MQHqA1a4" type="application/octet-stream" sparkle:version="1"/>
+      <!--
+        Use random token on update, for example with http://tools.andidittrich.de/Token.html
+        Increase version on update
+      -->
+      <enclosure url="https://design.wikimedia.org/style-guide/resources/WikimediaUI-components_overview.sketch?token=wEFyyWo5y7jS4IrlrZUv" type="application/octet-stream" sparkle:version="1.0.1"/>
     </item>
   </channel>
 </rss>
