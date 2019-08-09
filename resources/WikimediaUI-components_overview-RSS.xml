@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title><![CDATA[WikimediaUI Components, Icons and Colors Library]]></title>
+    <description><![CDATA[WikimediaUI Components, Icons and Colors Library]]></description>
+    <image>
+      <url>https://design.wikimedia.org/style-guide/resources/WikimediaUI-components_overview.png</url>
+      <title><![CDATA[WikimediaUI Components, Icons and Colors Library]]></title>
+    </image>
+    <generator>Sketch</generator>
+    <item>
+      <title><![CDATA[WikimediaUI Components, Icons and Colors Library]]></title>
+      <pubDate>Fri, 09 Aug 2019 15:59:00 +0000</pubDate>
+      <enclosure url="https://design.wikimedia.org/style-guide/resources/WikimediaUI-components_overview.sketch?token=PaN3f9rqOvb8MQHqA1a4" type="application/octet-stream" sparkle:version="1"/>
+    </item>
+  </channel>
+</rss>
