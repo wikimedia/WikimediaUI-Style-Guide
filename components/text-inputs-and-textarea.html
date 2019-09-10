@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" class="js--off">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta property="og:title" content="Components: Text inputs and textarea - Wikimedia Design Style Guide (WikimediaUI)">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components_text-inputs-and-textarea.html">
+	<meta property="og:image" content="https://design.wikimedia.org/style-guide/img/components/TODO.png">
+	<link rel="stylesheet" href="../css/build/wmui-style-guide.min.css">
+	<title>Components: Text inputs and textarea – Wikimedia Design Style Guide</title>
+	<script>
+		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
+	</script>
+	<!--[if lt IE 9]>
+	<script>window.html5={'shivCSS':false};</script>
+	<script src="../js/vendor/ie/html5shiv-3.7.3.min.js"></script>
+	<![endif]-->
+	<link rel="dns-prefetch" href="https://piwik.wikimedia.org/">
+	<link rel="preload" href="../fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
+	<script src="../js/wikimedia-design-style-guide.min.js" async></script>
+</head>
+<body class="page--components page--components-text-inputs-and-textarea" vocab="http://schema.org/" typeof="WebPage">
+	<header id="header" class="header" role="banner">
+		<div class="content-box">
+			<a href="#content" class="is-aural is-focusable">Jump to content</a>
+			<a href="#nav--main" class="is-aural is-focusable">Jump to navigation</a>
+			<h6 class="site__title"><a href="./"><span class="site__org">Wikimedia </span><span class="site__project">Design Style Guide</span></a></h6>
+			<label class="btn--nav-main" for="trigger--nav-main" aria-hidden="true" title="Show main menu">
+				<i></i> <span>Menu</span>
+			</label>
+			<a href="https://github.com/wikimedia/WikimediaUI-Style-Guide" class="lnk--contribute" title="Fork and contribute on GitHub"><span>Contribute on </span>GitHub</a>
+		</div>
+	</header>
+	<div class="page">
+		<div class="content-box">
+			<div class="col col--start">
+				<input type="checkbox" id="trigger--nav-main" class="trigger--nav-main">
+				<nav id="nav--main" class="nav nav--main" role="navigation">
+					<ol>
+						<li class="nav__item"><a href="../index.html">Introduction</a></li>
+						<li class="nav__item"><a href="../design-principles.html">Design principles</a></li>
+						<li class="nav__item"><a href="../visual-style.html">Visual style</a>
+							<ul class="nav__sub-items">
+								<li class="nav__sub-item"><a href="../visual-style.html">Principles</a></li>
+								<li class="nav__sub-item"><a href="../visual-style_colors.html">Colors</a></li>
+								<li class="nav__sub-item"><a href="../visual-style_typography.html">Typography</a></li>
+								<li class="nav__sub-item"><a href="../visual-style_icons.html">Icons</a></li>
+								<li class="nav__sub-item is-on"><a href="../visual-style_images.html">Images</a></li>
+								<li class="nav__sub-item"><a href="../visual-style_illustrations.html">Illustrations</a></li>
+							</ul>
+						</li>
+						<li class="nav__item is-on"><a href="../components.html">Components</a>
+							<ul class="nav__sub-items">
+								<li class="nav__sub-item"><a href="links.html">Actions</a></li>
+								<li class="nav__sub-item"><a href="checkboxes.html">
+								Selection</a></li>
+								<li class="nav__sub-item is-on"><a href="text-inputs-and-textarea.html">
+								Entry</a>
+									<ul>
+										<li class="nav__sub-item is-on"><a href="text-inputs-and-textarea.html">Text inputs and textarea</a></li>
+										<!-- <li class="nav__sub-item"><a href="text-inputs-validation.html">Text inputs validation</a></li> Todo: Clarify if validation is sufficient for own navigation item. -->
+										<li class="nav__sub-item"><a href="spinners.html">Spinners</a></li>
+										<li class="nav__sub-item"><a href="sliders.html">Sliders</a></li>
+										<li class="nav__sub-item"><a href="file-upload.html">File upload</a></li>
+										<!-- <li class="nav__sub-item"><a href="calendar.html">Calendar</a></li> Todo: Are we ready for calendar? -->
+										<li class="nav__sub-item"><a href="color-picker.html">Color picker</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<!-- <li><a href="../patterns.html">Patterns</a></li> -->
+						<li><a href="../resources.html">Resources</a></li>
+					</ol>
+				</nav>
+			</div>
+			<div class="col col--end">
+				<main id="content" class="content" role="main">
+					<div class="page__parent-title">Components</div>
+					<h1 class="page__title">Text inputs and textarea</h1>
+						<p class="page__lead">Text inputs allow users to input text or select text via auto-complete or dropdown.</p>
+						<figure class="text-input-intro">
+							<img src="../img/components/Text_input_intro.svg" onerror="this.src='../img/components/Text_input_intro@2x.png'" alt="Text input field">
+						</figure>
+
+						<h2>Using text inputs</h2>
+						<p>Through text fields users can input text, numbers, symbols or mixed-format strings (unless specifically restricted). Text inputs can be single line or as textarea multiple line inputs.</p>
+						<p>Text fields should be used in forms when a user’s answer to a prompt can not easily be predicted, or when there is significant variability in potential inputs. Text fields should also be used when other form components prove more difficult (require additional steps) to achieve the same aims (eg. selecting a date from a calendar versus typing in the date). Text fields are also prominently used for search queries.</p>
+						<p>When possible provide auto complete options that are tailored to input field, such as a list of common responses or relevant search results.</p>
+						<p>The length (width and number of lines) provides a hint to users as to the expected length of their input. Textareas should be used when the input length is multiple sentences long, whereas shorter responses like a search query or password should be limited to a single line.</p>
+						<!-- Text fields should be used in forms when a user’s answer to a prompt can not easily be predicted, or when there is significant variability in potential inputs. Text fields should also be used when other form components prove more difficult (require additional steps) to achieve the same aims (eg. selecting a date from a calendar versus typing in the date). Text fields are also prominently used for search queries.
+
+When possible provide auto complete options that are tailored to input field, such as a list of common responses or relevant search results.
+
+The length (span width and number of lines) provides a hint to users as to the expected length of their input. Multi line text fields should be used when the input length is multiple sentences long, whereas shorter responses like a search query or password should be limited to a single line. -->
+
+						<h2>Designing</h2>
+						<figure class="text-input-designing">
+							<img src="../img/components/Text_input_creating.svg" onerror="this.src='../img/components/Text_input_creating@2x.png'" alt="Text input field visual design and states">
+							<figcaption class="figure__caption"></figcaption>
+						</figure>
+						<p><strong>Label</strong><br>
+						Text input labels communicate what input is requested in the text box. Labels are obligatory for input fields and should only be visibly hidden, but still accessible for screen readers in exceptional cases.</p>
+						<p><strong>Placeholder text</strong> <small class="is-subtle">(optional)</small><br>
+
+							Placeholder text provides an example in the textbox of what type of information is being requested. Placeholder text should further illustrate and support the text field label, however they should never be the text input description.
+						</p>
+						<p><strong>Icon</strong><br>
+							Icons can add to simple identification of specific user inputs. Examples are 'search' magnifying glass for search bars or 'user avatar' for user login input fields.
+						</p>
+						<p><strong>Indicator icon</strong><br>
+							Indicator icons are used in two contexts with inputs:
+						</p>
+						<ul>
+							<li>Showing that a user input is required with a 'required' indicator</li>
+							<li>Clearing the input, like in search inputs with a 'clear' indicator</li>
+						</ul>
+
+						<p><strong>Inline error messages and form validation  <small class="is-subtle">(optional)</small></strong><br>
+							When possible, place messages inline with where the error occurred and explain to users what caused the error and, or how it can be fixed. Utilize appropriate colors for different message types (Green50 for successful, Red50 for erroneous, Yellow50 for warning). Inline messaging should only be shown after a user has clicked into or interacted with the corresponding field.
+						</p>
+
+						<h2>States</h2>
+						<figure class="text-input-anatomy-TODO">
+							<img src="../img/components/Text_Inputs_states.svg" onerror="this.src='../img/components/Text_Input_states@2x.png'" alt="Text input field visual design and states">
+							<figcaption class="figure__caption"></figcaption>
+						</figure>
+
+						<h2>Types</h2>
+						<h3>Text input</h3>
+						<p>A single line text input field.</p>
+
+						<h3>Textarea</h3>
+						<p>A multi-line text input field.</p>
+
+						<h3>Search input</h3>
+						<figure class="text-input-anatomy-TODO">
+							<img src="../img/components/Search_Inputs_intro.svg" onerror="this.src='../img/components/Search_Inputs_intro@2x.png'" alt="Text input field visual design and states">
+							<figcaption class="figure__caption"></figcaption>
+						</figure>
+						<p>A single line text input with optional autocomplete or dropdown and a 'search' icon as quick lookup helper.</p>
+
+						<h3>Number input</h3>
+
+						<h3>Password input</h3>
+
+						<h2>Coding</h2>
+						<p>See <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#TextInputWidget" target="_blank" rel="noopener">OOUI's demos section of text inputs</a>.</p>
+				</main>
+			</div>
+		</div>
+	</div>
+	<footer id="footer" class="footer">
+		<div class="content-box">
+			<ul class="footer__list">
+				<li><a href="https://github.com/wikimedia/WikimediaUI-Style-Guide">Contribute on GitHub</a></li>
+				<li><a href="https://twitter.com/@WikimediaUX" title="Follow Wikimedia User Experience team account on Twitter">Follow @WikimediaUX</a></li>
+				<li><a href="https://lists.wikimedia.org/mailman/listinfo/design" title="Join Wikimedia Design mailing list">Join mailing list</a></li>
+			</ul>
+			<p>Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener" property="license">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.</p>
+			<p><a href="https://foundation.wikimedia.org/wiki/Non-wiki_privacy_policy">Privacy policy</a></p>
+			<p><a href="https://foundation.wikimedia.org/" class="lnk--wikimedia-project" property="author" typeof="Organization">A Wikimedia Foundation project</a></p>
+			<noscript><p><img src="https://piwik.wikimedia.org/piwik.php?idsite=16&rec=1" alt=""></p></noscript>
+		</div>
+	</footer>
+</body>
+</html>

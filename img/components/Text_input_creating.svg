@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="274" height="34" viewBox="0 0 274 34">
+	<g fill="none" fill-rule="evenodd">
+		<path fill="#FFF" stroke="#9AA0A7" d="M2.995.5h268.01a2.498 2.498 0 012.495 2.502v27.996a2.494 2.494 0 01-2.495 2.502H2.995A2.498 2.498 0 01.5 30.998V3.002A2.494 2.494 0 012.995.5z"/>
+		<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(0 1)">
+			<tspan x="35" y="22">Placeholder text</tspan>
+		</text>
+		<path fill="#222" d="M259 11c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm3 8.25l-.75.75-2.25-2.25-2.25 2.25-.75-.75 2.25-2.25-2.25-2.25.75-.75 2.25 2.25 2.25-2.25.75.75-2.25 2.25 2.25 2.25z"/>
+		<path stroke="#50E3C2" stroke-linecap="square" d="M265.5 16.5h7m-7-1h7m-7 3h7m-7-1h7m-27-1h7m-7-1h7m-7 3h7m-7-1h7"/>
+		<path fill="#222" d="M18 7C12.477 7 8 11.477 8 17s4.477 10 10 10 10-4.477 10-10S23.523 7 18 7z"/>
+		<path stroke="#50E3C2" stroke-linecap="square" d="M.5 16.5h7m-7-1h7m-7 3h7m-7-1h7m21-1h7m-7-1h7m-7 3h7m-7-1h7"/>
+	</g>
+</svg>
