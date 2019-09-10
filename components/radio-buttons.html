@@ -3,12 +3,12 @@
 	<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-	<meta property="og:title" content="Components: Buttons - Wikimedia Design Style Guide (WikimediaUI)">
+	<meta property="og:title" content="Components: Radio Buttons - Wikimedia Design Style Guide (WikimediaUI)">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components/buttons.html">
+	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components/links.html">
 	<meta property="og:image" content="https://design.wikimedia.org/style-guide/img/components/TODO.png">
 	<link rel="stylesheet" href="../css/build/wmui-style-guide.min.css">
-	<title>Components: Buttons – Wikimedia Design Style Guide</title>
+	<title>Components: Radio Buttons – Wikimedia Design Style Guide</title>
 	<script>
 		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
 	</script>
@@ -20,7 +20,7 @@
 	<link rel="preload" href="../fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
 	<script src="../js/wikimedia-design-style-guide.min.js" async></script>
 </head>
-<body class="page--components page--components-buttons" vocab="http://schema.org/" typeof="WebPage">
+<body class="page--components page--components-radio-buttons" vocab="http://schema.org/" typeof="WebPage">
 	<header id="header" class="header" role="banner">
 		<div class="content-box">
 			<a href="#content" class="is-aural is-focusable">Jump to content</a>
@@ -50,19 +50,19 @@
 								<li class="nav__sub-item"><a href="../visual-style_illustrations.html">Illustrations</a></li>
 							</ul>
 						</li>
-						<li class="nav__item is-on"><a href="links.html">Components</a>
+						<li class="nav__item is-on"><a href="../components.html">Components</a>
 							<ul class="nav__sub-items">
-								<li class="nav__sub-item is-on"><a href="links.html">Actions</a>
+								<li class="nav__sub-item"><a href="links.html">Actions</a>
 									<ul>
 										<li class="nav__sub-item"><a href="links.html">Links</a></li>
-										<li class="nav__sub-item is-on"><a href="buttons.html">Buttons</a></li>
+										<li class="nav__sub-item"><a href="buttons.html">Buttons</a></li>
 									</ul>
 								</li>
-								<li class="nav__sub-item"><a href="checkboxes.html">
+								<li class="nav__sub-item is-on"><a href="checkboxes.html">
 								Selection</a>
 									<ul>
 										<li class="nav__sub-item"><a href="checkboxes.html">Checkboxes</a></li>
-										<li class="nav__sub-item"><a href="radio-buttons.html">Radio Buttons</a></li>
+										<li class="nav__sub-item is-on"><a href="radio-buttons.html">Radio Buttons</a></li>
 										<li class="nav__sub-item"><a href="dropdowns.html">Dropdowns</a></li>
 									</ul>
 								</li>
@@ -87,52 +87,35 @@
 			<div class="col col--end">
 				<main id="content" class="content" role="main">
 					<div class="page__parent-title">Components</div>
-					<h1 class="page__title">Buttons</h1>
-						<p class="page__lead">Buttons signal an action that will occur when the user taps on them. Buttons can include an icon, a label, an action icon (dropdown) or any mixture of the three. Buttons may have multiple states and classes to communicate how they can be interacted with by the user and what action they represent.</p>
-						<p>The provided styles ensure that enabled buttons look clickable and are accessible to all users. The button styles were designed that accessible color variations are used to distinguish the button’s various states (eg. disabled, hover, active).</p>
-						<figure class="text-input-intro">
-							<img src="../img/components/Buttons_Normal_intro.svg" onerror="this.src='../img/components/Buttons_Normal_intro@2x.png'" alt="Button visual example">
+					<h1 class="page__title">Radio Buttons</h1>
+						<p class="page__lead">Radio buttons are part of a group of two or more. They signal an action where users can only select one radio button.</p>
+						<figure class="radio-buttons-intro" style="float: left;">
+							<img src="../img/components/Radio_Buttons_intro_off.svg" onerror="this.src='../img/components/Radio_Buttons_intro_off@2x.png'" alt="Radio buttons visual example">
+						</figure>
+						<figure class="radio-buttons-intro">
+							<img src="../img/components/Radio_Buttons_intro_on.svg" onerror="this.src='../img/components/Radio_Buttons_intro_on@2x.png'" alt="Radio button visual example">
 						</figure>
 
-						<h2>Using buttons</h2>
-						<p>Buttons must carry a label. In case of icon only buttons, it will become available only to screen reader users. They can carry an icon or an indicator.</p>
+						<h2>Using radio buttons</h2>
+						<p>Radio buttons must feature a descriptive label. They must be part of a group of radio buttons of at least two.</p>
 
 						<h2>Designing</h2>
-						<!--figure class="text-input-anatomy-TODO">
-							<img src="../img/components/Text_Input.svg" onerror="this.src='../img/components/Text_Input@2x.png'" alt="Text input field visual design and states">
-							<figcaption class="figure__caption"></figcaption>
-						</figure-->
-						<p><strong>Label</strong><br>
-							Button labels should be as short as possible, with text that clearly states what action will be taken once the button is pressed (eg. download, submit form, search). </p>
-						<p><strong>Icon</strong><br>
-							Icons are used to simplify user recognition and provide ability to shorten button label to a minimum.
-						</p>
-						<p><strong>Indicator</strong><br>
-							Indicators are special icons that are reserved for a small number of use cases, most prominently on buttons with additional menus attached signified by a down indicator.
+						<p><strong>Radio</strong><br>
+							Radio buttons make the selection visually distinct. </p>
+						<p><strong>Radio button label</strong><br>
+							Its labels should be as short as possible, with text that clearly states what selection is chosen once the corresponding form is submitted.
 						</p>
 
-						<p></p>
-						<p><strong>Normal buttons (framed) and quiet buttons (frameless)</strong><br>
-						Normal framed buttons should be the default choice.
-						</p>
-
-						<h2>States of buttons</h2>
-						<p>Buttons have following visually separate states: </p>
-						<figure class="buttons__states">
-							<img src="../img/components/Buttons_Normal_&_Primary.svg" onerror="this.src='../img/components/Buttons_Normal_&_Primary@2x.png'" alt="Buttons states">
-							<figcaption class="figure__caption"></figcaption>
+						<h2>States of radio buttons</h2>
+						<p>The styles for its states were designed with accessible color variations additional to the 'disc' icon to distinguish the checkbox' following visually separated states in switched on and off mode (eg. disabled, hover, active).:  </p>
+						<figure class="component-states">
+							<img src="../img/components/Radio_Buttons_states.svg" onerror="this.src='../img/components/Radio_Buttons_states@2x.png'" alt="Radio buttons visual design and states">
 						</figure>
 
-						<h2>Types</h2>
-						<h3>Primary buttons</h3>
-						<p>Primary buttons signal the single, primary action in a given view (either a page or a dialog).</p>
+						<!-- h2>Types</h2 -->
 
-						<h3>Button groups</h3>
-						<figure class="buttons__states">
-							<img src="../img/components/Button_Group.svg" onerror="this.src='../img/components/Button_Group@2x.png'" alt="Buttons states">
-							<figcaption class="figure__caption"></figcaption>
-						</figure>
-						<h3>Toggle buttons</h3>
+						<h2>Coding</h2>
+						<p>See <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#RadioSelectWidget" target="_blank" rel="noopener">OOUI's demos section of radio buttons</a>.</p>
 				</main>
 			</div>
 		</div>

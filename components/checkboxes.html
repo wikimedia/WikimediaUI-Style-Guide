@@ -20,7 +20,7 @@
 	<link rel="preload" href="../fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
 	<script src="../js/wikimedia-design-style-guide.min.js" async></script>
 </head>
-<body class="page--components page--components-links" vocab="http://schema.org/" typeof="WebPage">
+<body class="page--components page--components-checkboxes" vocab="http://schema.org/" typeof="WebPage">
 	<header id="header" class="header" role="banner">
 		<div class="content-box">
 			<a href="#content" class="is-aural is-focusable">Jump to content</a>
@@ -89,28 +89,30 @@
 					<div class="page__parent-title">Components</div>
 					<h1 class="page__title">Checkboxes</h1>
 						<p class="page__lead">Checkboxes signal an action that will let the user navigate to another view, when they click or tap on them.</p>
-						<figure class="text-input-intro">
+						<figure class="checkboxes-intro">
 							<img src="../img/components/Checkbox_intro.svg" onerror="this.src='../img/components/Checkbox_intro@2x.png'" alt="Checkbox visual example">
 						</figure>
 
 						<h2>Using checkboxes</h2>
-						<p>Checkboxes must feature a descriptive label.</p>
+						<p>Checkboxes must feature a descriptive label. They can appear standalone or in groups.</p>
 
 						<h2>Designing</h2>
 						<p><strong>Checkbox</strong><br>
 							Checkboxes make the selection visually distinct. </p>
 						<p><strong>Checkbox label</strong><br>
-							Icons are used to simplify user recognition and provide ability to shorten link text to a minimum. Icons should be limited to differentiate from a standard hyperlink (i.e. if it does something other than navigating to a new page).
+							Its labels should be short, with text that clearly states what action is selected.
 						</p>
 
 						<h2>States of checkboxes</h2>
-						<p>The link styles outlined here were designed with accessible color variations to distinguish the link’s following visually separated states (eg. disabled, hover, active).: </p>
+						<p>The styles for its states were designed with accessible color variations additional to the 'tick' icon to distinguish the checkbox' following visually separated states in switched on and off mode (eg. disabled, hover, active).: </p>
 						<figure class="component-states">
 							<img src="../img/components/Checkboxes_states.svg" onerror="this.src='../img/components/Checkboxes_states@2x.png'" alt="Text input field visual design and states">
-							<figcaption class="figure__caption"></figcaption>
 						</figure>
 
 						<!-- h2>Types</h2 -->
+
+						<h2>Coding</h2>
+						<p>See <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#CheckboxInputWidget" target="_blank" rel="noopener">OOUI's demos section of checkboxes</a>.</p>
 				</main>
 			</div>
 		</div>
