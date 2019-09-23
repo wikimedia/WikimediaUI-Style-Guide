@@ -62,12 +62,11 @@
 					<h1 class="page__title">Typography</h1>
 
 					<p>Wikimedia projects rely on writing and reading. Typography is a key component of their design. Consider the typeface, size, style, and spacing of your text to achieve good <a href="https://en.wikipedia.org/wiki/Readability">readability</a>. Our typographic choices make our content accessible, present it in a neutral way, and convey its reliability.</p>
-					<img src="img/visual-style/typography-specimen@2x.png" alt="Lato and Charter typeface specimen" role="img">
+					<img src="img/visual-style/typography-readability@2x.png" alt="Content typesetting following the guidelines">
 
 					<section id="readability">
 						<h2>Readability</h2>
 						<p>Content should be readable by everyone, regardless of their circumstances. Color blindess or the sun on a device's screen should not be barriers to access.</p>
-						<img src="img/visual-style/typography-readability@2x.png" alt="Content typeset following the guidelines">
 
 						<h3>Contrast</h3>
 						<p>When using text, make sure that it provides enough contrast to be read comfortably. Check the contrast between the colors used for the text and its background. Provide at least level AA sufficient contrast (4.5:1). The <a href="visual-style_colors.html">color palette</a> provides the contrast levels for pure white and black surfaces, but you need to ensure the contrast on other combinations.</p>
@@ -105,26 +104,23 @@
 
 					<section id="typefaces">
 						<h2>Typefaces</h2>
-						<p>Charter (supported by the Charis SIL font implementation) and Lato are the recommended typefaces, when available.</p>
-						<ul>
-							<li><b>Charter</b> is a serif typeface designed by Matthew Carter in 1987. Charter has a simplified and clean structure that works well, even on low resolution displays. Although <a href="https://en.wikipedia.org/wiki/Bitstream_Charter">Bitstream Charter</a> is the original implementation for Charter, we recommend using <a href="https://en.wikipedia.org/wiki/Charis_SIL">Charis SIL</a> since it provides a wider Unicode support.</li>
-							<li><b><a href="http://www.latofonts.com/lato-free-fonts/">Lato</a></b> is a sans-serif typeface designed by Łukasz Dziedzic in 2010. Lato provides good readability even at small sizes.</li>
-						</ul>
-						<p>These fonts are provided as a reference, but you may use similar criteria when those fonts are not available in your context.</p>
+						<p>Text can be read in multiple languages on different devices. We recommend using the fonts already available on each device and operating system. This keeps the experience simple and consistent with the platform conventions and ensures widest language script support as provided by the operating systems themselves. The following sections provides a selection criteria for choosing appropriate typefaces, and how to apply it on different platforms.</p>
 
 						<h3>Font selection criteria</h3>
-						<p>Font selection depends on availability. Fonts are not always available for all scripts or all operating systems. The criteria for font selection is the following:</p>
+						<p>To select an appropriate font family for a given language script or device, follow these criteria:</p>
 						<ol>
 							<li><b>Readability.</b> Fonts with a bigger x-height and open shapes are preferred.</li>
 							<li><b>Neutral aspect.</b> The font should work with many different kinds of content without adding a particular voice to it.</li>
 							<li><b>Simple shapes.</b> Fonts with less complex shapes work better at smaller sizes, on low-resolution devices, and reduce printing costs.</li>
 							<li><b>Open.</b> Open source fonts are preferred to align with the open knowledge they deliver.</li>
 						</ol>
-						<p>To extend the font family to new scripts or devices, the above criteria should be followed. Common cases in which you need to look for alternatives are:</p>
-						<p><b>Lack of a font delivery mechanism.</b> In cases where custom fonts cannot be delivered to the user (e.g., through web fonts technology), you need to define alternatives. Default fonts such as Lato and Charter/Charis can still be recommended as primary options for users that installed those fonts themselves. A wider set of fallback options from those available in the user device/operating system may be needed. Possible fallback options:</p>
-						<ul>
-							<li><b><a href="https://en.wikipedia.org/wiki/Georgia_(typeface)">Georgia</a></b> (present in many operating systems) can be a fallback for Charter.</li>
-							<li><b>Operating system default sans-serif typefaces aka system fonts</b> would be used when performance of web font loading, cross-language issues come into play or in the absence of Lato. <br>Equivalent CSS code is <pre><span style="color:#72777d;">/**
+
+						<h3>Platform-specific fonts</h3>
+						<p>We recommend relying on the default operating system default sans-serif typefaces.</p>
+						<p>Most platforms have plenty of options for supporting latin-based languages, where the serif concept makes sense. Among the different system fonts we recommend <a href="https://en.wikipedia.org/wiki/Georgia_(typeface)">Georgia</a></b> (present in many operating systems) as a sans-serif font.</p>
+
+						<p>Below you can see an example CSS code to support the default system fonts:</p>
+ <pre><span style="color:#72777d;">/**
  * System font stack for sans-serif fonts
  *
  * `-apple-system` ('San Francisco' font) – Support Safari 9+ macOS and iOS, Firefox macOS
@@ -135,12 +131,18 @@
  * `Helvetica, Arial, sans-serif` – (Generic) Web fallback
  * Note that standard `system-ui` value has resulted in unresolved side-effects in certain OS/language combinations as of now and is therefore not included.
  */</span>
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, Helvetica, Arial, sans-serif;</pre></li>
-						</ul>
-						<p><b>Language support.</b> There is no font that supports all languages. Individual language communities can identify fonts that better support their languages, taking into account the above criteria. Possible fallback option incude:</p>
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, Helvetica, Arial, sans-serif;</pre>
+						<p>Fonts are not always available for all scripts or all operating systems. For example, Helvetica does not support the Korean script. Using the default font on the user device for Korean text seems the safest choice, unless there is a better candidate based on the selection criteria described above, and selected by someone familiar with the script.</p>
+
+						<h3>Platform-neutral fonts</h3>
+						In some cases you may be designing in a neutral-platform context. For example, creating mockups to convey a general interface concept targeting multiple platforms, or contributing to this style guide. In those cases, it is convenient to select free fonts that follow above criteria. We recommend Charter (supported by the Charis SIL font implementation), and Lato, when available in your language. As well as, the Noto font family for extended language support.</p>
 						<ul>
+							<li><b>Charter</b> is a serif typeface designed by Matthew Carter in 1987. Charter has a simplified and clean structure that works well, even on low resolution displays. Although <a href="https://en.wikipedia.org/wiki/Bitstream_Charter">Bitstream Charter</a> is the original implementation for Charter, we recommend using <a href="https://en.wikipedia.org/wiki/Charis_SIL">Charis SIL</a> since it provides a wider Unicode support.</li>
+							<li><b><a href="https://www.latofonts.com/lato-free-fonts/">Lato</a></b> is a sans-serif typeface designed by Łukasz Dziedzic in 2010. Lato provides good readability even at small sizes.</li>
 							<li>The <b><a href="https://en.wikipedia.org/wiki/Noto_fonts">Noto family</a></b> provides a great coverage of languages, providing good alternatives for both serif and sans-serif typefaces.</li>
 						</ul>
+						<img src="img/visual-style/typography-specimen@2x.png" alt="Lato and Charter typeface specimen" role="img">
+						<p>These fonts are provided as a reference, but you may select other free fonts using similar criteria when the recommended fonts are not available in your context.</p>
 					</section>
 
 					<section id="use-of-styles">
