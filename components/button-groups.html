@@ -5,10 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<meta property="og:title" content="Components: Buttons - Wikimedia Design Style Guide (WikimediaUI)">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components/buttons.html">
+	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components/button-groups.html">
 	<meta property="og:image" content="https://design.wikimedia.org/style-guide/img/components/TODO.png">
 	<link rel="stylesheet" href="../css/build/wmui-style-guide.min.css">
-	<title>Components: Buttons – Wikimedia Design Style Guide</title>
+	<title>Components: Button Groups – Wikimedia Design Style Guide</title>
 	<script>
 		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
 	</script>
@@ -20,7 +20,7 @@
 	<link rel="preload" href="../fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
 	<script src="../js/wikimedia-design-style-guide.min.js" async></script>
 </head>
-<body class="page--components page--components-buttons" vocab="http://schema.org/" typeof="WebPage">
+<body class="page--components page--components-button-groups" vocab="http://schema.org/" typeof="WebPage">
 	<header id="header" class="header" role="banner">
 		<div class="content-box">
 			<a href="#content" class="is-aural is-focusable">Jump to content</a>
@@ -55,8 +55,8 @@
 								<li class="nav__sub-item is-on"><a href="links.html">Actions</a>
 									<ul>
 										<li class="nav__sub-item"><a href="links.html">Links</a></li>
-										<li class="nav__sub-item is-on"><a href="buttons.html">Buttons</a></li>
-										<li class="nav__sub-item"><a href="button-groups.html">Button Groups</a></li>
+										<li class="nav__sub-item"><a href="buttons.html">Buttons</a></li>
+										<li class="nav__sub-item is-on"><a href="button-groups.html">Button Groups</a></li>
 									</ul>
 								</li>
 								<li class="nav__sub-item"><a href="checkboxes.html">
@@ -88,19 +88,18 @@
 			<div class="col col--end">
 				<main id="content" class="content" role="main">
 					<div class="page__parent-title">Components</div>
-					<h1 class="page__title">Buttons</h1>
-						<p class="page__lead">Buttons signal an action that will occur when the user taps on them. Buttons can include an icon, a label, an action icon (dropdown) or any mixture of the three. Buttons may have multiple states and classes to communicate how they can be interacted with by the user and what action they represent.</p>
-						<p>The provided styles ensure that enabled buttons look clickable and are accessible to all users. The button styles were designed that accessible color variations are used to distinguish the button’s various states (eg. disabled, hover, active).</p>
+					<h1 class="page__title">Button Groups</h1>
+						<p class="page__lead">Buttons signal a number of equally important actions that will occur when the user taps on them. Button Groups can include normal buttons with icon and or text label (dropdown) or any mixture of the three.</p>
 						<figure class="components__intro">
-							<img src="../img/components/buttons_normal_intro.svg" alt="button visual example">
+							<img src="../img/components/button_groups_intro.svg" alt="button groups visual example">
 						</figure>
 
-						<h2>Using buttons</h2>
+						<h2>Using button groups</h2>
 						<p>Buttons must carry a label. In case of icon only buttons, it will become available only to screen reader users. They can carry an icon or an indicator.</p>
 
 						<h2>Designing</h2>
 						<!--figure class="components__anatomy">
-							<img src="../img/components/text_input.svg" alt="text input field visual design and states">
+							<img src="../img/components/text_inputs.svg" alt="text input field visual design and states">
 							<figcaption class="figure__caption"></figcaption>
 						</figure-->
 						<p><strong>Label</strong><br>
@@ -117,10 +116,10 @@
 						Normal framed buttons should be the default choice.
 						</p>
 
-						<h2>States of buttons</h2>
+						<h2>States of button groups</h2>
 						<p>Buttons have following visually separate states (normal on the left, primary progressive and destructive buttons on the right): </p>
 						<figure class="components__states">
-							<img src="../img/components/buttons_normal_&_primary.svg" alt="buttons states">
+							<img src="../img/components/button_groups_states.svg" alt="button groups states">
 							<figcaption class="figure__caption"></figcaption>
 						</figure>
 
@@ -128,7 +127,11 @@
 						<h3>Primary buttons</h3>
 						<p>Primary buttons signal the single, primary action in a given view – a page or a dialog. As they should guide the user to the primary action (“call to action”) in a view, they should not be used twice or more.</p>
 
-						<h3>Toggle buttons</h3>
+						<h3>Button groups</h3>
+						<figure class="components__types">
+							<img src="../img/components/button_groups.svg" alt="Buttons states">
+							<figcaption class="figure__caption"></figcaption>
+						</figure>
 				</main>
 			</div>
 		</div>
