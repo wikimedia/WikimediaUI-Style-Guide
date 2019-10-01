@@ -10,12 +10,12 @@
     <generator>Sketch</generator>
     <item>
       <title><![CDATA[WikimediaUI Components, Icons and Colors Library]]></title>
-      <pubDate>Fri, 09 Aug 2019 15:59:00 +0000</pubDate>
+      <pubDate>Mon, 07 Oct 2019 23:20:00 +0000</pubDate>
       <!--
         Use random token on update, for example with http://tools.andidittrich.de/Token.html
         Increase version on update
       -->
-      <enclosure url="https://design.wikimedia.org/style-guide/resources/WikimediaUI-components_overview.sketch?token=wEFyyWo5y7jS4IrlrZUv" type="application/octet-stream" sparkle:version="1.0.1"/>
+      <enclosure url="https://design.wikimedia.org/style-guide/resources/WikimediaUI-components_overview.sketch?token=9VWuuuBMZ1lBUnnUcYwH" type="application/octet-stream" sparkle:version="1.1.0"/>
     </item>
   </channel>
 </rss>
