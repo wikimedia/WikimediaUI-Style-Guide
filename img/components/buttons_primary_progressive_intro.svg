@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="123px" height="32px" viewBox="0 0 123 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>buttons_primary_progressive_intro</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="WikimediaUI-components_overview" transform="translate(-2140.000000, -256.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="14720" height="3264"></rect>
+            <g id="QUIET-BUTTONS" transform="translate(1948.000000, 143.000000)">
+                <g id="Quiet-Buttons-X" transform="translate(0.000000, 113.000000)"></g>
+            </g>
+            <g id="BUTTONS-NORMAL-&amp;-PRIMARY" transform="translate(1759.000000, 143.000000)">
+                <g id="Primary-Buttons-X" transform="translate(1.000000, 113.000000)">
+                    <rect id="BG" stroke="#3366CC" fill="#3366CC" x="380.5" y="0.5" width="122" height="31" rx="2"></rect>
+                    <text id="8:16:8:16" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="396.452" y="23">Progressive</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
