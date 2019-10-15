@@ -12,10 +12,12 @@ Fork, then clone the repo:
 $ git clone git@github.com:your-username/WikimediaUI-Style-Guide.git
 ```
 
-Setup your system. Change to the cloned folder and type:
+Setup your system. Change to the cloned folder and type for npm package manager to install needed packages.
+Additionally we're relying on [Git LFS](https://github.com/git-lfs/git-lfs/wiki/Installation) for the large binary Sketch, Illustrator and ZIP files to keep the repo lean.
 
 ```console
 $ npm install
+$ git lfs pull
 ```
 
 Make your changes. To automatically watch for changes, run:
