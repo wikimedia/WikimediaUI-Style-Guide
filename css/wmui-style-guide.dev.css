@@ -520,6 +520,10 @@ sup {
 }
 */
 
+.figures--full {
+	background-color: var( --wmui-color-base90 );
+}
+
 .figure__caption {
 	color: var( --color-base--subtle );
 	clear: both;
@@ -981,6 +985,13 @@ sup {
 		margin-right: 1.6rem;
 	}
 
+	.figure--this-is-for-everyone img {
+		width: 100%;
+		max-width: 568px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.color {
 		width: 61.8%;
 	}
@@ -1072,6 +1083,10 @@ sup {
 
 	.figures-do-dont .figure {
 		max-width: 61.8%;
+	}
+
+	.figure--this-is-for-everyone img {
+		max-width: none;
 	}
 }
 
