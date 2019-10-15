@@ -89,11 +89,11 @@
 				<main id="content" class="content" role="main">
 					<div class="page__parent-title">Components</div>
 					<h1 class="page__title">Buttons</h1>
-						<p class="page__lead">Buttons signal an action that will occur when the user taps on them. Buttons can include an icon, a label, an action icon (dropdown) or any mixture of the three. Buttons may have multiple states and classes to communicate how they can be interacted with by the user and what action they represent.</p>
-						<p>The provided styles ensure that enabled buttons look clickable and are accessible to all users. The button styles were designed that accessible color variations are used to distinguish the button’s various states (eg. disabled, hover, active).</p>
+						<p class="page__lead">Buttons signal an action that will occur when the user taps on them. Buttons can include an icon, a label, an action icon (dropdown) or any mixture of the three. Buttons  have multiple states and may have classes to communicate how they can be interacted with by the user and what action they represent.</p>
 						<figure class="components__intro">
 							<img src="../img/components/buttons_normal_intro.svg" alt="button visual example">
 						</figure>
+						<p>Enabled buttons look clickable and are accessible to all users. The button styles distinguish each button’s state (eg. disabled, hover, active) in accessible color variations.</p>
 
 						<h2>Using buttons</h2>
 						<p>Buttons must carry a label. In case of icon only buttons, it will become available only to screen reader users. They can carry an icon or an indicator.</p>
@@ -104,17 +104,17 @@
 							<figcaption class="figure__caption"></figcaption>
 						</figure-->
 						<p><strong>Label</strong><br>
-							Button labels should be as short as possible, with text that clearly states what action will be taken once the button is pressed (eg. download, submit form, search). </p>
+							Button labels should be as short as possible, with text that clearly states what action follows clicking the button (eg. download, submit form, search). </p>
 						<p><strong>Icon</strong><br>
 							Icons are used to simplify user recognition and provide ability to shorten button label to a minimum.
 						</p>
 						<p><strong>Indicator</strong><br>
-							Indicators are special icons that are reserved for a small number of use cases, most prominently on buttons with additional menus attached signified by a down indicator.
+							Indicators are special icons for a small number of use cases. The only indicator on buttons is 'down' when menus are attached.
 						</p>
 
 						<p></p>
 						<p><strong>Normal buttons (framed) and quiet buttons (frameless)</strong><br>
-						Normal framed buttons should be the default choice.
+						Normal framed buttons are the default choice. Quiet buttons should only be used in views, where normal buttons need to be further de-emphasized.
 						</p>
 
 						<h2>States of buttons</h2>
@@ -132,14 +132,18 @@
 						<figure class="components__intro">
 							<img src="../img/components/buttons_primary_destructive_intro.svg" alt="primary destructive button visual example">
 						</figure>
-						<p>Primary buttons signal the single, primary action in a given view – a page or a dialog. As they should guide the user to the primary action (“call to action”) in a view, they should not be used twice or more.</p>
-						<p>They come in two so-called flag variants:</p>
+						<p>Primary buttons signal the single, primary action in a given view – a page or a dialog. As they should guide the user to the most important action (“call to action”) in a view, they should not be used twice or more.</p>
+						<p>They come in two “flags” or variants:</p>
 						<ul>
-							<li>Progressive: Use progressive variant for actions which lead to a next step in the process.</li>
-							<li>Destructive: Use destructive buttons for actions that remove or limit, such as deleting a page or blocking a user. Don't use it for actions, such as cancel buttons.</li>
+							<li><b>Progressive</b>: Use progressive variant for actions which lead to a next step in the process.</li>
+							<li><b>Destructive</b>: Use destructive buttons for actions that remove or limit, such as deleting a page or blocking a user. Don't use it for actions, such as cancel buttons.</li>
 						</ul>
 
 						<h3>Toggle buttons</h3>
+						<figure class="components__intro">
+							<img src="../img/components/buttons_toggle_intro.svg" alt="toggle buttons visual example">
+						</figure>
+						<p>Toggle buttons feature an on and an off state. Use them for state-persistent user actions, that are longer then a normal button click action.</p>
 				</main>
 			</div>
 		</div>
