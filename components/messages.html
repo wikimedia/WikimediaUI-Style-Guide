@@ -3,12 +3,12 @@
 	<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-	<meta property="og:title" content="Components: Dropdowns - Wikimedia Design Style Guide (WikimediaUI)">
+	<meta property="og:title" content="Components: Messages - Wikimedia Design Style Guide (WikimediaUI)">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components_text-inputs-and-textarea.html">
+	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components/links.html">
 	<meta property="og:image" content="https://design.wikimedia.org/style-guide/img/components/TODO.png">
 	<link rel="stylesheet" href="../css/build/wmui-style-guide.min.css">
-	<title>Components: Dropdowns – Wikimedia Design Style Guide</title>
+	<title>Components: Messages – Wikimedia Design Style Guide</title>
 	<script>
 		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
 	</script>
@@ -20,7 +20,7 @@
 	<link rel="preload" href="../fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
 	<script src="../js/wikimedia-design-style-guide.min.js" async></script>
 </head>
-<body class="page--components page--components-dropdowns" vocab="http://schema.org/" typeof="WebPage">
+<body class="page--components page--components-links" vocab="http://schema.org/" typeof="WebPage">
 	<header id="header" class="header" role="banner">
 		<div class="content-box">
 			<a href="#content" class="is-aural is-focusable">Jump to content</a>
@@ -56,14 +56,15 @@
 									<ul>
 										<li class="nav__sub-item"><a href="links.html">Links</a></li>
 										<li class="nav__sub-item"><a href="buttons.html">Buttons</a></li>
+										<li class="nav__sub-item"><a href="button-groups.html">Button Groups</a></li>
 									</ul>
 								</li>
-								<li class="nav__sub-item is-on"><a href="checkboxes.html">
+								<li class="nav__sub-item"><a href="checkboxes.html">
 								Selection</a>
 									<ul>
 										<li class="nav__sub-item"><a href="checkboxes.html">Checkboxes</a></li>
 										<li class="nav__sub-item"><a href="radio-buttons.html">Radio Buttons</a></li>
-										<li class="nav__sub-item is-on"><a href="dropdowns.html">Dropdowns</a></li>
+										<li class="nav__sub-item"><a href="dropdowns.html">Dropdowns</a></li>
 									</ul>
 								</li>
 								<li class="nav__sub-item"><a href="text-inputs-and-textarea.html">
@@ -72,9 +73,9 @@
 										<li class="nav__sub-item"><a href="text-inputs-and-textarea.html">Text inputs and textarea</a></li>
 									</ul>
 								</li>
-								<li class="nav__sub-item"><a href="messages.html">Display</a>
+								<li class="nav__sub-item is-on"><a href="messages.html">Display</a>
 									<ul>
-										<li class="nav__sub-item"><a href="messages.html">Messages</a></li>
+										<li class="nav__sub-item is-on"><a href="messages.html">Messages</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -87,32 +88,24 @@
 			<div class="col col--end">
 				<main id="content" class="content" role="main">
 					<div class="page__parent-title">Components</div>
-					<h1 class="page__title">Dropdowns</h1>
-						<p class="page__lead"></p>
-
-						<h2>Using dropdowns</h2>
-						<p>Dropdowns must feature a label stating the current selection and a menu of at least two, preferably three option.</p>
-
-						<h2>Layouting</h2>
-						<figure class="components__anatomy">
-							<img src="../img/components/dropdowns_intro.svg" alt="dropdowns visual design and states">
-							<figcaption class="figure__caption"></figcaption>
+					<h1 class="page__title">Messages</h1>
+						<p class="page__lead">Messages.</p>
+						<figure class="components__intro">
+							<img src="../img/components/messages_notice.svg" alt="link visual example">
 						</figure>
-						<p><strong>Label</strong><br>
-						Dropdown labels communicate what selections the component conveys. Labels are obligatory for dropdowns.</p>
+
+						<h2>Using messages</h2>
+						<p>Messages must include a descriptive text or an icon or a combination of the two.</p>
+
+						<h2>Designing</h2>
+						<p><strong>Message text</strong><br>
+							Message text should provide clear and short as possible feedback to the users and possibly provide next steps if available. </p>
 						<p><strong>Icon</strong><br>
-							Icons simplify identification for the available selection in dropdowns by the user. They are optional.
+							Icons are used to simplify user recognition and provide ability to shorten link text to a minimum. Icons should be limited to differentiate from a standard hyperlink (i.e. if it does something other than navigating to a new page).
 						</p>
 
-						<h2>States of dropdowns</h2>
-						<p>Dropdowns have following visually separate states: </p>
-						<figure class="components__states">
-							<img src="../img/components/dropdowns_states.svg" alt="dropdowns states">
-							<figcaption class="figure__caption"></figcaption>
-						</figure>
+						<h2>Types</h2>
 
-						<h2>Coding</h2>
-						<p>See <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#demo-section-dropdown" target="_blank" rel="noopener">OOUI's demos section of dropdowns</a>.</p>
 				</main>
 			</div>
 		</div>

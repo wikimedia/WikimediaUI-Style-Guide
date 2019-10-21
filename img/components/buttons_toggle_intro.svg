@@ -1,32 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="298px" height="34px" viewBox="0 0 298 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
-    <title>buttons_toggle_intro</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Artboard-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="WikimediaUI-components_overview" transform="translate(-1951.000000, -719.000000)">
-            <rect fill="#FFFFFF" x="0" y="0" width="14720" height="3264"></rect>
-            <g id="QUIET-BUTTONS" transform="translate(1948.000000, 143.000000)">
-                <g id="Quiet-Buttons-X" transform="translate(0.000000, 113.000000)">
-                    <g id="Icon" transform="translate(0.000000, 341.000000)"></g>
-                </g>
-            </g>
-            <g id="BUTTONS-NORMAL-&amp;-PRIMARY" transform="translate(1759.000000, 143.000000)">
-                <g id="Normal-&amp;-Primary-Buttons-X" transform="translate(1.000000, 113.000000)">
-                    <g id="Button-toggle-/-!default" transform="translate(192.000000, 464.000000)">
-                        <rect id="bg" stroke="#A2A9B1" stroke-width="1" fill="#F8F9FA" fill-rule="evenodd" x="0.5" y="0.5" width="107" height="31" rx="2"></rect>
-                        <text id="Neutral" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="17" fill="#222222">
-                            <tspan x="16" y="23">Toggle off</tspan>
-                        </text>
-                    </g>
-                    <g id="Button-toggle-/-:selected" transform="translate(381.000000, 464.000000)">
-                        <rect id="bg" stroke="#2A4B8D" stroke-width="1" fill="#2A4B8D" fill-rule="evenodd" x="0.5" y="0.5" width="107" height="31" rx="2"></rect>
-                        <text id="Neutral" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" line-spacing="17" fill="#FFFFFF">
-                            <tspan x="16" y="23">Toggle on</tspan>
-                        </text>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="298" height="34" viewBox="0 0 298 34">
+	<title>
+		buttons_toggle_intro
+	</title>
+	<desc>
+		Created with Sketch.
+	</desc>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-1951 -719)">
+			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
+			<g id="BUTTONS-NORMAL-&amp;-PRIMARY" transform="translate(1759 143)">
+				<g id="Normal-&amp;-Primary-Buttons-X" transform="translate(1 113)">
+					<g id="Button-toggle-/-!default" transform="translate(192 464)">
+						<rect id="bg" width="107" height="31" x=".5" y=".5" fill="#F8F9FA" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
+						<text id="Neutral" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+							<tspan x="16" y="23">Toggle off</tspan>
+						</text>
+					</g>
+					<g id="Button-toggle-/-:selected" transform="translate(381 464)">
+						<rect id="bg" width="107" height="31" x=".5" y=".5" fill="#2A4B8D" fill-rule="evenodd" stroke="#2A4B8D" stroke-width="1" rx="2"/>
+						<text id="Neutral" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+							<tspan x="16" y="23">Toggle on</tspan>
+						</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
 </svg>
