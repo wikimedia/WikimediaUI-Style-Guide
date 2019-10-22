@@ -1350,7 +1350,8 @@ sup {
 		margin-right: 1.6rem;
 	}
 
-	.figure--this-is-for-everyone img {
+	.figure--this-is-for-everyone img,
+	.figure--trustworthy-yet-joyful img {
 		width: 100%;
 		max-width: 568px;
 		margin-left: auto;
@@ -1450,7 +1451,8 @@ sup {
 		max-width: 61.8%;
 	}
 
-	.figure--this-is-for-everyone img {
+	.figure--this-is-for-everyone img,
+	.figure--trustworthy-yet-joyful img {
 		max-width: none;
 	}
 }
