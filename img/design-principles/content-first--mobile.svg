@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="348" height="222" viewBox="0 0 348 222">
+	<defs>
+		<linearGradient id="content-first--mobile-d" x1="10.059%" x2="10.059%" y1="-69.737%" y2="75.133%">
+			<stop offset="0%" stop-color="#FFF" stop-opacity="0"/>
+			<stop offset="100%" stop-color="#FFF"/>
+		</linearGradient>
+		<filter id="content-first--mobile-b" width="124.9%" height="144.3%" x="-12.4%" y="-15.8%" filterUnits="objectBoundingBox">
+			<feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.466853487 0"/>
+		</filter>
+		<path id="content-first--mobile-a" d="M2 5.016h99.109l4.64-4.864 4.386 4.864h169.241a2 2 0 012 2V156a2 2 0 01-2 2H2a2 2 0 01-2-2V7.016a2 2 0 012-2z"/>
+	</defs>
+	<g fill="none" fill-rule="evenodd" transform="translate(24 23)">
+		<path fill="#C8CCD1" d="M0 .741h218v10.37H0z"/>
+		<rect width="72.171" height="11.852" x="87.795" fill="#36C" rx="2"/>
+		<path fill="#C8CCD1" d="M0 18.519h218v10.37H0zM0 36.296h218v10.37H0zM0 54.074h218v10.37H0zM0 71.852h218v10.37H0zM0 89.63h89.283V100H0z"/>
+		<g transform="translate(18 7)">
+			<mask id="content-first--mobile-c" fill="#fff">
+				<use xlink:href="#content-first--mobile-a"/>
+			</mask>
+			<use fill="#000" filter="url(#content-first--mobile-b)" xlink:href="#content-first--mobile-a"/>
+			<use fill="#FFF" xlink:href="#content-first--mobile-a"/>
+		</g>
+		<text fill="#222" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" letter-spacing="-.11">
+			<tspan x="32" y="35">Spiral galaxies</tspan> <tspan x="114.397" y="35" font-family="Helvetica" font-weight="normal"> form a </tspan> <tspan x="32" y="52" font-family="Helvetica" font-weight="normal">class of galaxy originally </tspan> <tspan x="32" y="69" font-family="Helvetica" font-weight="normal">described by Edwin </tspan> <tspan x="32" y="86" font-family="Helvetica" font-weight="normal">Hubble in his 1936 work </tspan> <tspan x="32" y="103" font-family="Helvetica" font-weight="normal">The Realm of the </tspan> <tspan x="32" y="120" font-family="Helvetica" font-weight="normal">Nebulae and, as such, </tspan> <tspan x="32" y="137" font-family="Helvetica" font-weight="normal">form part of the Hubble </tspan> <tspan x="32" y="154" font-family="Helvetica" font-weight="normal">sequence. Most spiral </tspan> <tspan x="32" y="171" font-family="Helvetica" font-weight="normal">galaxies consist of a </tspan> <tspan x="32" y="188" font-family="Helvetica" font-weight="normal">flat, rotating disk </tspan> <tspan x="32" y="205" font-family="Helvetica" font-weight="normal">containing stars, gas </tspan> <tspan x="32" y="222" font-family="Helvetica" font-weight="normal">and dust, and a central </tspan> <tspan x="32" y="239" font-family="Helvetica" font-weight="normal">concentratio</tspan> <tspan x="96.053" y="239" font-family="Helvetica" font-weight="normal">n</tspan>
+		</text>
+		<path fill="#FFF" d="M18 145h154v17H18z"/>
+		<path fill="url(#content-first--mobile-d)" d="M18 124h154v25H18z"/>
+		<g fill="#000" fill-rule="nonzero" opacity=".81">
+			<path d="M157 146.25a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5zm0 5.5a1.75 1.75 0 110-3.5 1.75 1.75 0 010 3.5z"/>
+			<path d="M158 146.645l-.25-1.645h-1.5l-.25 1.645a3.5 3.5 0 012 0zm-2 6.71l.25 1.645h1.5l.25-1.645a3.5 3.5 0 01-2 0zm4.08-5.02l1-1.34-1.08-1.06-1.34 1a3.5 3.5 0 011.415 1.415l.005-.015zm-6.16 3.33l-.985 1.335 1.065 1.065 1.34-1a3.5 3.5 0 01-1.415-1.415l-.005.015zm6.435-.665l1.645-.25v-1.5l-1.645-.25a3.5 3.5 0 010 2zm-6.71-2l-1.645.25v1.5l1.645.25a3.5 3.5 0 010-2zm5.02 4.08l1.34 1 1.06-1.08-1-1.34a3.5 3.5 0 01-1.415 1.415l.015.005zm-3.33-6.16l-1.335-.985-1.065 1.065 1 1.34a3.5 3.5 0 011.4-1.42z"/>
+		</g>
+	</g>
+</svg>
