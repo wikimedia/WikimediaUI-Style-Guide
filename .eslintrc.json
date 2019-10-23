@@ -4,6 +4,6 @@
     	"wikimedia/client"
     ],
     "rules": {
-        "camelcase": [ 2, { "properties": "never" } ]
+        "camelcase": [ "error", { "properties": "never" } ]
     }
 }
