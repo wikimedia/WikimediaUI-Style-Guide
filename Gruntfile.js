@@ -74,8 +74,7 @@ module.exports = function ( grunt ) {
 			},
 			dev: [
 				'Gruntfile.js',
-				'js/src/**/*.js',
-				'!js/vendor/**/*.js'
+				'js/src/**/*.js'
 			]
 		},
 
