@@ -503,7 +503,21 @@ body {
 	background-color: #eaecf0; /* FIXME: var; */
 	color: #222;
 	margin: 0;
-	font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
+	font-family: -apple-system
+,
+'BlinkMacSystemFont'
+,
+'Segoe UI'
+,
+'Roboto'
+,
+'Lato'
+,
+'Helvetica'
+,
+'Arial'
+,
+sans-serif;
 	font-size: 1.6rem;
 	line-height: 1.6;
 }
@@ -529,7 +543,9 @@ h5 {
 }
 h1,
 .page__title {
-	font-family: Georgia, serif; /* Fallback */
+	font-family: Georgia
+,
+serif; /* Fallback */
 	font-size: 3.2rem;
 	font-weight: 400;
 }
@@ -556,7 +572,9 @@ blockquote {
 	border-left: 3px solid #c8ccd1; /* FIXME: var */
 	margin: 1.6rem 0 0;
 	padding: 0 3.2rem;
-	font-family: Georgia, serif; /* Fallback */
+	font-family: Georgia
+,
+serif; /* Fallback */
 	font-size: 2rem;
 	font-style: italic;
 	line-height: 1.5;
@@ -564,7 +582,21 @@ blockquote {
 blockquote cite {
 	display: block;
 	margin-top: 0.8rem;
-	font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
+	font-family: -apple-system
+,
+'BlinkMacSystemFont'
+,
+'Segoe UI'
+,
+'Roboto'
+,
+'Lato'
+,
+'Helvetica'
+,
+'Arial'
+,
+sans-serif;
 	font-size: 1.4rem;
 	font-style: normal;
 }
@@ -574,7 +606,15 @@ blockquote cite:before {
 code,
 pre,
 .mw-code {
-	font-family: 'Menlo', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+	font-family: 'Menlo'
+,
+'Consolas'
+,
+'Liberation Mono'
+,
+'Courier New'
+,
+monospace;
 }
 hr {
 	background: #eaecf0;
@@ -604,7 +644,9 @@ pre,
 .mw-code {
 	background-color: #f8f9fa;
 	color: #000;
-	border: 1px solid #a2a9b1;
+	border: 1px
+solid
+#a2a9b1;
 	padding: 1.2rem 2rem;
 	font-size: 1.4rem;
 	white-space: pre-wrap;
@@ -728,7 +770,21 @@ sup {
 		color: #222;
 		margin-top: 0;
 		height: 6.4rem;
-		font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
+		font-family: -apple-system
+,
+'BlinkMacSystemFont'
+,
+'Segoe UI'
+,
+'Roboto'
+,
+'Lato'
+,
+'Helvetica'
+,
+'Arial'
+,
+sans-serif;
 		font-size: 1.6rem;
 		font-weight: 400;
 		letter-spacing: 0.5px;
@@ -1089,7 +1145,21 @@ sup {
 		background-color: inherit;
 		display: block;
 		padding: 0;
-		font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
+		font-family: -apple-system
+,
+'BlinkMacSystemFont'
+,
+'Segoe UI'
+,
+'Roboto'
+,
+'Lato'
+,
+'Helvetica'
+,
+'Arial'
+,
+sans-serif;
 	}
 .color-code--hsb {
 			opacity: 0;
@@ -1229,7 +1299,21 @@ sup {
 .fonts-loaded cite,
 .fonts-loaded .site__title,
 .fonts-loaded .color-code {
-	font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
+	font-family: -apple-system
+,
+'BlinkMacSystemFont'
+,
+'Segoe UI'
+,
+'Roboto'
+,
+'Lato'
+,
+'Helvetica'
+,
+'Arial'
+,
+sans-serif;
 }
 /* ::: Text Block-Level Elements ::: */
 .fonts-loaded .page__title,

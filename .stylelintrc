@@ -4,6 +4,7 @@
 		"font-weight-notation": null,
 		"indentation": null,
 		"max-empty-lines": null,
-		"no-descending-specificity": null
+		"no-descending-specificity": null,
+		"unit-blacklist": null
 	}
 }
