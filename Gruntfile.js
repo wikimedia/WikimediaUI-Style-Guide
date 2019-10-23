@@ -69,6 +69,9 @@ module.exports = function ( grunt ) {
 
 		// Lint – JavaScript
 		eslint: {
+			options: {
+				cache: true
+			},
 			dev: [
 				'Gruntfile.js',
 				'js/src/**/*.js',
