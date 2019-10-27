@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="700" height="74" viewBox="0 0 700 74">
 	<title>
-		message_success
+		message success
 	</title>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<g id="WikimediaUI-components_overview" transform="translate(-6332 -2079)">
 			<g id="MESSAGES" transform="translate(6147 1464)">
-				<g id="message_success" transform="translate(185 615)">
+				<g id="message-success" transform="translate(185 615)">
 					<path id="Rectangle_fill6" fill="#D5FDF4" fill-rule="nonzero" stroke="#00AF89" d="M.5.5v73h699.001V.5H.5z"/>
 					<text id="A-success-message-wh" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
-						<tspan x="53" y="29">A success message</tspan> <tspan x="204.68" y="29" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400"> which means </tspan> <tspan x="310.792" y="29">the user did everything right </tspan> <tspan x="529.48" y="29" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400">and should know </tspan> <tspan x="53" y="53" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400">about it. Yay!</tspan>
+						<tspan x="53" y="29">A success message</tspan> <tspan font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400"> which means </tspan> <tspan>the user did everything right </tspan> <tspan font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400">and should know </tspan> <tspan x="53" y="53" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400">about it. Yay!</tspan>
 					</text>
 					<path id="Path" fill="#14866D" fill-rule="nonzero" d="M33 32.17L28.83 28l-1.41 1.41L33 35l12-12-1.41-1.42z"/>
 				</g>

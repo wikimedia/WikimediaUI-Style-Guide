@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<meta property="og:title" content="Components: Messages - Wikimedia Design Style Guide (WikimediaUI)">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components/links.html">
+	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components/messages.html">
 	<meta property="og:image" content="https://design.wikimedia.org/style-guide/img/components/TODO.png">
 	<link rel="stylesheet" href="../css/build/wmui-style-guide.min.css">
 	<title>Components: Messages – Wikimedia Design Style Guide</title>
@@ -20,7 +20,7 @@
 	<link rel="preload" href="../fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
 	<script src="../js/wikimedia-design-style-guide.min.js" async></script>
 </head>
-<body class="page--components page--components-links" vocab="http://schema.org/" typeof="WebPage">
+<body class="page--components page--components-messages" vocab="http://schema.org/" typeof="WebPage">
 	<header id="header" class="header" role="banner">
 		<div class="content-box">
 			<a href="#content" class="is-aural is-focusable">Jump to content</a>
@@ -89,19 +89,19 @@
 				<main id="content" class="content" role="main">
 					<div class="page__parent-title">Components</div>
 					<h1 class="page__title">Messages</h1>
-						<p class="page__lead">Messages to the user as system feedback can be delivered as block message with a longer explanation. The block messages are defined on this page. Or as inline message directly to a user input widget. Please go to <a href="inputs-with-validation.html">inputs with validation for inline validation messages</a>.</p>
+						<p class="page__lead">Messages to the user as system feedback can be delivered as block message with a longer explanation. The block messages, predominantely used in top or banner positions in the view are defined on this page. Or as inline message directly to a user input widget. Please go to <a href="inputs-with-validation.html">inputs with validation for inline validation messages</a>.</p>
 						<figure class="components__intro">
 							<img src="../img/components/messages_notice.svg" alt="Block message of neutral type visual example">
 						</figure>
 
 						<h2>Using messages</h2>
-						<p>Messages must include a descriptive text or an icon or a combination of the two.</p>
+						<p>Messages must include a descriptive text or a combination of text and an icon. Accessibility note: An additional icon adds a point of recognition for color blind users.</p>
 
 						<h2>Designing</h2>
 						<p><strong>Message text</strong><br>
 							Message text should provide clear and short as possible feedback to the users and possibly provide next steps if available. </p>
 						<p><strong>Icon</strong><br>
-							Icons are used to simplify user recognition and provide ability to shorten link text to a minimum. Icons should be limited to differentiate from a standard hyperlink (i.e. if it does something other than navigating to a new page).
+							Icons simplify user recognition and provide ability to shorten message text. Icons are limited to default pre-collection of each message type to ensure recognition.
 						</p>
 
 						<h2>Types</h2>
@@ -109,22 +109,25 @@
 						<figure class="components__intro">
 							<img src="../img/components/messages_notice.svg" alt="Block message of neutral type, visual example">
 						</figure>
+						<p>Neutral or notice block messages provide general user feedback. Accompany the message by the 'infoFilled' icon.</p>
 
 						<h3>Error message</h3>
 						<figure class="components__intro">
 							<img src="../img/components/messages_error.svg" alt="Block message of error type, visual example">
 						</figure>
+						<p>Error type feature the strongest visual priority of all system messages. Use to alert the user for immediate attention only needs. Accompany the message by the 'error' icon.</p>
 
 						<h3>Warning message</h3>
 						<figure class="components__intro">
 							<img src="../img/components/messages_warning.svg" alt="Block message of error type, visual example">
 						</figure>
+						<p>Warning type provide important messages the user should be cautious about. Accompany the message by the 'warning' icon.</p>
 
 						<h3>Success message</h3>
 						<figure class="components__intro">
 							<img src="../img/components/messages_success.svg" alt="Block message of error type, visual example">
 						</figure>
-
+						<p>Success type deliver feedback of a successful user interaction like publishing an article. Accompany the message by the 'success' icon.</p>
 				</main>
 			</div>
 		</div>

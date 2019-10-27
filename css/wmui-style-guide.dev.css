@@ -709,12 +709,19 @@ sup {
 		}
 
 
-/* ... Components ...
+/* ... Components ... */
+/*
 .page--components h2 {
 	border-bottom: 0;
 	padding-bottom: 0;
 }
 */
+
+.page--components-messages .components__intro {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /* ... Resources ... */
 .resources-table {
