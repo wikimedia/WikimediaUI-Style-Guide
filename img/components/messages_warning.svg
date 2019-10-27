@@ -10,7 +10,7 @@
 					<path id="Rectangle_fill6" fill="#FEF6E7" fill-rule="nonzero" stroke="#FC3" d="M.5.5v73h699.001V.5H.5z"/>
 					<path id="Shape" fill="#FC3" fill-rule="nonzero" d="M44.638 32.15l-8.11-14.06a1.85 1.85 0 00-1.53-1.09 1.85 1.85 0 00-1.52 1.09l-8.12 14.06c-.84 1.45-.15 2.64 1.52 2.64h16.24c1.67 0 2.36-1.19 1.52-2.64zm-8.64-.36h-2v-2h2v2zm0-4h-2v-6h2v6z"/>
 					<text id="A-warning-which-is-n" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
-						<tspan x="53" y="29">A warning</tspan> <tspan x="130.008" y="29" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400"> which is not stopping whatever the user just did, but needs to clear up </tspan> <tspan x="53" y="53" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400">why things might not work as expected. </tspan>
+						<tspan x="53" y="29">A warning</tspan> <tspan font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400"> which is not stopping whatever the user just did, but needs to clear up </tspan> <tspan x="53" y="53" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400">why things might not work as expected. </tspan>
 					</text>
 				</g>
 			</g>

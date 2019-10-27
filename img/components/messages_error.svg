@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="700" height="75" viewBox="0 0 700 75">
 	<title>
-		Error_top_ALT
+		Error block
 	</title>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<g id="WikimediaUI-components_overview" transform="translate(-6332 -1551)">
 			<g id="MESSAGES" transform="translate(6147 1464)">
-				<g id="Error_top_ALT" transform="translate(184 87)">
+				<g id="Error-block" transform="translate(184 87)">
 					<path id="Rectangle_fill6" fill="#FEE7E6" fill-rule="nonzero" stroke="#D33" d="M1.5.5v74h699.001V.5H1.5z"/>
 					<text id="An-error-which-means" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
-						<tspan x="54" y="27">An error </tspan> <tspan x="120.688" y="27" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">which means</tspan> <tspan x="214.928" y="27"> it&apos;s potentially stopping whatever the user just did </tspan> <tspan x="603.936" y="27" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">and </tspan> <tspan x="54" y="51" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">providing them a </tspan> <tspan x="178.496" y="51">clear message on what&apos;s wrong. </tspan> <tspan x="429.728" y="51" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">There&apos;s also an </tspan> <tspan x="542.64" y="51" text-decoration="underline">explanatory link</tspan> <tspan x="663.488" y="51">.</tspan>
+						<tspan x="54" y="28">An error </tspan> <tspan font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">which means</tspan> it&apos;s potentially stopping whatever the user just did <tspan font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">and </tspan> <tspan x="54" y="51" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">providing them a </tspan> <tspan x="178.496" y="51">clear message on what&apos;s wrong. </tspan> <tspan x="429.728" y="51" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">There&apos;s also an </tspan> <tspan x="542.64" y="51" text-decoration="underline">explanatory link</tspan> <tspan x="663.488" y="51">.</tspan>
 					</text>
 					<g id="Stop-icon" transform="translate(22 11)">
 						<path id="Polygon" fill="#D33" d="M14 3.05l7.071 2.928L24 13.05l-2.929 7.07L14 23.05l-7.071-2.93L4 13.05l2.929-7.072z" transform="rotate(22.33 14 13.05)"/>
