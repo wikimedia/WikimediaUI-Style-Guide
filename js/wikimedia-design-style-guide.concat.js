@@ -30,7 +30,7 @@
  * @see https://matomo.org/blog/2017/04/different-ways-embedding-piwik-tracking-code-faster-website-performance/
  */
 ( function () {
-	/* eslint-disable-next-line no-underscore-dangle, no-use-before-define */
+	/* eslint-disable-next-line no-underscore-dangle */
 	var _paq = window._paq || [];
 	_paq.push( [ 'setDomains', [ '*.design.wikimedia.org.' ] ] );
 	_paq.push( [ 'trackPageView' ] );
