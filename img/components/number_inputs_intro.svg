@@ -8,7 +8,7 @@
 		<g transform="translate(-199 -113)">
 			<rect width="159" height="31" x=".5" y=".5" fill="#F8F9FA" stroke="#A2A9B1" rx="2" transform="translate(200 114)"/>
 			<rect width="95" height="31" x=".5" y=".5" fill="#FFF" stroke="#9AA0A7" rx="2" transform="translate(233 114)"/>
-			<path fill="#FFF" d="M234 141h4v4h-4zM322 141h4v4h-4zM322 115h4v4h-4zM234 115h4v4h-4z"/>
+			<path fill="#FFF" d="M234 141h4v4h-4zm88 0h4v4h-4zm0-26h4v4h-4zm-88 0h4v4h-4z"/>
 			<text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16">
 				<tspan x="249" y="137">100</tspan>
 			</text>
