@@ -708,16 +708,17 @@ sup {
 			opacity: 0;
 		}
 
-.color-hint:before {
-	content: '';
-	background-color: #fff;
-	background-color: var( --color-hint );
-	display: inline-block;
-	width: 1.2rem;
-	height: 1.2rem;
-	margin: 0 0.4rem 0.3rem 0.2rem;
-	border-radius: 50%;
-	vertical-align: text-bottom;
+@supports ( --css: variables ) {
+	.color-hint:before {
+		content: '';
+		background-color: var( --color-hint );
+		display: inline-block;
+		width: 1.2rem;
+		height: 1.2rem;
+		margin: 0 0.4rem 0.3rem 0.2rem;
+		border-radius: 50%;
+		vertical-align: text-bottom;
+	}
 }
 
 /* ... Components ... */
