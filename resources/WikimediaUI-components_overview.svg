@@ -7,21 +7,15 @@
 		Created with Sketch.
 	</desc>
 	<defs>
+		<filter id="filter-110" width="105%" height="110%" x="-2.5%" y="-2.5%" filterUnits="objectBoundingBox">
+			<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"/>
+			<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+		</filter>
 		<filter id="filter-108" width="105%" height="110%" x="-2.5%" y="-2.5%" filterUnits="objectBoundingBox">
 			<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
 			<feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"/>
 			<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
-		</filter>
-		<filter id="filter-3" width="105%" height="110%" x="-2.5%" y="-2.5%" filterUnits="objectBoundingBox">
-			<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
-			<feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"/>
-			<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
-		</filter>
-		<filter id="filter-11" width="102.3%" height="102.8%" x="-1.1%" y="-.9%" filterUnits="objectBoundingBox">
-			<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
-			<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 		</filter>
 		<filter id="filter-12" width="105.1%" height="105.6%" x="-2.6%" y="-2.8%" filterUnits="objectBoundingBox">
 			<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
@@ -344,10 +338,11 @@
 			<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
 			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 		</filter>
-		<filter id="filter-110" width="105%" height="110%" x="-2.5%" y="-2.5%" filterUnits="objectBoundingBox">
-			<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
-			<feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"/>
-			<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+		<filter id="filter-11" width="102.3%" height="102.8%" x="-1.1%" y="-.9%" filterUnits="objectBoundingBox">
+			<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+			<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 		</filter>
 		<filter id="filter-112" width="105%" height="110%" x="-2.5%" y="-2.5%" filterUnits="objectBoundingBox">
 			<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
@@ -896,6 +891,11 @@
 			<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
 			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 		</filter>
+		<filter id="filter-3" width="105%" height="110%" x="-2.5%" y="-2.5%" filterUnits="objectBoundingBox">
+			<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"/>
+			<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+		</filter>
 		<path id="path-1" d="M4 297c-1.104 0-2 .89-2 2.002v27.996c0 1.106.891 2.002 2 2.002h456c1.104 0 2-.89 2-2.002v-27.996a1.998 1.998 0 00-2-2.002H4z"/>
 		<path id="path-32" d="M0 0h381v42H0z"/>
 		<path id="path-34" d="M0 0h381v42H0z"/>
@@ -969,8 +969,8 @@
 		<path id="path-193" d="M17.595 12.379a1.19 1.19 0 00-1.197-1.183 1.19 1.19 0 00-1.196 1.179v-.826c0-.857-.719-1.551-1.606-1.551-.886 0-1.592.694-1.592 1.55V10.35c0-.856-.728-1.55-1.611-1.55s-1.586.694-1.586 1.55V1.425C8.807.638 8.168 0 7.397 0c-.772 0-1.398.638-1.398 1.425v15.038l-3.603-4.659c-.346-.586-1.126-.779-1.742-.431-.617.348-.836 1.105-.49 1.691 0 0 2.817 4.369 3.967 6.093C5.281 20.882 7.17 23.01 7.17 24h7.989c0-1.672 2.443-4.283 2.443-6.798v-3.24l-.006-1.583z"/>
 		<path id="path-195" d="M17.595 12.379a1.19 1.19 0 00-1.197-1.183 1.19 1.19 0 00-1.196 1.179v-.826c0-.857-.719-1.551-1.606-1.551-.886 0-1.592.694-1.592 1.55V10.35c0-.856-.728-1.55-1.611-1.55s-1.586.694-1.586 1.55V1.425C8.807.638 8.168 0 7.397 0c-.772 0-1.398.638-1.398 1.425v15.038l-3.603-4.659c-.346-.586-1.126-.779-1.742-.431-.617.348-.836 1.105-.49 1.691 0 0 2.817 4.369 3.967 6.093C5.281 20.882 7.17 23.01 7.17 24h7.989c0-1.672 2.443-4.283 2.443-6.798v-3.24l-.006-1.583z"/>
 		<path id="path-197" d="M6.132 11.269l4.71.26c.72-.08.899-.568.397-1.085L.592.3C.09-.216.027-.049.026.671L0 14.984c-.001.72.467.947 1.04.505l2.742-3.272c.095-.074.208-.146.327-.218l2.97 7.517c.165.41.664.595 1.113.413.449-.18.68-.66.514-1.07l-2.972-7.518.398-.073z"/>
+		<rect id="path-8" width="348" height="321.3" x="416.596" y="207.24" rx="2"/>
 		<rect id="path-113" width="60" height="32" x="0" y="0" rx="16"/>
-		<rect id="path-6" width="348" height="321.3" x="801.596" y="785.94" rx="2"/>
 		<rect id="path-10" width="348" height="321.3" x="416.596" y="785.94" rx="2"/>
 		<rect id="path-13" width="348" height="321.3" x=".596" y=".24" rx="2"/>
 		<rect id="path-14" width="348" height="321.3" x="26.596" y="206.94" rx="2"/>
@@ -992,7 +992,7 @@
 		<rect id="path-98" width="272" height="32" x="193" y="151" rx="2"/>
 		<rect id="path-99" width="272" height="32" x="0" y="0" rx="2"/>
 		<rect id="path-102" width="61" height="36" x=".5" y="0" rx="18"/>
-		<rect id="path-8" width="348" height="321.3" x="416.596" y="207.24" rx="2"/>
+		<rect id="path-6" width="348" height="321.3" x="801.596" y="785.94" rx="2"/>
 		<rect id="path-114" width="60" height="32" x="0" y="0" rx="16"/>
 		<rect id="path-142" width="24" height="24" x="0" y="0" rx="2"/>
 		<rect id="path-143" width="24" height="24" x="0" y="4" rx="2"/>
@@ -1004,12 +1004,12 @@
 		<rect id="path-190" width="123" height="32" x="380" y="168" rx="2"/>
 		<rect id="path-191" width="120" height="32" x="543" y="168" rx="2"/>
 		<rect id="path-192" width="88" height="32" x="192" y="168" rx="2"/>
+		<circle id="path-103" cx="43.5" cy="18" r="10"/>
 		<circle id="path-127" cx="12" cy="16" r="12"/>
-		<circle id="path-2" cx="43" cy="16" r="10"/>
 		<circle id="path-105" cx="44" cy="16" r="10"/>
 		<circle id="path-109" cx="43" cy="16" r="10"/>
 		<circle id="path-111" cx="43" cy="16" r="10"/>
-		<circle id="path-103" cx="43.5" cy="18" r="10"/>
+		<circle id="path-2" cx="43" cy="16" r="10"/>
 		<circle id="path-128" cx="12" cy="16" r="12"/>
 		<circle id="path-129" cx="12" cy="12" r="12"/>
 		<text id="text-178" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
@@ -3743,7 +3743,7 @@
 				<text id="touch-area-features" fill="#C70070" font-family="Lato-Regular, Lato" font-size="12" font-weight="normal">
 					<tspan x="384" y="665">touch area features `width: 2em;` `height: 2em;`</tspan>
 				</text>
-				<rect style="mix-blend-mode:multiply" id="Rectangle-2" width="32" height="32" x="191" y="642" fill="#C70070" fill-opacity=".4" rx="1"/>
+				<rect id="Rectangle-2" width="32" height="32" x="191" y="642" fill="#C70070" fill-opacity=".4" rx="1" style="mix-blend-mode:multiply"/>
 				<g id="_Spec-101-/-16-sp-(1-em)-+-2-*-4-sp-(0.25-em)" stroke-width="4" transform="rotate(-90 215.5 36)">
 					<g id="_Spec-101-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(4)">
 						<path id="16-sp-(1-em)" d="M0 1.5h16"/>
@@ -4026,7 +4026,7 @@
 						<rect id="Mediawiki.Neutral.Hover-copy-9" width="25" height="25" x="-.5" y="-.5" rx="2"/>
 					</g>
 				</g>
-				<rect style="mix-blend-mode:multiply" id="Rectangle-2" width="32" height="32" x="191" y="643" fill="#C70070" fill-opacity=".4" rx="1"/>
+				<rect id="Rectangle-2" width="32" height="32" x="191" y="643" fill="#C70070" fill-opacity=".4" rx="1" style="mix-blend-mode:multiply"/>
 				<g id="Checkbox-/--multiliner" transform="translate(192 468)">
 					<g id="Checkbox-/-!default" transform="translate(1 5)">
 						<g id="Checkbox-:normal" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" transform="translate(0 4)">

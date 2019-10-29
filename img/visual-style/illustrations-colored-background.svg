@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="667" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Oxygen-Sans',Ubuntu,Cantarell,Lato,'Helvetica Neue',Helvetica,Arial,sans-serif" viewBox="0 0 375 667" style="background:#fff">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background:#fff" width="375" height="667" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Oxygen-Sans',Ubuntu,Cantarell,Lato,'Helvetica Neue',Helvetica,Arial,sans-serif" viewBox="0 0 375 667">
 	<defs>
 		<linearGradient id="a" x1="108.571%" x2="40.106%" y1="195.213%" y2="23.396%">
 			<stop offset="0%" stop-color="#0bd564"/>
