@@ -599,7 +599,6 @@ sup {
 	}
 
 
-
 /* ... Color ... */
 .color-palette {
 	margin: 2.4rem 0 0;
@@ -720,6 +719,29 @@ sup {
 		vertical-align: text-bottom;
 	}
 }
+
+
+/* ... Icon ... */
+.icon {
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	margin: 0 0.2rem;
+	vertical-align: text-bottom;
+}
+
+	.icon--indicator {
+		width: 1.2rem;
+		height: 1.2rem;
+		vertical-align: baseline;
+	}
+
+	.icon--intermediate {
+		width: 1.6rem;
+		height: 1.6rem;
+		vertical-align: baseline;
+	}
+
 
 /* ... Components ... */
 /*
