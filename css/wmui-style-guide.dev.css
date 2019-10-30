@@ -904,13 +904,8 @@ sup {
 .illustrations-case-study img {
 	display: block;
 	float: left;
-	width: 31.33%;
-	margin: 0 1%;
+	width: 33.33%;
 }
-
-	.illustrations-case-study img:first-child {
- 		margin-left: 0;
-	}
 
 
 /* ::: Dynamic content ::: */
