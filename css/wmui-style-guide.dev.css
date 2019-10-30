@@ -717,6 +717,7 @@ sup {
 		margin: 0 0.4rem 0.3rem 0.2rem;
 		border-radius: 50%;
 		vertical-align: text-bottom;
+		cursor: help;
 	}
 }
 

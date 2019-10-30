@@ -1175,6 +1175,7 @@ sans-serif;
 		-moz-border-radius: 50%;
 		     border-radius: 50%;
 		vertical-align: text-bottom;
+		cursor: help;
 	}
 }
 /* ... Icon ... */
