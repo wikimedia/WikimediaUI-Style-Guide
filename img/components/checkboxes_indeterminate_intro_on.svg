@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="274" height="38" viewBox="0 0 274 38">
+	<defs>
+		<path id="checkboxes_indeterminate_intro_on-a" d="M4 12h12v-2H4z"/>
+	</defs>
+	<g fill="none" fill-rule="evenodd">
+		<path fill="#FFF" d="M-5514-1013H9206v3264H-5514z"/>
+		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(6 2)">
+			<tspan x="33" y="23">Neutral point – children selected</tspan>
+		</text>
+		<g transform="translate(6 7)">
+			<rect width="25" height="25" x="-.5" y="-.5" fill="#36C" stroke="#36C" rx="2"/>
+			<g transform="translate(2 2)">
+				<mask id="checkboxes_indeterminate_intro_on-b" fill="#fff">
+					<use xlink:href="#checkboxes_indeterminate_intro_on-a"/>
+				</mask>
+				<use fill="#000" xlink:href="#checkboxes_indeterminate_intro_on-a"/>
+				<g fill="#FFF" mask="url(#checkboxes_indeterminate_intro_on-b)">
+					<path d="M0 0h20v20H0z"/>
+				</g>
+			</g>
+		</g>
+		<g transform="translate(-282 3)">
+			<text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16">
+				<tspan x="33" y="22">Neutral point</tspan>
+			</text>
+			<rect width="25" height="25" x="-.5" y="-.5" fill="#FFF" stroke="#72777D" rx="2" transform="translate(0 4)"/>
+		</g>
+	</g>
+</svg>
