@@ -54,10 +54,10 @@
 			</g>
 		</g>
 		<text fill="#fff" font-size="14">
-			<tspan x="34" y="480">Places tab </tspan> <tspan x="34" y="500">Discover landmarks near you or search for places </tspan> <tspan x="34" y="520">across the world</tspan>
+			<tspan x="34" y="480">Places tab </tspan> <tspan x="34" y="500">Discover landmarks near you or search for </tspan> <tspan x="34" y="520">places across the world</tspan>
 		</text>
 		<text fill="#fff" font-size="14">
-			<tspan x="34" y="555">On this day </tspan> <tspan x="34" y="575">Travel back in time to learn what happened today </tspan> <tspan x="34" y="595">in history </tspan>
+			<tspan x="34" y="555">On this day </tspan> <tspan x="34" y="575">Travel back in time to learn what happened </tspan> <tspan x="34" y="595">today in history </tspan>
 		</text>
 		<text fill="#fff" font-size="14" font-weight="bold">
 			<tspan x="34" y="405">Explore feed</tspan> <tspan x="34" y="425" font-weight="normal">Dive down the Wikipedia rabbit hole with a </tspan> <tspan x="34" y="445" font-weight="normal">constantly updating feed</tspan>
