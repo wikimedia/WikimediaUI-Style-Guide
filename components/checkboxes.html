@@ -90,10 +90,10 @@
 					<h1 class="page__title">Checkboxes</h1>
 						<p class="page__lead">Checkboxes signal an checkable option for the user to be selected, unselected or indeterminate.</p>
 						<figure class="components__intro" style="float: left;">
-							<img src="../img/components/checkboxes_intro_off.svg" alt="checkboxes visual example in off state">
+							<img src="../img/components/checkboxes_intro_off.svg" alt="checkboxes visual example in non-selected state">
 						</figure>
 						<figure class="components__intro">
-							<img src="../img/components/checkboxes_intro_on.svg" alt="checkboxes visual example in on state">
+							<img src="../img/components/checkboxes_intro_on.svg" alt="checkboxes visual example in selected state">
 						</figure>
 
 						<h2>Using checkboxes</h2>
@@ -112,10 +112,22 @@
 							<img src="../img/components/checkboxes_states.svg" alt="checkboxes visual design and states">
 						</figure>
 
-						<!-- h2>Types</h2 -->
+						<h2>Types</h2>
+						<h3>Indeterminate</h3>
+						<p>In addition to checked and unchecked, a checkbox can be in indeterminate state.</p>
+						<figure class="components__intro">
+							<img src="../img/components/checkboxes_indeterminate_intro_on.svg" alt="checkboxes visual example in indeterminate selected state">
+						</figure>
+						<p>The most common is when a checkbox is available that "owns" a number of sub-options (which are also checkboxes). If all of the sub-options are checked, the owning checkbox is also checked, and if they're all unchecked, the owning checkbox is unchecked. If any one or more of the sub-options have a different state than the others, the owning checkbox is in the indeterminate state. <sup><a href="#references">[1]</a></sup></p>
 
 						<h2>Coding</h2>
 						<p>See <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#CheckboxInputWidget" target="_blank" rel="noopener">OOUI's demos section of checkboxes</a>.</p>
+
+						<section id="references"></section>
+						<h2>References</h2>
+						<ol>
+							<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox#Indeterminate_state_checkboxes">MDN: &lt;input type=&quot;checkbox&quot;&gt; Indeterminate state checkboxes</li>
+						</ol>
 				</main>
 			</div>
 		</div>
