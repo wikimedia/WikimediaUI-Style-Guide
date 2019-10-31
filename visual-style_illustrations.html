@@ -61,9 +61,16 @@
 					<div class="page__parent-title">Visual Style</div>
 					<h1 class="page__title">Illustrations</h1>
 
-					<section id="illustration-style">
+					<section id="illustration-style" class="content__illustration-style">
 						<h2>Illustration style</h2>
-						<img src="img/visual-style/illustrations-header.svg" onerror="this.src='img/visual-style/illustrations-header.png'" alt="Sample of four illustrations">
+						<div class="figure--full">
+							<figure class="figure figure--illustrations-header">
+								<img src="img/visual-style/illustrations-header--start.svg" onerror="this.src='img/visual-style/illustrations-header--start@2x.png'" alt="Sample of four illustrations">
+							</figure>
+							<figure class="figure figure--illustrations-header">
+								<img src="img/visual-style/illustrations-header--end.svg" onerror="this.src='img/visual-style/illustrations-header--end@2x.png'" alt="Sample of four illustrations">
+							</figure>
+						</div>
 						<p><strong>Colored backgrounds</strong><br>
 						Illustrations that appear on a colored background should not include an outline stroke. Elements inside of the illustration should also not contain an outline stroke. Any lines inside of the illustration should have a weight of 2&#160;dp. The illustration can utilize any of the colors available in the Style Guide excluding <span class="color-hint" style="--color-hint: #000;" title="#000">Base0</span>.</p>
 						<p><strong>White background</strong><br>
@@ -74,7 +81,14 @@
 
 					<section id="using-illustrations">
 						<h2>Using illustrations</h2>
-						<img src="img/visual-style/illustrations-sample.png" onerror="this.src='img/visual-style/illustrations-header.png'" alt="Sample of three illustration styles">
+
+						<figure class="figure">
+							<picture>
+								<source media="( min-width: 415px )" srcset="img/visual-style/illustrations-using.svg">
+								<source media="( min-width: 320px )" srcset="img/visual-style/illustrations-using--mobile.svg">
+								<img src="img/visual-style/illustrations-using.svg" onerror="this.src='img/visual-style/illustrations-using.png'" alt="Human centered, inclusive design represented as  accessible keyboard metaphor with collection of Wikimedia characters and icons">
+							</picture>
+						</figure>
 						<p>Illustrations should be used as a supporting element alongside text and should never appear alone. Illustrations should be relevant and context-aware of their surroundings, do not include illustrations simply for decoration. Empty states, onboarding, or modals containing messaging are the primary use cases for utilizing illustrations. Utilize the appropriate illustration style depending on the background that the illustration will be presented on.</p>
 						<p>Illustrations should never appear pixelated. Test the resolution of your illustration for the specific the ratios you will be using it in.</p>
 					</section>
