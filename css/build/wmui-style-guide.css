@@ -735,7 +735,9 @@ sup {
 .color-palette:before,
 .color-palette:after,
 .figures-do-dont:before,
-.figures-do-dont:after {
+.figures-do-dont:after,
+.content__illustration-style .figure--full:before,
+.content__illustration-style .figure--full:after {
 	content: ' ';
 	display: table;
 }
@@ -743,7 +745,8 @@ sup {
 .page:after,
 .content-box:after,
 .color-palette:after,
-.figures-do-dont:after {
+.figures-do-dont:after,
+.content__illustration-style .figure--full:after {
 	clear: both;
 }
 /* ::: Text-formatting ::: */
@@ -1324,11 +1327,6 @@ sans-serif;
 	background-color: #eaecf0; /* FIXME: var; */
 	padding: 2.4rem;
 }
-.illustrations-case-study img {
-	display: block;
-	float: left;
-	width: 33.33%;
-}
 /* ::: Dynamic content ::: */
 .fonts-loaded cite,
 .fonts-loaded .site__title,
@@ -1476,6 +1474,10 @@ sans-serif;
 		margin-right: auto;
 	}
 
+	.figure--illustrations-header img {
+		width: 100%;
+	}
+
 	.color {
 		width: 61.8%;
 	}
@@ -1573,9 +1575,23 @@ sans-serif;
 	.figure--trustworthy-yet-joyful img {
 		max-width: none;
 	}
+
+	.figure--illustrations-header {
+		float: left;
+		width: 44.4%;
+	}
+
+	.figure--illustrations-header ~ .figure--illustrations-header {
+		width: 55.55%;
+	}
 }
 /* ... Tablet ... */
 @media ( min-width: 768px ) {
+	img {
+		-moz-border-radius: 2px;
+		     border-radius: 2px;
+	}
+
 	.content-box {
 		width: 100%;
 		max-width: 960px;
@@ -1630,13 +1646,14 @@ sans-serif;
 		width: 50%;
 	}
 
-	img {
-		-moz-border-radius: 2px;
-		     border-radius: 2px;
-	}
-
 	.color-palette--base .color:nth-child( 3n+4 ) {
 		clear: unset;
+	}
+
+	/* ... “Illustrations” ... */
+	.illustrations-case-study img {
+		float: left;
+		width: 33.33%;
 	}
 }
 /* ... Tablet+ / Netbook ... */
