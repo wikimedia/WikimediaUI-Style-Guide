@@ -808,8 +808,7 @@ sup {
 .footer {
 	color: var( --color-base );
 	padding: 2.4rem 0;
-	font-size: 1.2rem;
-	font-weight: var( --font-weight-base );
+	font-size: 1.3rem;
 }
 
 .footer__list {
