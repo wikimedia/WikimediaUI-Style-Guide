@@ -1168,6 +1168,10 @@ sans-serif;
 			opacity: 0;
 		}
 @supports ( --css: variables ) {
+	.color-hint {
+		white-space: nowrap;
+	}
+
 	.color-hint:before {
 		content: '';
 		background-color: var( --color-hint );

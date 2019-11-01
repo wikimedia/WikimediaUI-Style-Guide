@@ -711,6 +711,10 @@ sup {
 		}
 
 @supports ( --css: variables ) {
+	.color-hint {
+		white-space: nowrap;
+	}
+
 	.color-hint:before {
 		content: '';
 		background-color: var( --color-hint );
