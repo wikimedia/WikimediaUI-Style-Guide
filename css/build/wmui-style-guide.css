@@ -1534,15 +1534,15 @@ sans-serif;
 	.footer__list li {
 		display: list-item;
 		float: left;
-		padding: 0;
+		padding: 0 0.8rem 0 0;
 	}
 
-	.footer__list li:before {
+	.footer__list li:after {
 		content: '\2022'; /* bullet dot: '•' */
-		padding: 0 0.8rem;
+		padding: 0 0 0 0.8rem;
 	}
 
-	.footer__list li:first-child:before {
+	.footer__list li:last-child:after {
 		content: '';
 		padding: 0;
 	}
