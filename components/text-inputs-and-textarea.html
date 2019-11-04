@@ -60,8 +60,8 @@
 									<ul>
 										<li class="nav__sub-item is-on"><a href="text-inputs-and-textarea.html">Text inputs and textarea</a></li>
 										<!-- <li class="nav__sub-item"><a href="text-inputs-validation.html">Text inputs validation</a></li> Todo: Clarify if validation is sufficient for own navigation item. -->
-										<li class="nav__sub-item"><a href="spinners.html">Spinners</a></li>
-										<li class="nav__sub-item"><a href="sliders.html">Sliders</a></li>
+										<li class="nav__sub-item"><a href="number-inputs.html">Number inputs</a></li>
+										<!-- <li class="nav__sub-item"><a href="sliders.html">Sliders</a></li> Todo: Sliders definition -->
 										<li class="nav__sub-item"><a href="file-upload.html">File upload</a></li>
 										<!-- <li class="nav__sub-item"><a href="calendar.html">Calendar</a></li> Todo: Are we ready for calendar? -->
 									</ul>
@@ -88,15 +88,9 @@
 						</figure>
 
 						<h2>Using text inputs</h2>
-						<p>Through text fields users can input text, numbers, symbols or mixed-format strings (unless specifically restricted). Text inputs can be single line or as textarea multiple line inputs.</p>
-						<p>Text fields should be used in forms when a user’s answer to a prompt can not easily be predicted, or when there is significant variability in potential inputs. Text fields should also be used when other form components prove more difficult (require additional steps) to achieve the same aims (e.g. selecting a date from a calendar versus typing in the date). Text fields are also prominently used for search queries.</p>
-						<p>When possible provide auto complete options that are tailored to input field, such as a list of common responses or relevant search results.</p>
-						<p>The length (width and number of lines) provides a hint to users as to the expected length of their input. Textareas should be used when the input length is multiple sentences long, whereas shorter responses like a search query or password should be limited to a single line.</p>
-						<!-- Text fields should be used in forms when a user’s answer to a prompt can not easily be predicted, or when there is significant variability in potential inputs. Text fields should also be used when other form components prove more difficult (require additional steps) to achieve the same aims (eg. selecting a date from a calendar versus typing in the date). Text fields are also prominently used for search queries.
-
-						When possible provide auto complete options that are tailored to input field, such as a list of common responses or relevant search results.
-
-						The length (span width and number of lines) provides a hint to users as to the expected length of their input. Multi line text fields should be used when the input length is multiple sentences long, whereas shorter responses like a search query or password should be limited to a single line. -->
+						<p>Through text input fields users can input text, numbers, symbols or mixed-format strings (unless specifically restricted). Text inputs can be single line or as textarea multiple line inputs.</p>
+						<p>Text inputs should be used in forms when a user’s answer to a prompt can not easily be predicted, or when there is significant variability in potential inputs. Text inputs should also be used when other form components prove more difficult (require additional steps) to achieve the same result (e.g. selecting a date from a calendar versus typing in the date). The Search type of text inputs is also prominently used for search queries.</p>
+						<p>When possible provide auto complete options that are tailored to the input field, such as a list of common responses or relevant search results.</p>
 
 						<h2>Designing</h2>
 						<figure class="components__designing">
@@ -106,7 +100,7 @@
 						<p><strong>Label</strong><br>
 						Text input labels communicate what input is requested in the text box. Labels are obligatory for input fields and should only be visibly hidden, but still accessible for screen readers in exceptional cases.</p>
 						<p><strong>Placeholder text</strong> <small class="is-subtle">(optional)</small><br>
-							Placeholder text provides an example of what type of information is being requested in the input box. Placeholder text should further illustrate and support the text field label, however they should never be the text input description.
+							Placeholder text provides an example of what type of information is being requested in the input box. Placeholder text should further illustrate and support the text input field label, however they should never be the only input description. Use <span class="color-hint" style="--color-hint: #72777d;" title="#72777d">Base30</span> for it.
 						</p>
 						<p><strong>Icon</strong><br>
 							Icons can add to simple identification of specific user inputs. Examples are 'search' <img class="icon" src="../resources/WikimediaUI-icons-SVGs/search.svg" alt="search icon"> magnifying glass for search bars or 'user avatar' <img class="icon" src="../resources/WikimediaUI-icons-SVGs/userAvatar.svg" alt="user icon"> for user login input fields.
@@ -118,9 +112,9 @@
 							<li>Showing that a user input is required with a 'required' <img class="icon icon--indicator" src="../resources/WikimediaUI-icons-SVGs/required.svg" alt="required indicator">indicator</li>
 							<li>Clearing the input, like in search inputs with a 'clear' <img class="icon icon--indicator" src="../resources/WikimediaUI-icons-SVGs/clear.svg" alt="clear indicator"> indicator</li>
 						</ul>
-
+						<p>The <strong>length</strong> (width and number of lines) provides a hint to users as to the expected length of their input. Textareas should be used when the input length is multiple sentences long, whereas shorter responses like a search query or password have to be limited to a single line.</p>
 						<p><strong>Inline error messages and form validation</strong> <small class="is-subtle">(optional)</small><br>
-							When possible, place messages inline with where the error occurred and explain to users what caused the error and, or how it can be fixed. Utilize appropriate colors for different message types (<span class="color-hint" style="--color-hint: #00af89;" title="#00af89">Green50</span> for successful or <span class="color-hint" style="--color-hint: #d33;" title="#d33">Red50</span> for erroneous). Inline messaging should only be shown after a user has clicked into or interacted with the corresponding field.
+							When possible, place messages inline with where the error occurred and explain to users what caused the error and, or how it can be fixed. Utilize appropriate colors for different message types (<span class="color-hint" style="--color-hint: #00af89;" title="#00af89">Green50</span> for successful or <span class="color-hint" style="--color-hint: #d33;" title="#d33">Red50</span> for erroneous). Inline messages should only be shown after a user has clicked into or interacted with the corresponding field.
 						</p>
 
 						<h2>States</h2>
