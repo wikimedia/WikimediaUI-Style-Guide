@@ -3,12 +3,12 @@
 	<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-	<meta property="og:title" content="Components: Number inputs - Wikimedia Design Style Guide (WikimediaUI)">
+	<meta property="og:title" content="Components: File inputs - Wikimedia Design Style Guide (WikimediaUI)">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components/number-inputs.html">
+	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components/file-inputs.html">
 	<meta property="og:image" content="https://design.wikimedia.org/style-guide/img/components/TODO.png">
 	<link rel="stylesheet" href="../css/build/wmui-style-guide.min.css">
-	<title>Components: Number inputs – Wikimedia Design Style Guide</title>
+	<title>Components: File inputs – Wikimedia Design Style Guide</title>
 	<script>
 		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
 	</script>
@@ -20,7 +20,7 @@
 	<link rel="preload" href="../fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
 	<script src="../js/wikimedia-design-style-guide.min.js" async></script>
 </head>
-<body class="page--components page--components-number-inputs" vocab="http://schema.org/" typeof="WebPage">
+<body class="page--components page--components-file-inputs" vocab="http://schema.org/" typeof="WebPage">
 	<header id="header" class="header" role="banner">
 		<div class="content-box">
 			<a href="#content" class="is-aural is-focusable">Jump to content</a>
@@ -60,9 +60,9 @@
 									<ul>
 										<li class="nav__sub-item"><a href="text-inputs-and-textarea.html">Text inputs and textarea</a></li>
 										<!-- <li class="nav__sub-item"><a href="text-inputs-validation.html">Text inputs validation</a></li> Todo: Clarify if validation is sufficient for own navigation item. -->
-										<li class="nav__sub-item is-on"><a href="number-inputs.html">Number inputs</a></li>
+										<li class="nav__sub-item"><a href="number-inputs.html">Number inputs</a></li>
 										<!-- <li class="nav__sub-item"><a href="sliders.html">Sliders</a></li> Todo: Sliders definition -->
-										<li class="nav__sub-item"><a href="file-inputs.html">File inputs</a></li>
+										<li class="nav__sub-item is-on"><a href="file-inputs.html">File inputs</a></li>
 										<!-- <li class="nav__sub-item"><a href="calendar.html">Calendar</a></li> Todo: Ready for calendar? -->
 									</ul>
 								</li>
@@ -81,21 +81,21 @@
 			<div class="col col--end">
 				<main id="content" class="content" role="main">
 					<div class="page__parent-title">Components</div>
-					<h1 class="page__title">Number inputs</h1>
-						<p class="page__lead">Number inputs allow users to input numbers or decrease/increase number values by attached buttons.</p>
+					<h1 class="page__title">File inputs</h1>
+						<p class="page__lead">File inputs allow users to select files from their system for upload.</p>
 						<figure class="components__intro">
-							<img src="../img/components/number_inputs_intro.svg" alt="number input field">
+							<img src="../img/components/file_inputs_intro.svg" alt="file input field">
 						</figure>
 
-						<h2>Using number inputs</h2>
-						<p>Through number input fields users can input numbers. </p>
-						<p>Number inputs feature two buttons to decrement and increment the number by a certain step (default is 1). They are useful in context where users' task is about a quick numeral change in limited range.</p>
+						<h2>Using file inputs</h2>
+						<p>Through file input fields users can input files, which are selected for upload. </p>
+						<p>File inputs feature an input field and a select button by default. But they also exist in button only and upload drop area types. Moreover they are part of some form or dialog where the upload itself follows as final step.</p>
 
 						<h2>Designing</h2>
 						<p><strong>Label</strong><br>
-						Number input labels communicate what input is requested in the input box. Labels are obligatory for input fields and should only be visibly hidden, but still accessible for screen readers in exceptional cases.</p>
+						File input labels communicate what input is requested in the input box. Labels are obligatory for file input fields.</p>
 						<p><strong>Placeholder text</strong> <small class="is-subtle">(optional)</small><br>
-							Placeholder text provides an example of what type of information is being requested in the input box. Placeholder text should further illustrate and support the number input label, however they should never be the only input description. Use <span class="color-hint" style="--color-hint: #72777d;" title="#72777d">Base30</span> for it.
+							Use <span class="color-hint" style="--color-hint: #72777d;" title="#72777d">Base30</span> for it.
 						</p>
 						<p><strong>Inline error messages and form validation</strong> <small class="is-subtle">(optional)</small><br>
 							When possible, place messages inline with where the error occurred and explain to users what caused the error and, or how it can be fixed. Utilize appropriate colors for different message types (<span class="color-hint" style="--color-hint: #00af89;" title="#00af89">Green50</span> for successful or <span class="color-hint" style="--color-hint: #d33;" title="#d33">Red50</span> for erroneous). Inline messages should only be shown after a user has clicked into or interacted with the corresponding input.
@@ -103,8 +103,17 @@
 
 						<!--h2>States</h2-->
 
+						<h2>Types</h2>
+						<h3>File input and button</h3>
+						<p>See definition above.</p>
+
+						<h3>File input with drop area</h3>
+						<figure class="components__intro">
+							<img src="../img/components/file_inputs_type_drop_area.png" alt="file input field with drop area" style="width: 460px;">
+						</figure>
+
 						<h2>Coding</h2>
-						<p>See <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#NumberInputWidget" target="_blank" rel="noopener">OOUI's demos section of number inputs</a>.</p>
+						<p>See <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#SelectFileInputWidget" target="_blank" rel="noopener">OOUI's demos section of file inputs</a>.</p>
 				</main>
 			</div>
 		</div>

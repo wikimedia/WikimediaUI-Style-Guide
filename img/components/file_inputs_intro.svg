@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="462" height="34" viewBox="0 0 462 34">
-	<title>
-		Mediawiki.Neutral.Hover 32 Copy 2
-	</title>
-	<desc>
-		Created with Sketch.
-	</desc>
-	<g id="Symbols" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
-		<g id="File-input" fill="#FFF" stroke="#9AA0A7" transform="translate(1 1)">
-			<rect id="Mediawiki.Neutral.Hover-32-Copy-2" width="461" height="33" x="-.5" y="-.5" rx="2"/>
+	<g fill="none" fill-rule="evenodd">
+		<path fill="#FFF" d="M-8199-1532H6521v3264H-8199z"/>
+		<g transform="translate(1 1)">
+			<rect width="459" height="31" x=".5" y=".5" fill="#FFF" stroke="#A2A9B1" rx="2"/>
+			<path fill="#F8F9FA" stroke="#A2A9B1" d="M345.5 31.5V.5h112.504c.827 0 1.496.672 1.496 1.502v27.996c0 .834-.667 1.502-1.496 1.502H345.5z"/>
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+				<tspan x="358" y="23">Select a file</tspan>
+			</text>
 		</g>
 	</g>
 </svg>
