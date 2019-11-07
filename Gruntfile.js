@@ -28,6 +28,7 @@ module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( 'grunt-contrib-uglify' );
 	grunt.loadNpmTasks( 'grunt-eslint' );
 	grunt.loadNpmTasks( 'grunt-postcss' );
+	grunt.loadNpmTasks( 'grunt-replace' );
 	grunt.loadNpmTasks( 'grunt-sketch' );
 	grunt.loadNpmTasks( 'grunt-stylelint' );
 	grunt.loadNpmTasks( 'grunt-svgmin' );
@@ -305,7 +306,7 @@ module.exports = function ( grunt ) {
 				plugins: [ {
 					cleanupIDs: false
 				}, {
-					removeDesc: false
+					removeDesc: true
 				}, {
 					removeRasterImages: true
 				}, {
@@ -327,6 +328,32 @@ module.exports = function ( grunt ) {
 					],
 					dest: './',
 					ext: '.svg'
+				} ]
+			}
+		},
+
+		replace: {
+			dist: {
+				options: {
+					patterns: [
+						{
+							match: /Helvetica Neue"/g,
+							replacement: 'Helvetica Neue, sans-serif"'
+						},
+						{
+							match: /Lato"/g,
+							replacement: 'Lato, sans-serif"'
+						}
+					]
+				},
+				files: [ {
+					expand: true,
+					cwd: './',
+					src: [
+						'img/components/*.svg',
+						'resources/WikimediaUI-components_overview.svg'
+					],
+					dest: './'
 				} ]
 			}
 		},

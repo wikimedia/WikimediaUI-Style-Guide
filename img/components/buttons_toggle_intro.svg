@@ -13,13 +13,13 @@
 				<g id="Normal-&amp;-Primary-Buttons-X" transform="translate(1 113)">
 					<g id="Button-toggle-/-!default" transform="translate(192 464)">
 						<rect id="bg" width="107" height="31" x=".5" y=".5" fill="#F8F9FA" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
-						<text id="Neutral" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+						<text id="Neutral" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="16" y="23">Toggle off</tspan>
 						</text>
 					</g>
 					<g id="Button-toggle-/-:selected" transform="translate(381 464)">
 						<rect id="bg" width="107" height="31" x=".5" y=".5" fill="#2A4B8D" fill-rule="evenodd" stroke="#2A4B8D" stroke-width="1" rx="2"/>
-						<text id="Neutral" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+						<text id="Neutral" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="16" y="23">Toggle on</tspan>
 						</text>
 					</g>

@@ -12,7 +12,7 @@
 			<g id="BUTTONS-NORMAL-&amp;-PRIMARY" transform="translate(1759 143)">
 				<g id="Primary-Buttons-X" transform="translate(1 113)">
 					<rect id="BG" width="122" height="31" x="380.5" y=".5" fill="#36C" stroke="#36C" rx="2"/>
-					<text id="8:16:8:16" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="8:16:8:16" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="396.452" y="23">Progressive</tspan>
 					</text>
 				</g>
