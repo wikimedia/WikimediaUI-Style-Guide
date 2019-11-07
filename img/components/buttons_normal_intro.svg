@@ -3,7 +3,7 @@
 		<path fill="#FFF" d="M-1951-255h14720v3264H-1951z"/>
 		<g transform="translate(-191 1)">
 			<rect width="87" height="31" x="192.5" y=".5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
-			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 				<tspan x="208" y="22">Neutral</tspan>
 			</text>
 		</g>

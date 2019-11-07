@@ -8,8 +8,8 @@
 			<g id="MESSAGES" transform="translate(6147 1464)">
 				<g id="message_notice" transform="translate(185 879)">
 					<path id="Rectangle_fill6" fill="#EAECF0" fill-rule="nonzero" stroke="#C8CCD1" d="M.5.5v73h699.001V.5H.5z"/>
-					<text id="A-neutral-message-wh" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
-						<tspan x="53" y="28.943">A neutral message <tspan font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400"> which informs about general higher priority notices to the user. </tspan></tspan> <tspan x="53" y="52.943" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400">Stay neutral!</tspan>
+					<text id="A-neutral-message-wh" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+						<tspan x="53" y="28.943">A neutral message <tspan font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400"> which informs about general higher priority notices to the user. </tspan></tspan> <tspan x="53" y="52.943" font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400">Stay neutral!</tspan>
 					</text>
 					<g id="infoFilled" fill="#000" fill-rule="nonzero" transform="translate(25 15.343)">
 						<path id="Shape" d="M10 20.571c-5.523 0-10-4.604-10-10.285S4.477 0 10 0s10 4.605 10 10.286c0 5.68-4.477 10.285-10 10.285zM9 9.257v6.172h2V9.257H9zM10 7.2c.552 0 1-.46 1-1.029 0-.568-.448-1.028-1-1.028s-1 .46-1 1.028C9 6.74 9.448 7.2 10 7.2z"/>

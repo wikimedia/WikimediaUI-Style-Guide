@@ -23,13 +23,13 @@
 		<path fill="#FFF" d="M-7359-255H7361v3264H-7359z"/>
 		<g transform="translate(193 169)">
 			<rect width="271" height="31" x=".5" y=".5" fill="#EAECF0" stroke="#C8CCD1" rx="2"/>
-			<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue" font-size="16">
+			<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16">
 				<tspan x="9" y="22">Placeholder text</tspan>
 			</text>
 		</g>
 		<g transform="translate(193 57)">
 			<rect width="271" height="31" x=".5" y=".5" fill="#FFF" stroke="#72777D" rx="2"/>
-			<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue" font-size="16">
+			<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16">
 				<tspan x="9" y="22">Your input</tspan>
 			</text>
 			<path fill="#000" d="M216.584 28.052v7.911c-.009.632-.455 1.335-1.203 2.047a9.12 9.12 0 01-1.222.975l-.026.017a.284.284 0 00-.086.396.295.295 0 00.403.085 9.725 9.725 0 00.42-.294 9.78 9.78 0 00.917-.767c.479-.456.853-.915 1.09-1.373.238.461.61.919 1.088 1.373a9.776 9.776 0 001.337 1.061.295.295 0 00.403-.085.284.284 0 00-.086-.396l-.026-.017a8.2 8.2 0 01-.361-.254 9.168 9.168 0 01-.861-.72c-.748-.713-1.194-1.416-1.203-2.03v-7.93h1.343a.29.29 0 00.291-.286.29.29 0 00-.291-.287h-1.343v-7.911c0-.627.447-1.338 1.203-2.055a9.048 9.048 0 011.22-.967l.026-.016a.284.284 0 00.089-.397.294.294 0 00-.403-.087 9.3 9.3 0 00-.421.292 9.667 9.667 0 00-.917.762c-.478.454-.852.912-1.09 1.37-.236-.458-.61-.916-1.089-1.37a9.52 9.52 0 00-1.337-1.054.295.295 0 00-.403.087.284.284 0 00.089.397l.025.016c.023.014.049.032.078.052a9.048 9.048 0 011.144.916c.755.716 1.202 1.427 1.202 2.054v7.91h-1.5a.29.29 0 00-.292.288c0 .158.13.287.292.287h1.5"/>
@@ -38,7 +38,7 @@
 			<rect width="273" height="33" x="-.5" y="-.5" rx="2"/>
 			<rect width="271" height="31" x=".5" y=".5" stroke-linejoin="square" rx="2"/>
 		</g>
-		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(193 113)">
+		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" transform="translate(193 113)">
 			<tspan x="9" y="21">Providing input</tspan>
 		</text>
 		<g transform="translate(440 123)">
@@ -50,7 +50,7 @@
 		<path stroke="#000" stroke-linecap="square" d="M311.5 119.5v17.938"/>
 		<g transform="translate(193 1)">
 			<rect width="271" height="31" x=".5" y=".5" fill="#FFF" stroke="#A2A9B1" rx="2"/>
-			<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue" font-size="16">
+			<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16">
 				<tspan x="9" y="22">Your input</tspan>
 			</text>
 		</g>
@@ -63,7 +63,7 @@
 			<use filter="url(#text_inputs_states-c)" xlink:href="#text_inputs_states-d"/>
 			<path stroke="#FFF" d="M6.448 11.787l2.721 6.886c.273.675-.094 1.44-.79 1.72-.696.283-1.491-.013-1.765-.692l-2.708-6.853-2.483 2.963-.077.075c-.901.695-1.848.236-1.846-.902L-.474.669c0-.618.027-.82.271-1.028.4-.34.694-.163 1.14.298l10.66 10.157c.793.817.432 1.805-.782 1.933l-4.367-.242z"/>
 		</g>
-		<text fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" transform="translate(1 1)">
+		<text fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" transform="translate(1 1)">
 			<tspan x="0" y="22">Normal</tspan> <tspan x="0" y="78.1">Hover</tspan> <tspan x="0" y="134.2">Focus &amp;</tspan> <tspan x="0" y="152.9">Active</tspan> <tspan x="0" y="190.3">Disabled</tspan>
 		</text>
 	</g>

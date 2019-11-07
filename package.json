@@ -39,6 +39,7 @@
     "grunt-eslint": "22.0.0",
     "grunt-exec": "3.0.0",
     "grunt-postcss": "0.9.0",
+    "grunt-replace": "^1.0.1",
     "grunt-sketch": "1.0.5",
     "grunt-stylelint": "0.12.0",
     "grunt-svgmin": "6.0.0",

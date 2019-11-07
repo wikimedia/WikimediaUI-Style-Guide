@@ -141,16 +141,16 @@
 			<rect width="61" height="33" x="-.5" y="-.5" rx="16.5"/>
 			<circle cx="17" cy="16" r="10.5"/>
 		</g>
-		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="14" transform="translate(330 477)">
+		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="14" transform="translate(330 477)">
 			<tspan x="0" y="33">Option with a really long</tspan> <tspan x="0" y="53.392">label today</tspan>
 		</text>
-		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="14" transform="translate(330 477)">
+		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="14" transform="translate(330 477)">
 			<tspan x="0" y="109">Second option</tspan>
 		</text>
-		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(330 477)">
+		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" transform="translate(330 477)">
 			<tspan x="0" y="15">Option 1</tspan>
 		</text>
-		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(330 477)">
+		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" transform="translate(330 477)">
 			<tspan x="0" y="91">Option 2</tspan>
 		</text>
 		<text fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" transform="translate(0 -11)">
@@ -220,7 +220,7 @@
 			<rect width="61" height="33" x="-.5" y="-.5" rx="16.5"/>
 			<circle cx="17" cy="16" r="10.5"/>
 		</g>
-		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(0 -11)">
+		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" transform="translate(0 -11)">
 			<tspan x="330" y="433">Option 2</tspan>
 		</text>
 		<path fill="#979797" fill-rule="nonzero" d="M328.5 349H320v1h9v-1h-.5zm-8 36.014h8.5v-1h-9v1h.5zM324 349.5v35.514h1V349h-1v.5z"/>

@@ -12,7 +12,7 @@
 			<g id="DROPDOWN" transform="translate(7998 186)">
 				<g id="Dropdown-X" transform="translate(2 70)">
 					<rect id="Mediawiki.Neutral.Acive-15" width="110" height="33" x="191.5" y="-.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
-					<text id="Neutral" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Neutral" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="207" y="22">Neutral</tspan>
 					</text>
 					<g id="Icon-/-Dropdown-indicator-/-!default" fill="#222" transform="translate(273 13)">

@@ -69,13 +69,13 @@
 						<g id="Button-/-:disabled" transform="translate(0 .5)">
 							<rect id="BG" width="342" height="33" x="-.5" y="-.5" fill="#C8CCD1" fill-rule="evenodd" stroke="#C8CCD1" stroke-width="1" rx="2"/>
 						</g>
-						<text id="Other" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+						<text id="Other" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="270" y="23.5">Other</tspan>
 						</text>
-						<text id="Pages" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+						<text id="Pages" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="96" y="23.5">Pages</tspan>
 						</text>
-						<text id="All" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+						<text id="All" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="27" y="23.5">All</tspan>
 						</text>
 						<path id="Path-115" stroke="#FFF" stroke-linecap="square" d="M246.5.115v33"/>
@@ -86,32 +86,32 @@
 					<path id="Line-Copy" stroke="#A2A9B1" stroke-linecap="square" d="M358.5.5v33.015"/>
 					<path id="Line-Copy-10" stroke="#767676" stroke-linecap="square" d="M438.5.5v32.015"/>
 					<path id="Line-Copy-13" stroke="#A2A9B1" stroke-linecap="square" d="M438.5.5v32.015"/>
-					<text id="Talk" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Talk" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="381" y="305">Talk</tspan>
 					</text>
-					<text id="All" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="All" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="220.392" y="24">All</tspan>
 					</text>
 					<rect id="Combined-Shape" width="342" height="33" x="191.5" y="112.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
 					<rect id="Combined-Shape-Copy" width="342" height="33" x="191.5" y="224.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
 					<path id="Separator" stroke="#CCC" stroke-linecap="square" d="M268 57v32"/>
-					<text id="Pages-3-Copy" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Pages-3-Copy" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="290.296" y="24">Pages</tspan>
 					</text>
-					<text id="Other" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Other" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="463.512" y="24">Other</tspan>
 					</text>
-					<text id="Talk-Copy" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Talk-Copy" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="382.752" y="24">Talk</tspan>
 					</text>
 					<rect id="Mediawiki.Neutral.Normal-copy-14" width="342" height="33" x="191.5" y="56.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
-					<text id="All-7" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="All-7" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="220.892" y="80">All</tspan>
 					</text>
-					<text id="Pages-7" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Pages-7" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="290.296" y="80">Pages</tspan>
 					</text>
-					<text id="Other-7" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Other-7" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="463.512" y="80">Other</tspan>
 					</text>
 					<path id="Line-Copy-14" stroke="#A2A9B1" stroke-linecap="square" d="M438.5 57.5v32.015"/>
@@ -119,34 +119,34 @@
 					<path id="Line-Copy-16" stroke="#A2A9B1" stroke-linecap="square" d="M268.5 57.5v32.015"/>
 					<path id="Separator" stroke="#A2A9B1" stroke-linecap="square" d="M268.5 112.5v32.015"/>
 					<path id="Line" stroke="#A2A9B1" stroke-linecap="square" d="M268.5 224.5v32"/>
-					<text id="All" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="All" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="220.392" y="136">All</tspan>
 					</text>
-					<text id="All" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="All" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="220.392" y="248">All</tspan>
 					</text>
-					<text id="Pages-8" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Pages-8" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="290.296" y="136">Pages</tspan>
 					</text>
-					<text id="Pages-8-Copy" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Pages-8-Copy" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="290.296" y="248">Pages</tspan>
 					</text>
-					<text id="Other-8" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Other-8" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="463.512" y="136">Other</tspan>
 					</text>
-					<text id="Other-8-Copy" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Other-8-Copy" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="463.512" y="248">Other</tspan>
 					</text>
 					<path id="Mediawiki.Progressive.Hover-7" fill="#FFF" stroke="#A2A9B1" d="M358.5 56.5h80v33h-80z"/>
 					<path id="Mediawiki.Progressive.Hover-8" fill="#EAECF0" stroke="#72777D" d="M358.5 112.5h80v33h-80z"/>
 					<path id="Mediawiki.Progressive.Hover-8-Copy" fill="#1F4999" stroke="#1F4999" d="M358.5 224.5h80v33h-80z"/>
-					<text id="Talk" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Talk" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="383.752" y="80">Talk</tspan>
 					</text>
-					<text id="Talk-6" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Talk-6" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="383.752" y="136">Talk</tspan>
 					</text>
-					<text id="Talk-6-Copy" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Talk-6-Copy" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="382.864" y="248">Talk</tspan>
 					</text>
 					<rect id="Mediawiki.Neutral.Normal-copy-16" width="342" height="33" x="191.5" y="168.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
@@ -154,17 +154,17 @@
 						<path d="M359.5 168.5h80v33h-80z"/>
 						<path stroke-linejoin="square" d="M360.5 169.5h78v31h-78z"/>
 					</g>
-					<text id="All-9" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="All-9" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="220.392" y="192">All</tspan>
 					</text>
 					<path id="Line-Copy-21" stroke="#A2A9B1" stroke-linecap="square" d="M268.5 168.5v32.015"/>
-					<text id="Pages-9" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Pages-9" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="290.296" y="192">Pages</tspan>
 					</text>
-					<text id="Other-9" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Other-9" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="463.512" y="192">Other</tspan>
 					</text>
-					<text id="Talk-7" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Talk-7" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="383.752" y="192">Talk</tspan>
 					</text>
 					<g id="_Spec-101-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(-90 246 68)">
@@ -196,7 +196,7 @@
 							<path stroke="#FFF" d="M6.448 11.787l2.721 6.886c.273.675-.094 1.44-.79 1.72-.696.283-1.491-.013-1.765-.692l-2.708-6.853-2.483 2.963-.077.075c-.901.695-1.848.236-1.846-.902L-.474.669c0-.618.027-.82.271-1.028.4-.34.694-.163 1.14.298l10.66 10.157c.793.817.432 1.805-.782 1.933l-4.367-.242z"/>
 						</g>
 					</g>
-					<g id="State-labels" fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" transform="translate(0 9)">
+					<g id="State-labels" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal" transform="translate(0 9)">
 						<text id="Disabled">
 							<tspan x="0" y="295">Disabled</tspan>
 						</text>

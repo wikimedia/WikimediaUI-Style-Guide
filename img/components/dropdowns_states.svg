@@ -115,16 +115,16 @@
 						<path fill="#FFF" stroke="#A2A9B1" d="M191.5 200.443h110v60.508a2.506 2.506 0 01-2.509 2.492H194.01a2.497 2.497 0 01-2.509-2.492v-60.508z"/>
 					</g>
 					<rect id="Mediawiki.Neutral.Acive-15" width="110" height="33" x="191.5" y="-.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
-					<text id="Neutral" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Neutral" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="207" y="22">Neutral</tspan>
 					</text>
-					<text id="Neutral-26" fill="#444" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Neutral-26" fill="#444" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="207" y="78">Neutral</tspan>
 					</text>
-					<text id="Neutral-26" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Neutral-26" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="207" y="134">Neutral</tspan>
 					</text>
-					<text id="Neutral-26" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Neutral-26" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="207" y="190">Neutral</tspan>
 					</text>
 					<g id="Icon-/-Dropdown-indicator-/-!default" fill="#222" transform="translate(273 13)">
@@ -137,14 +137,14 @@
 						<rect width="111" height="33" x="191.5" y="298.5" rx="2"/>
 						<rect width="109" height="31" x="192.5" y="299.5" stroke-linejoin="square" rx="2"/>
 					</g>
-					<text id="Neutral-26-Copy" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Neutral-26-Copy" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="207" y="321">Neutral</tspan>
 					</text>
 					<g id="Icon-/-Dropdown-indicator-/-!default" fill="#222" transform="translate(273 312)">
 						<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
 					</g>
 					<rect id="Mediawiki.Neutral.Acive-19" width="110" height="33" x="191.5" y="353.5" fill="#C8CCD1" stroke="#C8CCD1" rx="2"/>
-					<text id="Neutral" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Neutral" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="207" y="376">Neutral</tspan>
 					</text>
 					<g id="Icon-/-Dropdown-indicator-/-:inverted" fill="#FFF" transform="translate(273 368)">
@@ -183,10 +183,10 @@
 					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(264 182)">
 						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 					</g>
-					<text id="Neutral" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal">
+					<text id="Neutral" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="14" font-weight="normal">
 						<tspan x="207" y="221">Neutral</tspan>
 					</text>
-					<text id="Neutral-2" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal">
+					<text id="Neutral-2" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="14" font-weight="normal">
 						<tspan x="208" y="253">Neutral 2</tspan>
 					</text>
 					<g id="Mediawiki.Neutral.Acive-15-Copy-5">
@@ -198,16 +198,16 @@
 						<path fill="#FFF" stroke-linejoin="square" d="M452.5 199.5h108v-29.498c0-.832-.671-1.502-1.509-1.502H454.01a1.5 1.5 0 00-1.509 1.502V199.5z"/>
 						<path d="M454.009 167.5H558.99a2.501 2.501 0 012.509 2.502V200.5h-110v-30.498a2.5 2.5 0 012.509-2.502z"/>
 					</g>
-					<text id="Neutral" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Neutral" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="464.152" y="190">Neutral</tspan>
 					</text>
 					<g id="Icon-/-Dropdown-indicator-/-:active" fill="#000" transform="translate(527 181)">
 						<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
 					</g>
-					<text id="Neutral" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal">
+					<text id="Neutral" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="14" font-weight="normal">
 						<tspan x="468" y="222">Neutral</tspan>
 					</text>
-					<text id="Neutral-2" fill="#36C" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal">
+					<text id="Neutral-2" fill="#36C" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="14" font-weight="normal">
 						<tspan x="468" y="251">Neutral 2</tspan>
 					</text>
 					<g id="101-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(90 12 204)">
@@ -236,16 +236,16 @@
 							<path fill="#FFF" stroke="#A2A9B1" d="M-.5 32.443h110v60.508a2.506 2.506 0 01-2.509 2.492H2.01A2.497 2.497 0 01-.5 92.951V32.443z"/>
 						</g>
 						<path id="Rectangle-631" fill="#EAECF0" fill-rule="evenodd" d="M0 65h109v29.002c0 .551-.44.998-1.01.998H1.01C.451 95 0 94.553 0 94.002V65z"/>
-						<text id="Neutral-26-Copy-2" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+						<text id="Neutral-26-Copy-2" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="15" y="23">Neutral</tspan>
 						</text>
 						<g id="Icon-/-Dropdown-indicator-/-!default" fill="#222" fill-rule="evenodd" transform="translate(78 13)">
 							<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
 						</g>
-						<text id="Neutral" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal">
+						<text id="Neutral" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="14" font-weight="normal">
 							<tspan x="16" y="54">Neutral</tspan>
 						</text>
-						<text id="Neutral-2" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal">
+						<text id="Neutral-2" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="14" font-weight="normal">
 							<tspan x="16" y="85">Neutral 2</tspan>
 						</text>
 						<circle id="Oval-243-Copy" cx="8.5" cy="49.5" r="2.5" fill="#36C" fill-rule="evenodd"/>
@@ -257,7 +257,7 @@
 						</g>
 					</g>
 					<circle id="Oval-243-Copy-2" cx="460.5" cy="215.5" r="2.5" fill="#36C"/>
-					<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal">
+					<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 						<tspan x="0" y="20">Normal</tspan> <tspan x="0" y="76.1">Hover</tspan> <tspan x="0" y="132.2">Active</tspan> <tspan x="0" y="188.3">Expanded Menu</tspan> <tspan x="0" y="207">Focus</tspan> <tspan x="0" y="319.2">Focus</tspan> <tspan x="0" y="375.3">Disabled</tspan>
 					</text>
 				</g>

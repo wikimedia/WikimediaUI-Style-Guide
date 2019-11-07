@@ -16,16 +16,16 @@
 					<path id="Line-Copy" stroke="#A2A9B1" stroke-linecap="square" d="M358.5.5v33.015"/>
 					<path id="Line-Copy-10" stroke="#767676" stroke-linecap="square" d="M438.5.5v32.015"/>
 					<path id="Line-Copy-13" stroke="#A2A9B1" stroke-linecap="square" d="M438.5.5v32.015"/>
-					<text id="All" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="All" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="220.392" y="24">All</tspan>
 					</text>
-					<text id="Pages-3-Copy" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Pages-3-Copy" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="290.296" y="24">Pages</tspan>
 					</text>
-					<text id="Other" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Other" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="463.512" y="24">Other</tspan>
 					</text>
-					<text id="Talk-Copy" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="Talk-Copy" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="382.752" y="24">Talk</tspan>
 					</text>
 				</g>

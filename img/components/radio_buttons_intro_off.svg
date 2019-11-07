@@ -12,7 +12,7 @@
 			<g id="RADIO-BUTTONS---DESKTOP" transform="translate(5840 143)">
 				<g id="Radio-Buttons-X" transform="translate(0 113)">
 					<g id="Radio-/-!default" transform="translate(192)">
-						<text id="8:16:8:16-copy-22" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+						<text id="8:16:8:16-copy-22" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="33" y="22">Neutral point</tspan>
 						</text>
 						<path id="Oval-112-Copy-2" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" d="M12 28.5C5.096 28.5-.5 22.904-.5 16S5.096 3.5 12 3.5 24.5 9.096 24.5 16 18.904 28.5 12 28.5z"/>

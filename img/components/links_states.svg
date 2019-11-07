@@ -98,29 +98,29 @@
 			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
 			<g id="LINK" transform="translate(4078 186)">
 				<g id="Link-X" transform="translate(2 76)">
-					<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal">
+					<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 						<tspan x="0" y="16">Normal</tspan> <tspan x="0" y="72.1">Hover</tspan> <tspan x="0" y="90.8"> </tspan> <tspan x="0" y="128.2">Active</tspan> <tspan x="0" y="184.3">Focus</tspan> <tspan x="0" y="240.4">Disabled</tspan>
 					</text>
-					<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal">
+					<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 						<tspan x="0" y="367.3">Normal</tspan> <tspan x="0" y="423.4">Hover</tspan> <tspan x="0" y="442.1"> </tspan> <tspan x="0" y="479.5">Active</tspan> <tspan x="0" y="535.6">Focus</tspan>
 					</text>
 					<g id="101-/-Headline--Sub" transform="translate(0 297)">
-						<text id="SUBHEADLINE" fill="#222" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+						<text id="SUBHEADLINE" fill="#222" font-family="Lato-Bold, Lato, sans-serif" font-size="14" font-weight="bold">
 							<tspan x="0" y="13">UNDERLINED LINK</tspan>
 						</text>
 						<g id="101-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
 							<path id="Line" d="M189.484 1.5H.516"/>
 						</g>
 					</g>
-					<text id="8:16:8:16-copy-5" fill="#72777D" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="8:16:8:16-copy-5" fill="#72777D" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="192" y="239">Neutral point</tspan>
 					</text>
-					<text id="8:16:8:16-copy" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+					<text id="8:16:8:16-copy" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="192" y="71">Neutral point</tspan>
 					</text>
 					<g id="Link-:hover" transform="translate(192 111)">
 						<g id="Link">
-							<text id="8:16:8:16-copy-3" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+							<text id="8:16:8:16-copy-3" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 								<tspan x="0" y="16">Neutral point</tspan>
 							</text>
 							<path id="Line" stroke="#36C" stroke-linecap="square" d="M1.5 18.5h57.46"/>
@@ -129,7 +129,7 @@
 					</g>
 					<g id="Link-:active" transform="translate(192 167)">
 						<g id="Link">
-							<text id="8:16:8:16-copy-3" fill="#2A4B8D" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+							<text id="8:16:8:16-copy-3" fill="#2A4B8D" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 								<tspan x="0" y="16">Neutral point</tspan>
 							</text>
 							<path id="Line" stroke="#2A4B8D" stroke-linecap="square" d="M1.5 18.5h57.46"/>
@@ -137,14 +137,14 @@
 						</g>
 					</g>
 					<g id="Link" transform="translate(192)">
-						<text id="8:16:8:16-copy-3" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+						<text id="8:16:8:16-copy-3" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="0" y="16">Neutral point</tspan>
 						</text>
 						<path id="Line" stroke="#36C" stroke-linecap="square" stroke-width="1" d="M1.5 18.5h57.46"/>
 						<path id="Line-Copy-62" stroke="#36C" stroke-linecap="square" stroke-width="1" d="M65.5 18.5h33"/>
 					</g>
 					<g id="Link" transform="translate(192 352)">
-						<text id="8:16:8:16-copy-3" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+						<text id="8:16:8:16-copy-3" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="0" y="16">Neutral point</tspan>
 						</text>
 						<path id="Line" stroke="#36C" stroke-linecap="square" stroke-width="1" d="M1.5 18.5h57.46"/>
@@ -152,7 +152,7 @@
 					</g>
 					<g id="Link-:hover" transform="translate(192 408)">
 						<g id="Link">
-							<text id="8:16:8:16-copy-3" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+							<text id="8:16:8:16-copy-3" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 								<tspan x="0" y="16">Neutral point</tspan>
 							</text>
 							<path id="Line" stroke="#36C" stroke-linecap="square" d="M1.5 18.5h57.46"/>
@@ -161,7 +161,7 @@
 					</g>
 					<g id="Link-:active" transform="translate(192 464)">
 						<g id="Link">
-							<text id="8:16:8:16-copy-3" fill="#2A4B8D" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+							<text id="8:16:8:16-copy-3" fill="#2A4B8D" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 								<tspan x="0" y="16">Neutral point</tspan>
 							</text>
 							<path id="Line" stroke="#2A4B8D" stroke-linecap="square" d="M1.5 18.5h57.46"/>
@@ -169,7 +169,7 @@
 						</g>
 					</g>
 					<g id="Link" transform="translate(192 520)">
-						<text id="8:16:8:16-copy-3" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+						<text id="8:16:8:16-copy-3" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="0" y="16">Neutral point</tspan>
 						</text>
 						<path id="Line" stroke="#36C" stroke-linecap="square" stroke-width="1" d="M1.5 18.5h57.46"/>

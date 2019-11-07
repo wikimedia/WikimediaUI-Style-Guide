@@ -2,7 +2,7 @@
 	<g fill="none" fill-rule="evenodd">
 		<path fill="#FFF" d="M-7552-589H7168v3264H-7552z"/>
 		<path fill="#FFF" stroke="#A2A9B1" d="M2.995 1.5c-.828 0-1.495.668-1.495 1.502v27.996c0 .83.67 1.502 1.495 1.502h268.01c.828 0 1.495-.668 1.495-1.502V3.002c0-.83-.67-1.502-1.495-1.502H2.995z"/>
-		<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(-192 -38)">
+		<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" transform="translate(-192 -38)">
 			<tspan x="230" y="61">Search</tspan>
 		</text>
 		<path fill="#222" fill-rule="nonzero" d="M17.5 20c3.04 0 5.5-2.46 5.5-5.5S20.54 9 17.5 9 12 11.46 12 14.5s2.46 5.5 5.5 5.5zm4.55.46A7.432 7.432 0 0117.5 22c-4.14 0-7.5-3.36-7.5-7.5 0-4.14 3.36-7.5 7.5-7.5 4.14 0 7.5 3.36 7.5 7.5 0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>

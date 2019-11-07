@@ -4,7 +4,7 @@
 		<g transform="translate(1 1)">
 			<rect width="459" height="31" x=".5" y=".5" fill="#FFF" stroke="#A2A9B1" rx="2"/>
 			<path fill="#F8F9FA" stroke="#A2A9B1" d="M345.5 31.5V.5h112.504c.827 0 1.496.672 1.496 1.502v27.996c0 .834-.667 1.502-1.496 1.502H345.5z"/>
-			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 				<tspan x="358" y="23">Select a file</tspan>
 			</text>
 		</g>

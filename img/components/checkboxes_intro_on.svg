@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="158" height="36" viewBox="0 0 158 36">
 	<g fill="none" fill-rule="evenodd">
 		<path fill="#FFF" d="M-5514-254H9206v3264H-5514z"/>
-		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(6 1)">
+		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" transform="translate(6 1)">
 			<tspan x="33" y="23">Neutral point</tspan>
 		</text>
 		<g transform="translate(6 6)">
@@ -9,7 +9,7 @@
 			<path fill="#FFF" fill-rule="nonzero" d="M9.444 15.433l-3.321-3.32L5 13.235l4.444 4.452L19 8.131 17.877 7z"/>
 		</g>
 		<g transform="translate(-282 2)">
-			<text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16">
+			<text fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16">
 				<tspan x="33" y="22">Neutral point</tspan>
 			</text>
 			<rect width="25" height="25" x="-.5" y="-.5" fill="#FFF" stroke="#72777D" rx="2" transform="translate(0 4)"/>

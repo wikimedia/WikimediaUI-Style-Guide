@@ -26,7 +26,7 @@
 		</text>
 		<g transform="translate(194 457)">
 			<rect width="273" height="33" x="-.5" y="-.5" fill="#FFF" stroke="#72777D" rx="2"/>
-			<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue" font-size="16">
+			<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16">
 				<tspan x="32" y="22">Re-enter password</tspan>
 			</text>
 			<path fill="#000" d="M158.584 17.052v7.911c-.009.632-.455 1.335-1.203 2.047a9.12 9.12 0 01-1.222.975l-.026.017a.284.284 0 00-.086.396.295.295 0 00.403.085 9.725 9.725 0 00.42-.294 9.78 9.78 0 00.917-.767c.479-.456.853-.915 1.09-1.373.238.461.61.919 1.088 1.373a9.776 9.776 0 001.337 1.061.295.295 0 00.403-.085.284.284 0 00-.086-.396l-.026-.017a8.2 8.2 0 01-.361-.254 9.168 9.168 0 01-.861-.72c-.748-.713-1.194-1.416-1.203-2.03v-7.93h1.343a.29.29 0 00.291-.286.29.29 0 00-.291-.287h-1.343V8.567c0-.627.447-1.338 1.203-2.055a9.048 9.048 0 011.22-.967l.026-.016a.284.284 0 00.089-.397.294.294 0 00-.403-.087 9.3 9.3 0 00-.421.292 9.667 9.667 0 00-.917.762c-.478.454-.852.912-1.09 1.37-.236-.458-.61-.916-1.089-1.37a9.52 9.52 0 00-1.337-1.054.295.295 0 00-.403.087.284.284 0 00.089.397l.025.016c.023.014.049.032.078.052a9.048 9.048 0 011.144.916c.755.716 1.202 1.427 1.202 2.054v7.91h-1.5a.29.29 0 00-.292.288c0 .158.13.287.292.287h1.5"/>
@@ -36,7 +36,7 @@
 			<rect width="271" height="31" x="195.5" y="208.5" fill="#FFF" stroke-linejoin="square" rx="2"/>
 			<rect width="273" height="33" x="194.5" y="207.5" rx="2"/>
 		</g>
-		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(-1 305)">
+		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" transform="translate(-1 305)">
 			<tspan x="226" y="231">******</tspan>
 		</text>
 		<path stroke="#000" stroke-linecap="square" d="M260.5 520.5v17.938"/>
@@ -44,13 +44,13 @@
 		<path fill="#000" d="M219.998 535.998l-5.15-5.15a7 7 0 10-2 2l5.15 5.15 2-2zm-15.5-9a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0z"/>
 		<path stroke="#50E3C2" stroke-linecap="square" d="M457.5 528.5h7m-7-1h7m-7 3h7m-7-1h7"/>
 		<path fill="#FFF" stroke="#9AA0A7" d="M195.995 400.5h268.01a2.498 2.498 0 012.495 2.502v27.996a2.494 2.494 0 01-2.495 2.502h-268.01a2.498 2.498 0 01-2.495-2.502v-27.996a2.494 2.494 0 012.495-2.502z"/>
-		<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(-1 305)">
+		<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" transform="translate(-1 305)">
 			<tspan x="227" y="118">Re-enter password</tspan>
 		</text>
 		<path fill="#222" d="M219.998 423.998l-5.15-5.15a7 7 0 10-2 2l5.15 5.15 2-2zm-15.5-9a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0z"/>
 		<g transform="translate(193 345)">
 			<rect width="273" height="33" x="-.5" y="-.5" stroke="#949494" rx="2"/>
-			<text fill="#949494" font-family="HelveticaNeue, Helvetica Neue" font-size="16.364">
+			<text fill="#949494" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16.364">
 				<tspan x="33" y="22">Re-enter password</tspan>
 			</text>
 			<path fill="#949494" d="M26.998 22.998l-5.15-5.15a7 7 0 10-2 2l5.15 5.15 2-2zm-15.5-9a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0z"/>
@@ -62,13 +62,13 @@
 		<path stroke="#222" stroke-linecap="square" d="M190.484 328.5H1.516"/>
 		<g transform="translate(193 9)">
 			<rect width="273" height="33" x="-.5" y="-.5" fill="#EAECF0" stroke="#C8CCD1" rx="2"/>
-			<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue" font-size="16">
+			<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16">
 				<tspan x="16" y="22">Placeholder text</tspan>
 			</text>
 		</g>
 		<g transform="translate(193 121)">
 			<rect width="273" height="33" x="-.5" y="-.5" fill="#FFF" stroke="#72777D" rx="2"/>
-			<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue" font-size="16">
+			<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16">
 				<tspan x="15" y="22">Re-enter password</tspan>
 			</text>
 			<path fill="#000" d="M216.584 28.052v7.911c-.009.632-.455 1.335-1.203 2.047a9.12 9.12 0 01-1.222.975l-.026.017a.284.284 0 00-.086.396.295.295 0 00.403.085 9.725 9.725 0 00.42-.294 9.78 9.78 0 00.917-.767c.479-.456.853-.915 1.09-1.373.238.461.61.919 1.088 1.373a9.776 9.776 0 001.337 1.061.295.295 0 00.403-.085.284.284 0 00-.086-.396l-.026-.017a8.2 8.2 0 01-.361-.254 9.168 9.168 0 01-.861-.72c-.748-.713-1.194-1.416-1.203-2.03v-7.93h1.343a.29.29 0 00.291-.286.29.29 0 00-.291-.287h-1.343v-7.911c0-.627.447-1.338 1.203-2.055a9.048 9.048 0 011.22-.967l.026-.016a.284.284 0 00.089-.397.294.294 0 00-.403-.087 9.3 9.3 0 00-.421.292 9.667 9.667 0 00-.917.762c-.478.454-.852.912-1.09 1.37-.236-.458-.61-.916-1.089-1.37a9.52 9.52 0 00-1.337-1.054.295.295 0 00-.403.087.284.284 0 00.089.397l.025.016c.023.014.049.032.078.052a9.048 9.048 0 011.144.916c.755.716 1.202 1.427 1.202 2.054v7.91h-1.5a.29.29 0 00-.292.288c0 .158.13.287.292.287h1.5"/>
@@ -77,7 +77,7 @@
 			<rect width="273" height="33" x="-.5" y="-.5" rx="2"/>
 			<rect width="271" height="31" x=".5" y=".5" stroke-linejoin="square" rx="2"/>
 		</g>
-		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" transform="translate(193 177)">
+		<text fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" transform="translate(193 177)">
 			<tspan x="15" y="21">******</tspan>
 		</text>
 		<path stroke="#000" stroke-linecap="square" d="M242.5 183.5v17.938"/>
@@ -85,7 +85,7 @@
 		<path fill="#000" d="M409.584 205.052v7.911c-.009.632-.455 1.335-1.203 2.047a9.12 9.12 0 01-1.222.975l-.026.017a.284.284 0 00-.086.396.295.295 0 00.403.085 9.725 9.725 0 00.42-.294 9.78 9.78 0 00.917-.767c.479-.456.853-.915 1.09-1.373.238.461.61.919 1.088 1.373a9.776 9.776 0 001.337 1.061.295.295 0 00.403-.085.284.284 0 00-.086-.396l-.026-.017a8.2 8.2 0 01-.361-.254 9.168 9.168 0 01-.861-.72c-.748-.713-1.194-1.416-1.203-2.03v-7.93h1.343a.29.29 0 00.291-.286.29.29 0 00-.291-.287h-1.343v-7.911c0-.627.447-1.338 1.203-2.055a9.048 9.048 0 011.22-.967l.026-.016a.284.284 0 00.089-.397.294.294 0 00-.403-.087 9.3 9.3 0 00-.421.292 9.667 9.667 0 00-.917.762c-.478.454-.852.912-1.09 1.37-.236-.458-.61-.916-1.089-1.37a9.52 9.52 0 00-1.337-1.054.295.295 0 00-.403.087.284.284 0 00.089.397l.025.016c.023.014.049.032.078.052a9.048 9.048 0 011.144.916c.755.716 1.202 1.427 1.202 2.054v7.91h-1.5a.29.29 0 00-.292.288c0 .158.13.287.292.287h1.5"/>
 		<g transform="translate(193 65)">
 			<rect width="273" height="33" x="-.5" y="-.5" fill="#FFF" stroke="#9AA0A7" rx="2"/>
-			<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue" font-size="16">
+			<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16">
 				<tspan x="15" y="22">Re-enter password</tspan>
 			</text>
 		</g>
