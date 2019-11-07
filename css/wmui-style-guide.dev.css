@@ -1034,6 +1034,11 @@ sup {
 		width: 100%;
 	}
 
+	.figure--illustrations-header + .figure--illustrations-header,
+	.figure--illustrations-header + .figure--illustrations-header img {
+		margin-top: 0;
+	}
+
 	.color {
 		width: 61.8%;
 	}
@@ -1137,8 +1142,13 @@ sup {
 		width: 44.4%;
 	}
 
-	.figure--illustrations-header ~ .figure--illustrations-header {
+	.figure--illustrations-header + .figure--illustrations-header {
 		width: 55.55%;
+		margin-top: 0.8rem;
+	}
+
+	.figure--illustrations-header + .figure--illustrations-header img {
+		margin-top: 1.6rem;
 	}
 }
 
