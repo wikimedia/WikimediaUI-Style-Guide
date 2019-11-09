@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="162" height="41" viewBox="0 0 162 41">
+	<title>
+		links_type_underlined_intro
+	</title>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-4270 -613)">
+			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
+			<g id="LINK" transform="translate(4078 186)">
+				<g id="Link-X" transform="translate(2 76)">
+					<g id="Link-/-underlined" transform="translate(192 352)">
+						<text id="link-text" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+							<tspan x="0" y="16">Neutral point of view</tspan>
+						</text>
+						<path id="underline" stroke="#36C" stroke-linecap="square" stroke-width="1" d="M1.5 18.5h57.46M65.5 18.5h92"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
