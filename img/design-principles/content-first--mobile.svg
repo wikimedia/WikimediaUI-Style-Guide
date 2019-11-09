@@ -14,7 +14,7 @@
 	<g fill="none" fill-rule="evenodd" transform="translate(24 23)">
 		<path fill="#C8CCD1" d="M0 .741h218v10.37H0z"/>
 		<rect width="72.171" height="11.852" x="87.795" fill="#36C" rx="2"/>
-		<path fill="#C8CCD1" d="M0 18.519h218v10.37H0zM0 36.296h218v10.37H0zM0 54.074h218v10.37H0zM0 71.852h218v10.37H0zM0 89.63h89.283V100H0z"/>
+		<path fill="#C8CCD1" d="M0 18.519h218v10.37H0zm0 17.777h218v10.37H0zm0 17.778h218v10.37H0zm0 17.778h218v10.37H0zM0 89.63h89.283V100H0z"/>
 		<g transform="translate(18 7)">
 			<mask id="content-first--mobile-c" fill="#fff">
 				<use xlink:href="#content-first--mobile-a"/>

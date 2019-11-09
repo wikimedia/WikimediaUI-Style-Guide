@@ -3,9 +3,6 @@
 	<title>
 		this-is-for-everyone
 	</title>
-	<desc>
-		Created with Sketch.
-	</desc>
 	<defs>
 		<filter id="filter-2" width="125%" height="125%" x="-12.5%" y="-9.2%" filterUnits="objectBoundingBox">
 			<feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
