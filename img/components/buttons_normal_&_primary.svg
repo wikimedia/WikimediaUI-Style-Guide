@@ -3,9 +3,6 @@
 	<title>
 		Primary_Buttons
 	</title>
-	<desc>
-		Created with Sketch.
-	</desc>
 	<defs>
 		<filter id="filter-5" width="173.9%" height="154.2%" x="-36.9%" y="-18.8%" filterUnits="objectBoundingBox">
 			<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
