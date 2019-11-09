@@ -3,9 +3,6 @@
 	<title>
 		Checkboxes_states
 	</title>
-	<desc>
-		Created with Sketch.
-	</desc>
 	<defs>
 		<filter id="filter-15" width="220.2%" height="165%" x="-56.2%" y="-22.5%" filterUnits="objectBoundingBox">
 			<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
