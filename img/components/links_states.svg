@@ -44,12 +44,12 @@
 			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
 			<g id="LINK" transform="translate(4078 186)">
 				<g id="Link-X" transform="translate(2 76)">
-					<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal">
+					<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 						<tspan x="0" y="16">Normal</tspan> <tspan x="0" y="72.1">Hover</tspan> <tspan x="0" y="90.8"> </tspan> <tspan x="0" y="128.2">Active</tspan> <tspan x="0" y="184.3">Focus</tspan>
 					</text>
 					<g id="Link-/-:hover" transform="translate(192.5 55)">
 						<g id="Link">
-							<text id="link-text" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+							<text id="link-text" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 								<tspan x="0" y="16">Neutral point of view</tspan>
 							</text>
 							<path id="underline" stroke="#36C" stroke-linecap="square" d="M1.5 18.5h57.46M65.5 18.5h92"/>
@@ -57,18 +57,18 @@
 					</g>
 					<g id="Link-/-:active" transform="translate(192 111)">
 						<g id="Link">
-							<text id="link-text" fill="#2A4B8D" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+							<text id="link-text" fill="#2A4B8D" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 								<tspan x="0" y="16">Neutral point of view</tspan>
 							</text>
 							<path id="underline" stroke="#2A4B8D" stroke-linecap="square" d="M1.5 18.5h57.46M65.5 18.5h92"/>
 						</g>
 					</g>
-					<g id="Link" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" transform="translate(192 167)">
+					<g id="Link" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold" transform="translate(192 167)">
 						<text id="link-text">
 							<tspan x="0" y="16">Neutral point of view</tspan>
 						</text>
 					</g>
-					<g id="Link" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" transform="translate(192)">
+					<g id="Link" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold" transform="translate(192)">
 						<text id="link-text">
 							<tspan x="0" y="16">Neutral point of view</tspan>
 						</text>
