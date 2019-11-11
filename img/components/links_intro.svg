@@ -29,7 +29,7 @@
 				<g id="Link-X" transform="translate(2 76)">
 					<g id="Link-/-:hover" transform="translate(192 111)">
 						<g id="Link">
-							<text id="link-text" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+							<text id="link-text" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 								<tspan x="0" y="16">Neutral point of view</tspan>
 							</text>
 							<path id="underline" stroke="#36C" stroke-linecap="square" d="M1.5 18.5h57.46M65.5 18.5h92"/>
