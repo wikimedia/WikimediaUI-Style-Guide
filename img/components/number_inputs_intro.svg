@@ -1,33 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="162" height="34" viewBox="0 0 162 34">
+	<title>
+		number_inputs_intro
+	</title>
 	<defs>
-		<path id="number_inputs_intro-a" d="M4 12h12v-2H4z"/>
-		<path id="number_inputs_intro-c" d="M16 10h-5V5H9v5H4v2h5v5h2v-5h5z"/>
+		<polygon id="path-1" points="4 12 16 12 16 10 4 10"/>
+		<polygon id="path-3" points="16 10 11 10 11 5 9 5 9 10 4 10 4 12 9 12 9 17 11 17 11 12 16 12"/>
 	</defs>
-	<g fill="none" fill-rule="evenodd">
-		<path fill="#FFF" d="M-11319-254H3401v3264h-14720z"/>
-		<g transform="translate(-199 -113)">
-			<rect width="159" height="31" x=".5" y=".5" fill="#F8F9FA" stroke="#A2A9B1" rx="2" transform="translate(200 114)"/>
-			<rect width="95" height="31" x=".5" y=".5" fill="#FFF" stroke="#9AA0A7" rx="2" transform="translate(233 114)"/>
-			<path fill="#FFF" d="M234 141h4v4h-4zm88 0h4v4h-4zm0-26h4v4h-4zm-88 0h4v4h-4z"/>
-			<text fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16">
-				<tspan x="249" y="137">100</tspan>
-			</text>
-			<g transform="translate(207 120)">
-				<mask id="number_inputs_intro-b" fill="#fff">
-					<use xlink:href="#number_inputs_intro-a"/>
-				</mask>
-				<use fill="#000" xlink:href="#number_inputs_intro-a"/>
-				<g fill="#222" mask="url(#number_inputs_intro-b)">
-					<path d="M0 0h20v20H0z"/>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-8199 -254)">
+			<rect width="14720" height="3264" fill="#FFF"/>
+			<g id="NUMBER-INPUT-FIELDS" transform="translate(8000 141)">
+				<g id="Button-/-!default-(--neutral)" transform="translate(200 114)">
+					<rect id="bg" width="159" height="31" x=".5" y=".5" fill="#F8F9FA" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
 				</g>
-			</g>
-			<g transform="translate(334 120)">
-				<mask id="number_inputs_intro-d" fill="#fff">
-					<use xlink:href="#number_inputs_intro-c"/>
-				</mask>
-				<use fill="#000" xlink:href="#number_inputs_intro-c"/>
-				<g fill="#222" mask="url(#number_inputs_intro-d)">
-					<path d="M0 0h20v20H0z"/>
+				<g id="Text-input-/-!default" transform="translate(233 114)">
+					<rect id="border" width="95" height="31" x=".5" y=".5" fill="#FFF" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
+				</g>
+				<rect id="Rectangle" width="4" height="4" x="234" y="141" fill="#FFF"/>
+				<rect id="Rectangle" width="4" height="4" x="322" y="141" fill="#FFF"/>
+				<rect id="Rectangle" width="4" height="4" x="322" y="115" fill="#FFF"/>
+				<rect id="Rectangle" width="4" height="4" x="234" y="115" fill="#FFF"/>
+				<text id="100" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+					<tspan x="242" y="137">100</tspan>
+				</text>
+				<g id="🔣-Icon/Interactions/Subtract" transform="translate(207 120)">
+					<mask id="mask-2" fill="#fff">
+						<use xlink:href="#path-1"/>
+					</mask>
+					<use id="Mask" fill="#000" fill-rule="evenodd" xlink:href="#path-1"/>
+					<g id="🎨-Color/Base/B10-(#222)" fill="#222" fill-rule="evenodd" mask="url(#mask-2)">
+						<rect id="Rectangle-1" width="20" height="20" x="0" y="0"/>
+					</g>
+				</g>
+				<g id="🔣-Icon/Interactions/Add" transform="translate(334 120)">
+					<mask id="mask-4" fill="#fff">
+						<use xlink:href="#path-3"/>
+					</mask>
+					<use id="Mask" fill="#000" fill-rule="evenodd" xlink:href="#path-3"/>
+					<g id="🎨-Color/Base/B10-(#222)" fill="#222" fill-rule="evenodd" mask="url(#mask-4)">
+						<rect id="Rectangle-1" width="20" height="20" x="0" y="0"/>
+					</g>
 				</g>
 			</g>
 		</g>
