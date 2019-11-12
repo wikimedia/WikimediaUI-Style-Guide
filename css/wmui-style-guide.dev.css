@@ -957,6 +957,11 @@ sup {
 		margin-left: 0;
 	}
 
+	/* ... Components ... */
+	.page--components .components__states {
+		margin-left: 0;
+	}
+
 	/* ... Resources ... */
 	.resources-table,
 	.resources-table__head,
@@ -1058,6 +1063,10 @@ sup {
 	.color-palette--overview.color-palette--base .color--emphasized {
 		margin-right: 1.1rem;
 		margin-left: -0.2rem;
+	}
+
+	.page--components figure {
+		margin-left: 4.2rem;
 	}
 }
 
@@ -1222,6 +1231,10 @@ sup {
 	.illustrations-case-study img {
 		float: left;
 		width: 33.33%;
+	}
+
+	.page--components figure {
+		margin-left: 6.4rem;
 	}
 }
 
