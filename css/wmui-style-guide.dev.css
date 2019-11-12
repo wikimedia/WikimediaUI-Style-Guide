@@ -726,6 +726,10 @@ sup {
 		vertical-align: text-bottom;
 		cursor: help;
 	}
+
+	.color-hint--base100:before {
+		border: var( --border-base );
+	}
 }
 
 
