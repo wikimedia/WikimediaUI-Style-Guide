@@ -292,7 +292,11 @@ module.exports = function ( grunt ) {
 					use: [ zopfli() ]
 				},
 				expand: true,
-				src: 'img/**/*.png'
+				src: [
+					'img/**/*.png',
+					'resources/*.png',
+					'!resources/WikimediaUI-components_overview.png'
+				]
 			}
 		},
 
