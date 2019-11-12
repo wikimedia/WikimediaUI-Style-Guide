@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="34" viewBox="0 0 64 34">
+	<title>
+		toggle_switches_intro_off
+	</title>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" fill="#FFF" transform="translate(-6830 -255)">
+			<rect width="14720" height="3264"/>
+			<g id="TOGGLE-SWITCH" stroke="#72777D" transform="translate(6640 143)">
+				<g id="Toggle-Switch-X" transform="translate(0 113)">
+					<g id="Toggle-switch-/-!default" transform="translate(192)">
+						<path id="Mediawiki.Neutral.Hover-copy-28" d="M16.000081,-0.5 L43.999919,-0.5 C53.11302,-0.5 60.5,6.88711595 60.5,16 C60.5,25.1139802 53.1133233,32.5 43.999919,32.5 L16.000081,32.5 C6.88697997,32.5 -0.5,25.1128841 -0.5,16 C-0.5,6.88601978 6.88667674,-0.5 16.000081,-0.5 Z"/>
+						<circle id="Oval-45-Copy-13" cx="17" cy="16" r="10.5"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

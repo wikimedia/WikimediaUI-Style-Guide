@@ -1184,6 +1184,12 @@ sans-serif;
 		vertical-align: text-bottom;
 		cursor: help;
 	}
+
+	.color-hint--base100:before {
+		border: 1px
+solid
+#a2a9b1;
+	}
 }
 /* ... Icon ... */
 .icon {

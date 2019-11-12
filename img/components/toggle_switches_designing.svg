@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="272" height="54" viewBox="0 0 272 54">
+	<title>
+		toggle_switches_designing
+	</title>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-6941 -876)">
+			<rect width="14720" height="3264" fill="#FFF"/>
+			<g id="TOGGLE-SWITCH" transform="translate(6640 143)">
+				<g id="Toggle-Switch-X" transform="translate(0 113)">
+					<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(500 641)">
+						<path id="Mediawiki.Neutral.Hover-copy-28" d="M16.000081,-0.5 L43.999919,-0.5 C53.11302,-0.5 60.5,6.88711595 60.5,16 C60.5,25.1139802 53.1133233,32.5 43.999919,32.5 L16.000081,32.5 C6.88697997,32.5 -0.5,25.1128841 -0.5,16 C-0.5,6.88601978 6.88667674,-0.5 16.000081,-0.5 Z"/>
+						<circle id="Oval-45-Copy-13" cx="17" cy="16" r="10.5"/>
+					</g>
+					<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(499 637)">
+						<line id="8-sp-(0.5-em)" x1="0" x2="8" y1="2" y2="2"/>
+					</g>
+					<g id="_Spec-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(483 655)">
+						<line id="16-sp-(1-em)" x1="0" x2="16" y1="2" y2="2"/>
+					</g>
+					<g id="_Spec-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(-90 620.5 52.5)">
+						<g id="_Spec-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
+							<line id="16-sp-(1-em)" x1="0" x2="16" y1="2" y2="2"/>
+						</g>
+						<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
+							<line id="8-sp-(0.5-em)" x1="0" x2="8" y1="1" y2="1"/>
+						</g>
+						<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
+							<line id="8-sp-(0.5-em)" x1="0" x2="8" y1="2" y2="2"/>
+						</g>
+					</g>
+					<text id="Label-for-binary-sel" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+						<tspan x="303" y="662">Label for binary selection</tspan>
+					</text>
+					<line id="Line" x1="499.5" x2="499.5" y1="665.5" y2="620.489" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square"/>
+					<line id="Line-Copy-5" x1="506.5" x2="506.5" y1="665.5" y2="620.489" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

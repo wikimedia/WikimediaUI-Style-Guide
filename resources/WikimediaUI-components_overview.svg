@@ -3668,22 +3668,10 @@
 					<path id="Mediawiki.Neutral.Hover-copy-28" d="M16.000081,-0.5 L43.999919,-0.5 C53.11302,-0.5 60.5,6.88711595 60.5,16 C60.5,25.1139802 53.1133233,32.5 43.999919,32.5 L16.000081,32.5 C6.88697997,32.5 -0.5,25.1128841 -0.5,16 C-0.5,6.88601978 6.88667674,-0.5 16.000081,-0.5 Z"/>
 					<circle id="Oval-45-Copy-13" cx="17" cy="16" r="10.5"/>
 				</g>
-				<line id="Line-236-Copy" x1="500" x2="484" y1="485" y2="485" stroke="#D0021B" stroke-width="4"/>
+				<g id="_Spec-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(484 483)">
+					<line id="16-sp-(1-em)" x1="0" x2="16" y1="2" y2="2"/>
+				</g>
 				<line id="1em" x1="531" x2="531" y1="375" y2="391" stroke="#D0021B" stroke-width="4"/>
-				<g id="_Spec-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(-90 218.5 40.5)">
-					<g id="_Spec-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
-						<line id="16-sp-(1-em)" x1="0" x2="16" y1="2" y2="2"/>
-					</g>
-					<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
-						<line id="8-sp-(0.5-em)" x1="0" x2="8" y1="1" y2="1"/>
-					</g>
-					<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
-						<line id="8-sp-(0.5-em)" x1="0" x2="8" y1="2" y2="2"/>
-					</g>
-				</g>
-				<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(192 224)">
-					<line id="8-sp-(0.5-em)" x1="0" x2="8" y1="2" y2="2"/>
-				</g>
 				<text id="Minimum-16-sp-(1-em)" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
 					<tspan x="506" y="461.381">Minimum 16 sp (1 em) margin</tspan>
 				</text>
@@ -3723,10 +3711,8 @@
 						<circle cx="43" cy="16" r="9.5" fill="#FFF" stroke="#FFF" stroke-linejoin="square"/>
 					</g>
 				</g>
-				<line id="Line" x1="192.5" x2="192.5" y1="252.5" y2="207.489" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square"/>
-				<line id="Line-Copy-5" x1="199.5" x2="199.5" y1="252.5" y2="207.489" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square"/>
-				<line id="Line-Copy-17" x1="483.726" x2="483.726" y1="306.462" y2="608.5" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square"/>
-				<line id="Line-Copy-99" x1="500.726" x2="500.726" y1="447.5" y2="525.886" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square"/>
+				<line id="Line-Copy-17" x1="483.5" x2="483.5" y1="306.5" y2="608.5" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square"/>
+				<line id="Line-Copy-99" x1="500.5" x2="500.5" y1="447.5" y2="525.5" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square"/>
 				<line id="Line-Copy-94" x1="335" x2="537" y1="340.5" y2="340.5" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square"/>
 				<line id="Line-Copy-96" x1="335" x2="537" y1="467.5" y2="467.5" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square"/>
 				<line id="Line-Copy-97" x1="335" x2="537" y1="375.5" y2="375.5" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square"/>
@@ -3736,6 +3722,30 @@
 				</g>
 				<text id="Option-5-Copy-2" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 					<tspan x="333" y="413">Option 2</tspan>
+				</text>
+				<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(500 641)">
+					<path id="Mediawiki.Neutral.Hover-copy-28" d="M16.000081,-0.5 L43.999919,-0.5 C53.11302,-0.5 60.5,6.88711595 60.5,16 C60.5,25.1139802 53.1133233,32.5 43.999919,32.5 L16.000081,32.5 C6.88697997,32.5 -0.5,25.1128841 -0.5,16 C-0.5,6.88601978 6.88667674,-0.5 16.000081,-0.5 Z"/>
+					<circle id="Oval-45-Copy-13" cx="17" cy="16" r="10.5"/>
+				</g>
+				<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(499 637)">
+					<line id="8-sp-(0.5-em)" x1="0" x2="8" y1="2" y2="2"/>
+				</g>
+				<g id="_Spec-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(483 655)">
+					<line id="16-sp-(1-em)" x1="0" x2="16" y1="2" y2="2"/>
+				</g>
+				<g id="_Spec-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(-90 620.5 52.5)">
+					<g id="_Spec-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
+						<line id="16-sp-(1-em)" x1="0" x2="16" y1="2" y2="2"/>
+					</g>
+					<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
+						<line id="8-sp-(0.5-em)" x1="0" x2="8" y1="1" y2="1"/>
+					</g>
+					<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
+						<line id="8-sp-(0.5-em)" x1="0" x2="8" y1="2" y2="2"/>
+					</g>
+				</g>
+				<text id="Label-for-binary-sel" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+					<tspan x="303" y="662">Label for binary selection</tspan>
 				</text>
 				<path id="Line-Copy-98" fill="#979797" fill-rule="nonzero" d="M323,376.014282 L323,375.014282 L327,375.014 L327,341 L323,341 L323,340 L332,340 L332,341 L328,341 L328,375.014 L332,375.014282 L332,376.014282 L323,376.014282 Z"/>
 				<text id="`vertical-align:-mid" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
@@ -3813,6 +3823,8 @@
 				</g>
 				<line id="1em" x1="395" x2="395" y1="536" y2="552" stroke="#D0021B" stroke-width="4"/>
 				<line id="Line-Copy-95" x1="335" x2="537" y1="552.5" y2="552.5" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square"/>
+				<line id="Line" x1="499.5" x2="499.5" y1="665.5" y2="620.489" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square"/>
+				<line id="Line-Copy-5" x1="506.5" x2="506.5" y1="665.5" y2="620.489" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square"/>
 			</g>
 			<text id="Switched-on" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 				<tspan x="393" y="417">Switched on</tspan>
