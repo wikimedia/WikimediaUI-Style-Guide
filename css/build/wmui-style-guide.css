@@ -1005,6 +1005,9 @@ sans-serif;
 	font-size: 1.3rem;
 	font-style: italic;
 }
+.figure__caption:empty {
+	display: none;
+}
 /* ... “Do” & “Don't” figures ... */
 .figures-do-dont {
 	margin-top: 1.6rem;
@@ -1219,6 +1222,18 @@ solid
 	padding-bottom: 0;
 }
 */
+.components__designing {
+	position: relative;
+}
+.components__designing:after {
+	content: '';
+	background: url( ../../img/components/legend_16-8.svg ) no-repeat;
+	position: absolute;
+	bottom: 0;
+	right: 6.4rem;
+	width: 13.2rem;
+	height: 6.4rem;
+}
 .page--components-messages .components__intro {
 	max-width: 700px;
 	margin-left: auto;
