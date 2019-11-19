@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="332" height="92" viewBox="0 0 332 92">
+	<title>
+		radio_buttons_designing
+	</title>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-6015 -592)">
+			<rect width="14720" height="3264" fill="#FFF"/>
+			<g id="RADIO-BUTTONS---DESKTOP" transform="translate(5840 143)">
+				<g id="Radio-Buttons-X" transform="translate(0 113)">
+					<g id="Radio-/-!default" transform="translate(192 397)">
+						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+							<tspan x="32" y="22">Option 2</tspan>
+						</text>
+						<path id="Oval-112-Copy-2" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" d="M12,27.5 C18.3512746,27.5 23.5,22.3512746 23.5,16 C23.5,9.64872538 18.3512746,4.5 12,4.5 C5.64872538,4.5 0.5,9.64872538 0.5,16 C0.5,22.3512746 5.64872538,27.5 12,27.5 Z"/>
+					</g>
+					<g id="Radio-/-!default" transform="translate(192 357)">
+						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+							<tspan x="32" y="22">Option 1</tspan>
+						</text>
+						<path id="Oval-112-Copy-2" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" d="M12,27.5 C18.3512746,27.5 23.5,22.3512746 23.5,16 C23.5,9.64872538 18.3512746,4.5 12,4.5 C5.64872538,4.5 0.5,9.64872538 0.5,16 C0.5,22.3512746 5.64872538,27.5 12,27.5 Z"/>
+					</g>
+					<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal" transform="translate(191 335.5)">
+						<tspan x="0" y="15">Radio group label </tspan>
+					</text>
+					<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(216 371)">
+						<line id="8-sp-(0.5-em)" x1="0" x2="8" y1="2" y2="2"/>
+					</g>
+					<text id="`vertical-align:-mid" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
+						<tspan x="383" y="379">`vertical-align: middle`</tspan>
+					</text>
+					<line id="Line-Copy-93" x1="175" x2="377" y1="355.5" y2="355.5" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square"/>
+					<line id="Line-Copy-91" x1="175" x2="377" y1="390.5" y2="390.5" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square"/>
+					<path id="Line-Copy-92" fill="#979797" fill-rule="nonzero" d="M373,391.014282 L373,390.014282 L377,390.014 L377,356 L373,356 L373,355 L382,355 L382,356 L378,356 L378,390.014 L382,390.014282 L382,391.014282 L373,391.014282 Z"/>
+					<line id="1em" x1="204" x2="204" y1="385" y2="401" stroke="#D0021B" stroke-width="4"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
