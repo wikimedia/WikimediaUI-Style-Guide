@@ -8,13 +8,13 @@
 			<rect width="14720" height="3264" fill="#FFF"/>
 			<g id="SPECIFICATIONS" transform="translate(-309 185)">
 				<g id="Specifications-(right-col)" transform="translate(1283 54)">
-					<text id="16-sp-/-1-em" fill="#C70070" font-family="Lato-Regular, Lato" font-size="12" font-weight="normal">
+					<text id="16-sp-/-1-em" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
 						<tspan x="551" y="77">16 sp / 1 em</tspan>
 					</text>
-					<text id="12-sp-/-1.25-em" fill="#C70070" font-family="Lato-Regular, Lato" font-size="12" font-weight="normal">
+					<text id="12-sp-/-1.25-em" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
 						<tspan x="551" y="101">12 sp / 1.25 em</tspan>
 					</text>
-					<text id="8-sp-/-0.5-em" fill="#C70070" font-family="Lato-Regular, Lato" font-size="12" font-weight="normal">
+					<text id="8-sp-/-0.5-em" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
 						<tspan x="551" y="125">8 sp / 0.5 em</tspan>
 					</text>
 					<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(510 119)">
