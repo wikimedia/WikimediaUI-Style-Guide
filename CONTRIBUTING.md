@@ -1,6 +1,6 @@
 # How to contribute
 
-We appreciate pull requests from everyone.
+We welcome and appreciate pull requests from everyone.
 
 You can participate in many ways. The documentation is available in a Git repository with the design assets needed for your project. You can get all of them, change anything and send the changes back.
 
@@ -12,12 +12,10 @@ Fork, then clone the repo:
 $ git clone git@github.com:your-username/WikimediaUI-Style-Guide.git
 ```
 
-Setup your system. Change to the cloned folder and type for npm package manager to install needed packages.
-Additionally we're relying on [Git LFS](https://github.com/git-lfs/git-lfs/wiki/Installation) for the large binary Sketch, Illustrator and ZIP files to keep the repo lean.
+Setup your system. Change to the cloned folder and let npm package manager install needed packages. Make sure you have [npm](https://nodejs.org/en/) installed beforehand.
 
 ```console
 $ npm install
-$ git lfs pull
 ```
 
 Make your changes. To automatically watch for changes, run:
@@ -45,7 +43,7 @@ Please add specific topics into a single commit and also take into account the [
 
 Push to your fork and [submit a pull request](https://github.com/wikimedia/WikimediaUI-Style-Guide/compare)
 
-In order for the pushed changes to be available live, members of Wikimedia design are going to review it first.
+In order for the pushed changes to be available live, members of Wikimedia design review them first, provide feedback and put them on the production server as final step.
 
 ### Contribute beyond content
 You can also help to improve how this documentation looks and works.
