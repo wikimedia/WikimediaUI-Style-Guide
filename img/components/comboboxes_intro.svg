@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="274" height="34" viewBox="0 0 274 34">
+	<title>
+		comboboxes_intro
+	</title>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-10389 -880)">
+			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
+			<g id="COMBOBOX-INPUT-FIELD" transform="translate(10190 803)">
+				<path id="Mediawiki.Neutral.Normal-copy-30" fill="#F8F9FA" stroke="#A2A9B1" d="M440.5 78.5v31h29.498c.832 0 1.502-.668 1.502-1.502V80.002c0-.832-.668-1.502-1.502-1.502H440.5z"/>
+				<path id="Mediawiki.Neutral.Acive-8-Copy" fill="#FFF" stroke="#A2A9B1" d="M440.5 109.5v-31H201.993c-.827 0-1.493.668-1.493 1.502v27.996a1.5 1.5 0 001.493 1.502H440.5z"/>
+				<text id="Placeholder-Copy" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+					<tspan x="208" y="100">Placeholder</tspan>
+				</text>
+				<g id="Icon-/-Dropdown-indicator-/-!default" fill="#222" transform="translate(450 91)">
+					<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
