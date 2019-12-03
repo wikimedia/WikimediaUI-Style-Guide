@@ -3,12 +3,12 @@
 	<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-	<meta property="og:title" content="Components: Messages - Wikimedia Design Style Guide (WikimediaUI)">
+	<meta property="og:title" content="Components: Comboboxes - Wikimedia Design Style Guide (WikimediaUI)">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components/messages.html">
+	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components/comboboxes.html">
 	<meta property="og:image" content="https://design.wikimedia.org/style-guide/img/design-style-guide.png">
 	<link rel="stylesheet" href="../css/build/wmui-style-guide.min.css">
-	<title>Components: Messages – Wikimedia Design Style Guide</title>
+	<title>Components: Comboboxes – Wikimedia Design Style Guide</title>
 	<script>
 		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
 	</script>
@@ -20,7 +20,7 @@
 	<link rel="preload" href="../fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
 	<script src="../js/wikimedia-design-style-guide.min.js" async></script>
 </head>
-<body class="page--components page--components-messages" vocab="http://schema.org/" typeof="WebPage">
+<body class="page--components page--components-comboboxes" vocab="http://schema.org/" typeof="WebPage">
 	<header id="header" class="header">
 		<div class="content-box">
 			<a href="#content" class="is-aural is-focusable">Jump to content</a>
@@ -52,31 +52,31 @@
 						</li>
 						<li class="nav__item is-on"><a href="links.html">Components</a>
 							<ul class="nav__sub-items">
-								<li class="nav__sub-item"><a href="links.html">Actions</a>
-									<ul>
-										<li class="nav__sub-item"><a href="links.html">Links</a></li>
-										<li class="nav__sub-item"><a href="buttons.html">Buttons</a></li>
-										<li class="nav__sub-item"><a href="button-groups.html">Button groups</a></li>
-									</ul>
-								</li>
-								<li class="nav__sub-item"><a href="checkboxes.html">
+								<li class="nav__sub-item"><a href="links.html">Actions</a></li>
+								<li class="nav__sub-item is-on"><a href="checkboxes.html">
 								Selection</a>
 									<ul>
 										<li class="nav__sub-item"><a href="checkboxes.html">Checkboxes</a></li>
 										<li class="nav__sub-item"><a href="radio-buttons.html">Radio buttons</a></li>
+										<li class="nav__sub-item"><a href="toggle-switches.html">Toggle switches</a></li>
 										<li class="nav__sub-item"><a href="dropdowns.html">Dropdowns</a></li>
-										<li class="nav__sub-item"><a href="comboboxes.html">Comboboxes</a></li>
+										<li class="nav__sub-item is-on"><a href="comboboxes.html">Comboboxes</a></li>
 									</ul>
 								</li>
 								<li class="nav__sub-item"><a href="text-inputs-and-textarea.html">
 								Entry</a>
 									<ul>
 										<li class="nav__sub-item"><a href="text-inputs-and-textarea.html">Text inputs and textarea</a></li>
+										<!-- <li class="nav__sub-item"><a href="text-inputs-validation.html">Text inputs validation</a></li> Todo: Clarify if validation is sufficient for own navigation item. -->
+										<li class="nav__sub-item"><a href="number-inputs.html">Number inputs</a></li>
+										<!-- <li class="nav__sub-item"><a href="sliders.html">Sliders</a></li> Todo: Sliders definition -->
+										<li class="nav__sub-item"><a href="file-inputs.html">File inputs</a></li>
+										<!-- <li class="nav__sub-item"><a href="calendar.html">Calendar</a></li> Todo: Are we ready for calendar? -->
 									</ul>
 								</li>
-								<li class="nav__sub-item is-on"><a href="messages.html">Display</a>
+								<li class="nav__sub-item"><a href="messages.html">Display</a>
 									<ul>
-										<li class="nav__sub-item is-on"><a href="messages.html">Messages</a></li>
+										<li class="nav__sub-item"><a href="messages.html">Messages</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -89,46 +89,44 @@
 			<div class="col col--end">
 				<main id="content" class="content">
 					<div class="page__parent-title">Components</div>
-					<h1 class="page__title">Messages</h1>
-						<p class="page__lead">Messages to the user as system feedback can be delivered as block message with a longer explanation. The block messages, predominantly used in top or banner positions in the view are defined on this page. Or as inline message directly to a user input widget. Please go to <a href="inputs-with-validation.html">inputs with validation for inline validation messages</a>.</p>
+					<h1 class="page__title">Comboboxes</h1>
+						<p class="page__lead">Comboboxes combine a <a href="text-inputs-and-textarea.html">text input</a> with autocomplete and a <a href="dropdowns.html">dropdown button</a>.</p>
 						<figure class="components__intro">
-							<img src="../img/components/messages_notice.svg" alt="Block message of neutral type visual example">
+							<img src="../img/components/comboboxes_intro.svg" alt="text input field">
 						</figure>
 
-						<h2>Using messages</h2>
-						<p>Messages must include a descriptive text or a combination of text and an icon. Accessibility note: An additional icon adds a point of recognition for color blind users.</p>
+						<h2>Using comboboxes</h2>
+						<p>Through combobox inputs users can input text, numbers, symbols or mixed-format strings (unless specifically restricted) while being offered auto complete options in a dropdown menu. </p>
+						<p>Comboboxes should be used when a user’s answer to a prompt can not easily be predicted, but offers a number of pre-defined input values as options, for example common responses, to ease filling out the input with useful values.</p>
 
 						<h2>Designing</h2>
-						<p><strong>Message text</strong><br>
-							Message text should provide clear and short as possible feedback to the users and possibly provide next steps if available. </p>
-						<p><strong>Icon</strong><br>
-							Icons simplify user recognition and provide ability to shorten message text. Icons are limited to default pre-collection of each message type to ensure recognition.
+						<figure class="components__designing">
+							<img src="../img/components/comboboxes_designing.svg" alt="text input field design properties">
+							<figcaption class="figure__caption"></figcaption>
+						</figure>
+						<p><strong>Label</strong><br>
+						Combobox labels communicate what input is requested in the text box. Labels are obligatory for input fields and should only be visibly hidden, but still accessible for screen readers in exceptional cases.</p>
+						<p><strong>Placeholder text</strong> <small class="is-subtle">(optional)</small><br>
+							Placeholder text provides an example of what type of information is being requested in the input box. Placeholder text should further illustrate and support the combobox input label, however they should never be the only input description. Use <span class="color-hint" style="--color-hint: #72777d;" title="#72777d">Base30</span> for it.
+						</p>
+						<p><strong>Icon</strong> <small class="is-subtle">(optional)</small><br>
+							Icons may be added to simple identification of specific combobox inputs.
+						</p>
+						<!--p><strong>Indicator icon</strong><br>
+							Indicator icons are used in two contexts with inputs:
+						</p-->
+						<p><strong>Inline error messages and form validation</strong> <small class="is-subtle">(optional)</small><br>
+							When possible, place messages inline with where the error occurred and explain to users what caused the error and, or how it can be fixed. Utilize appropriate colors for different message types (<span class="color-hint" style="--color-hint: #00af89;" title="#00af89">Green50</span> for successful or <span class="color-hint" style="--color-hint: #d33;" title="#d33">Red50</span> for erroneous). Inline messages should only be shown after a user has clicked into or interacted with the corresponding field.
 						</p>
 
-						<h2>Types</h2>
-						<h3>Neutral or notice message</h3>
-						<figure class="components__intro">
-							<img src="../img/components/messages_notice.svg" alt="Block message of neutral type, visual example">
+						<h2>States</h2>
+						<figure class="components__anatomy">
+							<img src="../img/components/comboboxes_states.svg" alt="comboboxes field visual design and states">
+							<figcaption class="figure__caption"></figcaption>
 						</figure>
-						<p>Neutral or notice block messages provide general user feedback. Accompany the message by the 'infoFilled' icon.</p>
 
-						<h3>Error message</h3>
-						<figure class="components__intro">
-							<img src="../img/components/messages_error.svg" alt="Block message of error type, visual example">
-						</figure>
-						<p>Error type feature the strongest visual priority of all system messages. Use to alert the user for immediate attention only needs. Accompany the message by the 'error' icon.</p>
-
-						<h3>Warning message</h3>
-						<figure class="components__intro">
-							<img src="../img/components/messages_warning.svg" alt="Block message of error type, visual example">
-						</figure>
-						<p>Warning type provide important messages the user should be cautious about. Accompany the message by the 'warning' icon.</p>
-
-						<h3>Success message</h3>
-						<figure class="components__intro">
-							<img src="../img/components/messages_success.svg" alt="Block message of error type, visual example">
-						</figure>
-						<p>Success type deliver feedback of a successful user interaction like publishing an article. Accompany the message by the 'success' icon.</p>
+						<h2>Coding</h2>
+						<p>See <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#ComboBoxInputWidget" target="_blank" rel="noopener">OOUI's demos section of combobox inputs</a>.</p>
 				</main>
 			</div>
 		</div>
