@@ -969,9 +969,6 @@ sans-serif;
 .nav--main .nav__sub-item .nav__sub-item a {
 	padding-left: 3.6rem;
 }
-.page--components .nav--main .nav__sub-items > .nav__sub-item.is-on > a {
-	border-left-color: #eaecf0;
-}
 /* ::: Content ::: */
 .page__parent-title {
 	color: #72777d;
