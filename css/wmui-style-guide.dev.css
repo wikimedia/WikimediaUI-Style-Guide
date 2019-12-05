@@ -495,10 +495,6 @@ sup {
 	padding-left: 3.6rem;
 }
 
-.page--components .nav--main .nav__sub-items > .nav__sub-item.is-on > a {
-	border-left-color: var( --wmui-color-base80 );
-}
-
 
 /* ::: Content ::: */
 .page__parent-title {
