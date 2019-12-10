@@ -17,6 +17,7 @@
 	--font-family-serif--fallback: Georgia, serif; /* stylelint-disable-line value-keyword-case */
 	--font-weight-base: 400;
 	--font-weight-bold: 700;
+	--font-weight-heading: 600;
 	--font-weight-ultralight: 100;
 }
 
@@ -54,7 +55,7 @@ h2,
 h3,
 h4,
 h5 {
-	font-weight: var( --font-weight-bold );
+	font-weight: var( --font-weight-heading );
 }
 
 h1,
