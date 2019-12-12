@@ -1,11 +1,11 @@
 {
   "name": "wmui-style-guide",
   "version": "0.1.0",
-  "description": "Wikimedia User Interface Style Guide",
+  "description": "Wikimedia Design Style Guide, focus on Wikimedia User-Interface",
   "keywords": [
     "ui"
   ],
-  "homepage": "https://www.mediawiki.org/wiki/Design",
+  "homepage": "https://design.wikimedia.org/style-guide/",
   "repository": {
     "type": "git",
     "url": "https://github.com/wikimedia/WikimediaUI-Style-Guide.git"
