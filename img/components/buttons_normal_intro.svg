@@ -1,11 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="90" height="34" viewBox="0 0 90 34">
-	<g fill="none" fill-rule="evenodd">
-		<path fill="#FFF" d="M-1951-255h14720v3264H-1951z"/>
-		<g transform="translate(-191 1)">
-			<rect width="87" height="31" x="192.5" y=".5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
-			<text fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-				<tspan x="208" y="22">Neutral</tspan>
-			</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="34" viewBox="0 0 82 34">
+	<title>
+		buttons_normal_intro
+	</title>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-1951 -255)">
+			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
+			<g id="BUTTONS-NORMAL-&amp;-PRIMARY" transform="translate(1759 143)">
+				<g id="Normal-&amp;-Primary-Buttons-X" transform="translate(1 113)">
+					<g id="Button-/-!default-(--neutral)" transform="translate(192)">
+						<rect id="bg" width="79" height="31" x=".5" y=".5" fill="#F8F9FA" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
+						<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+							<tspan x="12.168" y="22">Normal</tspan>
+						</text>
+					</g>
+				</g>
+			</g>
 		</g>
 	</g>
 </svg>

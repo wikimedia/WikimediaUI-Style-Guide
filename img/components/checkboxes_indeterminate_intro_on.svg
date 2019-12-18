@@ -4,11 +4,11 @@
 		checkboxes_indeterminate_intro_on
 	</title>
 	<defs>
-		<polygon id="path-1" points="4 12 16 12 16 10 4 10"/>
+		<path id="path-1" d="M4 12h12v-2H4z"/>
 	</defs>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<g id="WikimediaUI-components_overview" transform="translate(-5514 -1013)">
-			<rect width="14720" height="3264" fill="#FFF"/>
+			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
 			<g id="CHECKBOX-DESKTOP" transform="translate(5038 186)">
 				<g id="Checkbox-indeterminate" transform="translate(2 787)">
 					<g id="Checkbox-/-:indeterminate:checked-/-!default" transform="translate(480 42)">
@@ -23,7 +23,7 @@
 								</mask>
 								<use id="Mask" fill="#000" fill-rule="evenodd" xlink:href="#path-1"/>
 								<g id="🎨-Color/Base100-#fff" fill="#FFF" fill-rule="evenodd" mask="url(#mask-2)">
-									<polygon id="Rectangle-1" points="0 0 20 0 20 20 0 20"/>
+									<path id="Rectangle-1" d="M0 0h20v20H0z"/>
 								</g>
 							</g>
 						</g>
@@ -41,7 +41,7 @@
 						<g id="Checkbox" fill-rule="evenodd" stroke-width="1" transform="translate(0 5)">
 							<rect id="checkbox" width="23" height="23" x=".5" y=".5" fill="#36C" stroke="#36C" rx="2"/>
 							<g id="Icon-/-Checkbox-checkmark" fill="#FFF" fill-rule="nonzero" transform="translate(5 7)">
-								<polygon id="Shape" points="4.444 8.433 1.123 5.113 0 6.235 4.444 10.687 14 1.131 12.877 0"/>
+								<path id="Shape" d="M4.444 8.433l-3.321-3.32L0 6.235l4.444 4.452L14 1.131 12.877 0z"/>
 							</g>
 						</g>
 					</g>

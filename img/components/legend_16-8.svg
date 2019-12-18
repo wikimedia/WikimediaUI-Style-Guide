@@ -5,7 +5,7 @@
 	</title>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<g id="WikimediaUI-components_overview" transform="translate(-1481 -304)">
-			<rect width="14720" height="3264" fill="#FFF"/>
+			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
 			<g id="SPECIFICATIONS" transform="translate(-309 185)">
 				<g id="Specifications-(right-col)" transform="translate(1283 54)">
 					<text id="16-sp-/-1-em" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
@@ -18,13 +18,13 @@
 						<tspan x="551" y="125">8 sp / 0.5 em</tspan>
 					</text>
 					<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(510 119)">
-						<line id="8-sp-(0.5-em)" x1="0" x2="8" y1="2" y2="2"/>
+						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 					</g>
 					<g id="_Spec-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(510 71)">
-						<line id="16-sp-(1-em)" x1="0" x2="16" y1="2" y2="2"/>
+						<path id="16-sp-(1-em)" d="M0 2h16"/>
 					</g>
 					<g id="_Spec-/-12-sp-(0.75-em)" stroke="#0082FF" stroke-width="4" transform="translate(510 95)">
-						<line id=".75em" x1="0" x2="12" y1="1" y2="1"/>
+						<path id=".75em" d="M0 1h12"/>
 					</g>
 				</g>
 			</g>

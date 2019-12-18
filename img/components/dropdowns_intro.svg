@@ -4,11 +4,11 @@
 		dropdowns_intro
 	</title>
 	<defs>
-		<polyline id="path-1" points="12 3.664 10.842 2.4 6 7.032 1.264 2.4 0 3.664 6 9.664 12 3.664"/>
+		<path id="path-1" d="M12 3.664L10.842 2.4 6 7.032 1.264 2.4 0 3.664l6 6 6-6"/>
 	</defs>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<g id="WikimediaUI-components_overview" transform="translate(-8771 -255)">
-			<rect width="14720" height="3264" fill="#FFF"/>
+			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
 			<g id="DROPDOWN" transform="translate(8579 186)">
 				<g id="Dropdown-X" transform="translate(1 70)">
 					<g id="Dropdown-/-!default" transform="translate(192)">
@@ -22,7 +22,7 @@
 							</mask>
 							<use id="Mask-2" fill="#000" fill-rule="evenodd" xlink:href="#path-1"/>
 							<g id="🎨-Color/Base10-(#222)" fill="#222" fill-rule="evenodd" mask="url(#mask-2)">
-								<rect id="Rectangle-1" width="12" height="12" x="0" y="0"/>
+								<path id="Rectangle-1" d="M0 0h12v12H0z"/>
 							</g>
 						</g>
 					</g>
