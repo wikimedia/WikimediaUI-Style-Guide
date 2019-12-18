@@ -4,16 +4,16 @@
 		toggle_switches_intro_on
 	</title>
 	<defs>
-		<circle id="path-1" cx="43" cy="16" r="10"/>
 		<filter id="filter-2" width="105%" height="110%" x="-2.5%" y="-2.5%" filterUnits="objectBoundingBox">
 			<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
 			<feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"/>
-			<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
+			<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
 		</filter>
+		<circle id="path-1" cx="43" cy="16" r="10"/>
 	</defs>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<g id="WikimediaUI-components_overview" transform="translate(-7038 -255)">
-			<rect width="14720" height="3264" fill="#FFF"/>
+			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
 			<g id="TOGGLE-SWITCH" transform="translate(6640 143)">
 				<g id="Toggle-Switch-X" transform="translate(0 113)">
 					<g id="Toggle-switch-/-:on-/-!default" transform="translate(400)">

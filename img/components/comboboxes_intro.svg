@@ -9,7 +9,7 @@
 			<g id="COMBOBOX-INPUT-FIELD" transform="translate(10190 803)">
 				<path id="Mediawiki.Neutral.Normal-copy-30" fill="#F8F9FA" stroke="#A2A9B1" d="M440.5 78.5v31h29.498c.832 0 1.502-.668 1.502-1.502V80.002c0-.832-.668-1.502-1.502-1.502H440.5z"/>
 				<path id="Mediawiki.Neutral.Acive-8-Copy" fill="#FFF" stroke="#A2A9B1" d="M440.5 109.5v-31H201.993c-.827 0-1.493.668-1.493 1.502v27.996a1.5 1.5 0 001.493 1.502H440.5z"/>
-				<text id="Placeholder-Copy" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+				<text id="Placeholder-Copy" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 					<tspan x="208" y="100">Placeholder</tspan>
 				</text>
 				<g id="Icon-/-Dropdown-indicator-/-!default" fill="#222" transform="translate(450 91)">

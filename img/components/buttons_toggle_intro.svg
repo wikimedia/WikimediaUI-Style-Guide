@@ -1,23 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="298" height="34" viewBox="0 0 298 34">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="302" height="90" viewBox="0 0 302 90">
 	<title>
 		buttons_toggle_intro
 	</title>
+	<defs>
+		<path id="path-1" d="M14.824 8h-1.06V2c1.17 0 2.118-.895 2.118-2H5.294c0 1.105.948 2 2.118 2v6h-1.06c-1.169 0-2.117.895-2.117 2v1H9.53v5l1.06 4 1.058-4v-5h5.294v-1c0-1.105-.948-2-2.117-2z"/>
+		<path id="path-3" d="M14.538 8H13.5V2c1.147 0 2.077-.895 2.077-2H5.192c0 1.105.93 2 2.077 2v6H6.231c-1.147 0-2.077.895-2.077 2v1h5.192v5l1.039 4 1.038-4v-5h5.192v-1c0-1.105-.93-2-2.077-2z"/>
+	</defs>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
-		<g id="WikimediaUI-components_overview" transform="translate(-1951 -719)">
+		<g id="WikimediaUI-components_overview" transform="translate(-1759 -719)">
 			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
 			<g id="BUTTONS-NORMAL-&amp;-PRIMARY" transform="translate(1759 143)">
-				<g id="Normal-&amp;-Primary-Buttons-X" transform="translate(1 113)">
-					<g id="Button-toggle-/-!default" transform="translate(192 464)">
-						<rect id="bg" width="107" height="31" x=".5" y=".5" fill="#F8F9FA" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
-						<text id="Neutral" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-							<tspan x="16" y="23">Toggle off</tspan>
-						</text>
-					</g>
-					<g id="Button-toggle-/-:selected" transform="translate(381 464)">
-						<rect id="bg" width="107" height="31" x=".5" y=".5" fill="#2A4B8D" fill-rule="evenodd" stroke="#2A4B8D" stroke-width="1" rx="2"/>
-						<text id="Neutral" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-							<tspan x="16" y="23">Toggle on</tspan>
+				<g id="Normal-&amp;-Primary-Buttons-X" transform="translate(1 86)">
+					<g id="Toggle-Buttons" transform="translate(0 491)">
+						<g id="Button-toggle-/-!default" transform="translate(192)">
+							<rect id="bg" width="107" height="31" x=".5" y=".5" fill="#F8F9FA" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
+							<g id="🔣-Icon/Moderation/pushPin" transform="translate(12.706 6)">
+								<mask id="mask-2" fill="#fff">
+									<use xlink:href="#path-1"/>
+								</mask>
+								<use id="Mask" fill="#000" fill-rule="evenodd" xlink:href="#path-1"/>
+								<g id="🎨-Color/Base/B10-(#222)" fill="#222" fill-rule="evenodd" mask="url(#mask-2)">
+									<path id="Rectangle-1" d="M0 0h21.176v20H0z"/>
+								</g>
+							</g>
+							<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+								<tspan x="38" y="22">Toggle</tspan>
+							</text>
+						</g>
+						<g id="Button-toggle-/-:selected" transform="translate(192 56)">
+							<rect id="bg" width="107" height="31" x=".5" y=".5" fill="#2A4B8D" fill-rule="evenodd" stroke="#2A4B8D" stroke-width="1" rx="2"/>
+							<text id="Label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+								<tspan x="39.462" y="22">Toggle</tspan>
+							</text>
+							<g id="🔣-Icon/Moderation/pushPin" transform="translate(12.462 6)">
+								<mask id="mask-4" fill="#fff">
+									<use xlink:href="#path-3"/>
+								</mask>
+								<use id="Mask" fill="#000" fill-rule="evenodd" xlink:href="#path-3"/>
+								<g id="🎨-Color/Base100-#fff" fill="#FFF" fill-rule="evenodd" mask="url(#mask-4)">
+									<path id="Rectangle-1" d="M0 0h20.769v20H0z"/>
+								</g>
+							</g>
+						</g>
+						<text id="Normal-Selected" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
+							<tspan x="0" y="21">Normal</tspan> <tspan x="0" y="77.1">Selected</tspan>
 						</text>
 					</g>
 				</g>
