@@ -44,8 +44,8 @@ module.exports = function ( grunt ) {
 			},
 			files: {
 				src: [
-					'js/src/fonts-loader.js',
-					'js/src/embed-tracking-code.js'
+					'js/src/fonts-loader.js'
+					// 'js/src/matomo-tracking-code.js'
 				],
 				dest: 'js/wikimedia-design-style-guide.concat.js'
 			}
@@ -60,11 +60,11 @@ module.exports = function ( grunt ) {
 				},
 				report: 'gzip'
 			},
-			js: {
-				expand: true,
-				src: 'js/*.concat.js',
-				ext: '.min.js',
-				extDot: 'first'
+			min: {
+				files: {
+					'js/wikimedia-design-style-guide.min.js': 'js/wikimedia-design-style-guide.concat.js',
+					'js/matomo-tracking.min.js': 'js/src/matomo-tracking.js'
+				}
 			}
 		},
 
