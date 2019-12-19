@@ -1,6 +1,7 @@
 /*
  * Matomo (former Piwik) Embed Tracking Code
  * @see https://matomo.org/blog/2017/04/different-ways-embedding-piwik-tracking-code-faster-website-performance/
+ * @see https://matomo.org/faq/general/faq_20904/
  */
 ( function () {
 	/* eslint-disable-next-line no-underscore-dangle */
@@ -13,13 +14,13 @@
 		var u = 'https://piwik.wikimedia.org/',
 			d = document,
 			g = d.createElement( 'script' ),
-			s = d.getElementsByTagName( 'script' )[ 0 ];
+			s = d.getElementsByTagName( 'head' )[ 0 ];
 		_paq.push( [ 'setTrackerUrl', u + 'piwik.php' ] );
 		_paq.push( [ 'setSiteId', '16' ] );
-		g.defer = true;
-		g.async = true;
 		g.src = u + 'piwik.js';
-		s.parentNode.insertBefore( g, s );
+		g.async = true;
+		g.defer = true;
+		s.appendChild( g );
 	}
 
 	if ( window.addEventListener ) {
