@@ -81,76 +81,82 @@
 						<img src="../img/components/text_inputs_intro.svg" alt="text input field">
 					</figure>
 
-					<h2>Using text inputs</h2>
-					<p>Through text input fields users can input text, numbers, symbols or mixed-format strings (unless specifically restricted). Text inputs can be single line or as textarea multiple line inputs.</p>
-					<p>Text inputs should be used in forms when a user’s answer to a prompt can not easily be predicted, or when there is significant variability in potential inputs. Text inputs should also be used when other form components prove more difficult (require additional steps) to achieve the same result (e.g. selecting a date from a calendar versus typing in the date). The Search type of text inputs is also prominently used for search queries.</p>
-					<p>When possible provide auto complete options that are tailored to the input field, such as a list of common responses or relevant search results.</p>
+					<section id="using">
+						<h2>Using text inputs</h2>
+						<p>Through text input fields users can input text, numbers, symbols or mixed-format strings (unless specifically restricted). Text inputs can be single line or as textarea multiple line inputs.</p>
+						<p>Text inputs should be used in forms when a user’s answer to a prompt can not easily be predicted, or when there is significant variability in potential inputs. Text inputs should also be used when other form components prove more difficult (require additional steps) to achieve the same result (e.g. selecting a date from a calendar versus typing in the date). The Search type of text inputs is also prominently used for search queries.</p>
+						<p>When possible provide auto complete options that are tailored to the input field, such as a list of common responses or relevant search results.</p>
+					</section>
+					<section id="designing">
+						<h2>Designing</h2>
+						<figure class="components__designing">
+							<img src="../img/components/text_inputs_designing.svg" alt="text input field design properties">
+							<figcaption class="figure__caption"></figcaption>
+						</figure>
+						<p><strong>Label</strong><br>
+						Text input labels communicate what input is requested in the text box. Labels are obligatory for input fields and should only be visibly hidden, but still accessible for screen readers in exceptional cases.</p>
+						<p><strong>Placeholder text</strong> <small class="is-subtle">(optional)</small><br>
+							Placeholder text provides an example of what type of information is being requested in the input box. Placeholder text should further illustrate and support the text input field label, however they should never be the only input description. Use <span class="color-hint" style="--color-hint: #72777d;" title="#72777d">Base30</span> for it.
+						</p>
+						<p><strong>Icon</strong><br>
+							Icons can add to simple identification of specific user inputs. Examples are 'search' <img class="icon" src="../resources/WikimediaUI-icons-SVGs/search.svg" alt="search icon"> magnifying glass for search bars or 'user avatar' <img class="icon" src="../resources/WikimediaUI-icons-SVGs/userAvatar.svg" alt="user icon"> for user login input fields.
+						</p>
+						<p><strong>Indicator icon</strong><br>
+							Indicator icons are used in two contexts with inputs:
+						</p>
+						<ul>
+							<li>Showing that a user input is required with a 'required' <img class="icon icon--indicator" src="../resources/WikimediaUI-icons-SVGs/required.svg" alt="required indicator"> indicator</li>
+							<li>Clearing the input, like in search inputs with a 'clear' <img class="icon icon--indicator" src="../resources/WikimediaUI-icons-SVGs/clear.svg" alt="clear indicator"> indicator</li>
+						</ul>
+						<p>The <strong>length</strong> (width and number of lines) provides a hint to users as to the expected length of their input. Textareas should be used when the input length is multiple sentences long, whereas shorter responses like a search query or password have to be limited to a single line.</p>
+						<p><strong>Inline error messages and form validation</strong> <small class="is-subtle">(optional)</small><br>
+							When possible, place messages inline with where the error occurred and explain to users what caused the error and, or how it can be fixed. Utilize appropriate colors for different message types (<span class="color-hint" style="--color-hint: #00af89;" title="#00af89">Green50</span> for successful or <span class="color-hint" style="--color-hint: #d33;" title="#d33">Red50</span> for erroneous). Inline messages should only be shown after a user has clicked into or interacted with the corresponding field.
+						</p>
+					</section>
+					<section id="states">
+						<h2>States</h2>
+						<figure class="components__anatomy">
+							<img src="../img/components/text_inputs_states.svg" alt="text input field visual design and states">
+							<figcaption class="figure__caption"></figcaption>
+						</figure>
+					</section>
+					<section id="types">
+						<h2>Types</h2>
+						<h3>Text input</h3>
+						<p>A single line text input field.</p>
 
-					<h2>Designing</h2>
-					<figure class="components__designing">
-						<img src="../img/components/text_inputs_designing.svg" alt="text input field design properties">
-						<figcaption class="figure__caption"></figcaption>
-					</figure>
-					<p><strong>Label</strong><br>
-					Text input labels communicate what input is requested in the text box. Labels are obligatory for input fields and should only be visibly hidden, but still accessible for screen readers in exceptional cases.</p>
-					<p><strong>Placeholder text</strong> <small class="is-subtle">(optional)</small><br>
-						Placeholder text provides an example of what type of information is being requested in the input box. Placeholder text should further illustrate and support the text input field label, however they should never be the only input description. Use <span class="color-hint" style="--color-hint: #72777d;" title="#72777d">Base30</span> for it.
-					</p>
-					<p><strong>Icon</strong><br>
-						Icons can add to simple identification of specific user inputs. Examples are 'search' <img class="icon" src="../resources/WikimediaUI-icons-SVGs/search.svg" alt="search icon"> magnifying glass for search bars or 'user avatar' <img class="icon" src="../resources/WikimediaUI-icons-SVGs/userAvatar.svg" alt="user icon"> for user login input fields.
-					</p>
-					<p><strong>Indicator icon</strong><br>
-						Indicator icons are used in two contexts with inputs:
-					</p>
-					<ul>
-						<li>Showing that a user input is required with a 'required' <img class="icon icon--indicator" src="../resources/WikimediaUI-icons-SVGs/required.svg" alt="required indicator"> indicator</li>
-						<li>Clearing the input, like in search inputs with a 'clear' <img class="icon icon--indicator" src="../resources/WikimediaUI-icons-SVGs/clear.svg" alt="clear indicator"> indicator</li>
-					</ul>
-					<p>The <strong>length</strong> (width and number of lines) provides a hint to users as to the expected length of their input. Textareas should be used when the input length is multiple sentences long, whereas shorter responses like a search query or password have to be limited to a single line.</p>
-					<p><strong>Inline error messages and form validation</strong> <small class="is-subtle">(optional)</small><br>
-						When possible, place messages inline with where the error occurred and explain to users what caused the error and, or how it can be fixed. Utilize appropriate colors for different message types (<span class="color-hint" style="--color-hint: #00af89;" title="#00af89">Green50</span> for successful or <span class="color-hint" style="--color-hint: #d33;" title="#d33">Red50</span> for erroneous). Inline messages should only be shown after a user has clicked into or interacted with the corresponding field.
-					</p>
+						<h3>Textarea</h3>
+						<figure class="components__intro">
+							<img src="../img/components/textareas_intro.svg" alt="textarea visual design and states">
+							<figcaption class="figure__caption"></figcaption>
+						</figure>
+						<p>A multi-line text input field.</p>
 
-					<h2>States</h2>
-					<figure class="components__anatomy">
-						<img src="../img/components/text_inputs_states.svg" alt="text input field visual design and states">
-						<figcaption class="figure__caption"></figcaption>
-					</figure>
+						<h3>Search inputs</h3>
+						<figure class="components__intro">
+							<img src="../img/components/search_inputs_intro.svg" alt="search input field visual design and states">
+							<figcaption class="figure__caption"></figcaption>
+						</figure>
+						<p>A single line text input with optional auto-complete or dropdown and a 'search' icon as quick lookup helper.</p>
 
-					<h2>Types</h2>
-					<h3>Text input</h3>
-					<p>A single line text input field.</p>
+						<h3>Number inputs</h3>
+						<figure class="components__intro">
+							<img src="../img/components/number_inputs_intro.svg" alt="number input field visual design and states">
+							<figcaption class="figure__caption"></figcaption>
+						</figure>
+						<p>See <a href="number-inputs.html">Entry &gt; Number inputs page for details</a>.</p>
 
-					<h3>Textarea</h3>
-					<figure class="components__intro">
-						<img src="../img/components/textareas_intro.svg" alt="textarea visual design and states">
-						<figcaption class="figure__caption"></figcaption>
-					</figure>
-					<p>A multi-line text input field.</p>
-
-					<h3>Search inputs</h3>
-					<figure class="components__intro">
-						<img src="../img/components/search_inputs_intro.svg" alt="search input field visual design and states">
-						<figcaption class="figure__caption"></figcaption>
-					</figure>
-					<p>A single line text input with optional auto-complete or dropdown and a 'search' icon as quick lookup helper.</p>
-
-					<h3>Number inputs</h3>
-					<figure class="components__intro">
-						<img src="../img/components/number_inputs_intro.svg" alt="number input field visual design and states">
-						<figcaption class="figure__caption"></figcaption>
-					</figure>
-					<p>See <a href="number-inputs.html">Entry &gt; Number inputs page for details</a>.</p>
-
-					<h3>Password inputs</h3>
-					<figure class="components__intro">
-						<img src="../img/components/password_inputs_intro.svg" alt="password input field visual design and states">
-						<figcaption class="figure__caption"></figcaption>
-					</figure>
-					<p>Password inputs automatically protect the user's input to visual hacking.</p>
-
-					<h2>Coding</h2>
-					<p>See <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#TextInputWidget" target="_blank" rel="noopener">OOUI's demos section of text inputs</a>, <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#MultilineTextInputWidget" target="_blank" rel="noopener">textareas</a>, <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#SearchInputWidget-type-search" target="_blank" rel="noopener">search inputs</a> and <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#NumberInputWidget" target="_blank" rel="noopener">number inputs</a>.</p>
+						<h3>Password inputs</h3>
+						<figure class="components__intro">
+							<img src="../img/components/password_inputs_intro.svg" alt="password input field visual design and states">
+							<figcaption class="figure__caption"></figcaption>
+						</figure>
+						<p>Password inputs automatically protect the user's input to visual hacking.</p>
+					</section>
+					<section id="coding">
+						<h2>Coding</h2>
+						<p>See <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#TextInputWidget" target="_blank" rel="noopener">OOUI's demos section of text inputs</a>, <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#MultilineTextInputWidget" target="_blank" rel="noopener">textareas</a>, <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#SearchInputWidget-type-search" target="_blank" rel="noopener">search inputs</a> and <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#NumberInputWidget" target="_blank" rel="noopener">number inputs</a>.</p>
+					</section>
 				</main>
 			</div>
 		</div>
