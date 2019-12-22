@@ -4,8 +4,8 @@
 		number_inputs_intro
 	</title>
 	<defs>
-		<path id="path-1" d="M4 12h12v-2H4z"/>
-		<path id="path-3" d="M16 10h-5V5H9v5H4v2h5v5h2v-5h5z"/>
+		<path id="path-1" d="M4 11h12V9H4z"/>
+		<path id="path-3" d="M16 9h-5V4H9v5H4v2h5v5h2v-5h5z"/>
 	</defs>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<g id="WikimediaUI-components_overview" transform="translate(-8199 -254)">
@@ -17,8 +17,8 @@
 				<g id="Text-input-/-!default" transform="translate(233 114)">
 					<rect id="border" width="95" height="31" x=".5" y=".5" fill="#FFF" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
 				</g>
-				<path id="Rectangle" fill="#FFF" d="M234 141h4v4h-4zM322 141h4v4h-4zM322 115h4v4h-4zM234 115h4v4h-4z"/>
-				<text id="100" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+				<path id="Rectangle" fill="#FFF" d="M234 141h4v4h-4zM324 141h4v4h-4zM324 115h4v4h-4zM234 115h4v4h-4z"/>
+				<text id="100" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
 					<tspan x="242" y="137">100</tspan>
 				</text>
 				<g id="🔣-Icon/Interactions/Subtract" transform="translate(207 120)">
@@ -30,7 +30,7 @@
 						<path id="Rectangle-1" d="M0 0h20v20H0z"/>
 					</g>
 				</g>
-				<g id="🔣-Icon/Interactions/Add" transform="translate(334 120)">
+				<g id="🔣-Icon/Interactions/add" transform="translate(334 120)">
 					<mask id="mask-4" fill="#fff">
 						<use xlink:href="#path-3"/>
 					</mask>
