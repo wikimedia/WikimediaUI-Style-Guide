@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="276" height="126" viewBox="0 0 276 126">
+	<title>
+		dropdowns_designing
+	</title>
+	<defs>
+		<filter id="filter-2" width="102.9%" height="128.1%" x="-1.5%" y="-9.4%" filterUnits="objectBoundingBox">
+			<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+			<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+		</filter>
+		<filter id="filter-6" width="102.9%" height="112.1%" x="-1.5%" y="-3%" filterUnits="objectBoundingBox">
+			<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+			<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+		</filter>
+		<path id="path-3" d="M12 3.664L10.842 2.4 6 7.032 1.264 2.4 0 3.664l6 6 6-6"/>
+		<path id="path-5" d="M0 32v64.007C0 97.107.893 98 1.995 98h268.01A1.996 1.996 0 00272 96.007V32H0z"/>
+		<rect id="path-1" width="272" height="32" x="0" y="0" rx="2"/>
+	</defs>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-8771 -606)">
+			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
+			<g id="DROPDOWN" transform="translate(8579 186)">
+				<g id="Dropdown-X" transform="translate(1 70)">
+					<g id="Dropdown-/---expanded:focus" transform="translate(193 374)">
+						<g id="Dropdown-/-!default">
+							<g id="Dropdown">
+								<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
+								<rect width="271" height="31" x=".5" y=".5" fill="#FFF" stroke="#36C" stroke-linejoin="square" rx="2"/>
+								<rect width="273" height="33" x="-.5" y="-.5" stroke="#36C" rx="2"/>
+							</g>
+							<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+								<tspan x="12" y="22">Item 1 selected </tspan>
+							</text>
+							<g id="🔣-Icon/Indicators/down" transform="translate(247.867 11)">
+								<mask id="mask-4" fill="#fff">
+									<use xlink:href="#path-3"/>
+								</mask>
+								<use id="Mask-2" fill="#000" fill-rule="evenodd" xlink:href="#path-3"/>
+								<g id="🎨-Color/Base10-(#222)" fill="#222" fill-rule="evenodd" mask="url(#mask-4)">
+									<path id="Rectangle-1" d="M0 0h12v12H0z"/>
+								</g>
+							</g>
+						</g>
+						<g id="Bg-menu">
+							<use fill="#000" filter="url(#filter-6)" xlink:href="#path-5"/>
+							<path fill="#FFF" stroke="#A2A9B1" stroke-linejoin="square" d="M.5 32.5v63.507c0 .825.669 1.493 1.495 1.493h268.01c.825 0 1.495-.67 1.495-1.493V32.5H.5z"/>
+						</g>
+						<path id="Bg-menu-option:hover" fill="#EBF2FF" fill-rule="evenodd" d="M1 33h269.993v31.007a.991.991 0 01-1.005.993H2.005A1.004 1.004 0 011 64.007V33z"/>
+						<path id="Bg-menu-option:hover" fill="#FFF" fill-rule="evenodd" d="M1 65h269.993v31.007a.991.991 0 01-1.005.993H2.005A1.004 1.004 0 011 96.007V65z"/>
+						<text id="Menu-option" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+							<tspan x="13" y="87">Item 2</tspan>
+						</text>
+						<text id="Menu-option" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+							<tspan x="13" y="55">Item 1</tspan>
+						</text>
+					</g>
+					<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" transform="translate(193 350)">
+						<tspan x="0" y="15">Label</tspan>
+					</text>
+					<g id="_Spec-/-12-sp-(0.75-em)" stroke="#0082FF" stroke-width="4" transform="translate(453 390.5)">
+						<path id=".75em" d="M0 .5h12"/>
+					</g>
+					<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(-90 295.5 86.5)">
+						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
+					</g>
+					<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="rotate(-90 307.5 98.5)">
+						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
+					</g>
+					<g id="_Spec-/-12-sp-(0.75-em)" stroke="#0082FF" stroke-width="4" transform="translate(429 390.5)">
+						<path id=".75em" d="M0 .5h12"/>
+					</g>
+					<g id="_Spec-/-12-sp-(0.75-em)" stroke="#0082FF" stroke-width="4" transform="translate(193 391)">
+						<path id=".75em" d="M0 1h12"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
