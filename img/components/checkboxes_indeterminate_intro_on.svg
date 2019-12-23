@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="280" height="113" viewBox="0 0 280 113">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="324" height="113" viewBox="0 0 324 113">
 	<title>
 		checkboxes_indeterminate_intro_on
 	</title>
 	<defs>
-		<path id="path-1" d="M4 12h12v-2H4z"/>
+		<path id="path-1" d="M4 11h12V9H4z"/>
 	</defs>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<g id="WikimediaUI-components_overview" transform="translate(-5514 -1013)">
 			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
 			<g id="CHECKBOX-DESKTOP" transform="translate(5038 186)">
 				<g id="Checkbox-indeterminate" transform="translate(2 787)">
-					<g id="Checkbox-/-:indeterminate:checked-/-!default" transform="translate(480 42)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
-							<tspan x="33" y="23">Indeterminate – children selected</tspan>
+					<g id="Checkbox-/-:indeterminate:checked-/-!default" transform="translate(480 41)">
+						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+							<tspan x="32" y="23">Indeterminate – some children selected</tspan>
 						</text>
 						<g id="Checkbox" fill-rule="evenodd" stroke-width="1" transform="translate(0 5)">
 							<rect width="23" height="23" x=".5" y=".5" fill="#36C" stroke="#36C" rx="2"/>
@@ -29,14 +29,14 @@
 						</g>
 					</g>
 					<g id="Checkbox-/-!default" transform="translate(512 78)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
-							<tspan x="33" y="22">Unselected</tspan>
+						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+							<tspan x="32" y="22">Unselected</tspan>
 						</text>
 						<rect id="checkbox" width="23" height="23" x=".5" y="4.5" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" rx="2"/>
 					</g>
 					<g id="Checkbox-/-:checked-/-!default" transform="translate(512 117)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
-							<tspan x="33" y="23">Selected</tspan>
+						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+							<tspan x="32" y="23">Selected</tspan>
 						</text>
 						<g id="Checkbox" fill-rule="evenodd" stroke-width="1" transform="translate(0 5)">
 							<rect id="checkbox" width="23" height="23" x=".5" y=".5" fill="#36C" stroke="#36C" rx="2"/>
@@ -46,8 +46,8 @@
 						</g>
 					</g>
 					<g id="Checkbox-/-!default" transform="translate(192 43)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
-							<tspan x="33" y="22">Neutral point</tspan>
+						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<rect id="checkbox" width="23" height="23" x=".5" y="4.5" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" rx="2"/>
 					</g>
