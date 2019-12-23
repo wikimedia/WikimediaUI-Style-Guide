@@ -1205,12 +1205,12 @@ solid
 .icon--indicator {
 		width: 1.2rem;
 		height: 1.2rem;
-		vertical-align: baseline;
+		margin-bottom: 0.2rem;
 	}
 .icon--intermediate {
 		width: 1.6rem;
 		height: 1.6rem;
-		vertical-align: baseline;
+		margin-bottom: 0.2rem;
 	}
 /* ... Components ... */
 /*
