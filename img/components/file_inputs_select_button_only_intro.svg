@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="141" height="34" viewBox="0 0 141 34">
+	<title>
+		file_inputs_select_button_only_intro
+	</title>
+	<defs>
+		<path id="path-1" d="M3 12v5h14v-5h2v5a2 2 0 01-2 2H3a2 2 0 01-2-2v-5h2zm7-11l5 6h-4v8H9V7H5l5-6z"/>
+	</defs>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-8715 -1532)">
+			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
+			<g id="FILE-INPUT-FIELDS" transform="translate(8000 1419)">
+				<g id="File-input-select-button-only" transform="translate(716 114)">
+					<g id="Button-icon-/-!default">
+						<rect id="bg" width="138" height="31" x=".5" y=".5" fill="#F8F9FA" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
+						<g id="🔣-Icon/Content/upload" transform="translate(12 6)">
+							<mask id="mask-2" fill="#fff">
+								<use xlink:href="#path-1"/>
+							</mask>
+							<use id="Mask" fill="#000" fill-rule="evenodd" xlink:href="#path-1"/>
+							<g id="🎨-Color/Base/B10-(#222)" fill="#222" fill-rule="evenodd" mask="url(#mask-2)">
+								<path id="Rectangle-1" d="M0 0h20v20H0z"/>
+							</g>
+						</g>
+						<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+							<tspan x="38" y="22">Select a file </tspan>
+						</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

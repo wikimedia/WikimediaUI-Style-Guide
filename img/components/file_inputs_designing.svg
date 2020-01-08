@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="418" height="58" viewBox="0 0 418 58">
+	<title>
+		file_inputs_designing
+	</title>
+	<defs>
+		<path id="path-1" d="M3 12v5h14v-5h2v5a2 2 0 01-2 2H3a2 2 0 01-2-2v-5h2zm7-11l5 6h-4v8H9V7H5l5-6z"/>
+	</defs>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-8183 -1637)">
+			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
+			<g id="FILE-INPUT-FIELDS" transform="translate(8000 1419)">
+				<g id="File-inputs-designing" transform="translate(184 219)">
+					<g id="File-input" transform="translate(16 24)">
+						<g id="Text-input-/-!default">
+							<rect id="border" width="399" height="31" x=".5" y=".5" fill="#FFF" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
+						</g>
+						<g id="Button-/-!default-(--neutral)" transform="translate(287)">
+							<rect id="bg" width="112" height="31" x=".5" y=".5" fill="#F8F9FA" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
+							<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+								<tspan x="12.068" y="22">Select a file</tspan>
+							</text>
+						</g>
+						<path id="line" stroke="#A2A9B1" stroke-width="1" d="M287.5 31.5v.5l-.5-.5h.5zm0-15.5V.503c0 .002-.005-.003 0-.003h-.5l.5-.5v16z"/>
+						<path id="Line" stroke="#F8F9FA" stroke-linecap="square" stroke-width="1" d="M288.5 1.5v29"/>
+					</g>
+					<g id="🔣-Icon/Content/upload" transform="translate(24 30)">
+						<mask id="mask-2" fill="#fff">
+							<use xlink:href="#path-1"/>
+						</mask>
+						<use id="Mask" fill="#000" fill-rule="evenodd" xlink:href="#path-1"/>
+						<g id="🎨-Color/Base20-#54595d" fill="#54595D" fill-rule="evenodd" mask="url(#mask-2)">
+							<path id="Rectangle-1" d="M0 0h20v20H0z"/>
+						</g>
+					</g>
+					<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" transform="translate(16)">
+						<tspan x="0" y="15">Label</tspan>
+					</text>
+					<g id="_Spec-/-12-sp-(0.75-em)" stroke="#0082FF" stroke-width="4" transform="translate(304 39.5)">
+						<path id=".75em" d="M0 .5h12"/>
+					</g>
+					<g id="_Spec-/-12-sp-(0.75-em)" stroke="#0082FF" stroke-width="4" transform="translate(404 39.5)">
+						<path id=".75em" d="M0 .5h12"/>
+					</g>
+					<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(295 38)">
+						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
+					</g>
+					<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(17 38)">
+						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
+					</g>
+					<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(43 38)">
+						<path id="8-sp-(0.5-em)" d="M0 2h8"/>
+					</g>
+					<g id="_Spec-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(90 -10 14)">
+						<g id="_Spec-/-16-sp-(1-em)" stroke="#D0021B" transform="translate(8)">
+							<path id="16-sp-(1-em)" d="M0 2h16"/>
+						</g>
+						<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(0 1)">
+							<path id="8-sp-(0.5-em)" d="M0 1h8"/>
+						</g>
+						<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" transform="translate(24)">
+							<path id="8-sp-(0.5-em)" d="M0 2h8"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
