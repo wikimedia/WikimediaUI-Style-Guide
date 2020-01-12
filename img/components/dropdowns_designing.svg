@@ -32,7 +32,7 @@
 								<rect width="271" height="31" x=".5" y=".5" fill="#FFF" stroke="#36C" stroke-linejoin="square" rx="2"/>
 								<rect width="273" height="33" x="-.5" y="-.5" stroke="#36C" rx="2"/>
 							</g>
-							<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+							<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 								<tspan x="12" y="22">Item 1 selected </tspan>
 							</text>
 							<g id="🔣-Icon/Indicators/down" transform="translate(247.867 11)">
@@ -51,14 +51,14 @@
 						</g>
 						<path id="Bg-menu-option:hover" fill="#EBF2FF" fill-rule="evenodd" d="M1 33h269.993v31.007a.991.991 0 01-1.005.993H2.005A1.004 1.004 0 011 64.007V33z"/>
 						<path id="Bg-menu-option:hover" fill="#FFF" fill-rule="evenodd" d="M1 65h269.993v31.007a.991.991 0 01-1.005.993H2.005A1.004 1.004 0 011 96.007V65z"/>
-						<text id="Menu-option" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+						<text id="Menu-option" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="13" y="87">Item 2</tspan>
 						</text>
-						<text id="Menu-option" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+						<text id="Menu-option" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="13" y="55">Item 1</tspan>
 						</text>
 					</g>
-					<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" transform="translate(193 350)">
+					<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal" transform="translate(193 350)">
 						<tspan x="0" y="15">Label</tspan>
 					</text>
 					<g id="_Spec-/-12-sp-(0.75-em)" stroke="#0082FF" stroke-width="4" transform="translate(453 390.5)">

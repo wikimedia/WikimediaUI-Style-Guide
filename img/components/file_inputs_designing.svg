@@ -17,7 +17,7 @@
 						</g>
 						<g id="Button-/-!default-(--neutral)" transform="translate(287)">
 							<rect id="bg" width="112" height="31" x=".5" y=".5" fill="#F8F9FA" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
-							<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+							<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 								<tspan x="12.068" y="22">Select a file</tspan>
 							</text>
 						</g>
@@ -33,7 +33,7 @@
 							<path id="Rectangle-1" d="M0 0h20v20H0z"/>
 						</g>
 					</g>
-					<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" transform="translate(16)">
+					<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal" transform="translate(16)">
 						<tspan x="0" y="15">Label</tspan>
 					</text>
 					<g id="_Spec-/-12-sp-(0.75-em)" stroke="#0082FF" stroke-width="4" transform="translate(304 39.5)">
