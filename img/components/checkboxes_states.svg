@@ -114,10 +114,10 @@
 			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
 			<g id="CHECKBOX-DESKTOP" transform="translate(5038 186)">
 				<g id="Checkbox-X" transform="translate(2 69)">
-					<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal">
+					<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 						<tspan x="0" y="22.1">Normal</tspan> <tspan x="0" y="78.2">Hover</tspan> <tspan x="0" y="134.3">Active</tspan> <tspan x="0" y="190.4">Focus</tspan> <tspan x="0" y="246.5">Disabled</tspan>
 					</text>
-					<text id="Selected" fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal">
+					<text id="Selected" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 						<tspan x="479" y="304">Selected</tspan>
 					</text>
 					<g id="_Spec-/-16-sp-(1-em)-+-2-*-4-sp-(0.25-em)" stroke-width="4" transform="rotate(-90 216 38)">
@@ -132,7 +132,7 @@
 						</g>
 					</g>
 					<g id="Checkbox-/-:checked-/-:disabled" transform="translate(480 226)">
-						<text id="Label" fill="#7D8389" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+						<text id="Label" fill="#7D8389" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<g id="Mediawiki.Neutral.Hover-copy-10-+-Imported-Layers-Copy-2" fill-rule="evenodd" stroke-width="1" transform="translate(0 4)">
@@ -143,7 +143,7 @@
 						</g>
 					</g>
 					<g id="Checkbox-/-:checked-/-:hover" transform="translate(480 57)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<g id="Mediawiki.Neutral.Hover-copy-12-+-Imported-Layers-Copy-3" fill-rule="evenodd" stroke-width="1" transform="translate(0 4)">
@@ -154,7 +154,7 @@
 						</g>
 					</g>
 					<g id="Checkbox-/-:checked-/-:active" transform="translate(480 113)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<g id="checkbox:checked:active" fill-rule="evenodd" stroke-width="1" transform="translate(0 4)">
@@ -165,7 +165,7 @@
 						</g>
 					</g>
 					<g id="Checkbox-/-:checked-/-:focus" transform="translate(480 169)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<g id="checkbox:checked:focus" fill-rule="evenodd" stroke-width="1" transform="translate(0 4)">
@@ -180,7 +180,7 @@
 						</g>
 					</g>
 					<g id="Checkbox-/-:checked-/-!default" transform="translate(480)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="23">Neutral point</tspan>
 						</text>
 						<g id="Checkbox" fill-rule="evenodd" stroke-width="1" transform="translate(0 5)">
@@ -191,25 +191,25 @@
 						</g>
 					</g>
 					<g id="Checkbox-/-:disabled" transform="translate(192 226)">
-						<text id="Label" fill="#7D8389" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+						<text id="Label" fill="#7D8389" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<path id="checkbox" fill="#C8CCD1" fill-rule="evenodd" stroke="#C8CCD1" stroke-width="1" d="M2.005 4.5C1.174 4.5.5 5.173.5 6.005v19.99c0 .831.673 1.505 1.505 1.505h19.99c.831 0 1.505-.673 1.505-1.505V6.005c0-.831-.673-1.505-1.505-1.505H2.005z"/>
 					</g>
 					<g id="Checkbox-/-:active" transform="translate(192 113)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<rect id="checkbox" width="23" height="23" x=".5" y="4.5" fill="#2A4B8D" fill-rule="evenodd" stroke="#2A4B8D" stroke-width="1" rx="2"/>
 					</g>
 					<g id="Checkbox-/-:hover" transform="translate(192 57)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<rect id="checkbox" width="23" height="23" x=".5" y="4.5" stroke="#2962CC" stroke-width="1" rx="2"/>
 					</g>
 					<g id="Checkbox-/-:focus" transform="translate(192 169)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<g id="checkbox" stroke="#36C" stroke-linejoin="square">
@@ -218,7 +218,7 @@
 						</g>
 					</g>
 					<g id="Checkbox-/-!default" transform="translate(192 1)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal">
+						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<rect id="checkbox" width="23" height="23" x=".5" y="4.5" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" rx="2"/>

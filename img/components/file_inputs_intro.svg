@@ -13,7 +13,7 @@
 					</g>
 					<g id="Button-/-!default-(--neutral)" transform="translate(287)">
 						<rect id="bg" width="112" height="31" x=".5" y=".5" fill="#F8F9FA" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
-						<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+						<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="12.068" y="22">Select a file</tspan>
 						</text>
 					</g>
