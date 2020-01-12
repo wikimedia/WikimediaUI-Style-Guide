@@ -84,7 +84,10 @@
 
 					<section id="using">
 						<h2>Using buttons</h2>
-						<p>Buttons must carry a label. In case of icon only buttons, it will become available only to screen reader users. They can carry an icon or the 'down' indicator.</p>
+						<p>Buttons must carry a label. In case of icon-only buttons, it will become available only to screen reader users. They can carry an icon or the 'down' indicator.</p>
+						<p><strong>Normal buttons and quiet buttons</strong><br>
+						Normal, framed buttons are the default choice. Quiet, frameless buttons should only be used in views, where normal buttons need to be further visually de-emphasized, see below.
+						</p>
 					</section>
 					<section id="designing">
 						<h2>Designing</h2>
@@ -92,6 +95,8 @@
 							<img src="../img/components/buttons_designing.svg" alt="button design properties">
 							<figcaption class="figure__caption"></figcaption>
 						</figure>
+						<p><strong>Minimum target size</strong><br>
+							When using buttons consider the size of their target area. Make sure that the associated active touch area is at least 44 x 44&#160;dp. Otherwise users may fail to hit the active area, for example due to motor disabilities.</p>
 						<p><strong>Label</strong><br>
 							Button labels should be as short as possible, with text that clearly states what action follows clicking the button (eg. download, submit form, search). </p>
 						<p><strong>Icon</strong> <small class="is-subtle">(optional)</small><br>
@@ -99,10 +104,6 @@
 						</p>
 						<p><strong>Indicator</strong> <small class="is-subtle">(optional)</small><br>
 							Indicators are special icons for a small number of use cases. The only indicator on buttons is 'down' <img class="icon icon--indicator" src="../resources/WikimediaUI-icons-SVGs/down.svg" alt="down indicator"> when menus are attached. For majority of cases when menus are needed use <a href="dropdowns.html">dropdowns</a> .
-						</p>
-
-						<p><strong>Normal buttons (framed) and quiet buttons (frameless)</strong><br>
-						Normal framed buttons are the default choice. Quiet buttons should only be used in views, where normal buttons need to be further de-emphasized.
 						</p>
 					</section>
 					<section id="states">
@@ -115,7 +116,7 @@
 					</section>
 					<section id="types">
 						<h2>Types</h2>
-						<h3>Primary buttons</h3>
+						<h3 id="type-primary-buttons">Primary buttons</h3>
 						<figure class="components__intro" style="float: left; margin-right: 74px;">
 							<img src="../img/components/buttons_primary_progressive_intro.svg" alt="primary progressive button visual example">
 						</figure>
@@ -129,15 +130,27 @@
 							<li><b>Destructive</b>: Use destructive buttons for actions that remove or limit, such as deleting a page or blocking a user. Don't use it for actions such as cancel buttons.</li>
 						</ul>
 
-						<h3>Toggle buttons</h3>
+						<h3 id="type-toggle-buttons">Toggle buttons</h3>
 						<figure class="components__intro">
 							<img src="../img/components/buttons_toggle_intro.svg" alt="toggle buttons visual example">
 						</figure>
 						<p>Toggle buttons feature a normal and a selected state. Use them for state-persistent user actions, that are longer then a normal button click action.</p>
+
+						<h3 id="type-quiet-buttons">Quiet buttons (“frameless”)</h3>
+						<figure class="components__states">
+							<img src="../img/components/buttons_quiet_states.svg" alt="quiet buttons' states">
+						</figure>
+						<p>Use quiet buttons where a stronger focus on content is preferable, yet remain easily recognizable. For example, the icon-only edit buttons alongside sections in article view on mobile Wikipedia<sup><a href="#references">[1]</a></sup>. They still feature minimal target sizes and states to provide user clear interaction feedback. Normal (framed) buttons are the default choice for simplified recognition.</p>
 					</section>
 					<section id="coding">
 						<h2>Coding</h2>
 						<p>See <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#demo-section-buttons" target="_blank" rel="noopener">OOUI's demos section of buttons</a>, <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#ButtonWidget-primary-progressive" target="_blank" rel="noopener">primary buttons</a> and <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#ToggleButtonWidget" target="_blank" rel="noopener">toggle buttons</a>.</p>
+					</section>
+					<section id="references">
+						<h2>References</h2>
+						<ol>
+							<li><a href="https://en.m.wikipedia.org/wiki/Button_(computing)" target="_blank" rel="noopener">Mobile English Wikipedia: Button (computing) article with exemplified quiet edit buttons</a></li>
+						</ol>
 					</section>
 				</main>
 			</div>
