@@ -76,22 +76,24 @@
 				<main id="content" class="content">
 					<div class="page__parent-title">Components</div>
 					<h1 class="page__title">Buttons</h1>
-					<p class="page__lead">Buttons signal an action that will occur when the user clicks or taps on them. Buttons can include an icon, a label, an action icon (dropdown) or any mixture of the three. Buttons  have multiple states and may have classes to communicate how they can be interacted with by the user and what action they represent.</p>
+					<p class="page__lead">Buttons signal an action that will occur when the user clicks or taps on them. </p>
 					<figure class="components__intro">
 						<img src="../img/components/buttons_normal_intro.svg" alt="button visual example">
 					</figure>
-					<p>Enabled buttons look clickable and are accessible to all users. The button styles distinguish types of buttons and each button’s state (e.g. disabled, hover, active) in accessible color variations.</p>
+					<p>Enabled buttons look clickable and are accessible to all users.</p>
 
 					<section id="using">
 						<h2>Using buttons</h2>
-						<p>Buttons must carry a label. In case of icon-only buttons, it will become available only to screen reader users. They can carry an icon or the 'down' indicator.</p>
+						<p>A button toggles something in current user's context. If an action is to “navigate the user to a new resource, taking them away from current context”<sup><a href="#references">[1]</a></sup>, consider a <a href="links.html">link</a> instead. </p>
+						<p>Buttons must carry a label. They can include an icon or a 'down' indicator or any mixture of the three. In case of icon-only buttons, the label will be visually hidden while still available to screen reader users.</p>
 						<p><strong>Normal buttons and quiet buttons</strong><br>
 						Normal, framed buttons are the default choice. Quiet, frameless buttons should only be used in views, where normal buttons need to be further visually de-emphasized, see below.
 						</p>
 					</section>
 					<section id="designing">
 						<h2>Designing</h2>
-						<figure class="components__designing" style="margin-top: 24px;">
+						<p>The button styles distinguish types of buttons and each button’s state (e.g. disabled, hover, active) in accessible color variations.</p>
+						<figure class="components__designing" style="margin-top: 16px;">
 							<img src="../img/components/buttons_designing.svg" alt="button design properties">
 							<figcaption class="figure__caption"></figcaption>
 						</figure>
@@ -103,7 +105,7 @@
 							Icons simplify user recognition and provide ability to shorten button label to a minimum.
 						</p>
 						<p><strong>Indicator</strong> <small class="is-subtle">(optional)</small><br>
-							Indicators are special icons for a small number of use cases. The only indicator on buttons is 'down' <img class="icon icon--indicator" src="../resources/WikimediaUI-icons-SVGs/down.svg" alt="down indicator"> when menus are attached. For majority of cases when menus are needed use <a href="dropdowns.html">dropdowns</a> .
+							Indicators are special icons for a small number of use cases. The only indicator on buttons is 'down' <img class="icon icon--indicator" src="../resources/WikimediaUI-icons-SVGs/down.svg" alt="down indicator"> when menus are attached. For majority of cases where menus are needed use <a href="dropdowns.html">dropdowns</a> though.
 						</p>
 					</section>
 					<section id="states">
@@ -140,7 +142,7 @@
 						<figure class="components__states">
 							<img src="../img/components/buttons_quiet_states.svg" alt="quiet buttons' states">
 						</figure>
-						<p>Use quiet buttons where a stronger focus on content is preferable, yet remain easily recognizable. For example, the icon-only edit buttons alongside sections in article view on mobile Wikipedia<sup><a href="#references">[1]</a></sup>. They still feature minimal target sizes and states to provide user clear interaction feedback. Normal (framed) buttons are the default choice for simplified recognition.</p>
+						<p>Use quiet buttons where a stronger focus on content is preferable, yet remain easily recognizable. For example, the icon-only edit buttons alongside sections in article view on mobile Wikipedia<sup><a href="#references">[2]</a></sup>. They still feature minimal target sizes and states to provide user clear interaction feedback. Normal (framed) buttons are the default choice for simplified recognition.</p>
 					</section>
 					<section id="coding">
 						<h2>Coding</h2>
@@ -149,6 +151,7 @@
 					<section id="references">
 						<h2>References</h2>
 						<ol>
+							<li><a href="https://marcysutton.com/links-vs-buttons-in-modern-web-applications" target="_blank" rel="noopener">Marcy Sutton on “Links vs. Buttons in Modern Web Applications”</a></li>
 							<li><a href="https://en.m.wikipedia.org/wiki/Button_(computing)" target="_blank" rel="noopener">Mobile English Wikipedia: Button (computing) article with exemplified quiet edit buttons</a></li>
 						</ol>
 					</section>
