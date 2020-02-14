@@ -9,5 +9,5 @@
 		<use transform="rotate(90)" xlink:href="#a"/>
 		<use transform="rotate(135)" xlink:href="#a"/>
 	</g>
-	<path d="M10 2.5a7.5 7.5 0 0 0 0 15 7.5 7.5 0 0 0 0-15v4a3.5 3.5 0 0 1 0 7 3.5 3.5 0 0 1 0-7"/>
+	<path d="M10 2.5a7.5 7.5 0 000 15 7.5 7.5 0 000-15v4a3.5 3.5 0 010 7 3.5 3.5 0 010-7"/>
 </svg>
