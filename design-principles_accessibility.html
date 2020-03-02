@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" class="js--off">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta property="og:title" content="Design Principles: Accessibility - Wikimedia Design Style Guide (WikimediaUI)">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://design.wikimedia.org/style-guide/design-principles_accessibility.html">
+	<meta property="og:image" content="https://design.wikimedia.org/style-guide/img/design-principles/trust.png">
+	<link rel="stylesheet" href="css/build/wmui-style-guide.min.css">
+	<title>Design Principles: Accessibility – This is for everyone – Wikimedia Design Style Guide</title>
+	<script>
+		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
+	</script>
+	<!--[if lt IE 9]>
+	<script>window.html5={'shivCSS':false};</script>
+	<script src="js/vendor/ie/html5shiv-3.7.3.min.js"></script>
+	<![endif]-->
+	<link rel="dns-prefetch" href="https://piwik.wikimedia.org/">
+	<link rel="preload" href="fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
+	<script src="js/matomo-tracking.min.js"></script>
+	<script src="js/wikimedia-design-style-guide.min.js" async></script>
+</head>
+<body class="page--design-principles-accessibility" vocab="http://schema.org/" typeof="WebPage">
+	<header id="header" class="header">
+		<div class="content-box">
+			<a href="#content" class="is-aural is-focusable">Jump to content</a>
+			<a href="#nav--main" class="is-aural is-focusable">Jump to navigation</a>
+			<h6 class="site__title"><a href="./"><span class="site__org">Wikimedia </span><span class="site__project">Design Style Guide</span></a></h6>
+			<label class="btn--nav-main" for="trigger--nav-main" aria-hidden="true" title="Show main menu">
+				<i></i> <span>Menu</span>
+			</label>
+			<a href="https://github.com/wikimedia/WikimediaUI-Style-Guide" class="lnk--contribute" title="Fork and contribute on GitHub"><span>Contribute on </span>GitHub</a>
+		</div>
+	</header>
+	<div class="page">
+		<div class="content-box">
+			<div class="col col--start">
+				<input type="checkbox" id="trigger--nav-main" class="trigger--nav-main">
+				<nav id="nav--main" class="nav nav--main">
+					<ol>
+						<li class="nav__item"><a href="index.html">Introduction</a></li>
+						<li class="nav__item is-on"><a href="design-principles.html">Design principles</a>
+							<ul class="nav__sub-items">
+								<li class="nav__sub-item is-on"><a href="design-principles_accessibility.html">Accessibility</a></li>
+							</ul>
+						</li>
+						<li class="nav__item"><a href="visual-style.html">Visual style</a>
+							<ul class="nav__sub-items">
+								<li class="nav__sub-item"><a href="visual-style.html">Principles</a></li>
+								<li class="nav__sub-item"><a href="visual-style_colors.html">Colors</a></li>
+								<li class="nav__sub-item"><a href="visual-style_typography.html">Typography</a></li>
+								<li class="nav__sub-item"><a href="visual-style_icons.html">Icons</a></li>
+								<li class="nav__sub-item"><a href="visual-style_images.html">Images</a></li>
+								<li class="nav__sub-item"><a href="visual-style_illustrations.html">Illustrations</a></li>
+							</ul>
+						</li>
+						<li><a href="components/links.html">Components</a></li>
+						<!-- <li><a href="patterns.html">Patterns</a></li> -->
+						<li><a href="resources.html">Resources</a></li>
+					</ol>
+				</nav>
+			</div>
+			<div class="col col--end">
+				<main id="content" class="content">
+					<h1 class="page__title">This is for everyone – Accessibility</h1>
+					<p>The web is fundamentally designed for humans to participate with the smallest possible limitations, independent of their hardware, software, language, location, expertise or ability. Volunteers in the Wikimedia Movement have been actively working and supporting inclusion and equal access for a long time.<sup><a href="#references">[1]</a></sup> Aligning to <a href="https://meta.wikimedia.org/wiki/Vision" target="_blank">Wikimedia's vision</a><sup><a href="#references">[2]</a></sup> and to our <a href="design-principles.html#this-is-for-everyone">principle “This is for everyone”</a>, we aim for our interfaces to be accessible by design. </p>
+					<p>We'll introduce key accessibility concepts, illustrate how they are supported in the style guide, and provide guidance for you when applying them. </p>
+					<!-- figure class="figure figure--full">
+						<img src="img/design-principles/this-is-for-everyone.svg" onerror="this.src='img/design-principles/this-is-for-everyone.png'" alt="Collection of characters from different languages and icons symbolizing diversity and inclusion in Wikimedia projects">
+					</figure -->
+
+					<section id="what-and-why-accessibility">
+						<h2>What and why accessibility?</h2>
+						<p>Web accessibility methods ensure that people with impairments or disabilities can perceive, understand, navigate, interact with, and contribute to the products we all create. Just as importantly, many methods improve general usability, resulting in <strong>easier-to-use interfaces that are Perceivable, Operable, Understandable and Robust for everyone</strong>.</p>
+						<p>These are the four principles of accessibility from the Web Content Accessibility Guidelines standard<sup><a href="#references">[3]</a></sup> (WCAG 2.0 onwards). They specify the success criteria for achieved levels of conformance – A, AA and AAA.</p>
+						<p>In the Wikimedia Design Style Guide and its resources we aim for satisfying all level AA success criterias. Some AAA criterias are not possible to be satisfied for entire web sites as they are opposing each other. We also try to balance requirements that enable the widest possible audience under reasonable operation for our non-profit organization. Further, highly specific user group needs might be better covered by specific software products than by the Foundation itself.</p>
+						<p>Note, that our principles mainly focus on designing for:</p>
+						<ul>
+							<li>Visual impairment needs</li>
+							<li>Motor impairment needs</li>
+						</ul>
+						<p>Other categories like speech impairments don't apply in our graphical user-interface focus, while hearing and cognitive impairments are to be covered on a content level, see for example Simple Wikipedia <span style="white-space: nowrap;">(English)<sup><a href="#references">[4]</a></sup></span> for being inclusive to users with learning difficulties.</p>
+					</section>
+
+					<section id="accessible-by-design">
+						<h2>Accessible by design</h2>
+						<h3>Colors and color palette – Use of color</h3>
+						<p class="heading__description">Visual, motor</p>
+						<p>All <a href="visual-style_colors.html">colors of our palette</a> feature level AA contrast ratio. We're following color-related accessibility rules: </p>
+						<ul>
+							<li>Never use color as the only means of providing information or requesting an action.</li>
+							<li>The combinations of text and its background color must not fall below the WCAG recommended threshold ratio of 4.5:1 for standard text and 3:1 for larger text.</li>
+						</ul>
+
+						<h3>Fonts and typography – Legible and zoomable content</h3>
+						<p class="heading__description">Visual</p>
+						<p>Choices of typeface, size, style, and spacing of text make it well readable in general, and are a must for some to be legible. <a href="visual-style_typography.html">Our choices</a> advise on minimum font sizes. Those are able to be overridden by user browser preferences – setting fonts in relative CSS units <code>em</code> or <code>rem</code> to provide text zooming when needed. </p>
+
+						<h3>Touch and keyboard interaction – Ensure alternative input methods</h3>
+						<p class="heading__description">Motor</p>
+						<p>Our components are designed to support different interaction mechanisms, including touch, pointing devices and keyboard.</p>
+						<p>When touch screens are the main interface, our components' design ensures <a href="components/buttons.html#designing">minimum touch target sizes</a> for happy human fingers. Additionally users with motor impairments profit from minimum target sizes for pointer inputs too.<br>Our components feature a strong outline to indicate keyboard focus state. This enables keyboard-bound users to easily navigate the interface.</p>
+
+						<h3>Icons and images – Provide text alternatives</h3>
+						<p class="heading__description">Visual</p>
+						<p>When implementing icons and images, you have to define a textual description to enable assistive technology to interpret it, as long as they are not solely used as decorative elements:</p>
+						<p>Icons have to be provided with SVG <code>title</code> attribute or with text nodes visible only for screen readers when used in icon-only buttons. <br>Images have to provide <code>alt</code> attribute with alternative text. <br><code>title</code> attributes are part of the icons in <a href="resources.html#icons">WikimediaUI icon collection</a>, and <a href="https://doc.wikimedia.org/oojs-ui/master/demos/#widgets-mediawiki-ltr" target="_blank">code in WikimediaUI theme of user-interface library OOUI</a>.</p>
+
+						<h3>Markup – Follow standards</h3>
+						<p class="heading__description">Visual, motor</p>
+						<p>Markup for our <a href="components/buttons.html">components</a> is provided in semantic HTML and follows Web Accessibility Initiative's ARIA Authoring practices standard<sup><a href="#references">[5, 6]</a></sup>. This lets assistive technology software identify them correctly. <br>Additionally, it improves machine readability, resulting in better search optimization or alternative content delivery, for example in popular voice interfaces. </p>
+					</section>
+
+					<section id="accessible-by-design">
+						<h2>See also</h2>
+						<p>Please have a look at further <a href="https://www.mediawiki.org/wiki/Accessibility_guide_for_developers" target="_blank" rel="noopener">documentation for developers in Wikimedia projects</a> and <a href="https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Accessibility" target="_blank">English Wikipedia's Manual of style for accessibility</a> on content.</p>
+
+					<section id="references">
+						<h2>References</h2>
+						<ol>
+							<li><a href="https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Accessibility" target="_blank">English Wikipedia with first accessible manual of style, 2006</a></li>
+							<li><a href="https://meta.wikimedia.org/wiki/Vision" target="_blank">Wikimedia Foundation's vision</a>, dating back as far as <a href="https://meta.wikimedia.org/w/index.php?title=Vision&oldid=469703">October 2006</a></li>
+							<li><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/intro.html#introduction-fourprincs-head" target="_blank" rel="noopener">Introduction to Understanding WCAG 2.0</a></li>
+							<li><a href="https://simple.wikipedia.org/wiki/Main_Page" target="_blank">Simple Wikipedia (English) as inclusive entry point for users with cognitive impairments</a></li>
+							<li><a href="https://www.w3.org/WAI" target="_blank" rel="noopener">W3C Web Accessibility Initiative</a></li>
+							<li><a href="https://www.w3.org/TR/wai-aria-practices-1.2/" target="_blank" rel="
+								noopener">WAI-ARIA Authoring Practices</a></li>
+							<li><a href="https://wave.webaim.org/" target="_blank" rel="noopener">WAVE – Web Accessibility Evaluation Tool (online)</a></li>
+							<li><a href="https://a11yproject.com/" target="_blank" rel="noopener">The A11Y Project</a></li>
+							<li><a href="http://www.aremycoloursaccessible.com/" target="_blank" rel="noopener">Are My Colours Accessible?</a></li>
+						</ol>
+					</section>
+				</main>
+			</div>
+		</div>
+	</div>
+	<footer id="footer" class="footer">
+		<div class="content-box">
+			<ul class="footer__list">
+				<li><a href="https://github.com/wikimedia/WikimediaUI-Style-Guide">Contribute on GitHub</a></li>
+				<li><a href="https://twitter.com/@WikimediaDesign" title="Follow Wikimedia Product Design team on Twitter" rel="noopener">Follow @WikimediaDesign</a></li>
+				<li><a href="https://lists.wikimedia.org/mailman/listinfo/design" title="Join Wikimedia Design mailing list">Join mailing list</a></li>
+			</ul>
+			<p>Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener" property="license">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.</p>
+			<p><a href="https://foundation.wikimedia.org/wiki/Non-wiki_privacy_policy">Privacy policy</a></p>
+			<p><a href="https://wikimediafoundation.org/" class="lnk--wikimedia-project" property="author" typeof="Organization">A Wikimedia Foundation project</a></p>
+			<noscript><p><img src="https://piwik.wikimedia.org/piwik.php?idsite=16&rec=1" alt=""></p></noscript>
+		</div>
+	</footer>
+</body>
+</html>
