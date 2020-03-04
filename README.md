@@ -2,7 +2,7 @@
 
 The Wikimedia Design Style Guide ensures a consistent look and behavior for our products.
 
-The style guide features unique focus areas like accessibility, internationalization, and localization, originating from large-scale websites, diverse languages and communities like Wikipedia.
+The style guide features unique focus areas like accessibility, internationalization and localization, originating from large-scale websites, diverse languages and communities like Wikipedia.
 
 Its guidelines aim to help designers and developers with their Wikimedia projects, as part of the Foundation or in a volunteer capacity.
 
