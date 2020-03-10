@@ -554,6 +554,10 @@ h2 {
 	padding-bottom: 2px;
 	font-size: 2.4rem;
 }
+/* Reduce top margin when introductory headlines are following each other. */
+h2 + h3 {
+	margin-top: 1.6rem;
+}
 h3 {
 	font-size: 2rem;
 }
@@ -634,6 +638,7 @@ h1 + p,
 	h5 + p,
 	h6 + p,
 	p + p,
+	ul + p,
 	p:first-child {
 		margin: 0.8rem 0 0;
 	}
@@ -994,17 +999,27 @@ sans-serif;
 .figures--full {
 	background-color: #f8f9fa;
 }
-.figure__caption {
+.figure__caption,
+.heading__description {
 	color: #72777d;
 	clear: both;
 	display: block;
-	padding-top: 0.8rem; /* `padding-top` due to usage with floated images in figure above */
 	font-size: 1.3rem;
+}
+.figure__caption {
+	padding-top: 0.8rem; /* `padding-top` due to usage with floated images in figure above */
 	font-style: italic;
 }
 .figure__caption:empty {
-	display: none;
+		display: none;
+	}
+.heading__description {
+	float: right;
+	margin-top: -1.9rem;
 }
+.heading__description + * {
+		clear: both;
+	}
 /* ... “Do” & “Don't” figures ... */
 .figures-do-dont {
 	margin-top: 1.6rem;
@@ -1309,6 +1324,13 @@ solid
 .page--home .page__title {
 	border: 0;
 	padding: 0;
+}
+/* ... “Design principles – Accessibility” ... */
+.page--design-principles-accessibility .nav--main .is-on > a {
+	cursor: pointer;
+}
+.page--design-principles-accessibility h3 {
+	padding-right: 15%;
 }
 /* ... “Typography” ... */
 .page--visual-style-typography .figures-do-dont .figure__contents {
