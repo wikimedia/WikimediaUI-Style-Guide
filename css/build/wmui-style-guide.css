@@ -1275,9 +1275,11 @@ solid
 	font-size: 1.3rem;
 }
 .footer__list {
-	margin: 0;
 	padding: 0;
 }
+.footer__list:first-child {
+		margin: 0;
+	}
 .footer__list:after {
 		content: ' ';
 		display: block;
@@ -1291,11 +1293,11 @@ solid
 .footer__list li:first-child {
 		padding-top: 0;
 	}
-.footer__list a {
-		font-weight: 700;
-	}
 .footer__list + p {
 		margin-top: 1.2rem;
+	}
+.footer__list--connect a {
+		font-weight: 700;
 	}
 .lnk--wikimedia-project {
 	display: inline-block;
@@ -1574,7 +1576,9 @@ sans-serif;
 
 	.footer__list li:after {
 		content: '\2022'; /* bullet dot: '•' */
+		color: #72777d;
 		padding: 0 0 0 0.8rem;
+		font-weight: 100;
 	}
 
 	.footer__list li:last-child:after {
