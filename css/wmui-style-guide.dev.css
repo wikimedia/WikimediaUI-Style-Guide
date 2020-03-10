@@ -834,9 +834,12 @@ sup {
 }
 
 .footer__list {
-	margin: 0;
 	padding: 0;
 }
+
+	.footer__list:first-child {
+		margin: 0;
+	}
 
 	.footer__list:after {
 		content: ' ';
@@ -854,12 +857,12 @@ sup {
 		padding-top: 0;
 	}
 
-	.footer__list a {
-		font-weight: var( --font-weight-bold );
-	}
-
 	.footer__list + p {
 		margin-top: 1.2rem;
+	}
+
+	.footer__list--connect a {
+		font-weight: var( --font-weight-bold );
 	}
 
 .lnk--wikimedia-project {
@@ -1129,7 +1132,9 @@ sup {
 
 	.footer__list li:after {
 		content: '\2022'; /* bullet dot: '•' */
+		color: var( --color-base--subtle );
 		padding: 0 0 0 0.8rem;
+		font-weight: 100;
 	}
 
 	.footer__list li:last-child:after {
