@@ -23,17 +23,17 @@
     "Safari >= 5.1"
   ],
   "dependencies": {
-    "autoprefixer": "9.7.1",
+    "autoprefixer": "9.7.5",
     "fontfaceobserver": "2.1.0",
     "normalize.css": "7.0.0",
     "wikimedia-ui-base": "0.14.0"
   },
   "devDependencies": {
     "cssnano": "4.1.10",
-    "eslint-config-wikimedia": "0.15.0",
-    "grunt": "1.0.4",
+    "eslint-config-wikimedia": "0.15.1",
+    "grunt": "1.1.0",
     "grunt-contrib-concat": "1.0.1",
-    "grunt-contrib-imagemin": "3.1.0",
+    "grunt-contrib-imagemin": "4.0.0",
     "grunt-contrib-uglify": "4.0.1",
     "grunt-contrib-watch": "1.1.0",
     "grunt-eslint": "22.0.0",
@@ -41,17 +41,17 @@
     "grunt-postcss": "0.9.0",
     "grunt-replace": "^1.0.1",
     "grunt-sketch": "1.0.5",
-    "grunt-stylelint": "0.12.0",
+    "grunt-stylelint": "0.14.0",
     "grunt-svgmin": "6.0.0",
-    "imagemin": "7.0.0",
+    "imagemin": "7.0.1",
     "imagemin-zopfli": "6.0.0",
     "pixrem": "5.0.0",
-    "postcss": "7.0.21",
+    "postcss": "7.0.27",
     "postcss-cssnext": "3.1.0",
-    "postcss-custom-properties": "9.0.2",
+    "postcss-custom-properties": "9.1.1",
     "postcss-import": "12.0.1",
     "sketchtool": "1.4.0",
-    "stylelint-config-wikimedia": "0.7.0"
+    "stylelint-config-wikimedia": "0.10.0"
   },
   "scripts": {
     "start": "grunt watch",
