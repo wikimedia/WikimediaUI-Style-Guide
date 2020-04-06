@@ -71,7 +71,7 @@
 		<path fill="#222" fill-rule="nonzero" d="M261 112h-1.313a.537.537 0 01-.365-.12.759.759 0 01-.209-.293l-.87-2.43h-4.495l-.87 2.43a.723.723 0 01-.2.284.521.521 0 01-.365.128H251L255.13 101h1.74l4.13 11zm-3.209-4.125l-1.443-4.015c-.137-.39-.253-.788-.348-1.192-.052.239-.11.459-.174.66a24.84 24.84 0 01-.174.532l-1.435 4.015h3.574z"/>
 		<use fill="#000" filter="url(#this-is-for-everyone--mobile-g)" xlink:href="#this-is-for-everyone--mobile-h"/>
 		<use fill="#FFF" stroke="#EAECF0" xlink:href="#this-is-for-everyone--mobile-h"/>
-		<path fill="#222" fill-rule="nonzero" d="M264 57.999h-1.96a.821.821 0 01-.548-.17 1.108 1.108 0 01-.314-.43l-1.303-3.53h-6.76l-1.303 3.53c-.067.16-.171.3-.304.41a.803.803 0 01-.548.19H249L255.202 42h2.577L264 57.999zm-4.82-6l-2.156-5.84a16.413 16.413 0 01-.529-1.73c-.078.347-.166.68-.264 1-.098.32-.187.577-.265.77l-2.155 5.8h5.369z"/>
+		<path fill="#222" fill-rule="nonzero" d="M264 57.999h-1.96a.821.821 0 01-.548-.17 1.108 1.108 0 01-.314-.43l-1.303-3.53h-6.76l-1.303 3.53c-.067.16-.171.3-.304.41a.803.803 0 01-.548.19H249L255.202 42h2.577L264 57.999zm-4.82-6l-2.156-5.84a16.413 16.413 0 01-.529-1.73c-.078.347-.166.68-.264 1a9.73 9.73 0 01-.265.77l-2.155 5.8h5.369z"/>
 		<use fill="#000" filter="url(#this-is-for-everyone--mobile-i)" xlink:href="#this-is-for-everyone--mobile-j"/>
 		<rect width="39.333" height="39.333" x="16.333" y="56.333" fill="#FFF" stroke="#EAECF0" stroke-linejoin="square" stroke-width=".667" rx="1.333"/>
 		<use fill="#000" filter="url(#this-is-for-everyone--mobile-k)" xlink:href="#this-is-for-everyone--mobile-l"/>
