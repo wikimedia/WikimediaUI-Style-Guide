@@ -108,45 +108,43 @@
 			<rect width="108" height="2" y="38" fill="#72777D" rx="1"/>
 			<rect width="51" height="2" fill="#72777D" rx="1"/>
 		</g>
-		<g>
-			<g stroke-linecap="round" transform="translate(555 127)">
-				<use fill="#000" filter="url(#illustrations-using-t)" xlink:href="#illustrations-using-u"/>
-				<use fill="#FFF" stroke="#A2A9B1" stroke-width="2" xlink:href="#illustrations-using-u"/>
-			</g>
-			<path fill="#C8CCD1" stroke="#A2A9B1" stroke-width="2" d="M669.001 147H677.15a46940.488 46940.488 0 017.965 0c.076-.002.104-.003.184.003V147c.546 0 1.001-.472 1.001-1.074 0-.364-.165-.69-.434-.886l-.128-.112-16.042-16.626a.95.95 0 00-1.068-.225c-.374.16-.628.555-.628.997v16.852c0 .602.455 1.074 1.001 1.074z"/>
-			<g transform="translate(556.072 142)">
-				<ellipse cx="18.169" cy="9" fill="#A2A9B1" rx="9.084" ry="9"/>
-				<ellipse cx="18.169" cy="9" fill="url(#illustrations-using-v)" rx="9.084" ry="9"/>
-				<path fill="#A2A9B1" d="M86.154 21s21.896 14.749 26.823 9.323c4.926-5.427 0 7.877 0 7.877H69.744"/>
-				<path fill="url(#illustrations-using-w)" d="M86.154 21s21.896 14.749 26.823 9.323c4.926-5.427 0 7.877 0 7.877H69.744"/>
-				<path fill="#A2A9B1" d="M0 29s17.45 12.188 41.768 12.188S47.718 49 47.718 49H.052"/>
-				<path fill="url(#illustrations-using-x)" d="M0 29s17.45 12.188 41.768 12.188S47.718 49 47.718 49H.052"/>
-				<path fill="#C8CCD1" d="M2.772 49.118S98.352 3.55 86.375 26.484c-11.976 22.934 42.897-5.386 42.897-5.386v28.02"/>
-				<path fill="url(#illustrations-using-y)" d="M2.772 49.118S98.352 3.55 86.375 26.484c-11.976 22.934 42.897-5.386 42.897-5.386v28.02"/>
-			</g>
-			<path fill="#F5F5F5" d="M556.072 190h129.1v2h-129.1z"/>
-			<g transform="translate(567.072 202)">
-				<rect width="73" height="2" y="7" fill="#C8CCD1" rx="1"/>
-				<rect width="81" height="2" y="31" fill="#A2A9B1" rx="1"/>
-				<rect width="32" height="2" y="85" fill="#A2A9B1" rx="1"/>
-				<rect width="73" height="2" x="35" y="85" fill="#A2A9B1" rx="1"/>
-				<rect width="17" height="2" y="45" fill="#A2A9B1" rx="1"/>
-				<rect width="17" height="2" x="91" y="45" fill="#A2A9B1" rx="1"/>
-				<rect width="68" height="2" x="20" y="45" fill="#A2A9B1" rx="1"/>
-				<rect width="17" height="2" y="78" fill="#A2A9B1" rx="1"/>
-				<rect width="37" height="2" x="72" y="78" fill="#A2A9B1" rx="1"/>
-				<rect width="49" height="2" x="20" y="78" fill="#A2A9B1" rx="1"/>
-				<rect width="24" height="2" x="84" y="31" fill="#A2A9B1" rx="1" transform="matrix(-1 0 0 1 192 0)"/>
-				<rect width="81" height="2" y="66" fill="#A2A9B1" rx="1"/>
-				<rect width="14" height="2" x="54" y="24" fill="#A2A9B1" rx="1"/>
-				<rect width="37" height="2" x="71" y="24" fill="#A2A9B1" rx="1"/>
-				<rect width="51" height="2" y="24" fill="#A2A9B1" rx="1"/>
-				<rect width="108" height="2" y="59" fill="#A2A9B1" rx="1"/>
-				<rect width="108" height="2" y="52" fill="#A2A9B1" rx="1"/>
-				<rect width="108" height="2" y="92" fill="#A2A9B1" rx="1"/>
-				<rect width="108" height="2" y="38" fill="#A2A9B1" rx="1"/>
-				<rect width="51" height="2" fill="#A2A9B1" rx="1"/>
-			</g>
+		<g stroke-linecap="round" transform="translate(555 127)">
+			<use fill="#000" filter="url(#illustrations-using-t)" xlink:href="#illustrations-using-u"/>
+			<use fill="#FFF" stroke="#A2A9B1" stroke-width="2" xlink:href="#illustrations-using-u"/>
+		</g>
+		<path fill="#C8CCD1" stroke="#A2A9B1" stroke-width="2" d="M669.001 147h8.149a46940.488 46940.488 0 017.965 0c.076-.002.104-.003.184.003V147c.546 0 1.001-.472 1.001-1.074 0-.364-.165-.69-.434-.886l-.128-.112-16.042-16.626a.95.95 0 00-1.068-.225c-.374.16-.628.555-.628.997v16.852c0 .602.455 1.074 1.001 1.074z"/>
+		<g transform="translate(556.072 142)">
+			<ellipse cx="18.169" cy="9" fill="#A2A9B1" rx="9.084" ry="9"/>
+			<ellipse cx="18.169" cy="9" fill="url(#illustrations-using-v)" rx="9.084" ry="9"/>
+			<path fill="#A2A9B1" d="M86.154 21s21.896 14.749 26.823 9.323c4.926-5.427 0 7.877 0 7.877H69.744"/>
+			<path fill="url(#illustrations-using-w)" d="M86.154 21s21.896 14.749 26.823 9.323c4.926-5.427 0 7.877 0 7.877H69.744"/>
+			<path fill="#A2A9B1" d="M0 29s17.45 12.188 41.768 12.188S47.718 49 47.718 49H.052"/>
+			<path fill="url(#illustrations-using-x)" d="M0 29s17.45 12.188 41.768 12.188S47.718 49 47.718 49H.052"/>
+			<path fill="#C8CCD1" d="M2.772 49.118S98.352 3.55 86.375 26.484c-11.976 22.934 42.897-5.386 42.897-5.386v28.02"/>
+			<path fill="url(#illustrations-using-y)" d="M2.772 49.118S98.352 3.55 86.375 26.484c-11.976 22.934 42.897-5.386 42.897-5.386v28.02"/>
+		</g>
+		<path fill="#F5F5F5" d="M556.072 190h129.1v2h-129.1z"/>
+		<g transform="translate(567.072 202)">
+			<rect width="73" height="2" y="7" fill="#C8CCD1" rx="1"/>
+			<rect width="81" height="2" y="31" fill="#A2A9B1" rx="1"/>
+			<rect width="32" height="2" y="85" fill="#A2A9B1" rx="1"/>
+			<rect width="73" height="2" x="35" y="85" fill="#A2A9B1" rx="1"/>
+			<rect width="17" height="2" y="45" fill="#A2A9B1" rx="1"/>
+			<rect width="17" height="2" x="91" y="45" fill="#A2A9B1" rx="1"/>
+			<rect width="68" height="2" x="20" y="45" fill="#A2A9B1" rx="1"/>
+			<rect width="17" height="2" y="78" fill="#A2A9B1" rx="1"/>
+			<rect width="37" height="2" x="72" y="78" fill="#A2A9B1" rx="1"/>
+			<rect width="49" height="2" x="20" y="78" fill="#A2A9B1" rx="1"/>
+			<rect width="24" height="2" x="84" y="31" fill="#A2A9B1" rx="1" transform="matrix(-1 0 0 1 192 0)"/>
+			<rect width="81" height="2" y="66" fill="#A2A9B1" rx="1"/>
+			<rect width="14" height="2" x="54" y="24" fill="#A2A9B1" rx="1"/>
+			<rect width="37" height="2" x="71" y="24" fill="#A2A9B1" rx="1"/>
+			<rect width="51" height="2" y="24" fill="#A2A9B1" rx="1"/>
+			<rect width="108" height="2" y="59" fill="#A2A9B1" rx="1"/>
+			<rect width="108" height="2" y="52" fill="#A2A9B1" rx="1"/>
+			<rect width="108" height="2" y="92" fill="#A2A9B1" rx="1"/>
+			<rect width="108" height="2" y="38" fill="#A2A9B1" rx="1"/>
+			<rect width="51" height="2" fill="#A2A9B1" rx="1"/>
 		</g>
 		<g transform="translate(56 127)">
 			<use fill="#000" filter="url(#illustrations-using-z)" xlink:href="#illustrations-using-A"/>
