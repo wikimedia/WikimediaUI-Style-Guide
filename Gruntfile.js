@@ -328,7 +328,8 @@ module.exports = function ( grunt ) {
 					expand: true,
 					cwd: './',
 					src: [
-						'**/*.svg'
+						'**/*.svg',
+						'!img/visual-style/principles-paper-ink.svg'
 					],
 					dest: './',
 					ext: '.svg'
