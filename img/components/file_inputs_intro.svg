@@ -6,18 +6,17 @@
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<g id="WikimediaUI-components_overview" transform="translate(-8199 -1532)">
 			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
-			<g id="FILE-INPUT-FIELD" transform="translate(8000 1419)">
+			<g id="FILE-INPUT-FIELDS" transform="translate(8000 1419)">
 				<g id="File-input" transform="translate(200 114)">
 					<g id="Text-input-/-!default">
 						<rect id="border" width="399" height="31" x=".5" y=".5" fill="#FFF" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
 					</g>
 					<g id="Button-/-!default-(--neutral)" transform="translate(287)">
 						<rect id="bg" width="112" height="31" x=".5" y=".5" fill="#F8F9FA" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
-						<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+						<text id="Label" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="12.068" y="22">Select a file</tspan>
 						</text>
 					</g>
-					<path id="line" stroke="#A2A9B1" stroke-width="1" d="M287.5 31.5v.5l-.5-.5h.5zm0-15.5V.503c0 .002-.005-.003 0-.003h-.5l.5-.5v16z"/>
 					<path id="Line" stroke="#F8F9FA" stroke-linecap="square" stroke-width="1" d="M288.5 1.5v29"/>
 				</g>
 			</g>

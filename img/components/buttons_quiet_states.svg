@@ -14,7 +14,7 @@
 			<feOffset dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
 			<feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1.5"/>
 			<feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"/>
-			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.179347826 0"/>
+			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 			<feMerge>
 				<feMergeNode in="shadowMatrixOuter1"/>
 				<feMergeNode in="shadowMatrixOuter2"/>
@@ -30,13 +30,13 @@
 			<feOffset dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
 			<feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1.5"/>
 			<feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"/>
-			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.179347826 0"/>
+			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 			<feMerge>
 				<feMergeNode in="shadowMatrixOuter1"/>
 				<feMergeNode in="shadowMatrixOuter2"/>
 			</feMerge>
 		</filter>
-		<filter id="filter-9" width="220.2%" height="165%" x="-56.2%" y="-22.5%" filterUnits="objectBoundingBox">
+		<filter id="filter-9" width="212.4%" height="164.2%" x="-56%" y="-21.7%" filterUnits="objectBoundingBox">
 			<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
 			<feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
 			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
@@ -46,7 +46,7 @@
 			<feOffset dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
 			<feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1.5"/>
 			<feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"/>
-			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.179347826 0"/>
+			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 			<feMerge>
 				<feMergeNode in="shadowMatrixOuter1"/>
 				<feMergeNode in="shadowMatrixOuter2"/>
@@ -112,11 +112,11 @@
 						<text id="Label" fill="#72777D" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="26" y="240">Neutral</tspan>
 						</text>
-						<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+						<text id="Label" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="26.152" y="16">Neutral</tspan>
 						</text>
 						<rect id="BG" width="80" height="32" x="14" y="50" fill="#F8F9FA" rx="2"/>
-						<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+						<text id="Label" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="26.152" y="72">Neutral</tspan>
 						</text>
 						<rect id="BG" width="79" height="31" x="14.5" y="106.5" fill="#EAECF0" stroke="#72777D" rx="2"/>
@@ -127,7 +127,7 @@
 							<rect width="78" height="30" x="15" y="163" stroke-width="2" rx="2"/>
 							<rect width="79" height="31" x="14.5" y="162.5" rx="2"/>
 						</g>
-						<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+						<text id="Label" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="26.152" y="184">Neutral</tspan>
 						</text>
 						<g id="_Spec-/-16-sp-(1-em)-+-2-*-8-sp-(0.5-em)" stroke-width="4" transform="rotate(-90 125 125)">
@@ -151,19 +151,19 @@
 					<g id="Cursor-/-Pointer" transform="translate(869 70)">
 						<g id="Cursor-Pointer">
 							<use fill="#000" filter="url(#filter-5)" xlink:href="#path-4"/>
-							<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 011.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 01.805-.201 1.69 1.69 0 011.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 01-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 01-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+							<path fill="#FFF" stroke="#000" d="M12.439 9.845a2.038 2.038 0 00-.561-.95 2.138 2.138 0 00-2.571-.298V1.425A1.925 1.925 0 007.397-.5c-.526 0-1.002.216-1.346.567-.34.348-.552.828-.552 1.358V15l-2.69-3.478a1.729 1.729 0 00-1.063-.768 1.83 1.83 0 00-1.338.184 1.778 1.778 0 00-.84 1.053c-.126.435-.08.912.176 1.345 0 0 2.82 4.373 3.971 6.1.345.517.755 1.07 1.161 1.617.868 1.17 1.793 2.306 1.793 2.948 0 .144-.047.312-.128.5h9.221c-.352-.755.25-1.803.875-2.996.704-1.343 1.464-2.841 1.464-4.302v-3.24l-.006-1.585c0-.464-.19-.885-.499-1.19a1.7 1.7 0 00-1.198-.491 1.7 1.7 0 00-.805.201 2.043 2.043 0 00-.514-.805 2.127 2.127 0 00-1.483-.594c-.43 0-.826.124-1.157.347z"/>
 						</g>
 					</g>
 					<g id="Cursor-/-Pointer" transform="translate(868 126)">
 						<g id="Cursor-Pointer">
 							<use fill="#000" filter="url(#filter-7)" xlink:href="#path-6"/>
-							<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 011.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 01.805-.201 1.69 1.69 0 011.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 01-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 01-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+							<path fill="#FFF" stroke="#000" d="M12.439 9.845a2.038 2.038 0 00-.561-.95 2.138 2.138 0 00-2.571-.298V1.425A1.925 1.925 0 007.397-.5c-.526 0-1.002.216-1.346.567-.34.348-.552.828-.552 1.358V15l-2.69-3.478a1.729 1.729 0 00-1.063-.768 1.83 1.83 0 00-1.338.184 1.778 1.778 0 00-.84 1.053c-.126.435-.08.912.176 1.345 0 0 2.82 4.373 3.971 6.1.345.517.755 1.07 1.161 1.617.868 1.17 1.793 2.306 1.793 2.948 0 .144-.047.312-.128.5h9.221c-.352-.755.25-1.803.875-2.996.704-1.343 1.464-2.841 1.464-4.302v-3.24l-.006-1.585c0-.464-.19-.885-.499-1.19a1.7 1.7 0 00-1.198-.491 1.7 1.7 0 00-.805.201 2.043 2.043 0 00-.514-.805 2.127 2.127 0 00-1.483-.594c-.43 0-.826.124-1.157.347z"/>
 						</g>
 					</g>
 					<g id="Cursor-/-!default" transform="translate(875 243)">
 						<g id="Cursor" fill="#000">
 							<use filter="url(#filter-9)" xlink:href="#path-8"/>
-							<path stroke="#FFF" d="M6.448 11.787l2.721 6.886c.273.675-.094 1.44-.79 1.72-.696.283-1.491-.013-1.765-.692l-2.708-6.853-2.483 2.963-.077.075c-.901.695-1.848.236-1.846-.902L-.474.669c0-.618.027-.82.271-1.028.4-.34.694-.163 1.14.298l10.66 10.157c.793.817.432 1.805-.782 1.933l-4.367-.242z"/>
+							<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244a1.63 1.63 0 00.67-.195.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.943-.055C.7-.303.478-.353-.217.204c-.07.246-.131.76-.17 1.734-.078 1.911-.1 5.713.008 13.687a.971.971 0 00.465.498.98.98 0 00.678.06c.191-.048.405-.153.627-.333l2.545-2.926z"/>
 						</g>
 					</g>
 					<text id="State-Description" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">

@@ -18,7 +18,7 @@
 					<rect id="border" width="95" height="31" x=".5" y=".5" fill="#FFF" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
 				</g>
 				<path id="Rectangle" fill="#FFF" d="M234 141h4v4h-4zm90 0h4v4h-4zm0-26h4v4h-4zm-90 0h4v4h-4z"/>
-				<text id="100" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+				<text id="100" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 					<tspan x="242" y="137">100</tspan>
 				</text>
 				<g id="🔣-Icon/Interactions/Subtract" transform="translate(207 120)">
@@ -26,8 +26,8 @@
 						<use xlink:href="#path-1"/>
 					</mask>
 					<use id="Mask" fill="#000" fill-rule="evenodd" xlink:href="#path-1"/>
-					<g id="🎨-Color/Base/B10-(#222)" fill="#222" fill-rule="evenodd" mask="url(#mask-2)">
-						<path id="Rectangle-1" d="M0 0h20v20H0z"/>
+					<g id="🎨-Color/Base10-#202122" fill="#202122" fill-rule="evenodd" mask="url(#mask-2)">
+						<path id="Color" d="M0 0h20v20H0z"/>
 					</g>
 				</g>
 				<g id="🔣-Icon/Interactions/add" transform="translate(334 120)">
@@ -35,8 +35,8 @@
 						<use xlink:href="#path-3"/>
 					</mask>
 					<use id="Mask" fill="#000" fill-rule="evenodd" xlink:href="#path-3"/>
-					<g id="🎨-Color/Base/B10-(#222)" fill="#222" fill-rule="evenodd" mask="url(#mask-4)">
-						<path id="Rectangle-1" d="M0 0h20v20H0z"/>
+					<g id="🎨-Color/Base10-(#202122)" fill="#202122" fill-rule="evenodd" stroke-width="1" mask="url(#mask-4)">
+						<path id="Color-mask" d="M0 0h20v20H0z"/>
 					</g>
 				</g>
 			</g>

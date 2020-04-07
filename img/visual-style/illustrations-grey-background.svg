@@ -45,7 +45,7 @@
 		<text fill="#000" font-family="sans-serif" font-size="18" transform="translate(15 181)">
 			<tspan x="55.437" y="268">Save pages to view them later, </tspan> <tspan x="126.546" y="293">even offline</tspan>
 		</text>
-		<text fill="#222" font-family="sans-serif" font-size="22" transform="translate(15 181)">
+		<text fill="#202122" font-family="sans-serif" font-size="22" transform="translate(15 181)">
 			<tspan x="73.624" y="226.367">No saved pages yet</tspan>
 		</text>
 	</g>

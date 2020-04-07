@@ -1,10 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="274" height="34" viewBox="0 0 274 34">
-	<g fill="none" fill-rule="evenodd">
-		<path fill="#FFF" d="M-7552-589H7168v3264H-7552z"/>
-		<path fill="#FFF" stroke="#A2A9B1" d="M2.995 1.5c-.828 0-1.495.668-1.495 1.502v27.996c0 .83.67 1.502 1.495 1.502h268.01c.828 0 1.495-.668 1.495-1.502V3.002c0-.83-.67-1.502-1.495-1.502H2.995z"/>
-		<text fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" transform="translate(-192 -38)">
-			<tspan x="230" y="61">Search</tspan>
-		</text>
-		<path fill="#222" fill-rule="nonzero" d="M17.5 20c3.04 0 5.5-2.46 5.5-5.5S20.54 9 17.5 9 12 11.46 12 14.5s2.46 5.5 5.5 5.5zm4.55.46A7.432 7.432 0 0117.5 22c-4.14 0-7.5-3.36-7.5-7.5 0-4.14 3.36-7.5 7.5-7.5 4.14 0 7.5 3.36 7.5 7.5 0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="274" height="34" viewBox="0 0 274 34">
+	<title>
+		search_inputs_intro
+	</title>
+	<defs>
+		<path id="path-1" d="M7.5 13c3.04 0 5.5-2.46 5.5-5.5S10.54 2 7.5 2 2 4.46 2 7.5 4.46 13 7.5 13zm4.55.46A7.432 7.432 0 017.5 15C3.36 15 0 11.64 0 7.5 0 3.36 3.36 0 7.5 0 11.64 0 15 3.36 15 7.5c0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>
+	</defs>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-7552 -589)">
+			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
+			<g id="TEXT-INPUT-FIELDS" transform="translate(7359 142)">
+				<g id="Search-Input-Field-+-Icon" transform="translate(1 409)">
+					<path id="bg" fill="#FFF" stroke="#A2A9B1" d="M194.995 39.5a1.49 1.49 0 00-1.058.438 1.5 1.5 0 00-.437 1.064v27.996a1.5 1.5 0 001.495 1.502h268.01a1.49 1.49 0 001.058-.438 1.5 1.5 0 00.437-1.064l-.35-27.95c-.242-.047-.57-.093-1.016-.14-1.32-.138-3.608-.27-7.569-.393-6.987-.218-19.159-.411-40.361-.568-37.686-.28-103.893-.447-220.21-.447z"/>
+					<text id="Search" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+						<tspan x="230" y="61">Search</tspan>
+					</text>
+					<g id="🔣-Icon/Interactions/search" transform="translate(202 45)">
+						<mask id="mask-2" fill="#fff">
+							<use xlink:href="#path-1"/>
+						</mask>
+						<use id="Shape" fill="#000" fill-rule="nonzero" xlink:href="#path-1"/>
+						<g id="🎨-Color/Base10-#202122" fill="#202122" fill-rule="evenodd" mask="url(#mask-2)">
+							<path id="Color" d="M0 0h20v20H0z"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
 	</g>
 </svg>
