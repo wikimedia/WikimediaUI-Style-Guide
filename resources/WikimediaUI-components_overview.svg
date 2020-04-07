@@ -1871,7 +1871,7 @@
 			<text id="Tue-Nov-5,-2019" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 				<tspan x="218" y="192">Tue Nov 5, 2013</tspan>
 			</text>
-			<rect id="Mediawiki.Neutral.Acive-copy-9" width="20" height="20" x="369" y="177" fill="#949494" rx="2"/>
+			<rect id="Mediawiki.Neutral.Acive-copy-9" width="20" height="20" x="369" y="177" fill="#72777D" rx="2"/>
 			<rect id="Mediawiki.Neutral.Acive-copy-10" width="20" height="20" x="368.749" y="119.76" fill="#222" rx="2"/>
 			<rect id="Mediawiki.Neutral.Acive-copy-6" width="20" height="20" x="1182" y="892" fill="#222" rx="2"/>
 			<path id="Line-214" stroke="#D0021B" stroke-width="4" d="M385.251 905.24h16"/>
@@ -2870,7 +2870,7 @@
 			<g id="_Spec-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(192 389)">
 				<path id="16-sp-(1-em)" d="M0 2h16"/>
 			</g>
-			<g id="Icon-/-:disabled" fill="#949494" transform="translate(200 502)">
+			<g id="Icon-/-:disabled" fill="#72777D" transform="translate(200 502)">
 				<path id="Shape-Copy-2" d="M2.5 0c.625 0 1.25.25 1.75.75S5 1.75 5 2.5c0 .625-.25 1.25-.75 1.75S3.125 5 2.5 5 1.25 4.75.75 4.25 0 3.125 0 2.5.25 1.25.75.75 1.75 0 2.5 0zM10 0c.625 0 1.25.25 1.75.75s.75 1 .75 1.75c0 .625-.25 1.25-.75 1.75S10.625 5 10 5s-1.25-.25-1.75-.75S7.5 3.125 7.5 2.5s.25-1.25.75-1.75S9.25 0 10 0zm7.5 0c.625 0 1.25.25 1.75.75s.75 1 .75 1.75c0 .625-.25 1.25-.75 1.75S18.125 5 17.5 5s-1.25-.25-1.75-.75S15 3.125 15 2.5s.25-1.25.75-1.75 1-.75 1.75-.75z" transform="matrix(1 0 0 -1 0 5)"/>
 			</g>
 			<g id="Icon-/-!default" fill="#222" transform="translate(200 128)">
@@ -2966,7 +2966,7 @@
 			<text id="Neutral-28-Copy" fill="#72777D" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 				<tspan x="209" y="474">Neutral</tspan>
 			</text>
-			<g id="Icon-/-Dropdown-indicator-/-:disabled" fill="#949494" transform="translate(275 464)">
+			<g id="Icon-/-Dropdown-indicator-/-:disabled" fill="#72777D" transform="translate(275 464)">
 				<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
 			</g>
 			<g id="Icon-/-Dropdown-indicator-/-:active" fill="#000" transform="translate(275 238)">
@@ -4685,7 +4685,7 @@
 					<text id="36-sp-minimum-width" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
 						<tspan x="912" y="131">36 sp minimum width touch target</tspan>
 					</text>
-					<path id="Shape-Copy-3" fill="#7D8389" d="M823.5 349c.625 0 1.25.25 1.75.75s.75 1 .75 1.75c0 .625-.25 1.25-.75 1.75s-1.125.75-1.75.75-1.25-.25-1.75-.75-.75-1.125-.75-1.75.25-1.25.75-1.75 1-.75 1.75-.75zm7.5 0c.625 0 1.25.25 1.75.75s.75 1 .75 1.75c0 .625-.25 1.25-.75 1.75s-1.125.75-1.75.75-1.25-.25-1.75-.75-.75-1.125-.75-1.75.25-1.25.75-1.75 1-.75 1.75-.75zm7.5 0c.625 0 1.25.25 1.75.75s.75 1 .75 1.75c0 .625-.25 1.25-.75 1.75s-1.125.75-1.75.75-1.25-.25-1.75-.75-.75-1.125-.75-1.75.25-1.25.75-1.75 1-.75 1.75-.75z" transform="matrix(1 0 0 -1 0 703)"/>
+					<path id="Shape-Copy-3" fill="#72777D" d="M823.5 349c.625 0 1.25.25 1.75.75s.75 1 .75 1.75c0 .625-.25 1.25-.75 1.75s-1.125.75-1.75.75-1.25-.25-1.75-.75-.75-1.125-.75-1.75.25-1.25.75-1.75 1-.75 1.75-.75zm7.5 0c.625 0 1.25.25 1.75.75s.75 1 .75 1.75c0 .625-.25 1.25-.75 1.75s-1.125.75-1.75.75-1.25-.25-1.75-.75-.75-1.125-.75-1.75.25-1.25.75-1.75 1-.75 1.75-.75zm7.5 0c.625 0 1.25.25 1.75.75s.75 1 .75 1.75c0 .625-.25 1.25-.75 1.75s-1.125.75-1.75.75-1.25-.25-1.75-.75-.75-1.125-.75-1.75.25-1.25.75-1.75 1-.75 1.75-.75z" transform="matrix(1 0 0 -1 0 703)"/>
 					<g id="Icon-/-!default" fill="#222" transform="translate(821 124.5)">
 						<path id="Shape-Copy-7" d="M20 2.5c0-.75-.25-1.25-.75-1.75S18.125 0 17.5 0c-.75 0-1.25.25-1.75.75S15 1.875 15 2.5s.25 1.25.75 1.75S16.875 5 17.5 5s1.25-.25 1.75-.75S20 3.125 20 2.5z" transform="matrix(1 0 0 -1 0 5)"/>
 						<path id="Shape-Copy-5" d="M11.75.75C11.25.25 10.625 0 10 0c-.75 0-1.25.25-1.75.75S7.5 1.875 7.5 2.5s.25 1.25.75 1.75S9.375 5 10 5s1.25-.25 1.75-.75.75-1.125.75-1.75c0-.75-.25-1.25-.75-1.75z" transform="matrix(1 0 0 -1 0 5)"/>
