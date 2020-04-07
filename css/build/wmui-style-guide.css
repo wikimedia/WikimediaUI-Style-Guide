@@ -490,6 +490,8 @@ template {
 */
 :root {
 	/* HACK; Add Georgia to serif fallback as long as WikimediaUI Base isn't updated */ /* stylelint-disable-line value-keyword-case */
+	/* Setting bold to `600` as our stack works better with it, only Lato is on the edge.
+	   Helvetica and Arial fallback gracefully to `700`, see T246791. */
 }
 * {
 	-webkit-box-sizing: border-box;
@@ -695,6 +697,10 @@ a:hover {
 a:active {
 		color: #2a4b8d;
 	}
+b,
+strong {
+	font-weight: 600;
+}
 code {
 	background-color: #f8f9fa;
 	display: inline-block;
@@ -813,7 +819,7 @@ sans-serif;
 			display: block;
 		}
 .site__project {
-			font-weight: 700;
+			font-weight: 600;
 		}
 /* ... Navigation button ... */
 .btn--nav-main {
@@ -941,7 +947,7 @@ sans-serif;
 	/* border-left: 2px solid var( --color-primary ); */
 	-moz-border-radius: 2px;
 	     border-radius: 2px;
-	font-weight: 700;
+	font-weight: 600;
 	cursor: default;
 }
 .nav__sub-items {
@@ -969,7 +975,7 @@ sans-serif;
 	background-color: #fff;
 	color: #000;
 	border-left-color: #000;
-	font-weight: 700;
+	font-weight: 600;
 }
 .nav--main .nav__sub-item .nav__sub-item a {
 	padding-left: 3.6rem;
@@ -1052,7 +1058,7 @@ sans-serif;
 .do,
 .dont {
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 600;
 }
 .do:before,
 	.dont:before {
@@ -1312,7 +1318,7 @@ solid
 		margin-top: 1.2rem;
 	}
 .footer__list--connect a {
-		font-weight: 700;
+		font-weight: 600;
 	}
 .lnk--wikimedia-project {
 	display: inline-block;
@@ -1346,7 +1352,7 @@ solid
 	min-width: 10rem;
 	margin: 0 0 3.2rem 1.6rem; /* Need to rely on `margin-bottom` here for vertical alignment */
 	font-size: 1.3rem;
-	font-weight: 700;
+	font-weight: 600;
 	vertical-align: top;
 }
 .typography-styles .typography-styles__code {
