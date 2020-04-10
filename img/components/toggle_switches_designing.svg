@@ -9,7 +9,7 @@
 			<g id="TOGGLE-SWITCH" transform="translate(6640 143)">
 				<g id="Toggle-Switch-X" transform="translate(0 113)">
 					<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(500 641)">
-						<path id="Mediawiki.Neutral.Hover-copy-28" d="M16-.5h28c9.113 0 16.5 7.387 16.5 16.5 0 9.114-7.387 16.5-16.5 16.5H16C6.887 32.5-.5 25.113-.5 16-.5 6.886 6.887-.5 16-.5z"/>
+						<path id="Mediawiki.Neutral.Hover-copy-28" d="M16-.5A16.45 16.45 0 004.448 4.218C1.468 7.139-.41 11.182-.5 15.99c0 4.565 1.847 8.69 4.833 11.676A16.448 16.448 0 0016 32.5h28c4.498 0 8.575-1.8 11.552-4.718 2.98-2.921 4.858-6.964 4.948-11.773 0-2.741-.663-5.316-2.58-7.592-1.62-1.922-4.15-3.637-7.983-5.031C43.294.97 32.672-.5 16-.5z"/>
 						<circle id="Oval-45-Copy-13" cx="17" cy="16" r="10.5"/>
 					</g>
 					<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(499 637)">
@@ -29,7 +29,7 @@
 							<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 						</g>
 					</g>
-					<text id="Label-for-binary-sel" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+					<text id="Label-for-binary-sel" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="303" y="662">Label for binary selection</tspan>
 					</text>
 					<path id="Line" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square" d="M499.5 665.5v-45.011"/>

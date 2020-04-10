@@ -4,7 +4,7 @@
 		file_inputs_select_button_only_intro
 	</title>
 	<defs>
-		<path id="path-1" d="M3 12v5h14v-5h2v5a2 2 0 01-2 2H3a2 2 0 01-2-2v-5h2zm7-11l5 6h-4v8H9V7H5l5-6z"/>
+		<path id="path-1" d="M2.896 12v5H16.41v-5h1.93v5c0 1.105-.864 2-1.93 2H2.896c-1.066 0-1.93-.895-1.93-2v-5h1.93zM9.653 1l4.826 6h-3.86v8H8.687V7H4.825l4.827-6z"/>
 	</defs>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<g id="WikimediaUI-components_overview" transform="translate(-8715 -1532)">
@@ -13,17 +13,17 @@
 				<g id="File-input-select-button-only" transform="translate(716 114)">
 					<g id="Button-icon-/-!default">
 						<rect id="bg" width="138" height="31" x=".5" y=".5" fill="#F8F9FA" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
-						<g id="🔣-Icon/Content/upload" transform="translate(12 6)">
+						<g id="🔣-Icon/Content/upload" transform="translate(11.583 6)">
 							<mask id="mask-2" fill="#fff">
 								<use xlink:href="#path-1"/>
 							</mask>
 							<use id="Mask" fill="#000" fill-rule="evenodd" xlink:href="#path-1"/>
-							<g id="🎨-Color/Base/B10-(#222)" fill="#222" fill-rule="evenodd" mask="url(#mask-2)">
-								<path id="Rectangle-1" d="M0 0h20v20H0z"/>
+							<g id="🎨-Color/Base10-#202122" fill="#202122" fill-rule="evenodd" mask="url(#mask-2)">
+								<path id="Color" d="M0 0h19.306v20H0z"/>
 							</g>
 						</g>
-						<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-							<tspan x="38" y="22">Select a file </tspan>
+						<text id="Label" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+							<tspan x="40.568" y="22">Select a file </tspan>
 						</text>
 					</g>
 				</g>

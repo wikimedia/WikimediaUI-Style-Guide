@@ -32,7 +32,7 @@
 								<rect width="271" height="31" x=".5" y=".5" fill="#FFF" stroke="#36C" stroke-linejoin="square" rx="2"/>
 								<rect width="273" height="33" x="-.5" y="-.5" stroke="#36C" rx="2"/>
 							</g>
-							<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+							<text id="Label" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 								<tspan x="12" y="22">Item 1 selected </tspan>
 							</text>
 							<g id="🔣-Icon/Indicators/down" transform="translate(247.867 11)">
@@ -40,25 +40,25 @@
 									<use xlink:href="#path-3"/>
 								</mask>
 								<use id="Mask-2" fill="#000" fill-rule="evenodd" xlink:href="#path-3"/>
-								<g id="🎨-Color/Base10-(#222)" fill="#222" fill-rule="evenodd" mask="url(#mask-4)">
-									<path id="Rectangle-1" d="M0 0h12v12H0z"/>
+								<g id="🎨-Color/Base10-#202122" fill="#202122" fill-rule="evenodd" mask="url(#mask-4)">
+									<path id="Color" d="M0 0h12v12H0z"/>
 								</g>
 							</g>
 						</g>
 						<g id="Bg-menu">
 							<use fill="#000" filter="url(#filter-6)" xlink:href="#path-5"/>
-							<path fill="#FFF" stroke="#A2A9B1" stroke-linejoin="square" d="M.5 32.5v63.507c0 .825.669 1.493 1.495 1.493h268.01c.825 0 1.495-.67 1.495-1.493V32.5H.5z"/>
+							<path fill="#FFF" stroke="#A2A9B1" stroke-linejoin="square" d="M271.5 32.5H.5v63.507A1.49 1.49 0 001.995 97.5h268.01a1.49 1.49 0 001.057-.438c.27-.27.438-.644.438-1.055V32.5z"/>
 						</g>
-						<path id="Bg-menu-option:hover" fill="#EBF2FF" fill-rule="evenodd" d="M1 33h269.993v31.007a.991.991 0 01-1.005.993H2.005A1.004 1.004 0 011 64.007V33z"/>
+						<path id="Bg-menu-option:hover" fill="#EAF3FF" fill-rule="evenodd" d="M1 33h269.993v31.007a.991.991 0 01-1.005.993H2.005A1.004 1.004 0 011 64.007V33z"/>
 						<path id="Bg-menu-option:hover" fill="#FFF" fill-rule="evenodd" d="M1 65h269.993v31.007a.991.991 0 01-1.005.993H2.005A1.004 1.004 0 011 96.007V65z"/>
-						<text id="Menu-option" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+						<text id="Menu-option" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="13" y="87">Item 2</tspan>
 						</text>
-						<text id="Menu-option" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+						<text id="Menu-option" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="13" y="55">Item 1</tspan>
 						</text>
 					</g>
-					<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal" transform="translate(193 350)">
+					<text id="Label" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal" transform="translate(193 350)">
 						<tspan x="0" y="15">Label</tspan>
 					</text>
 					<g id="_Spec-/-12-sp-(0.75-em)" stroke="#0082FF" stroke-width="4" transform="translate(453 390.5)">

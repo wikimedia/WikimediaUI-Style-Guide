@@ -9,16 +9,16 @@
 			<g id="BUTTON-GROUP" transform="translate(3360 143)">
 				<g id="Button-Group-X" transform="translate(0 113)">
 					<rect id="button-frame" width="255" height="31" x="192.5" y=".5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
-					<text id="More" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-						<tspan x="204" y="21">More</tspan>
+					<text id="More" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+						<tspan x="204.296" y="21">More</tspan>
 					</text>
-					<text id="Pages-3-Copy" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+					<text id="Pages-3-Copy" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="388.296" y="21">Pages</tspan>
 					</text>
-					<text id="Other" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+					<text id="Other" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="267.012" y="21">Other</tspan>
 					</text>
-					<text id="Talk-Copy" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+					<text id="Talk-Copy" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="333.252" y="21">Talk</tspan>
 					</text>
 					<path id="Line" stroke="#A2A9B1" stroke-linecap="square" d="M255.5.5v31"/>

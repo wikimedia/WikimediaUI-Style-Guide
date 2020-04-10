@@ -7,10 +7,10 @@
 		<g id="WikimediaUI-components_overview" transform="translate(-1951 -255)">
 			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
 			<g id="BUTTONS-NORMAL-&amp;-PRIMARY" transform="translate(1759 143)">
-				<g id="Normal-&amp;-Primary-Buttons-X" transform="translate(1 113)">
-					<g id="Button-/-!default-(--neutral)" transform="translate(192)">
+				<g id="Normal-&amp;-Primary-Buttons-X" transform="translate(1 86)">
+					<g id="Button-/-!default-(--neutral)" transform="translate(192 27)">
 						<rect id="bg" width="79" height="31" x=".5" y=".5" fill="#F8F9FA" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
-						<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+						<text id="Label" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="12.168" y="22">Normal</tspan>
 						</text>
 					</g>

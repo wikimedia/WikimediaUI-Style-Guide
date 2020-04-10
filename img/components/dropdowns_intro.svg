@@ -13,16 +13,16 @@
 				<g id="Dropdown-X" transform="translate(1 70)">
 					<g id="Dropdown-/-!default" transform="translate(192)">
 						<rect id="Dropdown" width="271" height="31" x=".5" y=".5" fill="#F8F9FA" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
-						<text id="Label" fill="#222" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-							<tspan x="13" y="23">Neutral</tspan>
+						<text id="Label" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+							<tspan x="12" y="22">Select an item</tspan>
 						</text>
-						<g id="🔣-Icon/Indicators/down" transform="translate(249 11)">
+						<g id="🔣-Icon/Indicators/down" transform="translate(245.6 11)">
 							<mask id="mask-2" fill="#fff">
 								<use xlink:href="#path-1"/>
 							</mask>
 							<use id="Mask-2" fill="#000" fill-rule="evenodd" xlink:href="#path-1"/>
-							<g id="🎨-Color/Base10-(#222)" fill="#222" fill-rule="evenodd" mask="url(#mask-2)">
-								<path id="Rectangle-1" d="M0 0h12v12H0z"/>
+							<g id="🎨-Color/Base10-#202122" fill="#202122" fill-rule="evenodd" mask="url(#mask-2)">
+								<path id="Color" d="M0 0h12v12H0z"/>
 							</g>
 						</g>
 					</g>

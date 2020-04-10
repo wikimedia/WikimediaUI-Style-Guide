@@ -11,8 +11,8 @@
 			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
 			<g id="COMBOBOX-INPUT-FIELD" transform="translate(10190 803)">
 				<g id="Designing" transform="translate(188 541)">
-					<path id="Mediawiki.Neutral.Normal-copy-30" fill="#F8F9FA" stroke="#A2A9B1" d="M252.5 24.5v31h29.498c.832 0 1.502-.668 1.502-1.502V26.002c0-.832-.668-1.502-1.502-1.502H252.5z"/>
-					<path id="Mediawiki.Neutral.Acive-8-Copy" fill="#FFF" stroke="#A2A9B1" d="M252.5 55.5v-31H13.993c-.827 0-1.493.668-1.493 1.502v27.996a1.5 1.5 0 001.493 1.502H252.5z"/>
+					<path id="Mediawiki.Neutral.Normal-copy-30" fill="#F8F9FA" stroke="#A2A9B1" d="M252.5 24.5v31h29.498a1.499 1.499 0 001.502-1.502V26.002a1.499 1.499 0 00-1.502-1.502H252.5z"/>
+					<path id="Mediawiki.Neutral.Acive-8-Copy" fill="#FFF" stroke="#A2A9B1" d="M252.5 24.5H13.993c-.413 0-.786.167-1.057.438a1.5 1.5 0 00-.436 1.064v27.996a1.5 1.5 0 001.493 1.502H252.5v-31z"/>
 					<text id="Placeholder-Copy" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="48" y="46">Placeholder</tspan>
 					</text>
@@ -20,12 +20,12 @@
 						<mask id="mask-2" fill="#fff">
 							<use xlink:href="#path-1"/>
 						</mask>
-						<circle cx="10" cy="10" r="9" stroke="#222" stroke-width="2"/>
+						<circle cx="10" cy="10" r="9" stroke="#202122" stroke-width="2"/>
 					</g>
-					<g id="Icon-/-Dropdown-indicator-/-!default" fill="#222" transform="translate(262 37)">
+					<g id="Icon-/-Dropdown-indicator-/-!default" fill="#202122" transform="translate(262 37)">
 						<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
 					</g>
-					<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal" transform="translate(13)">
+					<text id="Label" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal" transform="translate(13)">
 						<tspan x="0" y="15">Label</tspan>
 					</text>
 					<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(253 38)">

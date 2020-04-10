@@ -14,7 +14,7 @@
 			<feOffset dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
 			<feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1.5"/>
 			<feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"/>
-			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.179347826 0"/>
+			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 			<feMerge>
 				<feMergeNode in="shadowMatrixOuter1"/>
 				<feMergeNode in="shadowMatrixOuter2"/>
@@ -30,7 +30,7 @@
 			<feOffset dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
 			<feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1.5"/>
 			<feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"/>
-			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.179347826 0"/>
+			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 			<feMerge>
 				<feMergeNode in="shadowMatrixOuter1"/>
 				<feMergeNode in="shadowMatrixOuter2"/>
@@ -46,7 +46,7 @@
 			<feOffset dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
 			<feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1.5"/>
 			<feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"/>
-			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.179347826 0"/>
+			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 			<feMerge>
 				<feMergeNode in="shadowMatrixOuter1"/>
 				<feMergeNode in="shadowMatrixOuter2"/>
@@ -62,7 +62,7 @@
 			<feOffset dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
 			<feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1.5"/>
 			<feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"/>
-			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.179347826 0"/>
+			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 			<feMerge>
 				<feMergeNode in="shadowMatrixOuter1"/>
 				<feMergeNode in="shadowMatrixOuter2"/>
@@ -78,7 +78,7 @@
 			<feOffset dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
 			<feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1.5"/>
 			<feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"/>
-			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.179347826 0"/>
+			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 			<feMerge>
 				<feMergeNode in="shadowMatrixOuter1"/>
 				<feMergeNode in="shadowMatrixOuter2"/>
@@ -94,7 +94,7 @@
 			<feOffset dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
 			<feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1.5"/>
 			<feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"/>
-			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.179347826 0"/>
+			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 			<feMerge>
 				<feMergeNode in="shadowMatrixOuter1"/>
 				<feMergeNode in="shadowMatrixOuter2"/>
@@ -116,19 +116,19 @@
 			<g id="RADIO-BUTTONS---DESKTOP" transform="translate(5840 143)">
 				<g id="Radio-Buttons-X" transform="translate(0 113)">
 					<g id="Radio-/-:disabled" transform="translate(192 224)">
-						<text id="Label" fill="#7D8389" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+						<text id="Label" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<circle id="Oval-112" cx="12" cy="16" r="11.5" fill="#C8CCD1" fill-rule="evenodd" stroke="#C8CCD1" stroke-width="1"/>
 					</g>
 					<g id="Radio-/-:hover" transform="translate(192 56)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+						<text id="Label" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<circle id="Oval-112" cx="12" cy="16" r="11.5" stroke="#447FF5" stroke-width="1"/>
 					</g>
 					<g id="Radio-/-:active" transform="translate(192 112)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+						<text id="Label" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<g id="Oval-112" stroke="#2A4B8D" stroke-linejoin="square">
@@ -140,7 +140,7 @@
 						<tspan x="0" y="21">Normal</tspan> <tspan x="0" y="77.1">Hover</tspan> <tspan x="0" y="133.2">Active</tspan> <tspan x="0" y="189.3">Focus</tspan> <tspan x="0" y="245.4">Disabled</tspan>
 					</text>
 					<g id="Radio-/-:checked-/-:disabled" transform="translate(480 224)">
-						<text id="Label" fill="#7D8389" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+						<text id="Label" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<g id="Oval-112-Copy-+-Oval-59-Copy" fill-rule="evenodd" stroke-width="1" transform="translate(0 4)">
@@ -149,7 +149,7 @@
 						</g>
 					</g>
 					<g id="Radio-/-!default" transform="translate(192)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+						<text id="Label" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<path id="Oval-112-Copy-2" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" d="M12 4.5c-3.176 0-6.05 1.287-8.132 3.368A11.464 11.464 0 00.5 16c0 3.176 1.287 6.05 3.368 8.132A11.464 11.464 0 0012 27.5c3.176 0 6.05-1.287 8.132-3.368A11.464 11.464 0 0023.5 16c0-3.176-1.287-6.05-3.368-8.132A11.464 11.464 0 0012 4.5z"/>
@@ -166,7 +166,7 @@
 						</g>
 					</g>
 					<g id="Radio-/-:focus" transform="translate(192 168)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+						<text id="Label" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<g id="Oval-112-Copy-4" stroke="#36C" stroke-linejoin="square">
@@ -175,7 +175,7 @@
 						</g>
 					</g>
 					<g id="Radio-/-:checked-/-:focus" transform="translate(480 168)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+						<text id="Label" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<g id="Oval-112-Copy-5-+-Oval-78" fill-rule="evenodd" stroke-width="1" transform="translate(0 4)">
@@ -188,7 +188,7 @@
 						</g>
 					</g>
 					<g id="Radio-/-:checked-/-:active" transform="translate(480 112)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+						<text id="Label" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<g id="Oval-112-Copy-6-+-Oval-59-Copy-3" fill-rule="evenodd" stroke-width="1" transform="translate(0 4)">
@@ -197,7 +197,7 @@
 						</g>
 					</g>
 					<g id="Radio-/-:checked-/-:hover" transform="translate(480 56)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+						<text id="Label" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<g id="Oval-112-+-Oval-59" fill-rule="evenodd" stroke-width="1" transform="translate(0 4)">
@@ -206,7 +206,7 @@
 						</g>
 					</g>
 					<g id="Radio-/-:checked-/-!default" transform="translate(480)">
-						<text id="Label" fill="#222" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+						<text id="Label" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="32" y="22">Neutral point</tspan>
 						</text>
 						<g id="Oval-112-Copy-3-+-Oval-59-Copy-2" fill-rule="evenodd" stroke-width="1" transform="translate(0 4)">
@@ -229,7 +229,7 @@
 					<g id="Cursor-/-!default" transform="translate(504 243)">
 						<g id="Cursor" fill="#000">
 							<use filter="url(#filter-9)" xlink:href="#path-8"/>
-							<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244c.279-.025.501-.098.67-.195a.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.943-.055C.7-.303.478-.353-.217.204c-.07.246-.131.76-.17 1.734-.078 1.911-.1 5.713.008 13.687a.971.971 0 00.465.498c.192.093.42.124.678.06.191-.048.405-.153.627-.333l2.545-2.926z"/>
+							<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244a1.63 1.63 0 00.67-.195.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.943-.055C.7-.303.478-.353-.217.204c-.07.246-.131.76-.17 1.734-.078 1.911-.1 5.713.008 13.687a.971.971 0 00.465.498.98.98 0 00.678.06c.191-.048.405-.153.627-.333l2.545-2.926z"/>
 						</g>
 					</g>
 					<g id="Cursor-/-Pointer" transform="translate(209 131)">
@@ -247,7 +247,7 @@
 					<g id="Cursor-/-!default" transform="translate(216 243)">
 						<g id="Cursor" fill="#000">
 							<use filter="url(#filter-15)" xlink:href="#path-14"/>
-							<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244c.279-.025.501-.098.67-.195a.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.943-.055C.7-.303.478-.353-.217.204c-.07.246-.131.76-.17 1.734-.078 1.911-.1 5.713.008 13.687a.971.971 0 00.465.498c.192.093.42.124.678.06.191-.048.405-.153.627-.333l2.545-2.926z"/>
+							<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244a1.63 1.63 0 00.67-.195.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.943-.055C.7-.303.478-.353-.217.204c-.07.246-.131.76-.17 1.734-.078 1.911-.1 5.713.008 13.687a.971.971 0 00.465.498.98.98 0 00.678.06c.191-.048.405-.153.627-.333l2.545-2.926z"/>
 						</g>
 					</g>
 				</g>
