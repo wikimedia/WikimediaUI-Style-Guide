@@ -1523,8 +1523,8 @@
 				<path id="32-sp-(2-em)" d="M0 4h32" transform="matrix(1 0 0 -1 0 8)"/>
 			</g>
 			<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(345 675)">
-				<path id="Mediawiki.Neutral.Hover-copy-28" d="M16-.5c-4.498 0-8.575 1.8-11.552 4.718C1.468 7.139-.41 11.182-.5 15.99c0 4.565 1.847 8.69 4.833 11.676A16.448 16.448 0 0016 32.5h28c4.498 0 8.575-1.8 11.552-4.718 2.98-2.921 4.858-6.964 4.948-11.773 0-2.741-.663-5.316-2.58-7.592-1.62-1.922-4.15-3.637-7.983-5.031C43.294.97 32.672-.5 16-.5z"/>
-				<circle id="Oval-45-Copy-13" cx="17" cy="16" r="10.5"/>
+				<path id="bg" d="M15.997.613a15.34 15.34 0 00-10.85 4.354C2.344 7.695.584 11.488.5 16.009c0 4.271 1.735 8.146 4.54 10.951A15.451 15.451 0 0016 31.5h28c4.226 0 8.056-1.69 10.852-4.431 2.804-2.748 4.564-6.554 4.648-11.078 0-4.154-1.734-7.935-4.536-10.682a15.785 15.785 0 00-10.968-4.5l-28-.196z"/>
+				<circle id="grip" cx="17" cy="16" r="9.5"/>
 			</g>
 			<text id="Option-4-Copy-5" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 				<tspan x="2" y="697">Option 1</tspan>
@@ -1552,8 +1552,8 @@
 				<tspan x="0" y="15">Username</tspan>
 			</text>
 			<g id="Toggle-switch-/-:on-/-!default" transform="translate(345 725)">
-				<rect id="Mediawiki.Neutral.Hover-copy-33" width="59" height="31" x=".5" y=".5" fill="#36C" fill-rule="evenodd" stroke="#36C" stroke-width="1" rx="15.5"/>
-				<g id="Oval-45-Copy-17">
+				<rect id="bg" width="59" height="31" x=".5" y=".5" fill="#36C" fill-rule="evenodd" stroke="#36C" stroke-width="1" rx="15.5"/>
+				<g id="grip">
 					<use fill="#000" filter="url(#filter-5)" xlink:href="#path-4"/>
 					<circle cx="43" cy="16" r="9.5" fill="#FFF" stroke="#FFF" stroke-linejoin="square"/>
 				</g>
@@ -3979,9 +3979,9 @@
 		<g id="TOGGLE-SWITCH" transform="translate(6640 143)">
 			<g id="Toggle-Switch-X" transform="translate(0 113)">
 				<g id="Toggle-switch-/-multiliner" transform="translate(333 468)">
-					<g id="Toggle-switch-/-!default" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" transform="translate(168 .978)">
-						<path id="Mediawiki.Neutral.Hover-copy-28" d="M15.647-.5c-4.4 0-8.39 1.759-11.302 4.612C1.43 6.97-.41 10.922-.5 15.632c0 4.468 1.807 8.504 4.729 11.425a16.098 16.098 0 0011.418 4.727h28.706c4.4 0 8.39-1.76 11.302-4.613 2.915-2.856 4.755-6.81 4.845-11.52 0-2.692-.653-5.22-2.58-7.453-1.62-1.876-4.153-3.55-8.009-4.91C43.234.933 32.525-.5 15.647-.5z"/>
-						<ellipse id="Oval-45-Copy-13" cx="17" cy="15.642" rx="10.5" ry="10.276"/>
+					<g id="Toggle-switch-/-!default" fill="#FFF" fill-rule="evenodd" stroke="#72777D" stroke-width="1" transform="translate(167 .978)">
+						<path id="bg" d="M15.643.608a14.994 14.994 0 00-10.6 4.252C2.306 7.525.585 11.23.5 15.651c0 4.173 1.695 7.959 4.436 10.699a15.1 15.1 0 0010.71 4.434h28.707c4.128 0 7.87-1.65 10.603-4.327 2.739-2.683 4.46-6.4 4.544-10.825 0-4.058-1.694-7.75-4.432-10.434A15.424 15.424 0 0044.35.805L15.643.608z"/>
+						<ellipse id="grip" cx="17" cy="15.642" rx="9.5" ry="9.276"/>
 					</g>
 					<text id="Option-title-Copy-4" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="14" font-weight="normal">
 						<tspan x="0" y="39.914">Option with a really long</tspan> <tspan x="0" y="60.306">label today</tspan>
@@ -3999,68 +3999,66 @@
 				<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 					<tspan x="0" y="21">Normal</tspan> <tspan x="0" y="77.1">Hover</tspan> <tspan x="0" y="133.2">Active</tspan> <tspan x="0" y="189.3">Focus</tspan> <tspan x="0" y="245.4">Disabled</tspan>
 				</text>
-				<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(500 392)">
-					<path id="Mediawiki.Neutral.Hover-copy-28" d="M16-.5c-4.498 0-8.575 1.8-11.552 4.718C1.468 7.139-.41 11.182-.5 15.99c0 4.565 1.847 8.69 4.833 11.676A16.448 16.448 0 0016 32.5h28c4.498 0 8.575-1.8 11.552-4.718 2.98-2.921 4.858-6.964 4.948-11.773 0-2.741-.663-5.316-2.58-7.592-1.62-1.922-4.15-3.637-7.983-5.031C43.294.97 32.672-.5 16-.5z"/>
-					<circle id="Oval-45-Copy-13" cx="17" cy="16" r="10.5"/>
+				<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(499 390)">
+					<path id="bg" d="M15.997.613a15.34 15.34 0 00-10.85 4.354C2.344 7.695.584 11.488.5 16.009c0 4.271 1.735 8.146 4.54 10.951A15.451 15.451 0 0016 31.5h28c4.226 0 8.056-1.69 10.852-4.431 2.804-2.748 4.564-6.554 4.648-11.078 0-4.154-1.734-7.935-4.536-10.682a15.785 15.785 0 00-10.968-4.5l-28-.196z"/>
+					<circle id="grip" cx="17" cy="16" r="9.5"/>
 				</g>
 				<g id="_Spec-/-16-sp-(1-em)" stroke="#D0021B" stroke-width="4" transform="translate(484 483)">
 					<path id="16-sp-(1-em)" d="M0 2h16"/>
 				</g>
-				<path id="1em" stroke="#D0021B" stroke-width="4" d="M531 375v16"/>
 				<text id="Minimum-16-sp-(1-em)" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
 					<tspan x="506" y="461.381">Minimum 16 sp (1 em) margin</tspan>
 				</text>
 				<g id="Toggle-switch-/-:on-/-:disabled" transform="translate(400 228)">
-					<rect id="Mediawiki.Neutral.Hover-copy-34" width="59" height="31" x=".5" y=".5" fill="#C8CCD1" stroke="#C8CCD1" stroke-width="1" rx="15.5"/>
-					<path id="Oval-45-Copy-18" fill="#FFF" d="M43 26c5.523 0 10-4.477 10-10S48.523 6 43 6s-10 4.477-10 10 4.477 10 10 10z"/>
+					<rect id="bg" width="59" height="31" x=".5" y=".5" fill="#C8CCD1" stroke="#C8CCD1" stroke-width="1" rx="15.5"/>
+					<path id="grip" fill="#FFF" d="M43 26c5.523 0 10-4.477 10-10S48.523 6 43 6s-10 4.477-10 10 4.477 10 10 10z"/>
 				</g>
 				<g id="Toggle-switch-/-:on-/-:focus" transform="translate(400 168)">
-					<g id="Mediawiki.Neutral.Hover-copy-20">
+					<g id="bg">
 						<rect width="59" height="34" x="1.5" y="1" fill="#36C" stroke="#FFF" stroke-linejoin="square" stroke-width="2" rx="17"/>
 						<rect width="62" height="37" y="-.5" stroke="#36C" rx="18.5"/>
 						<rect width="60" height="35" x="1" y=".5" stroke="#36C" stroke-linejoin="square" rx="17.5"/>
 					</g>
-					<g id="Oval-45-Copy-4">
+					<g id="grip">
 						<use fill="#000" filter="url(#filter-205)" xlink:href="#path-204"/>
 						<circle cx="43.5" cy="18" r="9.5" fill="#FFF" stroke="#FFF" stroke-linejoin="square"/>
 					</g>
 				</g>
 				<g id="Toggle-switch-/-:on-/-:active" transform="translate(400 112)">
-					<rect id="Mediawiki.Neutral.Hover-copy-23" width="59" height="31" x=".5" y=".5" fill="#2A4B8D" fill-rule="evenodd" stroke="#2A4B8D" stroke-width="1" rx="15.5"/>
-					<g id="Oval-45-Copy-7">
+					<rect id="bg" width="59" height="31" x=".5" y=".5" fill="#2A4B8D" fill-rule="evenodd" stroke="#2A4B8D" stroke-width="1" rx="15.5"/>
+					<g id="grip">
 						<use fill="#000" filter="url(#filter-207)" xlink:href="#path-206"/>
 						<circle cx="44" cy="16" r="9.5" fill="#FFF" stroke="#FFF" stroke-linejoin="square"/>
 					</g>
 				</g>
 				<g id="Toggle-switch-/-:on-/-:hover" transform="translate(400 56)">
-					<rect id="Mediawiki.Neutral.Hover-copy-21" width="59" height="31" x=".5" y=".5" fill="#447FF5" fill-rule="evenodd" stroke="#447FF5" stroke-width="1" rx="15.5"/>
-					<g id="Oval-45-Copy-5">
+					<rect id="bg" width="59" height="31" x=".5" y=".5" fill="#447FF5" fill-rule="evenodd" stroke="#447FF5" stroke-width="1" rx="15.5"/>
+					<g id="grip">
 						<use fill="#000" filter="url(#filter-209)" xlink:href="#path-208"/>
 						<path fill="#FFF" stroke="#FFF" stroke-linejoin="square" d="M43 6.5a9.47 9.47 0 00-6.718 2.782A9.47 9.47 0 0033.5 16a9.47 9.47 0 002.782 6.718A9.47 9.47 0 0043 25.5a9.47 9.47 0 006.718-2.782A9.47 9.47 0 0052.5 16a9.47 9.47 0 00-2.782-6.718A9.47 9.47 0 0043 6.5z"/>
 					</g>
 				</g>
 				<g id="Toggle-switch-/-:on-/-!default" transform="translate(400)">
-					<rect id="Mediawiki.Neutral.Hover-copy-33" width="59" height="31" x=".5" y=".5" fill="#36C" fill-rule="evenodd" stroke="#36C" stroke-width="1" rx="15.5"/>
-					<g id="Oval-45-Copy-17">
+					<rect id="bg" width="59" height="31" x=".5" y=".5" fill="#36C" fill-rule="evenodd" stroke="#36C" stroke-width="1" rx="15.5"/>
+					<g id="grip">
 						<use fill="#000" filter="url(#filter-211)" xlink:href="#path-210"/>
 						<circle cx="43" cy="16" r="9.5" fill="#FFF" stroke="#FFF" stroke-linejoin="square"/>
 					</g>
 				</g>
 				<path id="Line-Copy-17" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square" d="M483.5 306.5v302"/>
-				<path id="Line-Copy-99" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square" d="M500.5 447.5v78"/>
 				<path id="Line-Copy-94" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square" d="M335 340.5h202"/>
 				<path id="Line-Copy-96" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square" d="M335 467.5h202"/>
 				<path id="Line-Copy-97" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square" d="M335 375.5h202"/>
-				<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(500 342)">
-					<path id="Mediawiki.Neutral.Hover-copy-28" d="M16-.5c-4.498 0-8.575 1.8-11.552 4.718C1.468 7.139-.41 11.182-.5 15.99c0 4.565 1.847 8.69 4.833 11.676A16.448 16.448 0 0016 32.5h28c4.498 0 8.575-1.8 11.552-4.718 2.98-2.921 4.858-6.964 4.948-11.773 0-2.741-.663-5.316-2.58-7.592-1.62-1.922-4.15-3.637-7.983-5.031C43.294.97 32.672-.5 16-.5z"/>
-					<circle id="Oval-45-Copy-13" cx="17" cy="16" r="10.5"/>
+				<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(499 342)">
+					<path id="bg" d="M15.997.613a15.34 15.34 0 00-10.85 4.354C2.344 7.695.584 11.488.5 16.009c0 4.271 1.735 8.146 4.54 10.951A15.451 15.451 0 0016 31.5h28c4.226 0 8.056-1.69 10.852-4.431 2.804-2.748 4.564-6.554 4.648-11.078 0-4.154-1.734-7.935-4.536-10.682a15.785 15.785 0 00-10.968-4.5l-28-.196z"/>
+					<circle id="grip" cx="17" cy="16" r="9.5"/>
 				</g>
-				<text id="Option-5-Copy-2" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
-					<tspan x="333" y="413">Option 2</tspan>
+				<text id="Option-1" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+					<tspan x="333" y="363">Option 1</tspan>
 				</text>
 				<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(500 641)">
-					<path id="Mediawiki.Neutral.Hover-copy-28" d="M16-.5c-4.498 0-8.575 1.8-11.552 4.718C1.468 7.139-.41 11.182-.5 15.99c0 4.565 1.847 8.69 4.833 11.676A16.448 16.448 0 0016 32.5h28c4.498 0 8.575-1.8 11.552-4.718 2.98-2.921 4.858-6.964 4.948-11.773 0-2.741-.663-5.316-2.58-7.592-1.62-1.922-4.15-3.637-7.983-5.031C43.294.97 32.672-.5 16-.5z"/>
-					<circle id="Oval-45-Copy-13" cx="17" cy="16" r="10.5"/>
+					<path id="bg" d="M15.997.613a15.34 15.34 0 00-10.85 4.354C2.344 7.695.584 11.488.5 16.009c0 4.271 1.735 8.146 4.54 10.951A15.451 15.451 0 0016 31.5h28c4.226 0 8.056-1.69 10.852-4.431 2.804-2.748 4.564-6.554 4.648-11.078 0-4.154-1.734-7.935-4.536-10.682a15.785 15.785 0 00-10.968-4.5l-28-.196z"/>
+					<circle id="grip" cx="17" cy="16" r="9.5"/>
 				</g>
 				<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(499 637)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
@@ -4086,35 +4084,35 @@
 				<text id="`vertical-align:-mid" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="12" font-weight="normal">
 					<tspan x="124" y="363">`vertical-align: middle` one-liner text</tspan>
 				</text>
-				<g id="Toggle-switch-/-:on-/-!default" transform="translate(502 554)">
-					<rect id="Mediawiki.Neutral.Hover-copy-33" width="59" height="31" x=".5" y=".5" fill="#36C" fill-rule="evenodd" stroke="#36C" stroke-width="1" rx="15.5"/>
-					<g id="Oval-45-Copy-17">
+				<g id="Toggle-switch-/-:on-/-!default" transform="translate(500 554)">
+					<rect id="bg" width="59" height="31" x=".5" y=".5" fill="#36C" fill-rule="evenodd" stroke="#36C" stroke-width="1" rx="15.5"/>
+					<g id="grip">
 						<use fill="#000" filter="url(#filter-213)" xlink:href="#path-212"/>
 						<circle cx="43" cy="16" r="9.5" fill="#FFF" stroke="#FFF" stroke-linejoin="square"/>
 					</g>
 				</g>
 				<g id="Toggle-switch-/-:disabled" transform="translate(192 227)">
-					<path id="Mediawiki.Neutral.Hover-copy-30" fill="#C8CCD1" fill-rule="evenodd" stroke="#C8CCD1" d="M16 .5A15.45 15.45 0 005.148 4.932C2.345 7.68.584 11.487.5 16.009c0 4.271 1.735 8.146 4.54 10.951A15.451 15.451 0 0016 31.5h28a15.45 15.45 0 0010.852-4.432c2.803-2.749 4.564-6.555 4.648-11.077 0-2.487-.59-4.847-2.345-6.93-1.533-1.818-3.94-3.419-7.56-4.735C43.019 1.934 32.5.5 16 .5z"/>
-					<circle id="Oval-45-Copy-15" cx="17" cy="16" r="9.5" stroke="#FFF"/>
+					<path id="bg" fill="#C8CCD1" fill-rule="evenodd" stroke="#C8CCD1" d="M16 0C7.163 0 0 7.162 0 16h0c0 8.837 7.163 16 16 16h28c8.837 0 16-7.162 16-16h0c0-8.837-7.163-16-16-16H16z"/>
+					<circle id="grip" cx="17" cy="16" r="9.5" stroke="#FFF"/>
 				</g>
 				<g id="Toggle-switch-/-:active" transform="translate(193 113)">
-					<rect id="Mediawiki.Neutral.Hover-copy-31" width="59" height="31" x=".5" y=".5" fill="#2A4B8D" stroke="#2A4B8D" rx="15.5"/>
-					<path id="Oval-45-Copy-16" fill="#FFF" stroke="#FFF" d="M17 6.5a9.47 9.47 0 00-6.718 2.782A9.47 9.47 0 007.5 16a9.47 9.47 0 002.782 6.718A9.47 9.47 0 0017 25.5a9.47 9.47 0 006.718-2.782A9.47 9.47 0 0026.5 16a9.47 9.47 0 00-2.782-6.718A9.47 9.47 0 0017 6.5z"/>
+					<rect id="bg" width="59" height="31" x=".5" y=".5" fill="#2A4B8D" stroke="#2A4B8D" rx="15.5"/>
+					<path id="grip" fill="#FFF" stroke="#FFF" d="M17 6.5a9.47 9.47 0 00-6.718 2.782A9.47 9.47 0 007.5 16a9.47 9.47 0 002.782 6.718A9.47 9.47 0 0017 25.5a9.47 9.47 0 006.718-2.782A9.47 9.47 0 0026.5 16a9.47 9.47 0 00-2.782-6.718A9.47 9.47 0 0017 6.5z"/>
 				</g>
 				<g id="Toggle-switch-/-:focus" stroke="#36C" transform="translate(192 168)">
-					<g id="Mediawiki.Neutral.Hover-copy-35">
+					<g id="bg">
 						<rect width="59" height="31" x=".5" y=".5" stroke-linejoin="square" rx="15.5"/>
 						<rect width="61" height="33" x="-.5" y="-.5" rx="16"/>
 					</g>
-					<circle id="Oval-45-Copy-19" cx="17" cy="16" r="9.5"/>
+					<circle id="grip" cx="17" cy="16" r="9.5"/>
 				</g>
 				<g id="Toggle-switch-/-:hover" stroke="#447FF5" transform="translate(192 56)">
-					<path id="Mediawiki.Neutral.Hover-copy-29" d="M16 .5A15.45 15.45 0 005.148 4.932C2.345 7.68.584 11.487.5 16.009c0 4.271 1.735 8.146 4.54 10.951A15.451 15.451 0 0016 31.5h28a15.45 15.45 0 0010.852-4.432c2.803-2.749 4.564-6.555 4.648-11.077 0-2.487-.59-4.847-2.345-6.93-1.533-1.818-3.94-3.419-7.56-4.735C43.019 1.934 32.5.5 16 .5z"/>
-					<path id="Oval-45-Copy-14" d="M17 6.5a9.47 9.47 0 00-6.718 2.782A9.47 9.47 0 007.5 16a9.47 9.47 0 002.782 6.718A9.47 9.47 0 0017 25.5a9.47 9.47 0 006.718-2.782A9.47 9.47 0 0026.5 16a9.47 9.47 0 00-2.782-6.718A9.47 9.47 0 0017 6.5z"/>
+					<path id="bg-NOTE-SKETCH-EXPORT-FAILS-IF-NOT-CENTER" d="M16 0C7.163 0 0 7.162 0 16h0c0 8.837 7.163 16 16 16h28c8.837 0 16-7.162 16-16h0c0-8.837-7.163-16-16-16H16z"/>
+					<path id="grip" d="M17 6.5a9.47 9.47 0 00-6.718 2.782A9.47 9.47 0 007.5 16a9.47 9.47 0 002.782 6.718A9.47 9.47 0 0017 25.5a9.47 9.47 0 006.718-2.782A9.47 9.47 0 0026.5 16a9.47 9.47 0 00-2.782-6.718A9.47 9.47 0 0017 6.5z"/>
 				</g>
 				<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(192)">
-					<path id="Mediawiki.Neutral.Hover-copy-28" d="M16-.5c-4.498 0-8.575 1.8-11.552 4.718C1.468 7.139-.41 11.182-.5 15.99c0 4.565 1.847 8.69 4.833 11.676A16.448 16.448 0 0016 32.5h28c4.498 0 8.575-1.8 11.552-4.718 2.98-2.921 4.858-6.964 4.948-11.773 0-2.741-.663-5.316-2.58-7.592-1.62-1.922-4.15-3.637-7.983-5.031C43.294.97 32.672-.5 16-.5z"/>
-					<circle id="Oval-45-Copy-13" cx="17" cy="16" r="10.5"/>
+					<path id="bg" d="M15.997.613a15.34 15.34 0 00-10.85 4.354C2.344 7.695.584 11.488.5 16.009c0 4.271 1.735 8.146 4.54 10.951A15.451 15.451 0 0016 31.5h28c4.226 0 8.056-1.69 10.852-4.431 2.804-2.748 4.564-6.554 4.648-11.078 0-4.154-1.734-7.935-4.536-10.682a15.785 15.785 0 00-10.968-4.5l-28-.196z"/>
+					<circle id="grip" cx="17" cy="16" r="9.5"/>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(406 130)">
 					<g id="Cursor-Pointer">
@@ -4156,6 +4154,8 @@
 				<path id="Line-Copy-95" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square" d="M335 552.5h202"/>
 				<path id="Line" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square" d="M499.5 665.5v-45.011"/>
 				<path id="Line-Copy-5" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square" d="M506.5 665.5v-45.011"/>
+				<path id="Line-Copy-99" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square" d="M500.5 447.5v78"/>
+				<path id="1em" stroke="#D0021B" stroke-width="4" d="M529 374v16"/>
 			</g>
 			<text id="Selected" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 				<tspan x="400" y="416">Selected</tspan>
@@ -5147,13 +5147,13 @@
 						<text id="Label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="38" y="22">Toggle</tspan>
 						</text>
-						<g id="🔣-Icon/Moderation/pushPin" fill="#FFF" fill-rule="evenodd" transform="translate(12 6)">
+						<g id="🔣-Icon/Moderation/pushPin" transform="translate(12 6)">
 							<mask id="mask-286" fill="#fff">
 								<use xlink:href="#path-285"/>
 							</mask>
-							<use id="Mask" fill="#000" xlink:href="#path-285"/>
-							<g id="🎨-Color/Base10-#202122" fill="none" mask="url(#mask-286)">
-								<path id="Color" fill="#202122" d="M0 0h20v20H0z"/>
+							<use id="Mask" fill="#000" fill-rule="evenodd" xlink:href="#path-285"/>
+							<g id="🎨-Color/Base100-#fff" fill="#FFF" fill-rule="evenodd" mask="url(#mask-286)">
+								<path id="Color" d="M0 0h20v20H0z"/>
 							</g>
 						</g>
 					</g>
@@ -5535,6 +5535,9 @@
 		</g>
 		<text id="Label" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal" transform="translate(5232 591.5)">
 			<tspan x="0" y="15">Checkbox group label</tspan>
+		</text>
+		<text id="Option-2" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+			<tspan x="6972" y="668">Option 2</tspan>
 		</text>
 	</g>
 </svg>
