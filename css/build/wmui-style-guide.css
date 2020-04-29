@@ -764,6 +764,31 @@ sup {
 .is-subtle {
 	color: #72777d;
 }
+::-webkit-input-placeholder {
+	color: #72777d;
+	opacity: 1;
+}
+:-moz-placeholder {
+	color: #72777d;
+	opacity: 1;
+}
+::-moz-placeholder {
+	color: #72777d;
+	opacity: 1;
+}
+:-ms-input-placeholder {
+	color: #72777d;
+	opacity: 1;
+}
+::-ms-input-placeholder {
+	color: #72777d;
+	opacity: 1;
+}
+::placeholder,
+.is-placeholder {
+	color: #72777d;
+	opacity: 1;
+}
 .content-box {
 	position: relative;
 	margin-right: auto;
