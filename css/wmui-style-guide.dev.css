@@ -287,6 +287,12 @@ sup {
 	color: var( --color-base--subtle );
 }
 
+::placeholder,
+.is-placeholder {
+	color: var( --color-placeholder );
+	opacity: 1;
+}
+
 .content-box {
 	position: relative;
 	margin-right: auto;
