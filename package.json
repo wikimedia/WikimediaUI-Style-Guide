@@ -23,14 +23,14 @@
     "Safari >= 5.1"
   ],
   "dependencies": {
-    "autoprefixer": "9.7.5",
+    "autoprefixer": "9.7.6",
     "fontfaceobserver": "2.1.0",
     "normalize.css": "7.0.0",
     "wikimedia-ui-base": "0.15.0"
   },
   "devDependencies": {
     "cssnano": "4.1.10",
-    "eslint-config-wikimedia": "0.15.1",
+    "eslint-config-wikimedia": "0.15.3",
     "grunt": "1.1.0",
     "grunt-contrib-concat": "1.0.1",
     "grunt-contrib-imagemin": "4.0.0",
@@ -41,7 +41,7 @@
     "grunt-postcss": "0.9.0",
     "grunt-replace": "^1.0.1",
     "grunt-sketch": "1.0.5",
-    "grunt-stylelint": "0.14.0",
+    "grunt-stylelint": "0.15.0",
     "grunt-svgmin": "6.0.0",
     "imagemin": "7.0.1",
     "imagemin-zopfli": "6.0.0",
@@ -51,7 +51,7 @@
     "postcss-custom-properties": "9.1.1",
     "postcss-import": "12.0.1",
     "sketchtool": "1.4.0",
-    "stylelint-config-wikimedia": "0.10.0"
+    "stylelint-config-wikimedia": "0.10.1"
   },
   "scripts": {
     "start": "grunt watch",
