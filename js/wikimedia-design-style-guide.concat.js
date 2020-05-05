@@ -8,7 +8,7 @@
 			html.classList.add( 'fonts-loaded' );
 		} else {
 			var script = document.createElement( 'script' );
-			script.src = './js/vendor/fontfaceobserver/fontfaceobserver.standalone.js';
+			script.src = './vendor/fontfaceobserver/fontfaceobserver.standalone.js';
 
 			script.onload = function () {
 				var serif = new FontFaceObserver( 'Charter' ); /* eslint-disable-line no-undef */
