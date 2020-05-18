@@ -622,7 +622,7 @@ sup {
 	}
 
 .do {
-	color: var( --color-secondary );
+	color: var( --color-success );
 }
 
 	.do:before {
