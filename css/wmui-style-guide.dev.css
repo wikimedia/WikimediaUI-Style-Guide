@@ -283,8 +283,13 @@ sup {
 }
 
 /* ::: Text-formatting ::: */
+.is-complementary,
 .is-subtle {
 	color: var( --color-base--subtle );
+}
+
+.is-complementary {
+	font-size: 1.4rem;
 }
 
 ::placeholder,
