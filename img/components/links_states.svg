@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="354" height="200" viewBox="0 0 354 200">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="354" height="250" viewBox="0 0 354 250">
 	<title>
 		links_states
 	</title>
@@ -14,7 +14,7 @@
 			<feOffset dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
 			<feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1.5"/>
 			<feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"/>
-			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.179347826 0"/>
+			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 			<feMerge>
 				<feMergeNode in="shadowMatrixOuter1"/>
 				<feMergeNode in="shadowMatrixOuter2"/>
@@ -30,7 +30,7 @@
 			<feOffset dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
 			<feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1.5"/>
 			<feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"/>
-			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.179347826 0"/>
+			<feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 			<feMerge>
 				<feMergeNode in="shadowMatrixOuter1"/>
 				<feMergeNode in="shadowMatrixOuter2"/>
@@ -40,14 +40,14 @@
 		<path id="path-3" d="M17.595 12.379a1.19 1.19 0 00-1.197-1.183 1.19 1.19 0 00-1.196 1.179v-.826c0-.857-.719-1.551-1.606-1.551-.886 0-1.592.694-1.592 1.55V10.35c0-.856-.728-1.55-1.611-1.55s-1.586.694-1.586 1.55V1.425C8.807.638 8.168 0 7.397 0c-.772 0-1.398.638-1.398 1.425v15.038l-3.603-4.659c-.346-.586-1.126-.779-1.742-.431-.617.348-.836 1.105-.49 1.691 0 0 2.817 4.369 3.967 6.093C5.281 20.882 7.17 23.01 7.17 24h7.989c0-1.672 2.443-4.283 2.443-6.798v-3.24l-.006-1.583z"/>
 	</defs>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
-		<g id="WikimediaUI-components_overview" transform="translate(-4078 -255)">
-			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
-			<g id="LINK" transform="translate(4078 186)">
-				<g id="Link-X" transform="translate(2 76)">
+		<g id="WikimediaUI-components_overview" transform="translate(-3266 -255)">
+			<path fill="#FFF" d="M0 0h14100v3264H0z"/>
+			<g id="LINK" transform="translate(3266 186)">
+				<g id="Link-X" transform="translate(1 76)">
 					<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
-						<tspan x="0" y="16">Normal</tspan> <tspan x="0" y="72.1">Hover</tspan> <tspan x="0" y="90.8"> </tspan> <tspan x="0" y="128.2">Active</tspan> <tspan x="0" y="184.3">Focus</tspan>
+						<tspan x="0" y="16">Normal</tspan> <tspan x="0" y="72.1">Hover</tspan> <tspan x="0" y="90.8"> </tspan> <tspan x="0" y="128.2">Active</tspan> <tspan x="0" y="184.3">Focus</tspan> <tspan x="0" y="240.4">Visited</tspan>
 					</text>
-					<g id="Link-/-:hover" transform="translate(192.5 55)">
+					<g id="Link-/-:hover" transform="translate(192.5 56)">
 						<g id="Link">
 							<text id="link-text" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 								<tspan x="0" y="16">Neutral point of view</tspan>
@@ -55,7 +55,7 @@
 							<path id="underline" stroke="#36C" stroke-linecap="square" d="M1.5 18.5h57.46m6.54 0h92"/>
 						</g>
 					</g>
-					<g id="Link-/-:active" transform="translate(192 111)">
+					<g id="Link-/-:active" transform="translate(192 112)">
 						<g id="Link">
 							<text id="link-text" fill="#2A4B8D" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 								<tspan x="0" y="16">Neutral point of view</tspan>
@@ -63,26 +63,33 @@
 							<path id="underline" stroke="#2A4B8D" stroke-linecap="square" d="M1.5 18.5h57.46m6.54 0h92"/>
 						</g>
 					</g>
-					<g id="Link" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold" transform="translate(192 167)">
+					<g id="Link" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold" transform="translate(192 168)">
 						<text id="link-text">
 							<tspan x="0" y="16">Neutral point of view</tspan>
 						</text>
+					</g>
+					<g id="Link-/-:visited" fill="#6B4BA1" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold" transform="translate(192 224)">
+						<g id="Link">
+							<text id="link-text">
+								<tspan x="0" y="16">Neutral point of view</tspan>
+							</text>
+						</g>
 					</g>
 					<g id="Link" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold" transform="translate(192)">
 						<text id="link-text">
 							<tspan x="0" y="16">Neutral point of view</tspan>
 						</text>
 					</g>
-					<g id="Cursor-/-Pointer" transform="translate(261 124)">
+					<g id="Cursor-/-Pointer" transform="translate(261 125)">
 						<g id="Cursor-Pointer">
 							<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
-							<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 011.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 01.805-.201 1.69 1.69 0 011.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 01-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 01-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+							<path fill="#FFF" stroke="#000" d="M12.439 9.845a2.038 2.038 0 00-.561-.95 2.138 2.138 0 00-2.571-.298V1.425A1.925 1.925 0 007.397-.5c-.526 0-1.002.216-1.346.567-.34.348-.552.828-.552 1.358V15l-2.69-3.478a1.729 1.729 0 00-1.063-.768 1.83 1.83 0 00-1.338.184 1.778 1.778 0 00-.84 1.053c-.126.435-.08.912.176 1.345 0 0 2.82 4.373 3.971 6.1.345.517.755 1.07 1.161 1.617.868 1.17 1.793 2.306 1.793 2.948 0 .144-.047.312-.128.5h9.221c-.352-.755.25-1.803.875-2.996.704-1.343 1.464-2.841 1.464-4.302v-3.24l-.006-1.585c0-.464-.19-.885-.499-1.19a1.7 1.7 0 00-1.198-.491 1.7 1.7 0 00-.805.201 2.043 2.043 0 00-.514-.805 2.127 2.127 0 00-1.483-.594c-.43 0-.826.124-1.157.347z"/>
 						</g>
 					</g>
-					<g id="Cursor-/-Pointer" transform="translate(261 68)">
+					<g id="Cursor-/-Pointer" transform="translate(261 69)">
 						<g id="Cursor-Pointer">
 							<use fill="#000" filter="url(#filter-4)" xlink:href="#path-3"/>
-							<path fill="#FFF" stroke="#000" d="M5.499 15V1.424C5.499.365 6.346-.5 7.396-.5c1.052 0 1.91.865 1.91 1.925v7.172a2.116 2.116 0 011.087-.298c.977 0 1.809.653 2.044 1.54.332-.216.73-.341 1.16-.341.926 0 1.716.584 1.996 1.399a1.7 1.7 0 01.805-.201 1.69 1.69 0 011.697 1.683v-.002l.006 1.586v3.239c0 .257-.022.519-.066.787-.155.942-.512 1.811-1.212 3.158-1.01 1.946-1.165 2.297-1.165 2.853v.5h-8.99V24c0-.421-.472-1.169-1.853-3.03l-.079-.106a34.473 34.473 0 01-1.02-1.43c-.39-.583-.991-1.5-1.748-2.664l-.027-.043a1115.225 1115.225 0 01-2.009-3.1l-.199-.309c-.49-.83-.181-1.897.675-2.38.85-.48 1.932-.212 2.383.56L5.5 15z"/>
+							<path fill="#FFF" stroke="#000" d="M12.439 9.845a2.038 2.038 0 00-.561-.95 2.138 2.138 0 00-2.571-.298V1.425A1.925 1.925 0 007.397-.5c-.526 0-1.002.216-1.346.567-.34.348-.552.828-.552 1.358V15l-2.69-3.478a1.729 1.729 0 00-1.063-.768 1.83 1.83 0 00-1.338.184 1.778 1.778 0 00-.84 1.053c-.126.435-.08.912.176 1.345 0 0 2.82 4.373 3.971 6.1.345.517.755 1.07 1.161 1.617.868 1.17 1.793 2.306 1.793 2.948 0 .144-.047.312-.128.5h9.221c-.352-.755.25-1.803.875-2.996.704-1.343 1.464-2.841 1.464-4.302v-3.24l-.006-1.585c0-.464-.19-.885-.499-1.19a1.7 1.7 0 00-1.198-.491 1.7 1.7 0 00-.805.201 2.043 2.043 0 00-.514-.805 2.127 2.127 0 00-1.483-.594c-.43 0-.826.124-1.157.347z"/>
 						</g>
 					</g>
 				</g>

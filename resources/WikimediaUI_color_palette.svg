@@ -1,11 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1831" height="1464" viewBox="0 0 1831 1464">
+<svg xmlns="http://www.w3.org/2000/svg" width="2246" height="1473" viewBox="0 0 2246 1473">
 	<title>
 		WikimediaUI Color palette
 	</title>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
-		<g id="WikimediaUI-components_overview" transform="translate(-1756 -1430)">
-			<g id="WikimediaUI-Color-palette" transform="translate(1757 1421)">
+		<g id="WikimediaUI-components_overview" transform="translate(-943 -1421)">
+			<g id="WikimediaUI-Color-palette" transform="translate(944 1421)">
+				<g id="Modifiers" transform="translate(1664 134)">
+					<path id="Rectangle" fill="#6B4BA1" d="M261 604h320v31H261z"/>
+					<text id="#404244-lighten(-#54" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+						<tspan x="277" y="624">#6b4ba1</tspan>
+					</text>
+					<text id="Visited-link-color" fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal">
+						<tspan x="278" y="661">Visited link color</tspan>
+					</text>
+					<path id="Rectangle" fill="#FF4242" d="M261 476h320v31H261z"/>
+					<text id="#404244-lighten(-#54" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+						<tspan x="277" y="495">#ff4242</tspan>
+					</text>
+					<path id="Rectangle" fill="#447FF5" d="M261 348h320v31H261z"/>
+					<text id="#447ff5" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+						<tspan x="277" y="367">#447ff5</tspan>
+					</text>
+					<text id="Hover-color-on-prima" fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal">
+						<tspan x="278" y="403">Hover color on primary (progressive) buttons</tspan>
+					</text>
+					<text id="Hover-color-on-prima" fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal">
+						<tspan x="278" y="533">Hover color on primary (destructive) buttons</tspan>
+					</text>
+					<path id="Rectangle" fill="#404244" d="M261 156h320v31H261z"/>
+					<text id="#404244-lighten(-#54" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+						<tspan x="277" y="175">#404244 `lighten( #202122, 13% )`</tspan>
+					</text>
+					<path id="Rectangle" fill="#6C7378" d="M261 49h320v31H261z"/>
+					<text id="#6c7378-`lighten(-#5" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
+						<tspan x="277" y="68">#6c7378 `lighten( #54595d, 10% )`</tspan>
+					</text>
+					<text id="Emphasized-copy-colo" fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal">
+						<tspan x="0" y="212.1">Emphasized copy color</tspan> <tspan x="0" y="230.8">Active button/widgets text</tspan>
+					</text>
+					<g id="_Spec-/-Headline--Sub" transform="translate(261)">
+						<text id="SUBHEADLINE" fill="#202122" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
+							<tspan x="0" y="13">MODIFIER COLORS</tspan>
+						</text>
+						<g id="_Spec-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(.5 22)">
+							<path id="Line" d="M183.001 1.496H.499"/>
+						</g>
+					</g>
+				</g>
 				<g id="Supplementary" transform="translate(241 776)">
 					<rect id="Rectangle-Copy-15" width="176" height="128" x="1037" y="58" fill="#AC6600" rx="2"/>
 					<text id="#ac6600-RGB-172,-102" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold">
@@ -64,8 +106,8 @@
 						<text id="SUBHEADLINE" fill="#202122" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
 							<tspan x="0" y="13">BASE COLORS</tspan>
 						</text>
-						<g id="_Spec-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
-							<path id="Line" d="M189.484 1.549H.516"/>
+						<g id="_Spec-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(.5 22)">
+							<path id="Line" d="M183.001 1.496H.499"/>
 						</g>
 					</g>
 					<g id="_Spec-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 95)">
@@ -75,8 +117,8 @@
 						<text id="SUBHEADLINE" fill="#202122" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
 							<tspan x="0" y="13">ACCENT COLORS</tspan>
 						</text>
-						<g id="_Spec-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
-							<path id="Line" d="M189.484 1.549H.516"/>
+						<g id="_Spec-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(.5 22)">
+							<path id="Line" d="M183.001 1.496H.499"/>
 						</g>
 					</g>
 					<rect id="Progressive" width="159" height="159" x="416.5" y="482.5" fill="#36C" stroke="#36C" rx="2"/>
@@ -228,8 +270,11 @@
 					<text id="Copy-color-Buttons/w" fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal">
 						<tspan x="1483" y="213.1">Copy color</tspan> <tspan x="1483" y="231.8">Buttons/widgets text</tspan>
 					</text>
-					<text id="Emphasized-copy-colo" fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal">
-						<tspan x="1659" y="213.1">Emphasized copy color</tspan> <tspan x="1659" y="231.8">Active button/widgets text</tspan>
+					<text id="Descriptive-text-on" fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal">
+						<tspan x="1937" y="107">Descriptive text on Base90 background</tspan>
+					</text>
+					<text id="Hover-color-on-norma" fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal">
+						<tspan x="1937" y="213">Hover color on normal buttons</tspan>
 					</text>
 					<text id="Emphasized-secondary" fill="#72777D" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal">
 						<tspan x="1307" y="213.1">Emphasized secondary </tspan> <tspan x="1307" y="231.8">text at level AAA need</tspan>
@@ -242,8 +287,8 @@
 					<text id="SUBHEADLINE" fill="#202122" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
 						<tspan x="0" y="13">SUPPLEMENTARY COLORS</tspan>
 					</text>
-					<g id="_Spec-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
-						<path id="Line" d="M189.484 1.549H.516"/>
+					<g id="_Spec-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(.5 22)">
+						<path id="Line" d="M183.001 1.496H.499"/>
 					</g>
 				</g>
 				<g id="Background-colors-applied" transform="translate(5 1098)">
@@ -251,8 +296,8 @@
 						<text id="SUBHEADLINE" fill="#202122" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold">
 							<tspan x="0" y="13">BACKGROUND COLORS</tspan>
 						</text>
-						<g id="_Spec-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(0 22)">
-							<path id="Line" d="M189.484 1.549H.516"/>
+						<g id="_Spec-/-Headline__line" stroke="#EAECF0" stroke-linecap="square" stroke-width="3" transform="translate(.5 22)">
+							<path id="Line" d="M183.001 1.496H.499"/>
 						</g>
 					</g>
 					<rect id="Rectangle-543-Copy-3" width="511" height="351" x="235.5" y="23.5" fill="#F8F9FA" stroke="#C8CCD1" rx="2"/>

@@ -60,9 +60,9 @@
 		<path id="path-8" d="M6.132 11.269l4.71.26c.72-.08.899-.568.397-1.085L.592.3C.09-.216.027-.049.026.671L0 14.984c-.001.72.467.947 1.04.505l2.742-3.272c.095-.074.208-.146.327-.218l2.97 7.517c.165.41.664.595 1.113.413.449-.18.68-.66.514-1.07l-2.972-7.518.398-.073z"/>
 	</defs>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
-		<g id="WikimediaUI-components_overview" transform="translate(-1759 -255)">
-			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
-			<g id="BUTTONS-NORMAL-&amp;-PRIMARY" transform="translate(1759 143)">
+		<g id="WikimediaUI-components_overview" transform="translate(-946 -255)">
+			<path fill="#FFF" d="M0 0h14100v3264H0z"/>
+			<g id="BUTTONS-NORMAL-&amp;-PRIMARY" transform="translate(946 143)">
 				<g id="Normal-&amp;-Primary-Buttons-X" transform="translate(1 86)">
 					<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 						<tspan x="0" y="48">Normal</tspan> <tspan x="0" y="104.1">Hover</tspan> <tspan x="0" y="160.2">Active</tspan> <tspan x="0" y="216.3">Focus</tspan> <tspan x="0" y="272.4">Disabled</tspan>
@@ -73,7 +73,7 @@
 						<rect width="114" height="31" x="380.5" y="195.5" stroke="#36C" stroke-linejoin="square" rx="2"/>
 					</g>
 					<text id="Label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-						<tspan x="392.452" y="216">Progressive</tspan>
+						<tspan x="392.452" y="217">Progressive</tspan>
 					</text>
 					<g id="BG">
 						<rect width="110" height="30" x="544" y="196" fill="#D11D13" stroke="#FFF" stroke-linejoin="square" stroke-width="2" rx="2"/>
@@ -94,7 +94,7 @@
 					<g id="Button-/---progressive-/-!default" transform="translate(380 83)">
 						<rect id="bg" width="114" height="31" x=".5" y=".5" fill="#447FF5" fill-rule="evenodd" stroke="#447FF5" stroke-width="1" rx="2"/>
 						<text id="label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-							<tspan x="12.452" y="21">Progressive</tspan>
+							<tspan x="12.452" y="22">Progressive</tspan>
 						</text>
 					</g>
 					<rect id="BG" width="111" height="31" x="543.5" y="83.5" fill="#FF4242" stroke="#FF4242" rx="2"/>
@@ -104,7 +104,7 @@
 					<g id="Button-/---progressive-/-!default" transform="translate(380 27)">
 						<rect id="bg" width="114" height="31" x=".5" y=".5" fill="#36C" fill-rule="evenodd" stroke="#36C" stroke-width="1" rx="2"/>
 						<text id="label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-							<tspan x="12.452" y="21">Progressive</tspan>
+							<tspan x="12.452" y="22">Progressive</tspan>
 						</text>
 					</g>
 					<g id="Button-/---destructive-/-!default" transform="translate(543 27)">
