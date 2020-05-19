@@ -764,8 +764,12 @@ sup {
 	clear: both;
 }
 /* ::: Text-formatting ::: */
+.is-complementary,
 .is-subtle {
 	color: #72777d;
+}
+.is-complementary {
+	font-size: 1.4rem;
 }
 ::-webkit-input-placeholder {
 	color: #72777d;
