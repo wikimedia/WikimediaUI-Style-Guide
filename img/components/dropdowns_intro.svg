@@ -7,16 +7,16 @@
 		<path id="path-1" d="M12 3.664L10.842 2.4 6 7.032 1.264 2.4 0 3.664l6 6 6-6"/>
 	</defs>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
-		<g id="WikimediaUI-components_overview" transform="translate(-8771 -255)">
-			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
-			<g id="DROPDOWN" transform="translate(8579 186)">
+		<g id="WikimediaUI-components_overview" transform="translate(-7958 -255)">
+			<path fill="#FFF" d="M0 0h14100v3264H0z"/>
+			<g id="DROPDOWN" transform="translate(7766 186)">
 				<g id="Dropdown-X" transform="translate(1 70)">
 					<g id="Dropdown-/-!default" transform="translate(192)">
 						<rect id="Dropdown" width="271" height="31" x=".5" y=".5" fill="#F8F9FA" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
 						<text id="Label" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="12" y="22">Select an item</tspan>
 						</text>
-						<g id="🔣-Icon/Indicators/down" transform="translate(245.6 11)">
+						<g id="🔣-Icon/Indicators/down" transform="translate(247 11)">
 							<mask id="mask-2" fill="#fff">
 								<use xlink:href="#path-1"/>
 							</mask>

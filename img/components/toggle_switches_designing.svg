@@ -4,9 +4,9 @@
 		toggle_switches_designing
 	</title>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
-		<g id="WikimediaUI-components_overview" transform="translate(-6941 -876)">
-			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
-			<g id="TOGGLE-SWITCH" transform="translate(6640 143)">
+		<g id="WikimediaUI-components_overview" transform="translate(-6128 -876)">
+			<path fill="#FFF" d="M0 0h14100v3264H0z"/>
+			<g id="TOGGLE-SWITCH" transform="translate(5827 143)">
 				<g id="Toggle-Switch-X" transform="translate(0 113)">
 					<g id="Toggle-switch-/-!default" fill="#FFF" stroke="#72777D" transform="translate(500 641)">
 						<path id="bg" d="M15.997.613a15.34 15.34 0 00-10.85 4.354C2.344 7.695.584 11.488.5 16.009c0 4.271 1.735 8.146 4.54 10.951A15.451 15.451 0 0016 31.5h28c4.226 0 8.056-1.69 10.852-4.431 2.804-2.748 4.564-6.554 4.648-11.078 0-4.154-1.734-7.935-4.536-10.682a15.785 15.785 0 00-10.968-4.5l-28-.196z"/>
@@ -32,8 +32,8 @@
 					<text id="Label-for-binary-sel" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="303" y="662">Label for binary selection</tspan>
 					</text>
-					<path id="Line" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square" d="M499.5 665.5v-45.011"/>
-					<path id="Line-Copy-5" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square" d="M506.5 665.5v-45.011"/>
+					<path id="Line" stroke="#C70070" stroke-dasharray="1 3" stroke-linecap="square" d="M499.5 665.5v-45.011"/>
+					<path id="Line-Copy-5" stroke="#C70070" stroke-dasharray="1 3" stroke-linecap="square" d="M506.5 665.5v-45.011"/>
 				</g>
 			</g>
 		</g>
