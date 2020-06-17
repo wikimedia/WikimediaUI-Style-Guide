@@ -764,6 +764,11 @@ sup {
 	clear: both;
 }
 /* ::: Text-formatting ::: */
+/* Support Blink based browsers. */
+/* They use `outline` for focus styles, we're only amending the color here, see T245887. */
+:focus {
+	outline-color: #36c;
+}
 .is-complementary,
 .is-subtle {
 	color: #72777d;

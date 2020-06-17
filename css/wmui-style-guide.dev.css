@@ -13,6 +13,7 @@
 	--width-site-desktop-wide: 1140px;
 	--border-color-heading: var( --wmui-color-base80 );
 	--border-width-heading: 3px;
+	--outline-color-base--focus: var( --color-primary--focus );
 	/* HACK; Add Georgia to serif fallback as long as WikimediaUI Base isn't updated */
 	--font-family-serif--fallback: Georgia, serif; /* stylelint-disable-line value-keyword-case */
 	--font-weight-base: 400;
@@ -283,6 +284,12 @@ sup {
 }
 
 /* ::: Text-formatting ::: */
+/* Support Blink based browsers. */
+/* They use `outline` for focus styles, we're only amending the color here, see T245887. */
+:focus {
+	outline-color: var( --outline-color-base--focus );
+}
+
 .is-complementary,
 .is-subtle {
 	color: var( --color-base--subtle );
