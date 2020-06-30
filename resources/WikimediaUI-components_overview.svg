@@ -45,7 +45,7 @@
 		<path id="path-110" d="M203 42v88.993c0 1.109.904 2.007 1.995 2.007h97.01c1.102 0 1.995-.9 1.995-2.007V42H203z"/>
 		<path id="path-112" d="M203 0h101v42H203z"/>
 		<path id="path-115" d="M369 526l10 10h-20z"/>
-		<path id="path-118" d="M11.5 0l.419 2.748c.662.174 1.289.438 1.866.776L16 1.87l2.16 2.12-1.674 2.242c.334.573.594 1.194.767 1.85L20 8.5v3l-2.748.419a7.455 7.455 0 01-.776 1.866L18.13 16l-2.12 2.16-2.242-1.674a7.455 7.455 0 01-1.85.767L11.5 20h-3l-.417-2.747a7.455 7.455 0 01-1.867-.776L4 18.13 1.87 16l1.646-2.228a7.455 7.455 0 01-.769-1.854L0 11.5v-3l2.747-.417c.175-.663.438-1.29.776-1.867L1.87 4 4 1.87l2.23 1.645a7.455 7.455 0 011.852-.768L8.5 0h3zM10 6.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7z"/>
+		<path id="path-118" d="M11.5 0l.419 2.748a7.43 7.43 0 011.866.776L16 1.87l2.16 2.12-1.674 2.242a7.44 7.44 0 01.767 1.85L20 8.5v3l-2.748.419a7.455 7.455 0 01-.776 1.866L18.13 16l-2.12 2.16-2.242-1.674a7.455 7.455 0 01-1.85.767L11.5 20h-3l-.417-2.747a7.455 7.455 0 01-1.867-.776L4 18.13 1.87 16l1.646-2.228a7.455 7.455 0 01-.769-1.854L0 11.5v-3l2.747-.417c.175-.663.438-1.29.776-1.867L1.87 4 4 1.87l2.23 1.645a7.455 7.455 0 011.852-.768L8.5 0h3zM10 6.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7z"/>
 		<path id="path-120" d="M201.993 246c-1.1 0-1.993.89-1.993 2.002v27.996a2 2 0 001.993 2.002H441v-32H201.993z"/>
 		<path id="path-121" d="M201.993 190c-1.1 0-1.993.89-1.993 2.002v27.996a2 2 0 001.993 2.002H441v-32H201.993z"/>
 		<path id="path-124" d="M200 341v84c0 1.105.893 2 1.995 2h268.01a1.996 1.996 0 001.995-2v-84H200z"/>
@@ -1526,7 +1526,7 @@
 				</text>
 				<g id="Stop-icon" transform="translate(.05)">
 					<path id="Polygon" fill="#D33" d="M14 3.05l7.071 2.928L24 13.05l-2.929 7.071L14 23.05l-7.071-2.929L4 13.05l2.929-7.072z" transform="rotate(22.33 14 13.05)"/>
-					<path id="Path" fill="#FEE7E6" d="M14.95 18h-2v-2h2zM14.95 14h-2V8h2z"/>
+					<path id="Path" fill="#FEE7E6" d="M14.95 18h-2v-2h2zm0-4h-2V8h2z"/>
 				</g>
 			</g>
 			<g id="Error-input" transform="translate(185 190)">
@@ -1546,7 +1546,7 @@
 				</text>
 				<g id="Stop-icon" transform="translate(22 11)">
 					<path id="Polygon" fill="#D33" d="M14 3.05l7.071 2.928L24 13.05l-2.929 7.071L14 23.05l-7.071-2.929L4 13.05l2.929-7.072z" transform="rotate(22.33 14 13.05)"/>
-					<path id="Path" fill="#FEE7E6" d="M14.95 18h-2v-2h2zM14.95 14h-2V8h2z"/>
+					<path id="Path" fill="#FEE7E6" d="M14.95 18h-2v-2h2zm0-4h-2V8h2z"/>
 				</g>
 			</g>
 			<text id="Sizes" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
@@ -2658,7 +2658,7 @@
 			</g>
 			<path id="Toolbarcover" fill="#FFF" d="M226 225h8v350h-8z"/>
 			<g id="Toolbar-normal" transform="translate(229 228)">
-				<path id="Path-127" stroke="#C8CCD1" d="M32.5 0v42M138.5 0v42"/>
+				<path id="Path-127" stroke="#C8CCD1" d="M32.5 0v42m106-42v42"/>
 				<g id="Icon-/-placeholder-(notBright/circle)-/-!default" fill="#202122" transform="translate(150 11)">
 					<path id="Shape" d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0z"/>
 				</g>
@@ -2831,7 +2831,7 @@
 				</g>
 				<g id="Mediawiki.Neutral.Acive-17-Copy">
 					<use fill="#000" filter="url(#filter-111)" xlink:href="#path-110"/>
-					<path fill="#FFF" stroke="#A2A9B1" stroke-linejoin="square" d="M303.5 42.5h-100v88.493c0 .416.17.791.44 1.064.272.273.645.443 1.055.443h97.01c.412 0 .785-.169 1.056-.44.271-.274.439-.65.439-1.067V42.5z"/>
+					<path fill="#FFF" stroke="#A2A9B1" stroke-linejoin="square" d="M303.5 42.5h-100v88.493a1.51 1.51 0 001.495 1.507h97.01a1.49 1.49 0 001.056-.44c.271-.274.439-.65.439-1.067V42.5z"/>
 				</g>
 				<text id="Option-1-Copy" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="14" font-weight="normal">
 					<tspan x="218.5" y="62.5">Option 1</tspan>
@@ -3069,7 +3069,7 @@
 			<text fill="#202122" font-family="Lato-Bold, Lato, sans-serif" font-size="36" font-weight="bold">
 				<tspan x="0" y="36">COMBOBOX INPUT FIELD</tspan>
 			</text>
-			<path id="Line-Copy-12" stroke="#000" stroke-linecap="square" d="M209.5 198.5v16M283.5 254.5v16"/>
+			<path id="Line-Copy-12" stroke="#000" stroke-linecap="square" d="M209.5 198.5v16m74 40v16"/>
 			<path id="Line" stroke="#EAECF0" stroke-linecap="square" d="M439.5 470.5v29"/>
 		</g>
 		<g id="BUTTON-+-DROPDOWN" transform="translate(7767 760)">
@@ -3083,7 +3083,7 @@
 				<path id="Line" d="M183.5 1.5H.5"/>
 			</g>
 			<path id="Mediawiki.Neutral.Normal-copy-71" fill="#447FF5" stroke="#447FF5" d="M382.837 194H194.003a1.5 1.5 0 00-1.503 1.501V239.5a1.5 1.5 0 001.503 1.501h188.834v-47z"/>
-			<path id="Mediawiki.Neutral.Normal-copy-72" fill="#36C" stroke="#36C" d="M384.5 194v47h31.902a1.498 1.498 0 001.498-1.501V195.5c0-.413-.169-.788-.44-1.06a1.493 1.493 0 00-1.058-.441H384.5z"/>
+			<path id="Mediawiki.Neutral.Normal-copy-72" fill="#36C" stroke="#36C" d="M384.5 194v47h31.902a1.498 1.498 0 001.498-1.501V195.5a1.5 1.5 0 00-.44-1.06 1.493 1.493 0 00-1.058-.441H384.5z"/>
 			<text id="Download-original-fi-14" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
 				<tspan x="206" y="212.5">Download original file</tspan> <tspan x="206" y="229.906" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="12" font-weight="normal">601 x 601 px jpg</tspan>
 			</text>
@@ -3091,7 +3091,7 @@
 				<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
 			</g>
 			<path id="Mediawiki.Neutral.Normal-copy-81" fill="#36C" stroke="#36C" d="M382.837 122H194.003a1.5 1.5 0 00-1.503 1.501V167.5a1.5 1.5 0 001.503 1.501h188.834v-47z"/>
-			<path id="Mediawiki.Neutral.Normal-copy-79" fill="#36C" stroke="#36C" d="M384.5 122v47h31.902a1.498 1.498 0 001.498-1.501V123.5c0-.413-.169-.788-.44-1.06a1.493 1.493 0 00-1.058-.441H384.5z"/>
+			<path id="Mediawiki.Neutral.Normal-copy-79" fill="#36C" stroke="#36C" d="M384.5 122v47h31.902a1.498 1.498 0 001.498-1.501V123.5a1.5 1.5 0 00-.44-1.06 1.493 1.493 0 00-1.058-.441H384.5z"/>
 			<text id="Download-original-fi-14-Copy" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
 				<tspan x="206" y="140.5">Download original file</tspan> <tspan x="206" y="157.906" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="12" font-weight="normal">601 x 601 px jpg</tspan>
 			</text>
@@ -3099,7 +3099,7 @@
 				<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
 			</g>
 			<path id="Mediawiki.Neutral.Normal-copy-84" fill="#C8CCD1" stroke="#C8CCD1" d="M382.837 555.5H194.003a1.5 1.5 0 00-1.503 1.501V601a1.5 1.5 0 001.503 1.501h188.834v-47z"/>
-			<path id="Mediawiki.Neutral.Normal-copy-82" fill="#C8CCD1" stroke="#C8CCD1" d="M384.5 555.5v47h31.902a1.498 1.498 0 001.498-1.501V557c0-.413-.169-.788-.44-1.06a1.493 1.493 0 00-1.058-.441H384.5z"/>
+			<path id="Mediawiki.Neutral.Normal-copy-82" fill="#C8CCD1" stroke="#C8CCD1" d="M384.5 555.5v47h31.902a1.498 1.498 0 001.498-1.501V557a1.5 1.5 0 00-.44-1.06 1.493 1.493 0 00-1.058-.441H384.5z"/>
 			<text id="Download-original-fi-14-Copy-2" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 				<tspan x="206" y="576">Download original file</tspan> <tspan x="206" y="595.464">601 x 601 px jpg</tspan>
 			</text>
@@ -3107,7 +3107,7 @@
 				<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
 			</g>
 			<path id="Mediawiki.Neutral.Normal-copy-76" fill="#36C" stroke="#36C" d="M640.837 194H452.003a1.5 1.5 0 00-1.503 1.501V239.5a1.5 1.5 0 001.503 1.501h188.834v-47z"/>
-			<path id="Mediawiki.Neutral.Normal-copy-75" fill="#447FF5" stroke="#447FF5" d="M642.5 194v47h31.902a1.498 1.498 0 001.498-1.501V195.5c0-.413-.169-.788-.44-1.06a1.493 1.493 0 00-1.058-.441H642.5z"/>
+			<path id="Mediawiki.Neutral.Normal-copy-75" fill="#447FF5" stroke="#447FF5" d="M642.5 194v47h31.902a1.498 1.498 0 001.498-1.501V195.5a1.5 1.5 0 00-.44-1.06 1.493 1.493 0 00-1.058-.441H642.5z"/>
 			<text id="Download-original-fi" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
 				<tspan x="464" y="212.5">Download original file</tspan> <tspan x="464" y="229.906" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="12" font-weight="normal">601 x 601 px jpg</tspan>
 			</text>
@@ -3115,7 +3115,7 @@
 				<path id="Shape" d="M12 1.246L10.842 0 6 4.568 1.264 0 0 1.246l6 5.917 6-5.917"/>
 			</g>
 			<path id="Mediawiki.Neutral.Normal-copy-78" fill="#36C" stroke="#36C" d="M640.837 266H452.003a1.5 1.5 0 00-1.503 1.501V311.5a1.5 1.5 0 001.503 1.501h188.834v-47z"/>
-			<path id="Mediawiki.Neutral.Normal-copy-77" fill="#2A4B8D" stroke="#2A4B8D" d="M642.5 266v47h31.902a1.498 1.498 0 001.498-1.501V267.5c0-.413-.169-.788-.44-1.06a1.493 1.493 0 00-1.058-.441H642.5z"/>
+			<path id="Mediawiki.Neutral.Normal-copy-77" fill="#2A4B8D" stroke="#2A4B8D" d="M642.5 266v47h31.902a1.498 1.498 0 001.498-1.501V267.5a1.5 1.5 0 00-.44-1.06 1.493 1.493 0 00-1.058-.441H642.5z"/>
 			<text id="Download-original-fi-17" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
 				<tspan x="464" y="284.382">Download original file</tspan> <tspan x="464" y="301.788" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="12" font-weight="normal">601 x 601 px jpg</tspan>
 			</text>
@@ -3123,7 +3123,7 @@
 				<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
 			</g>
 			<path id="Mediawiki.Neutral.Normal-copy-74" fill="#2A4B8D" stroke="#2A4B8D" d="M382.837 266H194.003a1.5 1.5 0 00-1.503 1.501V311.5a1.5 1.5 0 001.503 1.501h188.834v-47z"/>
-			<path id="Mediawiki.Neutral.Normal-copy-73" fill="#36C" stroke="#36C" d="M384.5 266v47h31.902a1.498 1.498 0 001.498-1.501V267.5c0-.413-.169-.788-.44-1.06a1.493 1.493 0 00-1.058-.441H384.5z"/>
+			<path id="Mediawiki.Neutral.Normal-copy-73" fill="#36C" stroke="#36C" d="M384.5 266v47h31.902a1.498 1.498 0 001.498-1.501V267.5a1.5 1.5 0 00-.44-1.06 1.493 1.493 0 00-1.058-.441H384.5z"/>
 			<text id="Download-original-fi" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="14" font-weight="bold">
 				<tspan x="206" y="284.382">Download original file</tspan> <tspan x="206" y="301.788" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="12" font-weight="normal">601 x 601 px jpg</tspan>
 			</text>
@@ -3150,7 +3150,7 @@
 			</g>
 			<g id="Mediawiki.Neutral.Normal-copy-58" stroke="#36C" stroke-linejoin="square">
 				<path stroke-width="2" d="M931 386.5H708v88.993c0 .279.112.531.294.714.18.18.428.293.703.293h221.006a.99.99 0 00.704-.293c.182-.182.293-.435.293-.714V386.5z"/>
-				<path d="M931.5 386h-224v89.493c0 .416.168.793.44 1.066.27.272.644.441 1.057.441h221.006c.414 0 .788-.168 1.058-.44.272-.273.439-.65.439-1.067V386z"/>
+				<path d="M931.5 386h-224v89.493a1.506 1.506 0 001.497 1.507h221.006c.414 0 .788-.168 1.058-.44.272-.273.439-.65.439-1.067V386z"/>
 			</g>
 			<path id="Mediawiki.Neutral.Normal-copy-86" fill="#2A4B8D" stroke="#2A4B8D" d="M898.5 338.5v47h33v-45.499a1.498 1.498 0 00-1.5-1.501h-31.5z"/>
 			<path id="Rectangle-320-Copy" fill="#36C" stroke="#36C" d="M896.5 338.5H709.005a1.503 1.503 0 00-1.505 1.501V385.5h189v-47z"/>
@@ -3170,7 +3170,7 @@
 			<path id="Mediawiki.Neutral.Normal-copy-87" fill="#2A4B8D" stroke="#2A4B8D" d="M1158.5 338.5v47h33v-45.499a1.498 1.498 0 00-1.5-1.501h-31.5z"/>
 			<g id="Mediawiki.Neutral.Normal-copy-69">
 				<use fill="#000" filter="url(#filter-131)" xlink:href="#path-130"/>
-				<path fill="#FFF" stroke="#A2A9B1" stroke-linejoin="square" d="M1191.5 386h-224v89.493c0 .416.168.793.44 1.066.27.272.644.441 1.057.441h221.006c.414 0 .788-.168 1.058-.44.272-.273.439-.65.439-1.067V386z"/>
+				<path fill="#FFF" stroke="#A2A9B1" stroke-linejoin="square" d="M1191.5 386h-224v89.493a1.506 1.506 0 001.497 1.507h221.006c.414 0 .788-.168 1.058-.44.272-.273.439-.65.439-1.067V386z"/>
 			</g>
 			<path id="Rectangle-320-Copy-2" fill="#36C" stroke="#36C" d="M1156.5 338.5H969.005a1.503 1.503 0 00-1.505 1.501V385.5h189v-47z"/>
 			<path id="Rectangle-321-Copy" fill="#EAF3FF" d="M968 433.5v43h223v-43z"/>
@@ -3309,7 +3309,7 @@
 			<rect id="Mediawiki.Neutral.Acive-15-Copy-9" width="107" height="32" x="194" y="225" fill="#EAECF0" rx="2"/>
 			<g id="Mediawiki.Neutral.Acive-15-Copy-10" stroke="#36C" stroke-linejoin="square">
 				<path fill="#FFF" stroke-width="2" d="M195.995 282a.99.99 0 00-.995 1.002V312h105v-28.998a1.002 1.002 0 00-.995-1.002h-103.01z"/>
-				<path d="M195.995 281.5c-.413 0-.788.167-1.058.438a1.5 1.5 0 00-.437 1.064V312.5h106v-29.498a1.5 1.5 0 00-1.495-1.502h-103.01z"/>
+				<path d="M195.995 281.5a1.49 1.49 0 00-1.058.438 1.5 1.5 0 00-.437 1.064V312.5h106v-29.498a1.5 1.5 0 00-1.495-1.502h-103.01z"/>
 			</g>
 			<g id="Mediawiki.Neutral.Acive-15-Copy-11">
 				<use fill="#000" filter="url(#filter-141)" xlink:href="#path-140"/>
@@ -3363,7 +3363,7 @@
 			</text>
 			<g id="Mediawiki.Neutral.Acive-15-Copy-13" stroke="#36C" stroke-linejoin="square">
 				<path fill="#FFF" stroke-width="2" d="M323.995 282a.99.99 0 00-.995 1.002V312h105v-28.998a1.002 1.002 0 00-.995-1.002h-103.01z"/>
-				<path d="M323.995 281.5c-.413 0-.788.167-1.058.438a1.5 1.5 0 00-.437 1.064V312.5h106v-29.498a1.5 1.5 0 00-1.495-1.502h-103.01z"/>
+				<path d="M323.995 281.5a1.49 1.49 0 00-1.058.438 1.5 1.5 0 00-.437 1.064V312.5h106v-29.498a1.5 1.5 0 00-1.495-1.502h-103.01z"/>
 			</g>
 			<g id="Mediawiki.Neutral.Acive-15-Copy-14">
 				<use fill="#000" filter="url(#filter-145)" xlink:href="#path-144"/>
@@ -3431,7 +3431,7 @@
 			</text>
 			<g id="Mediawiki.Neutral.Acive-15-Copy-16" stroke="#36C" stroke-linejoin="square">
 				<path fill="#FFF" stroke-width="2" d="M451.995 282a.99.99 0 00-.995 1.002V312h105v-28.998a1.002 1.002 0 00-.995-1.002h-103.01z"/>
-				<path d="M451.995 281.5c-.413 0-.788.167-1.058.438a1.5 1.5 0 00-.437 1.064V312.5h106v-29.498a1.5 1.5 0 00-1.495-1.502h-103.01z"/>
+				<path d="M451.995 281.5a1.49 1.49 0 00-1.058.438 1.5 1.5 0 00-.437 1.064V312.5h106v-29.498a1.5 1.5 0 00-1.495-1.502h-103.01z"/>
 			</g>
 			<text id="Neutral-26-Copy-10" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 				<tspan x="466" y="302">Neutral</tspan>
@@ -3742,7 +3742,7 @@
 				<g id="Text-input-/-:disabled" transform="translate(42 1)">
 					<rect id="Input" width="95" height="31" x=".5" y=".5" fill="#EAECF0" fill-rule="evenodd" stroke="#C8CCD1" stroke-width="1" rx="2"/>
 				</g>
-				<path id="Rectangle" fill="#EAECF0" d="M43 28h4v4h-4zM133 28h4v4h-4zM133 2h4v4h-4zM43 2h4v4h-4z"/>
+				<path id="Rectangle" fill="#EAECF0" d="M43 28h4v4h-4zm90 0h4v4h-4zm0-26h4v4h-4zM43 2h4v4h-4z"/>
 				<text id="100" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 					<tspan x="51" y="23">100</tspan>
 				</text>
@@ -3792,7 +3792,7 @@
 			<g id="Text-input-/-!default" transform="translate(233 114)">
 				<rect id="border" width="95" height="31" x=".5" y=".5" fill="#FFF" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
 			</g>
-			<path id="Rectangle" fill="#FFF" d="M234 141h4v4h-4zM324 141h4v4h-4zM324 115h4v4h-4zM234 115h4v4h-4z"/>
+			<path id="Rectangle" fill="#FFF" d="M234 141h4v4h-4zm90 0h4v4h-4zm0-26h4v4h-4zm-90 0h4v4h-4z"/>
 			<text id="100" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 				<tspan x="242" y="137">100</tspan>
 			</text>
@@ -3856,7 +3856,7 @@
 				<g id="Cursor-/-!default" transform="translate(402 191)">
 					<g id="Cursor" fill="#000">
 						<use filter="url(#filter-191)" xlink:href="#path-190"/>
-						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244c.279-.025.501-.098.67-.195a.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607.192.093.42.124.678.06.191-.048.405-.153.627-.333l2.545-2.926z"/>
+						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244a1.63 1.63 0 00.67-.195.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607a.98.98 0 00.678.06c.191-.048.405-.153.627-.333l2.545-2.926z"/>
 					</g>
 				</g>
 				<text id="Normal-Disabled" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
@@ -3880,7 +3880,7 @@
 					<text id="Password" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="9" y="22">Password</tspan>
 					</text>
-					<path id="Imported-Layers-50-Copy" fill="#000" d="M132.584 16.052v7.911c-.009.632-.455 1.335-1.203 2.047a9.12 9.12 0 01-1.222.975l-.026.017a.284.284 0 00-.086.396.295.295 0 00.403.085 9.725 9.725 0 00.42-.294 9.78 9.78 0 00.917-.767c.479-.456.853-.915 1.09-1.373.238.461.61.919 1.088 1.373a9.776 9.776 0 001.337 1.061.295.295 0 00.403-.085.284.284 0 00-.086-.396l-.026-.017a8.2 8.2 0 01-.361-.254 9.168 9.168 0 01-.861-.72c-.748-.713-1.194-1.416-1.203-2.03v-7.93h1.343a.29.29 0 00.291-.286.29.29 0 00-.291-.287h-1.343V7.567c0-.627.447-1.338 1.203-2.055a9.048 9.048 0 011.22-.967l.026-.016a.284.284 0 00.089-.397.294.294 0 00-.403-.087 9.3 9.3 0 00-.421.292c-.312.229-.624.485-.917.762-.478.454-.852.912-1.09 1.37-.236-.458-.61-.916-1.089-1.37a9.52 9.52 0 00-1.337-1.054.295.295 0 00-.403.087.284.284 0 00.089.397l.025.016c.023.014.049.032.078.052a9.048 9.048 0 011.144.916c.755.716 1.202 1.427 1.202 2.054v7.91h-1.5a.29.29 0 00-.292.288c0 .158.13.287.292.287h1.5"/>
+					<path id="Imported-Layers-50-Copy" fill="#000" d="M132.584 16.052v7.911c-.009.632-.455 1.335-1.203 2.047a9.12 9.12 0 01-1.222.975l-.026.017a.284.284 0 00-.086.396.295.295 0 00.403.085 9.725 9.725 0 00.42-.294 9.78 9.78 0 00.917-.767c.479-.456.853-.915 1.09-1.373.238.461.61.919 1.088 1.373a9.776 9.776 0 001.337 1.061.295.295 0 00.403-.085.284.284 0 00-.086-.396l-.026-.017a8.2 8.2 0 01-.361-.254 9.168 9.168 0 01-.861-.72c-.748-.713-1.194-1.416-1.203-2.03v-7.93h1.343a.29.29 0 00.291-.286.29.29 0 00-.291-.287h-1.343V7.567c0-.627.447-1.338 1.203-2.055a9.048 9.048 0 011.22-.967l.026-.016a.284.284 0 00.089-.397.294.294 0 00-.403-.087 9.3 9.3 0 00-.421.292 9.667 9.667 0 00-.917.762c-.478.454-.852.912-1.09 1.37-.236-.458-.61-.916-1.089-1.37a9.52 9.52 0 00-1.337-1.054.295.295 0 00-.403.087.284.284 0 00.089.397l.025.016c.023.014.049.032.078.052a9.048 9.048 0 011.144.916c.755.716 1.202 1.427 1.202 2.054v7.91h-1.5a.29.29 0 00-.292.288c0 .158.13.287.292.287h1.5"/>
 				</g>
 				<g id="Mediawiki.Neutral.Hover-32-Copy" stroke="#36C" stroke-linejoin="square">
 					<rect width="270" height="30" x="194" y="152" fill="#FFF" stroke-width="2" rx="2"/>
@@ -3889,7 +3889,7 @@
 				<text id="******-copy-2" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 					<tspan x="202" y="174">******</tspan>
 				</text>
-				<path id="Mediawiki.Neutral.Hover-35-Copy-2" fill="#FFF" stroke="#A2A9B1" d="M194.995 39.5c-.413 0-.788.167-1.058.438a1.5 1.5 0 00-.437 1.064v27.996a1.5 1.5 0 001.495 1.502h268.01c.413 0 .788-.167 1.058-.438a1.5 1.5 0 00.437-1.064V41.002a1.5 1.5 0 00-1.495-1.502h-268.01z"/>
+				<path id="Mediawiki.Neutral.Hover-35-Copy-2" fill="#FFF" stroke="#A2A9B1" d="M194.995 39.5a1.49 1.49 0 00-1.058.438 1.5 1.5 0 00-.437 1.064v27.996a1.5 1.5 0 001.495 1.502h268.01a1.49 1.49 0 001.058-.438 1.5 1.5 0 00.437-1.064V41.002a1.5 1.5 0 00-1.495-1.502h-268.01z"/>
 				<text id="Password" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 					<tspan x="202" y="61">Password</tspan>
 				</text>
@@ -3912,7 +3912,7 @@
 					<text id="Search" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="38" y="22">Search</tspan>
 					</text>
-					<path id="Imported-Layers-50-Copy" fill="#000" d="M158.584 17.052v7.911c-.009.632-.455 1.335-1.203 2.047a9.12 9.12 0 01-1.222.975l-.026.017a.284.284 0 00-.086.396.295.295 0 00.403.085 9.725 9.725 0 00.42-.294 9.78 9.78 0 00.917-.767c.479-.456.853-.915 1.09-1.373.238.461.61.919 1.088 1.373a9.776 9.776 0 001.337 1.061.295.295 0 00.403-.085.284.284 0 00-.086-.396l-.026-.017a8.2 8.2 0 01-.361-.254 9.168 9.168 0 01-.861-.72c-.748-.713-1.194-1.416-1.203-2.03v-7.93h1.343a.29.29 0 00.291-.286.29.29 0 00-.291-.287h-1.343V8.567c0-.627.447-1.338 1.203-2.055a9.048 9.048 0 011.22-.967l.026-.016a.284.284 0 00.089-.397.294.294 0 00-.403-.087 9.3 9.3 0 00-.421.292c-.312.229-.624.485-.917.762-.478.454-.852.912-1.09 1.37-.236-.458-.61-.916-1.089-1.37a9.52 9.52 0 00-1.337-1.054.295.295 0 00-.403.087.284.284 0 00.089.397l.025.016c.023.014.049.032.078.052a9.048 9.048 0 011.144.916c.755.716 1.202 1.427 1.202 2.054v7.91h-1.5a.29.29 0 00-.292.288c0 .158.13.287.292.287h1.5"/>
+					<path id="Imported-Layers-50-Copy" fill="#000" d="M158.584 17.052v7.911c-.009.632-.455 1.335-1.203 2.047a9.12 9.12 0 01-1.222.975l-.026.017a.284.284 0 00-.086.396.295.295 0 00.403.085 9.725 9.725 0 00.42-.294 9.78 9.78 0 00.917-.767c.479-.456.853-.915 1.09-1.373.238.461.61.919 1.088 1.373a9.776 9.776 0 001.337 1.061.295.295 0 00.403-.085.284.284 0 00-.086-.396l-.026-.017a8.2 8.2 0 01-.361-.254 9.168 9.168 0 01-.861-.72c-.748-.713-1.194-1.416-1.203-2.03v-7.93h1.343a.29.29 0 00.291-.286.29.29 0 00-.291-.287h-1.343V8.567c0-.627.447-1.338 1.203-2.055a9.048 9.048 0 011.22-.967l.026-.016a.284.284 0 00.089-.397.294.294 0 00-.403-.087 9.3 9.3 0 00-.421.292 9.667 9.667 0 00-.917.762c-.478.454-.852.912-1.09 1.37-.236-.458-.61-.916-1.089-1.37a9.52 9.52 0 00-1.337-1.054.295.295 0 00-.403.087.284.284 0 00.089.397l.025.016c.023.014.049.032.078.052a9.048 9.048 0 011.144.916c.755.716 1.202 1.427 1.202 2.054v7.91h-1.5a.29.29 0 00-.292.288c0 .158.13.287.292.287h1.5"/>
 					<g id="🔣-Icon/Interactions/search" transform="translate(9 6)">
 						<mask id="mask-194" fill="#fff">
 							<use xlink:href="#path-193"/>
@@ -3944,7 +3944,7 @@
 				<g id="_Spec-/-8-sp-(0.5-em)" stroke="#50E3C2" stroke-width="4" transform="translate(456 165)">
 					<path id="8-sp-(0.5-em)" d="M0 2h8"/>
 				</g>
-				<path id="bg" fill="#FFF" stroke="#A2A9B1" d="M194.995 39.5c-.413 0-.788.167-1.058.438a1.5 1.5 0 00-.437 1.064v27.996a1.5 1.5 0 001.495 1.502h268.01c.413 0 .788-.167 1.058-.438a1.5 1.5 0 00.437-1.064V41.002a1.5 1.5 0 00-1.495-1.502h-268.01z"/>
+				<path id="bg" fill="#FFF" stroke="#A2A9B1" d="M194.995 39.5a1.49 1.49 0 00-1.058.438 1.5 1.5 0 00-.437 1.064v27.996a1.5 1.5 0 001.495 1.502h268.01a1.49 1.49 0 001.058-.438 1.5 1.5 0 00.437-1.064V41.002a1.5 1.5 0 00-1.495-1.502h-268.01z"/>
 				<text id="Search" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 					<tspan x="230" y="61">Search</tspan>
 				</text>
@@ -3998,7 +3998,7 @@
 					</text>
 				</g>
 				<g id="Text-input-+-icon-/-!default" transform="translate(192 244)">
-					<path id="Input" fill="#FFF" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" d="M1.995.5C1.582.5 1.207.667.937.938A1.5 1.5 0 00.5 2.002v27.996A1.5 1.5 0 001.995 31.5h268.01c.413 0 .788-.167 1.058-.438a1.5 1.5 0 00.437-1.064V2.002A1.5 1.5 0 00270.005.5H1.995z"/>
+					<path id="Input" fill="#FFF" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" d="M1.995.5A1.49 1.49 0 00.937.938 1.5 1.5 0 00.5 2.002v27.996A1.5 1.5 0 001.995 31.5h268.01a1.49 1.49 0 001.058-.438 1.5 1.5 0 00.437-1.064V2.002A1.5 1.5 0 00270.005.5H1.995z"/>
 					<text id="Placeholder" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="37" y="22">Placeholder</tspan>
 					</text>
@@ -4029,7 +4029,7 @@
 					<text id="Your-input" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="9" y="22">Your input</tspan>
 					</text>
-					<path id="Imported-Layers-50" fill="#000" d="M216.584 28.052v7.911c-.009.632-.455 1.335-1.203 2.047a9.12 9.12 0 01-1.222.975l-.026.017a.284.284 0 00-.086.396.295.295 0 00.403.085 9.725 9.725 0 00.42-.294 9.78 9.78 0 00.917-.767c.479-.456.853-.915 1.09-1.373.238.461.61.919 1.088 1.373a9.776 9.776 0 001.337 1.061.295.295 0 00.403-.085.284.284 0 00-.086-.396l-.026-.017a8.2 8.2 0 01-.361-.254 9.168 9.168 0 01-.861-.72c-.748-.713-1.194-1.416-1.203-2.03v-7.93h1.343a.29.29 0 00.291-.286.29.29 0 00-.291-.287h-1.343v-7.911c0-.627.447-1.338 1.203-2.055a9.048 9.048 0 011.22-.967l.026-.016a.284.284 0 00.089-.397.294.294 0 00-.403-.087 9.3 9.3 0 00-.421.292c-.312.229-.624.485-.917.762-.478.454-.852.912-1.09 1.37-.236-.458-.61-.916-1.089-1.37a9.52 9.52 0 00-1.337-1.054.295.295 0 00-.403.087.284.284 0 00.089.397l.025.016c.023.014.049.032.078.052a9.048 9.048 0 011.144.916c.755.716 1.202 1.427 1.202 2.054v7.91h-1.5a.29.29 0 00-.292.288c0 .158.13.287.292.287h1.5"/>
+					<path id="Imported-Layers-50" fill="#000" d="M216.584 28.052v7.911c-.009.632-.455 1.335-1.203 2.047a9.12 9.12 0 01-1.222.975l-.026.017a.284.284 0 00-.086.396.295.295 0 00.403.085 9.725 9.725 0 00.42-.294 9.78 9.78 0 00.917-.767c.479-.456.853-.915 1.09-1.373.238.461.61.919 1.088 1.373a9.776 9.776 0 001.337 1.061.295.295 0 00.403-.085.284.284 0 00-.086-.396l-.026-.017a8.2 8.2 0 01-.361-.254 9.168 9.168 0 01-.861-.72c-.748-.713-1.194-1.416-1.203-2.03v-7.93h1.343a.29.29 0 00.291-.286.29.29 0 00-.291-.287h-1.343v-7.911c0-.627.447-1.338 1.203-2.055a9.048 9.048 0 011.22-.967l.026-.016a.284.284 0 00.089-.397.294.294 0 00-.403-.087 9.3 9.3 0 00-.421.292 9.667 9.667 0 00-.917.762c-.478.454-.852.912-1.09 1.37-.236-.458-.61-.916-1.089-1.37a9.52 9.52 0 00-1.337-1.054.295.295 0 00-.403.087.284.284 0 00.089.397l.025.016c.023.014.049.032.078.052a9.048 9.048 0 011.144.916c.755.716 1.202 1.427 1.202 2.054v7.91h-1.5a.29.29 0 00-.292.288c0 .158.13.287.292.287h1.5"/>
 				</g>
 				<g id="Text-input-/-:focus" transform="translate(192 112)">
 					<g id="border:focus" stroke="#36C" stroke-linejoin="square">
@@ -4075,7 +4075,7 @@
 				<g id="Cursor-/-!default" transform="translate(402 191)">
 					<g id="Cursor" fill="#000">
 						<use filter="url(#filter-210)" xlink:href="#path-209"/>
-						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244c.279-.025.501-.098.67-.195a.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607.192.093.42.124.678.06.191-.048.405-.153.627-.333l2.545-2.926z"/>
+						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244a1.63 1.63 0 00.67-.195.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607a.98.98 0 00.678.06c.191-.048.405-.153.627-.333l2.545-2.926z"/>
 					</g>
 				</g>
 				<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
@@ -4242,7 +4242,7 @@
 				<g id="Cursor-/-!default" transform="translate(446 256)">
 					<g id="Cursor" fill="#000">
 						<use filter="url(#filter-228)" xlink:href="#path-227"/>
-						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244c.279-.025.501-.098.67-.195a.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607.192.093.42.124.678.06.191-.048.405-.153.627-.333l2.545-2.926z"/>
+						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244a1.63 1.63 0 00.67-.195.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607a.98.98 0 00.678.06c.191-.048.405-.153.627-.333l2.545-2.926z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(238 129)">
@@ -4260,7 +4260,7 @@
 				<g id="Cursor-/-!default" transform="translate(244 253)">
 					<g id="Cursor" fill="#000">
 						<use filter="url(#filter-234)" xlink:href="#path-233"/>
-						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244c.279-.025.501-.098.67-.195a.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607.192.093.42.124.678.06.191-.048.405-.153.627-.333l2.545-2.926z"/>
+						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244a1.63 1.63 0 00.67-.195.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607a.98.98 0 00.678.06c.191-.048.405-.153.627-.333l2.545-2.926z"/>
 					</g>
 				</g>
 				<path id="1em" stroke="#D0021B" stroke-width="4" d="M395 536v16"/>
@@ -4454,7 +4454,7 @@
 				<g id="Cursor-/-!default" transform="translate(504 243)">
 					<g id="Cursor" fill="#000">
 						<use filter="url(#filter-242)" xlink:href="#path-241"/>
-						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244c.279-.025.501-.098.67-.195a.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607.192.093.42.124.678.06.191-.048.405-.153.627-.333l2.545-2.926z"/>
+						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244a1.63 1.63 0 00.67-.195.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607a.98.98 0 00.678.06c.191-.048.405-.153.627-.333l2.545-2.926z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(209 131)">
@@ -4472,7 +4472,7 @@
 				<g id="Cursor-/-!default" transform="translate(216 243)">
 					<g id="Cursor" fill="#000">
 						<use filter="url(#filter-248)" xlink:href="#path-247"/>
-						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244c.279-.025.501-.098.67-.195a.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607.192.093.42.124.678.06.191-.048.405-.153.627-.333l2.545-2.926z"/>
+						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244a1.63 1.63 0 00.67-.195.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607a.98.98 0 00.678.06c.191-.048.405-.153.627-.333l2.545-2.926z"/>
 					</g>
 				</g>
 				<path id="Line-Copy-90" stroke="#50E3C2" stroke-dasharray="1 3" stroke-linecap="square" d="M175 453.5h202"/>
@@ -4711,7 +4711,7 @@
 				<g id="Cursor-/-!default" transform="translate(500 245)">
 					<g id="Cursor" fill="#000">
 						<use filter="url(#filter-258)" xlink:href="#path-257"/>
-						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244c.279-.025.501-.098.67-.195a.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607.192.093.42.124.678.06.191-.048.405-.153.627-.333l2.545-2.926z"/>
+						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244a1.63 1.63 0 00.67-.195.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607a.98.98 0 00.678.06c.191-.048.405-.153.627-.333l2.545-2.926z"/>
 					</g>
 				</g>
 				<g id="Cursor-/-Pointer" transform="translate(206 77)">
@@ -4729,7 +4729,7 @@
 				<g id="Cursor-/-!default" transform="translate(211 245)">
 					<g id="Cursor" fill="#000">
 						<use filter="url(#filter-264)" xlink:href="#path-263"/>
-						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244c.279-.025.501-.098.67-.195a.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607.192.093.42.124.678.06.191-.048.405-.153.627-.333l2.545-2.926z"/>
+						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244a1.63 1.63 0 00.67-.195.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607a.98.98 0 00.678.06c.191-.048.405-.153.627-.333l2.545-2.926z"/>
 					</g>
 				</g>
 				<g id="Checkbox-/--multiliner" transform="translate(192 548)">
@@ -4801,14 +4801,14 @@
 						<text id="link-text" fill="#6B4BA1" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="0" y="16">Neutral point of view</tspan>
 						</text>
-						<path id="underline" stroke="#6B4BA1" stroke-linecap="square" stroke-width="1" d="M1.5 18.5h57.46M65.5 18.5h92"/>
+						<path id="underline" stroke="#6B4BA1" stroke-linecap="square" stroke-width="1" d="M1.5 18.5h57.46m6.54 0h92"/>
 					</g>
 					<g id="Link-/-:hover" transform="translate(192 111)">
 						<g id="Link">
 							<text id="link-text" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 								<tspan x="0" y="16">Neutral point of view</tspan>
 							</text>
-							<path id="underline" stroke="#36C" stroke-linecap="square" d="M1.5 18.5h57.46M65.5 18.5h92"/>
+							<path id="underline" stroke="#36C" stroke-linecap="square" d="M1.5 18.5h57.46m6.54 0h92"/>
 						</g>
 					</g>
 					<g id="Link-/-:active" transform="translate(192 167)">
@@ -4816,20 +4816,20 @@
 							<text id="link-text" fill="#2A4B8D" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 								<tspan x="0" y="16">Neutral point of view</tspan>
 							</text>
-							<path id="underline" stroke="#2A4B8D" stroke-linecap="square" d="M1.5 18.5h57.46M65.5 18.5h92"/>
+							<path id="underline" stroke="#2A4B8D" stroke-linecap="square" d="M1.5 18.5h57.46m6.54 0h92"/>
 						</g>
 					</g>
 					<g id="Link-/-underlined" transform="translate(192 223)">
 						<text id="link-text" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="0" y="16">Neutral point of view</tspan>
 						</text>
-						<path id="underline" stroke="#36C" stroke-linecap="square" stroke-width="1" d="M1.5 18.5h57.46M65.5 18.5h92"/>
+						<path id="underline" stroke="#36C" stroke-linecap="square" stroke-width="1" d="M1.5 18.5h57.46m6.54 0h92"/>
 					</g>
 					<g id="Link-/-underlined" transform="translate(192 55)">
 						<text id="link-text" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="0" y="16">Neutral point of view</tspan>
 						</text>
-						<path id="underline" stroke="#36C" stroke-linecap="square" stroke-width="1" d="M1.5 18.5h57.46M65.5 18.5h92"/>
+						<path id="underline" stroke="#36C" stroke-linecap="square" stroke-width="1" d="M1.5 18.5h57.46m6.54 0h92"/>
 					</g>
 					<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 						<tspan x="0" y="70.3">Normal</tspan> <tspan x="0" y="126.4">Hover</tspan> <tspan x="0" y="145.1"> </tspan> <tspan x="0" y="182.5">Active</tspan> <tspan x="0" y="238.6">Focus</tspan> <tspan x="0" y="294.7">Visited</tspan>
@@ -4849,7 +4849,7 @@
 							<text id="link-text" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 								<tspan x="0" y="16">Neutral point of view</tspan>
 							</text>
-							<path id="underline" stroke="#36C" stroke-linecap="square" d="M1.5 18.5h57.46M65.5 18.5h92"/>
+							<path id="underline" stroke="#36C" stroke-linecap="square" d="M1.5 18.5h57.46m6.54 0h92"/>
 						</g>
 					</g>
 					<g id="Link-/-:active" transform="translate(192 112)">
@@ -4857,7 +4857,7 @@
 							<text id="link-text" fill="#2A4B8D" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 								<tspan x="0" y="16">Neutral point of view</tspan>
 							</text>
-							<path id="underline" stroke="#2A4B8D" stroke-linecap="square" d="M1.5 18.5h57.46M65.5 18.5h92"/>
+							<path id="underline" stroke="#2A4B8D" stroke-linecap="square" d="M1.5 18.5h57.46m6.54 0h92"/>
 						</g>
 					</g>
 					<g id="Link-/-:visited" fill="#6B4BA1" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold" transform="translate(192 224)">
@@ -4931,7 +4931,7 @@
 					<text id="More" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="13" y="24.5">More</tspan>
 					</text>
-					<path id="Path-114" stroke="#FFF" stroke-linecap="square" d="M63.5 1v33M129.5.5v33"/>
+					<path id="Path-114" stroke="#FFF" stroke-linecap="square" d="M63.5 1v33m66-33.5v33"/>
 					<path id="Path-115" stroke="#FFF" stroke-linecap="square" d="M184.5 1.115v33"/>
 				</g>
 				<rect id="button-frame" width="255" height="31" x="192.5" y=".5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
@@ -5025,7 +5025,7 @@
 				<g id="Cursor-/-!default" transform="translate(368 306)">
 					<g id="Cursor" fill="#000">
 						<use filter="url(#filter-279)" xlink:href="#path-278"/>
-						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244c.279-.025.501-.098.67-.195a.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607.192.093.42.124.678.06.191-.048.405-.153.627-.333l2.545-2.926z"/>
+						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244a1.63 1.63 0 00.67-.195.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607a.98.98 0 00.678.06c.191-.048.405-.153.627-.333l2.545-2.926z"/>
 					</g>
 				</g>
 				<g id="State-labels" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal" transform="translate(0 8)">
@@ -5250,7 +5250,7 @@
 				<g id="Cursor-/-!default" transform="translate(263 243)">
 					<g id="Cursor" fill="#000">
 						<use filter="url(#filter-289)" xlink:href="#path-288"/>
-						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244c.279-.025.501-.098.67-.195a.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607.192.093.42.124.678.06.191-.048.405-.153.627-.333l2.545-2.926z"/>
+						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244a1.63 1.63 0 00.67-.195.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607a.98.98 0 00.678.06c.191-.048.405-.153.627-.333l2.545-2.926z"/>
 					</g>
 				</g>
 				<text id="State-Description" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
@@ -5458,7 +5458,7 @@
 				<g id="Cursor-/-!default" transform="translate(262 276)">
 					<g id="Cursor" fill="#000">
 						<use filter="url(#filter-302)" xlink:href="#path-301"/>
-						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244c.279-.025.501-.098.67-.195a.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607.192.093.42.124.678.06.191-.048.405-.153.627-.333l2.545-2.926z"/>
+						<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244a1.63 1.63 0 00.67-.195.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.944-.054C.787-.214.66-.32-.142-.404c-.143.092-.331.348-.332 1.073l.053 14.847c.103.304.287.5.507.607a.98.98 0 00.678.06c.191-.048.405-.153.627-.333l2.545-2.926z"/>
 					</g>
 				</g>
 			</g>

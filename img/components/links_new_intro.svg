@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="162" height="41" viewBox="0 0 162 41">
 	<title>
-		links_underlined_intro
+		links_new_intro
 	</title>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
-		<g id="WikimediaUI-components_overview" transform="translate(-3457 -613)">
+		<g id="WikimediaUI-components_overview" transform="translate(-3457 -962)">
 			<path fill="#FFF" d="M0 0h14100v3264H0z"/>
-			<g id="LINK" fill="#36C" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold" text-decoration="underline" transform="translate(3266 186)">
+			<g id="LINK" fill="#D33" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold" text-decoration="underline" transform="translate(3266 186)">
 				<g id="Link-X" transform="translate(1 76)">
-					<g id="Underlined" transform="translate(0 297)">
-						<g id="Link-/-underlined" transform="translate(192 55)">
+					<g id="New" transform="translate(0 647)">
+						<g id="Link-/-underlined" transform="translate(192 53)">
 							<text id="link-text">
 								<tspan x="0" y="16">Neutral point of view</tspan>
 							</text>
