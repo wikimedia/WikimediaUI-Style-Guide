@@ -26,6 +26,7 @@ $ npm run start
 Make sure the tests pass and the CSS for production is built:
 
 ```console
+$ npm run test
 $ npm run build
 ```
 
