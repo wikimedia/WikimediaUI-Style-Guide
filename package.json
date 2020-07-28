@@ -23,18 +23,18 @@
     "Safari >= 5.1"
   ],
   "dependencies": {
-    "autoprefixer": "9.8.4",
+    "autoprefixer": "9.8.5",
     "fontfaceobserver": "2.1.0",
     "normalize.css": "7.0.0",
-    "wikimedia-ui-base": "0.15.0"
+    "wikimedia-ui-base": "0.16.0"
   },
   "devDependencies": {
     "cssnano": "4.1.10",
     "eslint-config-wikimedia": "0.16.2",
-    "grunt": "1.1.0",
+    "grunt": "1.2.1",
     "grunt-contrib-concat": "1.0.1",
     "grunt-contrib-imagemin": "4.0.0",
-    "grunt-contrib-uglify": "4.0.1",
+    "grunt-contrib-uglify": "5.0.0",
     "grunt-contrib-watch": "1.1.0",
     "grunt-eslint": "23.0.0",
     "grunt-exec": "3.0.0",
