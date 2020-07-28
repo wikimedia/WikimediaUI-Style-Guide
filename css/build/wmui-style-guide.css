@@ -2,9 +2,11 @@
 /* Load files from 'node_modules' folders with postCSS-import plugin.
  * Modules specified in package.json file */
 /**
- * WikimediaUI Base v0.15.0
+ * WikimediaUI Base v0.16.0
  * Wikimedia Foundation user interface base variables
- * See https://design.wikimedia.org/style-guide/
+ * https://gerrit.wikimedia.org/r/plugins/gitiles/wikimedia-ui-base/
+ *
+ * See also https://design.wikimedia.org/style-guide/
  */
 :root {
 	/* == Breakpoints == */
@@ -39,6 +41,7 @@
 	/* Background Colors */
 	/* 'Framed' UI elements (Framed Buttons, Dropdowns, ToggleSwitches…) */
 	/* 'Filled' UI elements (Checkboxes, Radios, ProgressBars…) */
+	/* Binary Input elements (Checkboxes, Radios, Toggle Switches) */
 	/* Toolbar and Tools */
 	/* Tabs Navigation Background Color */
 	/* User system messages (errors, warnings, successes, notices) */
@@ -60,7 +63,7 @@
 
 
 	/* == Box Model properties == */
-	/* `@*size` variables are used for `*width` & `*height` properties */ /* values used for `min-*` are defined in `px`, see T130691 */
+	/* `--*size` variables are used for `*width` & `*height` properties. */ /* Values used for `min-*` are defined in `px`, see T130691. */
 
 	/* Max Widths */ /* = `460px` at `16px` base, see T95367 */
 
@@ -81,6 +84,8 @@
 	/* Provide better operating system-specific readability, see T175877. */
 	/* `system-ui` is currently not an option due to OS/language combination issues, see T175877#4776576. */
 	/* Provide better operating system-specific monospace stack, see T209915. */ /* See T176636. */
+	/* Font Weights */
+	/* See https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#Common_weight_name_mapping */
 	/* Line Heights */
 	/* Text Shadows */ /* 'coined' effect */
 
