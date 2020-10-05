@@ -48,6 +48,7 @@ h3,
 h4,
 h5,
 h6 {
+	color: var( --color-base--emphasized );
 	margin: 3.2rem 0 0;
 	line-height: 1.25;
 	transition: font-size var( --transition-ease-medium ), font-weight var( --transition-ease-medium );

@@ -539,6 +539,7 @@ h3,
 h4,
 h5,
 h6 {
+	color: #000;
 	margin: 3.2rem 0 0;
 	line-height: 1.25;
 	-webkit-transition: font-size 250ms, font-weight 250ms;
