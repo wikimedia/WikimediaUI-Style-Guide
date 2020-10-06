@@ -146,7 +146,8 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, Helvet
 						<h2>Use of styles</h2>
 						<p>The recommended styles are intended to optimize readability of Wikipedia’s dense encyclopedic content.</p>
 						<p>In our guidelines we use scale-independent pixels (sp). They can result in a different number of actual pixels in the user screen due to screen density or user preferences. A 16&#160;sp text is rendered as 16&#160;px in a 1x device at standard zoom level, but it becomes 21&#160;px in a 2x device (or when zoomed 200% on a 1x device).</p>
-						<p>Common text styles are based on the defined scale to clearly communicate the content hierarchy. </p>
+						<p>Common text styles are based on the defined scale to clearly communicate the content hierarchy. <br>
+							Color hints are guidance for general use case in a light mode theme.</p>
 						<dl class="typography-styles">
 							<dt>Heading 1</dt>
 							<dd>
@@ -154,23 +155,24 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, Helvet
 							</dd>
 							<dt>Heading 2</dt>
 							<dd>
-								<h2>System sans-serif 600 / Lato Bold, 24&#160;sp</h2>
+								<h2>System sans-serif 600 / Lato Bold 24&#160;sp</h2>
 							</dd>
 							<dt>Heading 3</dt>
 							<dd>
-								<h3>System sans-serif 600 / Lato Bold, 20&#160;sp</h3>
+								<h3>System sans-serif 600 / Lato Bold 20&#160;sp</h3>
 							</dd>
 							<dt>Heading 4</dt>
 							<dd>
-								<h4>System sans-serif 600 / Lato Bold, 18&#160;sp</h4>
+								<h4>System sans-serif 600 / Lato Bold 18&#160;sp</h4>
 							</dd>
 							<dt>Heading 5</dt>
 							<dd>
-								<h5>System sans-serif 600 / Lato Bold, 16&#160;sp</h5>
+								<h5>System sans-serif 600 / Lato Bold 16&#160;sp</h5>
 							</dd>
 							<dt>Heading 6</dt>
 							<dd>
-								<h6>Lato Regular / system sans-serif 16&#160;sp</h6>
+								<h6>Lato Regular / system sans-serif 16&#160;sp,<br>
+								All headings are in <span class="color-hint" style="--color-hint: #000;" title="#000">Base0</span></h6>
 							</dd>
 						</dl>
 						<hr>
@@ -179,9 +181,9 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, Helvet
 							<dd>
 								<p>Lato Regular / system sans-serif 16&#160;sp in <span class="color-hint" style="--color-hint: #202122;" title="#202122">Base10</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis reprehenderit minima voluptates doloribus nemo, enim eius. Itaque laudantium, praesentium maiores distinctio! Voluptate ipsam consequatur corrupti inventore cum illo quae modi.</p>
 							</dd>
-							<dt>Complementary <br>paragraph</dt>
+							<dt>Complementary</dt>
 							<dd>
-								<p class="is-complementary">Lato Regular / system sans-serif 14&#160;sp in <span class="color-hint" style="--color-hint: #72777d;" title="#72777d">Base30</span>.</p>
+								<p class="is-complementary">Lato Regular / system sans-serif 14&#160;sp in <span class="color-hint" style="--color-hint: #72777d;" title="#72777d">Base30</span> <span  style="color:#202122;">or in <span class="color-hint" style="--color-hint: #202122;" title="#202122"></span>Base10</span></span></p>
 							</dd>
 							<dt>Block quotation<br>citation</dt>
 							<dd>
@@ -241,7 +243,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, Helvet
  * `'Courier New', monospace` – (Generic) web font fallback
  */</span>
 font-family: 'Menlo', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
-font-size: 14px;</pre>
+font-size: 14px; <span style="color:#72777d;">/* 14&#160;sp equivalent */</span></pre>
 							</dd>
 						</dl>
 					</section>
