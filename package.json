@@ -30,8 +30,8 @@
   },
   "devDependencies": {
     "cssnano": "4.1.10",
-    "eslint-config-wikimedia": "0.16.2",
-    "grunt": "1.2.1",
+    "eslint-config-wikimedia": "0.17.0",
+    "grunt": "1.3.0",
     "grunt-contrib-concat": "1.0.1",
     "grunt-contrib-imagemin": "4.0.0",
     "grunt-contrib-uglify": "5.0.0",
