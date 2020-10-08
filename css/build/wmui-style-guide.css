@@ -171,9 +171,8 @@ figure {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box; /* 1 */
+  -moz-box-sizing: content-box;
+       box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
 }
@@ -369,9 +368,8 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box; /* 1 */
+  -moz-box-sizing: border-box;
+       box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
   display: table; /* 1 */
   max-width: 100%; /* 1 */
@@ -398,9 +396,8 @@ textarea {
  */
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box; /* 1 */
+  -moz-box-sizing: border-box;
+       box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
 /**
@@ -512,9 +509,8 @@ template {
 	   Helvetica and Arial fallback gracefully to `700`, see T246791. */
 }
 * {
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	     box-sizing: border-box;
 }
 html {
 	font-size: 62.5%;
@@ -830,11 +826,10 @@ sup {
 .btn--nav-main i {
 		display: block;
 		height: 4.2rem;
-		-webkit-transition: color 250ms, -webkit-box-shadow 250ms;
-		transition: color 250ms, -webkit-box-shadow 250ms;
+		-webkit-transition: color 250ms, box-shadow 250ms;
 		-moz-transition: color 250ms, box-shadow 250ms, -moz-box-shadow 250ms;
 		transition: color 250ms, box-shadow 250ms;
-		transition: color 250ms, box-shadow 250ms, -webkit-box-shadow 250ms, -moz-box-shadow 250ms;
+		transition: color 250ms, box-shadow 250ms, -moz-box-shadow 250ms;
 	}
 .btn--nav-main i:before,
 	.btn--nav-main i:after {
@@ -848,18 +843,16 @@ sup {
 	}
 .btn--nav-main i:after {
 		top: 1.1rem;
-		-webkit-box-shadow: 0 0.7rem 0 #54595d;
-		   -moz-box-shadow: 0 0.7rem 0 #54595d;
-		        box-shadow: 0 0.7rem 0 #54595d;
+		-moz-box-shadow: 0 0.7rem 0 #54595d;
+		     box-shadow: 0 0.7rem 0 #54595d;
 	}
 .btn--nav-main i:hover:before,
 	.btn--nav-main i:hover:after {
 		background-color: #000; /* --color-base-emphasized */
 	}
 .btn--nav-main i:hover:after {
-		-webkit-box-shadow: 0 0.7rem 0 #000;
-		   -moz-box-shadow: 0 0.7rem 0 #000;
-		        box-shadow: 0 0.7rem 0 #000;
+		-moz-box-shadow: 0 0.7rem 0 #000;
+		     box-shadow: 0 0.7rem 0 #000;
 	}
 .btn--nav-main span {
 		display: block;
@@ -881,9 +874,8 @@ sup {
 	position: relative;
 	margin-top: 6.4rem;
 	padding: 6.4rem 0;
-	-webkit-box-shadow: 0 1px 4px 0 rgba( 0, 0, 0, 0.25 );
-	   -moz-box-shadow: 0 1px 4px 0 rgba( 0, 0, 0, 0.25 );
-	        box-shadow: 0 1px 4px 0 rgba( 0, 0, 0, 0.25 );
+	-moz-box-shadow: 0 1px 4px 0 rgba( 0, 0, 0, 0.25 );
+	     box-shadow: 0 1px 4px 0 rgba( 0, 0, 0, 0.25 );
 	overflow-y: hidden;
 }
 .content {
@@ -1383,9 +1375,8 @@ sup {
 		left: -1.6rem;
 		right: -1.6rem;
 		padding-bottom: 1.6rem;
-		-webkit-box-shadow: 0 2px 2px 0 rgba( 0, 0, 0, 0.25 );
-		   -moz-box-shadow: 0 2px 2px 0 rgba( 0, 0, 0, 0.25 );
-		        box-shadow: 0 2px 2px 0 rgba( 0, 0, 0, 0.25 ); /* FIXME: Update wmui-base */
+		-moz-box-shadow: 0 2px 2px 0 rgba( 0, 0, 0, 0.25 );
+		     box-shadow: 0 2px 2px 0 rgba( 0, 0, 0, 0.25 ); /* FIXME: Update wmui-base */
 		z-index: 1;
 		-webkit-transform: translateY( -200% );
 		   -moz-transform: translateY( -200% );
