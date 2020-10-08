@@ -27,7 +27,7 @@ module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 	grunt.loadNpmTasks( 'grunt-contrib-uglify' );
 	grunt.loadNpmTasks( 'grunt-eslint' );
-	grunt.loadNpmTasks( 'grunt-postcss' );
+	grunt.loadNpmTasks( '@lodder/grunt-postcss' );
 	grunt.loadNpmTasks( 'grunt-replace' );
 	grunt.loadNpmTasks( 'grunt-sketch' );
 	grunt.loadNpmTasks( 'grunt-stylelint' );

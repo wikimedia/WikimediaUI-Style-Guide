@@ -2,9 +2,9 @@
 /* Load files from 'node_modules' folders with postCSS-import plugin.
  * Modules specified in package.json file */
 /**
- * WikimediaUI Base v0.16.0
+ * WikimediaUI Base v0.17.0
  * Wikimedia Foundation user interface base variables
- * https://gerrit.wikimedia.org/r/plugins/gitiles/wikimedia-ui-base/
+ * https://gerrit.wikimedia.org/g/wikimedia-ui-base/
  *
  * See also https://design.wikimedia.org/style-guide/
  */
@@ -38,6 +38,9 @@
 	 * referring to them as applied further below.
 	 */    /* = HSB 0°, 0%, 0% */ /* = HSB 210°, 6%, 13% */ /* = HSB 207°, 10%, 36%; WCAG 2.0 level AAA 7.09:1 contrast ratio on `#fff` */ /* = HSB 210°, 9%, 49%; WCAG 2.0 level AA at 4.52:1 contrast ratio on `#fff` */ /* = HSB 212°, 8%, 69% */ /* = HSB 213°, 4%, 82% */ /* = HSB 220°, 3%, 94% */ /* = HSB 210°, 1%, 98% */    /* = HSB 0°, 0%, 100% */ /* = HSB 220°, 70%, 55% */    /* = HSB 220°, 75%, 80% */ /* = HSB 214°, 8%, 100% */ /* = HSB 360°, 80%, 70% */    /* = HSB 360°, 77%, 87% */ /* = HSB 3°, 9%, 100% */ /* = HSB 36°, 100%, 67% */    /* = HSB 45°, 80%, 100% */ /* = HSB 39°, 9%, 100% */ /* = HSB 167°, 85%, 53% */ /* = HSB 167°, 100%, 69% */ /* = HSB 166°, 16%, 99% */
 
+	/* Modifier colors, not part of official palette, limited to interaction state usage. */ /* = `filter: brightness( 109% )` */ /* ~= `filter: brightness( 120% )` */
+
+	/* From here on no static color values, only variable references. */
 	/* Background Colors */
 	/* 'Framed' UI elements (Framed Buttons, Dropdowns, ToggleSwitches…) */
 	/* 'Filled' UI elements (Checkboxes, Radios, ProgressBars…) */
@@ -45,11 +48,11 @@
 	/* Toolbar and Tools */
 	/* Tabs Navigation Background Color */
 	/* User system messages (errors, warnings, successes, notices) */
-	/* Highlight Colors, RGBA Colors include hex fallback on `#fff` for IE 8 */
+	/* Highlight Colors for text highlighting, think metaphorically text marker */ /* Equals to `#ffe29e` on `#fff` background. */
 
 	/* Foreground Colors */
-	/* Primary 'Progressive' Color, Background Color and states */ /* = `filter: brightness( 109% )` */
-	/* 'Destructive' Color, Background Color and states */ /* ~= `filter: brightness( 120% )` */
+	/* Primary 'Progressive' Color, Background Color and states */
+	/* 'Destructive' Color, Background Color and states */
 	/* Secondary Color and states (links only) */
 	/* User system messages (errors, warnings, successes, notices) */
 	/* Toolbar and Tools */ /* Used here in combination with `:hover` background-color turning light grey */
@@ -74,7 +77,14 @@
 	/* Border Widths */
 	/* Border Radius */
 
+	/* Paddings */
+	/* Must be < `8` as it cuts off scripts like Burmese. Directly connected to `line-height` further down. */
+
 	/* Box Shadows */
+	/* Base widget `box-shadow` set to `transparent` for transition purpose. */
+
+	/* Outlines */
+	/* Enable Windows high contrast mode on certain widgets, that have default outlines overridden. */
 
 
 	/* == Typography incl. print properties == */
@@ -513,21 +523,7 @@ body {
 	background-color: #eaecf0; /* FIXME: var; */
 	color: #202122;
 	margin: 0;
-	font-family: -apple-system
-,
-'BlinkMacSystemFont'
-,
-'Segoe UI'
-,
-'Roboto'
-,
-'Lato'
-,
-'Helvetica'
-,
-'Arial'
-,
-sans-serif;
+	font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
 	font-size: 1.6rem;
 	line-height: 1.6;
 }
@@ -554,9 +550,7 @@ h5 {
 }
 h1,
 .page__title {
-	font-family: Georgia
-,
-serif; /* Fallback */
+	font-family: Georgia, serif; /* Fallback */
 	font-size: 3.2rem;
 	font-weight: 400;
 }
@@ -587,9 +581,7 @@ blockquote {
 	border-left: 3px solid #c8ccd1; /* FIXME: var */
 	margin: 1.6rem 0 0;
 	padding: 0 3.2rem;
-	font-family: Georgia
-,
-serif; /* Fallback */
+	font-family: Georgia, serif; /* Fallback */
 	font-size: 2rem;
 	font-style: italic;
 	line-height: 1.5;
@@ -597,21 +589,7 @@ serif; /* Fallback */
 blockquote cite {
 	display: block;
 	margin-top: 0.8rem;
-	font-family: -apple-system
-,
-'BlinkMacSystemFont'
-,
-'Segoe UI'
-,
-'Roboto'
-,
-'Lato'
-,
-'Helvetica'
-,
-'Arial'
-,
-sans-serif;
+	font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
 	font-size: 1.4rem;
 	font-style: normal;
 }
@@ -621,15 +599,7 @@ blockquote cite:before {
 code,
 pre,
 .mw-code {
-	font-family: 'Menlo'
-,
-'Consolas'
-,
-'Liberation Mono'
-,
-'Courier New'
-,
-monospace;
+	font-family: 'Menlo', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
 }
 hr {
 	background: #eaecf0;
@@ -660,9 +630,7 @@ pre,
 .mw-code {
 	background-color: #f8f9fa;
 	color: #000;
-	border: 1px
-solid
-#a2a9b1;
+	border: 1px solid #a2a9b1;
 	padding: 1.2rem 2rem;
 	font-size: 1.4rem;
 	white-space: pre-wrap;
@@ -827,21 +795,7 @@ sup {
 		color: #202122;
 		margin-top: 0;
 		height: 6.4rem;
-		font-family: -apple-system
-,
-'BlinkMacSystemFont'
-,
-'Segoe UI'
-,
-'Roboto'
-,
-'Lato'
-,
-'Helvetica'
-,
-'Arial'
-,
-sans-serif;
+		font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
 		font-size: 1.6rem;
 		font-weight: 400;
 		letter-spacing: 0.5px;
@@ -1215,21 +1169,7 @@ sans-serif;
 		background-color: inherit;
 		display: block;
 		padding: 0;
-		font-family: -apple-system
-,
-'BlinkMacSystemFont'
-,
-'Segoe UI'
-,
-'Roboto'
-,
-'Lato'
-,
-'Helvetica'
-,
-'Arial'
-,
-sans-serif;
+		font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
 	}
 .color-code--hsb {
 			opacity: 0;
@@ -1253,9 +1193,7 @@ sans-serif;
 	}
 
 	.color-hint--base100:before {
-		border: 1px
-solid
-#a2a9b1;
+		border: 1px solid #a2a9b1;
 	}
 }
 /* ... Icon ... */
@@ -1428,21 +1366,7 @@ solid
 .fonts-loaded cite,
 .fonts-loaded .site__title,
 .fonts-loaded .color-code {
-	font-family: -apple-system
-,
-'BlinkMacSystemFont'
-,
-'Segoe UI'
-,
-'Roboto'
-,
-'Lato'
-,
-'Helvetica'
-,
-'Arial'
-,
-sans-serif;
+	font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
 }
 /* ::: Text Block-Level Elements ::: */
 .fonts-loaded .page__title,
