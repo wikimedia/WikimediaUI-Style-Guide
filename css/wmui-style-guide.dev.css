@@ -1,6 +1,6 @@
 /* ::: Vendor Imports ::: */
 /* Load files from 'node_modules' folders with postCSS-import plugin.
- * Modules specified in package.json file */
+ * Modules specified in package.json file. */
 @import 'wikimedia-ui-base/wikimedia-ui-base.css';
 @import 'normalize.css';
 
@@ -14,7 +14,7 @@
 	--border-color-heading: var( --wmui-color-base80 );
 	--border-width-heading: 3px;
 	--outline-color-base--focus: var( --color-primary--focus );
-	/* HACK; Add Georgia to serif fallback as long as WikimediaUI Base isn't updated */
+	/* HACK; Add Georgia to serif fallback as long as WikimediaUI Base isn't updated. */
 	--font-family-serif--fallback: Georgia, serif; /* stylelint-disable-line value-keyword-case */
 	--font-weight-base: 400;
 	/* Setting bold to `600` as our stack works better with it, only Lato is on the edge.
@@ -104,7 +104,6 @@ blockquote {
 	font-family: var( --font-family-serif--fallback ); /* Fallback */
 	font-size: 2rem;
 	font-style: italic;
-	line-height: 1.5;
 }
 
 blockquote cite {
@@ -135,7 +134,6 @@ hr {
 
 p {
 	margin: 3.2rem 0 0;
-	line-height: 1.5;
 }
 
 	h1 + p,
