@@ -25,8 +25,6 @@ function embedTrackingCode() {
 
 if ( window.addEventListener ) {
 	window.addEventListener( 'load', embedTrackingCode, false );
-} else if ( window.attachEvent ) { /* Support for IE8 */
-	window.attachEvent( 'onload', embedTrackingCode );
 } else {
 	embedTrackingCode();
 }
