@@ -659,6 +659,10 @@ sup {
 	margin-top: 0;
 }
 
+.color-palette + p {
+	margin-top: 1.6rem;
+}
+
 .color {
 	color: var( --color-base--emphasized );
 	list-style: none none;
