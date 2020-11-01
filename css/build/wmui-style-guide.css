@@ -1076,6 +1076,9 @@ sup {
 .color-palette + .color-palette {
 	margin-top: 0;
 }
+.color-palette + p {
+	margin-top: 1.6rem;
+}
 .color {
 	color: #000;
 	list-style: none none;
