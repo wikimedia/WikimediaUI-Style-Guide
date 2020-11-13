@@ -13,6 +13,7 @@
 	--width-site-desktop-wide: 1140px;
 	--border-color-heading: var( --wmui-color-base80 );
 	--border-width-heading: 3px;
+	--border-start-blockquote: 4px var( --border-style-base ) var( --wmui-color-base80 );
 	--outline-color-base--focus: var( --color-primary--focus );
 	/* HACK; Add Georgia to serif fallback as long as WikimediaUI Base isn't updated. */
 	--font-family-serif--fallback: Georgia, serif; /* stylelint-disable-line value-keyword-case */
@@ -98,9 +99,9 @@ h6 {
 
 /* ... Other Block-Level Elements ... */
 blockquote {
-	border-left: 3px solid var( --wmui-color-base70 ); /* FIXME: var */
 	margin: 1.6rem 0 0;
-	padding: 0 3.2rem;
+	border-left: var( --border-start-blockquote );
+	padding: 0.8rem 3.2rem;
 	font-family: var( --font-family-serif--fallback ); /* Fallback */
 	font-size: 2rem;
 	font-style: italic;
@@ -953,6 +954,10 @@ sup {
 	font-size: 1.3rem;
 	font-weight: var( --font-weight-bold );
 	vertical-align: top;
+}
+
+.typography-styles .typography-styles__blockquote {
+	margin-bottom: 4.8rem;
 }
 
 .typography-styles .typography-styles__code {

@@ -574,9 +574,9 @@ h6 {
 }
 /* ... Other Block-Level Elements ... */
 blockquote {
-	border-left: 3px solid #c8ccd1; /* FIXME: var */
 	margin: 1.6rem 0 0;
-	padding: 0 3.2rem;
+	border-left: 4px solid #eaecf0;
+	padding: 0.8rem 3.2rem;
 	font-family: Georgia, serif; /* Fallback */
 	font-size: 2rem;
 	font-style: italic;
@@ -1328,6 +1328,9 @@ sup {
 	font-size: 1.3rem;
 	font-weight: 600;
 	vertical-align: top;
+}
+.typography-styles .typography-styles__blockquote {
+	margin-bottom: 4.8rem;
 }
 .typography-styles .typography-styles__code {
 	margin-bottom: 0;
