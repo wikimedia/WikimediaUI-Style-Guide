@@ -828,11 +828,18 @@ sup {
 	height: 6.4rem;
 }
 
+/* Messages */
 .page--components-messages .components__intro {
 	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/* Override general img border radius for correct Message representation */
+.page--components-messages img {
+	border-radius: 0;
+}
+
 
 /* ... Resources ... */
 .resources-table {
