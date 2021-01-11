@@ -2,7 +2,7 @@
 /* Load files from 'node_modules' folders with postCSS-import plugin.
  * Modules specified in package.json file. */
 /**
- * WikimediaUI Base v0.17.0
+ * WikimediaUI Base v0.18.1
  * Wikimedia Foundation user interface base variables
  * https://gerrit.wikimedia.org/g/wikimedia-ui-base/
  *
@@ -45,6 +45,8 @@
 	/* 'Framed' UI elements (Framed Buttons, Dropdowns, ToggleSwitches…) */
 	/* 'Filled' UI elements (Checkboxes, Radios, ProgressBars…) */
 	/* Binary Input elements (Checkboxes, Radios, Toggle Switches) */
+	/* Quiet Buttons */
+	/* Use `rgba()` values here as the quiet buttons need to blend in with background. */ /* = `--wmui-color-base90` on white. */ /* = `--wmui-color-base80` on white. */
 	/* Toolbar and Tools */
 	/* Tabs Navigation Background Color */
 	/* User system messages (errors, warnings, successes, notices) */
@@ -58,7 +60,7 @@
 	/* Toolbar and Tools */ /* Used here in combination with `:hover` background-color turning light grey */
 
 
-	/* Opacity */ /* = `#7d7d7d` on `background-color: #fff`; HSB 0°, 0%, 49% */ /* = `#222` on `background-color: #fff`, closest to `#202122` */ /* = `#424242` on `background-color: #fff`, closest to `#404244` */
+	/* Opacity */ /* = `#7d7d7d` on `background-color: #fff`; HSB 0°, 0%, 49% */ /* = `#222` on `background-color: #fff`, closest to `#202122` */ /* = `#424242` on `background-color: #fff`, closest to `#404244` */ /* = `#555`, closest to `#54595d` on background-color `#fff`. */
 
 
 	/* == Positioning == */
@@ -72,7 +74,9 @@
 
 	/* Border */
 	/* User system messages (errors, warnings, successes, notices) */
-	/* Border Colors */ /* See T168029 */
+	/* Border Colors */
+	/* Border Colors primary buttons */ /* See T168029 */
+	/* Border Colors user system messages */
 	/* Border Styles */
 	/* Border Widths */
 	/* Border Radius */
