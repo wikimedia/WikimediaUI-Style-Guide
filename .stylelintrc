@@ -5,6 +5,6 @@
 		"indentation": null,
 		"max-empty-lines": null,
 		"no-descending-specificity": null,
-		"unit-blacklist": null
+		"unit-disallowed-list": null
 	}
 }

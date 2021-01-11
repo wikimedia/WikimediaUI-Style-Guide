@@ -17,7 +17,6 @@
 	--outline-color-base--focus: var( --color-primary--focus );
 	/* HACK; Add Georgia to serif fallback as long as WikimediaUI Base isn't updated. */
 	--font-family-serif--fallback: Georgia, serif; /* stylelint-disable-line value-keyword-case */
-	--font-weight-base: 400;
 	/* Setting bold to `600` as our stack works better with it, only Lato is on the edge.
 	   Helvetica and Arial fallback gracefully to `700`, see T246791. */
 	--font-weight-bold: 600;
