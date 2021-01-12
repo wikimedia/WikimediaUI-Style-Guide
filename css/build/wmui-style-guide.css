@@ -661,6 +661,13 @@ img {
 .page--components figure img {
 	margin-top: 0.8rem;
 }
+.is-comparison img {
+	float: left;
+	margin-left: 1.2rem;
+}
+.is-comparison img:first-child {
+		margin-left: 0;
+	}
 /* ::: Inline Elements ::: */
 a {
 	color: #36c;
@@ -722,6 +729,8 @@ sup {
 .color-palette:after,
 .figures-do-dont:before,
 .figures-do-dont:after,
+.is-comparison:before,
+.is-comparison:after,
 .content__illustration-style .figure--full:before,
 .content__illustration-style .figure--full:after {
 	content: ' ';
@@ -732,6 +741,7 @@ sup {
 .content-box:after,
 .color-palette:after,
 .figures-do-dont:after,
+.is-comparison:after,
 .content__illustration-style .figure--full:after {
 	clear: both;
 }
@@ -1230,6 +1240,10 @@ sup {
 	width: 13.2rem;
 	height: 6.4rem;
 }
+/*
+.components__states,
+.components__imagery
+*/
 /* Messages */
 .page--components-messages .components__intro {
 	max-width: 700px;

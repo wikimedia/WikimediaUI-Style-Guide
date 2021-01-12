@@ -151,7 +151,8 @@ module.exports = function ( grunt ) {
 						'Radio_Button',
 						'Toggle_Switch',
 						'Text_Input',
-						'Dropdown'
+						'Dropdown',
+						'Language_Selectors'
 					],
 					groupContentsOnly: true,
 					compact: true,
