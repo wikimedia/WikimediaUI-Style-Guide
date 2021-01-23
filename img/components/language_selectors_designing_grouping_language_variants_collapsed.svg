@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="356" height="318" viewBox="0 0 356 318">
+	<title>
+		language_selectors_designing_grouping_language_variants_collapsed
+	</title>
+	<defs>
+		<path id="path-1" d="M2 0h344a2 2 0 012 2v306a2 2 0 01-2 2H2a2 2 0 01-2-2V2a2 2 0 012-2z"/>
+		<path id="path-5" d="M10.435 3.664L9.428 2.4 5.217 7.032 1.099 2.4 0 3.664l5.217 6 5.218-6"/>
+		<path id="path-7" d="M2 0h344a2 2 0 012 2v50H0V2a2 2 0 012-2z"/>
+		<path id="path-9" d="M7.5 13c3.04 0 5.5-2.46 5.5-5.5S10.54 2 7.5 2 2 4.46 2 7.5 4.46 13 7.5 13zm4.55.46A7.432 7.432 0 017.5 15C3.36 15 0 11.64 0 7.5 0 3.36 3.36 0 7.5 0 11.64 0 15 3.36 15 7.5c0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>
+		<filter id="filter-3" width="102.6%" height="102.9%" x="-1.3%" y="-1.1%" filterUnits="objectBoundingBox">
+			<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+			<feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+			<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+		</filter>
+		<filter id="filter-4">
+			<feColorMatrix in="SourceGraphic" values="0 0 0 0 0.125490 0 0 0 0 0.129412 0 0 0 0 0.133333 0 0 0 1.000000 0"/>
+		</filter>
+		<filter id="filter-8" width="102%" height="113.5%" x="-1%" y="-4.8%" filterUnits="objectBoundingBox">
+			<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+		</filter>
+	</defs>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-7676 -2740)">
+			<path fill="#FFF" d="M0 0h14100v4217H0z"/>
+			<g id="LANGUAGE-SELECTORS" transform="translate(7189 2174)">
+				<g id="Group" transform="translate(491 569)">
+					<mask id="mask-2" fill="#fff">
+						<use xlink:href="#path-1"/>
+					</mask>
+					<g id="Rectangle-Copy-8">
+						<use fill="#000" filter="url(#filter-3)" xlink:href="#path-1"/>
+						<path fill="#FFF" stroke="#C8CCD1" d="M346-.5a2.496 2.496 0 012.5 2.5h0v306c0 .69-.28 1.315-.732 1.768a2.492 2.492 0 01-1.768.732h0H2c-.69 0-1.315-.28-1.768-.732A2.492 2.492 0 01-.5 308h0V2c0-.69.28-1.315.732-1.768A2.492 2.492 0 012-.5h0z"/>
+					</g>
+					<g id="list/short" mask="url(#mask-2)">
+						<g transform="translate(0 159)">
+							<text id="All-languages" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+								<tspan x="44" y="32">All languages</tspan>
+							</text>
+							<g id="Group" transform="translate(12 43)">
+								<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+								<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+									<tspan x="32" y="23">English</tspan>
+								</text>
+								<g id="🔣-Icon/Moderation/unStar" filter="url(#filter-4)" transform="translate(11 11)">
+									<g transform="rotate(-90 5.217 6)">
+										<mask id="mask-6" fill="#fff">
+											<use xlink:href="#path-5"/>
+										</mask>
+										<use id="Mask-2" fill="#000" xlink:href="#path-5"/>
+										<g id="Group" fill="#202122" mask="url(#mask-6)">
+											<g id="🎨-Color/Base10-#202122">
+												<path id="Color" d="M0 0h10.435v12H0z"/>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+							<g id="language-item-copy-11" transform="translate(12 76)">
+								<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+								<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+									<tspan x="32" y="23">Esperanto</tspan>
+								</text>
+							</g>
+							<g id="language-item-copy" transform="translate(12 109)">
+								<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+								<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+									<tspan x="32" y="23">Ελληνικά</tspan>
+								</text>
+							</g>
+							<g id="language-item-copy-5" transform="translate(12 142)">
+								<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+								<text id="name" fill="#202122" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo" font-size="16" font-weight="normal">
+									<tspan x="32" y="22">한국어</tspan>
+								</text>
+							</g>
+						</g>
+					</g>
+					<g mask="url(#mask-2)">
+						<g transform="translate(0 52)">
+							<text id="Variants-for-English" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+								<tspan x="44" y="31">Variants for English</tspan>
+							</text>
+							<g id="language-item-copy-9" transform="translate(12 75)">
+								<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+								<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+									<tspan x="32" y="23">US English</tspan>
+								</text>
+							</g>
+							<g id="language-item-copy-7" transform="translate(12 42)">
+								<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+								<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+									<tspan x="32" y="23">Canadian Eng…</tspan>
+								</text>
+							</g>
+							<g id="language-item-copy-8" transform="translate(176 42)">
+								<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+								<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+									<tspan x="32" y="23">British English</tspan>
+								</text>
+							</g>
+						</g>
+					</g>
+					<g id="search-bar">
+						<g id="Rectangle-Copy-8">
+							<use fill="#000" filter="url(#filter-8)" xlink:href="#path-7"/>
+							<use fill="#FFF" xlink:href="#path-7"/>
+						</g>
+						<text id="Search-languages" fill="#54595D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+							<tspan x="44" y="32">Search languages</tspan>
+						</text>
+						<g id="Group" transform="translate(16 16)">
+							<mask id="mask-10" fill="#fff">
+								<use xlink:href="#path-9"/>
+							</mask>
+							<use id="Shape" fill="#000" fill-rule="nonzero" xlink:href="#path-9"/>
+							<g id="🎨-Color/Base/B10-(#222)" fill="#222" mask="url(#mask-10)">
+								<path id="Rectangle-1" d="M0 0h20v20H0z"/>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
