@@ -2033,16 +2033,16 @@
 				<text id="Title" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="18" font-weight="bold">
 					<tspan x="24" y="36">Title</tspan>
 				</text>
-				<g id="Button-/---progressive-/-!default" transform="translate(39 99)">
-					<rect id="bg" width="236" height="31" x=".5" y=".5" fill="#36C" stroke="#36C" rx="2"/>
+				<g id="Button-/---progressive-/-!default" transform="translate(30 99)">
+					<rect id="bg" width="245" height="31" x=".5" y=".5" fill="#36C" stroke="#36C" rx="2"/>
 					<text id="label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-						<tspan x="12.436" y="20">When the action text is long</tspan>
+						<tspan x="12.056" y="20">When the button label is long</tspan>
 					</text>
 				</g>
-				<g id="Button-/-!default-(--neutral)" transform="translate(80 139)">
-					<rect id="bg" width="195" height="31" x=".5" y=".5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
+				<g id="Button-/-!default-(--neutral)" transform="translate(78 139)">
+					<rect id="bg" width="197" height="31" x=".5" y=".5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
 					<text id="Label" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
-						<tspan x="12.376" y="20">You may stack actions</tspan>
+						<tspan x="12.176" y="20">You may stack buttons</tspan>
 					</text>
 				</g>
 			</g>
@@ -2052,7 +2052,7 @@
 					<use fill="#FFF" xlink:href="#path-37"/>
 				</g>
 				<text id="Dialog-content-shoul" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
-					<tspan x="23" y="59">Dialog content should aim to fill </tspan> <tspan x="23" y="81">one or two lines</tspan>
+					<tspan x="23" y="59">Dialog content should aim to fill </tspan> <tspan x="23" y="79">one or two lines</tspan>
 				</text>
 				<text id="Title" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="18" font-weight="bold">
 					<tspan x="24" y="36">Title</tspan>
