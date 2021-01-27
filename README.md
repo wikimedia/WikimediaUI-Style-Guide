@@ -1,6 +1,6 @@
 # Wikimedia Design Style Guide (WikimediaUI)
 
-The Wikimedia Design Style Guide ensures a consistent look and behavior for Wikimedia Foundation products.
+The Wikimedia Design Style Guide ensures a consistent look and behavior for Wikimedia Movement products.
 
 The style guide features unique focus areas like accessibility, internationalization and localization, originating from large-scale websites, diverse languages and communities like Wikipedia, Wikimedia Commons or Wikidata and software platforms like MediaWiki.
 
