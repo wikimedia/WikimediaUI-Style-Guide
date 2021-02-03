@@ -2,7 +2,7 @@
 /* Load files from 'node_modules' folders with postCSS-import plugin.
  * Modules specified in package.json file. */
 /**
- * WikimediaUI Base v0.17.0
+ * WikimediaUI Base v0.18.1
  * Wikimedia Foundation user interface base variables
  * https://gerrit.wikimedia.org/g/wikimedia-ui-base/
  *
@@ -45,6 +45,8 @@
 	/* 'Framed' UI elements (Framed Buttons, Dropdowns, ToggleSwitches…) */
 	/* 'Filled' UI elements (Checkboxes, Radios, ProgressBars…) */
 	/* Binary Input elements (Checkboxes, Radios, Toggle Switches) */
+	/* Quiet Buttons */
+	/* Use `rgba()` values here as the quiet buttons need to blend in with background. */ /* = `--wmui-color-base90` on white. */ /* = `--wmui-color-base80` on white. */
 	/* Toolbar and Tools */
 	/* Tabs Navigation Background Color */
 	/* User system messages (errors, warnings, successes, notices) */
@@ -58,7 +60,7 @@
 	/* Toolbar and Tools */ /* Used here in combination with `:hover` background-color turning light grey */
 
 
-	/* Opacity */ /* = `#7d7d7d` on `background-color: #fff`; HSB 0°, 0%, 49% */ /* = `#222` on `background-color: #fff`, closest to `#202122` */ /* = `#424242` on `background-color: #fff`, closest to `#404244` */
+	/* Opacity */ /* = `#7d7d7d` on `background-color: #fff`; HSB 0°, 0%, 49% */ /* = `#222` on `background-color: #fff`, closest to `#202122` */ /* = `#424242` on `background-color: #fff`, closest to `#404244` */ /* = `#555`, closest to `#54595d` on background-color `#fff`. */
 
 
 	/* == Positioning == */
@@ -72,7 +74,9 @@
 
 	/* Border */
 	/* User system messages (errors, warnings, successes, notices) */
-	/* Border Colors */ /* See T168029 */
+	/* Border Colors */
+	/* Border Colors primary buttons */ /* See T168029 */
+	/* Border Colors user system messages */
 	/* Border Styles */
 	/* Border Widths */
 	/* Border Radius */
@@ -574,9 +578,9 @@ h6 {
 }
 /* ... Other Block-Level Elements ... */
 blockquote {
-	border-left: 3px solid #c8ccd1; /* FIXME: var */
 	margin: 1.6rem 0 0;
-	padding: 0 3.2rem;
+	border-left: 4px solid #eaecf0;
+	padding: 0.8rem 3.2rem;
 	font-family: Georgia, serif; /* Fallback */
 	font-size: 2rem;
 	font-style: italic;
@@ -657,6 +661,13 @@ img {
 .page--components figure img {
 	margin-top: 0.8rem;
 }
+.is-comparison img {
+	float: left;
+	margin-left: 1.2rem;
+}
+.is-comparison img:first-child {
+		margin-left: 0;
+	}
 /* ::: Inline Elements ::: */
 a {
 	color: #36c;
@@ -718,6 +729,8 @@ sup {
 .color-palette:after,
 .figures-do-dont:before,
 .figures-do-dont:after,
+.is-comparison:before,
+.is-comparison:after,
 .content__illustration-style .figure--full:before,
 .content__illustration-style .figure--full:after {
 	content: ' ';
@@ -728,6 +741,7 @@ sup {
 .content-box:after,
 .color-palette:after,
 .figures-do-dont:after,
+.is-comparison:after,
 .content__illustration-style .figure--full:after {
 	clear: both;
 }
@@ -1226,10 +1240,20 @@ sup {
 	width: 13.2rem;
 	height: 6.4rem;
 }
+/*
+.components__states,
+.components__imagery
+*/
+/* Messages */
 .page--components-messages .components__intro {
 	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
+}
+/* Override general img border radius for correct Message representation */
+.page--components-messages img {
+	-moz-border-radius: 0;
+	     border-radius: 0;
 }
 /* ... Resources ... */
 .resources-table {
@@ -1328,6 +1352,9 @@ sup {
 	font-size: 1.3rem;
 	font-weight: 600;
 	vertical-align: top;
+}
+.typography-styles .typography-styles__blockquote {
+	margin-bottom: 4.8rem;
 }
 .typography-styles .typography-styles__code {
 	margin-bottom: 0;

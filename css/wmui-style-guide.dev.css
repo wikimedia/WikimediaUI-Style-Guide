@@ -13,10 +13,10 @@
 	--width-site-desktop-wide: 1140px;
 	--border-color-heading: var( --wmui-color-base80 );
 	--border-width-heading: 3px;
+	--border-start-blockquote: 4px var( --border-style-base ) var( --wmui-color-base80 );
 	--outline-color-base--focus: var( --color-primary--focus );
 	/* HACK; Add Georgia to serif fallback as long as WikimediaUI Base isn't updated. */
 	--font-family-serif--fallback: Georgia, serif; /* stylelint-disable-line value-keyword-case */
-	--font-weight-base: 400;
 	/* Setting bold to `600` as our stack works better with it, only Lato is on the edge.
 	   Helvetica and Arial fallback gracefully to `700`, see T246791. */
 	--font-weight-bold: 600;
@@ -98,9 +98,9 @@ h6 {
 
 /* ... Other Block-Level Elements ... */
 blockquote {
-	border-left: 3px solid var( --wmui-color-base70 ); /* FIXME: var */
 	margin: 1.6rem 0 0;
-	padding: 0 3.2rem;
+	border-left: var( --border-start-blockquote );
+	padding: 0.8rem 3.2rem;
 	font-family: var( --font-family-serif--fallback ); /* Fallback */
 	font-size: 2rem;
 	font-style: italic;
@@ -197,6 +197,15 @@ img {
 	margin-top: 0.8rem;
 }
 
+.is-comparison img {
+	float: left;
+	margin-left: 1.2rem;
+}
+
+	.is-comparison img:first-child {
+		margin-left: 0;
+	}
+
 /* ::: Inline Elements ::: */
 a {
 	color: var( --color-primary );
@@ -267,6 +276,8 @@ sup {
 .color-palette:after,
 .figures-do-dont:before,
 .figures-do-dont:after,
+.is-comparison:before,
+.is-comparison:after,
 .content__illustration-style .figure--full:before,
 .content__illustration-style .figure--full:after {
 	content: ' ';
@@ -278,6 +289,7 @@ sup {
 .content-box:after,
 .color-palette:after,
 .figures-do-dont:after,
+.is-comparison:after,
 .content__illustration-style .figure--full:after {
 	clear: both;
 }
@@ -827,11 +839,23 @@ sup {
 	height: 6.4rem;
 }
 
+/*
+.components__states,
+.components__imagery
+*/
+
+/* Messages */
 .page--components-messages .components__intro {
 	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/* Override general img border radius for correct Message representation */
+.page--components-messages img {
+	border-radius: 0;
+}
+
 
 /* ... Resources ... */
 .resources-table {
@@ -953,6 +977,10 @@ sup {
 	font-size: 1.3rem;
 	font-weight: var( --font-weight-bold );
 	vertical-align: top;
+}
+
+.typography-styles .typography-styles__blockquote {
+	margin-bottom: 4.8rem;
 }
 
 .typography-styles .typography-styles__code {

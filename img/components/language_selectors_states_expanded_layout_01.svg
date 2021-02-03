@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1041" height="788" viewBox="0 0 1041 788">
+	<title>
+		language_selectors_states_expanded_layout_01
+	</title>
+	<defs>
+		<path id="path-10" d="M7.5 13c3.04 0 5.5-2.46 5.5-5.5S10.54 2 7.5 2 2 4.46 2 7.5 4.46 13 7.5 13zm4.55.46A7.432 7.432 0 017.5 15C3.36 15 0 11.64 0 7.5 0 3.36 3.36 0 7.5 0 11.64 0 15 3.36 15 7.5c0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>
+		<path id="path-1" d="M8 0h1023a8 8 0 018 8v770a8 8 0 01-8 8H8a8 8 0 01-8-8V8a8 8 0 018-8z"/>
+		<path id="path-3" d="M58 50h923a8 8 0 018 8v670a8 8 0 01-8 8H58a8 8 0 01-8-8V58a8 8 0 018-8z"/>
+		<path id="path-15" d="M2 0h508a2 2 0 012 2v50H0V2a2 2 0 012-2z"/>
+		<path id="path-5" d="M2 0h344a2 2 0 012 2v306a2 2 0 01-2 2H2a2 2 0 01-2-2V2a2 2 0 012-2z"/>
+		<path id="path-12" d="M2 0h508a2 2 0 012 2v444a2 2 0 01-2 2H2a2 2 0 01-2-2V2a2 2 0 012-2z"/>
+		<path id="path-8" d="M2 0h344a2 2 0 012 2v50H0V2a2 2 0 012-2z"/>
+		<path id="path-17" d="M7.5 13c3.04 0 5.5-2.46 5.5-5.5S10.54 2 7.5 2 2 4.46 2 7.5 4.46 13 7.5 13zm4.55.46A7.432 7.432 0 017.5 15C3.36 15 0 11.64 0 7.5 0 3.36 3.36 0 7.5 0 11.64 0 15 3.36 15 7.5c0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>
+		<filter id="filter-2" width="100.2%" height="100.3%" x="-.1%" y="-.1%" filterUnits="objectBoundingBox">
+			<feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation=".5"/>
+			<feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+			<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+			<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+		</filter>
+		<filter id="filter-7" width="102.6%" height="102.9%" x="-1.3%" y="-1.1%" filterUnits="objectBoundingBox">
+			<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+			<feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+			<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+		</filter>
+		<filter id="filter-14" width="101.8%" height="102%" x="-.9%" y="-.8%" filterUnits="objectBoundingBox">
+			<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+			<feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+			<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+		</filter>
+		<filter id="filter-4" width="100.2%" height="100.3%" x="-.1%" y="-.1%" filterUnits="objectBoundingBox">
+			<feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation=".5"/>
+			<feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+			<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+			<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+		</filter>
+		<filter id="filter-16" width="101.4%" height="113.5%" x="-.7%" y="-4.8%" filterUnits="objectBoundingBox">
+			<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+		</filter>
+		<filter id="filter-9" width="102%" height="113.5%" x="-1%" y="-4.8%" filterUnits="objectBoundingBox">
+			<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+		</filter>
+	</defs>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-7215 -3273)">
+			<path fill="#FFF" d="M0 0h14100v4217H0z"/>
+			<g id="LANGUAGE-SELECTORS" transform="translate(7189 2174)">
+				<g id="Group-2" transform="translate(27 1100)">
+					<g id="Rectangle">
+						<use fill="#72777D" xlink:href="#path-1"/>
+						<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
+					</g>
+					<g id="Rectangle">
+						<use fill="#EAECF0" xlink:href="#path-3"/>
+						<use fill="#000" filter="url(#filter-4)" xlink:href="#path-3"/>
+					</g>
+					<g id="selector/default" transform="translate(360 224)">
+						<g id="Group">
+							<mask id="mask-6" fill="#fff">
+								<use xlink:href="#path-5"/>
+							</mask>
+							<g id="Rectangle-Copy-8">
+								<use fill="#000" filter="url(#filter-7)" xlink:href="#path-5"/>
+								<path fill="#FFF" stroke="#C8CCD1" d="M346-.5a2.496 2.496 0 012.5 2.5h0v306c0 .69-.28 1.315-.732 1.768a2.492 2.492 0 01-1.768.732h0H2c-.69 0-1.315-.28-1.768-.732A2.492 2.492 0 01-.5 308h0V2c0-.69.28-1.315.732-1.768A2.492 2.492 0 012-.5h0z"/>
+							</g>
+							<g mask="url(#mask-6)">
+								<g transform="translate(0 159)">
+									<text id="All-languages" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+										<tspan x="44" y="32">All languages</tspan>
+									</text>
+									<g transform="translate(12 43)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">English</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-11" transform="translate(12 76)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Esperanto</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy" transform="translate(12 109)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Ελληνικά</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-5" transform="translate(12 142)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo" font-size="16" font-weight="normal">
+											<tspan x="32" y="22">한국어</tspan>
+										</text>
+									</g>
+								</g>
+							</g>
+							<g mask="url(#mask-6)">
+								<g transform="translate(0 52)">
+									<text id="Suggested" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+										<tspan x="44" y="31">Suggested</tspan>
+									</text>
+									<g id="language-item-copy-9" transform="translate(12 75)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Español</tspan>
+										</text>
+									</g>
+									<g transform="translate(12 42)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">English</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-5" transform="translate(176 75)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo" font-size="16" font-weight="normal">
+											<tspan x="32" y="22">한국어</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-8" transform="translate(176 42)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">русский</tspan>
+										</text>
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="search-bar">
+							<g id="Rectangle-Copy-8">
+								<use fill="#000" filter="url(#filter-9)" xlink:href="#path-8"/>
+								<use fill="#FFF" xlink:href="#path-8"/>
+							</g>
+							<text id="Search-languages" fill="#54595D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+								<tspan x="44" y="32">Search languages</tspan>
+							</text>
+							<g id="Group" transform="translate(16 16)">
+								<mask id="mask-11" fill="#fff">
+									<use xlink:href="#path-10"/>
+								</mask>
+								<use id="Shape" fill="#000" fill-rule="nonzero" xlink:href="#path-10"/>
+								<g id="🎨-Color/Base/B10-(#222)" fill="#222" mask="url(#mask-11)">
+									<path id="Rectangle-1" d="M0 0h20v20H0z"/>
+								</g>
+							</g>
+						</g>
+					</g>
+					<g id="Group" transform="translate(264 169)">
+						<mask id="mask-13" fill="#fff">
+							<use xlink:href="#path-12"/>
+						</mask>
+						<g id="Rectangle-Copy-8">
+							<use fill="#000" filter="url(#filter-14)" xlink:href="#path-12"/>
+							<path fill="#FFF" stroke="#C8CCD1" d="M510-.5a2.496 2.496 0 012.5 2.5h0v444c0 .69-.28 1.315-.732 1.768a2.492 2.492 0 01-1.768.732h0H2c-.69 0-1.315-.28-1.768-.732A2.492 2.492 0 01-.5 446h0V2c0-.69.28-1.315.732-1.768A2.492 2.492 0 012-.5h0z"/>
+						</g>
+						<g mask="url(#mask-13)">
+							<g transform="translate(0 52)">
+								<g id="Group-5" transform="translate(12 15)">
+									<text id="All-languages" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+										<tspan x="32" y="15">All languages</tspan>
+									</text>
+									<g id="language-item" transform="translate(0 26)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Afrikaans</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-2" transform="translate(164 26)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Galego</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-4" transform="translate(328 26)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Svenska</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-11" transform="translate(0 59)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Català</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-13" transform="translate(164 59)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Italiano</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy" transform="translate(328 59)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Ελληνικά</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy" transform="translate(0 92)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Deutsch</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-3" transform="translate(164 92)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Nederlands</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-17" transform="translate(328 92)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Български</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-9" transform="translate(0 125)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Español</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-14" transform="translate(164 125)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Português</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-18" transform="translate(328 125)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Русский</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-6" transform="translate(0 158)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Français</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-15" transform="translate(164 158)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Suomi</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-19" transform="translate(328 158)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">Чӑвашла</tspan>
+										</text>
+									</g>
+								</g>
+								<g id="Group-5-Copy" transform="translate(12 230)">
+									<g id="language-item">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="KohinoorDevanagari-Regular, Kohinoor Devanagari" font-size="16" font-weight="normal">
+											<tspan x="32" y="25">नेपाली</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-2" transform="translate(164)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="KohinoorGujarati-Regular, Kohinoor Gujarati" font-size="16" font-weight="normal">
+											<tspan x="32" y="25">ગુજરાતી</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-4" transform="translate(328)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="LucidaGrande, Lucida Grande" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">ייִדיש</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-11" transform="translate(0 33)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="KohinoorDevanagari-Regular, Kohinoor Devanagari" font-size="16" font-weight="normal">
+											<tspan x="32" y="25">मराठी</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-13" transform="translate(164 33)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="MalayalamSangamMN, Malayalam Sangam MN" font-size="16" font-weight="normal">
+											<tspan x="32" y="21">മലയാളം</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-16" transform="translate(328 33)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="LucidaGrande, Lucida Grande" font-size="16" font-weight="normal">
+											<tspan x="32" y="23">עברית</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy" transform="translate(0 66)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="KohinoorDevanagari-Regular, Kohinoor Devanagari" font-size="16" font-weight="normal">
+											<tspan x="32" y="25">हिन्दी</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-3" transform="translate(164 66)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="GeezaPro, Geeza Pro" font-size="16" font-weight="normal">
+											<tspan x="32" y="22">اردو</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-17" transform="translate(328 66)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal">
+											<tspan x="32" y="25">中文</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-5" transform="translate(0 99)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="KohinoorBangla-Regular, Kohinoor Bangla" font-size="16" font-weight="normal">
+											<tspan x="32" y="25">বাংলা</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-14" transform="translate(164 99)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="GeezaPro, Geeza Pro" font-size="16" font-weight="normal">
+											<tspan x="32" y="22">العربية</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-18" transform="translate(328 99)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal">
+											<tspan x="32" y="25">日本語</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-6" transform="translate(0 132)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="MuktaMahee-Regular, Mukta Mahee" font-size="16" font-weight="normal">
+											<tspan x="32" y="26">ਪੰਜਾਬੀ</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-15" transform="translate(164 132)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="GeezaPro, Geeza Pro" font-size="16" font-weight="normal">
+											<tspan x="32" y="22">فارسی</tspan>
+										</text>
+									</g>
+									<g id="language-item-copy-5" transform="translate(328 132)">
+										<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
+										<text id="name" fill="#202122" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo" font-size="16" font-weight="normal">
+											<tspan x="32" y="22">한국어</tspan>
+										</text>
+									</g>
+								</g>
+							</g>
+						</g>
+						<g id="search-bar" mask="url(#mask-13)">
+							<g id="Rectangle-Copy-8">
+								<use fill="#000" filter="url(#filter-16)" xlink:href="#path-15"/>
+								<use fill="#FFF" xlink:href="#path-15"/>
+							</g>
+							<text id="Search-languages" fill="#54595D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+								<tspan x="44" y="32">Search languages</tspan>
+							</text>
+							<g id="Group" transform="translate(16 16)">
+								<mask id="mask-18" fill="#fff">
+									<use xlink:href="#path-17"/>
+								</mask>
+								<use id="Shape" fill="#000" fill-rule="nonzero" xlink:href="#path-17"/>
+								<g id="🎨-Color/Base/B10-(#222)" fill="#222" mask="url(#mask-18)">
+									<path id="Rectangle-1" d="M0 0h20v20H0z"/>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

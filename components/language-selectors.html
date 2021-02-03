@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" class="js--off">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta property="og:title" content="Components: Language selectors - Wikimedia Design Style Guide (WikimediaUI)">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components/dropdowns.html">
+	<meta property="og:image" content="https://design.wikimedia.org/style-guide/img/design-style-guide.png">
+	<link rel="stylesheet" href="../css/build/wmui-style-guide.min.css">
+	<title>Components: Language selectors – Wikimedia Design Style Guide</title>
+	<script>
+		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
+	</script>
+	<link rel="dns-prefetch" href="https://piwik.wikimedia.org/">
+	<link rel="preload" href="../fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
+	<script src="../js/matomo-tracking.min.js"></script>
+	<script src="../js/wikimedia-design-style-guide.min.js" async></script>
+</head>
+<body class="page--components page--components-language-selectors" vocab="http://schema.org/" typeof="WebPage">
+	<header id="header" class="header">
+		<div class="content-box">
+			<a href="#content" class="is-aural is-focusable">Jump to content</a>
+			<a href="#nav--main" class="is-aural is-focusable">Jump to navigation</a>
+			<h6 class="site__title"><a href="./"><span class="site__org">Wikimedia </span><span class="site__project">Design Style Guide</span></a></h6>
+			<label class="btn--nav-main" for="trigger--nav-main" aria-hidden="true" title="Show main menu">
+				<i></i> <span>Menu</span>
+			</label>
+			<a href="https://github.com/wikimedia/WikimediaUI-Style-Guide" target="_blank" rel="noopener" class="lnk--contribute" title="Fork and contribute on GitHub"><span>Contribute on </span>GitHub</a>
+		</div>
+	</header>
+	<div class="page">
+		<div class="content-box">
+			<div class="col col--start">
+				<input type="checkbox" id="trigger--nav-main" class="trigger--nav-main">
+				<nav id="nav--main" class="nav nav--main">
+					<ol>
+						<li class="nav__item"><a href="../index.html">Introduction</a></li>
+						<li class="nav__item"><a href="../design-principles.html">Design principles</a></li>
+						<li class="nav__item"><a href="../visual-style.html">Visual style</a>
+							<ul class="nav__sub-items">
+								<li class="nav__sub-item"><a href="../visual-style.html">Principles</a></li>
+								<li class="nav__sub-item"><a href="../visual-style_colors.html">Colors</a></li>
+								<li class="nav__sub-item"><a href="../visual-style_typography.html">Typography</a></li>
+								<li class="nav__sub-item"><a href="../visual-style_icons.html">Icons</a></li>
+								<li class="nav__sub-item is-on"><a href="../visual-style_images.html">Images</a></li>
+								<li class="nav__sub-item"><a href="../visual-style_illustrations.html">Illustrations</a></li>
+							</ul>
+						</li>
+						<li class="nav__item is-on"><a href="links.html">Components</a>
+							<ul class="nav__sub-items">
+								<li class="nav__sub-item"><a href="links.html">Links</a></li>
+								<li class="nav__sub-item"><a href="buttons.html">Buttons</a></li>
+								<li class="nav__sub-item"><a href="button-groups.html">Button groups</a></li>
+								<li class="nav__sub-item"><a href="checkboxes.html">Checkboxes</a></li>
+								<li class="nav__sub-item"><a href="radio-buttons.html">Radio buttons</a></li>
+								<li class="nav__sub-item"><a href="toggle-switches.html">Toggle switches</a></li>
+								<li class="nav__sub-item"><a href="dropdowns.html">Dropdowns</a></li>
+								<li class="nav__sub-item"><a href="comboboxes.html">Comboboxes</a></li>
+								<li class="nav__sub-item"><a href="text-inputs-and-textarea.html">Text inputs and textarea</a></li>
+								<li class="nav__sub-item"><a href="number-inputs.html">Number inputs</a></li>
+								<li class="nav__sub-item"><a href="file-inputs.html">File inputs</a></li>
+								<li class="nav__sub-item"><a href="messages.html">Messages</a></li>
+								<li class="nav__sub-item is-on"><a href="language-selectors.html">Language selectors</a></li>
+							</ul>
+						</li>
+						<!-- <li><a href="../patterns.html">Patterns</a></li> -->
+						<li><a href="../resources.html">Resources</a></li>
+					</ol>
+				</nav>
+			</div>
+			<div class="col col--end">
+				<main id="content" class="content">
+					<div class="page__parent-title">Components</div>
+					<h1 class="page__title">Language selectors</h1>
+					<p class="page__lead">Language selectors allow users to pick languages from a list. In projects like <a href="https://wikipedia.org/" target="_blank" rel="noopener">Wikipedia</a> with 300+ language Wikipedias, or software like <a href="https://mediawiki.org/" target="_blank" rel="noopener">MediaWiki</a> with 350+ languages supported, language selection is crucial and can occur in many different contexts.</p>
+
+					<section id="using">
+						<h2>Using language selectors</h2>
+						<p>Language selectors display a list of languages. The list of languages can be customized and may be different in each component application. In some cases the selection will display all possible languages. In other cases, only the few languages for which a specific piece of content is available may be shown.</p>
+						<p>The language selectors should be used when users select language as input or for navigation purposes. Language selectors automatically adapt to the number of languages and the screen real state available. In addition, language selectors can be customized with more information and actions.</p>
+						<p>Depending on the context, the language selectors can include:</p>
+						<ol>
+							<li><strong>Suggested languages</strong> to facilitate finding frequently selected languages by the user.</li>
+							<li><strong>Additional details</strong> for each language to provide additional metadata in the form of labels or icons.</li>
+							<li><strong>Grouping language variants<sup><a href="#references">[1]</a></sup></strong> to easily support the selection of closely-related languages.</li>
+							<li><strong>Quick actions</strong> to access other language-related activities relevant to the context.</li>
+							<li><strong>Selection range</strong> for cases where more than one language has to be selected at a time.</li>
+							<li><strong>Empty states</strong> with optional follow-up actions allowing users to expand the available languages.</li>
+						</ol>
+						<figure class="components__anatomy">
+							<img src="../img/components/language_selectors_intro.svg" alt="language selectors visual design">
+							<figcaption class="figure__caption"></figcaption>
+						</figure>
+					</section>
+					<section id="designing">
+						<h2>Designing</h2>
+						<figure class="">
+							<img src="../img/components/language_selectors_designing.svg" alt="language selectors design properties">
+						</figure>
+						<p>The language selectors combine a <a href="text-inputs-and-textarea.html">search input</a> and a menu with the list of languages. In addition, specific elements of the language selectors can be adjusted to address particular needs.</p>
+						<p><strong>Label</strong><br>
+							The visual label is optional, due to the specific context language selectors are used in. But a visually hidden label for screen readers is obligatory. </p>
+						<p><strong>Placeholder text</strong><br>
+							Placeholder text is obligatory for language selectors. Use <span class="color-hint" style="--color-hint: #72777d;" title="#72777d">Base30</span> for it.</p>
+						<p><strong>Suggested languages</strong><br>
+							The suggested languages section is provided by default to simplify recurrent selection based on frequent and previous choices. They are hidden automatically when the total number of languages is small (less than 10) to avoid unnecessary repetition. Consider hiding the suggested list explicitly when the suggestions may not be useful.</p>
+						<p><strong>Additional details</strong><br>
+							Provide a clarifying text or icon next to the language can help to anticipate relevant information such as the title of the page the user will be navigating to. However, given the potentially large number of languages, additional details might increase the information density and make the selection process less fluent.</p>
+						<p><strong>Grouping language variants</strong><br>
+							When providing options that are considered variants of the same language such as Swiss German and Austrian German, it is preferred to present related languages grouped under a common family rather than exposing all the individual options.</p>
+						<figure class="components__imagery">
+							<img src="../img/components/language_selectors_designing_grouping_language_variants.svg" alt="language selectors grouping language variants">
+						</figure>
+						<p><strong>Additional actions</strong><br>
+							In addition to picking a language, the selector allows to optionally integrate different kinds of actions that may be relevant:</p>
+						<ul>
+							<li><strong>Quick actions.</strong> Surface secondary general actions related to the whole list of languages. These consist of an icon and a label. When one is provided, the icon will be shown in the language selector directly. When more than one action is provided, a "more" icon will provide access to a separate view will list them.</li>
+							<li><strong>Prominent action.</strong> One relevant action that is strongly connected to the content can be presented at the top of the list. For example, surfacing missing languages to lead users to create them with follow-up actions (next).</li>
+							<li><strong>Follow-up actions on empty states.</strong> Provide actions that allow to make the missing language available (by translating, creating, connecting, or any other means).</li>
+						</ul>
+						<figure class="components__imagery is-comparison">
+							<img src="../img/components/language_selectors_designing_additional_actions_01.svg" alt="language selectors additional actions">
+							<img src="../img/components/language_selectors_designing_additional_actions_02.svg" alt="language selectors additional actions">
+							<img src="../img/components/language_selectors_designing_additional_actions_03.svg" alt="language selectors additional actions">
+						</figure>
+						<p><strong>Selection range</strong><br>
+							Selecting one language at a time is the default, but cases where more than one language can be selected, the multiple selection version can be more convenient.
+						</p>
+						<p>See the <a href="https://commons.wikimedia.org/wiki/File:Language_Selector_Designs.pdf" target="_blank" rel="noopener">detailed design specification document for more details</a>.</p>
+					</section>
+					<section id="states">
+						<h2>States of language selectors</h2>
+						<p><strong>Selecting</strong><br>
+							Interaction with the language selector respects the visual states and interaction of its individual components. For example, hover or focus states, and keyboard manipulation work in the usual way for the search bar and the menu listing the languages.</p>
+						<figure class="components__states">
+							<img src="../img/components/language_selectors_states_selecting.svg" alt="language selectors selecting state">
+						</figure>
+						<p><strong>Searching</strong><br>
+							Flexible search with typeahead autocompletion is used to filter the language results.
+						</p>
+						<figure class="components__states">
+							<img src="../img/components/language_selectors_states_searching.svg" alt="language selectors searching state">
+						</figure>
+						<p><strong>Empty states</strong><br>
+							The selector shows empty states in different circumstances:
+						</p>
+						<ul>
+							<li>No languages available.</li>
+							<li>Search leads to a language not available for selection.</li>
+							<li>Search leads to no known language.</li>
+						</ul>
+						<p>Empty states can be customized to include mechanisms for making more languages available.</p>
+						<figure class="components__states is-comparison">
+							<img src="../img/components/language_selectors_states_empty_01.svg" alt="language selectors empty states">
+							<img src="../img/components/language_selectors_states_empty_02.svg" alt="language selectors empty states">
+							<figcaption class="figure__caption">Generic empty state (first) and custom one to make languages available by translating the content (second).</figcaption>
+						</figure>
+						<p><strong>Expanded layout</strong><br>
+							By default language selectors are shown as a modal
+							element over the current contents and taping outside cancels the selection. The layout adapts responsively:</p>
+						<ul>
+							<li>On wide screens when the number of languages to select is large (more than 30), the selector becomes wider and uses a 3-column layout.</li>
+							<li>On narrow screens the selector expands to the full viewport. In such cases, a header provides the control to close the selector.</li>
+						</ul>
+						<figure>
+							<img src="../img/components/language_selectors_states_expanded_layout_01.svg" alt="language selectors expanded layout state">
+							<img src="../img/components/language_selectors_states_expanded_layout_02.svg" alt="language selectors expanded layout state">
+							<figcaption class="figure__caption">Language selector adapted to a high number of languages on a wide screen (first) and taking the whole viewport on a narrow screen (second). </figcaption>
+						</figure>
+						<p>The optional section for suggested languages shows up to six languages using a two column layout by default, but using three columns when the list of all languages does so.</p>
+					</section>
+					<section id="types">
+						<h2>Types</h2>
+						<p><strong>Default</strong><br>
+							By default, the language selector presents list of languages for users to pick one. Making one selection closes the selector automatically. The list of	languages adapts dynamically to the number of languages and the space available. Regardless of the layout, it is composed simply by language names. </p>
+						<p>Other types of language selector provide room for additional information, actions, groupings and selections.</p>
+						<p><strong>Additional details and actions</strong><br>
+						<p>A type of language selector allowing for additional details and actions is also available:</p>
+						<ul>
+							<li><strong>Description labels and/or icons.</strong> Language items in the list optionally include an icon and a secondary label to communicate further details.</li>
+							<li><strong>Additional actions.</strong> Although the main purpose of the selector is still to pick languages, additional actions can be defined. These actions can appear more prominently (on top) or as part of the quick action menu in a corner at the bottom.</li>
+						</ul>
+						<figure class="is-comparison">
+							<img src="../img/components/language_selectors_types_additional_details_01.svg" alt="language selectors additional details types">
+							<img src="../img/components/language_selectors_types_additional_details_02.svg" alt="language selectors additional details types">
+							<figcaption class="figure__caption">Examples of descriptions to include the name of the item in each language (first) and highlight featured content with an icon (second).</figcaption>
+						</figure>
+						<figure>
+							<img src="../img/components/language_selectors_types_additional_actions.svg" alt="language selector additional actions type">
+							<figcaption class="figure__caption">Additional actions to communicate missing languages more prominently (on top) and providing access to additional functionality through the &quot;…&quot; icon (corner at the bottom).
+							</figcaption>
+						</figure>
+						<p><strong>Grouping language variants</strong></p>
+						<p>Support for language variants includes the possibility
+							to expand/collapse groups of related languages. In addition, when a variant is selected a prominent section with other variants allow users to quickly switch between related variants.</p>
+						<figure>
+							<img src="../img/components/language_selectors_designing_grouping_language_variants_collapsed.svg" alt="language selector grouping language variants type">
+							<figcaption class="figure__caption">A section of &quot;Variants of English&quot; is shown after selecting an English variant previously.</figcaption>
+						</figure>
+						<p><strong>Multiple selection</strong><br>
+							By default the selector is optimized to support selecting one language at a time. Specific types of selector are available to support a different number of languages. In particular, the following cases are supported:</p>
+						<ul>
+							<li><strong>Multiple selection.</strong> Supports selecting a whole list of languages in one go.</li>
+							<li><strong>Language pair.</strong> Supports selecting two languages. This can be useful when selecting a language pair from a single entry point control.</li>
+							<li><strong>All languages.</strong> Provides an additional option to select all languages. This can be convenient as a reset option when filtering. </li>
+						</ul>
+						<figure>
+							<img src="fixme" alt="">
+						</figure>
+					</section>
+					<section id="coding">
+						<h2>Coding</h2>
+						<p>See <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#demo-section-dropdown" target="_blank" rel="noopener">OOUI's demos section of dropdowns</a>.</p>
+					</section>
+					<section id="references">
+						<h2>References</h2>
+						<ol>
+							<li><a href="https://en.wikipedia.org/wiki/Variety_(linguistics)" target="_blank" rel="noopener">English Wikipedia: Variety in linguistics; language variants</a></li>
+						</ol>
+					</section>
+				</main>
+			</div>
+		</div>
+	</div>
+	<footer id="footer" class="footer">
+		<div class="content-box">
+			<ul class="footer__list footer__list--connect">
+				<li><a href="https://github.com/wikimedia/WikimediaUI-Style-Guide" target="_blank" rel="noopener">Contribute on GitHub</a></li>
+				<li><a href="https://twitter.com/@WikimediaDesign" title="Follow Wikimedia Product Design team on Twitter">Follow @WikimediaDesign</a></li>
+				<li><a href="https://lists.wikimedia.org/mailman/listinfo/design" title="Join Wikimedia Design mailing list">Join mailing list</a></li>
+			</ul>
+			<p>Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener" property="license">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.</p>
+			<ul class="footer__list footer__list--policy">
+				<li><a href="https://wikimediafoundation.org/privacy-policy/">Privacy policy</a></li>
+				<li><a href="https://design.wikimedia.org/accessibility-statement.html">Accessibility statement</a></li>
+			</ul>
+			<p><a href="https://foundation.wikimedia.org/" class="lnk--wikimedia-project" property="author" typeof="Organization">A Wikimedia Foundation project</a></p>
+			<noscript><p><img src="https://piwik.wikimedia.org/piwik.php?idsite=16&rec=1" alt=""></p></noscript>
+		</div>
+	</footer>
+</body>
+</html>
