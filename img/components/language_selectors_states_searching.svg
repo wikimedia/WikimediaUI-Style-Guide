@@ -6,7 +6,7 @@
 	<defs>
 		<path id="path-1" d="M2 0h344a2 2 0 012 2v130a2 2 0 01-2 2H2a2 2 0 01-2-2V2a2 2 0 012-2z"/>
 		<path id="path-4" d="M2 0h344a2 2 0 012 2v50H0V2a2 2 0 012-2z"/>
-		<path id="path-6" d="M16.142 2l1.414 1.414-6.364 6.364 6.366 6.366-1.414 1.414-6.366-6.366-6.364 6.364L2 16.142l6.364-6.364-6.362-6.362 1.414-1.414 6.362 6.362L16.142 2z"/>
+		<path id="path-6" d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm5.66 14.24l-1.41 1.41L10 11.41l-4.24 4.25-1.42-1.42L8.59 10 4.34 5.76l1.42-1.42L10 8.59l4.24-4.24 1.41 1.41L11.41 10l4.25 4.24z"/>
 		<path id="path-8" d="M7.5 13c3.04 0 5.5-2.46 5.5-5.5S10.54 2 7.5 2 2 4.46 2 7.5 4.46 13 7.5 13zm4.55.46A7.432 7.432 0 017.5 15C3.36 15 0 11.64 0 7.5 0 3.36 3.36 0 7.5 0 11.64 0 15 3.36 15 7.5c0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>
 		<filter id="filter-3" width="102.6%" height="106.7%" x="-1.3%" y="-2.6%" filterUnits="objectBoundingBox">
 			<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
@@ -23,7 +23,7 @@
 	</defs>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<g id="WikimediaUI-components_overview" transform="translate(-9044 -2312)">
-			<path fill="#FFF" d="M0 0h14100v4217H0z"/>
+			<path fill="#FFF" d="M0 0h14910v4217H0z"/>
 			<g id="LANGUAGE-SELECTORS" transform="translate(7189 2174)">
 				<g id="Group" transform="translate(1859 141)">
 					<mask id="mask-2" fill="#fff">
@@ -31,11 +31,11 @@
 					</mask>
 					<g id="Rectangle-Copy-8">
 						<use fill="#000" filter="url(#filter-3)" xlink:href="#path-1"/>
-						<path fill="#FFF" stroke="#C8CCD1" d="M346-.5a2.496 2.496 0 012.5 2.5h0v130c0 .69-.28 1.315-.732 1.768a2.492 2.492 0 01-1.768.732h0H2c-.69 0-1.315-.28-1.768-.732A2.492 2.492 0 01-.5 132h0V2c0-.69.28-1.315.732-1.768A2.492 2.492 0 012-.5h0z"/>
+						<path fill="#FFF" stroke="#C8CCD1" d="M346-.5c.69 0 1.315.28 1.768.732.452.453.732 1.078.732 1.768h0v130c0 .69-.28 1.315-.732 1.768a2.492 2.492 0 01-1.768.732h0H2c-.69 0-1.315-.28-1.768-.732A2.492 2.492 0 01-.5 132h0V2c0-.69.28-1.315.732-1.768A2.492 2.492 0 012-.5h0z"/>
 					</g>
 					<g mask="url(#mask-2)">
 						<g transform="translate(0 52)">
-							<g id="language-item-copy-9" transform="translate(12 8)">
+							<g id="language-item" transform="translate(12 8)">
 								<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
 								<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 									<tspan x="32" y="23">Español</tspan>
@@ -49,7 +49,7 @@
 							</g>
 						</g>
 					</g>
-					<g id="search-bar" mask="url(#mask-2)">
+					<g id="search-bar" mask="url(#mask-2)" opacity=".67">
 						<g id="Rectangle-Copy-8">
 							<use fill="#000" filter="url(#filter-5)" xlink:href="#path-4"/>
 							<use fill="#FFF" xlink:href="#path-4"/>
@@ -58,7 +58,7 @@
 							<mask id="mask-7" fill="#fff">
 								<use xlink:href="#path-6"/>
 							</mask>
-							<use id="Mask" fill="#000" xlink:href="#path-6"/>
+							<use id="Mask-2" fill="#000" xlink:href="#path-6"/>
 							<g id="🎨-Color/Base10-(#202122)" fill="#202122" mask="url(#mask-7)">
 								<path id="Color-mask" d="M0 0h20v20H0z"/>
 							</g>
