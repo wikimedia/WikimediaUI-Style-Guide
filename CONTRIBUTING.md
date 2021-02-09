@@ -40,7 +40,7 @@ If you have [Git](https://en.wikipedia.org/wiki/Git) installed on your system, [
 
 In order to publish the updated contents to be available live, go to the repo and launch the following command from a terminal: `git push -f origin your-branch`. It will be reviewed in a timely manner and merged accordingly.
 
-Please add specific topics into a single commit and also take into account the [Wikimedia commit message guidelines](https://www.mediawiki.org/wiki/Gerrit/Commit_message_guidelines).
+Please add specific topics into a single commit, make sure that you refer to the open [Github issue](https://github.com/wikimedia/WikimediaUI-Style-Guide/issues) or [Phabricator task](https://phabricator.wikimedia.org/tag/wikimediaui_style_guide/) and also take into account the [Wikimedia commit message guidelines](https://www.mediawiki.org/wiki/Gerrit/Commit_message_guidelines).
 
 Push to your fork and [submit a pull request](https://github.com/wikimedia/WikimediaUI-Style-Guide/compare)
 
