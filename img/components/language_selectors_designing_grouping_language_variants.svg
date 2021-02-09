@@ -43,7 +43,7 @@
 	</defs>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<g id="WikimediaUI-components_overview" transform="translate(-7216 -2740)">
-			<path fill="#FFF" d="M0 0h14100v4217H0z"/>
+			<path fill="#FFF" d="M0 0h14910v4217H0z"/>
 			<g id="LANGUAGE-SELECTORS" transform="translate(7189 2174)">
 				<g id="Language-Selector-Variants" transform="translate(31 569)">
 					<g id="selector/default">
@@ -55,14 +55,14 @@
 							<path fill="#FFF" stroke="#C8CCD1" d="M346-.5a2.496 2.496 0 012.5 2.5h0v306c0 .69-.28 1.315-.732 1.768a2.492 2.492 0 01-1.768.732h0H2c-.69 0-1.315-.28-1.768-.732A2.492 2.492 0 01-.5 308h0V2c0-.69.28-1.315.732-1.768A2.492 2.492 0 012-.5h0z"/>
 						</g>
 						<g id="Group" mask="url(#mask-2)">
-							<g transform="translate(0 69)">
+							<g id="list/short" transform="translate(0 69)">
 								<text id="All-languages" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 									<tspan x="44" y="32">All languages</tspan>
 								</text>
-								<g transform="translate(12 43)">
+								<g id="language-item" transform="translate(12 43)">
 									<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
 									<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
-										<tspan x="32" y="23">English</tspan>
+										<tspan x="32" y="23">Deutsch</tspan>
 									</text>
 									<g id="🔣-Icon/Moderation/unStar" filter="url(#filter-4)" transform="translate(11 11)">
 										<mask id="mask-6" fill="#fff">
@@ -77,9 +77,9 @@
 									</g>
 								</g>
 								<g id="language-item-copy-11" transform="translate(12 76)">
-									<path id="bg" fill="#FFF" d="M0 0h172v33H0z"/>
+									<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
 									<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
-										<tspan x="32" y="23">Canadian English</tspan>
+										<tspan x="32" y="23">Alemannisch</tspan>
 									</text>
 								</g>
 								<g id="language-item-copy-11" transform="translate(12 175)">
@@ -88,10 +88,10 @@
 										<tspan x="32" y="23">Esperanto</tspan>
 									</text>
 								</g>
-								<g id="language-item-copy-8" transform="translate(12 109)">
+								<g id="language-item-copy" transform="translate(12 109)">
 									<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
 									<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
-										<tspan x="32" y="23">British English</tspan>
+										<tspan x="32" y="23">Deutsch</tspan>
 									</text>
 								</g>
 								<g id="language-item-copy" transform="translate(12 208)">
@@ -100,16 +100,16 @@
 										<tspan x="32" y="23">Ελληνικά</tspan>
 									</text>
 								</g>
-								<g id="language-item-copy-9" transform="translate(12 142)">
+								<g id="language-item-copy-5" transform="translate(12 142)">
 									<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
 									<text id="name" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
-										<tspan x="32" y="23">US English</tspan>
+										<tspan x="32" y="23">Österreichisches Deutsch </tspan>
 									</text>
 								</g>
-								<g id="language-item-copy-5" transform="translate(12 241)">
+								<g id="language-item-copy-10" transform="translate(12 241)">
 									<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
 									<text id="name" fill="#202122" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo" font-size="16" font-weight="normal">
-										<tspan x="32" y="22">한국어</tspan>
+										<tspan x="32" y="23">한국어</tspan>
 									</text>
 								</g>
 								<path id="Line" stroke="#202122" stroke-linecap="round" d="M28 80v91"/>
@@ -132,10 +132,10 @@
 										<tspan x="32" y="23">English</tspan>
 									</text>
 								</g>
-								<g id="language-item-copy-5" transform="translate(176 75)">
+								<g id="language-item-copy-10" transform="translate(176 75)">
 									<path id="bg" fill="#FFF" d="M0 0h160v33H0z"/>
 									<text id="name" fill="#202122" font-family="AppleSDGothicNeo-Regular, Apple SD Gothic Neo" font-size="16" font-weight="normal">
-										<tspan x="32" y="22">한국어</tspan>
+										<tspan x="32" y="23">한국어</tspan>
 									</text>
 								</g>
 								<g id="language-item-copy-8" transform="translate(176 42)">
