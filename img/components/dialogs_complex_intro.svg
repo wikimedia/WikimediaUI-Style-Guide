@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="451" height="320" viewBox="0 0 451 320">
+	<title>
+		dialogs_complex_intro
+	</title>
+	<defs>
+		<path id="path-1" d="M0 0h435v304H0z"/>
+		<path id="path-3" d="M0 248h435v56H0z"/>
+		<path id="path-5" d="M16.142 2l1.414 1.414-6.364 6.364 6.366 6.366-1.414 1.414-6.366-6.366-6.364 6.364L2 16.142l6.364-6.364-6.362-6.362 1.414-1.414 6.362 6.362L16.142 2z"/>
+		<filter id="filter-2" width="106%" height="108.6%" x="-3%" y="-3.6%" filterUnits="objectBoundingBox">
+			<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+		</filter>
+		<filter id="filter-4" width="100.2%" height="103.6%" x="-.1%" y="-2.7%" filterUnits="objectBoundingBox">
+			<feOffset dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0.917647059 0 0 0 0 0.925490196 0 0 0 0 0.941176471 0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-14163 -719)">
+			<path fill="#FFF" d="M0 0h14910v4217H0z"/>
+			<g id="DIALOGS" transform="translate(13943 142)">
+				<g id="Complex-Dialog" transform="translate(228 583)">
+					<g id="Rectangle">
+						<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
+						<use fill="#FFF" xlink:href="#path-1"/>
+					</g>
+					<g id="Rectangle">
+						<use fill="#000" filter="url(#filter-4)" xlink:href="#path-3"/>
+						<use fill="#FFF" xlink:href="#path-3"/>
+					</g>
+					<text id="Title" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="18" font-weight="bold">
+						<tspan x="24" y="36">Title</tspan>
+					</text>
+					<path id="Rectangle-Copy-4" fill="#F8F9FA" d="M24 53h387v182H24z"/>
+					<text id="Dialog-content" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="13" font-weight="normal">
+						<tspan x="175.614" y="146">Dialog content</tspan>
+					</text>
+					<g id="Button-/---progressive-/-!default" transform="translate(296 260)">
+						<rect id="bg" width="114" height="31" x=".5" y=".5" fill="#36C" stroke="#36C" rx="2"/>
+						<text id="label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+							<tspan x="12.452" y="20">Progressive</tspan>
+						</text>
+					</g>
+					<g id="Group" transform="translate(394 22)">
+						<mask id="mask-6" fill="#fff">
+							<use xlink:href="#path-5"/>
+						</mask>
+						<use id="Mask" fill="#000" xlink:href="#path-5"/>
+						<g id="🎨-Color/Base10-(#202122)" fill="#202122" mask="url(#mask-6)">
+							<path id="Color-mask" d="M0 0h20v20H0z"/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
