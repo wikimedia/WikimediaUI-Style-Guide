@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" class="js--off">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta property="og:title" content="Components: Dialogs - Wikimedia Design Style Guide (WikimediaUI)">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components/dialogs.html">
+	<meta property="og:image" content="https://design.wikimedia.org/style-guide/img/design-style-guide.png">
+	<link rel="stylesheet" href="../css/build/wmui-style-guide.min.css">
+	<title>Components: Dialogs – Wikimedia Design Style Guide</title>
+	<script>
+		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
+	</script>
+	<link rel="dns-prefetch" href="https://piwik.wikimedia.org/">
+	<link rel="preload" href="../fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
+	<script src="../js/matomo-tracking.min.js"></script>
+	<script src="../js/wikimedia-design-style-guide.min.js" async></script>
+</head>
+<body class="page--components page--components-dialogs" vocab="http://schema.org/" typeof="WebPage">
+	<header id="header" class="header">
+		<div class="content-box">
+			<a href="#content" class="is-aural is-focusable">Jump to content</a>
+			<a href="#nav--main" class="is-aural is-focusable">Jump to navigation</a>
+			<h6 class="site__title"><a href="./"><span class="site__org">Wikimedia </span><span class="site__project">Design Style Guide</span></a></h6>
+			<label class="btn--nav-main" for="trigger--nav-main" aria-hidden="true" title="Show main menu">
+				<i></i> <span>Menu</span>
+			</label>
+			<a href="https://github.com/wikimedia/WikimediaUI-Style-Guide" target="_blank" rel="noopener" class="lnk--contribute" title="Fork and contribute on GitHub"><span>Contribute on </span>GitHub</a>
+		</div>
+	</header>
+	<div class="page">
+		<div class="content-box">
+			<div class="col col--start">
+				<input type="checkbox" id="trigger--nav-main" class="trigger--nav-main">
+				<nav id="nav--main" class="nav nav--main">
+					<ol>
+						<li class="nav__item"><a href="../index.html">Introduction</a></li>
+						<li class="nav__item"><a href="../design-principles.html">Design principles</a></li>
+						<li class="nav__item"><a href="../visual-style.html">Visual style</a>
+							<ul class="nav__sub-items">
+								<li class="nav__sub-item"><a href="../visual-style.html">Principles</a></li>
+								<li class="nav__sub-item"><a href="../visual-style_colors.html">Colors</a></li>
+								<li class="nav__sub-item"><a href="../visual-style_typography.html">Typography</a></li>
+								<li class="nav__sub-item"><a href="../visual-style_icons.html">Icons</a></li>
+								<li class="nav__sub-item is-on"><a href="../visual-style_images.html">Images</a></li>
+								<li class="nav__sub-item"><a href="../visual-style_illustrations.html">Illustrations</a></li>
+							</ul>
+						</li>
+						<li class="nav__item is-on"><a href="links.html">Components</a>
+							<ul class="nav__sub-items">
+								<li class="nav__sub-item"><a href="links.html">Links</a></li>
+								<li class="nav__sub-item"><a href="buttons.html">Buttons</a></li>
+								<li class="nav__sub-item"><a href="button-groups.html">Button groups</a></li>
+								<li class="nav__sub-item"><a href="checkboxes.html">Checkboxes</a></li>
+								<li class="nav__sub-item"><a href="radio-buttons.html">Radio buttons</a></li>
+								<li class="nav__sub-item"><a href="toggle-switches.html">Toggle switches</a></li>
+								<li class="nav__sub-item"><a href="dropdowns.html">Dropdowns</a></li>
+								<li class="nav__sub-item"><a href="comboboxes.html">Comboboxes</a></li>
+								<li class="nav__sub-item"><a href="text-inputs-and-textarea.html">Text inputs and textarea</a></li>
+								<li class="nav__sub-item"><a href="number-inputs.html">Number inputs</a></li>
+								<li class="nav__sub-item"><a href="file-inputs.html">File inputs</a></li>
+								<li class="nav__sub-item"><a href="messages.html">Messages</a></li>
+								<li class="nav__sub-item"><a href="language-selectors.html">Language selectors</a></li>
+								<li class="nav__sub-item is-on"><a href="dialogs.html">Dialogs</a></li>
+							</ul>
+						</li>
+						<!-- <li><a href="../patterns.html">Patterns</a></li> -->
+						<li><a href="../resources.html">Resources</a></li>
+					</ol>
+				</nav>
+			</div>
+			<div class="col col--end">
+				<main id="content" class="content">
+					<div class="page__parent-title">Components</div>
+					<h1 class="page__title">Dialogs</h1>
+					<p class="page__lead">Dialogs are elements that are overlaid on a web page or app in order to present necessary information and tasks. Dialogs are also sometimes referred to as modals and overlays.</p>
+					<figure class="components__intro">
+						<img src="../img/components/dialogs_intro.svg" alt="dialogs visual example">
+					</figure>
+
+					<section id="using">
+						<h2>Using dialogs</h2>
+						<p>Dialogs facilitate communication between the system and user. They perform best when used for urgent decisions or as a workflow within a bigger task as they don’t require loading a new page and keep actions in context. Dialogs can and aim to be disruptive since the user needs to interact with or close the dialog before moving on, and therefore should be used sparingly and only on occasions that necessitate its use.</p>
+					</section>
+					<section id="designing">
+						<h2 id="types">Designing and Types</h2>
+						<p>There are two basic forms a dialog can take: simple or complex. Simple dialogs are mainly for short messages, confirmations or alerts while complex dialogs help perform a more in depth task.</p>
+						<h3 id="simple-dialog">Simple dialog</h3>
+						<figure>
+							<img src="../img/components/dialogs_simple_example.svg" alt="dialogs - simple dialog example">
+						</figure>
+						<p>A simple dialog contains:</p>
+						<ol>
+							<li>A title</li>
+							<li>Short message. Aim for one or two lines of copy to make these easy and quick to understand. </li>
+							<li>A confirmation action</li>
+							<li>Dismissive or secondary action (Optional)</li>
+							<li>A 'close' icon-only button (X) (Optional)</li>
+						</ol>
+						<p>If the action text is too long, the confirmation action may be stacked above the secondary action.</p>
+						<p>For left-to-right languages<sup><a href="#references">[1]</a></sup> the primary action is on the far right, while for right-to-left languages the primary button is on the far left.</p>
+						<p>The simple dialog looks and behaves the same between desktop and mobile web. They should never need scrolling behavior and the entire unit should be visible on even the smallest screens.</p>
+						<figure class="components__designing">
+							<img src="../img/components/dialogs_designing_01.svg" alt="designing dialogs">
+							<img src="../img/components/dialogs_designing_02.svg" alt="designing dialogs">
+						</figure>
+
+						<h3 id="complex-dialog">Complex dialog</strong></h3>
+						<figure>
+							<img src="../img/components/dialogs_complex_intro.svg" alt="complex dialog example">
+						</figure>
+						<p>A complex dialog contains:</p>
+						<ol>
+							<li>A title</li>
+							<li>A 'close' icon-only button (X) (Optional)</li>
+							<li>One confirmation action, with all other actions living within the content of the dialog </li>
+							<li>A fixed top and bottom bar</li>
+						</ol>
+						<p>The content within a complex dialog requires more detailed information and interaction from the user, which can be displayed in many forms: tables, tabs, lists, or any other layout found in our style guide.</p>
+						<p>On desktop, for all left-to-right languages the confirmation action for a complex dialog lives in the bottom right. and for all right to left languages it is located on the bottom left.</p>
+						<figure class="components__designing">
+							<img src="../img/components/dialogs_complex_designing_01.svg" alt="designing complex dialogs">
+						</figure>
+						<p>On mobile web, the confirmation action lives in the top right (LTR)/top left (RTL), the same implementation as the toolbar, in order to avoid any issues with the virtual keyboard.</p>
+						<figure class="components__designing">
+							<img src="../img/components/dialogs_complex_designing_02.svg" alt="designing complex dialogs on mobile">
+						</figure>
+						<p><strong>Scrolling</strong><br>
+							If needed, scrolling is allowed in complex dialogs, but should be used sparingly. While scrolling, the top bar bottom border appears and both the top and bottom sections become fixed as content scrolls underneath them.
+						</p>
+						<figure>
+							<img src="../img/components/dialogs_complex_designing_scrolling.svg" alt="designing complex dialogs when scrolling">
+						</figure>
+						<p><strong>Closing</strong><br>
+							A dialog can be dismissed by:</p>
+						<ul>
+							<li>The close button (X)</li>
+							<li>A dismissive action like “Cancel“</li>
+							<li>Tapping or clicking anywhere outside of the dialog on the background</li>
+						</ul>
+						<p><strong>Background</strong><br>
+							Behind every dialog, there is a screen of Base100 (#fff) at 65% opacity. This is to allow continued context while focusing on the dialog.
+						</p>
+						<p><strong>Shadows</strong><br>
+							Aside from the full screen complex dialog on mobile web, all dialogs have a drop shadow in order to separate it more clearly from the content below. This shadow is a 25% transparent black with the X axis moved 0 pixels, the Y axis moved 2 pixels, and a 2 pixel blur.
+						<p><strong>Borders</strong><br>
+							Excluding full screen dialogs on mobile web, a radius of 2px should be applied to the dialog.</p>
+						<p><strong>Titles</strong><br>
+							All dialogs require a title. This should be a short, one line overview of the purpose of the dialog. Avoid truncating the title in order to fit the close or confirmation action (on mobile).</p>
+					</section>
+					<section id="positioning">
+						<p>All dialogs are vertically and horizontally centered on the canvas. We aim to keep simple dialogs at a fixed width of 370 dp on desktop while allowing them to use 90% of the width on mobile web. This helps make them the focus of the screen while still allowing a line length that is quick and easy to comprehend.</p>
+						<figure>
+							<img src="../img/components/dialogs_simple_positioning_mobile_example.png" width="435" alt="positioning simple dialogs on mobile">
+						</figure>
+						<img src="../img/components/dialogs_simple_positioning_desktop_example.png" alt="positioning simple dialogs on desktop">
+						<p>The width of complex dialogs can be varied, but they should strive to be at least 35% and no more than 75% of the width of the viewport on desktop. You may choose the width that best suits the content and experience you are presenting. All complex dialogs are fullscreen on mobile.</p>
+						<img src="../img/components/dialogs_complex_positioning_desktop_example.png" alt="positioning complex dialogs on desktop">
+					</section>
+					<section id="states">
+						<h2>States of dialogs</h2>
+						<p>Buttons may be disabled until a required action is completed. </p>
+						<figure class="components__states">
+							<img src="../img/components/dialogs_complex_states_disabled.svg" alt="dialogs disabled state">
+						</figure>
+						<p>Loading may be communicated through a 3px tall <span class="color-hint" style="--color-hint: #36c;" title="#36c">Accent50</span> line indicating progress below the title bar and gray box (<span class="color-hint" style="--color-hint: #f8f9fa;" title="#f8f9fa">Base90</span>) to help indicate that content is still being loaded.</p>
+						<figure class="components__states">
+							<img src="../img/components/dialogs_complex_states_loading.svg" alt="dialogs loading states">
+						</figure>
+					</section>
+					<section id="references">
+						<h2>References</h2>
+						<ol>
+							<li><a href="https://en.wikipedia.org/wiki/Writing_system#Directionality" target="_blank" rel="noopener">English Wikipedia: Writing system directionality</a></li>
+						</ol>
+					</section>
+				</main>
+			</div>
+		</div>
+	</div>
+	<footer id="footer" class="footer">
+		<div class="content-box">
+			<ul class="footer__list footer__list--connect">
+				<li><a href="https://github.com/wikimedia/WikimediaUI-Style-Guide" target="_blank" rel="noopener">Contribute on GitHub</a></li>
+				<li><a href="https://twitter.com/@WikimediaDesign" title="Follow Wikimedia Product Design team on Twitter">Follow @WikimediaDesign</a></li>
+				<li><a href="https://lists.wikimedia.org/mailman/listinfo/design" title="Join Wikimedia Design mailing list">Join mailing list</a></li>
+			</ul>
+			<p>Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener" property="license">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.</p>
+			<ul class="footer__list footer__list--policy">
+				<li><a href="https://wikimediafoundation.org/privacy-policy/">Privacy policy</a></li>
+				<li><a href="https://design.wikimedia.org/accessibility-statement.html">Accessibility statement</a></li>
+			</ul>
+			<p><a href="https://foundation.wikimedia.org/" class="lnk--wikimedia-project" property="author" typeof="Organization">A Wikimedia Foundation project</a></p>
+			<noscript><p><img src="https://piwik.wikimedia.org/piwik.php?idsite=16&rec=1" alt=""></p></noscript>
+		</div>
+	</footer>
+</body>
+</html>

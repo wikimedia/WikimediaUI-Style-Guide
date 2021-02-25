@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="312" height="172" viewBox="0 0 312 172">
+	<title>
+		dialog_intro
+	</title>
+	<defs>
+		<filter id="filter-2" width="108.7%" height="116.8%" x="-4.3%" y="-7.1%" filterUnits="objectBoundingBox">
+			<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+		</filter>
+		<path id="path-1" d="M0 0h300v155H0z"/>
+	</defs>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-14165 -270)">
+			<path fill="#FFF" d="M0 0h14910v4217H0z"/>
+			<g id="DIALOGS" transform="translate(13943 142)">
+				<g id="Simple-Dialog" transform="translate(228 133)">
+					<g id="Rectangle">
+						<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
+						<use fill="#FFF" xlink:href="#path-1"/>
+					</g>
+					<text id="Dialog-content-shoul" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+						<tspan x="23" y="59">Dialog content should aim to fill </tspan> <tspan x="23" y="79">one or two lines</tspan>
+					</text>
+					<text id="Title" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="18" font-weight="bold">
+						<tspan x="24" y="36">Title</tspan>
+					</text>
+					<g id="Button-/---progressive-/-!default" transform="translate(161 99)">
+						<rect id="bg" width="114" height="31" x=".5" y=".5" fill="#36C" stroke="#36C" rx="2"/>
+						<text id="label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+							<tspan x="12.452" y="20">Progressive</tspan>
+						</text>
+					</g>
+					<g id="Button-/-!default-(--neutral)" transform="translate(73 99)">
+						<rect id="bg" width="79" height="31" x=".5" y=".5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
+						<text id="Label" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+							<tspan x="12.168" y="20">Normal</tspan>
+						</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="435" height="700" viewBox="0 0 435 700">
+	<title>
+		Complex Dialog Mobile Web Copy
+	</title>
+	<defs>
+		<path id="path-1" d="M1 1h434v47H1z"/>
+		<path id="path-3" d="M16.142 2l1.414 1.414-6.364 6.364 6.366 6.366-1.414 1.414-6.366-6.366-6.364 6.364L2 16.142l6.364-6.364-6.362-6.362 1.414-1.414 6.362 6.362L16.142 2z"/>
+		<filter id="filter-2" width="100.2%" height="104.3%" x="-.1%" y="-1.1%" filterUnits="objectBoundingBox">
+			<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0.917647059 0 0 0 0 0.925490196 0 0 0 0 0.941176471 0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="Complex-Mobile-Web-Redline" transform="translate(-39 -40)">
+			<g id="Complex-Dialog-Mobile-Web-Copy" transform="translate(39 40)">
+				<path id="Rectangle" fill="#FFF" stroke="#EAECF0" d="M.5.5h434v699H.5z"/>
+				<g id="Rectangle-Copy-10">
+					<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
+					<use fill="#FFF" xlink:href="#path-1"/>
+				</g>
+				<text id="Title" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="18" font-weight="bold">
+					<tspan x="61" y="30">Title</tspan>
+				</text>
+				<path id="Rectangle-Copy-4" fill="#F8F9FA" d="M24 65h387v611H24z"/>
+				<text id="Dialog-content" fill="#C70070" font-family="Lato-Regular, Lato, sans-serif" font-size="13" font-weight="normal">
+					<tspan x="175.614" y="350">Dialog content</tspan>
+				</text>
+				<g id="Group" transform="translate(24 16)">
+					<mask id="mask-4" fill="#fff">
+						<use xlink:href="#path-3"/>
+					</mask>
+					<use id="Mask" fill="#000" xlink:href="#path-3"/>
+					<g id="🎨-Color/Base10-(#202122)" fill="#202122" mask="url(#mask-4)">
+						<path id="Color-mask" d="M0 0h20v20H0z"/>
+					</g>
+				</g>
+				<g id="Button-/---progressive-/-!default" transform="translate(320)">
+					<path id="Rectangle" fill="#36C" d="M0 0h115v48H0z"/>
+					<text id="label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+						<tspan x="12.452" y="29">Progressive</tspan>
+					</text>
+				</g>
+			</g>
+			<path id="Rectangle-Copy-13" fill="#A65DE7" d="M40 65h24v4H40z"/>
+			<path id="Rectangle-Copy-15" fill="#D0021B" d="M82 65h18v4H82z"/>
+			<path id="Rectangle-Copy-14" fill="#D0021B" d="M66 41h4v16h-4z"/>
+			<path id="Rectangle-Copy-16" fill="#D0021B" d="M66 89h4v16h-4z"/>
+		</g>
+	</g>
+</svg>
