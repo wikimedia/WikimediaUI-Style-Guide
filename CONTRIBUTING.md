@@ -55,7 +55,7 @@ We're using [stylelint](https://stylelint.io/) to ensure the CSS [aligns with ou
 
 These requirements provide our contributors a reliable environment and our viewers a performant experience.
 
-### Contribute by designing a new or extending an existing component
+### Contribute by designing or extending a component
 Designing a new component or extending an existing component is an important part on Wikimedia Design Style Guide (DSG).
 We would like to provide a process list for a successful addition:
 
