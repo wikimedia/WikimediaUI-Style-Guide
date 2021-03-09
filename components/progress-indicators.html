@@ -3,12 +3,12 @@
 	<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-	<meta property="og:title" content="Components: Number inputs - Wikimedia Design Style Guide (WikimediaUI)">
+	<meta property="og:title" content="Components: Progress indicators - Wikimedia Design Style Guide (WikimediaUI)">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components/number-inputs.html">
+	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components/links.html">
 	<meta property="og:image" content="https://design.wikimedia.org/style-guide/img/design-style-guide.png">
 	<link rel="stylesheet" href="../css/build/wmui-style-guide.min.css">
-	<title>Components: Number inputs – Wikimedia Design Style Guide</title>
+	<title>Components: Progress indicators – Wikimedia Design Style Guide</title>
 	<script>
 		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
 	</script>
@@ -17,7 +17,7 @@
 	<script src="../js/matomo-tracking.min.js"></script>
 	<script src="../js/wikimedia-design-style-guide.min.js" async></script>
 </head>
-<body class="page--components page--components-number-inputs" vocab="http://schema.org/" typeof="WebPage">
+<body class="page--components page--components-progress-indicators" vocab="http://schema.org/" typeof="WebPage">
 	<header id="header" class="header">
 		<div class="content-box">
 			<a href="#content" class="is-aural is-focusable">Jump to content</a>
@@ -49,7 +49,7 @@
 						</li>
 						<li class="nav__item is-on"><a href="links.html">Components</a>
 							<ul class="nav__sub-items">
-								<li class="nav__sub-item"><a href="links.html">Links</a></li>
+								<li class="nav__sub-item is-on"><a href="links.html">Links</a></li>
 								<li class="nav__sub-item"><a href="buttons.html">Buttons</a></li>
 								<li class="nav__sub-item"><a href="button-groups.html">Button groups</a></li>
 								<li class="nav__sub-item"><a href="checkboxes.html">Checkboxes</a></li>
@@ -58,12 +58,12 @@
 								<li class="nav__sub-item"><a href="dropdowns.html">Dropdowns</a></li>
 								<li class="nav__sub-item"><a href="comboboxes.html">Comboboxes</a></li>
 								<li class="nav__sub-item"><a href="text-inputs-and-textarea.html">Text inputs and textarea</a></li>
-								<li class="nav__sub-item is-on"><a href="number-inputs.html">Number inputs</a></li>
+								<li class="nav__sub-item"><a href="number-inputs.html">Number inputs</a></li>
 								<li class="nav__sub-item"><a href="file-inputs.html">File inputs</a></li>
 								<li class="nav__sub-item"><a href="messages.html">Messages</a></li>
 								<li class="nav__sub-item"><a href="language-selectors.html">Language selectors</a></li>
 								<li class="nav__sub-item"><a href="dialogs.html">Dialogs</a></li>
-								<li class="nav__sub-item"><a href="progress-indicators.html">Progress indicators</a></li>
+								<li class="nav__sub-item is-on"><a href="progress-indicators.html">Progress indicators</a></li>
 							</ul>
 						</li>
 						<!-- <li><a href="../patterns.html">Patterns</a></li> -->
@@ -74,32 +74,57 @@
 			<div class="col col--end">
 				<main id="content" class="content">
 					<div class="page__parent-title">Components</div>
-					<h1 class="page__title">Number inputs</h1>
-					<p class="page__lead">Number inputs allow users to input numbers or decrease/increase number values by attached buttons.</p>
+					<h1 class="page__title">Progress indicators</h1>
+					<p class="page__lead">Progress indicators signal an unexpected wait time or show the length of a process to the user.</p>
 					<figure class="components__intro">
-						<img src="../img/components/number_inputs_intro.svg" alt="number input field">
+						<img src="../img/components/progress-indicators_intro.svg" alt="progress indicators visual example">
 					</figure>
 
 					<section id="using">
-						<h2>Using number inputs</h2>
-						<p>Through number input fields users can input numbers. </p>
-						<p>Number inputs feature two buttons to decrement and increment the number by a certain step (default is 1). They are useful in context where users' task is about a quick numeral change in limited range.</p>
+						<h2>Using progress indicators</h2>
+						<p>Process indicators can show determinate or indeterminate progress. They indicate an ongoing system process Links must include a descriptive link text or a combination of the text and an additional icon.</p>
 					</section>
 					<section id="designing">
 						<h2>Designing</h2>
-						<p><strong>Label</strong><br>
-						Number input labels communicate what input is requested in the input box. Labels are obligatory for input fields and should only be visibly hidden, but still accessible for screen readers in exceptional cases.</p>
-						<p><strong>Placeholder text</strong> <small class="is-subtle">(optional)</small><br>
-							Placeholder text provides an example of what type of information is being requested in the input box. Placeholder text should further illustrate and support the number input label, however they should never be the only input description. Use <span class="color-hint" style="--color-hint: #72777d;" title="#72777d">Base30</span> for it.
-						</p>
-						<p><strong>Inline error messages and form validation</strong> <small class="is-subtle">(optional)</small><br>
-							When possible, place messages inline with where the error occurred and explain to users what caused the error and, or how it can be fixed. Utilize appropriate colors for different message types (<span class="color-hint" style="--color-hint: #00af89;" title="#00af89">Green50</span> for successful or <span class="color-hint" style="--color-hint: #d33;" title="#d33">Red50</span> for erroneous). Inline messages should only be shown after a user has clicked into or interacted with the corresponding input.
+						<p><strong>Indicator</strong><br>
+							Choosing the right indicator type is dependent on context. </p>
+						<p><strong>Label</strong> <small class="is-subtle">(optional)</small><br>
+							Adding a descriptive label is additionally helpful on indicators like a determinate progress bar. It's meant to state clearly what's being progressed on and how far system is in progressing, for example by providing a percentage number.
 						</p>
 					</section>
-					<!--h2>States</h2-->
+					<section id="states">
+						<h2>States of progress indicators</h2>
+						<p>The link styles outlined here were designed with accessible color variations to distinguish the link’s following visually separated interaction states: </p>
+						<figure class="components__states">
+							<img src="../img/components/progress-indicators_states.svg" alt="progress indicators states">
+							<figcaption class="figure__caption"></figcaption>
+						</figure>
+					</section>
+					<section id="types">
+						<h2>Types</h2>
+						<p></p>
+
+						<h3>Progress bars (elevated)</h3>
+						<p></p>
+						<figure class="components__intro">
+							<img src="../img/components/progress-bars-elevated_intro.svg" alt="Progress bars, visual example">
+						</figure>
+
+						<h3>Progress bars (inline menus & dialogs)</h3>
+						<p></p>
+						<figure class="components__intro">
+							<img src="../img/components/progress-bars-inline_intro.svg" alt="Progress bars, visual example">
+						</figure>
+
+						<h3>Progress dots indicator (within views)</h3>
+						<p></p>
+						<figure class="components__intro">
+							<img src="../img/components/progress-dots_intro.svg" alt="Progress indicators, visual example">
+						</figure>
+					</section>
 					<section id="coding">
 						<h2>Coding</h2>
-						<p>See <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#NumberInputWidget" target="_blank" rel="noopener">OOUI's demos section of number inputs</a>.</p>
+						<p>See <a href="https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&theme=wikimediaui&direction=ltr&platform=desktop#demo-section-progressBar" target="_blank" rel="noopener">OOUI's demos section of progress bars (determinate and indeterminate)</a>.</p>
 					</section>
 				</main>
 			</div>
