@@ -78,13 +78,13 @@ C. Ensure the problem statement for the addition is clear and that Design System
 #### 3. **Test**
 - Gather user feedback and iterate. Example: Consider reaching out to accessibility consultants on higher complex components.
 
-#### 4. **Handover to development:**
+#### 4. **Handover to development**
 - Use [WikimediaUI Base CSS variables](https://gerrit.wikimedia.org/r/plugins/gitiles/wikimedia-ui-base/). Define new ones if clearly needed.
 
 #### 5. **Design quality assurance**
 - Does the component behave as expected and follow the templates?
 - Does it work across required browsers, viewports, assistive technology as intended. QA engineers support needed.
 
-#### 6. **Finalize and document at:**
+#### 6. **Finalize and document**
 - Add DSG's new component page or extend an existing component if it's a contextual addition as new type. Example: Thinking of different kind of menu treatment in a typeahead search vs page lists.
-- Ensure that User-interface library's demo is provided. Example [WVUI's Storybook instance](https://doc.wikimedia.org/wvui/master/ui/).
+- Ensure that User-interface library's demo is provided. Example: [WVUI's Storybook instance](https://doc.wikimedia.org/wvui/master/ui/).
