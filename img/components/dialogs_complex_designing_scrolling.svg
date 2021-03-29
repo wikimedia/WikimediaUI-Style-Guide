@@ -75,40 +75,40 @@
 			<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
 			<use fill="#FFF" xlink:href="#path-1"/>
 		</g>
-		<text id="Easy" fill="#14866D" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+		<text id="Easy" fill="#14866D" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 			<tspan x="53" y="41">Easy</tspan>
 		</text>
-		<text id="Medium" fill="#AC6600" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+		<text id="Medium" fill="#AC6600" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 			<tspan x="53" y="155">Medium</tspan>
 		</text>
-		<text id="Hard" fill="#B32424" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+		<text id="Hard" fill="#B32424" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 			<tspan x="53" y="267">Hard</tspan>
 		</text>
-		<text id="Recommended-for-when-you-are-first-learning-to-edit." fill="#222" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13" font-weight="bold">
+		<text id="Recommended-for-when-you-are-first-learning-to-edit." fill="#222" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="13" font-weight="bold">
 			<tspan x="34" y="64">Recommended for when you are first learning to edit.</tspan>
 		</text>
-		<text id="After-you-have-completed-some-easy-edits." fill="#222" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13" font-weight="bold">
+		<text id="After-you-have-completed-some-easy-edits." fill="#222" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="13" font-weight="bold">
 			<tspan x="35" y="177">After you have completed some easy edits.</tspan>
 		</text>
-		<text id="When-you-have-learned-about-Wikipedia-best-practices" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="13" font-weight="bold">
+		<text id="When-you-have-learned-about-Wikipedia-best-practices" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="13" font-weight="bold">
 			<tspan x="35" y="291">When you have learned about Wikipedia best practices</tspan>
 		</text>
-		<text id="Copyedit-(fix-spelli" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal">
+		<text id="Copyedit-(fix-spelli" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="13" font-weight="normal">
 			<tspan x="60" y="88">Copyedit (fix spelling, grammar, and tone)</tspan>
 		</text>
-		<text id="Find-references-(sources-for-existing-articles)" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal">
+		<text id="Find-references-(sources-for-existing-articles)" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="13" font-weight="normal">
 			<tspan x="59" y="202">Find references (sources for existing articles)</tspan>
 		</text>
-		<text id="Expand-short-articles" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal">
+		<text id="Expand-short-articles" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="13" font-weight="normal">
 			<tspan x="59" y="319">Expand short articles</tspan>
 		</text>
-		<text id="Create-a-new-article" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal">
+		<text id="Create-a-new-article" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="13" font-weight="normal">
 			<tspan x="59" y="346">Create a new article</tspan>
 		</text>
-		<text id="Add-links-between-articles" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal">
+		<text id="Add-links-between-articles" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="13" font-weight="normal">
 			<tspan x="60" y="115">Add links between articles</tspan>
 		</text>
-		<text id="Update-articles-(bring-existing-articles-up-to-date)" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue" font-size="13" font-weight="normal">
+		<text id="Update-articles-(bring-existing-articles-up-to-date)" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="13" font-weight="normal">
 			<tspan x="59" y="229">Update articles (bring existing articles up-to-date)</tspan>
 		</text>
 		<use id="Rectangle-652" fill="#14866D" stroke="#14866D" stroke-dasharray="0,0" stroke-width="2" mask="url(#mask-4)" xlink:href="#path-3"/>
@@ -135,12 +135,12 @@
 			<use fill="#000" filter="url(#filter-30)" xlink:href="#path-29"/>
 			<use fill="#FFF" xlink:href="#path-29"/>
 		</g>
-		<text id="Select-types-of-edit" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="18" font-weight="bold">
+		<text id="Select-types-of-edit" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="18" font-weight="bold">
 			<tspan x="32" y="42">Select types of edits</tspan>
 		</text>
 		<g id="Button-/---progressive-/-!default" transform="translate(360 367)">
 			<rect id="bg" width="58" height="31" x=".5" y=".5" fill="#36C" stroke="#36C" rx="2"/>
-			<text id="label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold">
+			<text id="label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 				<tspan x="12.164" y="20">Post</tspan>
 			</text>
 		</g>
