@@ -16,6 +16,85 @@
 	<link rel="preload" href="fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
 	<script src="js/matomo-tracking.min.js"></script>
 	<script src="js/wikimedia-design-style-guide.min.js" async></script>
+	<style>
+
+
+body{
+     --accent-color: orangered ;
+     --background-color:white  !important; 
+     --text-color:black !important;
+    --button-text-color:var(--background-color)!important;
+    --transition-delay: 1s; 
+
+
+        
+ /* 
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; */
+    /* float: left; */
+
+    background-color: var(--background-color)!important;
+    color: var(--text-color)!important; 
+    
+ }
+
+
+
+body.dark {
+    --accent-color: #D0D066 !important;
+    --background-color: #333 !important;
+    --text-color: white !important;
+
+}
+/* .title{
+    margin: 0;
+    margin-bottom: .5rem;
+} */
+
+.theme-toggle-button{
+    background-color: var(--accent-color)!important;
+    color: var(--button-text-color);
+    cursor: pointer;
+    padding: .2em .2em;
+    border-radius: .3em;
+    border: none;
+    outline: none;
+    float: right;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.icon{
+    position: relative;
+    top: 5px;
+}
+
+
+/* a{
+    /* color: white; */
+    
+/* } */ 
+.page--home{
+    color: white;
+}
+
+
+.col col--end{
+    color: white;
+
+}
+
+	</style>
+		
+	
+	
+		
+		
 </head>
 <body class="page--home" vocab="http://schema.org/" typeof="WebPage">
 	<header id="header" class="header">
