@@ -69,22 +69,31 @@ A. Find any related components to the one you need. Look in these places:
 B. [File a Phabricator task](https://phabricator.wikimedia.org/maniphest/task/edit/form/1/?projects=Wikimedia_Design_Style_Guide) with the new component request, an overview of current related components in different Wikimedia products from above and its improvements over existing components. Be sure to flag to the product owners, to make them aware of a new component – by either adding product tags on new task or referencing it on older open tasks.
 C. Ensure the problem statement for the addition is clear and that Design Systems Lead or Principal Designer has provided “go” for this new component or this type.
 
-#### 2. **Design**
+#### 2. Design
 - Follow [DSG's visual style](https://design.wikimedia.org/style-guide/visual-style.html) and [components guidelines](https://design.wikimedia.org/style-guide/components/) to provide a consistent experience. Incorporate responsive design from the beginning.
 - Ensure different device interactions are provided. Example: Mobile vs tablet vs desktop.
 - Ensure internationalization needs and various language scripts are considered. Example: German word length or Burmese letter box height.
 - Research accessibility best-practices around the type of component to be met. Example: Ensure to think about different modes of interaction like keyboard navigation.
 
-#### 3. **Test**
+#### 3. Test
 - Gather user feedback and iterate. Example: Consider reaching out to accessibility consultants on higher complex components.
 
-#### 4. **Handover to development**
+#### 4. Handover to development
 - Use [WikimediaUI Base CSS variables](https://gerrit.wikimedia.org/r/plugins/gitiles/wikimedia-ui-base/). Define new ones if clearly needed.
 
-#### 5. **Design quality assurance**
+#### 5. Design quality assurance
 - Does the component behave as expected and follow the templates?
 - Does it work across required browsers, viewports, assistive technology as intended. QA engineers support needed.
 
-#### 6. **Finalize and document**
+#### 6. Finalize and document
 - Add DSG's new component page or extend an existing component if it's a contextual addition as new type. Example: Thinking of different kind of menu treatment in a typeahead search vs page lists.
 - Ensure that User-interface library's demo is provided. Example: [WVUI's Storybook instance](https://doc.wikimedia.org/wvui/master/ui/).
+
+### Contribute by designing or changing an icon
+Designing a new or changing an existing icon helps to expand Wikimedia Design Style Guide icon collection and will improve user-interface consistency.
+It basically follows the same process as adding a component above, only with some modification:
+- Research includes comparing current icons in [DSG's icon collection](https://github.com/wikimedia/WikimediaUI-Style-Guide/tree/master/resources/WikimediaUI-icons-SVGs) with an [online demo available in OOUI](https://doc.wikimedia.org/oojs-ui/master/demos/?page=icons&theme=wikimediaui&direction=ltr&platform=desktop).
+- Design with [icon guidelines in mind](https://design.wikimedia.org/style-guide/visual-style_icons.html).
+- File a task on [Phabricator for each icon](https://phabricator.wikimedia.org/maniphest/task/edit/form/1/?projects=wikimediaui_style_guide,ooui,wvui&title=Icons:), ensure to follow incorporate feedback. Provide the icon as SVG in right-to-left together with left-to-right variant if needed.
+- Finalize by making a pull-request with optimized SVG to DSG's resources folder, icon collection Zip file and to the 'WikimediaUI-icons.ai' Adobe Illustrator file.
+
