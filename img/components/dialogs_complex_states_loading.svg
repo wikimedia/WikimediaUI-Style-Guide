@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="451" height="320" viewBox="0 0 451 320">
+	<title>
+		Complex Dialog Disabled Copy
+	</title>
+	<defs>
+		<path id="path-1" d="M0 0h435v304H0z"/>
+		<path id="path-3" d="M0 248h435v56H0z"/>
+		<path id="path-5" d="M16.142 2l1.414 1.414-6.364 6.364 6.366 6.366-1.414 1.414-6.366-6.366-6.364 6.364L2 16.142l6.364-6.364-6.362-6.362 1.414-1.414 6.362 6.362L16.142 2z"/>
+		<filter id="filter-2" width="106%" height="108.6%" x="-3%" y="-3.6%" filterUnits="objectBoundingBox">
+			<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+		</filter>
+		<filter id="filter-4" width="100.2%" height="103.6%" x="-.1%" y="-2.7%" filterUnits="objectBoundingBox">
+			<feOffset dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0.917647059 0 0 0 0 0.925490196 0 0 0 0 0.941176471 0 0 0 1 0"/>
+		</filter>
+	</defs>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="Complex-Loading">
+			<g id="Complex-Dialog-Disabled-Copy" transform="translate(8 6)">
+				<g id="Rectangle">
+					<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
+					<use fill="#FFF" xlink:href="#path-1"/>
+				</g>
+				<g id="Rectangle">
+					<use fill="#000" filter="url(#filter-4)" xlink:href="#path-3"/>
+					<use fill="#FFF" xlink:href="#path-3"/>
+				</g>
+				<text id="Title" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="18" font-weight="bold">
+					<tspan x="24" y="36">Title</tspan>
+				</text>
+				<path id="Rectangle-Copy-4" fill="#F8F9FA" d="M24 67h387v171H24z"/>
+				<g id="Group" transform="translate(394 22)">
+					<mask id="mask-6" fill="#fff">
+						<use xlink:href="#path-5"/>
+					</mask>
+					<use id="Mask" fill="#000" xlink:href="#path-5"/>
+					<g id="🎨-Color/Base10-(#202122)" fill="#202122" mask="url(#mask-6)">
+						<path id="Color-mask" d="M0 0h20v20H0z"/>
+					</g>
+				</g>
+			</g>
+			<path id="Line-2" stroke="#36C" stroke-linecap="square" stroke-width="3" d="M9.5 58.5h138"/>
+			<rect id="BG" width="90" height="31" x="328.5" y="266.5" fill="#C8CCD1" stroke="#C8CCD1" rx="2"/>
+			<text id="Label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+				<tspan x="340" y="289">Disabled</tspan>
+			</text>
+		</g>
+	</g>
+</svg>

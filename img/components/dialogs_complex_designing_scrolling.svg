@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="451" height="421" viewBox="0 0 451 421">
+	<title>
+		Artboard
+	</title>
+	<defs>
+		<path id="path-17" d="M45 143h4v12h-4z"/>
+		<path id="path-1" d="M8 6h435v405H8z"/>
+		<path id="path-3" d="M35 37h4v4h-4z"/>
+		<path id="path-29" d="M8 6h435v55H8z"/>
+		<path id="path-5" d="M35 151h4v4h-4z"/>
+		<path id="path-27" d="M8 355h435v56H8z"/>
+		<path id="path-7" d="M35 263h4v4h-4z"/>
+		<path id="path-25" d="M35 332h18v18H35z"/>
+		<path id="path-9" d="M40 33h4v8h-4z"/>
+		<path id="path-23" d="M35 305h18v18H35z"/>
+		<path id="path-11" d="M40 147h4v8h-4z"/>
+		<path id="path-21" d="M35 215h18v18H35z"/>
+		<path id="path-13" d="M40 259h4v8h-4z"/>
+		<path id="path-19" d="M45 255h4v12h-4z"/>
+		<path id="path-15" d="M45 29h4v12h-4z"/>
+		<path id="path-31" d="M16.142 2l1.414 1.414-6.364 6.364 6.366 6.366-1.414 1.414-6.366-6.366-6.364 6.364L2 16.142l6.364-6.364-6.362-6.362 1.414-1.414 6.362 6.362L16.142 2z"/>
+		<mask id="mask-18" width="4" height="12" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+			<use xlink:href="#path-17"/>
+		</mask>
+		<mask id="mask-24" width="18" height="18" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+			<use xlink:href="#path-23"/>
+		</mask>
+		<mask id="mask-14" width="4" height="8" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+			<use xlink:href="#path-13"/>
+		</mask>
+		<mask id="mask-20" width="4" height="12" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+			<use xlink:href="#path-19"/>
+		</mask>
+		<mask id="mask-12" width="4" height="8" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+			<use xlink:href="#path-11"/>
+		</mask>
+		<mask id="mask-22" width="18" height="18" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+			<use xlink:href="#path-21"/>
+		</mask>
+		<mask id="mask-10" width="4" height="8" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+			<use xlink:href="#path-9"/>
+		</mask>
+		<mask id="mask-16" width="4" height="12" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+			<use xlink:href="#path-15"/>
+		</mask>
+		<mask id="mask-8" width="4" height="4" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+			<use xlink:href="#path-7"/>
+		</mask>
+		<mask id="mask-26" width="18" height="18" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+			<use xlink:href="#path-25"/>
+		</mask>
+		<mask id="mask-6" width="4" height="4" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+			<use xlink:href="#path-5"/>
+		</mask>
+		<mask id="mask-4" width="4" height="4" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+			<use xlink:href="#path-3"/>
+		</mask>
+		<filter id="filter-28" width="100.2%" height="103.6%" x="-.1%" y="-2.7%" filterUnits="objectBoundingBox">
+			<feOffset dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0.917647059 0 0 0 0 0.925490196 0 0 0 0 0.941176471 0 0 0 1 0"/>
+		</filter>
+		<filter id="filter-30" width="100.2%" height="103.6%" x="-.1%" y="-.9%" filterUnits="objectBoundingBox">
+			<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0.917647059 0 0 0 0 0.925490196 0 0 0 0 0.941176471 0 0 0 1 0"/>
+		</filter>
+		<filter id="filter-2" width="106%" height="106.4%" x="-3%" y="-2.7%" filterUnits="objectBoundingBox">
+			<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+		</filter>
+	</defs>
+	<g id="Artboard" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="Rectangle">
+			<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
+			<use fill="#FFF" xlink:href="#path-1"/>
+		</g>
+		<text id="Easy" fill="#14866D" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+			<tspan x="53" y="41">Easy</tspan>
+		</text>
+		<text id="Medium" fill="#AC6600" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+			<tspan x="53" y="155">Medium</tspan>
+		</text>
+		<text id="Hard" fill="#B32424" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+			<tspan x="53" y="267">Hard</tspan>
+		</text>
+		<text id="Recommended-for-when-you-are-first-learning-to-edit." fill="#222" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="13" font-weight="bold">
+			<tspan x="34" y="64">Recommended for when you are first learning to edit.</tspan>
+		</text>
+		<text id="After-you-have-completed-some-easy-edits." fill="#222" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="13" font-weight="bold">
+			<tspan x="35" y="177">After you have completed some easy edits.</tspan>
+		</text>
+		<text id="When-you-have-learned-about-Wikipedia-best-practices" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="13" font-weight="bold">
+			<tspan x="35" y="291">When you have learned about Wikipedia best practices</tspan>
+		</text>
+		<text id="Copyedit-(fix-spelli" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="13" font-weight="normal">
+			<tspan x="60" y="88">Copyedit (fix spelling, grammar, and tone)</tspan>
+		</text>
+		<text id="Find-references-(sources-for-existing-articles)" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="13" font-weight="normal">
+			<tspan x="59" y="202">Find references (sources for existing articles)</tspan>
+		</text>
+		<text id="Expand-short-articles" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="13" font-weight="normal">
+			<tspan x="59" y="319">Expand short articles</tspan>
+		</text>
+		<text id="Create-a-new-article" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="13" font-weight="normal">
+			<tspan x="59" y="346">Create a new article</tspan>
+		</text>
+		<text id="Add-links-between-articles" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="13" font-weight="normal">
+			<tspan x="60" y="115">Add links between articles</tspan>
+		</text>
+		<text id="Update-articles-(bring-existing-articles-up-to-date)" fill="#222" fill-rule="nonzero" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="13" font-weight="normal">
+			<tspan x="59" y="229">Update articles (bring existing articles up-to-date)</tspan>
+		</text>
+		<use id="Rectangle-652" fill="#14866D" stroke="#14866D" stroke-dasharray="0,0" stroke-width="2" mask="url(#mask-4)" xlink:href="#path-3"/>
+		<use id="Rectangle-655" fill="#AC6600" stroke="#AC6600" stroke-dasharray="0,0" stroke-width="2" mask="url(#mask-6)" xlink:href="#path-5"/>
+		<use id="Rectangle-662" fill="#B32424" stroke="#B32424" stroke-dasharray="0,0" stroke-width="2" mask="url(#mask-8)" xlink:href="#path-7"/>
+		<use id="Rectangle-653" fill="#FFF" stroke="#14866D" stroke-dasharray="0,0" stroke-width="2" mask="url(#mask-10)" xlink:href="#path-9"/>
+		<use id="Rectangle-656" fill="#AC6600" stroke="#AC6600" stroke-dasharray="0,0" stroke-width="2" mask="url(#mask-12)" xlink:href="#path-11"/>
+		<use id="Rectangle-663" fill="#B32424" stroke="#B32424" stroke-dasharray="0,0" stroke-width="2" mask="url(#mask-14)" xlink:href="#path-13"/>
+		<use id="Rectangle-654" fill="#FFF" stroke="#14866D" stroke-dasharray="0,0" stroke-width="2" mask="url(#mask-16)" xlink:href="#path-15"/>
+		<use id="Rectangle-657" fill="#FFF" stroke="#AC6600" stroke-dasharray="0,0" stroke-width="2" mask="url(#mask-18)" xlink:href="#path-17"/>
+		<use id="Rectangle-664" fill="#B32424" stroke="#B32424" stroke-dasharray="0,0" stroke-width="2" mask="url(#mask-20)" xlink:href="#path-19"/>
+		<path id="Rectangle-658" fill="#3E67C5" d="M37 75h14a2 2 0 012 2v14a2 2 0 01-2 2H37a2 2 0 01-2-2V77a2 2 0 012-2z"/>
+		<path id="Rectangle-660" fill="#3E67C5" d="M37 189h14a2 2 0 012 2v14a2 2 0 01-2 2H37a2 2 0 01-2-2v-14a2 2 0 012-2z"/>
+		<path id="Rectangle-659" fill="#3E67C5" d="M37 101h14a2 2 0 012 2v14a2 2 0 01-2 2H37a2 2 0 01-2-2v-14a2 2 0 012-2z"/>
+		<use id="Rectangle-661" stroke="#72777D" stroke-dasharray="0,0" stroke-width="2" mask="url(#mask-22)" xlink:href="#path-21"/>
+		<use id="Rectangle-665" stroke="#72777D" stroke-dasharray="0,0" stroke-width="2" mask="url(#mask-24)" xlink:href="#path-23"/>
+		<use id="Rectangle-665-Copy" stroke="#72777D" stroke-dasharray="0,0" stroke-width="2" mask="url(#mask-26)" xlink:href="#path-25"/>
+		<path id="Mask" fill="#FFF" d="M38.981 84l-.987.987L41.9 88.9l8.4-8.4-.987-.994L41.9 86.92 38.981 84zm0 114l-.987.987L41.9 202.9l8.4-8.4-.987-.994-7.413 7.413L38.981 198zm0-88l-.987.987L41.9 114.9l8.4-8.4-.987-.994-7.413 7.413L38.981 110z"/>
+		<g id="Rectangle">
+			<use fill="#000" filter="url(#filter-28)" xlink:href="#path-27"/>
+			<use fill="#FFF" xlink:href="#path-27"/>
+		</g>
+		<g id="Rectangle-Copy-10">
+			<use fill="#000" filter="url(#filter-30)" xlink:href="#path-29"/>
+			<use fill="#FFF" xlink:href="#path-29"/>
+		</g>
+		<text id="Select-types-of-edit" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="18" font-weight="bold">
+			<tspan x="32" y="42">Select types of edits</tspan>
+		</text>
+		<g id="Button-/---progressive-/-!default" transform="translate(360 367)">
+			<rect id="bg" width="58" height="31" x=".5" y=".5" fill="#36C" stroke="#36C" rx="2"/>
+			<text id="label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+				<tspan x="12.164" y="20">Post</tspan>
+			</text>
+		</g>
+		<g id="Group" transform="translate(402 28)">
+			<mask id="mask-32" fill="#fff">
+				<use xlink:href="#path-31"/>
+			</mask>
+			<use id="Mask" fill="#000" xlink:href="#path-31"/>
+			<g id="🎨-Color/Base10-(#202122)" fill="#202122" mask="url(#mask-32)">
+				<path id="Color-mask" d="M0 0h20v20H0z"/>
+			</g>
+		</g>
+	</g>
+</svg>

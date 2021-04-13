@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="316" height="170" viewBox="0 0 316 170">
+	<title>
+		Simple Dialog Example
+	</title>
+	<defs>
+		<filter id="filter-2" width="108.7%" height="116.8%" x="-4.3%" y="-7.1%" filterUnits="objectBoundingBox">
+			<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+		</filter>
+		<path id="path-1" d="M0 0h300v155H0z"/>
+	</defs>
+	<g id="Simple-Dialog-Example" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="Simple-Dialog" transform="translate(8 6)">
+			<g id="Rectangle">
+				<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
+				<use fill="#FFF" xlink:href="#path-1"/>
+			</g>
+			<text id="Save-your-progress-b" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+				<tspan x="23" y="59">Save your progress before you </tspan> <tspan x="23" y="81">leave editing mode</tspan>
+			</text>
+			<text id="Save-your-progress" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="18" font-weight="bold">
+				<tspan x="24" y="36">Save your progress</tspan>
+			</text>
+			<g id="Button-/---progressive-/-!default" transform="translate(214 99)">
+				<rect id="bg" width="61" height="31" x=".5" y=".5" fill="#36C" stroke="#36C" rx="2"/>
+				<text id="label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+					<tspan x="12.464" y="20">Save</tspan>
+				</text>
+			</g>
+			<g id="Button-/-!default-(--neutral)" transform="translate(128 99)">
+				<rect id="bg" width="77" height="31" x=".5" y=".5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
+				<text id="Label" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+					<tspan x="12.488" y="20">Cancel</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

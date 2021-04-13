@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="312" height="212" viewBox="0 0 312 212">
+	<title>
+		dialog_simple_long_button_labels
+	</title>
+	<defs>
+		<filter id="filter-2" width="108.7%" height="113.4%" x="-4.3%" y="-5.7%" filterUnits="objectBoundingBox">
+			<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+		</filter>
+		<path id="path-1" d="M0 0h300v194H0z"/>
+	</defs>
+	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+		<g id="WikimediaUI-components_overview" transform="translate(-14165 -476)">
+			<path fill="#FFF" d="M0 0h14910v4217H0z"/>
+			<g id="DIALOGS" transform="translate(13943 142)">
+				<g id="Simple-Dialog-long-actions" transform="translate(228 341)">
+					<g id="Rectangle">
+						<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
+						<use fill="#FFF" xlink:href="#path-1"/>
+					</g>
+					<text id="Dialog-content-shoul" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
+						<tspan x="23" y="59">Dialog content should aim to fill </tspan> <tspan x="23" y="81">one or two lines</tspan>
+					</text>
+					<text id="Title" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="18" font-weight="bold">
+						<tspan x="24" y="36">Title</tspan>
+					</text>
+					<g id="Button-/---progressive-/-!default" transform="translate(30 99)">
+						<rect id="bg" width="245" height="31" x=".5" y=".5" fill="#36C" stroke="#36C" rx="2"/>
+						<text id="label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+							<tspan x="12.056" y="20">When the button label is long</tspan>
+						</text>
+					</g>
+					<g id="Button-/-!default-(--neutral)" transform="translate(78 139)">
+						<rect id="bg" width="197" height="31" x=".5" y=".5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
+						<text id="Label" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
+							<tspan x="12.176" y="20">You may stack buttons</tspan>
+						</text>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
