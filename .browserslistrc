@@ -1,8 +1,8 @@
-Android >= 4
-Chrome >= 12
+Android >= 4.3
+Chrome >= 31
 Edge >= 12
-Firefox >= 3.6
+Firefox >= 27
 IE >= 9
-iOS >= 7.1
-Opera >= 15
-Safari >= 5.1
+iOS >= 9.0
+Opera >= 18
+Safari >= 9.1
