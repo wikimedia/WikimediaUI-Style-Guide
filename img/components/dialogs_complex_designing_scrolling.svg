@@ -4,8 +4,8 @@
 		Artboard
 	</title>
 	<defs>
+		<path id="path-31" d="M16.142 2l1.414 1.414-6.364 6.364 6.366 6.366-1.414 1.414-6.366-6.366-6.364 6.364L2 16.142l6.364-6.364-6.362-6.362 1.414-1.414 6.362 6.362L16.142 2z"/>
 		<path id="path-17" d="M45 143h4v12h-4z"/>
-		<path id="path-1" d="M8 6h435v405H8z"/>
 		<path id="path-3" d="M35 37h4v4h-4z"/>
 		<path id="path-29" d="M8 6h435v55H8z"/>
 		<path id="path-5" d="M35 151h4v4h-4z"/>
@@ -19,12 +19,12 @@
 		<path id="path-13" d="M40 259h4v8h-4z"/>
 		<path id="path-19" d="M45 255h4v12h-4z"/>
 		<path id="path-15" d="M45 29h4v12h-4z"/>
-		<path id="path-31" d="M16.142 2l1.414 1.414-6.364 6.364 6.366 6.366-1.414 1.414-6.366-6.366-6.364 6.364L2 16.142l6.364-6.364-6.362-6.362 1.414-1.414 6.362 6.362L16.142 2z"/>
+		<path id="path-1" d="M8 6h435v405H8z"/>
+		<mask id="mask-16" width="4" height="12" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+			<use xlink:href="#path-15"/>
+		</mask>
 		<mask id="mask-18" width="4" height="12" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
 			<use xlink:href="#path-17"/>
-		</mask>
-		<mask id="mask-24" width="18" height="18" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
-			<use xlink:href="#path-23"/>
 		</mask>
 		<mask id="mask-14" width="4" height="8" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
 			<use xlink:href="#path-13"/>
@@ -41,8 +41,8 @@
 		<mask id="mask-10" width="4" height="8" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
 			<use xlink:href="#path-9"/>
 		</mask>
-		<mask id="mask-16" width="4" height="12" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
-			<use xlink:href="#path-15"/>
+		<mask id="mask-24" width="18" height="18" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
+			<use xlink:href="#path-23"/>
 		</mask>
 		<mask id="mask-8" width="4" height="4" x="0" y="0" fill="#fff" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox">
 			<use xlink:href="#path-7"/>
