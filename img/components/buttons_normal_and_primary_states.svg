@@ -4,7 +4,7 @@
 		buttons_normal_and_primary_states
 	</title>
 	<defs>
-		<filter id="filter-5" width="173.9%" height="154.2%" x="-36.9%" y="-18.8%" filterUnits="objectBoundingBox">
+		<filter id="filter-5" width="173.6%" height="154.2%" x="-36.7%" y="-18.8%" filterUnits="objectBoundingBox">
 			<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
 			<feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
 			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
@@ -20,7 +20,7 @@
 				<feMergeNode in="shadowMatrixOuter2"/>
 			</feMerge>
 		</filter>
-		<filter id="filter-7" width="173.9%" height="154.2%" x="-36.9%" y="-18.8%" filterUnits="objectBoundingBox">
+		<filter id="filter-7" width="173.6%" height="154.2%" x="-36.7%" y="-18.8%" filterUnits="objectBoundingBox">
 			<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
 			<feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
 			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
@@ -36,7 +36,7 @@
 				<feMergeNode in="shadowMatrixOuter2"/>
 			</feMerge>
 		</filter>
-		<filter id="filter-9" width="212.4%" height="164.2%" x="-56%" y="-21.7%" filterUnits="objectBoundingBox">
+		<filter id="filter-9" width="212.6%" height="165%" x="-56.2%" y="-22.5%" filterUnits="objectBoundingBox">
 			<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
 			<feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
 			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
@@ -61,7 +61,7 @@
 	</defs>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<g id="WikimediaUI-components_overview" transform="translate(-946 -255)">
-			<path fill="#FFF" d="M0 0h14100v3264H0z"/>
+			<path fill="#FFF" d="M0 0h14910v4217H0z"/>
 			<g id="BUTTONS-NORMAL-&amp;-PRIMARY" transform="translate(946 143)">
 				<g id="Normal-&amp;-Primary-Buttons-X" transform="translate(1 86)">
 					<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
@@ -92,7 +92,7 @@
 						<tspan x="555.288" y="161">Destructive</tspan>
 					</text>
 					<g id="Button-/---progressive-/-!default" transform="translate(380 83)">
-						<rect id="bg" width="114" height="31" x=".5" y=".5" fill="#447FF5" fill-rule="evenodd" stroke="#447FF5" stroke-width="1" rx="2"/>
+						<rect id="bg" width="114" height="31" x=".5" y=".5" fill="#447FF5" stroke="#447FF5" rx="2"/>
 						<text id="label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="12.452" y="22">Progressive</tspan>
 						</text>
@@ -102,13 +102,13 @@
 						<tspan x="555.288" y="105">Destructive</tspan>
 					</text>
 					<g id="Button-/---progressive-/-!default" transform="translate(380 27)">
-						<rect id="bg" width="114" height="31" x=".5" y=".5" fill="#36C" fill-rule="evenodd" stroke="#36C" stroke-width="1" rx="2"/>
+						<rect id="bg" width="114" height="31" x=".5" y=".5" fill="#36C" stroke="#36C" rx="2"/>
 						<text id="label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="12.452" y="22">Progressive</tspan>
 						</text>
 					</g>
-					<g id="Button-/---destructive-/-!default" transform="translate(543 27)">
-						<rect id="bg" width="111" height="31" x=".5" y=".5" fill="#D33" fill-rule="evenodd" stroke="#D33" stroke-width="1" rx="2"/>
+					<g id="Group" transform="translate(543 27)">
+						<rect id="bg" width="111" height="31" x=".5" y=".5" fill="#D33" stroke="#D33" rx="2"/>
 						<text id="label" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="12.288" y="22">Destructive</tspan>
 						</text>
@@ -126,7 +126,7 @@
 						<tspan x="204" y="273">Normal</tspan>
 					</text>
 					<g id="Button-/-!default-(--neutral)" transform="translate(192 27)">
-						<rect id="bg" width="79" height="31" x=".5" y=".5" fill="#F8F9FA" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" rx="2"/>
+						<rect id="bg" width="79" height="31" x=".5" y=".5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
 						<text id="Label" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="12.168" y="22">Normal</tspan>
 						</text>
@@ -135,7 +135,7 @@
 					<text id="Label" fill="#404244" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="204" y="105">Normal</tspan>
 					</text>
-					<rect id="BG" width="79" height="31" x="192.5" y="139.5" fill="#EAECF0" stroke="#72777D" rx="2"/>
+					<rect id="BG" width="79" height="31" x="192.5" y="139.5" fill="#C8CCD1" stroke="#72777D" rx="2"/>
 					<text id="Label" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="204" y="161">Normal</tspan>
 					</text>
@@ -146,23 +146,17 @@
 					<text id="Label" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="204.168" y="217">Normal</tspan>
 					</text>
-					<g id="Cursor-/-Pointer" transform="translate(256 157)">
-						<g id="Cursor-Pointer">
-							<use fill="#000" filter="url(#filter-5)" xlink:href="#path-4"/>
-							<path fill="#FFF" stroke="#000" d="M12.439 9.845a2.038 2.038 0 00-.561-.95 2.138 2.138 0 00-2.571-.298V1.425A1.925 1.925 0 007.397-.5c-.526 0-1.002.216-1.346.567-.34.348-.552.828-.552 1.358V15l-2.69-3.478a1.729 1.729 0 00-1.063-.768 1.83 1.83 0 00-1.338.184 1.778 1.778 0 00-.84 1.053c-.126.435-.08.912.176 1.345 0 0 2.82 4.373 3.971 6.1.345.517.755 1.07 1.161 1.617.868 1.17 1.793 2.306 1.793 2.948 0 .144-.047.312-.128.5h9.221c-.352-.755.25-1.803.875-2.996.704-1.343 1.464-2.841 1.464-4.302v-3.24l-.006-1.585c0-.464-.19-.885-.499-1.19a1.7 1.7 0 00-1.198-.491 1.7 1.7 0 00-.805.201 2.043 2.043 0 00-.514-.805 2.127 2.127 0 00-1.483-.594c-.43 0-.826.124-1.157.347z"/>
-						</g>
+					<g id="Cursor-Pointer" transform="translate(256 157)">
+						<use fill="#000" filter="url(#filter-5)" xlink:href="#path-4"/>
+						<path fill="#FFF" stroke="#000" d="M7.396-.5a1.925 1.925 0 011.91 1.925h0v7.173l.035-.02a2.1 2.1 0 01.862-.27l.19-.009c.577 0 1.103.229 1.485.596.258.249.45.56.55.909l.009.042.137-.084c.252-.142.535-.23.838-.257l.184-.007c.58 0 1.104.228 1.483.594.214.207.383.459.49.738l.022.068a1.7 1.7 0 01.634-.193l.173-.009a1.7 1.7 0 011.198.49c.309.306.5.727.5 1.19h0l.005 1.587v3.239c0 1.46-.76 2.96-1.464 4.302-.625 1.193-1.227 2.241-.875 2.996h0-9.221c.081-.188.128-.356.128-.5 0-.642-.925-1.779-1.793-2.948-.406-.548-.816-1.1-1.162-1.619A729.053 729.053 0 01-.072 13.62c-.337-.553-.425-1.061-.359-1.49.08-.514.38-.934.839-1.193a1.83 1.83 0 011.338-.184c.433.107.819.372 1.063.768h0l2.69 3.478V1.425c0-.53.211-1.01.552-1.358.344-.35.82-.567 1.345-.567z"/>
 					</g>
-					<g id="Cursor-/-Pointer" transform="translate(256 101)">
-						<g id="Cursor-Pointer">
-							<use fill="#000" filter="url(#filter-7)" xlink:href="#path-6"/>
-							<path fill="#FFF" stroke="#000" d="M12.439 9.845a2.038 2.038 0 00-.561-.95 2.138 2.138 0 00-2.571-.298V1.425A1.925 1.925 0 007.397-.5c-.526 0-1.002.216-1.346.567-.34.348-.552.828-.552 1.358V15l-2.69-3.478a1.729 1.729 0 00-1.063-.768 1.83 1.83 0 00-1.338.184 1.778 1.778 0 00-.84 1.053c-.126.435-.08.912.176 1.345 0 0 2.82 4.373 3.971 6.1.345.517.755 1.07 1.161 1.617.868 1.17 1.793 2.306 1.793 2.948 0 .144-.047.312-.128.5h9.221c-.352-.755.25-1.803.875-2.996.704-1.343 1.464-2.841 1.464-4.302v-3.24l-.006-1.585c0-.464-.19-.885-.499-1.19a1.7 1.7 0 00-1.198-.491 1.7 1.7 0 00-.805.201 2.043 2.043 0 00-.514-.805 2.127 2.127 0 00-1.483-.594c-.43 0-.826.124-1.157.347z"/>
-						</g>
+					<g id="Cursor-Pointer" transform="translate(256 101)">
+						<use fill="#000" filter="url(#filter-7)" xlink:href="#path-6"/>
+						<path fill="#FFF" stroke="#000" d="M7.396-.5a1.925 1.925 0 011.91 1.925h0v7.173l.035-.02a2.1 2.1 0 01.862-.27l.19-.009c.577 0 1.103.229 1.485.596.258.249.45.56.55.909l.009.042.137-.084c.252-.142.535-.23.838-.257l.184-.007c.58 0 1.104.228 1.483.594.214.207.383.459.49.738l.022.068a1.7 1.7 0 01.634-.193l.173-.009a1.7 1.7 0 011.198.49c.309.306.5.727.5 1.19h0l.005 1.587v3.239c0 1.46-.76 2.96-1.464 4.302-.625 1.193-1.227 2.241-.875 2.996h0-9.221c.081-.188.128-.356.128-.5 0-.642-.925-1.779-1.793-2.948-.406-.548-.816-1.1-1.162-1.619A729.053 729.053 0 01-.072 13.62c-.337-.553-.425-1.061-.359-1.49.08-.514.38-.934.839-1.193a1.83 1.83 0 011.338-.184c.433.107.819.372 1.063.768h0l2.69 3.478V1.425c0-.53.211-1.01.552-1.358.344-.35.82-.567 1.345-.567z"/>
 					</g>
-					<g id="Cursor-/-!default" transform="translate(262 276)">
-						<g id="Cursor" fill="#000">
-							<use filter="url(#filter-9)" xlink:href="#path-8"/>
-							<path stroke="#FFF" d="M3.936 12.924L6.614 19.7c.137.34.408.59.741.713.31.116.677.12 1.025-.02.346-.14.606-.398.75-.697a1.26 1.26 0 00.039-1.024l-2.72-6.886 4.404.244a1.63 1.63 0 00.67-.195.977.977 0 00.445-.514.97.97 0 00-.011-.68 1.584 1.584 0 00-.366-.554L.943-.055C.7-.303.478-.353-.217.204c-.07.246-.131.76-.17 1.734-.078 1.911-.1 5.713.008 13.687a.971.971 0 00.465.498.98.98 0 00.678.06c.191-.048.405-.153.627-.333l2.545-2.926z"/>
-						</g>
+					<g id="Cursor" fill="#000" transform="translate(262 276)">
+						<use filter="url(#filter-9)" xlink:href="#path-8"/>
+						<path stroke="#FFF" d="M-.142-.405c.803.085.93.19 1.086.35h0L11.59 10.089c.184.19.301.379.366.553a.97.97 0 01.011.681.977.977 0 01-.446.514c-.168.097-.39.17-.669.195h0l-4.405-.244 2.721 6.886c.12.295.118.613.012.902l-.051.122a1.416 1.416 0 01-.75.696c-.348.141-.714.137-1.025.021a1.261 1.261 0 01-.741-.713h0l-2.679-6.778-2.544 2.927c-.177.144-.35.24-.51.297l-.117.036a.977.977 0 01-.678-.06c-.22-.107-.404-.303-.507-.607h0L-.474.67c0-.725.19-.98.332-1.074z"/>
 					</g>
 				</g>
 			</g>
