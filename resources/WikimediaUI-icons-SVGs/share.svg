@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><g id="Icons_-_content" data-name="Icons - content"><path id="Path" d="M12,6.5v-4l7,7-7,7v-4c-5,0-8.5,1.5-11,5a17.94,17.94,0,0,1,.8359-2.9161l.2089-.516A12.0926,12.0926,0,0,1,12,6.5Z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+	<title>
+		share
+	</title>
+	<path d="M12 6V2l7 7-7 7v-4c-5 0-8.5 1.5-11 5l.8-3 .2-.4A12 12 0 0112 6z"/>
+</svg>
