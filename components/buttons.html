@@ -90,7 +90,7 @@
 					</section>
 					<section id="designing">
 						<h2>Designing</h2>
-						<p>The button styles distinguish types of buttons and each button’s state (e.g. disabled, hover, active) in accessible color variations.</p>
+						<p>The button styles distinguish types of buttons and each button’s state (e.g. hover, active, focussed) in accessible color variations.</p>
 						<figure class="components__designing" style="margin-top: 16px;">
 							<img src="../img/components/buttons_designing.svg" alt="button design properties">
 							<figcaption class="figure__caption"></figcaption>
@@ -113,6 +113,8 @@
 							<img src="../img/components/buttons_normal_and_primary_states.svg" alt="buttons states">
 							<figcaption class="figure__caption"></figcaption>
 						</figure>
+						<p>Note that disabled normal and primary buttons are not following our minimal color contrasts elsewhere. <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1 state that “…part[s] of an inactive user interface component […] have no contrast requirement”.<sup><a href="#references">[2]</a></sup><br>
+							Provide sufficient information in disabled elements context to clarify to user what is disabled and how to enable component if useful instead.</p>
 					</section>
 					<section id="types">
 						<h2>Types</h2>
@@ -140,7 +142,7 @@
 						<figure class="components__states">
 							<img src="../img/components/buttons_quiet_states.svg" alt="quiet buttons' states">
 						</figure>
-						<p>Use quiet buttons where a stronger focus on content is preferable, yet remain easily recognizable. For example, the icon-only edit buttons alongside sections in article view on mobile Wikipedia<sup><a href="#references">[2]</a></sup>. They still feature minimal target sizes and states to provide user clear interaction feedback. Normal (framed) buttons are the default choice for simplified recognition.</p>
+						<p>Use quiet buttons where a stronger focus on content is preferable, yet remain easily recognizable. For example, the icon-only edit buttons alongside sections in article view on mobile Wikipedia<sup><a href="#references">[3]</a></sup>. They still feature minimal target sizes and states to provide user clear interaction feedback. Normal (framed) buttons are the default choice for simplified recognition.</p>
 					</section>
 					<section id="coding">
 						<h2>Coding</h2>
@@ -150,6 +152,7 @@
 						<h2>References</h2>
 						<ol>
 							<li><a href="https://marcysutton.com/links-vs-buttons-in-modern-web-applications" target="_blank" rel="noopener">“Links vs. Buttons in Modern Web Applications” by Marcy Sutton</a></li>
+							<li><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum" target="_blank" rel="noopener">Web Content Accessibility Guidelines (WCAG) 2.1 – Success Criterion 1.4.3 Contrast (Minimum)</a></li>
 							<li><a href="https://en.m.wikipedia.org/wiki/Button_(computing)" target="_blank" rel="noopener">Mobile English Wikipedia: Button (computing) article with exemplified quiet edit buttons</a></li>
 						</ol>
 					</section>
