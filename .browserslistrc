@@ -1,8 +1,7 @@
-Android >= 4.3
-Chrome >= 31
-Edge >= 12
-Firefox >= 27
-IE >= 9
-iOS >= 9.0
-Opera >= 18
-Safari >= 9.1
+# Browserslist configuration of browsers with basic level of support.
+# Please see https://www.mediawiki.org/wiki/Compatibility#Mobile and
+# https://github.com/wikimedia/browserslist-config-wikimedia/
+# See also browsers definition in ResourceLoader startup module
+# in MediaWiki core 'resources/src/startup/startup.js'.
+
+extends browserslist-config-wikimedia/basic
