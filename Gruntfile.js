@@ -29,7 +29,6 @@ module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( 'grunt-eslint' );
 	grunt.loadNpmTasks( '@lodder/grunt-postcss' );
 	grunt.loadNpmTasks( 'grunt-replace' );
-	grunt.loadNpmTasks( 'grunt-sketch' );
 	grunt.loadNpmTasks( 'grunt-stylelint' );
 	grunt.loadNpmTasks( 'grunt-svgmin' );
 
@@ -108,181 +107,6 @@ module.exports = function ( grunt ) {
 				},
 				src: 'css/wmui-style-guide.dev.css',
 				dest: 'css/build/wmui-style-guide.min.css'
-			}
-		},
-
-		// Export resources from Sketch files
-		sketch_export: {
-			wikimediaui_components_png: {
-				options: {
-					type: 'slices',
-					items: [
-						'Primary_Buttons',
-						'Quiet_Buttons',
-						'Button_Group',
-						'Link',
-						'Checkbox',
-						'Radio_Button',
-						'Toggle_Switch',
-						'Text_Input',
-						'Dropdown'
-					],
-					groupContentsOnly: true,
-					scales: [
-						2.0
-					],
-					formats: [
-						'png'
-					],
-					saveForWeb: true
-				},
-				src: 'resources/WikimediaUI-components_overview.sketch',
-				dest: 'img/components'
-			},
-			wikimediaui_components_svg: {
-				options: {
-					type: 'slices',
-					items: [
-						'Primary_Buttons',
-						'Quiet_Buttons',
-						'Button_Group',
-						'Link',
-						'Checkbox',
-						'Radio_Button',
-						'Toggle_Switch',
-						'Text_Input',
-						'Dropdown',
-						'Language_Selectors'
-					],
-					groupContentsOnly: true,
-					compact: true,
-					scales: [
-						1.0
-					],
-					formats: [
-						'svg'
-					],
-					saveForWeb: true
-				},
-				src: 'resources/WikimediaUI-components_overview.sketch',
-				dest: 'img/components'
-			},
-			wikimediaui_overview: {
-				options: {
-					type: 'artboards',
-					items: [
-						'WikimediaUI-components_overview'
-					],
-					groupContentsOnly: true,
-					compact: true,
-					scales: [
-						1.0
-					],
-					formats: [
-						'png',
-						'svg'
-					],
-					saveForWeb: true
-				},
-				src: 'resources/WikimediaUI-components_overview.sketch',
-				dest: 'resources'
-			},
-			wikimediaui_style_guide_imagery_design_principles_svg: {
-				options: {
-					type: 'artboards',
-					items: [
-						'content-first',
-						'trustworthy-yet-joyful'
-					],
-					groupContentsOnly: true,
-					compact: true,
-					scales: [
-						1.0
-					],
-					formats: [
-						'svg'
-					],
-					saveForWeb: true
-				},
-				src: 'resources/Wikimedia_Design_Style_Guide-imagery.sketch',
-				dest: 'img/design-principles'
-			},
-			wikimediaui_style_guide_imagery_design_principles_png: {
-				options: {
-					type: 'artboards',
-					items: [
-						'content-first',
-						'trustworthy-yet-joyful'
-					],
-					groupContentsOnly: true,
-					compact: true,
-					scales: [
-						2.0
-					],
-					formats: [
-						'png'
-					],
-					saveForWeb: true
-				},
-				src: 'resources/Wikimedia_Design_Style_Guide-imagery.sketch',
-				dest: 'img/design-principles'
-			},
-			wikimediaui_style_guide_imagery_visual_style_svg: {
-				options: {
-					type: 'artboards',
-					items: [
-						'icons-sample',
-						'icons-optical-adjustment',
-						'illustrations-header',
-						'illustrations-article',
-						'illustrations-colored-background',
-						'illustrations-white-background',
-						'illustrations-grey-background'
-					],
-					groupContentsOnly: true,
-					compact: true,
-					scales: [
-						1.0
-					],
-					formats: [
-						'svg'
-					],
-					saveForWeb: true
-				},
-				src: 'resources/Wikimedia_Design_Style_Guide-imagery.sketch',
-				dest: 'img/visual-style'
-			},
-			wikimediaui_style_guide_imagery_visual_style_png: {
-				options: {
-					type: 'artboards',
-					items: [
-						'principles-paper-ink',
-						'principles-paper-shadow',
-						'principles-content-chrome',
-						'principles-color-type',
-						'typography-specimen',
-						'typography-readability',
-						'icons-sample',
-						'icons-optical-adjustment',
-						'illustrations-header',
-						'illustrations-article',
-						'illustrations-colored-background',
-						'illustrations-white-background',
-						'illustrations-grey-background'
-
-					],
-					groupContentsOnly: true,
-					compact: true,
-					scales: [
-						2.0
-					],
-					formats: [
-						'png'
-					],
-					saveForWeb: true
-				},
-				src: 'resources/Wikimedia_Design_Style_Guide-imagery.sketch',
-				dest: 'img/visual-style'
 			}
 		},
 
@@ -376,7 +200,7 @@ module.exports = function ( grunt ) {
 	} );
 
 	grunt.registerTask( 'lint', [ 'eslint', 'stylelint' ] );
-	grunt.registerTask( 'images', [ 'sketch_export', 'svgmin' ] );
+	grunt.registerTask( 'images', [ 'svgmin' ] );
 	grunt.registerTask( 'images-pre-production', [ 'replace' ] );
 	grunt.registerTask( 'default', [ 'concat', 'uglify', 'postcss:dev', 'postcss:min' ] );
 };
