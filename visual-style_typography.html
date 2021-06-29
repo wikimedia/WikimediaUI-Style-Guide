@@ -66,7 +66,7 @@
 						<p>Content should be readable by everyone, regardless of their circumstances. Color blindness or the sun on a device's screen should not be barriers to access.</p>
 
 						<h3>Contrast</h3>
-						<p>When using text, make sure that it provides enough contrast to be read comfortably. Check the contrast between the colors used for the text and its background. Provide at least level AA sufficient contrast (4.5:1). The <a href="visual-style_colors.html">color palette</a> provides the contrast levels for pure white and black surfaces, but you need to ensure the contrast on other combinations.</p>
+						<p>When using text, make sure that it provides enough color contrast to be read comfortably. Check the contrast between the colors used for the text and its background. <span class="note note--inline note--a11y">Accessibility note:</span> Provide at least level AA sufficient contrast (4.5:1). The <a href="visual-style_colors.html">color palette</a> provides the contrast levels for pure white and black surfaces, but you need to ensure the contrast on other combinations.</p>
 						<div class="figures-do-dont figures-do-dont--contrast">
 							<figure class="figure figure--do">
 								<div class="figure__contents">Bento (弁当 bentō) is a single-portion take-out or home-packed meal common in Japanese cuisine.</div>
@@ -82,7 +82,7 @@
 						<p><strong>Text spacing.</strong> How text is placed in space can affect its readability. Follow these considerations for text paragraphs:</p>
 						<ul>
 							<li>Line length for reading in English is ideally no longer than <a href="https://en.wikipedia.org/wiki/The_Elements_of_Typographic_Style">75 characters</a>.</li>
-							<li>Line height should be 1.6 times the size of the font used.</li>
+							<li>Line height should be 1.6 times the size of the font used. <span class="note note--inline note--i18n">Internationalization note:</span> Use a bigger line height in a relative size unit like <code>rem</code> or <code>em</code>, not in an absolute like <code>px</code>, to prevent clipping of some Indic scripts, for example Burmese.</li>
 						</ul>
 						<h3>Dynamic text</h3>
 						<p>Content will be available in multiple languages, and text length will vary for pieces of content across languages. Avoid designing interfaces that depend on certain expectations about text length.</p>

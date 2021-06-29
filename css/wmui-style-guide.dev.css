@@ -660,6 +660,19 @@ sup {
 		content: '×';
 	}
 
+/* ... Notes ... */
+.note--a11y:before,
+.note--i18n:before {
+	content: '';
+	background-image: url( ../../resources/WikimediaUI-icons-SVGs/eye.svg );
+	background-repeat: no-repeat;
+	opacity: var( --opacity-icon-accessory );
+	display: inline-block;
+	width: 2.4rem;
+	height: 2rem;
+	vertical-align: text-top;
+}
+
 
 /* ... Color ... */
 .color-palette {
