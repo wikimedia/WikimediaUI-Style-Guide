@@ -2,7 +2,7 @@
 /* Load files from 'node_modules' folders with postCSS-import plugin.
  * Modules specified in package.json file. */
 /**
- * WikimediaUI Base v0.18.1
+ * WikimediaUI Base v0.19.0
  * Wikimedia Foundation user interface base variables
  * https://gerrit.wikimedia.org/g/wikimedia-ui-base/
  *
@@ -64,6 +64,10 @@
 
 
 	/* == Positioning == */
+	/* Positioning Model */
+	/* Use `px` unit to prevent pixel rounding error when using `@size-input-binary / 4`. */
+	/* Works with different sizes on mobile and desktop as it negatively offsets from outside. */
+
 	/* Z-Index */
 
 
@@ -83,6 +87,7 @@
 
 	/* Paddings */
 	/* Must be < `8` as it cuts off scripts like Burmese. Directly connected to `line-height` further down. */
+	/* Menu items don't have a border. So add it to padding. */
 
 	/* Box Shadows */
 	/* Base widget `box-shadow` set to `transparent` for transition purpose. */
