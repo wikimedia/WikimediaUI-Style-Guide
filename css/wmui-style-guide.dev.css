@@ -19,8 +19,7 @@
 	--font-family-serif--fallback: Georgia, serif; /* stylelint-disable-line value-keyword-case */
 	/* Setting bold to `600` as our stack works better with it, only Lato is on the edge.
 	   Helvetica and Arial fallback gracefully to `700`, see T246791. */
-	--font-weight-bold: 600;
-	--font-weight-ultralight: 100;
+	--font-weight-bold: var( --font-weight-semi-bold );
 }
 
 * {
@@ -556,7 +555,7 @@ sup {
 	margin-top: 1.2rem;
 	font-size: 2rem;
 	font-style: italic;
-	font-weight: 100;
+	font-weight: var( --font-weight-hairline );
 }
 
 /* Remove, doesn't provide good styling
@@ -756,7 +755,7 @@ sup {
 		bottom: 1.2rem;
 		left: 1.2rem;
 		font-size: 3.2rem;
-		font-weight: var( --font-weight-ultralight );
+		font-weight: var( --font-weight-hairline );
 	}
 
 		.color-palette--overview .color__name {
