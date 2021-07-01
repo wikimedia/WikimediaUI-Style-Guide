@@ -19,11 +19,9 @@ module.exports = function ( grunt ) {
 			require( 'autoprefixer' )()
 		],
 		// With minifier
-		postCssProcessorsMin = postCssProcessorsDev.concat( [ require( 'cssnano' )() ] ),
-		zopfli = require( 'imagemin-zopfli' );
+		postCssProcessorsMin = postCssProcessorsDev.concat( [ require( 'cssnano' )() ] );
 
 	grunt.loadNpmTasks( 'grunt-contrib-concat' );
-	grunt.loadNpmTasks( 'grunt-contrib-imagemin' );
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 	grunt.loadNpmTasks( 'grunt-contrib-uglify' );
 	grunt.loadNpmTasks( 'grunt-eslint' );
@@ -107,21 +105,6 @@ module.exports = function ( grunt ) {
 				},
 				src: 'css/wmui-style-guide.dev.css',
 				dest: 'css/build/wmui-style-guide.min.css'
-			}
-		},
-
-		// Image Optimization
-		imagemin: {
-			distPngs: {
-				options: {
-					use: [ zopfli() ]
-				},
-				expand: true,
-				src: [
-					'img/**/*.png',
-					'resources/*.png',
-					'!resources/WikimediaUI-components_overview.png'
-				]
 			}
 		},
 

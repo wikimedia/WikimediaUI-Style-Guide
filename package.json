@@ -25,7 +25,6 @@
 		"eslint-config-wikimedia": "0.20.0",
 		"grunt": "1.4.1",
 		"grunt-contrib-concat": "1.0.1",
-		"grunt-contrib-imagemin": "4.0.0",
 		"grunt-contrib-uglify": "5.0.1",
 		"grunt-contrib-watch": "1.1.0",
 		"grunt-eslint": "23.0.0",
@@ -35,6 +34,7 @@
 		"grunt-svgmin": "6.0.1",
 		"imagemin": "8.0.0",
 		"imagemin-zopfli": "7.0.0",
+		"imagemin-cli": "6.0.0",
 		"pixrem": "5.0.0",
 		"postcss": "8.3.5",
 		"postcss-cssnext": "3.1.0",
@@ -44,7 +44,8 @@
 	},
 	"scripts": {
 		"start": "grunt watch",
-		"build": "grunt",
+		"build:imagemin": "imagemin img/components/*.png --plugin=zopfli --out-dir=img/components/ && imagemin img/design-principles/*.png --plugin=zopfli --out-dir=img/design-principles/ && imagemin img/visual-style/*.png --plugin=zopfli --out-dir=img/visual-style/ && imagemin resources/!\\(WikimediaUI-components_overview\\).png --plugin=zopfli --out-dir=resources/",
+		"build": "grunt && npx npm-run-all build:*",
 		"test": "grunt lint"
 	}
 }
