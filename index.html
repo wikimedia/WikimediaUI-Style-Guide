@@ -8,6 +8,7 @@
 	<meta property="og:url" content="https://design.wikimedia.org/style-guide">
 	<meta property="og:image" content="https://design.wikimedia.org/style-guide/img/design-style-guide.png">
 	<link rel="stylesheet" href="css/build/wmui-style-guide.min.css">
+	<link rel="stylesheet" href="./css/partials/scroll_to_top.css">
 	<title>Wikimedia Design Style Guide (WikimediaUI) – provided by Wikimedia Foundation Design Team</title>
 	<script>
 		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
@@ -16,8 +17,13 @@
 	<link rel="preload" href="fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
 	<script src="js/matomo-tracking.min.js"></script>
 	<script src="js/wikimedia-design-style-guide.min.js" async></script>
+	<script src="./js/src/scroll_to_top.js"></script>
 </head>
 <body class="page--home" vocab="http://schema.org/" typeof="WebPage">
+
+	<!-- Scroll To Top -->
+    <div class="scrollTop" onclick="scrollToTop()"></div>
+
 	<header id="header" class="header">
 		<div class="content-box">
 			<a href="#content" class="is-aural is-focusable">Jump to content</a>
@@ -29,6 +35,7 @@
 			<a href="https://github.com/wikimedia/WikimediaUI-Style-Guide" target="_blank" rel="noopener" class="lnk--contribute" title="Fork and contribute on GitHub"><span>Contribute on </span>GitHub</a>
 		</div>
 	</header>
+
 	<div class="page">
 		<div class="content-box">
 			<div class="col col--start">
@@ -81,6 +88,9 @@
 			</div>
 		</div>
 	</div>
+
+	
+
 	<footer id="footer" class="footer">
 		<div class="content-box">
 			<ul class="footer__list footer__list--connect">

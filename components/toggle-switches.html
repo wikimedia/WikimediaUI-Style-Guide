@@ -8,6 +8,7 @@
 	<meta property="og:url" content="https://design.wikimedia.org/style-guide/components/toggle-switches.html">
 	<meta property="og:image" content="https://design.wikimedia.org/style-guide/img/design-style-guide.png">
 	<link rel="stylesheet" href="../css/build/wmui-style-guide.min.css">
+	<link rel="stylesheet" href="../css/partials/scroll_to_top.css">
 	<title>Components: Toggle switches – Wikimedia Design Style Guide</title>
 	<script>
 		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
@@ -16,8 +17,13 @@
 	<link rel="preload" href="../fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
 	<script src="../js/matomo-tracking.min.js"></script>
 	<script src="../js/wikimedia-design-style-guide.min.js" async></script>
+	<script src="../js/src/scroll_to_top.js"></script>
 </head>
 <body class="page--components page--components-toggle-switches" vocab="http://schema.org/" typeof="WebPage">
+	
+	<!-- Scroll To Top -->
+    <div class="scrollTop" onclick="scrollToTop()"></div>
+	
 	<header id="header" class="header">
 		<div class="content-box">
 			<a href="#content" class="is-aural is-focusable">Jump to content</a>

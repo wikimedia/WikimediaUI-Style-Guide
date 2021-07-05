@@ -1,0 +1,24 @@
+/* Scroll To Top */
+.scrollTop {
+    position: fixed;
+    bottom: 800px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background: rgb(255, 255, 255) url("../../img/top.png");
+    border-radius: 50%;
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 99999999;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+
+.active {
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+}
