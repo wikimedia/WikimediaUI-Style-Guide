@@ -2,10 +2,20 @@ Principal Authors (major contributors)
 
 Volker E. <volker.e@wikimedia.org>
 Rita Ho <rho@wikimedia.org>
-Prateek Saxena <psaxena@wikimedia.org>
 Pau Giner <pginer@wikimedia.org>
 Nirzar Pangarkar <npangakar@wikimedia.org>
 Julien Girault <jgirault@wikimedia.org>
 Jan Drewniak <jdrewniak@wikimedia.org>
 Carolyn Li-Madeo <cmadeo@wikimedia.org>
+Sarai Sanchez <sarai.sanchez@gmail.com>
+Robin Schönbächler <rschoenbaechler@wikimedia.org>
+Matthew Williams <mwilliams@wikimedia.org>
+Alex Hollender <ahollender@wikimedia.org>
+
+Patch Contributors (minor contributors)
+
+Prateek Saxena <psaxena@wikimedia.org>
+Nick Wilson <nwilson@wikimedia.org>
 Amir Sarabadani <ladsgroup@gmail.com>
+Olawanle Joel <olawanletjoel@gmail.com>
+James D. Forrester <jforrester@wikimedia.org>
