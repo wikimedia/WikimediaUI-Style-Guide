@@ -95,5 +95,5 @@ It basically follows the same process as adding a component above, only with som
 - Research includes comparing current icons in [DSG's icon collection](https://github.com/wikimedia/WikimediaUI-Style-Guide/tree/master/resources/WikimediaUI-icons-SVGs) with an [online demo available in OOUI](https://doc.wikimedia.org/oojs-ui/master/demos/?page=icons&theme=wikimediaui&direction=ltr&platform=desktop).
 - Design with [icon guidelines in mind](https://design.wikimedia.org/style-guide/visual-style_icons.html).
 - File a task on [Phabricator for each icon](https://phabricator.wikimedia.org/maniphest/task/edit/form/1/?projects=wikimediaui_style_guide,ooui,wvui&title=Icons:), ensure to follow incorporate feedback. Provide the icon as SVG in right-to-left together with left-to-right variant if needed.
-- Finalize by making a pull-request with optimized SVG to DSG's resources folder, icon collection Zip file and to the 'WikimediaUI-icons.ai' Adobe Illustrator file.
+- Finalize by updating the [WikimediaUI Icons and Colors Figma file](https://www.figma.com/file/1lT9LKOK6wiHLnpraMjP3E/WikimediaUI-%E2%80%93-Icons-and-Colors) and by making a pull request with optimized SVG to DSG's resources folder, icon collection Zip file of whole folder with the new icon.
 

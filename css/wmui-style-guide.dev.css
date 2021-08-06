@@ -39,6 +39,22 @@ body {
 	line-height: var( --line-height-base );
 }
 
+
+/* ::: Normalize Browser Rendering Support ::: */
+/* Support IE 9-: Add the correct display as we're relying on
+ * normalize v8 which only supports IE 10+. */
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+	display: block;
+}
+
+
 /* ::: Text Block-Level Elements ::: */
 /* ... Headings ... */
 h1,
