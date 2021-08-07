@@ -19,6 +19,7 @@
 	},
 	"devDependencies": {
 		"@lodder/grunt-postcss": "3.0.1",
+		"@squoosh/cli": "^0.7.2",
 		"autoprefixer": "10.2.6",
 		"browserslist-config-wikimedia": "0.2.0",
 		"cssnano": "5.0.6",
@@ -32,9 +33,6 @@
 		"grunt-replace": "2.0.2",
 		"grunt-stylelint": "0.16.0",
 		"grunt-svgmin": "6.0.1",
-		"imagemin": "8.0.0",
-		"imagemin-zopfli": "7.0.0",
-		"imagemin-cli": "6.0.0",
 		"pixrem": "5.0.0",
 		"postcss": "8.3.5",
 		"postcss-cssnext": "3.1.0",
@@ -44,7 +42,7 @@
 	},
 	"scripts": {
 		"start": "grunt watch",
-		"build:imagemin": "imagemin img/components/*.png --plugin=zopfli --out-dir=img/components/ && imagemin img/design-principles/*.png --plugin=zopfli --out-dir=img/design-principles/ && imagemin img/visual-style/*.png --plugin=zopfli --out-dir=img/visual-style/ && imagemin resources/!\\(WikimediaUI-components_overview\\).png --plugin=zopfli --out-dir=resources/",
+		"build:squoosh": "squoosh-cli --oxipng '{\"level\": 4}' -d img/components/ img/components/*.png && squoosh-cli --oxipng '{\"level\": 4}' -d img/design-principles/ img/design-principles/*.png && squoosh-cli --oxipng '{\"level\": 4}' -d img/visual-style/ img/visual-style/*.png && squoosh-cli --oxipng '{\"level\": 4}' -d resources/ resources/!\\(WikimediaUI-components_overview\\).png",
 		"build": "grunt && npx npm-run-all build:*",
 		"test": "grunt lint"
 	}
