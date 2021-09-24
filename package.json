@@ -42,7 +42,7 @@
 	},
 	"scripts": {
 		"start": "grunt watch",
-		"build:squoosh": "squoosh-cli --oxipng '{\"level\": 4}' -d img/components/ img/components/*.png && squoosh-cli --oxipng '{\"level\": 4}' -d img/design-principles/ img/design-principles/*.png && squoosh-cli --oxipng '{\"level\": 4}' -d img/visual-style/ img/visual-style/*.png && squoosh-cli --oxipng '{\"level\": 4}' -d resources/ resources/!\\(WikimediaUI-components_overview\\).png",
+		"build:squoosh": "squoosh-cli --oxipng '{\"level\": 4}' -d img/apps/ img/apps/*.png && squoosh-cli --oxipng '{\"level\": 4}' -d img/components/ img/components/*.png && squoosh-cli --oxipng '{\"level\": 4}' -d img/design-principles/ img/design-principles/*.png && squoosh-cli --oxipng '{\"level\": 4}' -d img/visual-style/ img/visual-style/*.png && squoosh-cli --oxipng '{\"level\": 4}' -d resources/ resources/!\\(WikimediaUI-components_overview\\).png",
 		"build": "grunt && npx npm-run-all build:*",
 		"test": "grunt lint"
 	}

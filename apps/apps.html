@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" class="js--off">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta property="og:title" content="Apps - Wikimedia Design Style Guide (WikimediaUI)">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://design.wikimedia.org/style-guide/apps/apps.html">
+	<meta property="og:image" content="https://design.wikimedia.org/style-guide/img/apps/apps_blog.png">
+	<link rel="stylesheet" href="../css/build/wmui-style-guide.min.css">
+	<title>Apps – Wikimedia Design Style Guide</title>
+	<script>
+		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
+	</script>
+	<link rel="dns-prefetch" href="https://piwik.wikimedia.org/">
+	<link rel="preload" href="../fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
+	<script src="../js/matomo-tracking.min.js"></script>
+	<script src="../js/wikimedia-design-style-guide.min.js" async></script>
+</head>
+<body class="page--apps" vocab="http://schema.org/" typeof="WebPage">
+	<header id="header" class="header">
+		<div class="content-box">
+			<a href="#content" class="is-aural is-focusable">Jump to content</a>
+			<a href="#nav--main" class="is-aural is-focusable">Jump to navigation</a>
+			<h6 class="site__title"><a href="../"><span class="site__org">Wikimedia </span><span class="site__project">Design Style Guide</span></a></h6>
+			<label class="btn--nav-main" for="trigger--nav-main" aria-hidden="true" title="Show main menu">
+				<i></i> <span>Menu</span>
+			</label>
+			<a href="https://github.com/wikimedia/WikimediaUI-Style-Guide" target="_blank" rel="noopener" class="lnk--contribute" title="Fork and contribute on GitHub"><span>Contribute on </span>GitHub</a>
+		</div>
+	</header>
+	<div class="page">
+		<div class="content-box">
+			<div class="col col--start">
+				<input type="checkbox" id="trigger--nav-main" class="trigger--nav-main">
+				<nav id="nav--main" class="nav nav--main">
+					<ol>
+						<li class="nav__item"><a href="../index.html">Introduction</a></li>
+						<li class="nav__item"><a href="../design-principles.html">Design principles</a></li>
+						<li class="nav__item"><a href="../visual-style.html">Visual style</a>
+							<ul class="nav__sub-items">
+								<li class="nav__sub-item"><a href="../visual-style.html">Principles</a></li>
+								<li class="nav__sub-item"><a href="../visual-style_colors.html">Colors</a></li>
+								<li class="nav__sub-item"><a href="../visual-style_typography.html">Typography</a></li>
+								<li class="nav__sub-item"><a href="../visual-style_icons.html">Icons</a></li>
+								<li class="nav__sub-item is-on"><a href="../visual-style_images.html">Images</a></li>
+								<li class="nav__sub-item"><a href="../visual-style_illustrations.html">Illustrations</a></li>
+							</ul>
+						</li>
+						<li class="nav__item"><a href="../components/links.html">Components</a>
+							<ul class="nav__sub-items">
+								<li class="nav__sub-item is-on"><a href="../components/links.html">Links</a></li>
+								<li class="nav__sub-item"><a href="../components/buttons.html">Buttons</a></li>
+								<li class="nav__sub-item"><a href="../components/button-groups.html">Button groups</a></li>
+								<li class="nav__sub-item"><a href="../components/checkboxes.html">Checkboxes</a></li>
+								<li class="nav__sub-item"><a href="../components/radio-buttons.html">Radio buttons</a></li>
+								<li class="nav__sub-item"><a href="../components/toggle-switches.html">Toggle switches</a></li>
+								<li class="nav__sub-item"><a href="../components/dropdowns.html">Dropdowns</a></li>
+								<li class="nav__sub-item"><a href="../components/comboboxes.html">Comboboxes</a></li>
+								<li class="nav__sub-item"><a href="../components/text-inputs-and-textarea.html">Text inputs and textarea</a></li>
+								<li class="nav__sub-item"><a href="../components/number-inputs.html">Number inputs</a></li>
+								<li class="nav__sub-item"><a href="../components/file-inputs.html">File inputs</a></li>
+								<li class="nav__sub-item"><a href="../components/messages.html">Messages</a></li>
+								<li class="nav__sub-item"><a href="../components/language-selectors.html">Language selectors</a></li>
+								<li class="nav__sub-item"><a href="../components/dialogs.html">Dialogs</a></li>
+							</ul>
+						</li>
+						<li class="nav__item is-on"><a href="apps.html">Apps</a>
+							<ul class="nav__sub-items">
+								<li class="nav__sub-item"><a href="apps.html#strategy">Strategy</a></li>
+								<li class="nav__sub-item"><a href="apps.html#theming">Theming</a></li>
+								<li class="nav__sub-item"><a href="apps.html#principles">Principles</a></li>
+								<li class="nav__sub-item"><a href="apps.html#further-reading">Further reading</a></li>
+							</ul>
+						</li>
+						<!-- <li><a href="../patterns.html">Patterns</a></li> -->
+						<li><a href="../resources.html">Resources</a></li>
+					</ol>
+				</nav>
+			</div>
+			<div class="col col--end">
+				<main id="content" class="content">
+					<h1 class="page__title">Wikimedia Design System and Apps</h1>
+					<div class="figures-box">
+						<figure class="apps__intro figure--comparison">
+							<img class="figure--compare" src="../img/apps/apps_intro_android.png" alt="">
+							<figcaption class="figure__caption">Wikipedia app on Android</figcaption>
+						</figure>
+						<figure class="apps__intro figure--comparison">
+							<img class="figure--compare" src="../img/apps/apps_intro_ios.png" alt="" style="margin-top: 24px;">
+							<figcaption class="figure__caption">Wikipedia app on iOS</figcaption>
+						</figure>
+						<figure class="apps__intro figure--comparison">
+							<img class="figure--compare" src="../img/apps/apps_intro_kaios.png" alt="">
+							<figcaption class="figure__caption">Wikipedia app on kaiOS</figcaption>
+						</figure>
+					</div>
+					<p>Designing for mobile apps presents unique challenges and opportunities compared to traditional
+						websites. Mobile apps run natively on a device and have access to system resources that are harder
+						to access within web based architecture. Key characteristics of apps are:</p>
+					<ul>
+						<li>Apps are designed to fit with the rest of the operating system. When an app fits in with the rest
+						of the OS, it not only looks and feels more at home, it lowers the users learning curve.</li>
+						<li>A deep integration with the OS comes with benefits right out of the box, e.g. accessibility,
+						performance, integration with voice assistants or <a href="https://design.wikimedia.org/blog/2021/04/26/bringing-wikipedia-to-the-homescreen-on-ios.html" target="_blank" rel="noopener">home screen
+						widgets</a>.</li>
+						<li>Offline capabilities and often reduced data usage: offline capabilities allow users to consume
+						content from anywhere, even when they are not connected to the internet or connectivity is low.</li>
+					</ul>
+					<p>Wikimedia Foundation's apps are an essential piece to meet our “this is for
+						everyone” design principle. Wikimedia apps are designed with the philosophy
+						of <a href="http://mobile-first.abookapart.com/" target="_blank"
+						rel="noopener">mobile first</a> in mind. One of the core principles of
+						mobile first is to embrace the constraints of a mobile environment and with
+						it, prioritize essential information, as there’s simply not enough room for
+						everything.</p>
+					<p>Limited connectivity of people in certain areas of the world inspires us to create products that are
+						performant and light on data. When building new features for people for mobile apps, we strive for
+						excellency in user experience and aim to break down complex existing flows and processes.</p>
+
+					<section id="strategy">
+						<h2>Strategy</h2>
+						<p><strong>The apps are here to create mobile first experiences</strong> and are not trying to replace existing desktop
+							or community tools. Through the apps, we aim to meet potential users where they are. We are
+							interested in understanding and addressing barriers of those that have been historically left
+							behind, while not compromising the integrity of the workflows of our long-time users on other
+							platforms. Making participation fit naturally the mobile first lives we live.</strong>
+						<p><strong>The apps are a place to experiment.</strong> Due to development speed, richer capabilities and unique
+							needs of our user base, we are able to experiment. It is on the apps where we think the future of
+							mobile editing will be discovered. Notably, the apps are where we piloted <a href="https://www.mediawiki.org/wiki/Wikimedia_Apps/Suggested_edits#Welcome_to_Suggested_edits" target="_blank" rel="noopener">micro
+							contributions</a>, our most successful editing intervention to this date.</p>
+						<p><strong>The apps are a forcing function to make our technologies future proof.</strong> To provide an example:
+							Right now Wikipedia’s web experience works as a website only and cannot be exported to new mediums.
+							By building on the apps, we create technology that is platform independent and enables next
+							generation experiences. Whether these use artificial intelligence, augmented reality or future
+							technology that is changing our world.</p>
+					</section>
+					<section id="theming">
+						<h2>Theming</h2>
+						<figure class="apps__theming figure figure--full">
+							<img src="../img/apps/theming_main.png" alt="Theming in Wikimedia apps">
+						</figure>
+						<p>As mentioned in the introduction, iOS and Android both have platform
+							specific guidelines. When building apps for the global Wikimedia
+							movement, our goal is to create native experiences for the specific
+							platform. In other words, when designing for mobile apps, guidelines
+							for the platform sit at the top of the hierarchy. Throughout Wikimedia's
+							product suite, we follow <a href="../visual-style.html">Wikimedia
+							Design’s visual design principles</a> when providing solutions.</p>
+						<p>To create a seamless and familiar experience within Wikimedia’s products and services, we apply
+							theming that is based on Wikimedia’s Visual Style guidelines. Theming allows us to customize the
+							app’s look and feel, to better reflect our product’s brand. Theming is reflected in the entire UI,
+							including individual components, like buttons. Here’s an example of applying Material Theming for
+							the Wikipedia Android app:</p>
+						<div class="figures-box">
+							<figure class="apps__principles figure figure--comparison">
+								<img src="../img/apps/theming_button-material.png" alt="Material Design standard button">
+								<figcaption class="figure__caption">A standard Material button (<a href="https://material.io/design/material-theming/overview.html#material-theming" target="_blank" rel="noopener">image source</a>)</figcaption>
+							</figure>
+							<figure class="apps__principles figure figure--comparison">
+								<img src="../img/apps/theming_button-wikipedia.png" alt="Button in Wikipedia for Android app">
+								<figcaption class="figure__caption">A themed button in the Wikipedia for Android app</figcaption>
+							</figure>
+						</div>
+						<div class="figures-box">
+							<figure class="apps__principles figure figure--comparison">
+								<img src="../img/apps/theming_keyboard-ios-messaging.png" alt="Chat toolbar in iOS messaging">
+								<figcaption class="figure__caption">Chat toolbar in iOS messaging (<a
+										href="https://developer.apple.com/design/resources/"
+										target="_blank" rel="noopener">image source</a>)</figcaption>
+							</figure>
+							<figure class="apps__principles figure figure--comparison">
+								<img src="../img/apps/theming_keyboard-ios-editing.png" alt="Wikipedia for iOS app: Editing toolbar">
+								<figcaption class="figure__caption">Editing toolbar in the Wikipedia for iOS app</figcaption>
+							</figure>
+						</div><div class="figures-box">
+							<figure class="apps__principles figure figure--comparison figure--centered">
+								<img src="../img/apps/theming_loading-kaios-default.png"
+									alt="kaiOS standard progress indicator" class="figure__image" style="width:75%;">
+								<figcaption class="figure__caption">KaiOS standard progress indicator.</figcaption>
+							</figure>
+							<figure class="apps__principles figure figure--comparison figure--centered">
+								<img src="../img/apps/theming_loading-kaios-custom.png"
+									alt="Wikipedia for kaiOS app: Custom progress indicator" class="figure__image" style="width:75%;">
+								<figcaption class="figure__caption">We used a planet animation progress indicator to show the vast amount of knowledge available on
+								Wikipedia.</figcaption>
+							</figure>
+						</div>
+						<p>The design style guide’s color palette is also used in the apps. Since both the Android and iOS
+							Wikipedia app is available in four different reading themes (Light, Sepia, Dark and Black), they are
+							using an enhanced color palette for an optimal reading experience. Check out more details about the
+							color palette for Android or iOS here.</p>
+						<div class="figures-box">
+							<figure class="apps__principles figure figure--comparison">
+								<img src="../img/apps/theming_icons-android.png" alt="Wikipedia for Android app: Icons">
+								<figcaption class="figure__caption">The Wikipedia Android app uses Material Icons</figcaption>
+							</figure>
+							<figure class="apps__principles figure figure--comparison">
+								<img src="../img/apps/theming_icons-ios.png" alt="Wikipedia for iOS app: Icons">
+								<figcaption class="figure__caption">The Wikipedia iOS app uses SF Symbols</figcaption>
+							</figure>
+						</div>
+						<p>As defined in the typography section of Wikimedia’s Design Style Guide, the app’s rely on the
+							operating system's default sans-serif typeface. The app’s mostly use icons provided by the platform,
+							e.g. from Google Material or Apple Human Interface Guidelines, except for icons that are associated
+							with established Wikimedia products or services (e.g. Wikipedia’s icon for user talk pages).</p>
+					</section>
+					<section id="principles">
+						<h2>Principles</h2>
+						<h3>Focus</h3>
+						<div class="figures-box">
+							<figure class="apps__principles figure figure--comparison">
+								<img src="../img/apps/principles_focus-Android-picture_of_the_day.png" alt="Wikipedia for Android app: picture of the day">
+								<figcaption class="figure__caption">The “Picture of the day” on Wikipedia for Android puts content from Wikimedia Commons in the
+								spotlight</figcaption>
+							</figure>
+							<figure class="apps__principles figure figure--comparison">
+								<img src="../img/apps/principles_focus-ios-home_screen_widgets.png" alt="Wikipedia for iOS app: home screen widgets">
+								<figcaption class="figure__caption">Wikipedia for iOS focuses on the essential in its home screen widgets</figcaption>
+							</figure>
+							<figure class="apps__principles figure figure--comparison">
+								<img src="../img/apps/principles_focus-kaios-discovery.png" alt="Wikipedia for kaiOS app: Trending article list">
+								<figcaption class="figure__caption">Trending article list for readers to discover regionally relevant content.</figcaption>
+							</figure>
+						</div>
+						<p>How clear is the goal? Based on Wikimedia Design’s <a href="../design-principles.html#content-first">“content first” principle</a>, we aim to <strong>design apps
+							that are easy to understand and focus on the essential</strong>. When designing, content comes first, control
+							comes second. On mobile, screen real estate is limited, places of usage are unforeseeable and the user’s
+							focus is reduced. We strive to reduce information density while not neglecting an interface’s
+							functional essence. Guiding questions like: What is the essence of this feature? What is the purpose
+							of this particular screen? How much information can be deprioritized (or left out) to convey a UI’s
+							purpose? Clarity stands for designing user interfaces with clear call to actions, generous use of
+							white space, accessible contrast and hierarchy when designing with type or icons. Writing concise
+							and suitable multilingual UI copy supports in reaching their goals more efficiently.</p>
+
+						<h3>Orientation</h3>
+						<div class="figures-box">
+							<figure class="apps__principles figure figure--comparison">
+								<img src="../img/apps/principles_orientation-android-more.png" alt="">
+								<figcaption class="figure__caption">The 'More' navigation for Wikipedia on Android is the designed to maintain the user’s context</figcaption>
+							</figure>
+							<figure class="apps__principles figure figure--comparison">
+								<img src="../img/apps/principles_orientation-ios-off_canvas_menu.png" alt="Wikipedia for iOS: Off-canvas menu screenshot">
+								<figcaption class="figure__caption">The off-canvas menu on Wikipedia for iOS is one tap away from anywhere in the app</figcaption>
+							</figure>
+							<figure class="apps__principles figure figure--comparison">
+								<img src="../img/apps/principles_orientation-kaios-options_menu.png" alt="Wikipedia for kaiOS: Options menu screenshot">
+								<figcaption class="figure__caption">Options menu let readers navigate different parts of an article to avoid too many key presses.</figcaption>
+							</figure>
+						</div>
+						<p>Where am I? <strong><a href="../design-principles.html#design-for-consistency">Design for consistency and orientation</a></strong> are key aspects to help users navigate through an
+							interface in a mobile app. We put explicit effort in communicating where users are and where they
+							can go. Spatial awareness in a digital product helps users in achieving goals more efficiently. This
+							is exemplified by using a consistent navigation, usage of depth and the application of motion.
+							Deliberate usage of animation and transitions helps users navigate an interface. Visual layers and
+							realistic motion convey hierarchy, emotions and understanding when using a device.</p>
+
+						<h3>Emotion</h3>
+						<div class="figures-box">
+							<figure class="apps__principles figure figure--comparison figure--centered">
+								<img src="../img/apps/principles_emotion-android-watchlist_diff_thank.png" class="figure__image" style="width:75%;" alt="Wikipedia for Android app: 'Thanks' interaction screenshot">
+								<figcaption class="figure__caption">The 'Thanks' interaction in the Wikipedia for Android app</figcaption>
+							</figure>
+							<figure class="apps__principles figure figure--comparison figure--centered">
+								<img src="../img/apps/principles_emotion-ios-set_knowledge_free.png" class="figure__image" style="width:75%;" alt="Wikipedia for iOS app: Onboarding experience screenshot">
+								<figcaption class="figure__caption">The onboarding experience in the Wikipedia for iOS app educates and resonates emotionally</figcaption>
+							</figure>
+						</div>
+						<p>How does the design feel on an emotional level? An often forgotten and
+							invisible theme but yet one of the most impactful: emotional design.
+							Along the lines of our
+							<a href="../design-principles.html#trustworthy-yet-joyful">”trustworthy
+							yet joyful” design principle</a>, <strong>we believe that preserving the human touch and showing ourselves with our values
+							in our work is essential</strong>. Especially on a device that is as personal as your mobile phone. Instead
+							of creating one more cheap and fast mass feature, we follow a philosophy that has been paved by
+							artists, designers, and architects of the arts and crafts movement. After all, we design for humans
+							and strive to create humane and emotional experiences. Through design, we can see and connect with
+							other human beings. To design experiences that are emotional, we consider understanding the needs of
+							the people we are designing for, as the core mission.</p>
+
+						<h3>Ergonomics</h3>
+						<div class="figures-box">
+							<figure class="apps__principles figure figure--comparison">
+								<img src="../img/apps/principles_ergonomics-android-supporting_users.png" alt="Wikipedia for Android app: Ergonomically supporting users">
+								<figcaption class="figure__caption">Example of ergonomically supporting users in the Wikipedia for Android app.</figcaption>
+							</figure>
+							<figure class="apps__principles figure figure--comparison">
+								<img src="../img/apps/principles_ergonomics-ios-easy_access.png" alt="Wikipedia for iOS app: Easy access of relevant actions screenshot">
+								<figcaption class="figure__caption">Relevant actions are located near the bottom of the screen for easy access.</figcaption>
+							</figure>
+							<figure class="apps__principles figure figure--comparison">
+								<img src="../img/apps/principles_ergonomics-kaios-language_selector.png" alt="Wikipedia for kaiOS app">
+								<figcaption class="figure__caption">For non-touch interfaces, placement of key actions (e.g. search, read, edit) is important. We linked
+								key actions with commonly used phone keys to make them easy to perform</figcaption>
+							</figure>
+						</div>
+						<p>How does the design feel in my hand? <strong>Ergonomics, posture, context, and the tactile nature of touch
+							have implications on how users interact with a design</strong>. Our design principle “this is for everyone” is
+							part of our core mission and designing for touch is different than designing for a keyboard mouse or
+							trackpad. When designing for apps, we embrace principles of <a href="https://en.wikipedia.org/wiki/Direct_manipulation_interface" target="_blank" rel="noopener">direct manipulation</a>, an interaction
+							model where effect are immediately visible on the screen to the user. Designing for a touch device
+							goes beyond enlarging buttons for bigger fingers. We deeply consider placement and positioning of
+							elements to achieve an ergonomic user experience while being aware of different device usage types.
+							And, as voice is considered as the most natural machine-human input method available, we make sure
+							the interface reflects it. We design experiences that provide ergonomics on smartphones, tablets and
+							hybrid laptop/touch devices.</p>
+					</section>
+					<section id="further-reading">
+						<h2>Further reading</h2>
+						<p>The Wikimedia Android, iOS and kaiOS apps are each designed and developed by a specific team to that
+						platform. If you’re interested in learning more about the apps or if you want to get involved,
+						please visit <a href="https://www.mediawiki.org/wiki/Wikimedia_Apps" target="_blank" rel="noopener">Wikimedia Apps on mediawiki.org</a>.</p>
+
+						<h3>Android</h3>
+						<ul>
+							<li><a href="https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ" target="_blank"
+									rel="noopener">Wikipedia for Android project page</a></li>
+							<li><a href="https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android" target="_blank"
+									rel="noopener">Wikipedia for Android team page</a></li>
+							<li><a href="https://github.com/wikimedia/apps-android-wikipedia" target="_blank"
+									rel="noopener">Wikipedia for Android on Github</a></li>
+							<li><a href="https://play.google.com/store/apps/details?id=org.wikipedia&amp;hl=en&amp;gl=US"
+									target="_blank" rel="noopener">Wikipedia Android on Google Play</a></li>
+							<li><a href="https://www.youtube.com/watch?v=6UkFHYqVsbc" target="_blank"
+									rel="noopener">Wikipedia Android App promo video on YouTube</a></li>
+							<li><a href="https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_theme_guidelines"
+									target="_blank" rel="noopener">Android color guidelines</a></li>
+							<li><a href="https://material.io/" target="_blank" rel="noopener">Google Material Design
+									Guidelines</a></li>
+						</ul>
+						<h3>iOS</h3>
+						<ul>
+							<li><a href="https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/iOS" target="_blank"
+									rel="noopener">Wikipedia iOS project page</a></li>
+							<li><a href="https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/iOS" target="_blank"
+									rel="noopener">Wikipedia iOS team page</a></li>
+							<li><a href="https://github.com/wikimedia/wikipedia-ios" target="_blank"
+									rel="noopener">Wikipedia for iOS on Github</a></li>
+							<li><a href="https://apps.apple.com/us/app/wikipedia/id324715238" target="_blank"
+									rel="noopener">Wikipedia for iOS in the App Store</a></li>
+							<li><a href="https://phabricator.wikimedia.org/T169148" target="_blank" rel="noopener">iOS color
+									guidelines</a></li>
+							<li><a href="https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/"
+									target="_blank" rel="noopener">Apple Human Interface Guidelines</a></li>
+						</ul>
+						<h3>kaiOS</h3>
+						<ul>
+							<li><a href="https://www.mediawiki.org/wiki/Wikipedia_for_KaiOS" target="_blank"
+									rel="noopener">Wikipedia for KaiOS project page</a></li>
+							<li><a href="https://github.com/wikimedia/wikipedia-kaios" target="_blank"
+									rel="noopener">Wikipedia for kaiOS on Github</a></li>
+							<li><a href="https://wikimedia.github.io/wikipedia-kaios/sim.html" target="_blank"
+									rel="noopener">Wikipedia KaiOS app simulator</a></li>
+							<li><a href="https://developer.kaiostech.com/docs/" target="_blank" rel="noopener">KaiOS
+									documentation</a></li>
+						</ul>
+					</section>
+				</main>
+			</div>
+		</div>
+	</div>
+	<footer id="footer" class="footer">
+		<div class="content-box">
+			<ul class="footer__list footer__list--connect">
+				<li><a href="https://github.com/wikimedia/WikimediaUI-Style-Guide" target="_blank" rel="noopener">Contribute on GitHub</a></li>
+				<li><a href="https://twitter.com/@WikimediaDesign" title="Follow Wikimedia Product Design team on Twitter">Follow @WikimediaDesign</a></li>
+				<li><a href="https://lists.wikimedia.org/mailman/listinfo/design" title="Join Wikimedia Design mailing list">Join mailing list</a></li>
+			</ul>
+			<p>Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener" property="license">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.</p>
+			<ul class="footer__list footer__list--policy">
+				<li><a href="https://wikimediafoundation.org/privacy-policy/">Privacy policy</a></li>
+				<li><a href="https://design.wikimedia.org/accessibility-statement.html">Accessibility statement</a></li>
+			</ul>
+			<p><a href="https://foundation.wikimedia.org/" class="lnk--wikimedia-project" property="author" typeof="Organization">A Wikimedia Foundation project</a></p>
+			<noscript><p><img src="https://piwik.wikimedia.org/piwik.php?idsite=16&rec=1" alt=""></p></noscript>
+		</div>
+	</footer>
+</body>
+</html>
