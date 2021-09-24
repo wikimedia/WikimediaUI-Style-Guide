@@ -289,6 +289,8 @@ sup {
 .content-box:after,
 .color-palette:before,
 .color-palette:after,
+.figures-box:before,
+.figures-box:after,
 .figures-do-dont:before,
 .figures-do-dont:after,
 .is-comparison:before,
@@ -303,6 +305,7 @@ sup {
 .page:after,
 .content-box:after,
 .color-palette:after,
+.figures-box:after,
 .figures-do-dont:after,
 .is-comparison:after,
 .content__illustration-style .figure--full:after {
@@ -584,6 +587,11 @@ sup {
 	background-color: var( --wmui-color-base90 );
 }
 
+.figure--centered .figure__image {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .figure__caption,
 .heading__description {
 	color: var( --color-base--subtle );
@@ -609,6 +617,11 @@ sup {
 	.heading__description + * {
 		clear: both;
 	}
+
+/* ... Comparison Figures ... */
+.figure--comparison {
+	float: left;
+}
 
 /* ... “Do” & “Don't” figures ... */
 .figures-do-dont {
@@ -1089,6 +1102,10 @@ sup {
 		margin-left: 0;
 	}
 
+	.figure--comparison {
+		width: 100%;
+	}
+
 	/* ... Components ... */
 	.page--components .components__states {
 		margin-left: 0;
@@ -1350,6 +1367,27 @@ sup {
 	.figure--full .figure__caption {
 		margin-left: 0;
 		margin-right: 0;
+	}
+
+	/* Comparison figures, for example in Apps section. */
+	.figure--comparison {
+		margin-right: 4%;
+	}
+
+	.figure--comparison:last-child {
+		margin-right: 0;
+	}
+
+	/* Two figures */
+	.figure--comparison:first-child:nth-last-child( 2 ),
+	.figure--comparison:first-child:nth-last-child( 2 ) ~ .figure--comparison {
+		width: 48%;
+	}
+
+	/* Three figures */
+	.figure--comparison:first-child:nth-last-child( 3 ),
+	.figure--comparison:first-child:nth-last-child( 3 ) ~ .figure--comparison {
+		width: 30%;
 	}
 
 	.figures-do-dont .figure {
