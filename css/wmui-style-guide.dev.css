@@ -12,7 +12,7 @@
 	--width-site: 960px;
 	--width-site-desktop-wide: 1140px;
 	--border-color-heading: var( --wmui-color-base80 );
-	--border-width-heading: 3px;
+	--border-width-heading: 4px;
 	--border-start-blockquote: 4px var( --border-style-base ) var( --wmui-color-base80 );
 	--outline-color-base--focus: var( --color-primary--focus );
 	/* HACK; Add Georgia to serif fallback as long as WikimediaUI Base isn't updated. */
@@ -504,6 +504,7 @@ sup {
 	padding: 0.8rem 1.2rem;
 	font-size: 1.6rem;
 	text-decoration: none;
+	font-style: var(--fontstyle-base);
 	transition: background-color var( --transition-ease-medium ), color var( --transition-ease-medium ), padding var( --transition-ease-medium );
 }
 
@@ -574,6 +575,7 @@ sup {
 	margin-top: 1.2rem;
 	font-size: 2rem;
 	font-style: italic;
+	font-alignment: var(--font-position);
 	font-weight: var( --font-weight-hairline );
 }
 
@@ -808,6 +810,7 @@ sup {
 		display: block;
 		padding: 0;
 		font-family: var( --font-family-system-sans );
+		font-color: var(--font-color--subtle);
 	}
 
 		.color-code--hsb {
