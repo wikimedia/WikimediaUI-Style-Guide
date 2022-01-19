@@ -32,18 +32,19 @@
 		"grunt-exec": "3.0.0",
 		"grunt-replace": "2.0.2",
 		"grunt-stylelint": "0.16.0",
-		"grunt-svgmin": "6.0.1",
 		"pixrem": "5.0.0",
 		"postcss": "8.3.5",
 		"postcss-cssnext": "3.1.0",
 		"postcss-custom-properties": "11.0.0",
 		"postcss-import": "14.0.2",
-		"stylelint-config-wikimedia": "0.11.1"
+		"stylelint-config-wikimedia": "0.11.1",
+		"svgo": "2.8.0"
 	},
 	"scripts": {
 		"start": "grunt watch",
+		"minify:svg": "svgo --config=.svgo.config.js --quiet --recursive --folder ./ --exclude principles-paper-ink.svg --final-newline",
 		"build:squoosh": "squoosh-cli --oxipng '{\"level\": 4}' -d img/components/ img/components/*.png && squoosh-cli --oxipng '{\"level\": 4}' -d img/design-principles/ img/design-principles/*.png && squoosh-cli --oxipng '{\"level\": 4}' -d img/visual-style/ img/visual-style/*.png && squoosh-cli --oxipng '{\"level\": 4}' -d resources/ resources/!\\(WikimediaUI-components_overview\\).png",
-		"build": "grunt && npx npm-run-all build:*",
+		"build": "npm run minify:svg && grunt && npx npm-run-all build:*",
 		"test": "grunt lint"
 	}
 }
