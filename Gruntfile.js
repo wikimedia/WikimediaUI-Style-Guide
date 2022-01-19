@@ -28,7 +28,6 @@ module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( '@lodder/grunt-postcss' );
 	grunt.loadNpmTasks( 'grunt-replace' );
 	grunt.loadNpmTasks( 'grunt-stylelint' );
-	grunt.loadNpmTasks( 'grunt-svgmin' );
 
 	grunt.initConfig( {
 		// Build – JavaScript
@@ -108,43 +107,6 @@ module.exports = function ( grunt ) {
 			}
 		},
 
-		svgmin: {
-			options: {
-				js2svg: {
-					indent: '\t',
-					multipass: true,
-					pretty: true
-				},
-				plugins: [ {
-					cleanupIDs: false
-				}, {
-					removeDesc: true
-				}, {
-					removeRasterImages: true
-				}, {
-					removeTitle: false
-				}, {
-					removeViewBox: false
-				}, {
-					removeXMLProcInst: false
-				}, {
-					sortAttrs: true
-				} ]
-			},
-			all: {
-				files: [ {
-					expand: true,
-					cwd: './',
-					src: [
-						'**/*.svg',
-						'!img/visual-style/principles-paper-ink.svg'
-					],
-					dest: './',
-					ext: '.svg'
-				} ]
-			}
-		},
-
 		replace: {
 			dist: {
 				options: {
@@ -183,7 +145,6 @@ module.exports = function ( grunt ) {
 	} );
 
 	grunt.registerTask( 'lint', [ 'eslint', 'stylelint' ] );
-	grunt.registerTask( 'images', [ 'svgmin' ] );
 	grunt.registerTask( 'images-pre-production', [ 'replace' ] );
 	grunt.registerTask( 'default', [ 'concat', 'uglify', 'postcss:dev', 'postcss:min' ] );
 };
