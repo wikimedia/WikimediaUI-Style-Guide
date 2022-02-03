@@ -83,17 +83,22 @@ C. Ensure the problem statement for the addition is clear and that Design System
 
 #### 5. Design quality assurance
 - Does the component behave as expected and follow the templates?
-- Does it work across required browsers, viewports, assistive technology as intended. QA engineers support needed.
+- Does it work across required browsers, viewports, assistive technology as intended? QA engineers support needed.
 
 #### 6. Finalize and document
 - Add DSG's new component page or extend an existing component if it's a contextual addition as new type. Example: Thinking of different kind of menu treatment in a typeahead search vs page lists.
-- Ensure that User-interface library's demo is provided. Example: [WVUI's Storybook instance](https://doc.wikimedia.org/wvui/master/ui/).
+- Ensure that user-interface library's demo is provided. Example: [Codex documentation instance](https://doc.wikimedia.org/codex/main/).
 
 ### Contribute by designing or changing an icon
 Designing a new or changing an existing icon helps to expand Wikimedia Design Style Guide icon collection and will improve user-interface consistency.
-It basically follows the same process as adding a component above, only with some modification:
-- Research includes comparing current icons in [DSG's icon collection](https://github.com/wikimedia/WikimediaUI-Style-Guide/tree/master/resources/WikimediaUI-icons-SVGs) with an [online demo available in OOUI](https://doc.wikimedia.org/oojs-ui/master/demos/?page=icons&theme=wikimediaui&direction=ltr&platform=desktop).
-- Design with [icon guidelines in mind](https://design.wikimedia.org/style-guide/visual-style_icons.html).
-- File a task on [Phabricator for each icon](https://phabricator.wikimedia.org/maniphest/task/edit/form/1/?projects=wikimediaui_style_guide,ooui,wvui&title=Icons:), ensure to follow incorporate feedback. Provide the icon as SVG in right-to-left together with left-to-right variant if needed.
-- Finalize by updating the [WikimediaUI Icons and Colors Figma file](https://www.figma.com/file/1lT9LKOK6wiHLnpraMjP3E/WikimediaUI-%E2%80%93-Icons-and-Colors) and by making a pull request with optimized SVG to DSG's resources folder, icon collection Zip file of whole folder with the new icon.
+It basically follows the same process as adding a component above, with small modifications:
+- Research includes comparing current icons in [DSG's icon collection](https://github.com/wikimedia/WikimediaUI-Style-Guide/tree/master/resources/WikimediaUI-icons-SVGs) with an [online demo available in Codex](https://doc.wikimedia.org/oojs-ui/master/demos/?page=icons&theme=wikimediaui&direction=ltr&platform=desktop).
+- File a task on [Phabricator for each icon](https://phabricator.wikimedia.org/maniphest/task/edit/form/1/?title=Add%2Fupdate%20''%20WikimediaUI%20icon&description=%3D%3D%20Goal%0D%0AAdd%2Fupdate%20''%20WikimediaUI%20icon%0D%0AAlign%20to%20%5B%5B%20https%3A%2F%2Fdesign.wikimedia.org%2Fstyle-guide%2Fvisual-style_icons.html%20%7C%20Design%20Style%20Guide%20icon%20guidelines%20%5D%5D%0D%0A%0D%0A%3D%3D%3D%20Criteria%20for%20done%0D%0A%5B%5D%20Design%20and%20optimize%20SVG%0D%0A%5B%5D%20Optimize%20SVG%0D%0AA%20new%20SVG%20will%20need%20to%20be%20added%20to%20%0D%0A%5B%5D%20Design%20Style%20Guide%20(DSG)%0D%0A%20%20%5B%5D%20Figma%20file%3A%20add%20icon%20and%20%5B%5B%20https%3A%2F%2Fwww.figma.com%2Ffile%2F1lT9LKOK6wiHLnpraMjP3E%2F%25E2%259D%2596-WikimediaUI-%25E2%2580%2593-Icons-and-Colors%3Fnode-id%3D42%253A5444%20%7C%20publish%20the%20library%20%5D%5D%20with%20saving%20to%20version%20history%0D%0A%20%20%5B%5D%20Add%20to%20DSG%20repository%0D%0A%5B%5D%20Codex%0D%0A%5B%5D%20OOUI%20%0D%0A%20%20%5B%5D%20Add%20''%20icon%20to%20make.%0D%0A%20%20%5B%5D%20Deprecate%20''%20icon%20in%20next%20OOUI%20release%0D%0A%20%20%5B%5D%20Remove%20''%20icon%20in%20next%20minor%20OOUI%20release%0D%0A%0D%0A%3D%3D%3D%20Design%20resources%0D%0ASVG%20files%2C%20screenshots&projects=codex%2C%20design-systems-team-fy2021-22-kanban%2C%20ooui%2C%20wikimedia-design-style-guide%2C%20design).
+- Design with [icon guidelines in mind](https://design.wikimedia.org/style-guide/visual-style_icons.html). Ensure to incorporate feedback until open questions are resolved on task. Provide the icon as SVG in right-to-left together with left-to-right variant if needed.
+- Finalize design by
+  - updating the [Design System WikimediaUI Icons Figma file](https://www.figma.com/file/1lT9LKOK6wiHLnpraMjP3E/%E2%9D%96-WikimediaUI-%E2%80%93-Icon-System). Please ensure that you use Figma's “save to version history” after updating to make the changes clear to other designers using the file.
+  - making a pull request with [code-optimized SVG](https://www.mediawiki.org/wiki/Manual:Coding_conventions/SVG) to DSG's resources folder, icon collection Zip file of whole folder with the new icon.
+- With all of above steps fulfilled, the icon will be updated in the Wikimedia user-interface libraries (at this moment Codex and OOUI) by developers.
+- Review once more on the library demo as soon as the code commit has been merged.
+[Design Systems team](https://www.mediawiki.org/wiki/Design_Systems_Team) is here to help in case of further questions.
 
