@@ -15,7 +15,7 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Download
 
-Download of the style guide and all its resources is available at [GitHub](https://github.com/wikimedia/WikimediaUI-Style-Guide).
+The download of the style guide and all its resources is available at [GitHub](https://github.com/wikimedia/WikimediaUI-Style-Guide).
 
 
 ## Credits
