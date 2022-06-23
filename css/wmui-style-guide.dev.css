@@ -19,8 +19,7 @@
 	--font-family-serif--fallback: Georgia, serif; /* stylelint-disable-line value-keyword-case */
 	/* Setting bold to `600` as our stack works better with it, only Lato is on the edge.
 	   Helvetica and Arial fallback gracefully to `700`, see T246791. */
-	--font-weight-bold: 600;
-	--font-weight-ultralight: 100;
+	--font-weight-bold: var( --font-weight-semi-bold );
 }
 
 * {
@@ -39,6 +38,22 @@ body {
 	font-size: 1.6rem;
 	line-height: var( --line-height-base );
 }
+
+
+/* ::: Normalize Browser Rendering Support ::: */
+/* Support IE 9-: Add the correct display as we're relying on
+ * normalize v8 which only supports IE 10+. */
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+	display: block;
+}
+
 
 /* ::: Text Block-Level Elements ::: */
 /* ... Headings ... */
@@ -274,6 +289,8 @@ sup {
 .content-box:after,
 .color-palette:before,
 .color-palette:after,
+.figures-box:before,
+.figures-box:after,
 .figures-do-dont:before,
 .figures-do-dont:after,
 .is-comparison:before,
@@ -288,6 +305,7 @@ sup {
 .page:after,
 .content-box:after,
 .color-palette:after,
+.figures-box:after,
 .figures-do-dont:after,
 .is-comparison:after,
 .content__illustration-style .figure--full:after {
@@ -556,7 +574,7 @@ sup {
 	margin-top: 1.2rem;
 	font-size: 2rem;
 	font-style: italic;
-	font-weight: 100;
+	font-weight: var( --font-weight-hairline );
 }
 
 /* Remove, doesn't provide good styling
@@ -567,6 +585,11 @@ sup {
 
 .figures--full {
 	background-color: var( --wmui-color-base90 );
+}
+
+.figure--centered .figure__image {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .figure__caption,
@@ -594,6 +617,11 @@ sup {
 	.heading__description + * {
 		clear: both;
 	}
+
+/* ... Comparison Figures ... */
+.figure--comparison {
+	float: left;
+}
 
 /* ... “Do” & “Don't” figures ... */
 .figures-do-dont {
@@ -659,6 +687,19 @@ sup {
 	.dont:before {
 		content: '×';
 	}
+
+/* ... Notes ... */
+.note--a11y:before,
+.note--i18n:before {
+	content: '';
+	background-image: url( ../../resources/WikimediaUI-icons-SVGs/eye.svg );
+	background-repeat: no-repeat;
+	opacity: var( --opacity-icon-accessory );
+	display: inline-block;
+	width: 2.4rem;
+	height: 2rem;
+	vertical-align: text-top;
+}
 
 
 /* ... Color ... */
@@ -743,7 +784,7 @@ sup {
 		bottom: 1.2rem;
 		left: 1.2rem;
 		font-size: 3.2rem;
-		font-weight: var( --font-weight-ultralight );
+		font-weight: var( --font-weight-hairline );
 	}
 
 		.color-palette--overview .color__name {
@@ -1061,6 +1102,10 @@ sup {
 		margin-left: 0;
 	}
 
+	.figure--comparison {
+		width: 100%;
+	}
+
 	/* ... Components ... */
 	.page--components .components__states {
 		margin-left: 0;
@@ -1322,6 +1367,27 @@ sup {
 	.figure--full .figure__caption {
 		margin-left: 0;
 		margin-right: 0;
+	}
+
+	/* Comparison figures, for example in Apps section. */
+	.figure--comparison {
+		margin-right: 4%;
+	}
+
+	.figure--comparison:last-child {
+		margin-right: 0;
+	}
+
+	/* Two figures */
+	.figure--comparison:first-child:nth-last-child( 2 ),
+	.figure--comparison:first-child:nth-last-child( 2 ) ~ .figure--comparison {
+		width: 48%;
+	}
+
+	/* Three figures */
+	.figure--comparison:first-child:nth-last-child( 3 ),
+	.figure--comparison:first-child:nth-last-child( 3 ) ~ .figure--comparison {
+		width: 30%;
 	}
 
 	.figures-do-dont .figure {

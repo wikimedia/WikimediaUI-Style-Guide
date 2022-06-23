@@ -75,7 +75,7 @@
 						<text id="More" fill="#FFF" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 							<tspan x="13" y="24.5">More</tspan>
 						</text>
-						<path id="Path-114" stroke="#FFF" stroke-linecap="square" d="M63.5 1v33M129.5.5v33"/>
+						<path id="Path-114" stroke="#FFF" stroke-linecap="square" d="M63.5 1v33m66-33.5v33"/>
 						<path id="Path-115" stroke="#FFF" stroke-linecap="square" d="M184.5 1.115v33"/>
 					</g>
 					<rect id="button-frame" width="255" height="31" x="192.5" y=".5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
@@ -164,7 +164,7 @@
 					</g>
 					<g id="Cursor" fill="#000" transform="translate(368 306)">
 						<use filter="url(#filter-7)" xlink:href="#path-6"/>
-						<path stroke="#FFF" d="M-.142-.405c.803.085.93.19 1.086.35h0L11.59 10.089c.184.19.301.379.366.553a.97.97 0 01.011.681.977.977 0 01-.446.514c-.168.097-.39.17-.669.195h0l-4.405-.244 2.721 6.886c.12.295.118.613.012.902l-.051.122a1.416 1.416 0 01-.75.696c-.348.141-.714.137-1.025.021a1.261 1.261 0 01-.741-.713h0l-2.679-6.778-2.544 2.927c-.177.144-.35.24-.51.297l-.117.036a.977.977 0 01-.678-.06c-.22-.107-.404-.303-.507-.607h0L-.474.67c0-.725.19-.98.332-1.074z"/>
+						<path stroke="#FFF" d="M-.142-.405c.803.085.93.19 1.086.35h0L11.59 10.089c.184.19.301.379.366.553a.97.97 0 01.011.681.977.977 0 01-.446.514 1.62 1.62 0 01-.669.195h0l-4.405-.244 2.721 6.886c.12.295.118.613.012.902l-.051.122a1.416 1.416 0 01-.75.696 1.414 1.414 0 01-1.025.021 1.261 1.261 0 01-.741-.713h0l-2.679-6.778-2.544 2.927c-.177.144-.35.24-.51.297l-.117.036a.977.977 0 01-.678-.06c-.22-.107-.404-.303-.507-.607h0L-.474.67c0-.725.19-.98.332-1.074z"/>
 					</g>
 					<g id="State-labels" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal" transform="translate(0 8)">
 						<text id="Disabled">

@@ -19,19 +19,15 @@ module.exports = function ( grunt ) {
 			require( 'autoprefixer' )()
 		],
 		// With minifier
-		postCssProcessorsMin = postCssProcessorsDev.concat( [ require( 'cssnano' )() ] ),
-		zopfli = require( 'imagemin-zopfli' );
+		postCssProcessorsMin = postCssProcessorsDev.concat( [ require( 'cssnano' )() ] );
 
 	grunt.loadNpmTasks( 'grunt-contrib-concat' );
-	grunt.loadNpmTasks( 'grunt-contrib-imagemin' );
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 	grunt.loadNpmTasks( 'grunt-contrib-uglify' );
 	grunt.loadNpmTasks( 'grunt-eslint' );
 	grunt.loadNpmTasks( '@lodder/grunt-postcss' );
 	grunt.loadNpmTasks( 'grunt-replace' );
-	grunt.loadNpmTasks( 'grunt-sketch' );
 	grunt.loadNpmTasks( 'grunt-stylelint' );
-	grunt.loadNpmTasks( 'grunt-svgmin' );
 
 	grunt.initConfig( {
 		// Build – JavaScript
@@ -111,233 +107,6 @@ module.exports = function ( grunt ) {
 			}
 		},
 
-		// Export resources from Sketch files
-		sketch_export: {
-			wikimediaui_components_png: {
-				options: {
-					type: 'slices',
-					items: [
-						'Primary_Buttons',
-						'Quiet_Buttons',
-						'Button_Group',
-						'Link',
-						'Checkbox',
-						'Radio_Button',
-						'Toggle_Switch',
-						'Text_Input',
-						'Dropdown'
-					],
-					groupContentsOnly: true,
-					scales: [
-						2.0
-					],
-					formats: [
-						'png'
-					],
-					saveForWeb: true
-				},
-				src: 'resources/WikimediaUI-components_overview.sketch',
-				dest: 'img/components'
-			},
-			wikimediaui_components_svg: {
-				options: {
-					type: 'slices',
-					items: [
-						'Primary_Buttons',
-						'Quiet_Buttons',
-						'Button_Group',
-						'Link',
-						'Checkbox',
-						'Radio_Button',
-						'Toggle_Switch',
-						'Text_Input',
-						'Dropdown',
-						'Language_Selectors'
-					],
-					groupContentsOnly: true,
-					compact: true,
-					scales: [
-						1.0
-					],
-					formats: [
-						'svg'
-					],
-					saveForWeb: true
-				},
-				src: 'resources/WikimediaUI-components_overview.sketch',
-				dest: 'img/components'
-			},
-			wikimediaui_overview: {
-				options: {
-					type: 'artboards',
-					items: [
-						'WikimediaUI-components_overview'
-					],
-					groupContentsOnly: true,
-					compact: true,
-					scales: [
-						1.0
-					],
-					formats: [
-						'png',
-						'svg'
-					],
-					saveForWeb: true
-				},
-				src: 'resources/WikimediaUI-components_overview.sketch',
-				dest: 'resources'
-			},
-			wikimediaui_style_guide_imagery_design_principles_svg: {
-				options: {
-					type: 'artboards',
-					items: [
-						'content-first',
-						'trustworthy-yet-joyful'
-					],
-					groupContentsOnly: true,
-					compact: true,
-					scales: [
-						1.0
-					],
-					formats: [
-						'svg'
-					],
-					saveForWeb: true
-				},
-				src: 'resources/Wikimedia_Design_Style_Guide-imagery.sketch',
-				dest: 'img/design-principles'
-			},
-			wikimediaui_style_guide_imagery_design_principles_png: {
-				options: {
-					type: 'artboards',
-					items: [
-						'content-first',
-						'trustworthy-yet-joyful'
-					],
-					groupContentsOnly: true,
-					compact: true,
-					scales: [
-						2.0
-					],
-					formats: [
-						'png'
-					],
-					saveForWeb: true
-				},
-				src: 'resources/Wikimedia_Design_Style_Guide-imagery.sketch',
-				dest: 'img/design-principles'
-			},
-			wikimediaui_style_guide_imagery_visual_style_svg: {
-				options: {
-					type: 'artboards',
-					items: [
-						'icons-sample',
-						'icons-optical-adjustment',
-						'illustrations-header',
-						'illustrations-article',
-						'illustrations-colored-background',
-						'illustrations-white-background',
-						'illustrations-grey-background'
-					],
-					groupContentsOnly: true,
-					compact: true,
-					scales: [
-						1.0
-					],
-					formats: [
-						'svg'
-					],
-					saveForWeb: true
-				},
-				src: 'resources/Wikimedia_Design_Style_Guide-imagery.sketch',
-				dest: 'img/visual-style'
-			},
-			wikimediaui_style_guide_imagery_visual_style_png: {
-				options: {
-					type: 'artboards',
-					items: [
-						'principles-paper-ink',
-						'principles-paper-shadow',
-						'principles-content-chrome',
-						'principles-color-type',
-						'typography-specimen',
-						'typography-readability',
-						'icons-sample',
-						'icons-optical-adjustment',
-						'illustrations-header',
-						'illustrations-article',
-						'illustrations-colored-background',
-						'illustrations-white-background',
-						'illustrations-grey-background'
-
-					],
-					groupContentsOnly: true,
-					compact: true,
-					scales: [
-						2.0
-					],
-					formats: [
-						'png'
-					],
-					saveForWeb: true
-				},
-				src: 'resources/Wikimedia_Design_Style_Guide-imagery.sketch',
-				dest: 'img/visual-style'
-			}
-		},
-
-		// Image Optimization
-		imagemin: {
-			distPngs: {
-				options: {
-					use: [ zopfli() ]
-				},
-				expand: true,
-				src: [
-					'img/**/*.png',
-					'resources/*.png',
-					'!resources/WikimediaUI-components_overview.png'
-				]
-			}
-		},
-
-		svgmin: {
-			options: {
-				js2svg: {
-					indent: '\t',
-					multipass: true,
-					pretty: true
-				},
-				plugins: [ {
-					cleanupIDs: false
-				}, {
-					removeDesc: true
-				}, {
-					removeRasterImages: true
-				}, {
-					removeTitle: false
-				}, {
-					removeViewBox: false
-				}, {
-					removeXMLProcInst: false
-				}, {
-					sortAttrs: true
-				} ]
-			},
-			all: {
-				files: [ {
-					expand: true,
-					cwd: './',
-					src: [
-						'**/*.svg',
-						'!img/visual-style/principles-paper-ink.svg'
-					],
-					dest: './',
-					ext: '.svg'
-				} ]
-			}
-		},
-
 		replace: {
 			dist: {
 				options: {
@@ -376,7 +145,6 @@ module.exports = function ( grunt ) {
 	} );
 
 	grunt.registerTask( 'lint', [ 'eslint', 'stylelint' ] );
-	grunt.registerTask( 'images', [ 'sketch_export', 'svgmin' ] );
 	grunt.registerTask( 'images-pre-production', [ 'replace' ] );
 	grunt.registerTask( 'default', [ 'concat', 'uglify', 'postcss:dev', 'postcss:min' ] );
 };

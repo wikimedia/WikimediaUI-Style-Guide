@@ -52,6 +52,7 @@
 							</ul>
 						</li>
 						<li><a href="components/links.html">Components</a></li>
+						<li class="nav__item"><a href="apps/apps.html">Apps</a></li>
 						<!-- <li><a href="patterns.html">Patterns</a></li> -->
 						<li><a href="resources.html">Resources</a></li>
 					</ol>
@@ -69,14 +70,14 @@
 					<section id="what-and-why-accessibility">
 						<h2>What and why accessibility?</h2>
 						<p>Web accessibility methods ensure that people with impairments or disabilities can perceive, understand, navigate, interact with, and contribute to the products we all create. Just as importantly, many methods improve general usability, resulting in <strong>easier-to-use interfaces that are Perceivable, Operable, Understandable and Robust for everyone</strong>.</p>
-						<p>These are the four principles of accessibility from the Web Content Accessibility Guidelines standard<sup><a href="#references">[3]</a></sup> (WCAG 2.0 onwards). They specify the success criteria for achieved levels of conformance – A, AA and AAA.</p>
-						<p>In the Wikimedia Design Style Guide and its resources we aim for satisfying all level AA success criterias. Some AAA criterias are not possible to be satisfied for entire web sites as they are opposing each other. We also try to balance requirements that enable the widest possible audience under reasonable operation for our non-profit organization. Further, highly specific user group needs might be better covered by specific software products than by the Foundation itself.</p>
+						<p>These are the four principles of accessibility from the Web Content Accessibility Guidelines (WCAG) standard<sup><a href="#references">[3]</a></sup>, version 2.0 onwards. They specify the success criteria for achieved levels of conformance – A,&nbsp;AA and AAA.</p>
+						<p>In the Wikimedia Design Style Guide and its resources we aim for satisfying all level AA success criteria. Some AAA criteria are not possible to be satisfied for entire websites as they are opposing each other. We also try to balance requirements that enable the widest possible audience under reasonable operation for our non-profit organization. Further, highly specific user group needs might be better covered by specific software products than by the Foundation itself.</p>
 						<p>Note, that our principles mainly focus on designing for:</p>
 						<ul>
 							<li>Visual impairment needs</li>
 							<li>Motor impairment needs</li>
 						</ul>
-						<p>Other categories like speech impairments don't apply in our graphical user-interface focus, while hearing and cognitive impairments are to be covered on a content level, see for example Simple Wikipedia <span style="white-space: nowrap;">(English)<sup><a href="#references">[4]</a></sup></span> for being inclusive to users with learning difficulties.</p>
+						<p>Other categories like speech impairments don't apply in our graphical user-interface focus; while hearing and cognitive impairments are to be covered on a content level. See for example Simple Wikipedia <span style="white-space: nowrap;">(English)<sup><a href="#references">[4]</a></sup></span> for being inclusive to users with learning difficulties.</p>
 					</section>
 
 					<section id="accessible-by-design">
@@ -91,17 +92,17 @@
 
 						<h3>Fonts and typography – Legible and zoomable content</h3>
 						<p class="heading__description">Visual</p>
-						<p>Choices of typeface, size, style, and spacing of text make it well readable in general, and are a must for some to be legible. <a href="visual-style_typography.html">Our choices</a> advise on minimum font sizes. Those are able to be overridden by user browser preferences – setting fonts in relative CSS units <code>em</code> or <code>rem</code> to provide text zooming when needed. </p>
+						<p>Choices of typeface, size, style, and spacing of text make it well readable in general and are a must for some to be legible. <a href="visual-style_typography.html">Our choices</a> advise on minimum font sizes. Those are able to be overridden by user browser preferences – setting fonts in relative CSS units <code>em</code> or <code>rem</code> to provide text zooming when needed. </p>
 
 						<h3>Touch and keyboard interaction – Ensure alternative input methods</h3>
 						<p class="heading__description">Motor</p>
 						<p>Our components are designed to support different interaction mechanisms, including touch, pointing devices and keyboard.</p>
-						<p>When touch screens are the main interface, our components' design ensures <a href="components/buttons.html#designing">minimum touch target sizes</a> for happy human fingers. Additionally users with motor impairments profit from minimum target sizes for pointer inputs too.<br>Our components feature a strong outline to indicate keyboard focus state. This enables keyboard-bound users to easily navigate the interface.</p>
+						<p>When touch screens are the main interface, our components' design ensures <a href="components/buttons.html#designing">minimum touch target sizes</a> for happy human fingers. Additionally, users with motor impairments profit from minimum target sizes for pointer inputs too.<br>Our components feature a strong outline to indicate keyboard focus state. This enables keyboard-bound users to easily navigate the interface.</p>
 
 						<h3>Icons and images – Provide text alternatives</h3>
 						<p class="heading__description">Visual</p>
 						<p>When implementing icons and images, you have to define a textual description to enable assistive technology to interpret it, as long as they are not solely used as decorative elements:</p>
-						<p>Icons have to be provided with SVG <code>title</code> attribute or with text nodes visible only for screen readers when used in icon-only buttons. <br>Images have to provide <code>alt</code> attribute with alternative text. <br><code>title</code> attributes are part of the icons in <a href="resources.html#icons">WikimediaUI icon collection</a>, and <a href="https://doc.wikimedia.org/oojs-ui/master/demos/#widgets-mediawiki-ltr" target="_blank">code in WikimediaUI theme of user-interface library OOUI</a>.</p>
+						<p>Icons have to be provided with SVG <code>title</code> attributes or with text nodes visible only for screen readers when used in icon-only buttons. <br>Images have to provide <code>alt</code> attributes with alternative text. <br><code>title</code> attributes are part of the icons in <a href="resources.html#icons">WikimediaUI icon collection</a>, and <a href="https://doc.wikimedia.org/oojs-ui/master/demos/#widgets-mediawiki-ltr" target="_blank">code in WikimediaUI theme of user-interface library OOUI</a>.</p>
 
 						<h3>Markup – Follow standards</h3>
 						<p class="heading__description">Visual, motor</p>
