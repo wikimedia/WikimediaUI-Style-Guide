@@ -45,8 +45,8 @@
 	"scripts": {
 		"start": "grunt watch",
 		"minify:svg": "svgo --config=.svgo.config.js --quiet --recursive --folder ./ --exclude principles-paper-ink.svg",
-		"build:squoosh": "squoosh-cli --oxipng '{\"level\": 4}' -d img/components/ img/components/*.png && squoosh-cli --oxipng '{\"level\": 4}' -d img/design-principles/ img/design-principles/*.png && squoosh-cli --oxipng '{\"level\": 4}' -d img/visual-style/ img/visual-style/*.png && squoosh-cli --oxipng '{\"level\": 4}' -d resources/ resources/!\\(WikimediaUI-components_overview\\).png",
-		"build": "npm run minify:svg && grunt && npx npm-run-all build:*",
+		"build:png": "node svg-to-png.mjs",
+		"build": "npm run minify:svg && grunt & npm run build:png",
 		"test": "grunt lint"
 	}
 }
