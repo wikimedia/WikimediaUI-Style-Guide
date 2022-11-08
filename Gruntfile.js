@@ -4,12 +4,14 @@
  * Grunt file
  */
 
+'use strict';
+
 module.exports = function ( grunt ) {
 	/*
 	 * PostCSS processors
 	 */
 	// Without minifier
-	var postCssProcessorsDev = [
+	const postCssProcessorsDev = [
 			require( 'postcss-import' )( {
 				from: 'css/wmui-style-guide.dev.css'
 			} ),
