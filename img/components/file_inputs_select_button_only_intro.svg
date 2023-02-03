@@ -17,7 +17,7 @@
 							<mask id="mask-2" fill="#fff">
 								<use xlink:href="#path-1"/>
 							</mask>
-							<use id="Mask" fill="#000" fill-rule="evenodd" xlink:href="#path-1"/>
+							<use xlink:href="#path-1" id="Mask" fill="#000" fill-rule="evenodd"/>
 							<g id="🎨-Color/Base10-#202122" fill="#202122" fill-rule="evenodd" mask="url(#mask-2)">
 								<path id="Color" d="M0 0h19.306v20H0z"/>
 							</g>

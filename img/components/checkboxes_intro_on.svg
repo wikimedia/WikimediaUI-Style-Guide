@@ -15,7 +15,7 @@
 						<g id="Checkbox" fill-rule="evenodd" stroke-width="1" transform="translate(0 5)">
 							<rect id="checkbox" width="23" height="23" x=".5" y=".5" fill="#36C" stroke="#36C" rx="2"/>
 							<g id="Icon-/-Checkbox-checkmark" fill="#FFF" fill-rule="nonzero" transform="translate(5 7)">
-								<path id="Shape" d="M4.444 8.433l-3.321-3.32L0 6.235l4.444 4.452L14 1.131 12.877 0z"/>
+								<path id="Shape" d="m4.444 8.433-3.321-3.32L0 6.235l4.444 4.452L14 1.131 12.877 0z"/>
 							</g>
 						</g>
 					</g>

@@ -4,11 +4,11 @@
 		language_selectors_states_expanded_layout_02
 	</title>
 	<defs>
-		<path id="path-1" d="M8 0h412a8 8 0 018 8v770a8 8 0 01-8 8H8a8 8 0 01-8-8V8a8 8 0 018-8z"/>
-		<path id="path-3" d="M2 0h344a2 2 0 012 2v665a2 2 0 01-2 2H2a2 2 0 01-2-2V2a2 2 0 012-2z"/>
-		<path id="path-6" d="M2 0h344a2 2 0 012 2v50H0V2a2 2 0 012-2z"/>
-		<path id="path-8" d="M7.5 13c3.04 0 5.5-2.46 5.5-5.5S10.54 2 7.5 2 2 4.46 2 7.5 4.46 13 7.5 13zm4.55.46A7.432 7.432 0 017.5 15C3.36 15 0 11.64 0 7.5 0 3.36 3.36 0 7.5 0 11.64 0 15 3.36 15 7.5c0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>
-		<path id="path-10" d="M16.142 2l1.414 1.414-6.364 6.364 6.366 6.366-1.414 1.414-6.366-6.366-6.364 6.364L2 16.142l6.364-6.364-6.362-6.362 1.414-1.414 6.362 6.362L16.142 2z"/>
+		<path id="path-1" d="M8 0h412a8 8 0 0 1 8 8v770a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8V8a8 8 0 0 1 8-8z"/>
+		<path id="path-3" d="M2 0h344a2 2 0 0 1 2 2v665a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+		<path id="path-6" d="M2 0h344a2 2 0 0 1 2 2v50H0V2a2 2 0 0 1 2-2z"/>
+		<path id="path-8" d="M7.5 13c3.04 0 5.5-2.46 5.5-5.5S10.54 2 7.5 2 2 4.46 2 7.5 4.46 13 7.5 13zm4.55.46A7.432 7.432 0 0 1 7.5 15C3.36 15 0 11.64 0 7.5 0 3.36 3.36 0 7.5 0 11.64 0 15 3.36 15 7.5c0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>
+		<path id="path-10" d="m16.142 2 1.414 1.414-6.364 6.364 6.366 6.366-1.414 1.414-6.366-6.366-6.364 6.364L2 16.142l6.364-6.364-6.362-6.362 1.414-1.414 6.362 6.362L16.142 2z"/>
 		<filter id="filter-2" width="100.5%" height="100.3%" x="-.2%" y="-.1%" filterUnits="objectBoundingBox">
 			<feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation=".5"/>
 			<feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
@@ -33,8 +33,8 @@
 				<g id="Group-5" transform="translate(27 1100)">
 					<g id="Group" transform="translate(1119)">
 						<g id="Rectangle-Copy">
-							<use fill="#72777D" xlink:href="#path-1"/>
-							<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
+							<use xlink:href="#path-1" fill="#72777D"/>
+							<use xlink:href="#path-1" fill="#000" filter="url(#filter-2)"/>
 						</g>
 						<g transform="translate(40 40)">
 							<g id="selector/default">
@@ -42,8 +42,8 @@
 									<use xlink:href="#path-3"/>
 								</mask>
 								<g id="Rectangle-Copy-8">
-									<use fill="#000" filter="url(#filter-5)" xlink:href="#path-3"/>
-									<use fill="#FFF" xlink:href="#path-3"/>
+									<use xlink:href="#path-3" fill="#000" filter="url(#filter-5)"/>
+									<use xlink:href="#path-3" fill="#FFF"/>
 								</g>
 								<g id="Group" mask="url(#mask-4)">
 									<g transform="translate(0 203)">
@@ -170,8 +170,8 @@
 								<g id="Group" mask="url(#mask-4)">
 									<g id="search-bar" transform="translate(0 44)">
 										<g id="Rectangle-Copy-8">
-											<use fill="#000" filter="url(#filter-7)" xlink:href="#path-6"/>
-											<use fill="#FFF" xlink:href="#path-6"/>
+											<use xlink:href="#path-6" fill="#000" filter="url(#filter-7)"/>
+											<use xlink:href="#path-6" fill="#FFF"/>
 										</g>
 										<text id="Search-languages" fill="#54595D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 											<tspan x="44" y="32">Search languages</tspan>
@@ -180,7 +180,7 @@
 											<mask id="mask-9" fill="#fff">
 												<use xlink:href="#path-8"/>
 											</mask>
-											<use id="Shape" fill="#000" fill-rule="nonzero" xlink:href="#path-8"/>
+											<use xlink:href="#path-8" id="Shape" fill="#000" fill-rule="nonzero"/>
 											<g id="🎨-Color/Base/B10-(#222)" fill="#222" mask="url(#mask-9)">
 												<path id="Rectangle-1" d="M0 0h20v20H0z"/>
 											</g>
@@ -196,7 +196,7 @@
 								<mask id="mask-11" fill="#fff">
 									<use xlink:href="#path-10"/>
 								</mask>
-								<use id="Mask" fill="#000" xlink:href="#path-10"/>
+								<use xlink:href="#path-10" id="Mask" fill="#000"/>
 								<g id="🎨-Color/Base10-(#202122)" fill="#202122" mask="url(#mask-11)">
 									<path id="Color-mask" d="M0 0h20v20H0z"/>
 								</g>

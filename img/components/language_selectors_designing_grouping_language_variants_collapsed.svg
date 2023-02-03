@@ -4,10 +4,10 @@
 		language_selectors_designing_grouping_language_variants_collapsed
 	</title>
 	<defs>
-		<path id="path-1" d="M2 0h344a2 2 0 012 2v306a2 2 0 01-2 2H2a2 2 0 01-2-2V2a2 2 0 012-2z"/>
-		<path id="path-5" d="M10.435 3.664L9.428 2.4 5.217 7.032 1.099 2.4 0 3.664l5.217 6 5.218-6"/>
-		<path id="path-7" d="M2 0h344a2 2 0 012 2v50H0V2a2 2 0 012-2z"/>
-		<path id="path-9" d="M7.5 13c3.04 0 5.5-2.46 5.5-5.5S10.54 2 7.5 2 2 4.46 2 7.5 4.46 13 7.5 13zm4.55.46A7.432 7.432 0 017.5 15C3.36 15 0 11.64 0 7.5 0 3.36 3.36 0 7.5 0 11.64 0 15 3.36 15 7.5c0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>
+		<path id="path-1" d="M2 0h344a2 2 0 0 1 2 2v306a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+		<path id="path-5" d="M10.435 3.664 9.428 2.4 5.217 7.032 1.099 2.4 0 3.664l5.217 6 5.218-6"/>
+		<path id="path-7" d="M2 0h344a2 2 0 0 1 2 2v50H0V2a2 2 0 0 1 2-2z"/>
+		<path id="path-9" d="M7.5 13c3.04 0 5.5-2.46 5.5-5.5S10.54 2 7.5 2 2 4.46 2 7.5 4.46 13 7.5 13zm4.55.46A7.432 7.432 0 0 1 7.5 15C3.36 15 0 11.64 0 7.5 0 3.36 3.36 0 7.5 0 11.64 0 15 3.36 15 7.5c0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>
 		<filter id="filter-3" width="102.6%" height="102.9%" x="-1.3%" y="-1.1%" filterUnits="objectBoundingBox">
 			<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
 			<feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
@@ -33,8 +33,8 @@
 						<use xlink:href="#path-1"/>
 					</mask>
 					<g id="Rectangle-Copy-8">
-						<use fill="#000" filter="url(#filter-3)" xlink:href="#path-1"/>
-						<path fill="#FFF" stroke="#C8CCD1" d="M346-.5a2.496 2.496 0 012.5 2.5h0v306c0 .69-.28 1.315-.732 1.768a2.492 2.492 0 01-1.768.732h0H2c-.69 0-1.315-.28-1.768-.732A2.492 2.492 0 01-.5 308h0V2c0-.69.28-1.315.732-1.768A2.492 2.492 0 012-.5h0z"/>
+						<use xlink:href="#path-1" fill="#000" filter="url(#filter-3)"/>
+						<path fill="#FFF" stroke="#C8CCD1" d="M346-.5a2.496 2.496 0 0 1 2.5 2.5v306c0 .69-.28 1.315-.732 1.768a2.492 2.492 0 0 1-1.768.732H2c-.69 0-1.315-.28-1.768-.732A2.492 2.492 0 0 1-.5 308V2c0-.69.28-1.315.732-1.768A2.492 2.492 0 0 1 2-.5z"/>
 					</g>
 					<g id="list/short" mask="url(#mask-2)">
 						<g transform="translate(0 159)">
@@ -51,7 +51,7 @@
 										<mask id="mask-6" fill="#fff">
 											<use xlink:href="#path-5"/>
 										</mask>
-										<use id="Mask-2" fill="#000" xlink:href="#path-5"/>
+										<use xlink:href="#path-5" id="Mask-2" fill="#000"/>
 										<g id="Group" fill="#202122" mask="url(#mask-6)">
 											<g id="🎨-Color/Base10-#202122">
 												<path id="Color" d="M0 0h10.435v12H0z"/>
@@ -107,8 +107,8 @@
 					</g>
 					<g id="search-bar">
 						<g id="Rectangle-Copy-8">
-							<use fill="#000" filter="url(#filter-8)" xlink:href="#path-7"/>
-							<use fill="#FFF" xlink:href="#path-7"/>
+							<use xlink:href="#path-7" fill="#000" filter="url(#filter-8)"/>
+							<use xlink:href="#path-7" fill="#FFF"/>
 						</g>
 						<text id="Search-languages" fill="#54595D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="44" y="32">Search languages</tspan>
@@ -117,7 +117,7 @@
 							<mask id="mask-10" fill="#fff">
 								<use xlink:href="#path-9"/>
 							</mask>
-							<use id="Shape" fill="#000" fill-rule="nonzero" xlink:href="#path-9"/>
+							<use xlink:href="#path-9" id="Shape" fill="#000" fill-rule="nonzero"/>
 							<g id="🎨-Color/Base/B10-(#222)" fill="#222" mask="url(#mask-10)">
 								<path id="Rectangle-1" d="M0 0h20v20H0z"/>
 							</g>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="817" height="424" viewBox="0 0 817 424" style="background:#eaecf0">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="817" height="424" style="background:#eaecf0" viewBox="0 0 817 424">
 	<defs>
 		<filter id="a" width="101.7%" height="101.3%" x="-.9%" y="-.5%" filterUnits="objectBoundingBox">
 			<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
@@ -27,19 +27,19 @@
 		<circle id="d" cx="118" cy="118" r="118"/>
 	</defs>
 	<g fill="none" fill-rule="evenodd">
-		<use fill="#000" filter="url(#a)" xlink:href="#b"/>
-		<use fill="#FFF" xlink:href="#b"/>
-		<path fill="url(#c)" d="M424 132.945L575 64l-58.672 203.207L424 182.191z" opacity=".4"/>
+		<use xlink:href="#b" fill="#000" filter="url(#a)"/>
+		<use xlink:href="#b" fill="#FFF"/>
+		<path fill="url(#c)" d="M424 132.945 575 64l-58.672 203.207L424 182.191z" opacity=".4"/>
 		<g transform="translate(475 62)">
 			<mask id="f" fill="#fff">
 				<use xlink:href="#d"/>
 			</mask>
-			<use fill="#000" filter="url(#e)" xlink:href="#d"/>
-			<use fill="#EAECF0" xlink:href="#d"/>
+			<use xlink:href="#d" fill="#000" filter="url(#e)"/>
+			<use xlink:href="#d" fill="#EAECF0"/>
 			<circle cx="118" cy="118" r="118.5" stroke="#979797" stroke-opacity=".23"/>
 			<g mask="url(#f)">
-				<use fill="#000" filter="url(#g)" xlink:href="#h"/>
-				<use fill="#FFF" xlink:href="#h"/>
+				<use xlink:href="#h" fill="#000" filter="url(#g)"/>
+				<use xlink:href="#h" fill="#FFF"/>
 			</g>
 		</g>
 	</g>

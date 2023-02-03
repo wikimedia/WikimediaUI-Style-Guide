@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="817" height="424" viewBox="0 0 817 424" style="background:#eaecf0">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="817" height="424" style="background:#eaecf0" viewBox="0 0 817 424">
 	<title>
 		principles-content-chrome
 	</title>
@@ -23,8 +23,8 @@
 	<g id="principles-content-chrome" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<path fill="#EAECF0" d="M0 0h817v424H0z"/>
 		<g id="Rectangle-2">
-			<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
-			<use fill="#FFF" xlink:href="#path-1"/>
+			<use xlink:href="#path-1" fill="#000" filter="url(#filter-2)"/>
+			<use xlink:href="#path-1" fill="#FFF"/>
 		</g>
 		<g id="Page-1" opacity=".72" transform="translate(205 104)">
 			<g id="Group-3">
@@ -93,7 +93,7 @@
 		</text>
 		<path id="Line" stroke="#000" stroke-linecap="square" stroke-width="2" d="M245.5 250h18.111"/>
 		<g id="Icon-/-Search-/-!default" fill="#202122" fill-rule="nonzero" opacity=".72" transform="translate(585.619 106)">
-			<path id="Shape" d="M6.75 11.7a4.947 4.947 0 004.95-4.95A4.947 4.947 0 006.75 1.8 4.947 4.947 0 001.8 6.75a4.947 4.947 0 004.95 4.95zm4.095.414A6.689 6.689 0 016.75 13.5 6.752 6.752 0 010 6.75 6.752 6.752 0 016.75 0a6.752 6.752 0 016.75 6.75 6.689 6.689 0 01-1.386 4.095l5.841 5.841-1.269 1.269-5.841-5.841z"/>
+			<path id="Shape" d="M6.75 11.7a4.947 4.947 0 0 0 4.95-4.95A4.947 4.947 0 0 0 6.75 1.8 4.947 4.947 0 0 0 1.8 6.75a4.947 4.947 0 0 0 4.95 4.95zm4.095.414A6.689 6.689 0 0 1 6.75 13.5 6.752 6.752 0 0 1 0 6.75 6.752 6.752 0 0 1 6.75 0a6.752 6.752 0 0 1 6.75 6.75 6.689 6.689 0 0 1-1.386 4.095l5.841 5.841-1.269 1.269-5.841-5.841z"/>
 		</g>
 	</g>
 </svg>

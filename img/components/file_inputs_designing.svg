@@ -4,7 +4,7 @@
 		file_inputs_designing
 	</title>
 	<defs>
-		<path id="path-1" d="M3 12v5h14v-5h2v5a2 2 0 01-2 2H3a2 2 0 01-2-2v-5h2zm7-11l5 6h-4v8H9V7H5l5-6z"/>
+		<path id="path-1" d="M3 12v5h14v-5h2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-5h2zm7-11 5 6h-4v8H9V7H5l5-6z"/>
 	</defs>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<g id="WikimediaUI-components_overview" transform="translate(-8183 -1637)">
@@ -27,7 +27,7 @@
 						<mask id="mask-2" fill="#fff">
 							<use xlink:href="#path-1"/>
 						</mask>
-						<use id="Mask" fill="#000" fill-rule="evenodd" xlink:href="#path-1"/>
+						<use xlink:href="#path-1" id="Mask" fill="#000" fill-rule="evenodd"/>
 						<g id="🎨-Color/Base10-#202122" fill="#202122" fill-rule="evenodd" mask="url(#mask-2)">
 							<path id="Color" d="M0 0h20v20H0z"/>
 						</g>

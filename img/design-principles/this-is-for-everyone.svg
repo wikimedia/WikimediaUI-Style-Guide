@@ -88,23 +88,23 @@
 	<g id="this-is-for-everyone" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<path fill="#F8F9FA" d="M0 0h788v280H0z"/>
 		<g id="Rectangle-Copy-7">
-			<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
-			<use fill="#FFF" stroke="#EAECF0" xlink:href="#path-1"/>
+			<use xlink:href="#path-1" fill="#000" filter="url(#filter-2)"/>
+			<use xlink:href="#path-1" fill="#FFF" stroke="#EAECF0"/>
 		</g>
 		<g id="Rectangle-Copy-6">
-			<use fill="#000" filter="url(#filter-4)" xlink:href="#path-3"/>
-			<use fill="#FFF" stroke="#EAECF0" xlink:href="#path-3"/>
+			<use xlink:href="#path-3" fill="#000" filter="url(#filter-4)"/>
+			<use xlink:href="#path-3" fill="#FFF" stroke="#EAECF0"/>
 		</g>
 		<g id="Rectangle-Copy-11">
-			<use fill="#000" filter="url(#filter-6)" xlink:href="#path-5"/>
-			<use fill="#FFF" stroke="#EAECF0" xlink:href="#path-5"/>
+			<use xlink:href="#path-5" fill="#000" filter="url(#filter-6)"/>
+			<use xlink:href="#path-5" fill="#FFF" stroke="#EAECF0"/>
 		</g>
 		<g id="Rectangle-Copy-10">
-			<use fill="#000" filter="url(#filter-8)" xlink:href="#path-7"/>
-			<use fill="#FFF" stroke="#EAECF0" xlink:href="#path-7"/>
+			<use xlink:href="#path-7" fill="#000" filter="url(#filter-8)"/>
+			<use xlink:href="#path-7" fill="#FFF" stroke="#EAECF0"/>
 		</g>
 		<g id="play" fill="#202122" fill-rule="nonzero" transform="translate(145.5 90)">
-			<path id="Path" d="M2.04 15.2a.8.8 0 01-1.24-.696V1.496A.8.8 0 012.04.8l9.76 6.504a.8.8 0 010 1.36L2.04 15.2z"/>
+			<path id="Path" d="M2.04 15.2a.8.8 0 0 1-1.24-.696V1.496A.8.8 0 0 1 2.04.8l9.76 6.504a.8.8 0 0 1 0 1.36L2.04 15.2z"/>
 		</g>
 		<g id="pause" fill="#202122" fill-rule="nonzero" transform="translate(229 90)">
 			<rect id="Rectangle" width="5.333" height="16" x="0" y="0" rx="1"/>
@@ -117,50 +117,50 @@
 			<path id="Path" d="M9.333 0H0v2.667h16V0z"/>
 		</g>
 		<g id="Rectangle-Copy-6">
-			<use fill="#000" filter="url(#filter-10)" xlink:href="#path-9"/>
-			<use fill="#FFF" stroke="#EAECF0" xlink:href="#path-9"/>
+			<use xlink:href="#path-9" fill="#000" filter="url(#filter-10)"/>
+			<use xlink:href="#path-9" fill="#FFF" stroke="#EAECF0"/>
 		</g>
 		<g id="logo-wikipedia" fill="#202122" fill-rule="nonzero" transform="translate(55 131)">
-			<path id="Path" d="M14.482.118H18.2a.897.897 0 010 .845c-1.3.208-1.768 1.183-2.353 2.38l-1.82 3.574 3.055 6.773h.091l4.576-10.53c.572-1.39.52-2.067-1.027-2.21a.884.884 0 010-.845h4.485a.884.884 0 010 .845c-1.573.208-1.846 1.183-2.353 2.38l-5.681 13.103c-.169.39-.312.585-.572.585-.26 0-.429-.208-.546-.585l-3.224-7.449-3.536 7.45c-.143.39-.312.584-.572.584-.26 0-.403-.208-.546-.585l-5.2-13.117c-.741-1.82-.78-2.21-2.145-2.34A.884.884 0 01.806.118h5.083a.884.884 0 010 .845c-1.508.17-1.573.585-.962 2.054L9.36 13.664h.065l2.665-5.746-1.976-4.615C9.321 1.483 9.1 1.12 8.112.976a.897.897 0 010-.845h4.316a.884.884 0 010 .845c-.962.156-.91.585-.247 2.054l1.131 2.6.104.117 1.3-2.6c.741-1.482.832-2.054-.195-2.21a.897.897 0 01-.039-.819z"/>
+			<path id="Path" d="M14.482.118H18.2a.897.897 0 0 1 0 .845c-1.3.208-1.768 1.183-2.353 2.38l-1.82 3.574 3.055 6.773h.091l4.576-10.53c.572-1.39.52-2.067-1.027-2.21a.884.884 0 0 1 0-.845h4.485a.884.884 0 0 1 0 .845c-1.573.208-1.846 1.183-2.353 2.38l-5.681 13.103c-.169.39-.312.585-.572.585-.26 0-.429-.208-.546-.585l-3.224-7.449-3.536 7.45c-.143.39-.312.584-.572.584-.26 0-.403-.208-.546-.585l-5.2-13.117c-.741-1.82-.78-2.21-2.145-2.34A.884.884 0 0 1 .806.118h5.083a.884.884 0 0 1 0 .845c-1.508.17-1.573.585-.962 2.054L9.36 13.664h.065l2.665-5.746-1.976-4.615C9.321 1.483 9.1 1.12 8.112.976a.897.897 0 0 1 0-.845h4.316a.884.884 0 0 1 0 .845c-.962.156-.91.585-.247 2.054l1.131 2.6.104.117 1.3-2.6c.741-1.482.832-2.054-.195-2.21a.897.897 0 0 1-.039-.819z"/>
 		</g>
 		<g id="Rectangle-Copy-5">
-			<use fill="#000" filter="url(#filter-12)" xlink:href="#path-11"/>
-			<use fill="#FFF" stroke="#EAECF0" xlink:href="#path-11"/>
+			<use xlink:href="#path-11" fill="#000" filter="url(#filter-12)"/>
+			<use xlink:href="#path-11" fill="#FFF" stroke="#EAECF0"/>
 		</g>
 		<g id="Rectangle-Copy-9">
-			<use fill="#000" filter="url(#filter-14)" xlink:href="#path-13"/>
-			<use fill="#FFF" stroke="#EAECF0" xlink:href="#path-13"/>
+			<use xlink:href="#path-13" fill="#000" filter="url(#filter-14)"/>
+			<use xlink:href="#path-13" fill="#FFF" stroke="#EAECF0"/>
 		</g>
 		<g id="markup" fill="#202122" fill-rule="nonzero" transform="translate(542 175)">
-			<path id="Shape" d="M6.303.485L0 6.788l1.455 1.454 4.848 4.849 1.455-1.455-4.849-4.848 4.849-4.849L6.303.485zm6.788 0l-1.455 1.454 4.849 4.849-4.849 4.848 1.455 1.455 6.303-6.303L13.09.485z"/>
+			<path id="Shape" d="M6.303.485 0 6.788l1.455 1.454 4.848 4.849 1.455-1.455-4.849-4.848 4.849-4.849L6.303.485zm6.788 0-1.455 1.454 4.849 4.849-4.849 4.848 1.455 1.455 6.303-6.303L13.09.485z"/>
 		</g>
 		<g id="Rectangle-Copy-4">
-			<use fill="#000" filter="url(#filter-16)" xlink:href="#path-15"/>
-			<use fill="#FFF" stroke="#EAECF0" xlink:href="#path-15"/>
+			<use xlink:href="#path-15" fill="#000" filter="url(#filter-16)"/>
+			<use xlink:href="#path-15" fill="#FFF" stroke="#EAECF0"/>
 		</g>
 		<g id="Rectangle-Copy-8">
-			<use fill="#000" filter="url(#filter-18)" xlink:href="#path-17"/>
-			<use fill="#FFF" stroke="#EAECF0" xlink:href="#path-17"/>
+			<use xlink:href="#path-17" fill="#000" filter="url(#filter-18)"/>
+			<use xlink:href="#path-17" fill="#FFF" stroke="#EAECF0"/>
 		</g>
 		<g id="largertext" fill="#202122" fill-rule="nonzero" transform="translate(541 87)">
-			<path id="Shape" d="M21.147 21.606h-2.7a1.148 1.148 0 01-.757-.23 1.499 1.499 0 01-.432-.58l-1.796-4.767H6.144l-1.796 4.767a1.431 1.431 0 01-.418.554 1.12 1.12 0 01-.757.256h-2.7L9.02 0h3.551l8.575 21.606zm-6.644-8.102l-2.97-7.886a21.836 21.836 0 01-.73-2.337c-.108.469-.23.919-.365 1.35-.135.433-.256.78-.364 1.04l-2.971 7.833h7.4z"/>
+			<path id="Shape" d="M21.147 21.606h-2.7a1.148 1.148 0 0 1-.757-.23 1.499 1.499 0 0 1-.432-.58l-1.796-4.767H6.144l-1.796 4.767a1.431 1.431 0 0 1-.418.554 1.12 1.12 0 0 1-.757.256h-2.7L9.02 0h3.551l8.575 21.606zm-6.644-8.102-2.97-7.886a21.836 21.836 0 0 1-.73-2.337c-.108.469-.23.919-.365 1.35-.135.433-.256.78-.364 1.04l-2.971 7.833h7.4z"/>
 		</g>
 		<g id="Rectangle-Copy-12">
-			<use fill="#000" filter="url(#filter-20)" xlink:href="#path-19"/>
-			<use fill="#FFF" stroke="#EAECF0" xlink:href="#path-19"/>
+			<use xlink:href="#path-19" fill="#000" filter="url(#filter-20)"/>
+			<use xlink:href="#path-19" fill="#FFF" stroke="#EAECF0"/>
 		</g>
 		<circle id="Oval" cx="394" cy="140" r="96" fill="#EAF3FF" fill-rule="nonzero"/>
 		<circle id="Oval" cx="394" cy="140" r="62" fill="#36C" fill-rule="nonzero"/>
 		<g id="halfbright-ltr" fill="#202122" fill-rule="nonzero" transform="translate(626 172)">
-			<path id="Shape" d="M17 6.67V3h-4.2L9.87.07 6.94 3H3v3.67L.07 9.6 3 12.53V17h3.94l2.93 2.93L12.8 17H17v-4.47l2.93-2.93L17 6.67zm-7 8.93v-12a6.21 6.21 0 016 6 6.21 6.21 0 01-6 6z"/>
+			<path id="Shape" d="M17 6.67V3h-4.2L9.87.07 6.94 3H3v3.67L.07 9.6 3 12.53V17h3.94l2.93 2.93L12.8 17H17v-4.47l2.93-2.93L17 6.67zm-7 8.93v-12a6.21 6.21 0 0 1 6 6 6.21 6.21 0 0 1-6 6z"/>
 		</g>
 		<g id="icon-language" transform="translate(708 128)">
 			<path id="canvas" d="M0 0h24v24H0z"/>
-			<path id="Shape" fill="#202122" fill-rule="nonzero" d="M24 21h-1.728a.732.732 0 01-.48-.144.972.972 0 01-.276-.372L20.4 17.4h-6l-1.2 3.048a.924.924 0 01-.264.36.708.708 0 01-.48.168H10.8l5.46-13.764h2.268L24 21zm-4.236-5.172L17.868 10.8a13.87 13.87 0 01-.468-1.488c-.072.296-.148.572-.228.828l-.228.672-1.896 5.028 4.716-.012zm-7.56-1.896c-1.228-.421-2.4-.99-3.492-1.692a13.752 13.752 0 003.372-6.444H14.4V4.2H8.772a4.8 4.8 0 00-.24-.672A89.438 89.438 0 017.92 1.8l-1.764.6s.48 1.068.72 1.8H0v1.596h2.58A13.476 13.476 0 006 12.24a20.628 20.628 0 01-6 2.52 21.68 21.68 0 011.044 1.656 27.936 27.936 0 006.264-3.012 18.78 18.78 0 004.272 2.124l.624-1.596zM4.356 5.796h5.892a9.732 9.732 0 01-2.94 5.34 10.932 10.932 0 01-2.952-5.34z"/>
+			<path id="Shape" fill="#202122" fill-rule="nonzero" d="M24 21h-1.728a.732.732 0 0 1-.48-.144.972.972 0 0 1-.276-.372L20.4 17.4h-6l-1.2 3.048a.924.924 0 0 1-.264.36.708.708 0 0 1-.48.168H10.8l5.46-13.764h2.268L24 21zm-4.236-5.172L17.868 10.8a13.87 13.87 0 0 1-.468-1.488c-.072.296-.148.572-.228.828l-.228.672-1.896 5.028 4.716-.012zm-7.56-1.896c-1.228-.421-2.4-.99-3.492-1.692a13.752 13.752 0 0 0 3.372-6.444H14.4V4.2H8.772a4.8 4.8 0 0 0-.24-.672A89.438 89.438 0 0 1 7.92 1.8l-1.764.6s.48 1.068.72 1.8H0v1.596h2.58A13.476 13.476 0 0 0 6 12.24a20.628 20.628 0 0 1-6 2.52 21.68 21.68 0 0 1 1.044 1.656 27.936 27.936 0 0 0 6.264-3.012 18.78 18.78 0 0 0 4.272 2.124l.624-1.596zM4.356 5.796h5.892a9.732 9.732 0 0 1-2.94 5.34 10.932 10.932 0 0 1-2.952-5.34z"/>
 		</g>
 		<path id="Shape" fill="#FFF" fill-rule="nonzero" d="M393.713 108c3.49 0 6.317 2.813 6.317 6.286 0 3.473-2.827 6.286-6.317 6.286s-6.317-2.813-6.317-6.287c0-3.472 2.827-6.285 6.317-6.285zM423 130.4h-19.333V172h-6.445v-19.2h-6.445V172h-6.444v-41.6H365V124h58v6.4z"/>
 		<g id="smallertext" fill="#202122" fill-rule="nonzero" transform="translate(629 91)">
-			<path id="Shape" d="M13.497 13.785h-1.734a.735.735 0 01-.483-.15.953.953 0 01-.275-.367l-1.149-3.044H3.917l-1.149 3.044a.907.907 0 01-.264.356.712.712 0 01-.482.16H.287L5.744 0H8.04l5.456 13.785zM9.26 8.615L7.352 3.584a13.934 13.934 0 01-.46-1.493 9.072 9.072 0 01-.23.827c-.084.252-.16.475-.23.666L4.538 8.615H9.26z"/>
+			<path id="Shape" d="M13.497 13.785h-1.734a.735.735 0 0 1-.483-.15.953.953 0 0 1-.275-.367l-1.149-3.044H3.917l-1.149 3.044a.907.907 0 0 1-.264.356.712.712 0 0 1-.482.16H.287L5.744 0H8.04l5.456 13.785zM9.26 8.615 7.352 3.584a13.934 13.934 0 0 1-.46-1.493 9.072 9.072 0 0 1-.23.827c-.084.252-.16.475-.23.666L4.538 8.615H9.26z"/>
 		</g>
 	</g>
 </svg>
