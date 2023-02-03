@@ -4,14 +4,14 @@
 		search_inputs_intro
 	</title>
 	<defs>
-		<path id="path-1" d="M7.5 13c3.04 0 5.5-2.46 5.5-5.5S10.54 2 7.5 2 2 4.46 2 7.5 4.46 13 7.5 13zm4.55.46A7.432 7.432 0 017.5 15C3.36 15 0 11.64 0 7.5 0 3.36 3.36 0 7.5 0 11.64 0 15 3.36 15 7.5c0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>
+		<path id="path-1" d="M7.5 13c3.04 0 5.5-2.46 5.5-5.5S10.54 2 7.5 2 2 4.46 2 7.5 4.46 13 7.5 13zm4.55.46A7.432 7.432 0 0 1 7.5 15C3.36 15 0 11.64 0 7.5 0 3.36 3.36 0 7.5 0 11.64 0 15 3.36 15 7.5c0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>
 	</defs>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<g id="WikimediaUI-components_overview" transform="translate(-7552 -589)">
 			<path fill="#FFF" d="M0 0h14720v3264H0z"/>
 			<g id="TEXT-INPUT-FIELDS" transform="translate(7359 142)">
 				<g id="Search-Input-Field-+-Icon" transform="translate(1 409)">
-					<path id="bg" fill="#FFF" stroke="#A2A9B1" d="M194.995 39.5a1.49 1.49 0 00-1.058.438 1.5 1.5 0 00-.437 1.064v27.996a1.5 1.5 0 001.495 1.502h268.01a1.49 1.49 0 001.058-.438 1.5 1.5 0 00.437-1.064l-.35-27.95c-.242-.047-.57-.093-1.016-.14-1.32-.138-3.608-.27-7.569-.393-6.987-.218-19.159-.411-40.361-.568-37.686-.28-103.893-.447-220.21-.447z"/>
+					<path id="bg" fill="#FFF" stroke="#A2A9B1" d="M194.995 39.5a1.49 1.49 0 0 0-1.058.438 1.5 1.5 0 0 0-.437 1.064v27.996a1.5 1.5 0 0 0 1.495 1.502h268.01a1.49 1.49 0 0 0 1.058-.438 1.5 1.5 0 0 0 .437-1.064l-.35-27.95c-.242-.047-.57-.093-1.016-.14-1.32-.138-3.608-.27-7.569-.393-6.987-.218-19.159-.411-40.361-.568-37.686-.28-103.893-.447-220.21-.447z"/>
 					<text id="Search" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 						<tspan x="230" y="61">Search</tspan>
 					</text>
@@ -19,7 +19,7 @@
 						<mask id="mask-2" fill="#fff">
 							<use xlink:href="#path-1"/>
 						</mask>
-						<use id="Shape" fill="#000" fill-rule="nonzero" xlink:href="#path-1"/>
+						<use xlink:href="#path-1" id="Shape" fill="#000" fill-rule="nonzero"/>
 						<g id="🎨-Color/Base10-#202122" fill="#202122" fill-rule="evenodd" mask="url(#mask-2)">
 							<path id="Color" d="M0 0h20v20H0z"/>
 						</g>

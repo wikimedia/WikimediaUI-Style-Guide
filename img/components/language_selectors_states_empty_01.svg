@@ -4,13 +4,13 @@
 		language_selectors_states_empty_01
 	</title>
 	<defs>
-		<path id="path-1" d="M2 0h344a2 2 0 012 2v207a2 2 0 01-2 2H2a2 2 0 01-2-2V2a2 2 0 012-2z"/>
-		<path id="path-4" d="M2 0h344a2 2 0 012 2v50H0V2a2 2 0 012-2z"/>
-		<path id="path-6" d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm5.66 14.24l-1.41 1.41L10 11.41l-4.24 4.25-1.42-1.42L8.59 10 4.34 5.76l1.42-1.42L10 8.59l4.24-4.24 1.41 1.41L11.41 10l4.25 4.24z"/>
-		<path id="path-8" d="M7.5 13c3.04 0 5.5-2.46 5.5-5.5S10.54 2 7.5 2 2 4.46 2 7.5 4.46 13 7.5 13zm4.55.46A7.432 7.432 0 017.5 15C3.36 15 0 11.64 0 7.5 0 3.36 3.36 0 7.5 0 11.64 0 15 3.36 15 7.5c0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>
+		<path id="path-1" d="M2 0h344a2 2 0 0 1 2 2v207a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+		<path id="path-4" d="M2 0h344a2 2 0 0 1 2 2v50H0V2a2 2 0 0 1 2-2z"/>
+		<path id="path-6" d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm5.66 14.24-1.41 1.41L10 11.41l-4.24 4.25-1.42-1.42L8.59 10 4.34 5.76l1.42-1.42L10 8.59l4.24-4.24 1.41 1.41L11.41 10l4.25 4.24z"/>
+		<path id="path-8" d="M7.5 13c3.04 0 5.5-2.46 5.5-5.5S10.54 2 7.5 2 2 4.46 2 7.5 4.46 13 7.5 13zm4.55.46A7.432 7.432 0 0 1 7.5 15C3.36 15 0 11.64 0 7.5 0 3.36 3.36 0 7.5 0 11.64 0 15 3.36 15 7.5c0 1.71-.57 3.29-1.54 4.55l6.49 6.49-1.41 1.41-6.49-6.49z"/>
 		<path id="path-10" d="M16 9h-5V4H9v5H4v2h5v5h2v-5h5z"/>
 		<path id="path-12" d="M16 9h-5V4H9v5H4v2h5v5h2v-5h5z"/>
-		<path id="path-14" d="M10 8a2 2 0 110 4 2 2 0 010-4zM3 8a2 2 0 110 4 2 2 0 010-4zm14 0a2 2 0 110 4 2 2 0 010-4z"/>
+		<path id="path-14" d="M10 8a2 2 0 1 1 0 4 2 2 0 0 1 0-4zM3 8a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm14 0a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/>
 		<filter id="filter-3" width="102.6%" height="104.3%" x="-1.3%" y="-1.7%" filterUnits="objectBoundingBox">
 			<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
 			<feOffset dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
@@ -36,21 +36,21 @@
 									<use xlink:href="#path-1"/>
 								</mask>
 								<g id="Rectangle-Copy-8">
-									<use fill="#000" filter="url(#filter-3)" xlink:href="#path-1"/>
-									<path fill="#FFF" stroke="#C8CCD1" d="M346-.5a2.496 2.496 0 012.5 2.5h0v207c0 .69-.28 1.315-.732 1.768a2.492 2.492 0 01-1.768.732h0H2c-.69 0-1.315-.28-1.768-.732A2.492 2.492 0 01-.5 209h0V2c0-.69.28-1.315.732-1.768A2.492 2.492 0 012-.5h0z"/>
+									<use xlink:href="#path-1" fill="#000" filter="url(#filter-3)"/>
+									<path fill="#FFF" stroke="#C8CCD1" d="M346-.5a2.496 2.496 0 0 1 2.5 2.5v207c0 .69-.28 1.315-.732 1.768a2.492 2.492 0 0 1-1.768.732H2c-.69 0-1.315-.28-1.768-.732A2.492 2.492 0 0 1-.5 209V2c0-.69.28-1.315.732-1.768A2.492 2.492 0 0 1 2-.5z"/>
 								</g>
 							</g>
 							<g id="Group" opacity=".67">
 								<g id="search-bar">
 									<g id="Rectangle-Copy-8">
-										<use fill="#000" filter="url(#filter-5)" xlink:href="#path-4"/>
-										<use fill="#FFF" xlink:href="#path-4"/>
+										<use xlink:href="#path-4" fill="#000" filter="url(#filter-5)"/>
+										<use xlink:href="#path-4" fill="#FFF"/>
 									</g>
 									<g id="Group" transform="translate(312 16)">
 										<mask id="mask-7" fill="#fff">
 											<use xlink:href="#path-6"/>
 										</mask>
-										<use id="Mask-2" fill="#000" xlink:href="#path-6"/>
+										<use xlink:href="#path-6" id="Mask-2" fill="#000"/>
 										<g id="🎨-Color/Base10-(#202122)" fill="#202122" mask="url(#mask-7)">
 											<path id="Color-mask" d="M0 0h20v20H0z"/>
 										</g>
@@ -62,7 +62,7 @@
 										<mask id="mask-9" fill="#fff">
 											<use xlink:href="#path-8"/>
 										</mask>
-										<use id="Shape" fill="#000" fill-rule="nonzero" xlink:href="#path-8"/>
+										<use xlink:href="#path-8" id="Shape" fill="#000" fill-rule="nonzero"/>
 										<g id="🎨-Color/Base/B10-(#222)" fill="#222" mask="url(#mask-9)">
 											<path id="Rectangle-1" d="M0 0h20v20H0z"/>
 										</g>
@@ -83,7 +83,7 @@
 									<mask id="mask-11" fill="#fff">
 										<use xlink:href="#path-10"/>
 									</mask>
-									<use id="Mask" fill="#000" xlink:href="#path-10"/>
+									<use xlink:href="#path-10" id="Mask" fill="#000"/>
 									<g id="🎨-Color/Base/B10-(#222)" fill="#222" mask="url(#mask-11)">
 										<path id="Rectangle-1" d="M0 0h20v20H0z"/>
 									</g>
@@ -98,7 +98,7 @@
 									<mask id="mask-13" fill="#fff">
 										<use xlink:href="#path-12"/>
 									</mask>
-									<use id="Mask" fill="#000" xlink:href="#path-12"/>
+									<use xlink:href="#path-12" id="Mask" fill="#000"/>
 									<g id="🎨-Color/Base/B10-(#222)" fill="#222" mask="url(#mask-13)">
 										<path id="Rectangle-1" d="M0 0h20v20H0z"/>
 									</g>
@@ -110,7 +110,7 @@
 									<mask id="mask-15" fill="#fff">
 										<use xlink:href="#path-14"/>
 									</mask>
-									<use id="Mask" fill="#000" xlink:href="#path-14"/>
+									<use xlink:href="#path-14" id="Mask" fill="#000"/>
 									<g id="🎨-Color/Base10-(#202122)" fill="#202122" mask="url(#mask-15)">
 										<path id="Color-mask" d="M0 0h20v20H0z"/>
 									</g>

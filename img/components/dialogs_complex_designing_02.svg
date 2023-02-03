@@ -5,7 +5,7 @@
 	</title>
 	<defs>
 		<path id="path-1" d="M1 1h434v47H1z"/>
-		<path id="path-3" d="M16.142 2l1.414 1.414-6.364 6.364 6.366 6.366-1.414 1.414-6.366-6.366-6.364 6.364L2 16.142l6.364-6.364-6.362-6.362 1.414-1.414 6.362 6.362L16.142 2z"/>
+		<path id="path-3" d="m16.142 2 1.414 1.414-6.364 6.364 6.366 6.366-1.414 1.414-6.366-6.366-6.364 6.364L2 16.142l6.364-6.364-6.362-6.362 1.414-1.414 6.362 6.362L16.142 2z"/>
 		<filter id="filter-2" width="100.2%" height="104.3%" x="-.1%" y="-1.1%" filterUnits="objectBoundingBox">
 			<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
 			<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0.917647059 0 0 0 0 0.925490196 0 0 0 0 0.941176471 0 0 0 1 0"/>
@@ -16,8 +16,8 @@
 			<g id="Complex-Dialog-Mobile-Web-Copy" transform="translate(39 40)">
 				<path id="Rectangle" fill="#FFF" stroke="#EAECF0" d="M.5.5h434v699H.5z"/>
 				<g id="Rectangle-Copy-10">
-					<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
-					<use fill="#FFF" xlink:href="#path-1"/>
+					<use xlink:href="#path-1" fill="#000" filter="url(#filter-2)"/>
+					<use xlink:href="#path-1" fill="#FFF"/>
 				</g>
 				<text id="Title" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="18" font-weight="bold">
 					<tspan x="61" y="30">Title</tspan>
@@ -30,7 +30,7 @@
 					<mask id="mask-4" fill="#fff">
 						<use xlink:href="#path-3"/>
 					</mask>
-					<use id="Mask" fill="#000" xlink:href="#path-3"/>
+					<use xlink:href="#path-3" id="Mask" fill="#000"/>
 					<g id="🎨-Color/Base10-(#202122)" fill="#202122" mask="url(#mask-4)">
 						<path id="Color-mask" d="M0 0h20v20H0z"/>
 					</g>

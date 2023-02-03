@@ -11,7 +11,7 @@
 					<text id="A-success-message-wh" fill="#000" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">
 						<tspan x="53" y="29">A success message</tspan> <tspan font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400"> which means </tspan> <tspan>the user did everything right </tspan> <tspan font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400">and should know </tspan> <tspan x="53" y="53" font-family="HelveticaNeue-Medium, Helvetica Neue, sans-serif" font-weight="400">about it. Yay!</tspan>
 					</text>
-					<path id="Path" fill="#14866D" fill-rule="nonzero" d="M33 32.17L28.83 28l-1.41 1.41L33 35l12-12-1.41-1.42z"/>
+					<path id="Path" fill="#14866D" fill-rule="nonzero" d="M33 32.17 28.83 28l-1.41 1.41L33 35l12-12-1.41-1.42z"/>
 				</g>
 			</g>
 		</g>

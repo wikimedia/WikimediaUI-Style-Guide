@@ -4,9 +4,9 @@
 		comboboxes_states
 	</title>
 	<defs>
-		<path id="path-1" d="M201.993 246c-1.1 0-1.993.89-1.993 2.002v27.996a2 2 0 001.993 2.002H441v-32H201.993z"/>
-		<path id="path-2" d="M201.993 190c-1.1 0-1.993.89-1.993 2.002v27.996a2 2 0 001.993 2.002H441v-32H201.993z"/>
-		<path id="path-3" d="M200 341v84c0 1.105.893 2 1.995 2h268.01a1.996 1.996 0 001.995-2v-84H200z"/>
+		<path id="path-1" d="M201.993 246c-1.1 0-1.993.89-1.993 2.002v27.996a2 2 0 0 0 1.993 2.002H441v-32H201.993z"/>
+		<path id="path-2" d="M201.993 190c-1.1 0-1.993.89-1.993 2.002v27.996a2 2 0 0 0 1.993 2.002H441v-32H201.993z"/>
+		<path id="path-3" d="M200 341v84c0 1.105.893 2 1.995 2h268.01a1.996 1.996 0 0 0 1.995-2v-84H200z"/>
 		<path id="path-5" d="M440 310v32h32v-29.998c0-1.106-.89-2.002-2.002-2.002H440z"/>
 		<filter id="filter-4" width="102.9%" height="109.3%" x="-1.5%" y="-2.3%" filterUnits="objectBoundingBox">
 			<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
@@ -22,19 +22,19 @@
 				<text id="Normal-Hover-Active" fill="#72777D" font-family="Lato-Regular, Lato, sans-serif" font-size="14" font-weight="normal">
 					<tspan x="0" y="97">Normal</tspan> <tspan x="0" y="153.1">Hover</tspan> <tspan x="0" y="209.2">Active</tspan> <tspan x="0" y="265.3">Focus</tspan> <tspan x="0" y="321.4">Expanded Menu</tspan> <tspan x="0" y="489.7">Disabled</tspan>
 				</text>
-				<path id="Mediawiki.Neutral.Normal-copy-29" fill="#F8F9FA" stroke="#A2A9B1" d="M440.5 134.5v31h29.498a1.499 1.499 0 001.502-1.502v-27.996a1.499 1.499 0 00-1.502-1.502H440.5zm0 112v31h29.498a1.499 1.499 0 001.502-1.502v-27.996a1.499 1.499 0 00-1.502-1.502H440.5zm0-56v31h29.498a1.499 1.499 0 001.502-1.502v-27.996a1.499 1.499 0 00-1.502-1.502H440.5z"/>
+				<path id="Mediawiki.Neutral.Normal-copy-29" fill="#F8F9FA" stroke="#A2A9B1" d="M440.5 134.5v31h29.498a1.499 1.499 0 0 0 1.502-1.502v-27.996a1.499 1.499 0 0 0-1.502-1.502H440.5zm0 112v31h29.498a1.499 1.499 0 0 0 1.502-1.502v-27.996a1.499 1.499 0 0 0-1.502-1.502H440.5zm0-56v31h29.498a1.499 1.499 0 0 0 1.502-1.502v-27.996a1.499 1.499 0 0 0-1.502-1.502H440.5z"/>
 				<g id="Text-input-/-:disabled" transform="translate(200 469)">
 					<rect id="Input" width="240" height="31" x=".5" y=".5" fill="#EAECF0" fill-rule="evenodd" stroke="#C8CCD1" stroke-width="1" rx="2"/>
 				</g>
-				<path id="Mediawiki.Neutral.Normal-copy-29" fill="#C8CCD1" stroke="#C8CCD1" d="M440.5 469.5v31h29.498a1.499 1.499 0 001.502-1.502v-27.996a1.499 1.499 0 00-1.502-1.502H440.5z"/>
-				<path id="Mediawiki.Neutral.Acive-8" fill="#FFF" stroke="#72777D" d="M440.5 134.5H201.993c-.413 0-.786.167-1.057.438a1.5 1.5 0 00-.436 1.064v27.996a1.5 1.5 0 001.493 1.502H440.5v-31z"/>
+				<path id="Mediawiki.Neutral.Normal-copy-29" fill="#C8CCD1" stroke="#C8CCD1" d="M440.5 469.5v31h29.498a1.499 1.499 0 0 0 1.502-1.502v-27.996a1.499 1.499 0 0 0-1.502-1.502H440.5z"/>
+				<path id="Mediawiki.Neutral.Acive-8" fill="#FFF" stroke="#72777D" d="M440.5 134.5H201.993c-.413 0-.786.167-1.057.438a1.5 1.5 0 0 0-.436 1.064v27.996a1.5 1.5 0 0 0 1.493 1.502H440.5v-31z"/>
 				<g id="Mediawiki.Neutral.Acive-8" stroke="#36C" stroke-linejoin="square">
-					<path fill="#FFF" stroke-width="2" d="M440 247H201.993a.988.988 0 00-.702.291c-.18.181-.291.432-.291.71v27.997a1.002 1.002 0 00.993 1.002H440v-30z"/>
-					<path d="M440.5 246.5H201.993c-.413 0-.786.167-1.057.438a1.5 1.5 0 00-.436 1.064v27.996a1.5 1.5 0 001.493 1.502H440.5v-31z"/>
+					<path fill="#FFF" stroke-width="2" d="M440 247H201.993a.988.988 0 0 0-.702.291c-.18.181-.291.432-.291.71v27.997a1.002 1.002 0 0 0 .993 1.002H440v-30z"/>
+					<path d="M440.5 246.5H201.993c-.413 0-.786.167-1.057.438a1.5 1.5 0 0 0-.436 1.064v27.996a1.5 1.5 0 0 0 1.493 1.502H440.5v-31z"/>
 				</g>
 				<g id="Mediawiki.Neutral.Acive-8" stroke="#36C" stroke-linejoin="square">
-					<path fill="#FFF" stroke-width="2" d="M440 191H201.993a.988.988 0 00-.702.291c-.18.181-.291.432-.291.71v27.997a1.002 1.002 0 00.993 1.002H440v-30z"/>
-					<path d="M440.5 190.5H201.993c-.413 0-.786.167-1.057.438a1.5 1.5 0 00-.436 1.064v27.996a1.5 1.5 0 001.493 1.502H440.5v-31z"/>
+					<path fill="#FFF" stroke-width="2" d="M440 191H201.993a.988.988 0 0 0-.702.291c-.18.181-.291.432-.291.71v27.997a1.002 1.002 0 0 0 .993 1.002H440v-30z"/>
+					<path d="M440.5 190.5H201.993c-.413 0-.786.167-1.057.438a1.5 1.5 0 0 0-.436 1.064v27.996a1.5 1.5 0 0 0 1.493 1.502H440.5v-31z"/>
 				</g>
 				<text id="Placeholder" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 					<tspan x="208" y="156">Placeholder</tspan>
@@ -43,13 +43,13 @@
 					<tspan x="208" y="268">User input</tspan>
 				</text>
 				<g id="Icon-/-Dropdown-indicator-/-:inverted" fill="#FFF" transform="translate(450 481)">
-					<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
+					<path id="Shape" d="M12 1.264 10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
 				</g>
 				<g id="Icon-/-Dropdown-indicator-/-!default" fill="#202122" transform="translate(450 147)">
-					<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
+					<path id="Shape" d="M12 1.264 10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
 				</g>
-				<path id="Mediawiki.Neutral.Normal-copy-30" fill="#F8F9FA" stroke="#A2A9B1" d="M440.5 78.5v31h29.498a1.499 1.499 0 001.502-1.502V80.002a1.499 1.499 0 00-1.502-1.502H440.5z"/>
-				<path id="Mediawiki.Neutral.Acive-8-Copy" fill="#FFF" stroke="#A2A9B1" d="M440.5 78.5H201.993c-.413 0-.786.167-1.057.438a1.5 1.5 0 00-.436 1.064v27.996a1.5 1.5 0 001.493 1.502H440.5v-31z"/>
+				<path id="Mediawiki.Neutral.Normal-copy-30" fill="#F8F9FA" stroke="#A2A9B1" d="M440.5 78.5v31h29.498a1.499 1.499 0 0 0 1.502-1.502V80.002a1.499 1.499 0 0 0-1.502-1.502H440.5z"/>
+				<path id="Mediawiki.Neutral.Acive-8-Copy" fill="#FFF" stroke="#A2A9B1" d="M440.5 78.5H201.993c-.413 0-.786.167-1.057.438a1.5 1.5 0 0 0-.436 1.064v27.996a1.5 1.5 0 0 0 1.493 1.502H440.5v-31z"/>
 				<text id="Placeholder-Copy" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 					<tspan x="208" y="100">Placeholder</tspan>
 				</text>
@@ -57,28 +57,28 @@
 					<tspan x="208" y="491">Placeholder</tspan>
 				</text>
 				<g id="Icon-/-Dropdown-indicator-/-!default" fill="#202122" transform="translate(450 91)">
-					<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
+					<path id="Shape" d="M12 1.264 10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
 				</g>
 				<g id="Icon-/-Dropdown-indicator-/-!default" fill="#202122" transform="translate(450 259)">
-					<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
+					<path id="Shape" d="M12 1.264 10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
 				</g>
 				<g id="Icon-/-Dropdown-indicator-/-:active" fill="#000" transform="translate(450 203)">
-					<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
+					<path id="Shape" d="M12 1.264 10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
 				</g>
-				<path id="Mediawiki.Neutral.Acive-8" fill="#FFF" stroke="#A2A9B1" d="M440.5 310.5H201.993c-.413 0-.786.167-1.057.438a1.5 1.5 0 00-.436 1.064V341.5h240v-31z"/>
+				<path id="Mediawiki.Neutral.Acive-8" fill="#FFF" stroke="#A2A9B1" d="M440.5 310.5H201.993c-.413 0-.786.167-1.057.438a1.5 1.5 0 0 0-.436 1.064V341.5h240v-31z"/>
 				<text id="Placeholder" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 					<tspan x="208" y="332">Placeholder</tspan>
 				</text>
 				<g id="Mediawiki.Neutral.Acive-20">
-					<use fill="#000" filter="url(#filter-4)" xlink:href="#path-3"/>
-					<path fill="#FFF" stroke="#A2A9B1" stroke-linejoin="square" d="M471.5 341.5h-271V425a1.497 1.497 0 001.495 1.5h268.01a1.496 1.496 0 001.495-1.5v-83.5z"/>
+					<use xlink:href="#path-3" fill="#000" filter="url(#filter-4)"/>
+					<path fill="#FFF" stroke="#A2A9B1" stroke-linejoin="square" d="M471.5 341.5h-271V425a1.497 1.497 0 0 0 1.495 1.5h268.01a1.496 1.496 0 0 0 1.495-1.5v-83.5z"/>
 				</g>
 				<g id="Mediawiki.Neutral.Normal-copy-29" stroke="#36C" stroke-linejoin="square">
-					<path stroke-width="2" d="M441 311v30h30v-28.998a1 1 0 00-1.002-1.002H441z"/>
-					<path d="M440.5 310.5v31h31v-29.498a1.499 1.499 0 00-1.502-1.502H440.5z"/>
+					<path stroke-width="2" d="M441 311v30h30v-28.998a1 1 0 0 0-1.002-1.002H441z"/>
+					<path d="M440.5 310.5v31h31v-29.498a1.499 1.499 0 0 0-1.502-1.502H440.5z"/>
 				</g>
 				<g id="Icon-/-Dropdown-indicator-/-:active" fill="#000" transform="translate(450 323)">
-					<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
+					<path id="Shape" d="M12 1.264 10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
 				</g>
 				<text id="Option-1" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 					<tspan x="216" y="370">Option 1</tspan>

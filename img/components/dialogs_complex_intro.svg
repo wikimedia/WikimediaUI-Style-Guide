@@ -6,7 +6,7 @@
 	<defs>
 		<path id="path-1" d="M0 0h435v304H0z"/>
 		<path id="path-3" d="M0 248h435v56H0z"/>
-		<path id="path-5" d="M16.142 2l1.414 1.414-6.364 6.364 6.366 6.366-1.414 1.414-6.366-6.366-6.364 6.364L2 16.142l6.364-6.364-6.362-6.362 1.414-1.414 6.362 6.362L16.142 2z"/>
+		<path id="path-5" d="m16.142 2 1.414 1.414-6.364 6.364 6.366 6.366-1.414 1.414-6.366-6.366-6.364 6.364L2 16.142l6.364-6.364-6.362-6.362 1.414-1.414 6.362 6.362L16.142 2z"/>
 		<filter id="filter-2" width="106%" height="108.6%" x="-3%" y="-3.6%" filterUnits="objectBoundingBox">
 			<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
 			<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
@@ -23,12 +23,12 @@
 			<g id="DIALOGS" transform="translate(13943 142)">
 				<g id="Complex-Dialog" transform="translate(228 583)">
 					<g id="Rectangle">
-						<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
-						<use fill="#FFF" xlink:href="#path-1"/>
+						<use xlink:href="#path-1" fill="#000" filter="url(#filter-2)"/>
+						<use xlink:href="#path-1" fill="#FFF"/>
 					</g>
 					<g id="Rectangle">
-						<use fill="#000" filter="url(#filter-4)" xlink:href="#path-3"/>
-						<use fill="#FFF" xlink:href="#path-3"/>
+						<use xlink:href="#path-3" fill="#000" filter="url(#filter-4)"/>
+						<use xlink:href="#path-3" fill="#FFF"/>
 					</g>
 					<text id="Title" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="18" font-weight="bold">
 						<tspan x="24" y="36">Title</tspan>
@@ -47,7 +47,7 @@
 						<mask id="mask-6" fill="#fff">
 							<use xlink:href="#path-5"/>
 						</mask>
-						<use id="Mask" fill="#000" xlink:href="#path-5"/>
+						<use xlink:href="#path-5" id="Mask" fill="#000"/>
 						<g id="🎨-Color/Base10-(#202122)" fill="#202122" mask="url(#mask-6)">
 							<path id="Color-mask" d="M0 0h20v20H0z"/>
 						</g>
