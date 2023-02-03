@@ -5,7 +5,7 @@ glob( '{img/{components,design-principles,visual-style},resources}/**/!(Wikimedi
 	files.forEach( ( file ) => {
 		sharp( file )
 			.png( {
-				// force color indexing
+				// Force color indexing.
 				quality: 99,
 				timeout: 180
 			} )
