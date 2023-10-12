@@ -19,7 +19,7 @@
 					<g id="Toggle-switch-/-:on-/-!default" transform="translate(400)">
 						<rect id="bg" width="59" height="31" x=".5" y=".5" fill="#36C" fill-rule="evenodd" stroke="#36C" stroke-width="1" rx="15.5"/>
 						<g id="grip">
-							<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
+							<use xlink:href="#path-1" fill="#000" filter="url(#filter-2)"/>
 							<circle cx="43" cy="16" r="9.5" fill="#FFF" stroke="#FFF" stroke-linejoin="square"/>
 						</g>
 					</g>
