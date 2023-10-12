@@ -14,8 +14,8 @@
 	<g id="Simple-Dialog-Example" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
 		<g id="Simple-Dialog" transform="translate(8 6)">
 			<g id="Rectangle">
-				<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
-				<use fill="#FFF" xlink:href="#path-1"/>
+				<use xlink:href="#path-1" fill="#000" filter="url(#filter-2)"/>
+				<use xlink:href="#path-1" fill="#FFF"/>
 			</g>
 			<text id="Save-your-progress-b" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 				<tspan x="23" y="59">Save your progress before you </tspan> <tspan x="23" y="81">leave editing mode</tspan>

@@ -1,4 +1,3 @@
-/* eslint-disable vars-on-top, one-var */
 ( function () {
 
 	if ( document.head && 'Promise' in window ) {

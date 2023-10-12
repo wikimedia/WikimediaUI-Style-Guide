@@ -10,7 +10,7 @@
 				<g id="Normal-&amp;-Primary-Buttons-X" transform="translate(1 86)">
 					<rect id="Mediawiki.Neutral.Normal-copy-2" width="123" height="31" x="192.5" y="371.5" fill="#F8F9FA" stroke="#A2A9B1" rx="2"/>
 					<g id="Icon-/-Dropdown-indicator-/-!default" fill="#202122" transform="translate(292 385)">
-						<path id="Shape" d="M12 1.264L10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
+						<path id="Shape" d="M12 1.264 10.842 0 6 4.632 1.264 0 0 1.264l6 6 6-6"/>
 					</g>
 					<path id="Oval-59" fill="#202122" d="M214 397c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10z"/>
 					<text id="Button" fill="#202122" font-family="HelveticaNeue-Bold, Helvetica Neue, sans-serif" font-size="16" font-weight="bold">

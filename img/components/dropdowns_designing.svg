@@ -16,8 +16,8 @@
 			<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
 			<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
 		</filter>
-		<path id="path-3" d="M12 3.664L10.842 2.4 6 7.032 1.264 2.4 0 3.664l6 6 6-6"/>
-		<path id="path-5" d="M0 32v64.007C0 97.107.893 98 1.995 98h268.01A1.996 1.996 0 00272 96.007V32H0z"/>
+		<path id="path-3" d="M12 3.664 10.842 2.4 6 7.032 1.264 2.4 0 3.664l6 6 6-6"/>
+		<path id="path-5" d="M0 32v64.007C0 97.107.893 98 1.995 98h268.01A1.996 1.996 0 0 0 272 96.007V32H0z"/>
 		<rect id="path-1" width="272" height="32" x="0" y="0" rx="2"/>
 	</defs>
 	<g id="Artboard-page" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
@@ -28,7 +28,7 @@
 					<g id="Dropdown-/---expanded:focus" transform="translate(192 374)">
 						<g id="Dropdown-/-!default">
 							<g id="Dropdown">
-								<use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
+								<use xlink:href="#path-1" fill="#000" filter="url(#filter-2)"/>
 								<rect width="270" height="30" x="1" y="1" fill="#FFF" stroke="#36C" stroke-linejoin="square" stroke-width="2" rx="2"/>
 								<rect width="271" height="31" x=".5" y=".5" stroke="#36C" stroke-linejoin="square" rx="2"/>
 							</g>
@@ -39,18 +39,18 @@
 								<mask id="mask-4" fill="#fff">
 									<use xlink:href="#path-3"/>
 								</mask>
-								<use id="Mask-2" fill="#000" fill-rule="evenodd" xlink:href="#path-3"/>
+								<use xlink:href="#path-3" id="Mask-2" fill="#000" fill-rule="evenodd"/>
 								<g id="🎨-Color/Base10-#202122" fill="#202122" fill-rule="evenodd" mask="url(#mask-4)">
 									<path id="Color" d="M0 0h12v12H0z"/>
 								</g>
 							</g>
 						</g>
 						<g id="Bg-menu">
-							<use fill="#000" filter="url(#filter-6)" xlink:href="#path-5"/>
-							<path fill="#FFF" stroke="#A2A9B1" stroke-linejoin="square" d="M271.5 32.5H.5v63.507A1.49 1.49 0 001.995 97.5h268.01a1.49 1.49 0 001.057-.438c.27-.27.438-.644.438-1.055V32.5z"/>
+							<use xlink:href="#path-5" fill="#000" filter="url(#filter-6)"/>
+							<path fill="#FFF" stroke="#A2A9B1" stroke-linejoin="square" d="M271.5 32.5H.5v63.507A1.49 1.49 0 0 0 1.995 97.5h268.01a1.49 1.49 0 0 0 1.057-.438c.27-.27.438-.644.438-1.055V32.5z"/>
 						</g>
-						<path id="Bg-menu-option:hover" fill="#EAF3FF" fill-rule="evenodd" d="M1 33h270v31.007a.991.991 0 01-1.005.993H2.005A1.004 1.004 0 011 64.007V33z"/>
-						<path id="Bg-menu-option:hover" fill="#EAECF0" fill-rule="evenodd" d="M1 65h270v31.007a.991.991 0 01-1.005.993H2.005A1.004 1.004 0 011 96.007V65z"/>
+						<path id="Bg-menu-option:hover" fill="#EAF3FF" fill-rule="evenodd" d="M1 33h270v31.007a.991.991 0 0 1-1.005.993H2.005A1.004 1.004 0 0 1 1 64.007V33z"/>
+						<path id="Bg-menu-option:hover" fill="#EAECF0" fill-rule="evenodd" d="M1 65h270v31.007a.991.991 0 0 1-1.005.993H2.005A1.004 1.004 0 0 1 1 96.007V65z"/>
 						<text id="Menu-option" fill="#202122" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="13" y="87">Item 2</tspan>
 						</text>

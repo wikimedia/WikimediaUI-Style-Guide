@@ -13,7 +13,7 @@
 			<g id="TEXT-INPUT-FIELDS" transform="translate(7359 142)">
 				<g id="Text-Input-X" transform="translate(1 114)">
 					<g id="Text-input-+-icon-/-!default" transform="translate(192 244)">
-						<path id="Input" fill="#FFF" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" d="M1.995.5A1.49 1.49 0 00.937.938 1.5 1.5 0 00.5 2.002v27.996A1.5 1.5 0 001.995 31.5h268.01a1.49 1.49 0 001.058-.438 1.5 1.5 0 00.437-1.064l-.35-27.95c-.242-.047-.57-.093-1.016-.14-1.32-.138-3.608-.27-7.569-.393-6.987-.218-19.159-.411-40.361-.568C184.518.667 118.311.5 1.994.5z"/>
+						<path id="Input" fill="#FFF" fill-rule="evenodd" stroke="#A2A9B1" stroke-width="1" d="M1.995.5A1.49 1.49 0 0 0 .937.938 1.5 1.5 0 0 0 .5 2.002v27.996A1.5 1.5 0 0 0 1.995 31.5h268.01a1.49 1.49 0 0 0 1.058-.438 1.5 1.5 0 0 0 .437-1.064l-.35-27.95c-.242-.047-.57-.093-1.016-.14-1.32-.138-3.608-.27-7.569-.393-6.987-.218-19.159-.411-40.361-.568C184.518.667 118.311.5 1.994.5z"/>
 						<text id="Placeholder" fill="#72777D" font-family="HelveticaNeue, Helvetica Neue, sans-serif" font-size="16" font-weight="normal">
 							<tspan x="37" y="22">Placeholder</tspan>
 						</text>
@@ -21,7 +21,7 @@
 							<mask id="mask-2" fill="#fff">
 								<use xlink:href="#path-1"/>
 							</mask>
-							<use id="shape" fill="#000" fill-rule="evenodd" xlink:href="#path-1"/>
+							<use xlink:href="#path-1" id="shape" fill="#000" fill-rule="evenodd"/>
 							<g id="🎨-Color/Base10-#202122" fill="#202122" fill-rule="evenodd" mask="url(#mask-2)">
 								<path id="Color" d="M0 0h20v20H0z"/>
 							</g>
@@ -30,7 +30,7 @@
 							<mask id="mask-4" fill="#fff">
 								<use xlink:href="#path-3"/>
 							</mask>
-							<use id="shape" fill="#000" fill-rule="evenodd" xlink:href="#path-3"/>
+							<use xlink:href="#path-3" id="shape" fill="#000" fill-rule="evenodd"/>
 							<g id="🎨-Color/Base10-#202122" fill="#202122" fill-rule="evenodd" mask="url(#mask-4)">
 								<path id="Color" d="M0 0h12v12H0z"/>
 							</g>
