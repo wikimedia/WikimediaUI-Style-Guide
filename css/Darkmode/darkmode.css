@@ -1,0 +1,138 @@
+:root{
+    --primary-color :#282828;
+    --secondary-color:#fff;
+    --third-color :#121212;
+    --fourth-color:#E4E8EA;
+}
+.header{
+    position: absolute;
+    background-color: var(--fourth-color);
+}
+#icon{
+    width: 60px;
+    height: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    float: right;
+    margin-top:-60px;
+    margin-right: 40px;
+}
+#img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+.lnk--contribute{
+    display: flex;
+    margin-right:60px;
+}
+.light-theme{
+    --primary-color :#282828;
+    --secondary-color:#fff;
+    --third-color :#121212;
+    --fourth-color:#eaecf0;
+}
+
+.dark-theme{
+    --primary-color :#fff;
+    --secondary-color:#282828;
+    --third-color :#E4E8EA;
+    --fourth-color:#121212;
+}
+.side-bar-items{
+    color: var(--primary-color);
+}*/
+.is-aural {
+     color: var(--primary-color);
+}
+.site__org {
+    color: var(--primary-color);
+}
+.site__project{
+    color: var(--primary-color);
+}
+.btn--nav-main{
+  color: var(--primary-color);
+}
+.page{
+    background-color: var(--secondary-color);
+}
+.nav__item{
+    background-color: var(--fourth-color);
+    color: var(--third-color);
+}
+li.nav__item a{
+    color: var(--third-color);
+}
+
+/*.content-box{
+    color: var(--primary-color);
+}*/
+.trigger--nav-main{
+    color: var(--secondary-color);
+}
+.content{
+    color: var(--primary-color);
+}
+.nav--main{
+    background-color: var(--secondary-color);
+}
+.page__title{
+    color: var(--primary-color);
+}
+.resources-table{
+    color: var(--primary-color);
+}
+.resources-table__head{
+    background-color:var(--fourth-color);
+}
+.resources-table__cell{
+    color: var();
+}
+.resources-table{
+    color: var(--secondary-color);
+}
+.resources-table__head{
+    color: var(--secondary-color);
+}
+.resources-table__cell{
+    color: var(--primary-color);
+}
+h2{
+    color: var(--primary-color);
+}
+
+h3{
+    color: var(--primary-color);
+}
+h1{
+    color: var(--primary-color);
+}
+h4{
+    color: var(--primary-color);
+}
+h5{
+    color: var(--primary-color);
+}
+h6{
+    color: var(--primary-color);
+}
+.resources-table__body:hover .resources-table__cell{
+    background-color: var(--fourth-color);
+}
+
+
+/*footer*/
+.footer{
+    background-color: var(--fourth-color);
+}
+footer p {
+    color: var(--primary-color);
+}
+.code{
+    background-color: var(--fourth-color);
+    color: var(--third-color);
+}
