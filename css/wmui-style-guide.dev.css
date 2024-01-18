@@ -20,6 +20,18 @@
 	/* Setting bold to `600` as our stack works better with it, only Lato is on the edge.
 	   Helvetica and Arial fallback gracefully to `700`, see T246791. */
 	--font-weight-bold: var( --font-weight-semi-bold );
+
+	/* .cdx-message only custom properties from Codex Design Tokens v1.2.1 */
+	--background-color-warning-subtle: #fef6e7;
+	--color-notice: var( --wmui-color-base80 );
+	/* Different from WikimediaUI Base's. */
+	--cdx-border-color-warning: #ac6600;
+	--line-height-medium: 1.6;
+	--size-150: 1.5em;
+	--spacing-50: 8px;
+	--spacing-100: 16px;
+	--spacing-150: 24px;
+	--spacing-200: 32px;
 }
 
 * {
@@ -311,6 +323,121 @@ sup {
 .content__illustration-style .figure--full:after {
 	clear: both;
 }
+
+/* ::: Codex Messages ::: */
+.cdx-message {
+	/* Background color and color are for notice type messages. */
+	/* These will be overridden for other message types. */
+	background-color: var( --background-color-notice-subtle );
+	color: var( --color-base--emphasized );
+	display: flex;
+	align-items: flex-start;
+	position: relative;
+	margin-bottom: var( --spacing-200 );
+	border: var( --border-width-base ) var( --border-style-base ) var( --border-color-notice );
+	padding: var( --spacing-100 ) var( --spacing-100 );
+
+	@media screen and ( min-width: 768px ) {
+		padding-right: var( --spacing-150 );
+		padding-left: var( --spacing-150 );
+	}
+}
+
+	/* Set the default CSS icon to the icon for notice messages, which is the default message type. */
+	/* The icon and icon color will be overridden for other message types below. */
+	/* The color of the Vue icon for notice messages is inherited from the color rule set on */
+	/* .cdx-message.
+	.cdx-message__icon {
+		background-image: url( 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20" fill=""><path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0M9 5h2v2H9zm0 4h2v6H9z"/></svg>' );
+	}
+	*/
+
+	.cdx-message--warning {
+		background-color: var( --background-color-warning-subtle );
+		border-color: var( --cdx-border-color-warning );
+	}
+
+	.cdx-message__icon {
+		/* background-image: url( data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20" fill="%Aac6600"><path d="M11.53 2.3A1.85 1.85 0 0010 1.21 1.85 1.85 0 008.48 2.3L.36 16.36C-.48 17.81.21 19 1.88 19h16.24c1.67 0 2.36-1.19 1.52-2.64zM11 16H9v-2h2zm0-4H9V6h2z"/></svg>' ); */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: var( --size-150 );
+		/* stylelint-disable-next-line function-url-quotes */
+		background-image: url( 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20" fill="%23edab00"><path d="M11.53 2.3A1.85 1.85 0 0010 1.21 1.85 1.85 0 008.48 2.3L.36 16.36C-.48 17.81.21 19 1.88 19h16.24c1.67 0 2.36-1.19 1.52-2.64zM11 16H9v-2h2zm0-4H9V6h2z"/></svg>' );
+		min-width: 20px;
+		min-height: 20px;
+		width: var( --size-150 );
+		/* Vertically align icon with the text. Flexbox on its own is not enough here. */
+		/* Use close enough height to `&__content`'s `line-height`. */
+		height: var( --size-150 );
+	}
+
+	.cdx-message--user-dismissable {
+		padding-right: calc( var( --min-size-interactive-pointer ) + var( --spacing-100 ) );
+
+		@media screen and ( min-width: 768px ) {
+			padding-right: calc( var( --min-size-interactive-pointer ) + var( --spacing-150 ) );
+		}
+	}
+
+	.cdx-message__content {
+		/* Vertically center message with icon. */
+		align-self: center;
+		flex-grow: 1;
+		/* Add space between icon and message content. */
+		margin-left: var( --spacing-50 );
+		word-wrap: break-word;
+		/* CSS3 hyphenation
+		// Chrome < 55 and Android 4.0 Browser support "-webkit-hyphens: none",
+		// but not the "auto" property. It is advisable to set the @lang attribute
+		// on the HTML element to enable hyphenation support and improve accessibility.
+		// Chrome 55-87 only supports `auto` exclusively on Mac platform.
+		*/
+		/* stylelint-disable plugin/no-unsupported-browser-features */
+		-webkit-hyphens: auto;
+		-moz-hyphens: auto;
+		-ms-hyphens: auto;
+		hyphens: auto;
+		/* stylelint-enable plugin/no-unsupported-browser-features */
+	}
+
+	.cdx-message__content,
+	.cdx-message__content > * {
+		line-height: var( --line-height-medium );
+	}
+
+	.cdx-message__content > *:first-child {
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	.cdx-message__content > *:last-child {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	/*
+	.cdx-message__dismiss-button.cdx-button {
+		position: absolute;
+		/* Use `spacing` tokens as the top/right axis orientation can always be in pixels, * /
+		/* similar to paddings * /
+		top: var( --spacing-75 );
+		right: var( --spacing-100 );
+		padding: var( --spacing-30 );
+		/* Remove `line-height` to not overgrow button. * /
+		line-height: 0;
+
+		@media screen and ( min-width: 768px ) {
+			right: var( --spacing-50 );
+		}
+	}
+	*/
+
+	/* Add space between stacked messages. */
+	.cdx-message + .cdx-message {
+		margin-top: var( --spacing-50 );
+	}
+
 
 /* ::: Text-formatting ::: */
 /* Support Blink based browsers. */
