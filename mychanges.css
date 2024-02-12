@@ -1,0 +1,10 @@
+.page__title{
+    margin-top:2px;
+    margin-left:-2px;
+}
+.btn--nav-main i:before {
+    top: 1.4rem;
+}
+.btn--nav-main i:after {
+    top: 2.1rem;
+}
