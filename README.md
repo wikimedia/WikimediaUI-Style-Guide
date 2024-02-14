@@ -1,3 +1,7 @@
+**This project is now archived. Visit its improved and enhanced successor: [Codex](https://doc.wikimedia.org/codex/latest/)**
+
+***
+
 # Wikimedia Design Style Guide (WikimediaUI)
 
 The Wikimedia Design Style Guide ensures a consistent look and interaction behavior for Wikimedia Movement products.
